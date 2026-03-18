@@ -9,18 +9,16 @@ async function startup({ id, version, rootURI }) {
       this.id = id;
       this.version = version;
       this.rootURI = rootURI;
-      this.highlightIDs = [];
-      this.unsetAnnotations = null;
+      this.cleanup = null;
       this.textToHighlightByItem = _getTextToHighlightsByItem();
       this.tabObserverID = Zotero.Notifier.registerObserver({
         notify: (event, type, ids, extraData) => {
           Services.console.logStringMessage(`[MyPlugin] ${event} on ${type}: ${JSON.stringify(ids)}`);
           if (event === "select" || event === "close") {
             // unset annotations if present.
-            if (this.unsetAnnotations && this.highlightIDs && this.highlightIDs.length > 0) {
-              this.unsetAnnotations(this.highlightIDs);
-              this.highlightIDs = [];
-              this.unsetAnnotations = null;
+            if (this.cleanup) {
+              this.cleanup();
+              this.cleanup = null;
             }
           }
           if (event === "select" || event === "load") {
@@ -168,8 +166,15 @@ async function _applyHighlights(pdfApp, innerFrame, innerReader, textToHighlight
   pdfApp.pdfViewer.refresh();
   Services.console.logStringMessage(`[MyPlugin] PDF Viewer refreshed`);
 
-  MyPlugin.highlightIDs = highlights.map(a => a.id);
-  MyPlugin.unsetAnnotations = innerReader.unsetAnnotations.bind(innerReader);
+  const highlightIDs = highlights.map(a => a.id);
+  MyPlugin.cleanup = () => {
+    try {
+      const idsInner = Cu.cloneInto(highlightIDs, innerFrame);
+      innerReader.unsetAnnotations(idsInner);
+    } catch (e) {
+      // Tab compartment may already be dead if closed
+    }
+  };
 }
 
 // Returns [startIndex, endIndex] of the fuzzy match in fullText, or null if not found.
