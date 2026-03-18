@@ -11,6 +11,7 @@ async function startup({ id, version, rootURI }) {
       this.rootURI = rootURI;
       this.activeHighlights = [];
       this.unsetAnnotations = null;
+      this.textToHighlightByItem = _getTextToHighlightsByItem();
       this.tabObserverID = Zotero.Notifier.registerObserver({
         notify: (event, type, ids, extraData) => {
           Services.console.logStringMessage(`[MyPlugin] ${event} on ${type}: ${JSON.stringify(ids)}`);
@@ -44,6 +45,13 @@ function shutdown() {
   MyPlugin = undefined;
 }
 
+function _getTextToHighlightsByItem() {
+  return {
+    "49SELEVZ": ["Encouraged by the", "to contain the path made by"],
+    "MJJCTP6P": ["another sentence"]
+  }
+}
+
 async function _addTabHighlights(tabId) {
   Services.console.logStringMessage(`[MyPlugin] Adding highlights for tab: ${tabId}`);
   let reader = Zotero.Reader.getByTabID(tabId);
@@ -51,6 +59,9 @@ async function _addTabHighlights(tabId) {
     Services.console.logStringMessage(`[MyPlugin] Found reader for tab: ${tabId}`);
     // Wait for the reader to be fully initialized
     await reader._initPromise;
+    const textToHighlight = MyPlugin.textToHighlightByItem(reader._item.key);
+    Services.console.logStringMessage(`[MyPlugin] Found text to highlight for tab ${tabId}: ${textToHighlight}`)
+
     let pdfIframe = reader._iframeWindow.document.querySelector('iframe');
     let innerFrame = reader._iframeWindow.wrappedJSObject;
     let innerReader = innerFrame._reader;
@@ -63,18 +74,17 @@ async function _addTabHighlights(tabId) {
       let pdfApp = pdfWindow.wrappedJSObject.PDFViewerApplication;
       await pdfApp.initializedPromise;
       Services.console.logStringMessage(`[MyPlugin] Found PDFViewerApplication for tab: ${tabId}`);
-      _applyHighlights(pdfApp, innerReader);  
+      _applyHighlights(pdfApp, innerReader, textToHighlight);  
     }
   }
 }
 
-async function _applyHighlights(pdfApp, innerReader) {
+async function _applyHighlights(pdfApp, innerReader, textToHighlight) {
   // To highlight I need a set of words I want to highlight and then I need to go find them in the pdf
   // and get their rects so I can add them to the set of highlights in the document. On tab closing, I should clean up.
   const pagesCount = pdfApp.pdfViewer.pagesCount;
   Services.console.logStringMessage(`[MyPlugin] Starting highlighting: (${pagesCount} pages found)`);
 
-  const highlights = [];
   for (let i = 0; i < pagesCount; i++) {
     // Per page:
     // 1. Get the text content of the page (which has positions)
@@ -94,7 +104,7 @@ async function _applyHighlights(pdfApp, innerReader) {
   MyPlugin.unsetAnnotations = innerReader.unsetAnnotations.bind(innerReader);
 }
 
-function createHighlight(text, rects) {
+function _createHighlight(text, rects) {
   return {
     "type": "highlight",
     "text": text,
