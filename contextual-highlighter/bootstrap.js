@@ -72,47 +72,37 @@ async function _applyHighlights(pdfApp, innerReader) {
   // To highlight I need a set of words I want to highlight and then I need to go find them in the pdf
   // and get their rects so I can add them to the set of highlights in the document. On tab closing, I should clean up.
   const pagesCount = pdfApp.pdfViewer.pagesCount;
-  Services.console.logStringMessage(`[MyPlugin] Starting highlighting for tab: ${tabId} (${pagesCount} pages found)`);
+  Services.console.logStringMessage(`[MyPlugin] Starting highlighting: (${pagesCount} pages found)`);
 
-  const highlightAnnotations = [];
+  const highlights = [];
   for (let i = 0; i < pagesCount; i++) {
     // Per page:
     // 1. Get the text content of the page (which has positions)
     // 2. For each text content item, get the transform matrix (to convert into pdf space)
     // 3. Find the items that match the text we want to highlight and build the rect.
-    Services.console.logStringMessage(`[MyPlugin] Starting highlighting for tab: ${tabId} (page ${i + 1})`);
+    Services.console.logStringMessage(`[MyPlugin] Starting highlighting: (page ${i + 1})`);
     const page = await pdfApp.pdfDocument.getPage(i + 1); // 1-indexed
     const textContent = await page.wrappedJSObject.getTextContent();
   }
 
   const currentAnnotations = innerReader._state.annotations;
-  innerReader.setAnnotations([...currentAnnotations, highlightAnnotations]);
-  myPlugin.unsetAnnotations = innerReader.unsetAnnotations.bind(innerReader);
-      // to set / unset annotations:
-    /* innerReader.setAnnotations([{
-        "libraryID": 1
-        "type": "highlight"
-        "isExternal": ""
-        "readOnly": ""
-        "text": "enhancing programming education"
-        "comment": ""
-        "pageLabel": "12"
-        "color": "#5fb236"
-        "sortIndex": "00001|000663|00345"
-        "position": {
-            "pageIndex": 1
-            "rects": [
-                "0": [
-                    "0": 53.798
-                    "1": 438.447
-                    "2": 185.954
-                    "3": 446.391
-                ]
-            ]
-        }
-        "dateModified": "2026-03-11T19:49:51Z"
-        "id": "TTARCENY"
-        "tags": []
-      }])
-    */
+  const highlightsInner = Cu.cloneInto(highlights, innerReader);
+  const annotationsInner = Cu.cloneInto([...currentAnnotations, ...highlightsInner], innerReader);
+  innerReader.setAnnotations(annotationsInner);
+
+  MyPlugin.activeHighlights = highlightsInner;
+  MyPlugin.unsetAnnotations = innerReader.unsetAnnotations.bind(innerReader);
+}
+
+function createHighlight(text, rects) {
+  return {
+    "type": "highlight",
+    "text": text,
+    "color": "#004cff",
+    "position": {
+        "pageIndex": 1,
+        "rects": rects
+    },
+    // "tags": [],
+  }
 }
