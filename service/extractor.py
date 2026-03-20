@@ -5,9 +5,11 @@ import fitz  # PyMuPDF
 # Fraction of page height to treat as header/footer zone.
 # Blocks whose top edge falls in the top MARGIN or bottom MARGIN are discarded.
 MARGIN = 0.10
+MAX_PAGES = 40
 
 
-def extract_sentences(pdf_path: str) -> list[str]:
+def extract_sentences(pdf_path: str) -> list[str] | None:
+    """Returns None if the PDF exceeds MAX_PAGES."""
     """
     Extract sentences from a PDF file.
 
@@ -20,9 +22,14 @@ def extract_sentences(pdf_path: str) -> list[str]:
     Returns a list of sentence strings.
     """
     doc = fitz.open(pdf_path)
-    all_text_parts = []
-
     total_pages = len(doc)
+
+    if total_pages > MAX_PAGES:
+        print(f"  Skipping: {total_pages} pages exceeds MAX_PAGES ({MAX_PAGES})")
+        doc.close()
+        return None
+
+    all_text_parts = []
     for page_num in range(total_pages):
         page = doc[page_num]
         print(f"  Page {page_num + 1}/{total_pages}", end="\r", flush=True)
