@@ -22,14 +22,14 @@ const LABEL_COLORS = {
 
 async function startup({ id, version, rootURI }) {
   MyPlugin = new class {
-    init({ id, version, rootURI }) {
+    async init({ id, version, rootURI }) {
       this.id = id;
       this.version = version;
       this.rootURI = rootURI;
       this.cleanup = null;
       this.highlights = {};
 
-      this._reloadHighlights();
+      await this._reloadHighlights();
 
       // Observe tab events (open/close PDF reader)
       this.tabObserverID = Zotero.Notifier.registerObserver({
@@ -83,13 +83,10 @@ async function startup({ id, version, rootURI }) {
       Services.console.logStringMessage(`[MyPlugin] shutdown`);
     }
 
-    _reloadHighlights() {
+    async _reloadHighlights() {
       try {
-        const path = PathUtils.toFileURI(HIGHLIGHTS_PATH);
-        const xhr = new XMLHttpRequest();
-        xhr.open("GET", path, false); // synchronous
-        xhr.send();
-        this.highlights = JSON.parse(xhr.responseText);
+        const text = await IOUtils.readUTF8(HIGHLIGHTS_PATH);
+        this.highlights = JSON.parse(text);
         Services.console.logStringMessage(`[MyPlugin] Loaded highlights for: ${Object.keys(this.highlights).join(", ")}`);
       } catch (e) {
         Services.console.logStringMessage(`[MyPlugin] No highlights.json found or parse error: ${e}`);
@@ -140,7 +137,7 @@ async function startup({ id, version, rootURI }) {
     }
   };
 
-  MyPlugin.init({ id, version, rootURI });
+  await MyPlugin.init({ id, version, rootURI });
 }
 
 function shutdown() {
@@ -190,12 +187,19 @@ async function _runPhase2(collectionName) {
 // --- Tab / Reader setup ---
 
 async function _addTabHighlights(tabId) {
+  Services.console.logStringMessage(`[MyPlugin] _addTabHighlights called for tab: ${tabId}`);
   const reader = Zotero.Reader._readers.find(r => r.tabID === tabId);
-  if (!reader) return;
+  if (!reader) {
+    Services.console.logStringMessage(`[MyPlugin] No reader found for tab: ${tabId}`);
+    return;
+  }
 
   await reader._initPromise;
 
-  const itemKey = reader._item.key;
+  const attachmentKey = reader._item.key;
+  const parentItem = Zotero.Items.get(reader._item.parentItemID);
+  const itemKey = parentItem ? parentItem.key : attachmentKey;
+  Services.console.logStringMessage(`[MyPlugin] Reader found for attachment: ${attachmentKey}, parent: ${itemKey}`);
 
   // Find highlights for this item across all collections
   let highlights = null;
@@ -205,14 +209,24 @@ async function _addTabHighlights(tabId) {
       break;
     }
   }
-  if (!highlights || highlights.length === 0) return;
+  if (!highlights || highlights.length === 0) {
+    Services.console.logStringMessage(`[MyPlugin] No highlights found for item: ${itemKey}`);
+    return;
+  }
+  Services.console.logStringMessage(`[MyPlugin] Found ${highlights.length} highlights for ${itemKey}`);
 
   const readerContext = _getReaderContext(reader);
-  if (!readerContext) return;
+  if (!readerContext) {
+    Services.console.logStringMessage(`[MyPlugin] Could not get reader context for ${itemKey}`);
+    return;
+  }
 
   const { innerFrame, innerReader } = readerContext;
   const pdfApp = await _waitForPdfApp(reader);
-  if (!pdfApp) return;
+  if (!pdfApp) {
+    Services.console.logStringMessage(`[MyPlugin] Could not get pdfApp for ${itemKey}`);
+    return;
+  }
 
   Services.console.logStringMessage(`[MyPlugin] Applying ${highlights.length} highlights for ${itemKey}`);
   _applyHighlights(pdfApp, innerFrame, innerReader, highlights);
@@ -251,14 +265,16 @@ async function _applyHighlights(pdfApp, innerFrame, innerReader, highlightData) 
   for (let i = 0; i < pagesCount; i++) {
     const page = await pdfApp.pdfDocument.getPage(i + 1);
     const textContent = await page.wrappedJSObject.getTextContent();
-    const { fullText, charToItem } = _buildPageIndex(textContent.items);
+    const { fullText, charToItem, itemStartPos } = _buildPageIndex(textContent.items);
 
     for (const h of highlightData) {
       const matchRange = _fuzzyFind(fullText, h.sentence);
       if (!matchRange) continue;
 
       const [matchStart, matchEnd] = matchRange;
-      const rects = _buildRects(matchStart, matchEnd, charToItem, textContent.items);
+      Services.console.logStringMessage(`[MyPlugin] MATCH page=${i} start=${matchStart} end=${matchEnd} sentence="${h.sentence.slice(0, 50)}"`);
+      const rects = _buildRects(matchStart, matchEnd, charToItem, textContent.items, itemStartPos);
+      Services.console.logStringMessage(`[MyPlugin] RECTS ${JSON.stringify(rects)}`);
       highlights.push(_createHighlight(h.sentence, h.label, i, rects));
     }
   }
@@ -282,24 +298,25 @@ async function _applyHighlights(pdfApp, innerFrame, innerReader, highlightData) 
 function _buildPageIndex(items) {
   let fullText = '';
   const charToItem = [];
+  const itemStartPos = []; // itemStartPos[j] = position in fullText where item j begins
 
   for (let j = 0; j < items.length; j++) {
     const str = items[j].str;
     const cleanStr = items[j].hasEOL ? str.replace(/-$/, '') : str;
+    itemStartPos[j] = fullText.length;
     for (let k = 0; k < cleanStr.length; k++) {
       charToItem.push(j);
     }
     fullText += cleanStr;
-    if (items[j].hasEOL) {
-      fullText += ' ';
-      charToItem.push(-1);
-    }
+    // Always add a space between items to prevent "word1word2" concatenation
+    fullText += ' ';
+    charToItem.push(-1);
   }
 
-  return { fullText, charToItem };
+  return { fullText, charToItem, itemStartPos };
 }
 
-function _buildRects(matchStart, matchEnd, charToItem, items) {
+function _buildRects(matchStart, matchEnd, charToItem, items, itemStartPos) {
   const coveredItems = new Set();
   for (let k = matchStart; k < matchEnd; k++) {
     if (charToItem[k] !== -1) coveredItems.add(charToItem[k]);
@@ -310,15 +327,44 @@ function _buildRects(matchStart, matchEnd, charToItem, items) {
     const item = items[itemIdx];
     const [, , , , x, y] = item.transform;
     const key = y.toFixed(2);
+    // y (transform[5]) is the text baseline. item.height is the full em-size.
+    // Descent is below the baseline (~25%), ascent is above (~75%).
+    // Using [baseline, baseline+height] shifts the rect up by the descent, causing
+    // the top to bleed into the line above. Use [baseline-descent, baseline+ascent] instead.
+    const descent = item.height * 0.25;
+    const ascent  = item.height * 0.75;
     if (!lineMap.has(key)) {
-      lineMap.set(key, [x, y, x + item.width, y + item.height]);
+      // The match may start partway through this item (e.g. when one PDF text item
+      // contains both the previous sentence's tail AND our sentence's start).
+      // Interpolate to find the approximate x of matchStart within the item.
+      let x0 = x;
+      const itemStart = itemStartPos[itemIdx];
+      const cleanLen  = item.str.length; // cleanStr ≈ item.str in practice
+      if (matchStart > itemStart && cleanLen > 0) {
+        // Back off by one average character width to account for proportional
+        // font rendering — the true start may be slightly left of the interpolated pos.
+        const offset = Math.max(0, matchStart - itemStart - 1);
+        x0 = x + (offset / cleanLen) * item.width;
+      }
+      lineMap.set(key, [x0, y - descent, x + item.width, y + ascent]);
+      Services.console.logStringMessage(`[MyPlugin]   INIT  y=${y.toFixed(1)} x=${x.toFixed(1)} x0=${x0.toFixed(1)} offset=${matchStart > itemStart ? matchStart - itemStart : 0} cleanLen=${cleanLen} str="${item.str.slice(0,30)}"`);
     } else {
       const r = lineMap.get(key);
-      r[2] = Math.max(r[2], x + item.width);
+      if (x >= r[0]) {
+        r[2] = Math.max(r[2], x + item.width);
+        Services.console.logStringMessage(`[MyPlugin]   INCL  y=${y.toFixed(1)} x=${x.toFixed(1)} str="${item.str.slice(0,30)}"`);
+      } else {
+        Services.console.logStringMessage(`[MyPlugin]   SKIP  y=${y.toFixed(1)} x=${x.toFixed(1)} r[0]=${r[0].toFixed(1)} str="${item.str.slice(0,30)}"`);
+      }
     }
   }
 
   return Array.from(lineMap.values()).filter(r => r[3] - r[1] > 0);
+}
+
+function _isWordStart(text, idx) {
+  if (idx === 0) return true;
+  return /[\s.,;:!?()\[\]{}'"\/]/.test(text[idx - 1]);
 }
 
 function _fuzzyFind(fullText, target, maxGap = 200) {
@@ -329,6 +375,12 @@ function _fuzzyFind(fullText, target, maxGap = 200) {
   while (searchFrom < fullText.length) {
     const firstIdx = fullText.indexOf(firstWord, searchFrom);
     if (firstIdx === -1) return null;
+
+    // Skip if not at a word boundary
+    if (!_isWordStart(fullText, firstIdx)) {
+      searchFrom = firstIdx + 1;
+      continue;
+    }
 
     let pos = firstIdx + firstWord.length;
     let matched = true;
