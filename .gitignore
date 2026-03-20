@@ -1,0 +1,15 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Model files (large, downloaded from Colab)
+service/model/
+*.zip
+
+# Generated pipeline outputs
+embeddings_cache.json
+highlights.json
+
+# Kaggle credentials (just in case)
+kaggle.json
