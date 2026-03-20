@@ -5,6 +5,7 @@ __pycache__/
 
 # Model files (large, downloaded from Colab)
 service/model/
+*.safetensors
 *.zip
 
 # Generated pipeline outputs
