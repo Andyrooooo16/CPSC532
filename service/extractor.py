@@ -49,7 +49,15 @@ def extract_sentences(pdf_path: str) -> list[str]:
     # Rejoin words split across lines with a hyphen (e.g. "in-\nteractive" → "interactive")
     full_text = re.sub(r"-\s*\n\s*", "", full_text)
     sentences = nltk.sent_tokenize(full_text)
-    return sentences
+
+    # Deduplicate while preserving order
+    seen = set()
+    unique = []
+    for s in sentences:
+        if s not in seen:
+            seen.add(s)
+            unique.append(s)
+    return unique
 
 
 if __name__ == "__main__":
