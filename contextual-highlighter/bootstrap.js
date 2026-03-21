@@ -261,6 +261,7 @@ async function _waitForPdfApp(reader) {
 async function _applyHighlights(pdfApp, innerFrame, innerReader, highlightData) {
   const pagesCount = pdfApp.pdfViewer.pagesCount;
   const highlights = [];
+  const matchedSentences = new Set();
 
   for (let i = 0; i < pagesCount; i++) {
     const page = await pdfApp.pdfDocument.getPage(i + 1);
@@ -268,18 +269,23 @@ async function _applyHighlights(pdfApp, innerFrame, innerReader, highlightData) 
     const { fullText, charToItem, itemStartPos } = _buildPageIndex(textContent.items);
 
     for (const h of highlightData) {
+      if (matchedSentences.has(h.sentence)) continue;
       const matchRange = _fuzzyFind(fullText, h.sentence);
       if (!matchRange) continue;
 
+      matchedSentences.add(h.sentence);
       const [matchStart, matchEnd] = matchRange;
-      Services.console.logStringMessage(`[MyPlugin] MATCH page=${i} start=${matchStart} end=${matchEnd} sentence="${h.sentence.slice(0, 50)}"`);
       const rects = _buildRects(matchStart, matchEnd, charToItem, textContent.items, itemStartPos);
-      Services.console.logStringMessage(`[MyPlugin] RECTS ${JSON.stringify(rects)}`);
       highlights.push(_createHighlight(h.sentence, h.label, i, rects));
     }
   }
 
   Services.console.logStringMessage(`[MyPlugin] Found ${highlights.length}/${highlightData.length} highlights`);
+  for (const h of highlightData) {
+    if (!matchedSentences.has(h.sentence)) {
+      Services.console.logStringMessage(`[MyPlugin] UNMATCHED: "${h.sentence.slice(0, 80)}"`);
+    }
+  }
 
   const highlightsInner = Cu.cloneInto(highlights, innerFrame);
   innerReader.setAnnotations(highlightsInner);
@@ -303,11 +309,12 @@ function _buildPageIndex(items) {
   for (let j = 0; j < items.length; j++) {
     const str = items[j].str;
     const cleanStr = items[j].hasEOL ? str.replace(/-$/, '') : str;
+    const normalizedStr = _normalizeQuotes(cleanStr);
     itemStartPos[j] = fullText.length;
-    for (let k = 0; k < cleanStr.length; k++) {
+    for (let k = 0; k < normalizedStr.length; k++) {
       charToItem.push(j);
     }
-    fullText += cleanStr;
+    fullText += normalizedStr;
     // Always add a space between items to prevent "word1word2" concatenation
     fullText += ' ';
     charToItem.push(-1);
@@ -347,14 +354,10 @@ function _buildRects(matchStart, matchEnd, charToItem, items, itemStartPos) {
         x0 = x + (offset / cleanLen) * item.width;
       }
       lineMap.set(key, [x0, y - descent, x + item.width, y + ascent]);
-      Services.console.logStringMessage(`[MyPlugin]   INIT  y=${y.toFixed(1)} x=${x.toFixed(1)} x0=${x0.toFixed(1)} offset=${matchStart > itemStart ? matchStart - itemStart : 0} cleanLen=${cleanLen} str="${item.str.slice(0,30)}"`);
     } else {
       const r = lineMap.get(key);
       if (x >= r[0]) {
         r[2] = Math.max(r[2], x + item.width);
-        Services.console.logStringMessage(`[MyPlugin]   INCL  y=${y.toFixed(1)} x=${x.toFixed(1)} str="${item.str.slice(0,30)}"`);
-      } else {
-        Services.console.logStringMessage(`[MyPlugin]   SKIP  y=${y.toFixed(1)} x=${x.toFixed(1)} r[0]=${r[0].toFixed(1)} str="${item.str.slice(0,30)}"`);
       }
     }
   }
@@ -362,13 +365,32 @@ function _buildRects(matchStart, matchEnd, charToItem, items, itemStartPos) {
   return Array.from(lineMap.values()).filter(r => r[3] - r[1] > 0);
 }
 
+function _normalizeQuotes(s) {
+  return s
+    .replace(/[\u2018\u2019\u201A\u201B]/g, "'")   // curly single quotes → '
+    .replace(/[\u201C\u201D\u201E\u201F]/g, '"');   // curly double quotes → "
+}
+
 function _isWordStart(text, idx) {
   if (idx === 0) return true;
   return /[\s.,;:!?()\[\]{}'"\/]/.test(text[idx - 1]);
 }
 
-function _fuzzyFind(fullText, target, maxGap = 200) {
-  const targetWords = target.split(/\s+/);
+function _fuzzyFind(fullText, target, maxGap = 400) {
+  // Normalize quotes, then clean each token:
+  //   • strip leading/trailing non-alphanumeric (fixes opening-quote tokens like "Can → Can)
+  //   • drop words with no letters (citation markers like [17,], 2.1, etc.)
+  //   • drop words that originally ended with "-" (broken-hyphenation fragments like "re-")
+  const targetWords = _normalizeQuotes(target)
+    .split(/\s+/)
+    .map(w => ({ orig: w, norm: w.replace(/^[^a-zA-Z0-9]+|[^a-zA-Z0-9]+$/g, '') }))
+    .filter(({ orig, norm }) =>
+      norm.length > 0 &&
+      /[a-zA-Z]/.test(norm) &&
+      !orig.endsWith('-')           // skip broken-hyphenation fragments (e.g. "re-")
+    )
+    .map(({ norm }) => norm);
+  if (targetWords.length === 0) return null;
   const firstWord = targetWords[0];
 
   let searchFrom = 0;
