@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Next Task · Reading Study</title>
+  <link rel="stylesheet" href="/app/app.css">
+  <style>
+    .task-header {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 6px;
+    }
+    .task-badge {
+      background: var(--accent);
+      color: #fff;
+      border-radius: 12px;
+      padding: 2px 10px;
+      font-size: 12px;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+    .paper-title {
+      font-size: 16px;
+      font-weight: 600;
+    }
+    .task-instructions {
+      font-size: 13px;
+      color: var(--text-muted);
+      line-height: 1.6;
+      margin-bottom: 24px;
+      padding: 10px 14px;
+      background: var(--warning-bg);
+      border: 1px solid var(--warning-border);
+      border-radius: var(--radius);
+    }
+    .questions-preview {
+      margin-bottom: 24px;
+    }
+    .questions-preview h3 {
+      font-size: 13px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--text-muted);
+      margin-bottom: 12px;
+    }
+    .start-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      padding-top: 8px;
+      border-top: 1px solid var(--border);
+    }
+    .start-note {
+      font-size: 12px;
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+  <div class="page-centered">
+    <div class="progress-bar-wrap">
+      <div class="progress-label" id="progress-label">Paper … of …</div>
+      <div class="progress-bar"><div class="progress-bar-fill" id="progress-fill" style="width:0%"></div></div>
+    </div>
+
+    <div class="card">
+      <div class="task-header">
+        <span class="task-badge" id="task-badge">Paper 1</span>
+        <span class="paper-title" id="paper-title">Loading…</span>
+      </div>
+      <p class="subtitle" id="subtitle" style="margin-top:8px">Get ready for the next reading task.</p>
+
+      <div class="task-instructions" id="task-instructions"></div>
+
+      <div class="questions-preview">
+        <h3>Questions you will answer</h3>
+        <div id="questions-container" class="questions-readonly"></div>
+      </div>
+
+      <div class="start-row">
+        <p class="start-note">
+          Your time will be measured from when you click "Start".<br>
+          The questions will remain visible while you read.
+        </p>
+        <button class="btn btn-primary btn-lg" id="start-btn">Start Reading</button>
+      </div>
+    </div>
+  </div>
+
+  <script type="module">
+    import { guardPage, getSessionId } from '/app/session.js';
+    import { renderQuestions } from '/app/question-renderer.js';
+
+    const sessionId = getSessionId();
+    const state = await guardPage('pre-task');
+    if (!state) throw new Error('redirect');
+
+    const { paperIndex, paperTitle, totalPapers } = state;
+    const paperNum = paperIndex + 1;
+
+    // Progress
+    const pct = Math.round((paperNum - 1) / totalPapers * 80) + 5;
+    document.getElementById('progress-fill').style.width = pct + '%';
+    document.getElementById('progress-label').textContent = `Paper ${paperNum} of ${totalPapers}`;
+    document.getElementById('task-badge').textContent = `Paper ${paperNum}`;
+    document.getElementById('paper-title').textContent = paperTitle || '';
+    document.getElementById('subtitle').textContent =
+      `Read the paper and answer the questions. You may resubmit until all answers are correct.`;
+
+    // Load questions (read-only preview)
+    const qRes = await fetch(`/api/session/${sessionId}/questions`);
+    if (!qRes.ok) { window.location.href = `/session/${sessionId}`; }
+    const qData = await qRes.json();
+
+    document.getElementById('task-instructions').textContent = qData.taskInstructions || '';
+    renderQuestions(document.getElementById('questions-container'), qData.questions, { readonly: true });
+
+    // Start button
+    document.getElementById('start-btn').addEventListener('click', async () => {
+      const btn = document.getElementById('start-btn');
+      btn.disabled = true;
+      btn.textContent = 'Starting…';
+
+      try {
+        const r = await fetch(`/api/session/${sessionId}/start`, { method: 'POST' });
+        if (!r.ok) throw new Error(`Server error ${r.status}`);
+        const { nextPath } = await r.json();
+        window.location.href = nextPath;
+      } catch (err) {
+        btn.disabled = false;
+        btn.textContent = 'Start Reading';
+        alert('Failed to start. Please try again.');
+      }
+    });
+  </script>
+</body>
+</html>

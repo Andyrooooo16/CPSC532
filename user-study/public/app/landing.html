@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reading Study</title>
+  <link rel="stylesheet" href="/app/app.css">
+  <style>
+    .logo {
+      font-size: 13px;
+      color: var(--text-muted);
+      margin-bottom: 32px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="page-centered">
+    <div class="logo">Human-Centered AI · Reading Study</div>
+    <div class="card">
+      <h1>Welcome</h1>
+      <p class="subtitle">
+        Thank you for participating in this reading study. You will read several
+        academic papers and answer questions about them. Please enter your
+        participant ID to begin.
+      </p>
+
+      <div id="error-banner" class="banner banner-error" style="display:none"></div>
+
+      <div class="form-group">
+        <label for="participant-id">Participant ID</label>
+        <input
+          type="text"
+          id="participant-id"
+          placeholder="e.g. P01"
+          autocomplete="off"
+          spellcheck="false"
+          autofocus
+        >
+      </div>
+
+      <div class="form-actions">
+        <button class="btn btn-primary btn-lg" id="begin-btn">Begin Study</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const input = document.getElementById('participant-id');
+    const btn = document.getElementById('begin-btn');
+    const errorBanner = document.getElementById('error-banner');
+
+    function showError(msg) {
+      errorBanner.textContent = msg;
+      errorBanner.style.display = 'block';
+    }
+
+    function hideError() {
+      errorBanner.style.display = 'none';
+    }
+
+    async function begin() {
+      const participantId = input.value.trim();
+      if (!participantId) {
+        showError('Please enter your participant ID.');
+        return;
+      }
+
+      btn.disabled = true;
+      btn.textContent = 'Starting…';
+      hideError();
+
+      try {
+        const res = await fetch('/api/sessions', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ participantId }),
+        });
+
+        if (!res.ok) {
+          const data = await res.json().catch(() => ({}));
+          throw new Error(data.error || `Server error ${res.status}`);
+        }
+
+        const { sessionId } = await res.json();
+        localStorage.setItem('studySessionId', sessionId);
+        window.location.href = `/session/${sessionId}`;
+      } catch (err) {
+        showError(err.message || 'Something went wrong. Please try again.');
+        btn.disabled = false;
+        btn.textContent = 'Begin Study';
+      }
+    }
+
+    btn.addEventListener('click', begin);
+    input.addEventListener('keydown', e => { if (e.key === 'Enter') begin(); });
+  </script>
+</body>
+</html>

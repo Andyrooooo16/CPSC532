@@ -1,0 +1,12 @@
+{
+  "name": "user-study",
+  "version": "1.0.0",
+  "description": "User study PDF reader for contextual highlighting research",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}

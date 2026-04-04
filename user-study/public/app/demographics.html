@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Background Survey · Reading Study</title>
+  <link rel="stylesheet" href="/app/app.css">
+</head>
+<body>
+  <div class="page-centered">
+    <div class="progress-bar-wrap">
+      <div class="progress-label" id="progress-label">Step 1 of …</div>
+      <div class="progress-bar"><div class="progress-bar-fill" id="progress-fill" style="width:0%"></div></div>
+    </div>
+
+    <div class="card">
+      <h1>Background Survey</h1>
+      <p class="subtitle" id="instructions">Please answer a few questions before we begin.</p>
+
+      <div id="error-banner" class="banner banner-error" style="display:none"></div>
+
+      <form id="demo-form" novalidate>
+        <div id="questions-container"></div>
+        <div class="form-actions">
+          <button type="submit" class="btn btn-primary" id="submit-btn">Continue</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script type="module">
+    import { guardPage, getSessionId } from '/app/session.js';
+    import { renderQuestions, collectAnswers, validateAnswers } from '/app/question-renderer.js';
+
+    const sessionId = getSessionId();
+    const state = await guardPage('demographics');
+    if (!state) throw new Error('redirect');
+
+    // Update progress
+    document.getElementById('progress-label').textContent = 'Background Survey';
+    document.getElementById('progress-fill').style.width = '2%';
+
+    // Load demographic questions
+    const res = await fetch('/api/demographics');
+    if (!res.ok) { window.location.href = `/session/${sessionId}`; }
+    const demo = await res.json();
+
+    document.getElementById('instructions').textContent = demo.instructions || '';
+    const container = document.getElementById('questions-container');
+    renderQuestions(container, demo.questions);
+
+    // Submit
+    const errorBanner = document.getElementById('error-banner');
+    const submitBtn = document.getElementById('submit-btn');
+
+    document.getElementById('demo-form').addEventListener('submit', async e => {
+      e.preventDefault();
+      errorBanner.style.display = 'none';
+
+      const unanswered = validateAnswers(container, demo.questions.filter(q => q.type !== 'free_text'));
+      if (unanswered.length > 0) {
+        errorBanner.textContent = 'Please answer all required questions before continuing.';
+        errorBanner.style.display = 'block';
+        return;
+      }
+
+      const responses = collectAnswers(container);
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'Saving…';
+
+      try {
+        const r = await fetch(`/api/session/${sessionId}/submit-demographics`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ responses }),
+        });
+        if (!r.ok) throw new Error(`Server error ${r.status}`);
+        const { nextPath } = await r.json();
+        window.location.href = nextPath;
+      } catch (err) {
+        errorBanner.textContent = err.message || 'Something went wrong.';
+        errorBanner.style.display = 'block';
+        submitBtn.disabled = false;
+        submitBtn.textContent = 'Continue';
+      }
+    });
+  </script>
+</body>
+</html>

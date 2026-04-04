@@ -4,7 +4,7 @@ from pathlib import Path
 import torch
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 
-MODEL_DIR = Path(__file__).parent / "scibert-pubmed-rtc-final"
+MODEL_DIR = Path(__file__).parent / "scibert-acl-v3-final"
 BATCH_SIZE = 32
 
 
@@ -29,7 +29,7 @@ def classify(sentences: list[str]) -> list[tuple[str, float]]:
     Classify each sentence into a rhetorical category.
 
     Returns a list of (label, confidence) tuples in the same order as input.
-    Labels: BACKGROUND, CONCLUSIONS, METHODS, OBJECTIVE, RESULTS
+    Labels: BACKGROUND, CONCLUSIONS, METHODS, NONE, OBJECTIVE, RESULTS
     """
     results = []
 
