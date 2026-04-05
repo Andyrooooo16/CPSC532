@@ -1,0 +1,34 @@
+{
+  "papers": {
+    "paper1": {
+      "title": "ACLSUM",
+      "filename": "ACLSum.pdf"
+    },
+    "paper2": {
+      "title": "CiteSee",
+      "filename": "CiteSee.pdf"
+    },
+    "paper3": {
+      "title": "Scim",
+      "filename": "Scim.pdf"
+    }
+  },
+  "participants": {
+    "P01": {
+      "paperOrder": ["paper1", "paper2", "paper3"],
+      "conditions": ["no_highlights", "all_highlights", "contextual_highlights"]
+    },
+    "P02": {
+      "paperOrder": ["paper2", "paper3", "paper1"],
+      "conditions": ["all_highlights", "contextual_highlights", "no_highlights"]
+    },
+    "P03": {
+      "paperOrder": ["paper3", "paper1", "paper2"],
+      "conditions": ["contextual_highlights", "no_highlights", "all_highlights"]
+    }
+  },
+  "defaultParticipant": {
+    "paperOrder": ["paper1", "paper2", "paper3"],
+    "conditions": ["no_highlights", "no_highlights", "no_highlights"]
+  }
+}

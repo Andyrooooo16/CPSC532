@@ -10,6 +10,17 @@
  *  - Scale fixed at 1.25 (no fitWidth mode needed)
  */
 
+// Colors per rhetorical label (semi-transparent fills)
+const LABEL_COLORS = {
+  OBJECTIVE:   'rgba(144, 238, 144, 0.45)', // green
+  BACKGROUND:  'rgba(255, 200,  80, 0.40)', // yellow
+  METHODS:     'rgba(100, 180, 255, 0.40)', // blue
+  RESULTS:     'rgba(255, 150, 150, 0.45)', // red/pink
+  CONCLUSIONS: 'rgba(200, 150, 255, 0.40)', // purple
+  NONE:        'rgba(200, 200, 200, 0.35)', // grey
+  DEFAULT:     'rgba(255, 220,   0, 0.38)', // fallback yellow
+};
+
 export async function renderPdf({ container, url, highlights = [] }) {
   const pdfjsLib = globalThis.pdfjsLib;
   if (!pdfjsLib?.getDocument) {
@@ -54,18 +65,14 @@ export async function renderPdf({ container, url, highlights = [] }) {
     const pageHighlights = highlights.filter(h => h.page === pageNum);
     if (pageHighlights.length > 0) {
       ctx.save();
-      ctx.fillStyle = 'rgba(255, 220, 0, 0.38)';
+      const s = SCALE * dpr;
       for (const h of pageHighlights) {
+        ctx.fillStyle = LABEL_COLORS[h.label] ?? LABEL_COLORS.DEFAULT;
         for (const rect of h.rects) {
-          // rect is [x0, y0, x1, y1] in PDF coordinate space (origin bottom-left)
+          // rect is [x0, y0, x1, y1] in PyMuPDF space: top-left origin, y increases downward.
+          // The PDF.js canvas is also rendered top-left/y-down, so we just scale directly.
           const [x0, y0, x1, y1] = rect;
-          const vRect = renderViewport.convertToViewportRectangle([x0, y0, x1, y1]);
-          // vRect is [left, top, right, bottom] in canvas space (origin top-left, at render resolution)
-          const left = Math.min(vRect[0], vRect[2]);
-          const top = Math.min(vRect[1], vRect[3]);
-          const width = Math.abs(vRect[2] - vRect[0]);
-          const height = Math.abs(vRect[3] - vRect[1]);
-          ctx.fillRect(left, top, width, height);
+          ctx.fillRect(x0 * s, y0 * s, (x1 - x0) * s, (y1 - y0) * s);
         }
       }
       ctx.restore();

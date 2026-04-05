@@ -595,20 +595,6 @@ app.post('/api/session/:id/submit-questionnaire', (req, res) => {
 });
 
 // ---------------------------------------------------------------------------
-// Admin: export all sessions
-// ---------------------------------------------------------------------------
-
-app.get('/admin/sessions', (req, res) => {
-  if (req.query.secret !== config.adminSecret) return res.sendStatus(403);
-
-  const files = fs.readdirSync(SESSIONS_DIR).filter(f => f.endsWith('.json'));
-  const sessions = files.map(f =>
-    JSON.parse(fs.readFileSync(path.join(SESSIONS_DIR, f), 'utf8'))
-  );
-  res.json(sessions);
-});
-
-// ---------------------------------------------------------------------------
 // Start
 // ---------------------------------------------------------------------------
 

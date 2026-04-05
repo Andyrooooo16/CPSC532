@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reading · Study</title>
+  <link rel="stylesheet" href="/pdfjs/viewer.css">
+  <link rel="stylesheet" href="/app/app.css">
+  <style>
+    html, body { overflow: hidden; }
+  </style>
+</head>
+<body>
+
+<div id="reader-app">
+
+  <!-- PDF Panel (left) -->
+  <div id="pdf-panel">
+    <div id="pdf-topbar">
+      <div id="pdf-nav">
+        <button id="prev-btn">&#8593;</button>
+        <button id="next-btn">&#8595;</button>
+      </div>
+      <span class="paper-title" id="paper-title-label">Loading…</span>
+      <span class="page-info" id="page-label">— / —</span>
+    </div>
+    <div id="pdf-container"></div>
+  </div>
+
+  <!-- Resize handle -->
+  <div id="resize-handle"></div>
+
+  <!-- Questions Panel (right) -->
+  <div id="questions-panel">
+    <div id="questions-topbar">Task Questions</div>
+    <div id="questions-body">
+      <div class="instructions" id="task-instructions">Loading…</div>
+      <div id="error-banner" class="banner banner-error" style="display:none"></div>
+      <div id="questions-container"></div>
+    </div>
+    <div id="submit-bar">
+      <div id="feedback-msg" style="font-size:13px;color:var(--danger);display:none"></div>
+      <button class="btn btn-primary" id="submit-btn">Submit Answers</button>
+    </div>
+  </div>
+
+</div>
+
+<!-- Load PDF.js as a module so pdfjsLib global is set before viewer.js runs -->
+<script type="module" src="/pdfjs/pdf.mjs"></script>
+
+<script type="module">
+  // Give pdf.mjs time to set the global, then init
+  await new Promise(r => setTimeout(r, 0));
+
+  import { guardPage, getSessionId } from '/app/session.js';
+  import { renderQuestions, collectAnswers, markMCFeedback, lockCorrectQuestions } from '/app/question-renderer.js';
+  import { renderPdf, setupNav } from '/app/viewer.js';
+
+  const sessionId = getSessionId();
+  const state = await guardPage('reader');
+  if (!state) throw new Error('redirect');
+
+  const { paperKey, paperTitle, paperIndex, totalPapers, startedAt } = state;
+
+  document.title = `Reading: ${paperTitle || 'Paper'} · Study`;
+  document.getElementById('paper-title-label').textContent = paperTitle || `Paper ${paperIndex + 1}`;
+
+  // -------------------------------------------------------------------------
+  // Load questions and highlights in parallel
+  // -------------------------------------------------------------------------
+  const [qData, highlights] = await Promise.all([
+    fetch(`/api/session/${sessionId}/questions`).then(r => r.json()),
+    fetch(`/api/session/${sessionId}/highlights`).then(r => r.json()).catch(() => []),
+  ]);
+
+  document.getElementById('task-instructions').textContent = qData.taskInstructions || '';
+  const questionsContainer = document.getElementById('questions-container');
+  renderQuestions(questionsContainer, qData.questions);
+
+  // -------------------------------------------------------------------------
+  // Per-question timing (client-side)
+  // Time is measured from startedAt (server timestamp) to when the correct
+  // answer is confirmed by the server for each MC question.
+  // -------------------------------------------------------------------------
+  const startMs = startedAt ? new Date(startedAt).getTime() : Date.now();
+  // Track the timestamp of the last click for each MC question
+  const lastClickMs = {};
+  // Frozen timestamps for questions confirmed correct
+  const correctTimeSeconds = {};
+  // Track which MC question IDs exist
+  const mcQuestionIds = qData.questions
+    .filter(q => q.type === 'multiple_choice')
+    .map(q => q.id);
+
+  questionsContainer.addEventListener('change', e => {
+    const input = e.target;
+    if (input.type === 'radio') {
+      const group = input.closest('.form-group[data-question-id]');
+      if (group && group.dataset.questionType === 'multiple_choice') {
+        lastClickMs[group.dataset.questionId] = Date.now();
+      }
+    }
+  });
+
+  // -------------------------------------------------------------------------
+  // Resize handle
+  // -------------------------------------------------------------------------
+  const handle = document.getElementById('resize-handle');
+  const app = document.getElementById('reader-app');
+
+  handle.addEventListener('mousedown', e => {
+    e.preventDefault();
+    const startX = e.clientX;
+    const startPct = parseFloat(
+      getComputedStyle(app).getPropertyValue('--pdf-width') || '65%'
+    );
+    handle.classList.add('dragging');
+    document.body.style.cursor = 'col-resize';
+    document.body.style.userSelect = 'none';
+
+    const onMove = ev => {
+      const totalW = app.clientWidth;
+      const delta = ev.clientX - startX;
+      const newPct = Math.max(30, Math.min(80, startPct + (delta / totalW) * 100));
+      app.style.setProperty('--pdf-width', `${newPct}%`);
+    };
+
+    const onUp = () => {
+      handle.classList.remove('dragging');
+      document.body.style.cursor = '';
+      document.body.style.userSelect = '';
+      document.removeEventListener('mousemove', onMove);
+      document.removeEventListener('mouseup', onUp);
+    };
+
+    document.addEventListener('mousemove', onMove);
+    document.addEventListener('mouseup', onUp);
+  });
+
+  // -------------------------------------------------------------------------
+  // Render PDF
+  // -------------------------------------------------------------------------
+  const pdfjsLib = globalThis.pdfjsLib;
+  if (!pdfjsLib) throw new Error('PDF.js not available');
+  pdfjsLib.GlobalWorkerOptions.workerSrc = '/pdfjs/pdf.worker.mjs';
+
+  const container = document.getElementById('pdf-container');
+
+  const { numPages } = await renderPdf({
+    container,
+    url: `/api/session/${sessionId}/pdf`,
+    highlights,
+  });
+
+  const navCleanup = setupNav({
+    container,
+    numPages,
+    prevBtn: document.getElementById('prev-btn'),
+    nextBtn: document.getElementById('next-btn'),
+    pageLabel: document.getElementById('page-label'),
+  });
+
+  // Re-render on DPR change (e.g. moving between displays)
+  let activeDpr = window.devicePixelRatio;
+  let rerenderTimer = null;
+  window.addEventListener('resize', () => {
+    if (window.devicePixelRatio !== activeDpr) {
+      activeDpr = window.devicePixelRatio;
+      clearTimeout(rerenderTimer);
+      rerenderTimer = setTimeout(async () => {
+        navCleanup();
+        await renderPdf({ container, url: `/api/session/${sessionId}/pdf`, highlights });
+        setupNav({
+          container, numPages,
+          prevBtn: document.getElementById('prev-btn'),
+          nextBtn: document.getElementById('next-btn'),
+          pageLabel: document.getElementById('page-label'),
+        });
+      }, 150);
+    }
+  });
+
+  // -------------------------------------------------------------------------
+  // Track which MC questions have been confirmed correct
+  // -------------------------------------------------------------------------
+  const confirmedCorrect = new Set();
+
+  // -------------------------------------------------------------------------
+  // Submit handler
+  // -------------------------------------------------------------------------
+  const submitBtn = document.getElementById('submit-btn');
+  const errorBanner = document.getElementById('error-banner');
+  const feedbackMsg = document.getElementById('feedback-msg');
+
+  submitBtn.addEventListener('click', async () => {
+    errorBanner.style.display = 'none';
+    feedbackMsg.style.display = 'none';
+
+    const answers = collectAnswers(questionsContainer);
+
+    // Check that all non-locked questions have an answer
+    const unansweredMc = mcQuestionIds.filter(
+      id => !confirmedCorrect.has(id) && answers[id] === undefined
+    );
+    if (unansweredMc.length > 0) {
+      errorBanner.textContent = 'Please select an answer for all questions before submitting.';
+      errorBanner.style.display = 'block';
+      return;
+    }
+
+    submitBtn.disabled = true;
+    submitBtn.textContent = 'Checking…';
+
+    try {
+      const r = await fetch(`/api/session/${sessionId}/submit-reading`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ answers }),
+      });
+      if (!r.ok) throw new Error(`Server error ${r.status}`);
+      const { allCorrect, wrongIds } = await r.json();
+
+      if (allCorrect) {
+        // Freeze timestamps for newly confirmed correct MC questions
+        const now = Date.now();
+        for (const id of mcQuestionIds) {
+          if (!correctTimeSeconds[id]) {
+            const clickMs = lastClickMs[id] || now;
+            correctTimeSeconds[id] = Math.round((clickMs - startMs) / 1000);
+          }
+        }
+
+        // Gather final answers (MC that are confirmed + free text)
+        const finalAnswers = collectAnswers(questionsContainer);
+
+        submitBtn.textContent = 'Finishing…';
+        const cr = await fetch(`/api/session/${sessionId}/complete-reading`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            perQuestionTimeSeconds: correctTimeSeconds,
+            finalAnswers,
+          }),
+        });
+        if (!cr.ok) throw new Error(`Server error ${cr.status}`);
+        const { nextPath } = await cr.json();
+        window.location.href = nextPath;
+
+      } else {
+        // Newly confirmed correct questions from this round
+        const stillWrong = new Set(wrongIds);
+        const newlyCorrect = mcQuestionIds.filter(
+          id => !confirmedCorrect.has(id) && !stillWrong.has(id)
+        );
+        const now = Date.now();
+        for (const id of newlyCorrect) {
+          confirmedCorrect.add(id);
+          if (!correctTimeSeconds[id]) {
+            const clickMs = lastClickMs[id] || now;
+            correctTimeSeconds[id] = Math.round((clickMs - startMs) / 1000);
+          }
+        }
+
+        lockCorrectQuestions(questionsContainer, [...confirmedCorrect]);
+        markMCFeedback(questionsContainer, wrongIds, [...confirmedCorrect]);
+
+        const plural = wrongIds.length === 1 ? 'answer is' : 'answers are';
+        feedbackMsg.textContent = `${wrongIds.length} ${plural} incorrect. Please re-read the paper and try again.`;
+        feedbackMsg.style.display = 'block';
+
+        submitBtn.disabled = false;
+        submitBtn.textContent = 'Submit Answers';
+      }
+
+    } catch (err) {
+      errorBanner.textContent = err.message || 'Something went wrong. Please try again.';
+      errorBanner.style.display = 'block';
+      submitBtn.disabled = false;
+      submitBtn.textContent = 'Submit Answers';
+    }
+  });
+</script>
+
+</body>
+</html>

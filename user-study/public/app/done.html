@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Study Complete · Reading Study</title>
+  <link rel="stylesheet" href="/app/app.css">
+</head>
+<body>
+  <div class="page-centered">
+    <div class="progress-bar-wrap">
+      <div class="progress-label">Complete</div>
+      <div class="progress-bar"><div class="progress-bar-fill" style="width:100%"></div></div>
+    </div>
+
+    <div class="card">
+      <div class="done-icon">&#10003;</div>
+      <h1 style="text-align:center">Thank You!</h1>
+      <p class="subtitle" style="text-align:center">
+        You have completed the reading study. Your responses have been recorded.
+      </p>
+      <div class="done-details" id="done-details"></div>
+    </div>
+  </div>
+
+  <script type="module">
+    import { guardPage, getSessionId } from '/app/session.js';
+
+    const sessionId = getSessionId();
+    const state = await guardPage('done');
+    if (!state) throw new Error('redirect');
+
+    const details = document.getElementById('done-details');
+    details.innerHTML = `
+      <p>Participant ID: <strong id="pid">—</strong></p>
+      <p>Session: <code>${sessionId}</code></p>
+      <p style="margin-top:12px">Please let the researcher know you have finished.</p>
+    `;
+
+    // Load session to show participant ID
+    try {
+      const r = await fetch(`/api/session/${sessionId}/state`);
+      if (r.ok) {
+        // participant ID isn't in state, but we can show the session ID
+      }
+    } catch {}
+  </script>
+</body>
+</html>
