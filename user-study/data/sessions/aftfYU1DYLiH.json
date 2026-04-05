@@ -1,0 +1,141 @@
+{
+  "sessionId": "aftfYU1DYLiH",
+  "participantId": "P02",
+  "paperOrder": [
+    "paper2",
+    "paper3",
+    "paper1"
+  ],
+  "conditions": [
+    "all_highlights",
+    "contextual_highlights",
+    "no_highlights"
+  ],
+  "createdAt": "2026-04-05T01:07:19.319Z",
+  "step": "reading_1",
+  "demographicResponses": {
+    "age": "B",
+    "field": "sdf",
+    "reading_freq": 5,
+    "highlight_exp": "A"
+  },
+  "tasks": [
+    {
+      "paperKey": "paper2",
+      "condition": "all_highlights",
+      "priorPapers": [],
+      "startedAt": "2026-04-05T01:07:27.398Z",
+      "completedAt": "2026-04-05T01:07:34.972Z",
+      "attempts": [
+        {
+          "submittedAt": "2026-04-05T01:07:34.966Z",
+          "answers": {
+            "p2q2": "B",
+            "p2q1": "A"
+          },
+          "scores": {
+            "p2q1": true,
+            "p2q2": true
+          }
+        }
+      ],
+      "perQuestionTimeSeconds": {
+        "p2q2": 6,
+        "p2q1": 7
+      },
+      "firstAttemptCorrect": {
+        "p2q1": true,
+        "p2q2": true
+      },
+      "finalAnswers": {
+        "p2q2": "B",
+        "p2q1": "A"
+      }
+    },
+    {
+      "paperKey": "paper3",
+      "condition": "contextual_highlights",
+      "priorPapers": [],
+      "startedAt": "2026-04-05T01:07:40.981Z",
+      "completedAt": null,
+      "attempts": [],
+      "perQuestionTimeSeconds": null,
+      "firstAttemptCorrect": null,
+      "finalAnswers": null
+    }
+  ],
+  "questionnaireResponses": [
+    {
+      "paperKey": "paper2",
+      "submittedAt": "2026-04-05T01:07:39.265Z",
+      "responses": {
+        "p2diff1": 3,
+        "p2diff2": 3,
+        "p2ease": 6
+      }
+    }
+  ],
+  "finalResponses": null,
+  "completedAt": null,
+  "questionOrders": {
+    "paper2": [
+      "p2q3",
+      "p2q2",
+      "p2q1"
+    ],
+    "paper3": [
+      "p3q1",
+      "p3q3",
+      "p3q2"
+    ],
+    "paper1": [
+      "p1q2",
+      "p1q1",
+      "p1q3"
+    ]
+  },
+  "optionOrders": {
+    "paper2": {
+      "p2q1": [
+        "D",
+        "A",
+        "B",
+        "C"
+      ],
+      "p2q2": [
+        "B",
+        "A",
+        "C",
+        "D"
+      ]
+    },
+    "paper3": {
+      "p3q1": [
+        "B",
+        "D",
+        "C",
+        "A"
+      ],
+      "p3q2": [
+        "B",
+        "C",
+        "A",
+        "D"
+      ]
+    },
+    "paper1": {
+      "p1q1": [
+        "C",
+        "A",
+        "B",
+        "D"
+      ],
+      "p1q2": [
+        "A",
+        "B",
+        "D",
+        "C"
+      ]
+    }
+  }
+}

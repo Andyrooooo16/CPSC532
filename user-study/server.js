@@ -129,15 +129,23 @@ function computePriorPapers(session, paperIndex) {
   return prior;
 }
 
+// Get the filename stem for a paper key (e.g. "CiteSee" from "CiteSee.pdf").
+function paperStem(paperKey) {
+  const filename = config.papers[paperKey]?.filename ?? paperKey;
+  return filename.replace(/\.[^.]+$/, '');
+}
+
 // Build the highlight cache key for a paper/condition/priorPapers combo.
+// Must match the naming used by generate_highlights.py (stem-based).
 function highlightKey(paperKey, condition, priorPapers) {
   if (condition === 'no_highlights') return null;
-  if (condition === 'all_highlights') return `${paperKey}_all`;
-  // contextual_highlights
-  const sorted = [...priorPapers].sort();
-  return sorted.length === 0
-    ? `${paperKey}_ctx_`
-    : `${paperKey}_ctx_${sorted.join('-')}`;
+  const stem = paperStem(paperKey);
+  if (condition === 'all_highlights') return `${stem}_all`;
+  // contextual_highlights — prior papers also referenced by their stems
+  const sortedStems = [...priorPapers].map(paperStem).sort();
+  return sortedStems.length === 0
+    ? `${stem}_ctx_`
+    : `${stem}_ctx_${sortedStems.join('_')}`;
 }
 
 // Fisher-Yates shuffle (returns a new array).

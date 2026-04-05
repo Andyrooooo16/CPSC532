@@ -63,10 +63,11 @@ export async function renderPdf({ container, url, highlights = [] }) {
 
     // Draw highlight overlay on the canvas
     const pageHighlights = highlights.filter(h => h.page === pageNum);
-    if (pageHighlights.length > 0) {
+    const visibleHighlights = pageHighlights.filter(h => h.label !== 'NONE');
+    if (visibleHighlights.length > 0) {
       ctx.save();
       const s = SCALE * dpr;
-      for (const h of pageHighlights) {
+      for (const h of visibleHighlights) {
         ctx.fillStyle = LABEL_COLORS[h.label] ?? LABEL_COLORS.DEFAULT;
         for (const rect of h.rects) {
           // rect is [x0, y0, x1, y1] in PyMuPDF space: top-left origin, y increases downward.

@@ -101,66 +101,46 @@ def rank_novel(
     read_embeddings: np.ndarray,
     top_k_fraction: float = 0.20,
     novelty_lambda: float = 0.5,
-    sim_mode: str = "max",  # "max" | "mean"
-    threshold: float | None = None,
 ) -> list[dict]:
     """
-    Rank target sentences by novelty-penalized PageRank score.
+    Re-rank target sentences using read-history novelty, returning top-k by score.
 
-    Instead of letting read sentences compete for top-k slots (global_top_k),
-    this always selects top-k from target sentences only, but penalizes sentences
-    that are similar to already-read content:
+    Scoring:
+        final_score[i] = pr_target[i] - lambda * pr_combined_norm[i]
 
-        final_score = pagerank_score - lambda * sim_to_read
-
-    where sim_to_read is either max or mean cosine similarity to read sentences.
-
-    If threshold is set, any target sentence with sim_to_read >= threshold is
-    excluded entirely regardless of lambda (hard suppression).
+    where pr_target is PageRank over target sentences only, and pr_combined_norm
+    is the normalized PageRank from the target+read graph (target slice, renormed).
+    Sentences similar to already-read content are pulled down in the ranking.
 
     Args:
-        novelty_lambda: Weight of the similarity penalty (0 = no pruning, 1 = full penalty).
-        sim_mode:       "max" uses max similarity to any read sentence;
-                        "mean" uses mean similarity across all read sentences.
-        threshold:      If set, hard-exclude sentences above this similarity (0.0–1.0).
+        novelty_lambda: Re-ranking strength. 0 = pure PageRank, higher = stronger
+                        penalty for sentences similar to read content.
     """
     n_target = len(target_sentences)
     n_read   = len(read_sentences)
 
-    # PageRank on target sentences only (not influenced by read graph size)
+    # Step 1: PageRank on target sentences only
     print(f"  Building similarity matrix ({n_target} target sentences)...")
     target_sim = _cosine_similarity_matrix(target_embeddings)
-    print("  Running PageRank...")
-    pagerank_scores = _pagerank(target_sim)
-
-    # Compute similarity of each target sentence to read corpus
-    if n_read > 0:
-        t_norms = np.linalg.norm(target_embeddings, axis=1, keepdims=True)
-        t_norms = np.where(t_norms == 0, 1e-9, t_norms)
-        r_norms = np.linalg.norm(read_embeddings, axis=1, keepdims=True)
-        r_norms = np.where(r_norms == 0, 1e-9, r_norms)
-        t_normed = target_embeddings / t_norms   # (n_target, d)
-        r_normed = read_embeddings   / r_norms   # (n_read, d)
-        sim_to_read = t_normed @ r_normed.T      # (n_target, n_read)
-
-        if sim_mode == "max":
-            read_penalty = sim_to_read.max(axis=1)   # (n_target,)
-        else:
-            read_penalty = sim_to_read.mean(axis=1)  # (n_target,)
-    else:
-        read_penalty = np.zeros(n_target)
-
-    final_scores = pagerank_scores - novelty_lambda * read_penalty
-
-    # Hard threshold: exclude sentences too similar to read content
-    if threshold is not None and n_read > 0:
-        mask = read_penalty >= threshold
-        final_scores[mask] = -np.inf
+    print("  Running PageRank (target only)...")
+    pr_target = _pagerank(target_sim)
 
     top_k = max(1, int(n_target * top_k_fraction))
-    ranked_indices = np.argsort(final_scores)[::-1][:top_k].tolist()
-    # Filter out hard-excluded sentences
-    ranked_indices = [i for i in ranked_indices if final_scores[i] > -np.inf]
+
+    # Step 2: PageRank on target + read sentences combined
+    if n_read > 0:
+        print(f"  Running PageRank (target + {n_read} read sentences)...")
+        all_embeddings   = np.vstack([target_embeddings, read_embeddings])
+        combined_sim     = _cosine_similarity_matrix(all_embeddings)
+        pr_combined_raw  = _pagerank(combined_sim)[:n_target]
+        pr_combined_norm = pr_combined_raw / (pr_combined_raw.sum() + 1e-9)
+
+        final_scores    = pr_target - novelty_lambda * pr_combined_norm
+        ranked_indices  = np.argsort(final_scores)[::-1][:top_k].tolist()
+    else:
+        # No read sentences — pure PageRank, exactly k results
+        final_scores   = pr_target
+        ranked_indices = np.argsort(final_scores)[::-1][:top_k].tolist()
 
     results = []
     for rank_position, idx in enumerate(ranked_indices, start=1):
@@ -170,7 +150,6 @@ def rank_novel(
             "confidence": round(float(target_confidences[idx]), 4),
             "rank":       rank_position,
             "score":      round(float(final_scores[idx]), 6),
-            "read_sim":   round(float(read_penalty[idx]), 4),
         })
 
     return results

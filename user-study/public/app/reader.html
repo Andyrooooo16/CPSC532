@@ -8,6 +8,38 @@
   <link rel="stylesheet" href="/app/app.css">
   <style>
     html, body { overflow: hidden; }
+
+    #legend {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px 12px;
+      padding: 10px 12px;
+      background: #f8f9fa;
+      border-bottom: 1px solid var(--border);
+      font-size: 12px;
+    }
+    #legend-title {
+      width: 100%;
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--text-muted);
+      margin-bottom: 2px;
+    }
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      color: var(--text);
+    }
+    .legend-swatch {
+      width: 14px;
+      height: 14px;
+      border-radius: 3px;
+      flex-shrink: 0;
+      border: 1px solid rgba(0,0,0,0.15);
+    }
   </style>
 </head>
 <body>
@@ -33,6 +65,14 @@
   <!-- Questions Panel (right) -->
   <div id="questions-panel">
     <div id="questions-topbar">Task Questions</div>
+    <div id="legend" style="display:none">
+      <div id="legend-title">Highlight Legend</div>
+      <div class="legend-item"><div class="legend-swatch" style="background:rgba(144,238,144,0.7)"></div>Objective</div>
+      <div class="legend-item"><div class="legend-swatch" style="background:rgba(255,200,80,0.7)"></div>Background</div>
+      <div class="legend-item"><div class="legend-swatch" style="background:rgba(100,180,255,0.7)"></div>Methods</div>
+      <div class="legend-item"><div class="legend-swatch" style="background:rgba(255,150,150,0.7)"></div>Results</div>
+      <div class="legend-item"><div class="legend-swatch" style="background:rgba(200,150,255,0.7)"></div>Conclusions</div>
+    </div>
     <div id="questions-body">
       <div class="instructions" id="task-instructions">Loading…</div>
       <div id="error-banner" class="banner banner-error" style="display:none"></div>
@@ -73,6 +113,10 @@
     fetch(`/api/session/${sessionId}/questions`).then(r => r.json()),
     fetch(`/api/session/${sessionId}/highlights`).then(r => r.json()).catch(() => []),
   ]);
+
+  if (highlights.length > 0) {
+    document.getElementById('legend').style.display = 'flex';
+  }
 
   document.getElementById('task-instructions').textContent = qData.taskInstructions || '';
   const questionsContainer = document.getElementById('questions-container');
