@@ -531,7 +531,7 @@
       },
       {
         "id": "fq_use_in_workflow",
-        "text": "How likely would you be to use a system like this in your own paper-reading workflow?",
+        "text": "How likely would you be to use a system like this in your own reading workflow?",
         "type": "likert",
         "scale": {
           "min": 1,
