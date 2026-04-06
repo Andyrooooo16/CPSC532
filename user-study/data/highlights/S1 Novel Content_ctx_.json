@@ -10,7 +10,7 @@
       ]
     ],
     "text": "Annu.",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 9,
@@ -23,7 +23,7 @@
       ]
     ],
     "text": "Narrative 27, 30\u201346 (2019).",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 8,
@@ -42,7 +42,7 @@
       ]
     ],
     "text": "J.",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 1,
@@ -55,7 +55,7 @@
       ]
     ],
     "text": "Sci.",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 9,
@@ -68,7 +68,7 @@
       ]
     ],
     "text": "S. Palan, C. Schitter, Prolific.ac\u2014A subject pool for online experiments.",
-    "label": "NONE"
+    "label": "METHODS"
   },
   {
     "page": 9,
@@ -100,7 +100,7 @@
       ]
     ],
     "text": "Proc.",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 9,
@@ -119,7 +119,7 @@
       ]
     ],
     "text": "Rev.",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 9,
@@ -132,7 +132,7 @@
       ]
     ],
     "text": "Leadersh.",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 9,
@@ -145,7 +145,7 @@
       ]
     ],
     "text": "Exp.",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 1,
@@ -158,7 +158,7 @@
       ]
     ],
     "text": "Adv.",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 1,
@@ -209,7 +209,7 @@
       ]
     ],
     "text": "Nat.",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 9,
@@ -222,7 +222,7 @@
       ]
     ],
     "text": "Q.",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 9,
@@ -254,7 +254,7 @@
       ]
     ],
     "text": "Fig.",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 9,
@@ -267,7 +267,7 @@
       ]
     ],
     "text": "27.",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 9,
@@ -286,7 +286,7 @@
       ]
     ],
     "text": "2, 157\u2013160 \n(2020).",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 9,
@@ -305,7 +305,7 @@
       ]
     ],
     "text": "M. Raj, J. Berg, R. Seamans, Art-\u00adificial intelligence: The effect of AI disclosure on \nevaluations of creative content.",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 9,
@@ -337,7 +337,7 @@
       ]
     ],
     "text": "25.",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 2,
@@ -363,7 +363,7 @@
       ]
     ],
     "text": "Inform.",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 9,
@@ -382,7 +382,7 @@
       ]
     ],
     "text": "iScience \n23, 101515 (2020).",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 9,
@@ -414,7 +414,7 @@
       ]
     ],
     "text": "Z. Epstein, A.",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 4,
@@ -427,7 +427,7 @@
       ]
     ],
     "text": "26.",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 9,
@@ -440,7 +440,7 @@
       ]
     ],
     "text": "15, 659\u2013688 (2023).",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 9,
@@ -459,7 +459,7 @@
       ]
     ],
     "text": "w31422) (National Bureau of \nEconomic Research, 2023).",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 9,
@@ -472,7 +472,7 @@
       ]
     ],
     "text": "3\u201345.",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 9,
@@ -485,7 +485,7 @@
       ]
     ],
     "text": "w30957) (National Bureau of Economic Research, 2023).",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 9,
@@ -498,7 +498,7 @@
       ]
     ],
     "text": "w30886) (National Bureau of Economic Research, 2023).",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 9,
@@ -517,6 +517,6 @@
       ]
     ],
     "text": "E. van Inwegen, Z. T. Munyikwa, J. J. Horton, Algorithmic Writing Assistance on Jobseekers\u2019 \nResumes Increases Hires (No.",
-    "label": "NONE"
+    "label": "BACKGROUND"
   }
 ]

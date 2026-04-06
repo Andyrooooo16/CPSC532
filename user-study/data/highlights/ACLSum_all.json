@@ -104,7 +104,7 @@
       ]
     ],
     "text": "We take research papers published in five major\nNLP conferences, namely ACL, NAACL, EMNLP,\nEACL, and AACL from 1974 to 2022, and use\nGrobid (Lope, 2008\u20132023) to extract Abstract, Introduction, and Conclusion (AIC) sections from\nPDF files.",
-    "label": "NONE"
+    "label": "METHODS"
   },
   {
     "page": 3,
@@ -210,7 +210,7 @@
       ]
     ],
     "text": "To address this issue, we present ACLSUM, a\nnovel summarization dataset carefully crafted\nand evaluated by domain experts.",
-    "label": "NONE"
+    "label": "METHODS"
   },
   {
     "page": 10,
@@ -321,7 +321,7 @@
       ]
     ],
     "text": "Aspect\nRelevance\nCoherence Challenge\n4.86\n4.34\nApproach\n5.00\n4.04\nOutcome\n5.00\n4.26 Table 2: Manual validation of extractive aspect annotations on a 1-5 Likert scale.",
-    "label": "NONE"
+    "label": "RESULTS"
   },
   {
     "page": 2,
@@ -558,7 +558,7 @@
       ]
     ],
     "text": "An extensive and fine-grained evaluation of\nPLM systems and instruction-tuned LLMs on\naspect-based summarization of scientific papers.",
-    "label": "NONE"
+    "label": "METHODS"
   },
   {
     "page": 10,
@@ -583,7 +583,7 @@
       ]
     ],
     "text": "In Proceedings of\nSecond Workshop for NLP Open Source Software\n(NLP-OSS), pages 120\u2013125, Online.",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 7,
@@ -808,7 +808,7 @@
       ]
     ],
     "text": "We carry out separate training procedures\nfor each aspect for both approaches.",
-    "label": "NONE"
+    "label": "METHODS"
   },
   {
     "page": 7,
@@ -889,7 +889,7 @@
       ]
     ],
     "text": "Due to\nthe increasing number of published papers in the\nlast decade, random sampling would be biased towards recent publications.",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 10,

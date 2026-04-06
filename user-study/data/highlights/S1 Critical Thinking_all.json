@@ -244,7 +244,7 @@
       ]
     ],
     "text": "(If selected No in Q6) (a) What prevented you from applying critical thinking strate- gies when doing this task with GenAI?",
-    "label": "NONE"
+    "label": "OBJECTIVE"
   },
   {
     "page": 15,
@@ -811,7 +811,7 @@
       ]
     ],
     "text": "P147 used \u201cDall-E for indirect \npurposes (visual reference), [so] there\u2019s no need to over-correct what \nthe AI outputs.\u201d Likewise, participants do not enact critical thinking when the task is perceived to be trivial and insignificant \n(55/319), such as writing social media posts (P239) and meeting \nminutes summary (P271).",
-    "label": "NONE"
+    "label": "RESULTS"
   },
   {
     "page": 21,
@@ -1390,7 +1390,7 @@
       ]
     ],
     "text": "To that end, our study provides \na valuable baseline for understanding critical thinking in the context of current GenAI tools.",
-    "label": "NONE"
+    "label": "CONCLUSIONS"
   },
   {
     "page": 10,
@@ -1979,7 +1979,7 @@
       ]
     ],
     "text": "In line with recent projections that more accessible GenAI tools may exacerbate the risks of technology over-reliance [29, 102, 130], \nour results provide empirical evidence that knowledge workers\u2019 \nconfidence in AI doing the tasks indeed negatively correlates with \ntheir enaction of critical thinking (\ud835\udefd=-0.69, \ud835\udc5d < 0.001).",
-    "label": "NONE"
+    "label": "RESULTS"
   },
   {
     "page": 15,
@@ -2280,7 +2280,7 @@
       ]
     ],
     "text": "However, based on our \nevidence, it is possible that fostering workers\u2019 domain expertise and \nassociated self-confidence may result in improved critical thinking \nwhen using GenAI.",
-    "label": "NONE"
+    "label": "CONCLUSIONS"
   },
   {
     "page": 16,
@@ -2497,7 +2497,7 @@
       ]
     ],
     "text": "Future work should \nexplore this subjective/objective distinction in the context of critical \nthinking with GenAI in knowledge work.",
-    "label": "NONE"
+    "label": "CONCLUSIONS"
   },
   {
     "page": 3,
@@ -2654,7 +2654,7 @@
       ]
     ],
     "text": "With respect to RQ1 (Section 4), the study reveals that knowledge \nworkers engage in critical thinking when using GenAI tools primarily to ensure the quality of their work.",
-    "label": "NONE"
+    "label": "RESULTS"
   },
   {
     "page": 13,
@@ -3208,7 +3208,7 @@
       ]
     ],
     "text": "Journal of Humanities and Social Sciences Studies 2, 3 \n(2020), 23\u201331.",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 3,
@@ -3365,7 +3365,7 @@
       ]
     ],
     "text": "\u2022 We describe the development and deployment of a survey \nfor gathering empirical evidence for knowledge workers\u2019 \nexperiences and perceptions of the effect of GenAI on critical thinking (Section 3).",
-    "label": "NONE"
+    "label": "METHODS"
   },
   {
     "page": 14,
@@ -3763,7 +3763,7 @@
       ]
     ],
     "text": "\u2022 Drawing from our survey insights, we highlight how the \nuse of GenAI tools creates new challenges for critical thinking.",
-    "label": "NONE"
+    "label": "RESULTS"
   },
   {
     "page": 15,
@@ -3932,7 +3932,7 @@
       ]
     ],
     "text": "Our findings shed light \non this issue in the context of GenAI-assisted knowledge work.",
-    "label": "NONE"
+    "label": "CONCLUSIONS"
   },
   {
     "page": 14,
@@ -4089,7 +4089,7 @@
       ]
     ],
     "text": "Participants perceived these activities, overall, to \nrequire less effort due to GenAI tools.",
-    "label": "NONE"
+    "label": "RESULTS"
   },
   {
     "page": 10,
@@ -4402,7 +4402,7 @@
       ]
     ],
     "text": "Our \nqualitative analysis (see Section 4.3) finds that participants enacted \ncritical thinking when trying to improve the quality and mitigate \nthe negative consequences of AI responses.",
-    "label": "NONE"
+    "label": "RESULTS"
   },
   {
     "page": 4,
@@ -4559,7 +4559,7 @@
       ]
     ],
     "text": "There are domains and activities, some of which are relevant to \ncommon knowledge workflows, where critical thinking interventions have been heavily studied.",
-    "label": "NONE"
+    "label": "CONCLUSIONS"
   },
   {
     "page": 7,
@@ -4776,7 +4776,7 @@
       ]
     ],
     "text": "\u2014 were answered via both quantitative and qualitative analysis (See \nFigure 1 for an overview of our approach).",
-    "label": "NONE"
+    "label": "METHODS"
   },
   {
     "page": 3,
@@ -5647,7 +5647,7 @@
       ]
     ],
     "text": "In this paper, we aim to address this gap by conducting a survey \nof a professionally diverse set of knowledge workers (\ud835\udc5b = 319), \neliciting detailed real-world examples of tasks (936) for which they \nuse GenAI, and directly measuring their perceptions of critical \nthinking during these tasks: when is critical thinking necessary, \nhow is critical thinking enacted, whether GenAI tools affect the \neffort of critical thinking, and to what extent (Section 3).",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 3,
@@ -5792,7 +5792,7 @@
       ]
     ],
     "text": "But the ostensible shifts in critical thinking behaviours \nbrought about by GenAI extend to a broad set of professions and \nknowledge workflows \u2014 GenAI tools are now widely used in knowledge work [13] \u2014 and little is known about the critical thinking \ndemands of these.",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 14,
@@ -6238,7 +6238,7 @@
       ]
     ],
     "text": "(If selected Yes in Q6) (a) What type of reflective/critical thinking tactic(s) did you \ndo to for this task in GenAI?",
-    "label": "NONE"
+    "label": "METHODS"
   },
   {
     "page": 22,
@@ -6347,7 +6347,7 @@
       ]
     ],
     "text": "What GenAI tools do you use in your work?",
-    "label": "NONE"
+    "label": "OBJECTIVE"
   },
   {
     "page": 21,
@@ -6714,7 +6714,7 @@
       ]
     ],
     "text": "(iii) Reflecting on how knowledge is applied, such as consid- ering whether AI correctly understood and applied any \nhigh-level concepts in your work, and reflecting on your \nown application of knowledge.",
-    "label": "NONE"
+    "label": "METHODS"
   },
   {
     "page": 11,
@@ -7160,7 +7160,7 @@
       ]
     ],
     "text": "Our data provides complementary evidence that \nthis also occurs in real-world use of GenAI tools, across a wide \nvariety of tasks and professions.",
-    "label": "NONE"
+    "label": "CONCLUSIONS"
   },
   {
     "page": 21,
@@ -7329,7 +7329,7 @@
       ]
     ],
     "text": "[Free response] \n(d) How did you learn to apply critical/reflective thinking \nwhen using GenAI?",
-    "label": "NONE"
+    "label": "METHODS"
   },
   {
     "page": 3,
@@ -7582,7 +7582,7 @@
       ]
     ],
     "text": "The data shows a shift in cognitive effort as knowledge workers \nincreasingly move from task execution to oversight when using \nGenAI.",
-    "label": "NONE"
+    "label": "CONCLUSIONS"
   },
   {
     "page": 21,
@@ -7787,7 +7787,7 @@
       ]
     ],
     "text": "You assess whether these \nelements are integrated in a way that offers a novel and \nfeasible approach.)",
-    "label": "NONE"
+    "label": "OBJECTIVE"
   },
   {
     "page": 15,
@@ -8004,7 +8004,7 @@
       ]
     ],
     "text": "However, participants noted that the reduced effort in Synthesis \ncould lead to less critical engagement with the task.",
-    "label": "NONE"
+    "label": "RESULTS"
   },
   {
     "page": 14,
@@ -8582,7 +8582,7 @@
       ]
     ],
     "text": "Finally, critical thinking is perceived to be less effort \nbecause GenAI tools provide personalised feedback loops for \ntasks (40/319) that users otherwise do not have access to.",
-    "label": "NONE"
+    "label": "RESULTS"
   },
   {
     "page": 2,
@@ -8967,7 +8967,7 @@
       ]
     ],
     "text": "In response, research has begun looking closely at how different \nactivities are impacted by GenAI and the extent to which cognitive \noffloading [8] occurs, and whether this may be an undesirable \nthing.",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 13,
@@ -9701,7 +9701,7 @@
       ]
     ],
     "text": "We also analysed participants\u2019 free-text responses to \nunderstand why they perceived these cognitive activities as more \nor less effortful due to GenAI.",
-    "label": "NONE"
+    "label": "OBJECTIVE"
   },
   {
     "page": 4,
@@ -9906,7 +9906,7 @@
       ]
     ],
     "text": "We also lack empirical foundations for understanding how \nknowledge workers enact critical thinking in real-world GenAI \nworkflows.",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 16,
@@ -10159,7 +10159,7 @@
       ]
     ],
     "text": "In future work, longitudinal studies \ntracking changes in AI usage patterns and their impact on critical \nthinking processes would be beneficial.",
-    "label": "NONE"
+    "label": "CONCLUSIONS"
   },
   {
     "page": 18,
@@ -10268,7 +10268,7 @@
       ]
     ],
     "text": "Academy of Management Annals 14, \n2 (July 2020), 627\u2013660.",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 14,
@@ -11146,7 +11146,7 @@
       ]
     ],
     "text": "Have you ever done any reflective/critical thinking (e.g., \nreflect on your use and the outputs you got from LLM tools) \nwhen doing this task with GenAI tool?",
-    "label": "NONE"
+    "label": "OBJECTIVE"
   },
   {
     "page": 8,
@@ -11603,7 +11603,7 @@
       ]
     ],
     "text": "While our participants worked \nacross diverse occupations, the common denominator was that \nthey viewed critical thinking in their GenAI tool use as cognitive \nactivities performed to ensure the quality of AI responses, and \nintentionality while using the tools.",
-    "label": "NONE"
+    "label": "RESULTS"
   },
   {
     "page": 7,
@@ -12097,7 +12097,7 @@
       ]
     ],
     "text": "Quantitatively, when considering both task- and user-specific \nfactors, a user\u2019s task-specific self-confidence and confidence in \nGenAI are predictive of whether critical thinking is enacted and \nthe effort of doing so in GenAI-assisted tasks.",
-    "label": "NONE"
+    "label": "CONCLUSIONS"
   },
   {
     "page": 21,
@@ -12819,7 +12819,7 @@
       ]
     ],
     "text": "To that end, our work suggests that GenAI tools need \nto be designed to support knowledge workers\u2019 critical thinking by \naddressing their awareness, motivation, and ability barriers.",
-    "label": "NONE"
+    "label": "CONCLUSIONS"
   },
   {
     "page": 16,
@@ -13060,7 +13060,7 @@
       ]
     ],
     "text": "Firstly, we observed that participants \noccasionally conflated reduced effort in using GenAI with reduced \neffort in critical thinking with GenAI.",
-    "label": "NONE"
+    "label": "RESULTS"
   },
   {
     "page": 13,
@@ -13241,7 +13241,7 @@
       ]
     ],
     "text": "Questions I had related to the \nprocedures were answered by the GenAI, and it helped me to know \nbetter this new standard.\u201d \nHowever, many participants shared examples when they perceived more effort in information retrieval because the AI response \ncan be wrong and needs verification (56/319).",
-    "label": "NONE"
+    "label": "RESULTS"
   },
   {
     "page": 2,
@@ -13638,7 +13638,7 @@
       ]
     ],
     "text": "We survey 319 knowledge workers to investigate 1) when and \nhow they perceive the enaction of critical thinking when using \nGenAI, and 2) when and why GenAI affects their effort to do so.",
-    "label": "NONE"
+    "label": "METHODS"
   },
   {
     "page": 19,
@@ -13687,7 +13687,7 @@
       ]
     ],
     "text": "Current Psychology (2024), 1\u201310.",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 7,
@@ -14204,7 +14204,7 @@
       ]
     ],
     "text": "Our participants self-reported to have enacted \ncritical thinking for 555 (59.29%) of the examples they shared, and \nperceived critical thinking activities, overall, to require less effort \nwhen using a GenAI tool compared to when not using one (see DV \ndistribution in Table 4).",
-    "label": "NONE"
+    "label": "RESULTS"
   },
   {
     "page": 21,
@@ -14758,7 +14758,7 @@
       ]
     ],
     "text": "We mapped our findings to each phase of knowledge workers\u2019 \nGenAI tool workflow.",
-    "label": "NONE"
+    "label": "METHODS"
   },
   {
     "page": 5,
@@ -15372,7 +15372,7 @@
       ]
     ],
     "text": "Concretely, we aim to answer two research questions: RQ1 When and how do knowledge workers perceive the enaction \nof critical thinking when using GenAI?",
-    "label": "NONE"
+    "label": "OBJECTIVE"
   },
   {
     "page": 12,
@@ -15926,7 +15926,7 @@
       ]
     ],
     "text": "Analysing 936 \nreal-world GenAI tool use examples our participants shared, we \nfind that knowledge workers engage in critical thinking primarily \nto ensure the quality of their work, e.g.",
-    "label": "NONE"
+    "label": "RESULTS"
   },
   {
     "page": 4,
@@ -17394,7 +17394,7 @@
       ]
     ],
     "text": "Participants shared that \ntheir critical thinking was driven by the potential negative outcomes of their use of GenAI.",
-    "label": "NONE"
+    "label": "RESULTS"
   },
   {
     "page": 9,
@@ -18032,7 +18032,7 @@
       ]
     ],
     "text": "We discuss key findings for each type of factor, in turn.",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 12,
@@ -18381,7 +18381,7 @@
       ]
     ],
     "text": "In this section, we organised the \nfindings by highlighting the three types of critical thinking barriers \nintroduced by the use of GenAI tools \u2014 i.e., awareness, motivation, \nand ability.",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 5,
@@ -19168,7 +19168,7 @@
       ]
     ],
     "text": "3 Method To answer our research questions \u2014 when and how knowledge \nworkers perceive the enaction of critical thinking when using \nGenAI (RQ1), and when and why do knowledge workers perceive \nincreased/decreased effort for critical thinking due to GenAI (RQ2) \n\u2014 we conducted an online survey on the Prolific platform2 to study \nknowledge workers\u2019 experiences with critical thinking when using \nGenAI tools for their work.",
-    "label": "NONE"
+    "label": "OBJECTIVE"
   },
   {
     "page": 5,
@@ -19613,7 +19613,7 @@
       ]
     ],
     "text": "In total, we received 319 survey responses, in which participants \nshared a total of 936 real-world examples where they used a GenAI \ntool for their work, and shared how critical thinking played a role \nin these tasks.",
-    "label": "NONE"
+    "label": "RESULTS"
   },
   {
     "page": 12,
@@ -19794,7 +19794,7 @@
       ]
     ],
     "text": "Participants report \nbarriers to inspect AI responses (58/319), such as not possessing \nenough domain knowledge.",
-    "label": "NONE"
+    "label": "RESULTS"
   },
   {
     "page": 16,
@@ -20023,7 +20023,7 @@
       ]
     ],
     "text": "We observed \nthat the use of GenAI tools shifts the knowledge workers\u2019 perceived \ncritical thinking effort in three ways.",
-    "label": "NONE"
+    "label": "CONCLUSIONS"
   },
   {
     "page": 10,
@@ -20324,7 +20324,7 @@
       ]
     ],
     "text": "Prior work has suggested GenAI requires \nknowledge workers to perform \u201ccritical integration\u201d [114]: the work \nof editing and incorporating GenAI output into a broader workflow.",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 1,
@@ -20343,7 +20343,7 @@
       ]
     ],
     "text": "The Impact of Generative \nAI on Critical Thinking: Self-Reported Reductions in Cognitive Effort and This work is licensed under a Creative Commons Attribution 4.0 International License.",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 12,
@@ -20458,7 +20458,7 @@
       ]
     ],
     "text": "Complementing our quantitative findings, knowledge workers\u2019 \ntrust and reliance on GenAI (83/319) doing the task can discourage them from critically reflecting on their use of the tools.",
-    "label": "NONE"
+    "label": "CONCLUSIONS"
   },
   {
     "page": 4,
@@ -20585,7 +20585,7 @@
       ]
     ],
     "text": "To mitigate this, using GenAI for individualised, content-focused \nfeedback may help novice writers develop writing skills while improving productivity [58, 86, 144].",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 7,
@@ -20802,7 +20802,7 @@
       ]
     ],
     "text": "Our 319 participants shared \na total of 957 real-world examples of their use of GenAI tools at \nwork.",
-    "label": "NONE"
+    "label": "RESULTS"
   },
   {
     "page": 6,
@@ -20947,7 +20947,7 @@
       ]
     ],
     "text": "This \ncriterion ensured the study focused on knowledge workers with \ndirect, ongoing experience integrating GenAI tools into their dayto-day work tasks.",
-    "label": "NONE"
+    "label": "METHODS"
   },
   {
     "page": 16,
@@ -21104,7 +21104,7 @@
       ]
     ],
     "text": "Some cognitive tasks remain, but have evolved in their nature due \nto GenAI.",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 15,
@@ -21237,7 +21237,7 @@
       ]
     ],
     "text": "Task confidence significantly influences how users engage with AI tools, particularly in the context of humanAI \u201ccollaboration\u201d (notwithstanding objections to that term [113]).",
-    "label": "NONE"
+    "label": "CONCLUSIONS"
   },
   {
     "page": 14,
@@ -21418,7 +21418,7 @@
       ]
     ],
     "text": "Participants reported reduced effort when GenAI tools \nhelped to scaffold complicated tasks and information (48/319).",
-    "label": "NONE"
+    "label": "RESULTS"
   },
   {
     "page": 3,
@@ -21912,7 +21912,7 @@
       ]
     ],
     "text": "Guided by our research questions, we \nopen-coded [23] participants\u2019 free-text responses on i) why they \ndid or did not think critically when using GenAI tool for the task, \nii) why they perceived more or less effort to perform critical thinking activities with the GenAI tool.",
-    "label": "NONE"
+    "label": "METHODS"
   },
   {
     "page": 11,
@@ -22081,7 +22081,7 @@
       ]
     ],
     "text": "This is especially the case when GenAI is applied \nin high-stakes scenarios and workplaces.",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 3,
@@ -22322,7 +22322,7 @@
       ]
     ],
     "text": "Their reflective \napproach involves verifying outputs against external sources and \ntheir own expertise, especially in tasks that require higher accuracy.",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 8,
@@ -22455,7 +22455,7 @@
       ]
     ],
     "text": "We also report on how frequently \nparticipants discussed the identified themes.",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 21,
@@ -23618,7 +23618,7 @@
       ]
     ],
     "text": "We employed quantitative and qualitative analyses, guided by \nour research questions.",
-    "label": "NONE"
+    "label": "METHODS"
   },
   {
     "page": 13,
@@ -24305,7 +24305,7 @@
       ]
     ],
     "text": "Participants face obstacles to enacting critical \nthinking, specifically in verifying and improving GenAI output, \neven if they are otherwise motivated to do so.",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 3,
@@ -24510,7 +24510,7 @@
       ]
     ],
     "text": "RQ2 When and why do knowledge workers perceive increased/ \ndecreased effort for critical thinking due to GenAI?",
-    "label": "NONE"
+    "label": "OBJECTIVE"
   },
   {
     "page": 7,
@@ -24871,7 +24871,7 @@
       ]
     ],
     "text": "After participants shared three examples of using GenAI tools, \nthe survey assessed their overall reflective thinking tendency, trust in GenAI, and demographic details such as gender, age group, and \noccupation.",
-    "label": "NONE"
+    "label": "METHODS"
   },
   {
     "page": 7,
@@ -25606,7 +25606,7 @@
       ]
     ],
     "text": "GenAI tools like ChatGPT and Copilot can mitigate these \ndrawbacks, especially for less experienced learners, by providing \nhigh-quality summaries upon which collaborative, self-monitored \nwriting tasks can be conducted [120, 125].",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 16,
@@ -25727,7 +25727,7 @@
       ]
     ],
     "text": "Additionally, developers of \nGenAI tools can deploy telemetry, within-tool surveys, or experience sampling to their users, to gain more insight into how specific \ntools can evolve to better support critical thinking in different tasks.",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 10,
@@ -25944,7 +25944,7 @@
       ]
     ],
     "text": "Participants \nshared several examples of when the AI response fell short of their \nstandards, and motivated critical revision.",
-    "label": "NONE"
+    "label": "RESULTS"
   },
   {
     "page": 6,
@@ -26233,7 +26233,7 @@
       ]
     ],
     "text": "Finally, participants were asked to elaborate in free-text why they \nhad marked any critical thinking activities as requiring more or \nless effort with GenAI.",
-    "label": "NONE"
+    "label": "METHODS"
   },
   {
     "page": 10,
@@ -26618,7 +26618,7 @@
       ]
     ],
     "text": "While prior work suggests that knowledge \nworkers employ task-dependent strategies for GenAI tool use [13], \nwe did not find a main effect on perceived critical thinking for task \ntype (Creation, Advice, Information).",
-    "label": "NONE"
+    "label": "CONCLUSIONS"
   },
   {
     "page": 4,
@@ -26967,7 +26967,7 @@
       ]
     ],
     "text": "Still, these systems and \ntools do not engage with how the need for critical thinking support \nchanges due to shifts in workflow caused specifically by the use of \nGenAI.",
-    "label": "NONE"
+    "label": "CONCLUSIONS"
   },
   {
     "page": 12,
@@ -27269,7 +27269,7 @@
       ]
     ],
     "text": "International Journal of Instruction \n12, 2 (2019), 209\u2013226.",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 15,
@@ -27414,7 +27414,7 @@
       ]
     ],
     "text": "Finally, design could aim to enhance the ability to execute critical \nthinking.",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 20,
@@ -27499,7 +27499,7 @@
       ]
     ],
     "text": "International Journal of \nHuman\u2013Computer Interaction (2024), 1\u201322.",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 14,
@@ -27849,7 +27849,7 @@
       ]
     ],
     "text": "Did GenAI make your work easier or harder?",
-    "label": "NONE"
+    "label": "OBJECTIVE"
   },
   {
     "page": 3,
@@ -28162,7 +28162,7 @@
       ]
     ],
     "text": "Without knowing how knowledge workers enact critical \nthinking when using GenAI and the associated challenges, we risk \ncreating interventions that do not address workers\u2019 real needs.",
-    "label": "NONE"
+    "label": "CONCLUSIONS"
   },
   {
     "page": 12,
@@ -29640,7 +29640,7 @@
       ]
     ],
     "text": "Surprisingly, while AI can improve efficiency, it may also \nreduce critical engagement, particularly in routine or lower-stakes \ntasks in which users simply rely on AI, raising concerns about \nlong-term reliance and diminished independent problem-solving.",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 3,
@@ -29845,7 +29845,7 @@
       ]
     ],
     "text": "Moreover, we focus on critical thinking for knowledge work (as \nconceptualised by Drucker [30] and Kidd [67]).",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 5,
@@ -30086,7 +30086,7 @@
       ]
     ],
     "text": "In summary, previous work has defined critical thinking and \ninvestigated ways to develop and measure this skill in educational \nsettings.",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 10,
@@ -30387,7 +30387,7 @@
       ]
     ],
     "text": "This suggests that \nknowledge workers who already engage in critical thinking in their \nwork are likely to continue doing so even when using GenAI tools.",
-    "label": "NONE"
+    "label": "CONCLUSIONS"
   },
   {
     "page": 13,
@@ -31349,7 +31349,7 @@
       ]
     ],
     "text": "Cognitive science shows \nthat effective learning requires \u201cgrounding\u201d information through \nmultiple perspectives and examples [10, 11, 68], and GenAI can \noffer personalised analogies to aid this process [77, 90].",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 22,
@@ -31927,7 +31927,7 @@
       ]
     ],
     "text": "Thus, \ncritical thinking interventions for GenAI tools could be positioned \nas contributing to long-term skill development and professional \ngrowth, as opposed to an extraneous \u201cco-auditing\u201d [46] task that is \nonly relevant on a task-by-task basis.",
-    "label": "NONE"
+    "label": "CONCLUSIONS"
   },
   {
     "page": 3,
@@ -32168,7 +32168,7 @@
       ]
     ],
     "text": "They define critical thinking \nas setting clear goals, refining prompts, and assessing AI-generated content to meet specific criteria and standards.",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 2,
@@ -32349,7 +32349,7 @@
       ]
     ],
     "text": "Our insights reveal new design challenges and opportunities for \ndeveloping GenAI tools for knowledge work.",
-    "label": "NONE"
+    "label": "CONCLUSIONS"
   },
   {
     "page": 4,
@@ -32842,7 +32842,7 @@
       ]
     ],
     "text": "A lack of critical thinking may also manifest through accepting a \nsolution that merely meets a baseline aspirational threshold [6, 119] \n\u2014 in such cases, the AI solution is correct (albeit potentially of poor \nquality) and therefore not overreliance, strictly speaking.",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 16,
@@ -33228,7 +33228,7 @@
       ]
     ],
     "text": "GenAI tools can decrease \nknowledge workers\u2019 cognitive load by automating a significant portion of their tasks, but as knowledge workers have more confidence \nin doing the task themselves, they employ more engaged practices \nin steering AI responses, especially when applying (Application) \nand evaluating (Evaluation) AI responses.",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 21,
@@ -33458,7 +33458,7 @@
       ]
     ],
     "text": "However, as emphasised in the generative \nAI metacognitive framework proposed by Tankelevitch et al.",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 14,
@@ -34240,7 +34240,7 @@
       ]
     ],
     "text": "Much research on \nthe effect of GenAI on thinking skills is focused on educational \nsettings, where concern for skill cultivation is most acute (e.g., \nthe effect of GenAI code completion tools on programming and \ncomputer science education [107]).",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 3,
@@ -34433,7 +34433,7 @@
       ]
     ],
     "text": "Recent work has motivated the need for critical thinking support \nin AI-assisted knowledge work [116, 119].",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 17,
@@ -34518,7 +34518,7 @@
       ]
     ],
     "text": "Computers in Human Behavior 48 (2015), 473\u2013480.",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 3,
@@ -34759,7 +34759,7 @@
       ]
     ],
     "text": "We lack broad-based empirical examples of what \nkinds of knowledge work activities are considered by professionals \nto require critical thinking.",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 13,
@@ -34880,7 +34880,7 @@
       ]
     ],
     "text": "5.1 When knowledge workers perceive \nincreased/decreased effort for critical \nthinking due to GenAI In the majority of examples, knowledge workers perceive decreased \neffort for cognitive activities associated with critical thinking when \nusing GenAI compared to not using one \u2014 examples that were reported as \u201cmuch less effort\u201d or \u201cless effort\u201d comprise 72% in Knowledge, 79% in Comprehension, 69% in Application, 72% in Analysis, \n76% in Synthesis, and 55% in Evaluation dataset (See Figure 2).",
-    "label": "NONE"
+    "label": "RESULTS"
   },
   {
     "page": 20,
@@ -34953,7 +34953,7 @@
       ]
     ],
     "text": "Computers & \nEducation 80 (2015), 187\u2013197.",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 16,
@@ -35104,7 +35104,7 @@
       ]
     ],
     "text": "We surveyed 319 knowledge workers who use GenAI tools (e.g., \nChatGPT, Copilot) at work at least once per week, to model how they enact critical thinking when using GenAI tools, and how GenAI \naffects their perceived effort of thinking critically.",
-    "label": "NONE"
+    "label": "METHODS"
   },
   {
     "page": 23,
@@ -35273,7 +35273,7 @@
       ]
     ],
     "text": "RQ1: How do knowledge workers perceive the enaction of critical thinking when using GenAI?",
-    "label": "NONE"
+    "label": "OBJECTIVE"
   },
   {
     "page": 18,
@@ -35430,7 +35430,7 @@
       ]
     ],
     "text": "Opportunities of artificial intelligence for supporting \ncomplex problem-solving: Findings from a scoping review.",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 14,
@@ -35755,7 +35755,7 @@
       ]
     ],
     "text": "Despite the ability for contextual tailoring, participants still \nreported an increased effort in having to apply the responses \n(19/319) to their tasks and to meet specific needs.",
-    "label": "NONE"
+    "label": "RESULTS"
   },
   {
     "page": 5,
@@ -35985,7 +35985,7 @@
       ]
     ],
     "text": "[Yes/No] \n7.",
-    "label": "NONE"
+    "label": "METHODS"
   },
   {
     "page": 18,
@@ -36058,7 +36058,7 @@
       ]
     ],
     "text": "Insight assessment 1, 1 (2011), 1\u201323.",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 22,
@@ -36276,7 +36276,7 @@
       ]
     ],
     "text": "Thus, equipping AI tools with better \nfeedback mechanisms could foster long-term writing skill development while addressing inequalities in access to writing education [2, 79], and enable humans and AI to interact over time to maximise \nboth productivity and learning outcomes [128, 135].",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 3,
@@ -36433,7 +36433,7 @@
       ]
     ],
     "text": "We find that GenAI tools reduce \nthe perceived effort of critical thinking while also encouraging over-reliance on AI, with confidence in the tool often \ndiminishing independent problem-solving.",
-    "label": "NONE"
+    "label": "CONCLUSIONS"
   },
   {
     "page": 15,
@@ -36999,7 +36999,7 @@
       ]
     ],
     "text": "They also enact critical thinking \nby \u201ctaking a step back\u201d to consolidate their goals and queries to the \ntools.",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 15,
@@ -37374,7 +37374,7 @@
       ]
     ],
     "text": "Similarly, while AI simplifies content creation, workers still need \nto spend time aligning outputs with specific needs and quality \nstandards.",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 5,
@@ -37965,7 +37965,7 @@
       ]
     ],
     "text": "In addition, we \nanalysed participants\u2019 motivators and inhibitors for critical thinking \nfrom their free-text responses.",
-    "label": "NONE"
+    "label": "METHODS"
   },
   {
     "page": 7,
@@ -38206,7 +38206,7 @@
       ]
     ],
     "text": "For interpretability, we computed z-scores to standardise \neach numeric user factor (i.e., overall tendency to reflect, overall \ntrust in GenAI).",
-    "label": "NONE"
+    "label": "METHODS"
   },
   {
     "page": 15,
@@ -38447,7 +38447,7 @@
       ]
     ],
     "text": "Conversely, lower self-confidence may lead users to \nrely more on AI, potentially diminishing their critical engagement \nand independent problem-solving skills.",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 17,
@@ -38592,7 +38592,7 @@
       ]
     ],
     "text": "International Journal of Educational Technology in \nHigher Education 21, 1 (2024), 10.",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 22,
@@ -38943,7 +38943,7 @@
       ]
     ],
     "text": "(a) Generally, I trust GenAI.",
-    "label": "NONE"
+    "label": "METHODS"
   },
   {
     "page": 17,
@@ -39028,7 +39028,7 @@
       ]
     ],
     "text": "Thinking skills and Creativity \n12 (2014), 43\u201352.",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 5,
@@ -39510,7 +39510,7 @@
       ]
     ],
     "text": "3, CSCW, Article 72 (nov \n2019), 23 pages.",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 5,
@@ -39637,7 +39637,7 @@
       ]
     ],
     "text": "These acted as \u201ccognitive \npriming\u201d, helping participants better understand the concept of critical thinking, thus soliciting better recognition of critical thinking \nbehaviours in participants\u2019 daily GenAI use.",
-    "label": "NONE"
+    "label": "RESULTS"
   },
   {
     "page": 19,
@@ -39782,7 +39782,7 @@
       ]
     ],
     "text": "The miniature guide to critical thinking \nconcepts and tools (8th edition ed.).",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 15,
@@ -40119,7 +40119,7 @@
       ]
     ],
     "text": "Thus, participants perceived a reduced \neffort needed for Evaluation, as P239 noted: \u201cI can be confident that \neverything is spelt correctly, I don\u2019t need to second guess myself...",
-    "label": "NONE"
+    "label": "RESULTS"
   },
   {
     "page": 10,
@@ -40300,7 +40300,7 @@
       ]
     ],
     "text": "A key motivator for critical \nthinking is to think of ways to improve AI responses.",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 5,
@@ -40451,7 +40451,7 @@
       ]
     ],
     "text": "To ensure participants fully understood the scope and meaning \nof our questions on critical thinking, as part of the survey study \nonboarding, they were introduced to the concept of critical thinking in the context of using GenAI through concrete examples of \nhow critical thinking could be applied at various levels of Bloom\u2019s \ntaxonomy (e.g., checking the tone of generated emails, verifying \nthe accuracy of code snippets, and assessing potential biases in \ndata insights).",
-    "label": "NONE"
+    "label": "METHODS"
   },
   {
     "page": 14,
@@ -40584,7 +40584,7 @@
       ]
     ],
     "text": "This editing process \ncould be time-consuming, particularly when ensuring that technical details were accurate and comprehensible to our target audience.\u201d \nAdditional application effort is incurred when knowledge workers \nintegrate AI-generated content with content from other sources, or \nmisjudge the extent to which GenAI output will be contextualised \nto their scenario.",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 16,
@@ -40705,7 +40705,7 @@
       ]
     ],
     "text": "Conversely, some cognitive tasks become less necessary due to \nGenAI.",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 23,
@@ -42134,7 +42134,7 @@
       ]
     ],
     "text": "Goal and query formation \nCritical thinking motivators \nForm goal \nWork quality \nForm query \nPotential negative outcomes \nSkill development \nInspect response \nEnsure quality through objective criteria \nCritical thinking inhibitors \nEnsure quality through subjective standards \nAwareness barriers \nVerify information by assessing referenced sources \n- use of GenAI tool is secondary \nVerify information by cross-referencing external sources \n- task is perceived to be trivial and insignificant \n- trust and reliance on GenAI \nIntegrate response \nMotivation barriers \nIntegrate partial response \n- lack of time \nModify style to be appropriate for the task \n- not part of their job responsibilities \nAbility barriers \n- barriers to inspect AI responses \n- barriers in revising queries and improving the response RQ2: Why do knowledge workers perceive increased/decreased effort for critical thinking due to GenAI?",
-    "label": "NONE"
+    "label": "RESULTS"
   },
   {
     "page": 15,
@@ -42363,7 +42363,7 @@
       ]
     ],
     "text": "Confidence in AI is associated with reduced critical thinking \neffort, while self-confidence is associated with increased critical \nthinking effort.",
-    "label": "NONE"
+    "label": "CONCLUSIONS"
   },
   {
     "page": 16,
@@ -42532,7 +42532,7 @@
       ]
     ],
     "text": "Lastly, for analysis, \nsynthesis, and evaluation, effort shifts from task execution to task \nstewardship.",
-    "label": "NONE"
+    "label": "CONCLUSIONS"
   },
   {
     "page": 17,
@@ -42725,7 +42725,7 @@
       ]
     ],
     "text": "Knowledge workers face new challenges \nin critical thinking as they incorporate GenAI into their knowledge \nworkflows.",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 4,
@@ -42870,7 +42870,7 @@
       ]
     ],
     "text": "Critical thinking skills can be developed in sequential stages \n[70, 98, 104].",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 4,
@@ -43027,7 +43027,7 @@
       ]
     ],
     "text": "Collectively, these can inform design interventions to support \ncritical thinking for knowledge workers.",
-    "label": "NONE"
+    "label": "CONCLUSIONS"
   },
   {
     "page": 21,
@@ -43701,7 +43701,7 @@
       ]
     ],
     "text": "This conflation often occurred when \nparticipants were satisfied with AI-generated responses, suggesting \nthat when AI produces expected outcomes, users may engage in \nless critical evaluation.",
-    "label": "NONE"
+    "label": "CONCLUSIONS"
   },
   {
     "page": 22,
@@ -44051,7 +44051,7 @@
       ]
     ],
     "text": "We also \nremoved 11 examples for which a participant shared duplicated or \nnon-GenAI tool use examples in their responses.",
-    "label": "NONE"
+    "label": "RESULTS"
   },
   {
     "page": 22,
@@ -44414,7 +44414,7 @@
       ]
     ],
     "text": "The aims are both to improve \nthe quality of AI-assisted tasks and also to empower users to develop their skills and maintain a balanced \u201crelationship\u201d with AI.",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 20,
@@ -44607,7 +44607,7 @@
       ]
     ],
     "text": "Proceedings of the 35th Annual \nConference of the Psychology of Programming Interest Group (PPIG 2024) (2024).",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 16,
@@ -44920,7 +44920,7 @@
       ]
     ],
     "text": "This misconception may stem \nfrom the infrequent contemplation of critical thinking in their daily \ntasks (regardless of whether they use GenAI), potentially leading \nto inaccurate self-reporting.",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 4,
@@ -45053,7 +45053,7 @@
       ]
     ],
     "text": "Early studies suggest that AI-generated \nfeedback can improve writing quality and logical structure, especially for lower-performing students and less confident English \nlearners [79, 101, 128, 135].",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 9,
@@ -45282,7 +45282,7 @@
       ]
     ],
     "text": "Some knowledge workers enacted critical \nthinking by creating or revising prompts to GenAI tools to get the \ndesired response.",
-    "label": "NONE"
+    "label": "RESULTS"
   },
   {
     "page": 12,
@@ -45691,7 +45691,7 @@
       ]
     ],
     "text": "Complementary to the perception of AI as being competent and \ncapable, some participants expressed self-doubt in their ability to \nperform tasks independently, such as verifying grammar in text \n(P101) or composing legal letters (P204).",
-    "label": "NONE"
+    "label": "RESULTS"
   },
   {
     "page": 13,
@@ -45848,7 +45848,7 @@
       ]
     ],
     "text": "However, they perceived more effort in verifying the information \nin the AI response.",
-    "label": "NONE"
+    "label": "RESULTS"
   },
   {
     "page": 12,
@@ -46294,7 +46294,7 @@
       ]
     ],
     "text": "Qualitatively, GenAI shifts the nature of critical thinking toward \ninformation verification, response integration, and task stewardship.",
-    "label": "NONE"
+    "label": "CONCLUSIONS"
   },
   {
     "page": 9,
@@ -46987,7 +46987,7 @@
       ]
     ],
     "text": "Moreover, design research has also been developing \ninterventions that improve the ability of people to think in certain \nways (e.g., [24]).",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 15,
@@ -47325,7 +47325,7 @@
       ]
     ],
     "text": "Emerging perspectives on learning, \nteaching, and technology 41, 4 (2010), 47\u201356.",
-    "label": "NONE"
+    "label": "BACKGROUND"
   },
   {
     "page": 4,
