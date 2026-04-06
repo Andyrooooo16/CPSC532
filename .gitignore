@@ -3,8 +3,9 @@
 __pycache__/
 *.pyc
 
-# Model files (large, downloaded from Colab)
+# Model files
 service/model/
+service/scibert-acl-v3-final/
 *.safetensors
 *.zip
 
@@ -12,5 +13,5 @@ service/model/
 embeddings_cache.npz
 highlights.json
 
-# Kaggle credentials (just in case)
+# Kaggle credentials
 kaggle.json

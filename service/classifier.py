@@ -1,4 +1,6 @@
 import json
+import os
+import sys
 from pathlib import Path
 
 import torch
@@ -7,21 +9,46 @@ from transformers import AutoTokenizer, AutoModelForSequenceClassification
 MODEL_DIR = Path(__file__).parent / "scibert-acl-v3-final"
 BATCH_SIZE = 32
 
+_tokenizer = None
+_model = None
+_id2label = None
+_stub_classify = False
 
-def _load_model():
-    tokenizer = AutoTokenizer.from_pretrained(MODEL_DIR)
-    model = AutoModelForSequenceClassification.from_pretrained(MODEL_DIR)
-    model.eval()
+
+def _weights_present() -> bool:
+    return (MODEL_DIR / "model.safetensors").exists() or (MODEL_DIR / "pytorch_model.bin").exists()
+
+
+def _ensure_model():
+    """Load SciBERT classifier once, or enable stub mode if weights are missing."""
+    global _tokenizer, _model, _id2label, _stub_classify
+    if _stub_classify or _model is not None:
+        return
+    if not _weights_present():
+        if os.environ.get("CLASSIFIER_REQUIRE_WEIGHTS", "").lower() in ("1", "true", "yes"):
+            raise FileNotFoundError(
+                f"Missing classifier weights under {MODEL_DIR}. "
+                "Add model.safetensors or pytorch_model.bin."
+            )
+        _stub_classify = True
+        print(
+            "\n[classifier] WARNING: No model weights in:\n"
+            f"  {MODEL_DIR}\n"
+            "  Expected model.safetensors or pytorch_model.bin (from your training run or teammate).\n"
+            "  Classifying all sentences as NONE — highlight *positions* still use the embedding ranker.\n"
+            "  To fail instead of stubbing, set CLASSIFIER_REQUIRE_WEIGHTS=1.\n",
+            file=sys.stderr,
+        )
+        return
+
+    _tokenizer = AutoTokenizer.from_pretrained(MODEL_DIR)
+    _model = AutoModelForSequenceClassification.from_pretrained(MODEL_DIR)
+    _model.eval()
 
     with open(MODEL_DIR / "label_map.json") as f:
         label_map = json.load(f)
     id2label = {int(k): v for k, v in label_map["id2label"].items()}
-
-    return tokenizer, model, id2label
-
-
-# Load once at import time
-_tokenizer, _model, _id2label = _load_model()
+    _id2label = id2label
 
 
 def classify(sentences: list[str]) -> list[tuple[str, float]]:
@@ -31,6 +58,13 @@ def classify(sentences: list[str]) -> list[tuple[str, float]]:
     Returns a list of (label, confidence) tuples in the same order as input.
     Labels: BACKGROUND, CONCLUSIONS, METHODS, NONE, OBJECTIVE, RESULTS
     """
+    if not sentences:
+        return []
+
+    _ensure_model()
+    if _stub_classify:
+        return [("NONE", 1.0)] * len(sentences)
+
     results = []
 
     for i in range(0, len(sentences), BATCH_SIZE):

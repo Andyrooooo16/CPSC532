@@ -30,7 +30,8 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).parent.parent
 sys.path.insert(0, str(REPO_ROOT / "service"))
 
-import fitz
+import nltk
+import fitz  # PyMuPDF
 
 from extractor import extract_sentences
 from embedder import embed
@@ -159,6 +160,15 @@ def locate_highlights(pdf_path, ranked):
 # ---------------------------------------------------------------------------
 
 def main():
+    try:
+        nltk.data.find("tokenizers/punkt_tab")
+    except LookupError:
+        nltk.download("punkt_tab", quiet=True)
+    try:
+        nltk.data.find("tokenizers/punkt")
+    except LookupError:
+        nltk.download("punkt", quiet=True)
+
     combos = compute_needed_combos()
     print(f"Need to generate {len(combos)} highlight file(s).\n")
 

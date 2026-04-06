@@ -226,6 +226,195 @@
           }
         ]
       }
+    },
+    "paper4": {
+      "title": "Critical Thinking",
+      "taskInstructions": "Use the paper to find the correct answers to the questions on the right. You may submit as many times as needed — your time and number of attempts are recorded. All multiple-choice questions must be answered correctly before you can proceed.",
+      "questions": [
+        {
+          "id": "p4q1",
+          "text": "REPLACE: Question 1 for paper 4 (Critical Thinking)?",
+          "type": "multiple_choice",
+          "options": {
+            "A": "Option A",
+            "B": "Option B",
+            "C": "Option C",
+            "D": "Option D"
+          },
+          "correct": "A"
+        },
+        {
+          "id": "p4q2",
+          "text": "REPLACE: Question 2 for paper 4 (Critical Thinking)?",
+          "type": "multiple_choice",
+          "options": {
+            "A": "Option A",
+            "B": "Option B",
+            "C": "Option C",
+            "D": "Option D"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "p4q3",
+          "text": "REPLACE: Open-ended question for paper 4 (optional).",
+          "type": "free_text"
+        }
+      ],
+      "questionnaire": {
+        "instructions": "Please rate your experience reading this paper.",
+        "questions": [
+          {
+            "id": "p4diff1",
+            "text": "I found it difficult to answer Question 1.",
+            "type": "likert",
+            "scale": { "min": 1, "max": 5, "minLabel": "Strongly Disagree", "maxLabel": "Strongly Agree" }
+          },
+          {
+            "id": "p4diff2",
+            "text": "I found it difficult to answer Question 2.",
+            "type": "likert",
+            "scale": { "min": 1, "max": 5, "minLabel": "Strongly Disagree", "maxLabel": "Strongly Agree" }
+          },
+          {
+            "id": "p4ease",
+            "text": "Overall, how easy was it to skim this paper for the relevant information?",
+            "type": "likert",
+            "scale": { "min": 1, "max": 7, "minLabel": "Very Difficult", "maxLabel": "Very Easy" }
+          },
+          {
+            "id": "p4comments",
+            "text": "Any comments about reading this paper?",
+            "type": "free_text"
+          }
+        ]
+      }
+    },
+    "paper5": {
+      "title": "Novel Content",
+      "taskInstructions": "Use the paper to find the correct answers to the questions on the right. You may submit as many times as needed — your time and number of attempts are recorded. All multiple-choice questions must be answered correctly before you can proceed.",
+      "questions": [
+        {
+          "id": "p5q1",
+          "text": "REPLACE: Question 1 for paper 5 (Novel Content)?",
+          "type": "multiple_choice",
+          "options": {
+            "A": "Option A",
+            "B": "Option B",
+            "C": "Option C",
+            "D": "Option D"
+          },
+          "correct": "A"
+        },
+        {
+          "id": "p5q2",
+          "text": "REPLACE: Question 2 for paper 5 (Novel Content)?",
+          "type": "multiple_choice",
+          "options": {
+            "A": "Option A",
+            "B": "Option B",
+            "C": "Option C",
+            "D": "Option D"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "p5q3",
+          "text": "REPLACE: Open-ended question for paper 5 (optional).",
+          "type": "free_text"
+        }
+      ],
+      "questionnaire": {
+        "instructions": "Please rate your experience reading this paper.",
+        "questions": [
+          {
+            "id": "p5diff1",
+            "text": "I found it difficult to answer Question 1.",
+            "type": "likert",
+            "scale": { "min": 1, "max": 5, "minLabel": "Strongly Disagree", "maxLabel": "Strongly Agree" }
+          },
+          {
+            "id": "p5diff2",
+            "text": "I found it difficult to answer Question 2.",
+            "type": "likert",
+            "scale": { "min": 1, "max": 5, "minLabel": "Strongly Disagree", "maxLabel": "Strongly Agree" }
+          },
+          {
+            "id": "p5ease",
+            "text": "Overall, how easy was it to skim this paper for the relevant information?",
+            "type": "likert",
+            "scale": { "min": 1, "max": 7, "minLabel": "Very Difficult", "maxLabel": "Very Easy" }
+          },
+          {
+            "id": "p5comments",
+            "text": "Any comments about reading this paper?",
+            "type": "free_text"
+          }
+        ]
+      }
+    },
+    "paper6": {
+      "title": "University Students",
+      "taskInstructions": "Use the paper to find the correct answers to the questions on the right. You may submit as many times as needed — your time and number of attempts are recorded. All multiple-choice questions must be answered correctly before you can proceed.",
+      "questions": [
+        {
+          "id": "p6q1",
+          "text": "REPLACE: Question 1 for paper 6 (University Students)?",
+          "type": "multiple_choice",
+          "options": {
+            "A": "Option A",
+            "B": "Option B",
+            "C": "Option C",
+            "D": "Option D"
+          },
+          "correct": "A"
+        },
+        {
+          "id": "p6q2",
+          "text": "REPLACE: Question 2 for paper 6 (University Students)?",
+          "type": "multiple_choice",
+          "options": {
+            "A": "Option A",
+            "B": "Option B",
+            "C": "Option C",
+            "D": "Option D"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "p6q3",
+          "text": "REPLACE: Open-ended question for paper 6 (optional).",
+          "type": "free_text"
+        }
+      ],
+      "questionnaire": {
+        "instructions": "Please rate your experience reading this paper.",
+        "questions": [
+          {
+            "id": "p6diff1",
+            "text": "I found it difficult to answer Question 1.",
+            "type": "likert",
+            "scale": { "min": 1, "max": 5, "minLabel": "Strongly Disagree", "maxLabel": "Strongly Agree" }
+          },
+          {
+            "id": "p6diff2",
+            "text": "I found it difficult to answer Question 2.",
+            "type": "likert",
+            "scale": { "min": 1, "max": 5, "minLabel": "Strongly Disagree", "maxLabel": "Strongly Agree" }
+          },
+          {
+            "id": "p6ease",
+            "text": "Overall, how easy was it to skim this paper for the relevant information?",
+            "type": "likert",
+            "scale": { "min": 1, "max": 7, "minLabel": "Very Difficult", "maxLabel": "Very Easy" }
+          },
+          {
+            "id": "p6comments",
+            "text": "Any comments about reading this paper?",
+            "type": "free_text"
+          }
+        ]
+      }
     }
   },
   "finalQuestionnaire": {

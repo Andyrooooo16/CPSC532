@@ -32,6 +32,25 @@ if (fs.existsSync(HIGHLIGHTS_DIR)) {
   }
 }
 
+/** Load a highlight JSON from disk if it was added after server start (or missed). */
+function getHighlightsByKey(key) {
+  if (Object.prototype.hasOwnProperty.call(highlightCache, key)) {
+    return highlightCache[key];
+  }
+  const safeName = path.basename(`${key}.json`);
+  const filePath = path.join(HIGHLIGHTS_DIR, safeName);
+  if (!fs.existsSync(filePath)) return null;
+  try {
+    const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+    highlightCache[key] = data;
+    console.log(`[highlights] loaded lazily: ${safeName}`);
+    return data;
+  } catch (e) {
+    console.warn(`[highlights] failed to parse ${filePath}:`, e.message);
+    return null;
+  }
+}
+
 // ---------------------------------------------------------------------------
 // Helpers
 // ---------------------------------------------------------------------------
@@ -129,23 +148,26 @@ function computePriorPapers(session, paperIndex) {
   return prior;
 }
 
-// Get the filename stem for a paper key (e.g. "CiteSee" from "CiteSee.pdf").
-function paperStem(paperKey) {
-  const filename = config.papers[paperKey]?.filename ?? paperKey;
-  return filename.replace(/\.[^.]+$/, '');
+// Highlight JSON filenames use the PDF stem (same as generate_highlights.py), not paper1/paper2 keys.
+function highlightStemForPaper(paperKey) {
+  const meta = config.papers[paperKey];
+  if (!meta?.filename) return paperKey;
+  const fn = meta.filename;
+  const lower = fn.toLowerCase();
+  const dotPdf = lower.lastIndexOf('.pdf');
+  return dotPdf === -1 ? fn : fn.slice(0, dotPdf);
 }
 
 // Build the highlight cache key for a paper/condition/priorPapers combo.
-// Must match the naming used by generate_highlights.py (stem-based).
 function highlightKey(paperKey, condition, priorPapers) {
   if (condition === 'no_highlights') return null;
-  const stem = paperStem(paperKey);
+  const stem = highlightStemForPaper(paperKey);
   if (condition === 'all_highlights') return `${stem}_all`;
-  // contextual_highlights — prior papers also referenced by their stems
-  const sortedStems = [...priorPapers].map(paperStem).sort();
-  return sortedStems.length === 0
+  // contextual_highlights — prior segment still uses logical paper keys (paper1, …)
+  const sorted = [...priorPapers].sort();
+  return sorted.length === 0
     ? `${stem}_ctx_`
-    : `${stem}_ctx_${sortedStems.join('_')}`;
+    : `${stem}_ctx_${sorted.join('-')}`;
 }
 
 // Fisher-Yates shuffle (returns a new array).
@@ -408,7 +430,7 @@ app.get('/api/session/:id/highlights', (req, res) => {
   const key = highlightKey(paperKey, condition, priorPapers);
   if (!key) return res.json([]);
 
-  const highlights = highlightCache[key];
+  const highlights = getHighlightsByKey(key);
   if (!highlights) {
     console.warn(`Highlight file not found for key: ${key}`);
     return res.json([]);
@@ -605,6 +627,25 @@ app.post('/api/session/:id/submit-questionnaire', (req, res) => {
 // ---------------------------------------------------------------------------
 // Start
 // ---------------------------------------------------------------------------
+// ---------------------------------------------------------------------------
+// Admin: export all sessions
+// ---------------------------------------------------------------------------
+
+app.get('/admin/sessions', (req, res) => {
+  if (req.query.secret !== config.adminSecret) {
+    return res.status(403).send('Forbidden');
+  }
+
+  const sessions = fs.readdirSync(SESSIONS_DIR)
+    .filter(name => name.endsWith('.json'))
+    .map(name => {
+      const fullPath = path.join(SESSIONS_DIR, name);
+      return JSON.parse(fs.readFileSync(fullPath, 'utf8'));
+    });
+
+  res.json(sessions);
+});
+
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {

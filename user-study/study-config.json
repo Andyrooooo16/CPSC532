@@ -11,6 +11,18 @@
     "paper3": {
       "title": "Scim",
       "filename": "Scim.pdf"
+    },
+    "paper4": {
+      "title": "Critical Thinking",
+      "filename": "S1 Critical Thinking.pdf"
+    }, 
+    "paper5": {
+      "title": "Novel Content",
+      "filename": "S1 Novel Content.pdf"
+    },
+    "paper6": {
+      "title": "University Students",
+      "filename": "S1 University Students.pdf"
     }
   },
   "participants": {
@@ -25,10 +37,24 @@
     "P03": {
       "paperOrder": ["paper3", "paper1", "paper2"],
       "conditions": ["contextual_highlights", "no_highlights", "all_highlights"]
+    }, 
+    "P04": {
+      "paperOrder": ["paper4", "paper5", "paper6"],
+      "conditions": ["no_highlights", "all_highlights", "contextual_highlights"]
+    },
+    "P05": {
+      "paperOrder": ["paper5", "paper6", "paper4"],
+      "conditions": ["all_highlights", "contextual_highlights", "no_highlights"]
+    },
+    "P06": {
+      "paperOrder": ["paper6", "paper4", "paper5"],
+      "conditions": ["contextual_highlights", "no_highlights", "all_highlights"]
     }
   },
   "defaultParticipant": {
     "paperOrder": ["paper1", "paper2", "paper3"],
     "conditions": ["no_highlights", "no_highlights", "no_highlights"]
-  }
+  }, 
+  "adminSecret": "test123"
+
 }
