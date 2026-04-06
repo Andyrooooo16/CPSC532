@@ -161,9 +161,8 @@ textarea {
 
 .radio-option {
   display: flex;
-  align-items: flex-start;
-  gap: 10px;
-  padding: 8px 12px;
+  align-items: center;
+  padding: 10px 14px;
   border: 1px solid var(--border);
   border-radius: var(--radius);
   cursor: pointer;
@@ -176,7 +175,7 @@ textarea {
 }
 
 .radio-option input[type="radio"] {
-  margin-top: 2px;
+  margin-right: 8px;   
   flex-shrink: 0;
   accent-color: var(--accent);
 }
@@ -198,8 +197,8 @@ textarea {
 
 .option-key {
   font-weight: 600;
-  flex-shrink: 0;
-  width: 18px;
+  min-width: 20px;
+  margin-right: 6px;   
 }
 
 /* Likert scale */

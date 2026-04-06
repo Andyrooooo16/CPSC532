@@ -1,0 +1,82 @@
+{
+  "sessionId": "0nlBsMwRLUBU",
+  "participantId": "P01",
+  "paperOrder": [
+    "paper1",
+    "paper2",
+    "paper3"
+  ],
+  "conditions": [
+    "no_highlights",
+    "all_highlights",
+    "contextual_highlights"
+  ],
+  "createdAt": "2026-04-06T03:42:40.549Z",
+  "step": "demographics",
+  "demographicResponses": null,
+  "tasks": [],
+  "questionnaireResponses": [],
+  "finalResponses": null,
+  "completedAt": null,
+  "questionOrders": {
+    "paper1": [
+      "p1q1",
+      "p1q3",
+      "p1q2"
+    ],
+    "paper2": [
+      "p2q1",
+      "p2q3",
+      "p2q2"
+    ],
+    "paper3": [
+      "p3q1",
+      "p3q2",
+      "p3q3"
+    ]
+  },
+  "optionOrders": {
+    "paper1": {
+      "p1q1": [
+        "D",
+        "C",
+        "B",
+        "A"
+      ],
+      "p1q2": [
+        "D",
+        "A",
+        "C",
+        "B"
+      ]
+    },
+    "paper2": {
+      "p2q1": [
+        "D",
+        "B",
+        "C",
+        "A"
+      ],
+      "p2q2": [
+        "D",
+        "B",
+        "C",
+        "A"
+      ]
+    },
+    "paper3": {
+      "p3q1": [
+        "C",
+        "D",
+        "B",
+        "A"
+      ],
+      "p3q2": [
+        "C",
+        "B",
+        "D",
+        "A"
+      ]
+    }
+  }
+}

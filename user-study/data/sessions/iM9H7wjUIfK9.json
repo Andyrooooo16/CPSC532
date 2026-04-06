@@ -12,7 +12,7 @@
     "no_highlights"
   ],
   "createdAt": "2026-04-06T02:38:18.909Z",
-  "step": "reading_0",
+  "step": "reading_1",
   "demographicResponses": {
     "age": "B",
     "field": "test",
@@ -25,6 +25,49 @@
       "condition": "all_highlights",
       "priorPapers": [],
       "startedAt": "2026-04-06T02:38:25.997Z",
+      "completedAt": "2026-04-06T02:41:27.940Z",
+      "attempts": [
+        {
+          "submittedAt": "2026-04-06T02:41:25.494Z",
+          "answers": {
+            "p5q1": "A",
+            "p5q2": "A"
+          },
+          "scores": {
+            "p5q1": true,
+            "p5q2": false
+          }
+        },
+        {
+          "submittedAt": "2026-04-06T02:41:27.934Z",
+          "answers": {
+            "p5q1": "A",
+            "p5q2": "B"
+          },
+          "scores": {
+            "p5q1": true,
+            "p5q2": true
+          }
+        }
+      ],
+      "perQuestionTimeSeconds": {
+        "p5q1": 178,
+        "p5q2": 181
+      },
+      "firstAttemptCorrect": {
+        "p5q1": true,
+        "p5q2": false
+      },
+      "finalAnswers": {
+        "p5q1": "A",
+        "p5q2": "B"
+      }
+    },
+    {
+      "paperKey": "paper6",
+      "condition": "contextual_highlights",
+      "priorPapers": [],
+      "startedAt": "2026-04-06T02:41:34.526Z",
       "completedAt": null,
       "attempts": [],
       "perQuestionTimeSeconds": null,
@@ -32,7 +75,18 @@
       "finalAnswers": null
     }
   ],
-  "questionnaireResponses": [],
+  "questionnaireResponses": [
+    {
+      "paperKey": "paper5",
+      "submittedAt": "2026-04-06T02:41:32.585Z",
+      "responses": {
+        "p5diff1": 5,
+        "p5diff2": 5,
+        "p5ease": 5,
+        "p5comments": "test"
+      }
+    }
+  ],
   "finalResponses": null,
   "completedAt": null,
   "questionOrders": {
