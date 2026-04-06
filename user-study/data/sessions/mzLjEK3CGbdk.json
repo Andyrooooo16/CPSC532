@@ -1,0 +1,164 @@
+{
+  "sessionId": "mzLjEK3CGbdk",
+  "participantId": "P05",
+  "paperOrder": [
+    "paper5",
+    "paper6",
+    "paper4"
+  ],
+  "conditions": [
+    "all_highlights",
+    "contextual_highlights",
+    "no_highlights"
+  ],
+  "createdAt": "2026-04-06T01:46:33.829Z",
+  "step": "reading_1",
+  "demographicResponses": {
+    "age": "A",
+    "field": "test",
+    "reading_freq": 5,
+    "highlight_exp": "A"
+  },
+  "tasks": [
+    {
+      "paperKey": "paper5",
+      "condition": "all_highlights",
+      "priorPapers": [],
+      "startedAt": "2026-04-06T01:46:41.804Z",
+      "completedAt": "2026-04-06T01:47:39.439Z",
+      "attempts": [
+        {
+          "submittedAt": "2026-04-06T01:47:34.443Z",
+          "answers": {
+            "p5q2": "A",
+            "p5q1": "B"
+          },
+          "scores": {
+            "p5q1": false,
+            "p5q2": false
+          }
+        },
+        {
+          "submittedAt": "2026-04-06T01:47:37.487Z",
+          "answers": {
+            "p5q2": "C",
+            "p5q1": "A"
+          },
+          "scores": {
+            "p5q1": true,
+            "p5q2": false
+          }
+        },
+        {
+          "submittedAt": "2026-04-06T01:47:39.436Z",
+          "answers": {
+            "p5q2": "B",
+            "p5q1": "A"
+          },
+          "scores": {
+            "p5q1": true,
+            "p5q2": true
+          }
+        }
+      ],
+      "perQuestionTimeSeconds": {
+        "p5q1": 54,
+        "p5q2": 57
+      },
+      "firstAttemptCorrect": {
+        "p5q1": false,
+        "p5q2": false
+      },
+      "finalAnswers": {
+        "p5q2": "B",
+        "p5q1": "A"
+      }
+    },
+    {
+      "paperKey": "paper6",
+      "condition": "contextual_highlights",
+      "priorPapers": [],
+      "startedAt": "2026-04-06T01:47:48.399Z",
+      "completedAt": null,
+      "attempts": [],
+      "perQuestionTimeSeconds": null,
+      "firstAttemptCorrect": null,
+      "finalAnswers": null
+    }
+  ],
+  "questionnaireResponses": [
+    {
+      "paperKey": "paper5",
+      "submittedAt": "2026-04-06T01:47:45.139Z",
+      "responses": {
+        "p5diff1": 4,
+        "p5diff2": 4,
+        "p5ease": 4,
+        "p5comments": "test"
+      }
+    }
+  ],
+  "finalResponses": null,
+  "completedAt": null,
+  "questionOrders": {
+    "paper5": [
+      "p5q3",
+      "p5q2",
+      "p5q1"
+    ],
+    "paper6": [
+      "p6q2",
+      "p6q3",
+      "p6q1"
+    ],
+    "paper4": [
+      "p4q3",
+      "p4q2",
+      "p4q1"
+    ]
+  },
+  "optionOrders": {
+    "paper5": {
+      "p5q1": [
+        "D",
+        "C",
+        "A",
+        "B"
+      ],
+      "p5q2": [
+        "D",
+        "B",
+        "C",
+        "A"
+      ]
+    },
+    "paper6": {
+      "p6q1": [
+        "A",
+        "B",
+        "D",
+        "C"
+      ],
+      "p6q2": [
+        "B",
+        "D",
+        "C",
+        "A"
+      ]
+    },
+    "paper4": {
+      "p4q1": [
+        "B",
+        "D",
+        "A",
+        "C"
+      ],
+      "p4q2": [
+        "C",
+        "A",
+        "B",
+        "D"
+      ]
+    }
+  }
+}

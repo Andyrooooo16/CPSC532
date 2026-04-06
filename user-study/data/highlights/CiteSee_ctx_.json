@@ -190,7 +190,7 @@
       ]
     ],
     "text": "Our second design goal focused on providing personalized\ncontext around inline citations based on papers in a user\u2019s reading\nhistory to address this issue.",
-    "label": "OBJECTIVE"
+    "label": "NONE"
   },
   {
     "page": 5,
@@ -221,7 +221,7 @@
       ]
     ],
     "text": "In addition, participants also pointed to how their existing folders\noften represent longer-term interests that might not correspond\nto their interests during literature reviews which can be fluid and\nshorter-term.",
-    "label": "RESULTS"
+    "label": "NONE"
   },
   {
     "page": 6,
@@ -290,7 +290,7 @@
       ]
     ],
     "text": "Leveraging different features in CiteSee, participants described\nhow it improved their process of exploring many papers for literature reviews compared to existing processes.",
-    "label": "RESULTS"
+    "label": "NONE"
   },
   {
     "page": 2,
@@ -328,7 +328,7 @@
       ]
     ],
     "text": "CiteSee highlighted reencountered citations in different shades\nof yellow to indicate potential relevance based on a user\u2019s engagement level with the citing papers.",
-    "label": "METHODS"
+    "label": "NONE"
   },
   {
     "page": 13,
@@ -353,7 +353,7 @@
       ]
     ],
     "text": "Here, we\nfound evidence that highlighting citations in research papers based\non a user\u2019s reading history had a similar and positive effect.",
-    "label": "CONCLUSIONS"
+    "label": "NONE"
   },
   {
     "page": 3,
@@ -396,7 +396,7 @@
       ]
     ],
     "text": "(4) A field deployment study (N=6) with real-world literature\nreview tasks which offers qualitative insights of how CiteSee\nhelped participants prioritize and keep track of explorations\nwith results suggest a 2.7x increase in paper discovery rate\nvia inline citations compared to previously reported numbers\nthat were based on self-reporting [33].",
-    "label": "METHODS"
+    "label": "NONE"
   },
   {
     "page": 13,
@@ -607,7 +607,7 @@
       ]
     ],
     "text": "However, as\nparticipants continued to read and save more papers, CiteSee was\nable to capture more signals about their literature review topics and\nconvey them using different visual augmentations (Figure 4).",
-    "label": "RESULTS"
+    "label": "NONE"
   },
   {
     "page": 7,
@@ -688,7 +688,7 @@
       ]
     ],
     "text": "In contrast,\nour second design goal aimed to surface citations to papers familiar\nto the current user, allowing them to contextualize the paper better.",
-    "label": "OBJECTIVE"
+    "label": "NONE"
   },
   {
     "page": 8,
@@ -744,7 +744,7 @@
       ]
     ],
     "text": "Through a week-long field deployment study,\nparticipants conducting real-world literature reviews valued the\nadditional personalized context around inline citations provided by\nCiteSee, which allowed them to have better situational awareness\nwhen exploring many papers.",
-    "label": "RESULTS"
+    "label": "NONE"
   },
   {
     "page": 14,
@@ -892,7 +892,7 @@
       ]
     ],
     "text": "As participants retrospectively\nwalked through paper they had opened during the deployment, we\nasked them to explicitly compare pairs of arbitrary reencountered\ncitations with darker and lighter shades to probe on their accuracy.",
-    "label": "METHODS"
+    "label": "NONE"
   },
   {
     "page": 6,
@@ -1177,7 +1177,7 @@
       ]
     ],
     "text": "Finally, the study\nended when a participant finished rating all of the highlighted\ninline citations.",
-    "label": "METHODS"
+    "label": "NONE"
   },
   {
     "page": 3,
@@ -1233,7 +1233,7 @@
       ]
     ],
     "text": "The purpose of this paper is to design and evaluate\nusable in-situ aids for prioritizing inline citations.",
-    "label": "OBJECTIVE"
+    "label": "NONE"
   },
   {
     "page": 1,
@@ -1562,7 +1562,7 @@
       ]
     ],
     "text": "Through a lab study, we found our strategy of using\nreading history to augment inline citations to be significantly more effective in helping users discover prior work compared to three\nbaseline strategies.",
-    "label": "RESULTS"
+    "label": "NONE"
   },
   {
     "page": 4,
@@ -1581,7 +1581,7 @@
       ]
     ],
     "text": "To highlight\nthe inline citations for paper discovery, our scoring techniques is inspired by [47], but instead of requiring users to explicitly specify a set of paper of interest, we exploited a user\u2019s paper reading\nhistory and engagement with the different papers to carefully incorporating these signals into the visually-dense medium of the\npaper with appropriate controls, and evaluating them both in-lab\nand field deployment studies in comparison to three baseline approaches.",
-    "label": "METHODS"
+    "label": "NONE"
   },
   {
     "page": 11,
@@ -1662,7 +1662,7 @@
       ]
     ],
     "text": "While inline citations are useful for discovering literature, it is\noften difficult to prioritize which citations to pay attention to in the\nmiddle of a reading task.",
-    "label": "OBJECTIVE"
+    "label": "NONE"
   },
   {
     "page": 13,
@@ -1700,7 +1700,7 @@
       ]
     ],
     "text": "More specifically, they described how not being aware of\nclosely related prior work could have severe consequences, even\nwhen it was not highly cited globally \u2013 for example, putting significant research effort into an approach that had already been\nexplored or being unaware of a paper that \u201ceveryone else working\non this are citing.\u201d\nWe showed two design probes that annotated inline citations to\nfacilitate paper discovery.",
-    "label": "RESULTS"
+    "label": "NONE"
   },
   {
     "page": 7,
@@ -1756,7 +1756,7 @@
       ]
     ],
     "text": "In this paper, we introduce and explore the idea of a personalized\npaper reading experience that augments citations in a reading tool\nbased on their connections to the current user.",
-    "label": "METHODS"
+    "label": "NONE"
   },
   {
     "page": 9,
@@ -1811,7 +1811,7 @@
       ]
     ],
     "text": "As they encountered each highlighted\ncitation, participants answered the following two questions using\na 5-point Likert scale for agreement in a separate survey form\nthat listed the titles and reference numbers of highlighted citations\nand participants used in-page search to find the corresponding\nquestions: \u2022 Primary measure (LitReview): This paper is important\nfor understanding the theme I wrote down.",
-    "label": "METHODS"
+    "label": "NONE"
   },
   {
     "page": 8,
@@ -1898,7 +1898,7 @@
       ]
     ],
     "text": "As expected, participants described\na cold-start issue where the system initially only augmented few\ncitations because their reading history was empty.",
-    "label": "RESULTS"
+    "label": "NONE"
   },
   {
     "page": 13,
@@ -2097,7 +2097,7 @@
       ]
     ],
     "text": "Participants were blind to\nwhich strategies was used for each highlighted inline citations.",
-    "label": "METHODS"
+    "label": "NONE"
   },
   {
     "page": 4,
@@ -2283,7 +2283,7 @@
       ]
     ],
     "text": "But yeah, using the reader I can\nbring up papers that are more [relevant] on the HCI\nside of things.\u201d \u2013 P3\nFinally, participants pointed to how using CiteSee provided better situational awareness of the connections between many papers\n(P3, P4, P5).",
-    "label": "RESULTS"
+    "label": "NONE"
   },
   {
     "page": 13,
@@ -2327,7 +2327,7 @@
       ]
     ],
     "text": "A field deployment study\nshows CiteSee helps participants keep track of their explorations\nand leads to better situational awareness and increased paper discovery via inline citation when conducting real-world literature\nreviews.",
-    "label": "CONCLUSIONS"
+    "label": "NONE"
   },
   {
     "page": 12,
@@ -2358,7 +2358,7 @@
       ]
     ],
     "text": "Since information about reencountered citations based on a\nuser\u2019s reading history was new to the participants, we explicitly\nasked all participants to compare reencountered citations against\nthe more familiar signal of global citation counts.",
-    "label": "METHODS"
+    "label": "NONE"
   },
   {
     "page": 13,
@@ -2389,7 +2389,7 @@
       ]
     ],
     "text": "When we\nretrospectively walked through papers in users\u2019 library, we probed\nwhether this information provided value or if the titles and abstracts\nof saved papers were sufficient.",
-    "label": "METHODS"
+    "label": "NONE"
   },
   {
     "page": 6,
@@ -2458,7 +2458,7 @@
       ]
     ],
     "text": "Evidently, participants were actively\nengaged with the reencountered citations highlighted by CiteSee,\nand used them to discover and save important prior work.",
-    "label": "METHODS"
+    "label": "NONE"
   },
   {
     "page": 3,
@@ -2508,7 +2508,7 @@
       ]
     ],
     "text": "However, behavior logs\nshowed that participants were actively engaged with augmented\ninline citations, and qualitative interviews showed seeing citations\nin-context helped users make connections across papers.",
-    "label": "RESULTS"
+    "label": "NONE"
   },
   {
     "page": 12,
@@ -2577,7 +2577,7 @@
       ]
     ],
     "text": "(3) A controlled lab study (N=10) focusing on paper discovery\nduring reading which shows our simple highlighting strategy was significantly more effective than three baselines,\nincluding one that utilizes a more sophisticated semantic\nembedding technique.",
-    "label": "METHODS"
+    "label": "NONE"
   },
   {
     "page": 1,
@@ -2665,7 +2665,7 @@
       ]
     ],
     "text": "The most common sentiment was a fear of\nmissing out on important prior work when citations were overlooked.",
-    "label": "RESULTS"
+    "label": "NONE"
   },
   {
     "page": 4,
@@ -2820,7 +2820,7 @@
       ]
     ],
     "text": "However,\nkeeping track of which papers are cited by multiple papers during a\nliterature review is impractical in current reading tools: papers use\nopaque identifiers for citations, like reference numbers or authoryear abbreviations that differ across papers.",
-    "label": "BACKGROUND"
+    "label": "NONE"
   },
   {
     "page": 6,
@@ -2919,7 +2919,7 @@
       ]
     ],
     "text": "6\nSTUDY 2: FIELD DEPLOYMENT We conducted a field deployment by recruiting participants from\nStudy 1 who had planned to conduct a literature review within two\nweeks to further understand the costs and benefit of CiteSee in the\nreal-world.",
-    "label": "METHODS"
+    "label": "NONE"
   },
   {
     "page": 3,
@@ -3093,7 +3093,7 @@
       ]
     ],
     "text": "Inline citations are a key resource\nfor discovering papers.",
-    "label": "BACKGROUND"
+    "label": "NONE"
   },
   {
     "page": 8,
@@ -3143,7 +3143,7 @@
       ]
     ],
     "text": "This paper contributes: (1) A prototype scientific paper reading tool, CiteSee.",
-    "label": "METHODS"
+    "label": "NONE"
   },
   {
     "page": 6,
@@ -3193,7 +3193,7 @@
       ]
     ],
     "text": "After the study, we\nrevealed that they were rating citations highlighted by different\nstrategies, and participants self-reported that they were not aware\nof it and assumed there was a single selection method.",
-    "label": "RESULTS"
+    "label": "NONE"
   },
   {
     "page": 12,
@@ -3237,7 +3237,7 @@
       ]
     ],
     "text": "Here, the first statement was the primary measurement of our study,\nand the second statement was designed to ensure participants were\nactively differentiating the topic of the current paper and the higherlevel topic for their literature review scenario.",
-    "label": "METHODS"
+    "label": "NONE"
   },
   {
     "page": 2,
@@ -3268,7 +3268,7 @@
       ]
     ],
     "text": "What readers do not have, but could benefit from, are tools that\nprovide in-situ support, within a paper, for the challenging task of\nunderstanding how citations relate to their own nuanced, evolving\nresearch interests and search history.",
-    "label": "BACKGROUND"
+    "label": "NONE"
   },
   {
     "page": 11,
@@ -3336,7 +3336,7 @@
       ]
     ],
     "text": "We were initially concerned that\nhighlighting the inline citations may be distracting to users, so we\nincluded a design where users could turn off the highlights and see\nrelevant citations in a list view (Figure 3).",
-    "label": "METHODS"
+    "label": "NONE"
   },
   {
     "page": 11,
@@ -3355,7 +3355,7 @@
       ]
     ],
     "text": "P1 and P2 conducted multiple\nliterature reviews and the rest focused on a single topic.",
-    "label": "RESULTS"
+    "label": "NONE"
   },
   {
     "page": 14,
