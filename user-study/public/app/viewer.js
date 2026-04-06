@@ -61,19 +61,20 @@ export async function renderPdf({ container, url, highlights = [] }) {
     const ctx = canvas.getContext('2d');
     await page.render({ canvasContext: ctx, viewport: renderViewport }).promise;
 
-    // Draw highlight overlay on the canvas
+    // Draw highlight overlay on the canvas (include label NONE — grey; classifier stub uses NONE for all)
     const pageHighlights = highlights.filter(h => h.page === pageNum);
-    const visibleHighlights = pageHighlights.filter(h => h.label !== 'NONE');
-    if (visibleHighlights.length > 0) {
+    if (pageHighlights.length > 0) {
       ctx.save();
-      const s = SCALE * dpr;
-      for (const h of visibleHighlights) {
+      for (const h of pageHighlights) {
         ctx.fillStyle = LABEL_COLORS[h.label] ?? LABEL_COLORS.DEFAULT;
         for (const rect of h.rects) {
-          // rect is [x0, y0, x1, y1] in PyMuPDF space: top-left origin, y increases downward.
-          // The PDF.js canvas is also rendered top-left/y-down, so we just scale directly.
+          // PyMuPDF search_for rects are in PDF user space (origin bottom-left, y up).
+          // Must convert through the same viewport as page.render — not raw scale × y-down.
           const [x0, y0, x1, y1] = rect;
-          ctx.fillRect(x0 * s, y0 * s, (x1 - x0) * s, (y1 - y0) * s);
+          const [vx0, vy0, vx1, vy1] = renderViewport.convertToViewportRectangle([
+            x0, y0, x1, y1,
+          ]);
+          ctx.fillRect(vx0, vy0, vx1 - vx0, vy1 - vy0);
         }
       }
       ctx.restore();
