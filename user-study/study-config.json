@@ -13,11 +13,11 @@
       "filename": "Scim.pdf"
     },
     "paper4": {
-      "title": "Critical Thinking",
+      "title": "The Impact of Generative AI on Critical Thinking:Self-Reported Reductions in Cognitive Effort and Confidence Effects From a Survey of Knowledge Workers",
       "filename": "S1 Critical Thinking.pdf"
     }, 
     "paper5": {
-      "title": "Meta Analysis of the Utility",
+      "title": "A Meta-Analysis of the Utility of Explainable Artificial Intelligence in Human-AI Decision-Making",
       "filename": "S1 Meta Analysis of the Utility.pdf"
     },
     "paper6": {
@@ -40,7 +40,7 @@
     }, 
     "P04": {
       "paperOrder": ["paper4", "paper5", "paper6"],
-      "conditions": ["no_highlights", "all_highlights", "contextual_highlights"]
+      "conditions": ["all_highlights", "all_highlights", "contextual_highlights"]
     },
     "P05": {
       "paperOrder": ["paper5", "paper6", "paper4"],

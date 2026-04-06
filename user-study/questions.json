@@ -248,129 +248,344 @@
         ]
       }
     },
-    "paper4": {
-      "title": "Critical Thinking",
-      "taskInstructions": "Use the paper to find the correct answers to the questions on the right. You may submit as many times as needed — your time and number of attempts are recorded. All multiple-choice questions must be answered correctly before you can proceed.",
-      "questions": [
-        {
-          "id": "p4q1",
-          "text": "REPLACE: Question 1 for paper 4 (Critical Thinking)?",
-          "type": "multiple_choice",
-          "options": {
-            "A": "Option A",
-            "B": "Option B",
-            "C": "Option C",
-            "D": "Option D"
-          },
-          "correct": "A"
-        },
-        {
-          "id": "p4q2",
-          "text": "REPLACE: Question 2 for paper 4 (Critical Thinking)?",
-          "type": "multiple_choice",
-          "options": {
-            "A": "Option A",
-            "B": "Option B",
-            "C": "Option C",
-            "D": "Option D"
-          },
-          "correct": "B"
-        },
-        {
-          "id": "p4q3",
-          "text": "REPLACE: Open-ended question for paper 4 (optional).",
-          "type": "free_text"
-        }
-      ],
-      "questionnaire": {
-        "instructions": "Please rate your experience reading this paper.",
-        "questions": [
-          {
-            "id": "p4diff1",
-            "text": "I found it difficult to answer Question 1.",
-            "type": "likert",
-            "scale": { "min": 1, "max": 5, "minLabel": "Strongly Disagree", "maxLabel": "Strongly Agree" }
-          },
-          {
-            "id": "p4diff2",
-            "text": "I found it difficult to answer Question 2.",
-            "type": "likert",
-            "scale": { "min": 1, "max": 5, "minLabel": "Strongly Disagree", "maxLabel": "Strongly Agree" }
-          },
-          {
-            "id": "p4ease",
-            "text": "Overall, how easy was it to skim this paper for the relevant information?",
-            "type": "likert",
-            "scale": { "min": 1, "max": 7, "minLabel": "Very Difficult", "maxLabel": "Very Easy" }
-          },
-          {
-            "id": "p4comments",
-            "text": "Any comments about reading this paper?",
-            "type": "free_text"
-          }
-        ]
-      }
+"paper4": {
+  "title": "Critical Thinking",
+  "taskInstructions": "Use the paper to find the correct answers to the questions on the right. You may submit as many times as needed — your time and number of attempts are recorded. All multiple-choice questions must be answered correctly before you can proceed.",
+  "questions": [
+    {
+      "id": "p4q1",
+      "text": "The study found that knowledge workers self-reported enacting critical thinking in approximately what proportion of their GenAI task examples?",
+      "type": "multiple_choice",
+      "options": {
+        "A": "Around 30%",
+        "B": "Around 45%",
+        "C": "Around 60%",
+        "D": "Around 75%"
+      },
+      "correct": "C"
     },
-    "paper5": {
-      "title": "Novel Content",
-      "taskInstructions": "Use the paper to find the correct answers to the questions on the right. You may submit as many times as needed — your time and number of attempts are recorded. All multiple-choice questions must be answered correctly before you can proceed.",
-      "questions": [
-        {
-          "id": "p5q1",
-          "text": "REPLACE: Question 1 for paper 5 (Novel Content)?",
-          "type": "multiple_choice",
-          "options": {
-            "A": "Option A",
-            "B": "Option B",
-            "C": "Option C",
-            "D": "Option D"
-          },
-          "correct": "A"
-        },
-        {
-          "id": "p5q2",
-          "text": "REPLACE: Question 2 for paper 5 (Novel Content)?",
-          "type": "multiple_choice",
-          "options": {
-            "A": "Option A",
-            "B": "Option B",
-            "C": "Option C",
-            "D": "Option D"
-          },
-          "correct": "B"
-        },
-        {
-          "id": "p5q3",
-          "text": "REPLACE: Open-ended question for paper 5 (optional).",
-          "type": "free_text"
-        }
-      ],
-      "questionnaire": {
-        "instructions": "Please rate your experience reading this paper.",
-        "questions": [
-          {
-            "id": "p5diff1",
-            "text": "I found it difficult to answer Question 1.",
-            "type": "likert",
-            "scale": { "min": 1, "max": 5, "minLabel": "Strongly Disagree", "maxLabel": "Strongly Agree" }
-          },
-          {
-            "id": "p5diff2",
-            "text": "I found it difficult to answer Question 2.",
-            "type": "likert",
-            "scale": { "min": 1, "max": 5, "minLabel": "Strongly Disagree", "maxLabel": "Strongly Agree" }
-          },
-          {
-            "id": "p5ease",
-            "text": "Overall, how easy was it to skim this paper for the relevant information?",
-            "type": "likert",
-            "scale": { "min": 1, "max": 7, "minLabel": "Very Difficult", "maxLabel": "Very Easy" }
-          },
-          {
-            "id": "p5comments",
-            "text": "Any comments about reading this paper?",
-            "type": "free_text"
-          }
+    {
+      "id": "p4q2",
+      "text": "The paper states two explicit research questions. What are they, and how do they differ from each other?",
+      "type": "free_text"
+    },
+    {
+      "id": "p4q3",
+      "text": "Which of the following was NOT identified as a key motivator for critical thinking among knowledge workers using GenAI?",
+      "type": "multiple_choice",
+      "options": {
+        "A": "Improving work quality",
+        "B": "Avoiding potential negative outcomes",
+        "C": "Peer pressure from colleagues",
+        "D": "Skill development"
+      },
+      "correct": "C"
+    },
+    {
+      "id": "p4q4",
+      "text": "The paper describes a shift in cognitive effort for Analysis, Synthesis, and Evaluation. What specific shift did the authors observe, and what new role does this create for knowledge workers?",
+      "type": "free_text"
+    },
+    {
+      "id": "p4q5",
+      "text": "According to the regression analysis, which factor had the strongest negative association with perceived enaction of critical thinking?",
+      "type": "multiple_choice",
+      "options": {
+        "A": "Low tendency to reflect on work",
+        "B": "High confidence in GenAI doing the task",
+        "C": "High overall trust in GenAI",
+        "D": "Younger age group"
+      },
+      "correct": "B"
+    },
+    {
+      "id": "p4q6",
+      "text": "How were participants recruited for the study, and what was the minimum usage requirement to qualify?",
+      "type": "multiple_choice",
+      "options": {
+        "A": "LinkedIn outreach; used GenAI at least once ever",
+        "B": "Prolific platform; used GenAI at work at least once per week",
+        "C": "Prolific platform; used GenAI at work at least once per month",
+        "D": "Internal Microsoft employees; daily GenAI users"
+      },
+      "correct": "B"
+    },
+    {
+      "id": "p4q7",
+      "text": "The paper classifies knowledge workers' critical thinking practices into three workflow phases. Which of the following is NOT one of those phases?",
+      "type": "multiple_choice",
+      "options": {
+        "A": "Goal and query formation",
+        "B": "Delegate and automate",
+        "C": "Inspect response",
+        "D": "Integrate response"
+      },
+      "correct": "B"
+    },
+    {
+      "id": "p4q8",
+      "text": "The paper identifies ability barriers that prevent workers from enacting critical thinking even when motivated. What are these barriers, and which did the largest number of participants report?",
+      "type": "free_text"
+    },
+    {
+      "id": "p4q9",
+      "text": "Across all six cognitive activities in Bloom's taxonomy, which showed the least reduction in effort when using GenAI?",
+      "type": "multiple_choice",
+      "options": {
+        "A": "Knowledge (recall)",
+        "B": "Comprehension",
+        "C": "Synthesis",
+        "D": "Evaluation"
+      },
+      "correct": "D"
+    },
+    {
+      "id": "p4q10",
+      "text": "The authors use the term 'stewardship' rather than 'collaboration' or 'supervision' to describe the human role in GenAI-assisted work. What reasoning do they give for preferring this term, and what does it imply about where accountability sits?",
+      "type": "free_text"
+    }
+  ],
+  "questionnaire": {
+    "instructions": "Please rate your experience reading this paper.",
+    "questions": [
+      {
+        "id": "p4diff1",
+        "text": "I found it difficult to answer Question 1.",
+        "type": "likert",
+        "scale": { "min": 1, "max": 5, "minLabel": "Strongly Disagree", "maxLabel": "Strongly Agree" }
+      },
+      {
+        "id": "p4diff2",
+        "text": "I found it difficult to answer Question 2.",
+        "type": "likert",
+        "scale": { "min": 1, "max": 5, "minLabel": "Strongly Disagree", "maxLabel": "Strongly Agree" }
+      },
+      {
+        "id": "p4diff3",
+        "text": "I found it difficult to answer Question 3.",
+        "type": "likert",
+        "scale": { "min": 1, "max": 5, "minLabel": "Strongly Disagree", "maxLabel": "Strongly Agree" }
+      },
+      {
+        "id": "p4diff4",
+        "text": "I found it difficult to answer Question 4.",
+        "type": "likert",
+        "scale": { "min": 1, "max": 5, "minLabel": "Strongly Disagree", "maxLabel": "Strongly Agree" }
+      },
+      {
+        "id": "p4diff5",
+        "text": "I found it difficult to answer Question 5.",
+        "type": "likert",
+        "scale": { "min": 1, "max": 5, "minLabel": "Strongly Disagree", "maxLabel": "Strongly Agree" }
+      },
+      {
+        "id": "p4diff6",
+        "text": "I found it difficult to answer Question 6.",
+        "type": "likert",
+        "scale": { "min": 1, "max": 5, "minLabel": "Strongly Disagree", "maxLabel": "Strongly Agree" }
+      },
+      {
+        "id": "p4diff7",
+        "text": "I found it difficult to answer Question 7.",
+        "type": "likert",
+        "scale": { "min": 1, "max": 5, "minLabel": "Strongly Disagree", "maxLabel": "Strongly Agree" }
+      },
+      {
+        "id": "p4diff8",
+        "text": "I found it difficult to answer Question 8.",
+        "type": "likert",
+        "scale": { "min": 1, "max": 5, "minLabel": "Strongly Disagree", "maxLabel": "Strongly Agree" }
+      },
+      {
+        "id": "p4diff9",
+        "text": "I found it difficult to answer Question 9.",
+        "type": "likert",
+        "scale": { "min": 1, "max": 5, "minLabel": "Strongly Disagree", "maxLabel": "Strongly Agree" }
+      },
+      {
+        "id": "p4diff10",
+        "text": "I found it difficult to answer Question 10.",
+        "type": "likert",
+        "scale": { "min": 1, "max": 5, "minLabel": "Strongly Disagree", "maxLabel": "Strongly Agree" }
+      },
+      {
+        "id": "p4ease",
+        "text": "Overall, how easy was it to skim this paper for the relevant information?",
+        "type": "likert",
+        "scale": { "min": 1, "max": 7, "minLabel": "Very Difficult", "maxLabel": "Very Easy" }
+      },
+      {
+        "id": "p4comments",
+        "text": "Any comments about reading this paper?",
+        "type": "free_text"
+      }
+    ]
+  }
+},
+ "paper5": {
+  "title": "A Meta-Analysis of the Utility of Explainable Artificial Intelligence in Human-AI Decision-Making",
+  "taskInstructions": "Use the paper to find the correct answers to the questions on the right. You may submit as many times as needed — your time and number of attempts are recorded. All multiple-choice questions must be answered correctly before you can proceed.",
+  "questions": [
+    {
+      "id": "p5q1",
+      "text": "After applying all inclusion criteria and filtering, how many articles were ultimately included in the meta-analysis?",
+      "type": "multiple_choice",
+      "options": {
+        "A": "33",
+        "B": "9",
+        "C": "44",
+        "D": "393"
+      },
+      "correct": "B"
+    },
+    {
+      "id": "p5q2",
+      "text": "The paper states two primary research comparisons it investigates. What are they, and how does the result of one change how you should interpret the other?",
+      "type": "free_text"
+    },
+    {
+      "id": "p5q3",
+      "text": "Which of the following was NOT listed as an inclusion criterion for studies to be included in the meta-analysis?",
+      "type": "multiple_choice",
+      "options": {
+        "A": "Studies must report mean accuracy as the performance measure",
+        "B": "Studies must have been conducted as a between-subject design",
+        "C": "Studies must focus on classification tasks",
+        "D": "Studies must have been conducted in a controlled lab environment"
+      },
+      "correct": "D"
+    },
+    {
+      "id": "p5q4",
+      "text": "The subgroup analysis compared tabular and text data types. What did the results show for each, and what explanation do the authors offer for the difference?",
+      "type": "free_text"
+    },
+    {
+      "id": "p5q5",
+      "text": "What was the standardized mean difference (SMD) found when comparing XAI-assisted performance to human performance alone, and was it statistically significant?",
+      "type": "multiple_choice",
+      "options": {
+        "A": "SMD = 0.07, not statistically significant",
+        "B": "SMD = 0.59, statistically significant",
+        "C": "SMD = 0.72, statistically significant",
+        "D": "SMD = 0.01, not statistically significant"
+      },
+      "correct": "B"
+    },
+    {
+      "id": "p5q6",
+      "text": "The authors used a random-effects model rather than a fixed-effect model for the meta-analysis. What was the stated reason for this choice?",
+      "type": "multiple_choice",
+      "options": {
+        "A": "Random-effects models are always more accurate",
+        "B": "The setups and populations were considerably heterogeneous between studies",
+        "C": "The fixed-effect model is only suitable for within-subject designs",
+        "D": "Random-effects models require fewer included studies"
+      },
+      "correct": "B"
+    },
+    {
+      "id": "p5q7",
+      "text": "The paper identifies two potential mechanisms by which XAI could improve decision-making performance. What are these two mechanisms, and which one did the qualitative review find stronger evidence for?",
+      "type": "free_text"
+    },
+    {
+      "id": "p5q8",
+      "text": "Which of the following was identified as a key limitation of the AI-assisted vs. XAI-assisted comparison specifically?",
+      "type": "multiple_choice",
+      "options": {
+        "A": "Too few studies reported accuracy as a metric",
+        "B": "All studies used within-subject designs",
+        "C": "Small sample size due to studies not reporting dispersion of their AI-assisted condition",
+        "D": "The tabular subgroup contained no eligible studies"
+      },
+      "correct": "C"
+    },
+    {
+      "id": "p5q9",
+      "text": "The qualitative review highlights contrasting findings across individual studies regarding how explanations affect users' acceptance of AI advice. Describe these contrasting findings and which studies reported them.",
+      "type": "free_text"
+    },
+    {
+      "id": "p5q10",
+      "text": "The authors raise an ethical concern in the discussion section related to one of their findings. What is this concern, and which finding prompted it?",
+      "type": "free_text"
+    }
+  ],
+  "questionnaire": {
+    "instructions": "Please rate your experience reading this paper.",
+    "questions": [
+      {
+        "id": "p5diff1",
+        "text": "I found it difficult to answer Question 1.",
+        "type": "likert",
+        "scale": { "min": 1, "max": 5, "minLabel": "Strongly Disagree", "maxLabel": "Strongly Agree" }
+      },
+      {
+        "id": "p5diff2",
+        "text": "I found it difficult to answer Question 2.",
+        "type": "likert",
+        "scale": { "min": 1, "max": 5, "minLabel": "Strongly Disagree", "maxLabel": "Strongly Agree" }
+      },
+      {
+        "id": "p5diff3",
+        "text": "I found it difficult to answer Question 3.",
+        "type": "likert",
+        "scale": { "min": 1, "max": 5, "minLabel": "Strongly Disagree", "maxLabel": "Strongly Agree" }
+      },
+      {
+        "id": "p5diff4",
+        "text": "I found it difficult to answer Question 4.",
+        "type": "likert",
+        "scale": { "min": 1, "max": 5, "minLabel": "Strongly Disagree", "maxLabel": "Strongly Agree" }
+      },
+      {
+        "id": "p5diff5",
+        "text": "I found it difficult to answer Question 5.",
+        "type": "likert",
+        "scale": { "min": 1, "max": 5, "minLabel": "Strongly Disagree", "maxLabel": "Strongly Agree" }
+      },
+      {
+        "id": "p5diff6",
+        "text": "I found it difficult to answer Question 6.",
+        "type": "likert",
+        "scale": { "min": 1, "max": 5, "minLabel": "Strongly Disagree", "maxLabel": "Strongly Agree" }
+      },
+      {
+        "id": "p5diff7",
+        "text": "I found it difficult to answer Question 7.",
+        "type": "likert",
+        "scale": { "min": 1, "max": 5, "minLabel": "Strongly Disagree", "maxLabel": "Strongly Agree" }
+      },
+      {
+        "id": "p5diff8",
+        "text": "I found it difficult to answer Question 8.",
+        "type": "likert",
+        "scale": { "min": 1, "max": 5, "minLabel": "Strongly Disagree", "maxLabel": "Strongly Agree" }
+      },
+      {
+        "id": "p5diff9",
+        "text": "I found it difficult to answer Question 9.",
+        "type": "likert",
+        "scale": { "min": 1, "max": 5, "minLabel": "Strongly Disagree", "maxLabel": "Strongly Agree" }
+      },
+      {
+        "id": "p5diff10",
+        "text": "I found it difficult to answer Question 10.",
+        "type": "likert",
+        "scale": { "min": 1, "max": 5, "minLabel": "Strongly Disagree", "maxLabel": "Strongly Agree" }
+      },
+      {
+        "id": "p5ease",
+        "text": "Overall, how easy was it to skim this paper for the relevant information?",
+        "type": "likert",
+        "scale": { "min": 1, "max": 7, "minLabel": "Very Difficult", "maxLabel": "Very Easy" }
+      },
+      {
+        "id": "p5comments",
+        "text": "Any comments about reading this paper?",
+        "type": "free_text"
+         }
         ]
       }
     },

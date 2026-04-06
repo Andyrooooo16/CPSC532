@@ -1,0 +1,5025 @@
+[
+  {
+    "page": 11,
+    "rects": [
+      [
+        69.89399719238281,
+        479.81146240234375,
+        294.0481262207031,
+        488.8404235839844
+      ],
+      [
+        53.79800033569336,
+        490.75042724609375,
+        294.2756652832031,
+        499.8060607910156
+      ],
+      [
+        53.79800033569336,
+        501.7094421386719,
+        295.4281311035156,
+        510.76507568359375
+      ]
+    ],
+    "text": "Scim helped one reader skim a detailed experimental section\nand identify several important details which, due to the density\nof text, they \u201cmight have skipped if not for the highlights\u201d (P5).",
+    "label": "NONE"
+  },
+  {
+    "page": 10,
+    "rects": [
+      [
+        468.6673278808594,
+        316.98944091796875,
+        558.2040405273438,
+        326.0450744628906
+      ],
+      [
+        317.9549865722656,
+        327.9517517089844,
+        558.2061767578125,
+        337.0029296875
+      ],
+      [
+        317.9549865722656,
+        338.9743957519531,
+        484.60467529296875,
+        347.9407958984375
+      ]
+    ],
+    "text": "And third, most readers\nreported that the highlights helped them find useful information\nduring their daily readings (see Section 7.2.3).",
+    "label": "NONE"
+  },
+  {
+    "page": 12,
+    "rects": [
+      [
+        252.04983520507812,
+        620.1854248046875,
+        294.0470275878906,
+        629.2410278320312
+      ],
+      [
+        53.79800033569336,
+        631.171142578125,
+        294.0484924316406,
+        640.191162109375
+      ],
+      [
+        53.79800033569336,
+        642.17041015625,
+        253.3004608154297,
+        651.1368408203125
+      ]
+    ],
+    "text": "For readers\nlike these, our results may be less indicative that Scim helps with\nthe skimming process but rather the scanning process.",
+    "label": "NONE"
+  },
+  {
+    "page": 12,
+    "rects": [
+      [
+        436.2466125488281,
+        656.8499755859375,
+        558.2023315429688,
+        665.7262573242188
+      ],
+      [
+        317.9549865722656,
+        667.6777954101562,
+        559.5858764648438,
+        676.7289428710938
+      ]
+    ],
+    "text": "Future research could improve the\nusefulness of highlights with alternative algorithmic approaches.",
+    "label": "NONE"
+  },
+  {
+    "page": 11,
+    "rects": [
+      [
+        433.1711120605469,
+        656.8499755859375,
+        558.202880859375,
+        665.7262573242188
+      ],
+      [
+        317.9549865722656,
+        667.7145385742188,
+        475.20953369140625,
+        676.7167358398438
+      ]
+    ],
+    "text": "For some readers, Scim\u2019s highlights\nprovided too much detail, particularly if they desired only a highlevel understanding of the material (P6, P8).",
+    "label": "NONE"
+  },
+  {
+    "page": 11,
+    "rects": [
+      [
+        340.5377197265625,
+        104.49439239501953,
+        558.2025146484375,
+        113.37067413330078
+      ],
+      [
+        53.44900131225586,
+        115.36422729492188,
+        332.2772521972656,
+        124.33062744140625
+      ]
+    ],
+    "text": "Faceted highlights are omitted from this table, because\nwe could not collect log data as to when readers looked at highlights.",
+    "label": "NONE"
+  },
+  {
+    "page": 5,
+    "rects": [
+      [
+        53.79800033569336,
+        177.81893920898438,
+        294.04705810546875,
+        186.8745574951172
+      ],
+      [
+        53.79800033569336,
+        188.83863830566406,
+        140.265625,
+        197.83189392089844
+      ]
+    ],
+    "text": "Figure 2: Our formative research revealed that intelligent\nhighlights need to do more than pointing readers to important content.",
+    "label": "RESULTS"
+  },
+  {
+    "page": 12,
+    "rects": [
+      [
+        122.11476135253906,
+        229.33843994140625,
+        294.0485534667969,
+        238.36740112304688
+      ],
+      [
+        53.79800033569336,
+        240.27642822265625,
+        182.73443603515625,
+        249.33206176757812
+      ]
+    ],
+    "text": "While Scim addresses these information needs\nthrough faceted highlights, future tools could support more conversational interactions between readers and the papers they skim.",
+    "label": "CONCLUSIONS"
+  },
+  {
+    "page": 2,
+    "rects": [
+      [
+        327.9179992675781,
+        465.6106262207031,
+        558.2039184570312,
+        474.5500793457031
+      ],
+      [
+        317.9549865722656,
+        476.56622314453125,
+        558.2037963867188,
+        485.51019287109375
+      ],
+      [
+        317.62298583984375,
+        487.5083923339844,
+        423.61480712890625,
+        496.47479248046875
+      ]
+    ],
+    "text": "The Scim system and its accompanying studies offer a vision of\nhow applications can help readers skim texts like scientific papers\nwith intelligent highlighting.",
+    "label": "NONE"
+  },
+  {
+    "page": 1,
+    "rects": [
+      [
+        445.3549499511719,
+        683.5234375,
+        558.2042236328125,
+        692.5790405273438
+      ],
+      [
+        317.9549865722656,
+        694.5048217773438,
+        507.225830078125,
+        703.529296875
+      ]
+    ],
+    "text": "These studies reveal a tension\nbetween reader expectations and system design, because it is not A C E D B Figure 1: Scim is an intelligent reading interface for skimming scientific papers.",
+    "label": "NONE"
+  },
+  {
+    "page": 2,
+    "rects": [
+      [
+        379.50909423828125,
+        325.6539001464844,
+        558.205810546875,
+        334.6337585449219
+      ],
+      [
+        53.79800033569336,
+        336.6163635253906,
+        300.92462158203125,
+        345.5917053222656
+      ]
+    ],
+    "text": "To help readers develop a broad overview of\ncontent in a paper, Scim intelligently highlights passages (A).",
+    "label": "NONE"
+  },
+  {
+    "page": 5,
+    "rects": [
+      [
+        379.1734619140625,
+        555.8468017578125,
+        558.1990966796875,
+        564.89794921875
+      ],
+      [
+        317.62298583984375,
+        566.8024291992188,
+        447.4374084472656,
+        575.8580322265625
+      ]
+    ],
+    "text": "Since users of initial prototypes were concerned\nwhen they saw passages without any highlights (D5), we postprocessed model predictions to distribute highlights approximately\nevenly throughout the paper.",
+    "label": "NONE"
+  },
+  {
+    "page": 11,
+    "rects": [
+      [
+        53.50199890136719,
+        82.50941467285156,
+        337.6439208984375,
+        91.45337677001953
+      ]
+    ],
+    "text": "Table 1: A summary of usage of Scim\u2019s features during the diary study.",
+    "label": "NONE"
+  },
+  {
+    "page": 1,
+    "rects": [
+      [
+        100.48799896240234,
+        354.80224609375,
+        294.0440368652344,
+        363.7955017089844
+      ],
+      [
+        53.79800033569336,
+        365.72442626953125,
+        277.3733825683594,
+        374.7667236328125
+      ]
+    ],
+    "text": "Scim supports the skimming process by highlighting\nsalient paper contents in order to direct a reader\u2019s attention.",
+    "label": "CONCLUSIONS"
+  },
+  {
+    "page": 9,
+    "rects": [
+      [
+        386.0357971191406,
+        529.0824584960938,
+        558.3687133789062,
+        538.1380615234375
+      ],
+      [
+        317.9549865722656,
+        540.1151733398438,
+        558.1987915039062,
+        549.0725708007812
+      ],
+      [
+        317.9549865722656,
+        551.0673828125,
+        548.3199462890625,
+        560.0338134765625
+      ]
+    ],
+    "text": "We also allowed participants to request other\npapers outside of this collection to read with Scim throughout the\nstudy; in total, an additional 10 NLP papers were preprocessed.",
+    "label": "METHODS"
+  },
+  {
+    "page": 2,
+    "rects": [
+      [
+        136.72052001953125,
+        487.5455322265625,
+        294.043701171875,
+        496.46246337890625
+      ],
+      [
+        53.79800033569336,
+        498.4606628417969,
+        295.0991516113281,
+        507.43603515625
+      ],
+      [
+        53.79800033569336,
+        509.4940490722656,
+        294.0453186035156,
+        518.3703002929688
+      ],
+      [
+        53.79800033569336,
+        520.32080078125,
+        80.49562072753906,
+        529.3719482421875
+      ]
+    ],
+    "text": "First, passages are highlighted with distinct\ncolors for each of four diverse kinds of content sought by readers:\nresearch objectives, novel aspects of the research, methodology, and\nresults.",
+    "label": "NONE"
+  },
+  {
+    "page": 10,
+    "rects": [
+      [
+        139.49057006835938,
+        531.99267578125,
+        294.2797546386719,
+        540.968017578125
+      ],
+      [
+        53.79800033569336,
+        542.8914184570312,
+        244.07484436035156,
+        551.947021484375
+      ]
+    ],
+    "text": "Furthermore, Scim helped readers identify\nkey concepts and review the main ideas of papers.",
+    "label": "NONE"
+  },
+  {
+    "page": 2,
+    "rects": [
+      [
+        125.92371368408203,
+        380.4612121582031,
+        530.658203125,
+        389.4276123046875
+      ]
+    ],
+    "text": "Readers can also collect an overview of the paper by reviewing highlighted passages in a sidebar (E).",
+    "label": "NONE"
+  },
+  {
+    "page": 10,
+    "rects": [
+      [
+        317.9549865722656,
+        415.6796569824219,
+        515.3945922851562,
+        424.655029296875
+      ]
+    ],
+    "text": "It was also described as an \u201cextractive summary\u201d (P2).",
+    "label": "NONE"
+  },
+  {
+    "page": 10,
+    "rects": [
+      [
+        317.9549865722656,
+        393.7751159667969,
+        558.2037353515625,
+        402.7325439453125
+      ],
+      [
+        317.9549865722656,
+        404.7950439453125,
+        559.5819091796875,
+        413.67132568359375
+      ]
+    ],
+    "text": "Readers described the highlight browser as supporting navigation\nand providing a rapid understanding of paper contents (P7, P9, P10).",
+    "label": "RESULTS"
+  },
+  {
+    "page": 2,
+    "rects": [
+      [
+        205.26612854003906,
+        542.3598022460938,
+        294.0434265136719,
+        551.2496948242188
+      ],
+      [
+        53.79800033569336,
+        553.3289794921875,
+        294.04541015625,
+        562.2052612304688
+      ],
+      [
+        53.79800033569336,
+        564.2203979492188,
+        201.0980224609375,
+        573.1868286132812
+      ]
+    ],
+    "text": "Finally, Scim lets readers\ncustomize the number of highlights in a paper, both across an entire\npaper and within individual paragraphs.",
+    "label": "BACKGROUND"
+  },
+  {
+    "page": 8,
+    "rects": [
+      [
+        418.94158935546875,
+        163.6685333251953,
+        558.2011108398438,
+        172.58547973632812
+      ],
+      [
+        342.364013671875,
+        174.6580352783203,
+        558.2015991210938,
+        183.53433227539062
+      ],
+      [
+        342.364013671875,
+        185.6170196533203,
+        558.43798828125,
+        194.49331665039062
+      ],
+      [
+        342.364013671875,
+        196.5083770751953,
+        389.4197082519531,
+        205.4747772216797
+      ]
+    ],
+    "text": "In contrast to Task 2, we hypothesized\nthat Scim might prove a hindrance when finding information\noutside of the highlights, and this task was designed to check\nthis concern.",
+    "label": "METHODS"
+  },
+  {
+    "page": 11,
+    "rects": [
+      [
+        239.2779998779297,
+        639.5534057617188,
+        257.8115539550781,
+        648.5198364257812
+      ],
+      [
+        63.76100158691406,
+        656.7153930664062,
+        294.2149963378906,
+        665.77099609375
+      ],
+      [
+        53.79800033569336,
+        667.7413940429688,
+        91.92313385009766,
+        676.7078247070312
+      ]
+    ],
+    "text": "(P10) The highlights also provided a summary of the paper in their\nown right.",
+    "label": "NONE"
+  },
+  {
+    "page": 8,
+    "rects": [
+      [
+        118.47100067138672,
+        532.72705078125,
+        294.0455017089844,
+        541.6033325195312
+      ],
+      [
+        53.79800033569336,
+        543.6150512695312,
+        201.806884765625,
+        552.5859375
+      ]
+    ],
+    "text": "Participants first provided consent and then were\nled through a tutorial of Scim\u2019s features.",
+    "label": "METHODS"
+  },
+  {
+    "page": 10,
+    "rects": [
+      [
+        64.70800018310547,
+        200.7433624267578,
+        227.47509765625,
+        209.7097625732422
+      ]
+    ],
+    "text": "(3) Did highlights help you skim this paper?",
+    "label": "NONE"
+  },
+  {
+    "page": 4,
+    "rects": [
+      [
+        239.61502075195312,
+        86.85242462158203,
+        294.0411682128906,
+        95.90804290771484
+      ],
+      [
+        53.79800033569336,
+        97.81474304199219,
+        294.0492248535156,
+        106.86592102050781
+      ],
+      [
+        53.79800033569336,
+        108.78045654296875,
+        294.0461730957031,
+        117.82274627685547
+      ],
+      [
+        53.79800033569336,
+        119.79640197753906,
+        145.82916259765625,
+        128.76280212402344
+      ]
+    ],
+    "text": "Despite recent\nadvances, automated summaries remain error-prone, susceptible\nto hallucination [79], and unreliable as a standalone replacement\nfor reading a paper itself.",
+    "label": "OBJECTIVE"
+  },
+  {
+    "page": 6,
+    "rects": [
+      [
+        117.64078521728516,
+        600.011474609375,
+        294.046630859375,
+        608.9058227539062
+      ],
+      [
+        53.79800033569336,
+        610.9163818359375,
+        250.3858642578125,
+        619.8828125
+      ]
+    ],
+    "text": "The annotations also offer feedback to readers as\nthey configure highlight density with Scim\u2019s controls.",
+    "label": "METHODS"
+  },
+  {
+    "page": 10,
+    "rects": [
+      [
+        53.79800033569336,
+        641.5514526367188,
+        294.0483093261719,
+        650.5670776367188
+      ],
+      [
+        53.79800033569336,
+        652.5372924804688,
+        295.03424072265625,
+        661.5171508789062
+      ],
+      [
+        53.79800033569336,
+        663.5740356445312,
+        84.08705139160156,
+        672.4503173828125
+      ]
+    ],
+    "text": "Scim\u2019s highlights also helped readers attend to interesting details\nin sections of papers they might have otherwise skipped over (P1,\nP4, P11).",
+    "label": "NONE"
+  },
+  {
+    "page": 13,
+    "rects": [
+      [
+        79.17506408691406,
+        603.4500122070312,
+        294.04541015625,
+        612.3262939453125
+      ],
+      [
+        53.79800033569336,
+        614.3413696289062,
+        276.9179992675781,
+        623.3078002929688
+      ]
+    ],
+    "text": "Altogether, these studies suggest the potential for intelligent\ntools to support researchers in skimming scientific literature.",
+    "label": "CONCLUSIONS"
+  },
+  {
+    "page": 9,
+    "rects": [
+      [
+        152.01895141601562,
+        391.6107482910156,
+        294.0453796386719,
+        400.66192626953125
+      ],
+      [
+        53.79800033569336,
+        402.6391296386719,
+        295.03076171875,
+        411.5965576171875
+      ],
+      [
+        53.46699905395508,
+        413.5914001464844,
+        274.44390869140625,
+        422.55780029296875
+      ]
+    ],
+    "text": "Altogether, the results show that Scim\nreduced the time it took for readers to seek information in papers,\nwith no observed significant difference in accuracy or effort.",
+    "label": "CONCLUSIONS"
+  },
+  {
+    "page": 10,
+    "rects": [
+      [
+        440.59002685546875,
+        97.87837219238281,
+        454.9542236328125,
+        106.84477233886719
+      ],
+      [
+        327.9179992675781,
+        114.89801788330078,
+        559.1849975585938,
+        123.868896484375
+      ],
+      [
+        317.9549865722656,
+        125.80680084228516,
+        372.15869140625,
+        134.8446502685547
+      ]
+    ],
+    "text": "(P4) For some readers, skimming without Scim required two passes,\nfirst skimming a paper to identify relevant passages, and then rereading passages of interest in greater detail (P5, P8).",
+    "label": "NONE"
+  },
+  {
+    "page": 10,
+    "rects": [
+      [
+        63.76100158691406,
+        510.1490783691406,
+        294.0433654785156,
+        519.0253295898438
+      ],
+      [
+        53.79800033569336,
+        521.1080322265625,
+        294.04534912109375,
+        529.9843139648438
+      ],
+      [
+        53.79800033569336,
+        531.99267578125,
+        137.24449157714844,
+        540.968017578125
+      ]
+    ],
+    "text": "For many readers, Scim helped with skimming by allowing them\nto focus their attention and attain a high-level understanding of the\npaper (P5, P6, P9, P10).",
+    "label": "NONE"
+  },
+  {
+    "page": 5,
+    "rects": [
+      [
+        105.5099105834961,
+        199.913330078125,
+        182.66041564941406,
+        208.78961181640625
+      ],
+      [
+        182.66041564941406,
+        202.010986328125,
+        246.6387939453125,
+        210.88726806640625
+      ],
+      [
+        246.6387939453125,
+        199.913330078125,
+        294.0462951660156,
+        208.78961181640625
+      ],
+      [
+        53.79800033569336,
+        210.69497680664062,
+        229.12156677246094,
+        219.75059509277344
+      ],
+      [
+        229.12156677246094,
+        212.8350067138672,
+        259.6313781738281,
+        221.890625
+      ],
+      [
+        259.6313781738281,
+        210.69497680664062,
+        294.04486083984375,
+        219.75059509277344
+      ],
+      [
+        53.79800033569336,
+        221.74221801757812,
+        96.7649917602539,
+        230.7086181640625
+      ]
+    ],
+    "text": "They should also be well-distributed throughout\na paper (D3, D5) and steer readers towards diverse content\ntypes (D2).",
+    "label": "CONCLUSIONS"
+  },
+  {
+    "page": 13,
+    "rects": [
+      [
+        185.41705322265625,
+        163.68887329101562,
+        294.04925537109375,
+        172.5787353515625
+      ],
+      [
+        53.79800033569336,
+        174.6580352783203,
+        294.0452880859375,
+        183.53433227539062
+      ],
+      [
+        53.79800033569336,
+        185.5493927001953,
+        292.3402099609375,
+        194.5157928466797
+      ]
+    ],
+    "text": "Such issues in PDF processing\nmay need to be resolved to improve classification accuracy and the\ncleanliness of the highlights\u2019 appearance in the reading interface.",
+    "label": "NONE"
+  },
+  {
+    "page": 12,
+    "rects": [
+      [
+        317.9549865722656,
+        456.4564514160156,
+        331.83135986328125,
+        467.36553955078125
+      ],
+      [
+        342.7404479980469,
+        456.4564514160156,
+        468.8169860839844,
+        467.36553955078125
+      ],
+      [
+        317.5249938964844,
+        474.2840576171875,
+        500.89361572265625,
+        483.16033935546875
+      ]
+    ],
+    "text": "8.4\nLimitations of Highlights Without sophisticated controls and affordances enabling more goaldriven or personalized skimming, highlights only present a single\npathway through a paper.",
+    "label": "NONE"
+  },
+  {
+    "page": 10,
+    "rects": [
+      [
+        327.9179992675781,
+        459.5900573730469,
+        558.200927734375,
+        468.4663391113281
+      ],
+      [
+        317.9549865722656,
+        470.4134216308594,
+        414.5887451171875,
+        479.46905517578125
+      ]
+    ],
+    "text": "Nearly all readers used both global and local controls to configure\nthe number of highlights.",
+    "label": "METHODS"
+  },
+  {
+    "page": 2,
+    "rects": [
+      [
+        425.8564147949219,
+        487.5083923339844,
+        551.3143310546875,
+        496.47479248046875
+      ],
+      [
+        333.9219970703125,
+        500.2152099609375,
+        498.6278076171875,
+        509.85406494140625
+      ]
+    ],
+    "text": "Altogether, this paper contributes: \u2022 Design goals to guide the design of intelligent, highlightbased skimming user interfaces, based on formative interviews and preliminary usability studies of a prototype tool.",
+    "label": "BACKGROUND"
+  },
+  {
+    "page": 11,
+    "rects": [
+      [
+        53.79800033569336,
+        512.675048828125,
+        294.04425048828125,
+        521.7218017578125
+      ],
+      [
+        53.79800033569336,
+        523.6264038085938,
+        294.2757263183594,
+        532.6820068359375
+      ],
+      [
+        53.79800033569336,
+        534.6524047851562,
+        114.08808135986328,
+        543.6188354492188
+      ]
+    ],
+    "text": "Readers reported Scim as helpful not just for dense passages, but\nalso for papers that were text-heavy as a whole, such as survey\npapers (P5, P11).",
+    "label": "NONE"
+  },
+  {
+    "page": 10,
+    "rects": [
+      [
+        426.2493591308594,
+        206.5647735595703,
+        533.7955932617188,
+        215.4636688232422
+      ],
+      [
+        342.364013671875,
+        217.45599365234375,
+        437.75762939453125,
+        226.4224090576172
+      ]
+    ],
+    "text": "The highlights save me time in\nskimming the whole paper.",
+    "label": "NONE"
+  },
+  {
+    "page": 13,
+    "rects": [
+      [
+        53.79800033569336,
+        476.032470703125,
+        59.405277252197266,
+        486.9415588378906
+      ],
+      [
+        70.31437683105469,
+        476.032470703125,
+        141.57261657714844,
+        486.9415588378906
+      ],
+      [
+        53.79800033569336,
+        493.7264404296875,
+        294.0470886230469,
+        502.7820739746094
+      ],
+      [
+        53.79800033569336,
+        504.6854248046875,
+        245.46498107910156,
+        513.7410278320312
+      ]
+    ],
+    "text": "9\nCONCLUSION Our formative research yielded seven goals motivate the design\nof intelligent tools for skimming scientific papers.",
+    "label": "NONE"
+  },
+  {
+    "page": 8,
+    "rects": [
+      [
+        317.9549865722656,
+        289.9472351074219,
+        558.37060546875,
+        298.94049072265625
+      ],
+      [
+        317.9549865722656,
+        300.9635314941406,
+        558.20068359375,
+        309.8804626464844
+      ],
+      [
+        317.9549865722656,
+        311.8484802246094,
+        485.4769287109375,
+        320.8640441894531
+      ]
+    ],
+    "text": "Questions in Tasks 2 and 3 focused on aspects of a paper a reader\nmight be interested in while skimming, such as evaluation metrics\nor the motivation behind a proposed method.",
+    "label": "NONE"
+  },
+  {
+    "page": 10,
+    "rects": [
+      [
+        317.9549865722656,
+        503.3372497558594,
+        558.1991577148438,
+        512.3305053710938
+      ],
+      [
+        317.9549865722656,
+        514.2494506835938,
+        441.486328125,
+        523.3050537109375
+      ]
+    ],
+    "text": "Only a few readers adjusted the highlights via the global controls\nacross multiple papers skimmed.",
+    "label": "NONE"
+  },
+  {
+    "page": 10,
+    "rects": [
+      [
+        444.5516662597656,
+        547.1364135742188,
+        558.1995849609375,
+        556.1787109375
+      ],
+      [
+        317.9549865722656,
+        558.1962890625,
+        558.2014770507812,
+        567.104248046875
+      ],
+      [
+        317.9549865722656,
+        569.1790161132812,
+        398.0580139160156,
+        578.0552978515625
+      ]
+    ],
+    "text": "Exit interviews confirmed that\nreaders tended to tune the level of highlights to the preferred level\non the first day of use.",
+    "label": "RESULTS"
+  },
+  {
+    "page": 5,
+    "rects": [
+      [
+        317.9549865722656,
+        205.14845275878906,
+        331.83135986328125,
+        216.05755615234375
+      ],
+      [
+        342.7404479980469,
+        205.14845275878906,
+        435.5987854003906,
+        216.05755615234375
+      ],
+      [
+        317.9549865722656,
+        222.9770050048828,
+        558.1979370117188,
+        231.85330200195312
+      ],
+      [
+        317.9549865722656,
+        233.84722900390625,
+        413.0369567871094,
+        242.84048461914062
+      ]
+    ],
+    "text": "4.2\nFaceted Highlights Scim intelligently highlights a paper to direct a reader\u2019s attention to\nkey passages (Figure 1.A).",
+    "label": "NONE"
+  },
+  {
+    "page": 10,
+    "rects": [
+      [
+        185.16722106933594,
+        608.6454467773438,
+        294.0470886230469,
+        617.7010498046875
+      ],
+      [
+        53.79800033569336,
+        619.690673828125,
+        294.046142578125,
+        628.630126953125
+      ],
+      [
+        53.79800033569336,
+        630.697021484375,
+        295.4249572753906,
+        639.5733032226562
+      ]
+    ],
+    "text": "For instance, P1 and P2 both\nnoted that the highlights helped them to understand the results of\nthe paper more quickly, which are often quite dense and text-heavy.",
+    "label": "NONE"
+  },
+  {
+    "page": 11,
+    "rects": [
+      [
+        267.0754089355469,
+        292.2857360839844,
+        269.6361999511719,
+        301.34136962890625
+      ],
+      [
+        78.20700073242188,
+        303.4221496582031,
+        269.63336181640625,
+        312.2984619140625
+      ],
+      [
+        78.20700073242188,
+        314.3811340332031,
+        174.14422607421875,
+        323.2574462890625
+      ]
+    ],
+    "text": "I\nfound the results highlights to be very helpful, so I would\nimmediately focus on those.",
+    "label": "NONE"
+  },
+  {
+    "page": 9,
+    "rects": [
+      [
+        53.52899932861328,
+        498.47705078125,
+        294.0439758300781,
+        507.35333251953125
+      ],
+      [
+        53.79800033569336,
+        509.4360656738281,
+        294.0453186035156,
+        518.3123168945312
+      ],
+      [
+        53.46699905395508,
+        520.3038940429688,
+        197.6356964111328,
+        529.3016357421875
+      ]
+    ],
+    "text": "This study let readers use Scim for papers of their choice from a list\nrelevant to their discipline, leading to alignment of their motivation\nwith typical motivations for skimming.",
+    "label": "CONCLUSIONS"
+  },
+  {
+    "page": 11,
+    "rects": [
+      [
+        63.76100158691406,
+        392.16387939453125,
+        294.0408630371094,
+        401.16162109375
+      ],
+      [
+        53.79800033569336,
+        403.0794372558594,
+        178.49998474121094,
+        412.13507080078125
+      ]
+    ],
+    "text": "Overall, the intelligent highlights appeared to be useful during\na majority of skimming sessions.",
+    "label": "RESULTS"
+  },
+  {
+    "page": 9,
+    "rects": [
+      [
+        357.4235534667969,
+        589.85205078125,
+        558.1986083984375,
+        598.8988037109375
+      ],
+      [
+        317.9549865722656,
+        600.874755859375,
+        418.608642578125,
+        609.836669921875
+      ]
+    ],
+    "text": "During the welcome session, participants completed a\ntutorial of how to use Scim.",
+    "label": "METHODS"
+  },
+  {
+    "page": 11,
+    "rects": [
+      [
+        317.9549865722656,
+        248.63645935058594,
+        333.52569580078125,
+        257.51275634765625
+      ],
+      [
+        342.488525390625,
+        248.63645935058594,
+        554.7177734375,
+        257.51275634765625
+      ]
+    ],
+    "text": "7.2.4\nLimitations of Scim\u2019s model of intelligent highlighting (RQ4).",
+    "label": "NONE"
+  },
+  {
+    "page": 9,
+    "rects": [
+      [
+        78.20700073242188,
+        569.7357177734375,
+        294.04620361328125,
+        578.7913208007812
+      ],
+      [
+        78.20700073242188,
+        580.7830200195312,
+        158.3038330078125,
+        589.7494506835938
+      ]
+    ],
+    "text": "What value can intelligent highlight-based skimming aids\nprovide to researchers?",
+    "label": "OBJECTIVE"
+  },
+  {
+    "page": 10,
+    "rects": [
+      [
+        547.0188598632812,
+        262.1944580078125,
+        558.2041015625,
+        271.2500915527344
+      ],
+      [
+        317.9549865722656,
+        273.1734619140625,
+        528.4149780273438,
+        282.2024230957031
+      ]
+    ],
+    "text": "All\nreaders made use of most features at least once (Table 1).",
+    "label": "NONE"
+  },
+  {
+    "page": 1,
+    "rects": [
+      [
+        461.36053466796875,
+        464.34442138671875,
+        558.2046508789062,
+        473.4000549316406
+      ],
+      [
+        317.9549865722656,
+        475.3234558105469,
+        558.1986694335938,
+        484.3524169921875
+      ],
+      [
+        317.9549865722656,
+        486.2624206542969,
+        382.8099365234375,
+        495.31805419921875
+      ]
+    ],
+    "text": "Despite the pervasiveness\nof skimming as a practice for reviewing papers [56], skimming is\nnot easy [16, 47].",
+    "label": "OBJECTIVE"
+  },
+  {
+    "page": 1,
+    "rects": [
+      [
+        339.2724609375,
+        661.739990234375,
+        558.2025756835938,
+        670.6162719726562
+      ],
+      [
+        317.9549865722656,
+        672.564453125,
+        558.204345703125,
+        681.6200561523438
+      ],
+      [
+        317.9549865722656,
+        683.5234375,
+        442.7484130859375,
+        692.5790405273438
+      ]
+    ],
+    "text": "In these studies, we found that readers desired highlights that\ncover diverse content, are evenly distributed across a paper, and\ncapture important paper content.",
+    "label": "BACKGROUND"
+  },
+  {
+    "page": 3,
+    "rects": [
+      [
+        438.2030029296875,
+        426.7130432128906,
+        558.3749389648438,
+        435.5893249511719
+      ],
+      [
+        317.9549865722656,
+        437.5374450683594,
+        558.2040405273438,
+        446.59307861328125
+      ],
+      [
+        317.9549865722656,
+        448.4964294433594,
+        420.93585205078125,
+        457.55206298828125
+      ]
+    ],
+    "text": "Beyond typographical cues, other\nreading interface augmentations exist to specifically support the\nreading of scientific papers.",
+    "label": "NONE"
+  },
+  {
+    "page": 5,
+    "rects": [
+      [
+        317.9549865722656,
+        115.23543548583984,
+        331.83135986328125,
+        126.14453125
+      ],
+      [
+        342.7404479980469,
+        115.23543548583984,
+        389.6823425292969,
+        126.14453125
+      ],
+      [
+        317.6409912109375,
+        133.0132598876953,
+        558.197998046875,
+        141.95721435546875
+      ],
+      [
+        317.9549865722656,
+        143.888427734375,
+        456.74139404296875,
+        152.94406127929688
+      ]
+    ],
+    "text": "4.1\nOverview A reader interacts with Scim as a tool that supports and augments\ntheir typical skimming process (D1).",
+    "label": "NONE"
+  },
+  {
+    "page": 4,
+    "rects": [
+      [
+        317.9549865722656,
+        200.66542053222656,
+        331.83135986328125,
+        211.57452392578125
+      ],
+      [
+        342.7404479980469,
+        200.66542053222656,
+        407.10418701171875,
+        211.57452392578125
+      ],
+      [
+        317.5249938964844,
+        218.35943603515625,
+        558.2039794921875,
+        227.41506958007812
+      ],
+      [
+        317.9549865722656,
+        229.38539123535156,
+        504.76123046875,
+        238.35179138183594
+      ]
+    ],
+    "text": "3.2\nDesign Goals We introduce seven design goals for intelligent highlight-based\nskimming interfaces, based our formative research.",
+    "label": "NONE"
+  },
+  {
+    "page": 2,
+    "rects": [
+      [
+        317.95501708984375,
+        660.939453125,
+        323.5622863769531,
+        671.8485717773438
+      ],
+      [
+        334.47137451171875,
+        660.939453125,
+        421.7441711425781,
+        671.8485717773438
+      ],
+      [
+        317.9549865722656,
+        678.6334228515625,
+        558.2040405273438,
+        687.6890258789062
+      ],
+      [
+        317.9549865722656,
+        689.7269897460938,
+        558.2025146484375,
+        698.603271484375
+      ],
+      [
+        317.9549865722656,
+        700.6173706054688,
+        477.7364501953125,
+        709.5838012695312
+      ]
+    ],
+    "text": "2\nRELATED WORK In this section, we first introduce motivating insights about the\nprocess of skimming, and then we review tools and techniques that\nhave been introduced to support skimming.",
+    "label": "NONE"
+  },
+  {
+    "page": 13,
+    "rects": [
+      [
+        246.29393005371094,
+        97.84146118164062,
+        295.0275573730469,
+        106.85704040527344
+      ],
+      [
+        53.79800033569336,
+        108.77045440673828,
+        294.0470886230469,
+        117.8260726928711
+      ],
+      [
+        53.79800033569336,
+        119.72943878173828,
+        187.1040496826172,
+        128.78506469726562
+      ]
+    ],
+    "text": "Furthermore,\nimprovements to PDF processing are necessary to improve the\nuser experience for tools like Scim.",
+    "label": "CONCLUSIONS"
+  },
+  {
+    "page": 11,
+    "rects": [
+      [
+        370.1451110839844,
+        551.8598022460938,
+        558.2037353515625,
+        560.8709716796875
+      ],
+      [
+        317.9549865722656,
+        562.903076171875,
+        422.72796630859375,
+        571.802001953125
+      ]
+    ],
+    "text": "For instance, Scim sometimes highlighted only one\ncontribution from a list of bulleted contributions, when readers believed it should have highlighted all of them (P1, P7).",
+    "label": "NONE"
+  },
+  {
+    "page": 6,
+    "rects": [
+      [
+        105.99530792236328,
+        249.82421875,
+        558.20654296875,
+        258.75018310546875
+      ],
+      [
+        53.79800033569336,
+        260.83233642578125,
+        238.73947143554688,
+        269.7086181640625
+      ],
+      [
+        238.73947143554688,
+        262.92999267578125,
+        251.51893615722656,
+        271.8062744140625
+      ],
+      [
+        251.5189971923828,
+        260.83233642578125,
+        253.6630401611328,
+        269.7086181640625
+      ]
+    ],
+    "text": "These facets aim to surface specific kinds of paper content that align with common skimming goals identified in\nformative research, reflecting design guideline D2.",
+    "label": "BACKGROUND"
+  },
+  {
+    "page": 8,
+    "rects": [
+      [
+        435.8819885253906,
+        97.8817367553711,
+        558.2047729492188,
+        106.8436508178711
+      ],
+      [
+        342.364013671875,
+        108.88130187988281,
+        558.4364013671875,
+        117.78923034667969
+      ],
+      [
+        342.0320129394531,
+        119.79640197753906,
+        476.8060302734375,
+        128.76280212402344
+      ]
+    ],
+    "text": "We hypothesized the main points\nhighlighted by Scim should be easier to locate, and this task\nwas designed to test that hypothesis.",
+    "label": "OBJECTIVE"
+  },
+  {
+    "page": 11,
+    "rects": [
+      [
+        391.701416015625,
+        497.1490783691406,
+        558.2006225585938,
+        506.0479736328125
+      ],
+      [
+        317.9549865722656,
+        508.04058837890625,
+        558.2033081054688,
+        517.0293579101562
+      ],
+      [
+        317.9549865722656,
+        519.053466796875,
+        558.3741455078125,
+        527.970458984375
+      ],
+      [
+        317.9549865722656,
+        529.9754028320312,
+        550.4807739257812,
+        538.9418334960938
+      ]
+    ],
+    "text": "As a result, readers discovered inconsistencies\nbetween the visual cues introduced by authors and the highlights\nsuggested by Scim (P2, P4, P5), such as bolded result statements or\ncontributions in a list, which were not consistently highlighted.",
+    "label": "RESULTS"
+  },
+  {
+    "page": 6,
+    "rects": [
+      [
+        259.0025634765625,
+        678.7680053710938,
+        294.0454406738281,
+        687.644287109375
+      ],
+      [
+        53.79800033569336,
+        689.5924072265625,
+        294.0470275878906,
+        698.6480102539062
+      ],
+      [
+        53.79800033569336,
+        700.587158203125,
+        206.45870971679688,
+        709.5938110351562
+      ]
+    ],
+    "text": "A vertical\ncolored bar appears next to each passage, providing a subtle and\ncompact indication of the passage\u2019s facet.",
+    "label": "NONE"
+  },
+  {
+    "page": 4,
+    "rects": [
+      [
+        333.3463439941406,
+        371.85711669921875,
+        558.2034301757812,
+        380.8145446777344
+      ],
+      [
+        317.9549865722656,
+        382.80938720703125,
+        406.2830505371094,
+        391.7757873535156
+      ]
+    ],
+    "text": "We believe skimming interfaces should not impede or replace\nthese reading strategies.",
+    "label": "CONCLUSIONS"
+  },
+  {
+    "page": 5,
+    "rects": [
+      [
+        362.78564453125,
+        255.7786865234375,
+        559.1920776367188,
+        264.7540588378906
+      ],
+      [
+        317.9549865722656,
+        266.68743896484375,
+        559.5779418945312,
+        275.729736328125
+      ]
+    ],
+    "text": "Because readers have different goals when skimming,\nScim colorizes highlights according to facets of information (D2).",
+    "label": "NONE"
+  },
+  {
+    "page": 10,
+    "rects": [
+      [
+        64.70800018310547,
+        211.63446044921875,
+        294.046142578125,
+        220.69009399414062
+      ],
+      [
+        78.20700073242188,
+        222.66041564941406,
+        159.89987182617188,
+        231.62681579589844
+      ]
+    ],
+    "text": "(4) List one or more ways the system could have helped you\nbetter skim this paper.",
+    "label": "NONE"
+  },
+  {
+    "page": 4,
+    "rects": [
+      [
+        369.33294677734375,
+        404.6604309082031,
+        558.2013549804688,
+        413.716064453125
+      ],
+      [
+        317.9549865722656,
+        415.6194152832031,
+        426.2953186035156,
+        424.675048828125
+      ]
+    ],
+    "text": "For instance, some readers sought to learn specific\ntechniques introduced in a paper (F1), and others wished to understand a paper\u2019s relationship to prior research, or discover new\nresearch directions (F2\u20134, F7).",
+    "label": "NONE"
+  },
+  {
+    "page": 4,
+    "rects": [
+      [
+        512.1492309570312,
+        678.7680053710938,
+        558.2022094726562,
+        687.644287109375
+      ],
+      [
+        317.62298583984375,
+        689.7269897460938,
+        558.204345703125,
+        698.603271484375
+      ]
+    ],
+    "text": "Highlighting\nwas chosen for its familiar use in documents, with the colors tuned\nto distinguish the categories of text and minimal contrast to avoid Diversity\nDistribution\nImportance !",
+    "label": "NONE"
+  },
+  {
+    "page": 11,
+    "rects": [
+      [
+        466.7729187011719,
+        420.45404052734375,
+        558.2023315429688,
+        429.330322265625
+      ],
+      [
+        317.9549865722656,
+        431.2784423828125,
+        558.2041625976562,
+        440.3340759277344
+      ],
+      [
+        317.9549865722656,
+        442.30438232421875,
+        554.7310180664062,
+        451.2707824707031
+      ]
+    ],
+    "text": "For one reader, skimming\nhighlights that lacked context therefore became a process that\nresembled \u201cmore back and forth instead of a linear reading\u201d (P7).",
+    "label": "NONE"
+  },
+  {
+    "page": 10,
+    "rects": [
+      [
+        443.9176330566406,
+        623.9730224609375,
+        558.3692626953125,
+        632.8493041992188
+      ],
+      [
+        317.9549865722656,
+        634.7974243164062,
+        495.3819580078125,
+        643.85302734375
+      ]
+    ],
+    "text": "Readers reported directing their\nattention both to the highlights and to conventional paper landmarks like section headers and visual content.",
+    "label": "RESULTS"
+  },
+  {
+    "page": 3,
+    "rects": [
+      [
+        63.76100158691406,
+        396.4414367675781,
+        294.0412292480469,
+        405.4970703125
+      ],
+      [
+        53.79800033569336,
+        407.51129150390625,
+        294.0444641113281,
+        416.419189453125
+      ],
+      [
+        53.79800033569336,
+        418.37945556640625,
+        294.04315185546875,
+        427.4084167480469
+      ],
+      [
+        53.79800033569336,
+        429.31842041015625,
+        147.03793334960938,
+        438.3740539550781
+      ]
+    ],
+    "text": "One study of skimming for scientific document triage found\nreaders were hasty and incomplete, with readers scrolling through\ndocuments quickly and paying attention to highly visual content\nand section headers [42].",
+    "label": "OBJECTIVE"
+  },
+  {
+    "page": 10,
+    "rects": [
+      [
+        64.70800018310547,
+        178.78514099121094,
+        294.04571533203125,
+        187.80517578125
+      ],
+      [
+        78.20700073242188,
+        189.7843780517578,
+        251.0255126953125,
+        198.7507781982422
+      ]
+    ],
+    "text": "(2) What highlights (if any) drew your attention to something\nyou might have missed without the highlights?",
+    "label": "OBJECTIVE"
+  },
+  {
+    "page": 12,
+    "rects": [
+      [
+        209.01016235351562,
+        141.64642333984375,
+        294.047119140625,
+        150.70205688476562
+      ],
+      [
+        53.79800033569336,
+        152.60540771484375,
+        294.0470275878906,
+        161.66104125976562
+      ],
+      [
+        53.79800033569336,
+        163.564453125,
+        232.94448852539062,
+        172.62008666992188
+      ]
+    ],
+    "text": "One reader desired the\nability to use a paper\u2019s abstract or introduction as an index into\nrelated highlights in the rest of the paper (P2).",
+    "label": "NONE"
+  },
+  {
+    "page": 5,
+    "rects": [
+      [
+        192.838134765625,
+        629.0178833007812,
+        294.0460510253906,
+        638.015625
+      ],
+      [
+        53.79800033569336,
+        639.936767578125,
+        294.04925537109375,
+        648.9879150390625
+      ],
+      [
+        53.79800033569336,
+        650.9593505859375,
+        214.9954071044922,
+        659.92578125
+      ]
+    ],
+    "text": "This observation motivated\nour choice of a longitudinal diary study as one of the summative\nevaluation methods for Scim (see Section 7).",
+    "label": "NONE"
+  },
+  {
+    "page": 10,
+    "rects": [
+      [
+        408.57000732421875,
+        184.49176025390625,
+        533.79345703125,
+        193.54737854003906
+      ],
+      [
+        342.364013671875,
+        195.54344177246094,
+        533.7933349609375,
+        204.50535583496094
+      ],
+      [
+        342.364013671875,
+        206.5647735595703,
+        424.00604248046875,
+        215.4636688232422
+      ]
+    ],
+    "text": "Without the highlight[s], I need to\nscan the entire content first, identify the critical points\nand then understand it.",
+    "label": "NONE"
+  },
+  {
+    "page": 9,
+    "rects": [
+      [
+        546.62548828125,
+        474.41961669921875,
+        558.2011108398438,
+        483.3004455566406
+      ],
+      [
+        317.9549865722656,
+        485.2464294433594,
+        558.439208984375,
+        494.30206298828125
+      ],
+      [
+        317.9549865722656,
+        496.2054443359375,
+        558.4328002929688,
+        505.2610778808594
+      ],
+      [
+        317.9549865722656,
+        507.24822998046875,
+        383.965576171875,
+        516.1921997070312
+      ]
+    ],
+    "text": "We\nselected these papers since Scim had been fine-tuned primarily\non NLP papers, and we expected it would perform appropriately\nfor this collection.",
+    "label": "NONE"
+  },
+  {
+    "page": 11,
+    "rects": [
+      [
+        317.9549865722656,
+        621.7855834960938,
+        333.8434143066406,
+        630.751953125
+      ],
+      [
+        342.809814453125,
+        621.7855834960938,
+        526.6389770507812,
+        630.751953125
+      ]
+    ],
+    "text": "7.2.5\nEnvisioning future intelligent skimming tools (RQ5).",
+    "label": "NONE"
+  },
+  {
+    "page": 1,
+    "rects": [
+      [
+        119.10355377197266,
+        431.6030578613281,
+        294.04541015625,
+        440.4793395996094
+      ],
+      [
+        53.79800033569336,
+        442.494384765625,
+        287.49835205078125,
+        451.4607849121094
+      ]
+    ],
+    "text": "We conclude by discussing design considerations\nand tensions for the design of future intelligent skimming tools.",
+    "label": "CONCLUSIONS"
+  },
+  {
+    "page": 10,
+    "rects": [
+      [
+        444.3215026855469,
+        514.2494506835938,
+        558.432861328125,
+        523.3050537109375
+      ],
+      [
+        317.9549865722656,
+        525.3260498046875,
+        559.1897583007812,
+        534.2249755859375
+      ],
+      [
+        317.9549865722656,
+        536.1674194335938,
+        345.3647766113281,
+        545.2230224609375
+      ]
+    ],
+    "text": "When asked, readers typically\nreported that the default density of highlights was appropriate (P2,\nP6, P7).",
+    "label": "METHODS"
+  },
+  {
+    "page": 4,
+    "rects": [
+      [
+        219.36402893066406,
+        536.302001953125,
+        294.04541015625,
+        545.1782836914062
+      ],
+      [
+        53.79800033569336,
+        547.1264038085938,
+        294.0470886230469,
+        556.1820068359375
+      ],
+      [
+        53.79800033569336,
+        558.2030639648438,
+        250.36087036132812,
+        567.1019897460938
+      ]
+    ],
+    "text": "First, the prototype\u2019s\nhighlighting policy was different, resulting in fewer highlighted\npassages, and a less uniform distribution of highlights.",
+    "label": "NONE"
+  },
+  {
+    "page": 10,
+    "rects": [
+      [
+        517.60302734375,
+        136.75244140625,
+        558.201416015625,
+        145.80807495117188
+      ],
+      [
+        317.9549865722656,
+        147.7783966064453,
+        455.4728088378906,
+        156.7447967529297
+      ],
+      [
+        342.364013671875,
+        162.7511444091797,
+        533.7904663085938,
+        171.62742614746094
+      ],
+      [
+        342.364013671875,
+        173.5547637939453,
+        533.7921752929688,
+        182.58816528320312
+      ],
+      [
+        342.364013671875,
+        184.49176025390625,
+        405.8994445800781,
+        193.54737854003906
+      ]
+    ],
+    "text": "Scim could\nalleviate the need for multiple passes: With highlights, I usually spend more time reading and\nunderstanding the highlighted content and skimming\nthe other content.",
+    "label": "NONE"
+  },
+  {
+    "page": 4,
+    "rects": [
+      [
+        317.9549865722656,
+        623.8384399414062,
+        558.2042236328125,
+        632.89404296875
+      ],
+      [
+        317.9549865722656,
+        634.82080078125,
+        558.3720092773438,
+        643.8452758789062
+      ],
+      [
+        317.9549865722656,
+        645.7564086914062,
+        558.4309692382812,
+        654.81201171875
+      ],
+      [
+        317.9549865722656,
+        656.79248046875,
+        421.4566650390625,
+        665.7454223632812
+      ]
+    ],
+    "text": "Our early prototypes incorporated a variety of text highlighting\ntechniques, including underlines, lowlighting unimportant paper\ncontents (inspired by ScholarPhi [23]), and highlighting text by\nsetting its background color.",
+    "label": "NONE"
+  },
+  {
+    "page": 10,
+    "rects": [
+      [
+        261.3958740234375,
+        698.3887329101562,
+        269.63616943359375,
+        707.4443359375
+      ],
+      [
+        342.364013671875,
+        84.76570129394531,
+        533.7954711914062,
+        93.74554443359375
+      ],
+      [
+        342.364013671875,
+        95.73798370361328,
+        438.34942626953125,
+        104.70438385009766
+      ]
+    ],
+    "text": "So the highlights helped me slow down and slightly more\ncarefully read a few places.",
+    "label": "NONE"
+  },
+  {
+    "page": 9,
+    "rects": [
+      [
+        53.52000045776367,
+        262.78045654296875,
+        558.197998046875,
+        271.6748352050781
+      ],
+      [
+        53.79800033569336,
+        273.668212890625,
+        381.70703125,
+        282.6346130371094
+      ]
+    ],
+    "text": "(Right) Participants\u2019 subjective responses regarding the ease of completing information seeking tasks with Scim compared to a\nstandard document reader, and whether they found Scim\u2019s highlights distracting.",
+    "label": "METHODS"
+  },
+  {
+    "page": 5,
+    "rects": [
+      [
+        238.75106811523438,
+        355.08624267578125,
+        294.0469665527344,
+        364.03021240234375
+      ],
+      [
+        53.79800033569336,
+        366.072265625,
+        294.212646484375,
+        374.9801940917969
+      ],
+      [
+        53.79800033569336,
+        376.91943359375,
+        294.0470275878906,
+        385.9750671386719
+      ],
+      [
+        53.79800033569336,
+        387.94537353515625,
+        204.4962921142578,
+        396.9117736816406
+      ]
+    ],
+    "text": "We suggest the\nrule of thumb that a highlight should be provided around once per\nparagraph, and that readers should be able to request additional\nhighlights in particularly dense passages.",
+    "label": "CONCLUSIONS"
+  },
+  {
+    "page": 5,
+    "rects": [
+      [
+        415.26495361328125,
+        233.84722900390625,
+        558.1992797851562,
+        242.84048461914062
+      ],
+      [
+        317.62298583984375,
+        244.82643127441406,
+        417.3563232421875,
+        253.79283142089844
+      ]
+    ],
+    "text": "These highlights were tailored in three\nways to support skimming.",
+    "label": "METHODS"
+  },
+  {
+    "page": 10,
+    "rects": [
+      [
+        417.396484375,
+        470.4134216308594,
+        558.2041625976562,
+        479.46905517578125
+      ],
+      [
+        317.9549865722656,
+        481.5070495605469,
+        558.2021484375,
+        490.3833312988281
+      ],
+      [
+        317.6860046386719,
+        492.3314208984375,
+        559.581298828125,
+        501.3870544433594
+      ]
+    ],
+    "text": "Global controls were typically used a\nsmall handful of times to achieve an acceptable density of highlights\n(which was then persisted into subsequent skimming sessions).",
+    "label": "METHODS"
+  },
+  {
+    "page": 12,
+    "rects": [
+      [
+        127.40816497802734,
+        97.81140899658203,
+        294.0433044433594,
+        106.86702728271484
+      ],
+      [
+        53.79800033569336,
+        108.77045440673828,
+        203.06541442871094,
+        117.8260726928711
+      ]
+    ],
+    "text": "Recent large language models have achieved\nimpressive advances in summarizing scientific texts, and future\ntools could leverage these models to augment the reading experience with abstractive summaries.",
+    "label": "NONE"
+  },
+  {
+    "page": 12,
+    "rects": [
+      [
+        521.0811157226562,
+        209.3522491455078,
+        558.2037353515625,
+        218.29620361328125
+      ],
+      [
+        317.9549865722656,
+        220.328125,
+        558.2039184570312,
+        229.24957275390625
+      ],
+      [
+        317.9549865722656,
+        231.3209991455078,
+        400.650146484375,
+        240.19729614257812
+      ]
+    ],
+    "text": "Skimming\nrequires significant attention to understand the idiosyncrasies and\nnuances within papers.",
+    "label": "CONCLUSIONS"
+  },
+  {
+    "page": 2,
+    "rects": [
+      [
+        333.9220275878906,
+        631.72216796875,
+        558.20166015625,
+        641.3253173828125
+      ],
+      [
+        342.364013671875,
+        643.3314208984375,
+        529.959228515625,
+        652.2978515625
+      ]
+    ],
+    "text": "\u2022 Insights into the strengths and limitations of Scim based on\na lab usability study and a longitudinal diary study.",
+    "label": "OBJECTIVE"
+  },
+  {
+    "page": 11,
+    "rects": [
+      [
+        339.8742980957031,
+        82.50941467285156,
+        559.7371826171875,
+        91.45337677001953
+      ]
+    ],
+    "text": "Notably, most readers used most features at least once.",
+    "label": "CONCLUSIONS"
+  },
+  {
+    "page": 7,
+    "rects": [
+      [
+        327.9179992675781,
+        518.1744384765625,
+        558.1983642578125,
+        527.2300415039062
+      ],
+      [
+        317.9549865722656,
+        529.1567993164062,
+        558.1995849609375,
+        538.1812744140625
+      ],
+      [
+        317.9549865722656,
+        540.0924682617188,
+        351.9719543457031,
+        549.1480712890625
+      ]
+    ],
+    "text": "Each paper took on average 20 minutes to annotate, and was\nannotated by three Upworkers using the PAWLS PDF annotation\ntool [52].",
+    "label": "METHODS"
+  },
+  {
+    "page": 4,
+    "rects": [
+      [
+        337.58172607421875,
+        141.64642333984375,
+        558.2041015625,
+        150.70205688476562
+      ],
+      [
+        317.9549865722656,
+        152.67237854003906,
+        434.8232421875,
+        161.63877868652344
+      ]
+    ],
+    "text": "Those themes that provided actionable guidance for design\nare reported in the next section.",
+    "label": "RESULTS"
+  },
+  {
+    "page": 11,
+    "rects": [
+      [
+        402.9310302734375,
+        351.96539306640625,
+        417.29522705078125,
+        360.9317932128906
+      ],
+      [
+        327.9179992675781,
+        365.5254211425781,
+        558.375732421875,
+        374.5810546875
+      ],
+      [
+        317.9549865722656,
+        376.48443603515625,
+        558.3687744140625,
+        385.5400695800781
+      ],
+      [
+        317.9549865722656,
+        387.4758605957031,
+        484.9127197265625,
+        396.4869689941406
+      ]
+    ],
+    "text": "(P7) Scim was designed with the hope that readers would look for\nsuch \u201ccontext\u201d in the surrounding text by simply moving their\nfocus from highlighted to unhighlighted text.",
+    "label": "NONE"
+  },
+  {
+    "page": 11,
+    "rects": [
+      [
+        119.85759735107422,
+        457.8734436035156,
+        294.0470275878906,
+        466.9290771484375
+      ],
+      [
+        53.79800033569336,
+        468.86248779296875,
+        295.0274658203125,
+        477.8780517578125
+      ],
+      [
+        53.79800033569336,
+        479.81146240234375,
+        67.65409851074219,
+        488.8404235839844
+      ]
+    ],
+    "text": "The highlights made long passages that were\nabsent of \u201cvisual support\u201d such as figures more approachable (P3,\nP5).",
+    "label": "NONE"
+  },
+  {
+    "page": 3,
+    "rects": [
+      [
+        398.1714782714844,
+        525.3057861328125,
+        558.433349609375,
+        534.231689453125
+      ],
+      [
+        317.9549865722656,
+        536.1674194335938,
+        440.9832763671875,
+        545.2230224609375
+      ]
+    ],
+    "text": "We design Scim with inspiration from many\nof these prior reading interfaces.",
+    "label": "NONE"
+  },
+  {
+    "page": 12,
+    "rects": [
+      [
+        120.2966079711914,
+        375.4364318847656,
+        294.0411071777344,
+        384.4920654296875
+      ],
+      [
+        53.79800033569336,
+        386.4893493652344,
+        294.04302978515625,
+        395.4198303222656
+      ],
+      [
+        53.79800033569336,
+        397.42138671875,
+        110.3759994506836,
+        406.3877868652344
+      ]
+    ],
+    "text": "Readers believed Scim helped them develop a\nhigh-level understanding of papers and determine which passages\nto skim or skip.",
+    "label": "NONE"
+  },
+  {
+    "page": 10,
+    "rects": [
+      [
+        530.4834594726562,
+        295.0714416503906,
+        559.19189453125,
+        304.1270751953125
+      ],
+      [
+        317.9549865722656,
+        306.0839538574219,
+        559.188720703125,
+        315.0682678222656
+      ],
+      [
+        317.9549865722656,
+        316.98944091796875,
+        466.0882263183594,
+        326.0450744628906
+      ]
+    ],
+    "text": "Second,\nhighlights figured prominently in our conversations with readers,\nas evidenced by the rest of this section.",
+    "label": "NONE"
+  },
+  {
+    "page": 5,
+    "rects": [
+      [
+        53.79800033569336,
+        618.0154418945312,
+        294.0470275878906,
+        627.071044921875
+      ],
+      [
+        53.79800033569336,
+        629.0178833007812,
+        190.60792541503906,
+        638.015625
+      ]
+    ],
+    "text": "One reader described this as the issue of \u201cgetting used to seeing\nhighlights that aren\u2019t my own\u201d (E13).",
+    "label": "NONE"
+  },
+  {
+    "page": 1,
+    "rects": [
+      [
+        327.9179992675781,
+        530.0984497070312,
+        558.1983032226562,
+        539.154052734375
+      ],
+      [
+        317.9549865722656,
+        541.1614990234375,
+        558.20068359375,
+        550.0784912109375
+      ],
+      [
+        317.9549865722656,
+        552.0867309570312,
+        376.8590393066406,
+        561.0486450195312
+      ]
+    ],
+    "text": "In this paper, we investigate how an intelligent user interface\ncan help both novice and expert researchers skim scientific papers\nmore efficiently.",
+    "label": "BACKGROUND"
+  },
+  {
+    "page": 11,
+    "rects": [
+      [
+        327.9179992675781,
+        261.6906433105469,
+        558.1981201171875,
+        270.57147216796875
+      ],
+      [
+        317.9549865722656,
+        272.5251159667969,
+        453.92266845703125,
+        281.57183837890625
+      ]
+    ],
+    "text": "Readers identified several ways that intelligent highlights might\nbe extended to be made more useful.",
+    "label": "NONE"
+  },
+  {
+    "page": 11,
+    "rects": [
+      [
+        508.625,
+        573.8790283203125,
+        558.2017822265625,
+        582.7553100585938
+      ],
+      [
+        317.9549865722656,
+        584.7034301757812,
+        558.2041015625,
+        593.759033203125
+      ],
+      [
+        317.9549865722656,
+        595.6624145507812,
+        558.2041625976562,
+        604.718017578125
+      ],
+      [
+        317.9549865722656,
+        606.6873779296875,
+        546.3472900390625,
+        615.65380859375
+      ]
+    ],
+    "text": "Scim was also\nunpredictable when highlighting passages that contained dense\nmath notation (P1, P6, P11), and readers wished for highlights to\napply to visual content like tables and figures (P2, P5, P7, P12).",
+    "label": "NONE"
+  },
+  {
+    "page": 14,
+    "rects": [
+      [
+        405.06475830078125,
+        247.81687927246094,
+        473.49169921875,
+        254.79067993164062
+      ],
+      [
+        317.9549865722656,
+        255.7374267578125,
+        444.4554748535156,
+        262.77716064453125
+      ]
+    ],
+    "text": "https://material-ui.com/\n[51] Ani Nenkova and Kathleen McKeown.",
+    "label": "BACKGROUND"
+  },
+  {
+    "page": 3,
+    "rects": [
+      [
+        63.76100158691406,
+        297.93585205078125,
+        294.0437316894531,
+        306.8257141113281
+      ],
+      [
+        53.79800033569336,
+        308.80047607421875,
+        218.91246032714844,
+        317.8160400390625
+      ]
+    ],
+    "text": "Amidst the challenges of skimming, success is often determined\nby a reader\u2019s ability to \u201csatisfice\u201d [16, 17, 57].",
+    "label": "NONE"
+  },
+  {
+    "page": 6,
+    "rects": [
+      [
+        53.79800033569336,
+        238.86968994140625,
+        559.2958984375,
+        247.7911376953125
+      ],
+      [
+        53.79800033569336,
+        249.82421875,
+        103.75611114501953,
+        258.75018310546875
+      ]
+    ],
+    "text": "Figure 3: Scim classifies and highlights four facets of information commonly found in papers: Objective, Novelty, Method,\nand Result.",
+    "label": "NONE"
+  },
+  {
+    "page": 8,
+    "rects": [
+      [
+        82.34182739257812,
+        119.72943878173828,
+        294.04705810546875,
+        128.78506469726562
+      ],
+      [
+        53.79800033569336,
+        130.68743896484375,
+        294.0470275878906,
+        139.74307250976562
+      ],
+      [
+        53.79800033569336,
+        141.71339416503906,
+        269.8075866699219,
+        150.67979431152344
+      ]
+    ],
+    "text": "Another heuristic prompted a more uniform distribution\nof highlights throughout a paper, prioritizing sentences within\nparagraphs which did not already contain other highlights.",
+    "label": "NONE"
+  },
+  {
+    "page": 9,
+    "rects": [
+      [
+        81.03398132324219,
+        251.66195678710938,
+        559.7334594726562,
+        260.71759033203125
+      ]
+    ],
+    "text": "Overall, participants answered questions more quickly with Scim than with a standard (baseline) document reader.",
+    "label": "RESULTS"
+  },
+  {
+    "page": 4,
+    "rects": [
+      [
+        75.6634750366211,
+        293.95623779296875,
+        294.04254150390625,
+        302.9494934082031
+      ],
+      [
+        53.79800033569336,
+        304.8684387207031,
+        294.04705810546875,
+        313.924072265625
+      ],
+      [
+        53.79800033569336,
+        315.8809509277344,
+        294.0414733886719,
+        324.8652648925781
+      ],
+      [
+        53.79800033569336,
+        326.8523864746094,
+        189.8631591796875,
+        335.81878662109375
+      ]
+    ],
+    "text": "We first describe that design process (Section 3.1), and then\ndistill the lessons learned from this formative research into a set\nof design goals to guide the design intelligent, highlighting-based\nskimming support tools (Section 3.2).",
+    "label": "NONE"
+  },
+  {
+    "page": 6,
+    "rects": [
+      [
+        53.79801940917969,
+        628.0624389648438,
+        67.67439270019531,
+        638.9715576171875
+      ],
+      [
+        78.58349609375,
+        628.0624389648438,
+        268.08544921875,
+        638.9715576171875
+      ],
+      [
+        53.48400115966797,
+        645.7564086914062,
+        294.0440368652344,
+        654.81201171875
+      ],
+      [
+        53.79800033569336,
+        656.8026123046875,
+        294.04608154296875,
+        665.7420654296875
+      ],
+      [
+        53.79800033569336,
+        667.738037109375,
+        216.49449157714844,
+        676.7089233398438
+      ]
+    ],
+    "text": "4.5\nSide Bar Display of Faceted Highlights A reader may also review a paper\u2019s key passages by opening a\nside bar, which shows a compact list of all highlighted passages in\norder, grouped by paper section (Figure 1.E).",
+    "label": "NONE"
+  },
+  {
+    "page": 3,
+    "rects": [
+      [
+        500.6714172363281,
+        295.2060546875,
+        558.2003784179688,
+        304.08233642578125
+      ],
+      [
+        317.9549865722656,
+        306.0304260253906,
+        558.2041015625,
+        315.0860595703125
+      ],
+      [
+        317.9549865722656,
+        317.0496826171875,
+        559.5794677734375,
+        326.0250549316406
+      ]
+    ],
+    "text": "Modern reading\ninterfaces also commonly support readers in marking regions of\ninterest with a document with highlights or free-text annotations.",
+    "label": "BACKGROUND"
+  },
+  {
+    "page": 2,
+    "rects": [
+      [
+        135.13731384277344,
+        586.09814453125,
+        294.04119873046875,
+        595.1181640625
+      ],
+      [
+        53.79800033569336,
+        597.0906982421875,
+        294.0445251464844,
+        606.0660400390625
+      ],
+      [
+        53.79800033569336,
+        608.0800170898438,
+        168.84185791015625,
+        617.0149536132812
+      ]
+    ],
+    "text": "First, we performed a lab usability study to\nunderstand how Scim affects readers\u2019 ability to search for specific\nkinds of information in a paper.",
+    "label": "OBJECTIVE"
+  },
+  {
+    "page": 5,
+    "rects": [
+      [
+        430.5225830078125,
+        165.91053771972656,
+        558.2006225585938,
+        174.82748413085938
+      ],
+      [
+        317.9549865722656,
+        176.86276245117188,
+        558.1979370117188,
+        185.78872680664062
+      ],
+      [
+        317.9549865722656,
+        187.85804748535156,
+        559.5816650390625,
+        196.73434448242188
+      ]
+    ],
+    "text": "A reader using this strategy may at\nthe same time follow the highlights offered by Scim, which extend\ninto parts of the paragraph a reader may not notice otherwise (D3).",
+    "label": "NONE"
+  },
+  {
+    "page": 2,
+    "rects": [
+      [
+        53.79800033569336,
+        410.863037109375,
+        294.0453186035156,
+        419.73931884765625
+      ],
+      [
+        53.79800033569336,
+        421.68743896484375,
+        231.66403198242188,
+        430.7430725097656
+      ]
+    ],
+    "text": "always possible to highlight according to passage importance while\nachieving a desirable distribution of highlights.",
+    "label": "NONE"
+  },
+  {
+    "page": 1,
+    "rects": [
+      [
+        407.67547607421875,
+        442.5620422363281,
+        558.1978759765625,
+        451.4383239746094
+      ],
+      [
+        317.9549865722656,
+        453.41986083984375,
+        558.2035522460938,
+        462.43096923828125
+      ],
+      [
+        317.9549865722656,
+        464.34442138671875,
+        459.0009460449219,
+        473.4000549316406
+      ]
+    ],
+    "text": "With the shift of scientific publishing from\npaper to digital online publications, the practice of skimming has\nbecome yet more widespread [41, 66].",
+    "label": "BACKGROUND"
+  },
+  {
+    "page": 11,
+    "rects": [
+      [
+        476.1663818359375,
+        678.7680053710938,
+        558.2025756835938,
+        687.644287109375
+      ],
+      [
+        317.9549865722656,
+        689.5924072265625,
+        533.4832153320312,
+        698.6480102539062
+      ]
+    ],
+    "text": "Readers suggested that\nan abstractive summarization of paper content (e.g., \u201cwith a bit\nof info pulled from tables/graphs/figures/examples\u201d (P12)), could lessen the effort required to understand dense sections of papers\n(P1\u20132, P7\u2013P8, P12).",
+    "label": "NONE"
+  },
+  {
+    "page": 13,
+    "rects": [
+      [
+        279.57415771484375,
+        333.2284240722656,
+        294.0426940917969,
+        342.2840576171875
+      ],
+      [
+        53.79800033569336,
+        344.3220520019531,
+        294.04541015625,
+        353.1983337402344
+      ],
+      [
+        53.79800033569336,
+        355.21337890625,
+        226.48190307617188,
+        364.1797790527344
+      ]
+    ],
+    "text": "The\ncoordination of social highlights with AI-generated highlights could\nmake for an interested area for future research.",
+    "label": "NONE"
+  },
+  {
+    "page": 9,
+    "rects": [
+      [
+        78.20700073242188,
+        602.7009887695312,
+        289.6347961425781,
+        611.6674194335938
+      ]
+    ],
+    "text": "In what scenarios do researchers find skimming aids useful?",
+    "label": "OBJECTIVE"
+  },
+  {
+    "page": 13,
+    "rects": [
+      [
+        502.5820007324219,
+        190.35430908203125,
+        538.0797119140625,
+        197.33506774902344
+      ],
+      [
+        538.0797119140625,
+        192.02069091796875,
+        559.2752685546875,
+        199.00146484375
+      ]
+    ],
+    "text": "ACM TOCHI (2023).",
+    "label": "BACKGROUND"
+  },
+  {
+    "page": 1,
+    "rects": [
+      [
+        362.61968994140625,
+        431.6030578613281,
+        558.369140625,
+        440.4793395996094
+      ],
+      [
+        317.7309875488281,
+        442.5620422363281,
+        405.9532165527344,
+        451.4383239746094
+      ]
+    ],
+    "text": "While faster than reading, skimming achieves a coarser\nview of papers\u2019 contents.",
+    "label": "CONCLUSIONS"
+  },
+  {
+    "page": 12,
+    "rects": [
+      [
+        246.5527801513672,
+        196.53196716308594,
+        294.0447692871094,
+        205.46693420410156
+      ],
+      [
+        53.79800033569336,
+        207.51808166503906,
+        188.502197265625,
+        216.41697692871094
+      ]
+    ],
+    "text": "What are the\nnovelties/contributions of this study?",
+    "label": "OBJECTIVE"
+  },
+  {
+    "page": 2,
+    "rects": [
+      [
+        82.7432632446289,
+        520.32080078125,
+        294.0458984375,
+        529.3719482421875
+      ],
+      [
+        53.79800033569336,
+        531.2764282226562,
+        294.0471496582031,
+        540.33203125
+      ],
+      [
+        53.79800033569336,
+        542.3598022460938,
+        203.02737426757812,
+        551.2496948242188
+      ]
+    ],
+    "text": "Second, Scim aims to support an evenly-distributed skim\nof a paper, highlighting passages in a way that most paragraphs\ncontain at least one highlighted sentence.",
+    "label": "NONE"
+  },
+  {
+    "page": 6,
+    "rects": [
+      [
+        151.23597717285156,
+        444.54290771484375,
+        294.04876708984375,
+        453.455322265625
+      ],
+      [
+        53.79800033569336,
+        455.3944396972656,
+        294.047119140625,
+        464.4500732421875
+      ],
+      [
+        53.79800033569336,
+        466.488037109375,
+        237.35122680664062,
+        475.36431884765625
+      ]
+    ],
+    "text": "This feature provides quick and flexible\ncontrol to complement paper-level controls, allowing a reader to\nrequest highlights precisely where they need them.",
+    "label": "CONCLUSIONS"
+  },
+  {
+    "page": 3,
+    "rects": [
+      [
+        193.49200439453125,
+        689.6694946289062,
+        294.0436096191406,
+        698.6224365234375
+      ],
+      [
+        53.79800033569336,
+        700.6477661132812,
+        294.04071044921875,
+        709.5736694335938
+      ],
+      [
+        317.9549865722656,
+        86.85242462158203,
+        508.442138671875,
+        95.90804290771484
+      ]
+    ],
+    "text": "One line of research sought\nto facilitate the rapid exploration of long documents by modifying the behavior of reading interfaces during scrolling.",
+    "label": "OBJECTIVE"
+  },
+  {
+    "page": 11,
+    "rects": [
+      [
+        487.1495666503906,
+        387.4758605957031,
+        558.2034301757812,
+        396.4869689941406
+      ],
+      [
+        317.9549865722656,
+        398.5360412597656,
+        491.10430908203125,
+        407.4123229980469
+      ]
+    ],
+    "text": "In practice, it could\nbe disruptive for readers to seek out this context.",
+    "label": "NONE"
+  },
+  {
+    "page": 1,
+    "rects": [
+      [
+        152.28831481933594,
+        398.5914306640625,
+        294.0413513183594,
+        407.6470642089844
+      ],
+      [
+        53.79800033569336,
+        409.5504150390625,
+        211.04046630859375,
+        418.6060485839844
+      ]
+    ],
+    "text": "We evaluate Scim with both an in-lab\nusability study and a longitudinal diary study, revealing how its\nhighlights facilitate the more efficient construction of a conceptualization of a paper.",
+    "label": "CONCLUSIONS"
+  },
+  {
+    "page": 12,
+    "rects": [
+      [
+        548.7738037109375,
+        518.1199951171875,
+        558.2022705078125,
+        526.9962768554688
+      ],
+      [
+        317.9549865722656,
+        528.9811401367188,
+        558.2006225585938,
+        537.98779296875
+      ],
+      [
+        317.62298583984375,
+        540.0380249023438,
+        368.5440673828125,
+        548.914306640625
+      ]
+    ],
+    "text": "As\nreaders suggested in the diary study, there are numerous ways in\nwhich skimming aids could provide more holistic support, via additional context for highlighted passages, integration with existing\nvisual cues, highlighting of visual content, complementary usage\nof abstractive summarization, or enhanced navigation support.",
+    "label": "NONE"
+  },
+  {
+    "page": 5,
+    "rects": [
+      [
+        356.4336242675781,
+        534.0599975585938,
+        559.1865844726562,
+        542.936279296875
+      ],
+      [
+        317.9549865722656,
+        544.9851684570312,
+        559.5797119140625,
+        553.9066162109375
+      ]
+    ],
+    "text": "To help readers develop familiarity with highlight colors,\nScim\u2019s interface header includes a legend mapping colors to facets.",
+    "label": "NONE"
+  },
+  {
+    "page": 4,
+    "rects": [
+      [
+        341.98406982421875,
+        501.25701904296875,
+        559.177490234375,
+        510.1829833984375
+      ]
+    ],
+    "text": "Support skimming in the lengthy middle sections of the paper.",
+    "label": "NONE"
+  },
+  {
+    "page": 2,
+    "rects": [
+      [
+        171.07667541503906,
+        608.0800170898438,
+        294.0419921875,
+        617.0149536132812
+      ],
+      [
+        53.79800033569336,
+        618.9484252929688,
+        294.0470886230469,
+        628.0040283203125
+      ],
+      [
+        53.79800033569336,
+        629.9064331054688,
+        295.4280700683594,
+        638.9620361328125
+      ]
+    ],
+    "text": "When using Scim, readers located\nthe desired information in significantly less time compared to a\nstandard document reader, with comparable effort and accuracy.",
+    "label": "CONCLUSIONS"
+  },
+  {
+    "page": 10,
+    "rects": [
+      [
+        327.9179992675781,
+        612.8794555664062,
+        559.1846923828125,
+        621.93505859375
+      ],
+      [
+        317.9549865722656,
+        623.9730224609375,
+        441.7648010253906,
+        632.8493041992188
+      ]
+    ],
+    "text": "Readers seemed to use Scim to augment, rather than replace,\ntheir existing skimming strategies.",
+    "label": "CONCLUSIONS"
+  },
+  {
+    "page": 13,
+    "rects": [
+      [
+        116.82768249511719,
+        256.6510314941406,
+        294.2122497558594,
+        265.5273132324219
+      ],
+      [
+        53.79800033569336,
+        267.47442626953125,
+        95.51167297363281,
+        276.5300598144531
+      ]
+    ],
+    "text": "Could social annotations be used to produce better\nhighlights?",
+    "label": "NONE"
+  },
+  {
+    "page": 10,
+    "rects": [
+      [
+        317.9549865722656,
+        689.6762084960938,
+        558.2037963867188,
+        698.6201782226562
+      ],
+      [
+        317.9549865722656,
+        700.6173706054688,
+        403.20751953125,
+        709.5838012695312
+      ]
+    ],
+    "text": "P4 similarly described skimming using the combination of section\nheaders and highlights.",
+    "label": "NONE"
+  },
+  {
+    "page": 6,
+    "rects": [
+      [
+        346.4771423339844,
+        392.59039306640625,
+        538.4121704101562,
+        401.5567932128906
+      ]
+    ],
+    "text": "An overview of the pipeline is presented in Figure 4.",
+    "label": "NONE"
+  },
+  {
+    "page": 7,
+    "rects": [
+      [
+        338.3840026855469,
+        291.04095458984375,
+        558.2044677734375,
+        300.0520935058594
+      ],
+      [
+        53.79800033569336,
+        302.0442199707031,
+        434.1438903808594,
+        311.0106201171875
+      ]
+    ],
+    "text": "Scim chooses which highlights to show by reconciling\nprediction weights with heuristics controlling highlight distribution and readers\u2019 preferences.",
+    "label": "NONE"
+  },
+  {
+    "page": 1,
+    "rects": [
+      [
+        518.6180419921875,
+        573.94677734375,
+        558.3734741210938,
+        582.984619140625
+      ],
+      [
+        317.9549865722656,
+        584.92578125,
+        559.1907348632812,
+        593.9369506835938
+      ],
+      [
+        317.9549865722656,
+        595.9183959960938,
+        468.877685546875,
+        604.8848266601562
+      ]
+    ],
+    "text": "This paper\nexplores how intelligent tools can facilitate the task of skimming,\nthe seam between searching and reading.",
+    "label": "NONE"
+  },
+  {
+    "page": 12,
+    "rects": [
+      [
+        236.57785034179688,
+        353.5763244628906,
+        294.0450744628906,
+        362.55615234375
+      ],
+      [
+        53.79800033569336,
+        364.57135009765625,
+        294.047119140625,
+        373.5018310546875
+      ],
+      [
+        53.79800033569336,
+        375.4364318847656,
+        117.22364044189453,
+        384.4920654296875
+      ]
+    ],
+    "text": "In a subsequent\ndiary study, we observed how researchers might use Scim in more\nrealistic settings.",
+    "label": "BACKGROUND"
+  },
+  {
+    "page": 10,
+    "rects": [
+      [
+        208.0594940185547,
+        399.1452331542969,
+        294.049072265625,
+        408.13848876953125
+      ],
+      [
+        53.79800033569336,
+        410.1513671875,
+        237.7308349609375,
+        419.08184814453125
+      ]
+    ],
+    "text": "In reporting results, we\nrefer to participants with the pseudonyms P1\u2013P12.",
+    "label": "METHODS"
+  },
+  {
+    "page": 2,
+    "rects": [
+      [
+        358.434326171875,
+        410.859619140625,
+        558.201171875,
+        419.7404479980469
+      ],
+      [
+        317.9549865722656,
+        421.68743896484375,
+        416.1709899902344,
+        430.7430725097656
+      ]
+    ],
+    "text": "The study also suggests how skimming assistants could\nbe improved in the future, for instance by highlighting passages\nthat provide background for later highlighted passages, and integrating highlights with the typographical emphases authors may\nhave already provided, such as boldface font and text formatting.",
+    "label": "CONCLUSIONS"
+  },
+  {
+    "page": 10,
+    "rects": [
+      [
+        497.42138671875,
+        645.7564086914062,
+        558.203857421875,
+        654.81201171875
+      ],
+      [
+        317.9549865722656,
+        656.7153930664062,
+        558.2042236328125,
+        665.77099609375
+      ],
+      [
+        317.9549865722656,
+        667.6744384765625,
+        558.2042236328125,
+        676.7300415039062
+      ],
+      [
+        317.9549865722656,
+        678.7409057617188,
+        559.5787963867188,
+        687.6533203125
+      ]
+    ],
+    "text": "For example, P9\ndescribed their process as navigating through the main sections\nof a paper as they might in a typical skim, and then using the\nhighlights to identify important information within those sections.",
+    "label": "NONE"
+  },
+  {
+    "page": 13,
+    "rects": [
+      [
+        150.78799438476562,
+        201.78167724609375,
+        294.04315185546875,
+        210.7570343017578
+      ],
+      [
+        53.79800033569336,
+        212.7138214111328,
+        294.0463562011719,
+        221.72494506835938
+      ],
+      [
+        53.79800033569336,
+        223.69964599609375,
+        294.0418395996094,
+        232.6750030517578
+      ],
+      [
+        53.79800033569336,
+        234.73304748535156,
+        91.98662567138672,
+        243.60934448242188
+      ]
+    ],
+    "text": "Our preliminary studies suggested that\nreaders may be hesitant to adopt an augmented reading interface\nlike Scim due to distrust in the AI\u2019s ability to provide the relevant\nhighlights.",
+    "label": "BACKGROUND"
+  },
+  {
+    "page": 10,
+    "rects": [
+      [
+        517.6406860351562,
+        415.6796569824219,
+        558.3756103515625,
+        424.655029296875
+      ],
+      [
+        317.9549865722656,
+        426.62188720703125,
+        558.2030639648438,
+        435.61962890625
+      ],
+      [
+        317.9549865722656,
+        437.5374450683594,
+        559.19189453125,
+        446.59307861328125
+      ],
+      [
+        317.9549865722656,
+        448.5633850097656,
+        508.8677978515625,
+        457.52978515625
+      ]
+    ],
+    "text": "One reader\nthought the highlight browser provided a \u201cbetter way to skim\u201d in\ncomparison to highlights, which at the time of their diary entry,\nthey believed made the paper \u201cdifficult to read\u201d (P7).",
+    "label": "RESULTS"
+  },
+  {
+    "page": 1,
+    "rects": [
+      [
+        317.9549865722656,
+        354.75543212890625,
+        558.2041015625,
+        363.8110656738281
+      ],
+      [
+        317.9549865722656,
+        365.7277526855469,
+        405.7193908691406,
+        374.765625
+      ]
+    ],
+    "text": "Researchers spend a tremendous amount of effort staying up to\ndate with the literature.",
+    "label": "BACKGROUND"
+  },
+  {
+    "page": 5,
+    "rects": [
+      [
+        53.797996520996094,
+        671.8984375,
+        59.4052734375,
+        682.8075561523438
+      ],
+      [
+        70.31499481201172,
+        671.8984375,
+        97.325927734375,
+        682.8075561523438
+      ],
+      [
+        53.36800003051758,
+        689.5924072265625,
+        294.04290771484375,
+        698.6480102539062
+      ],
+      [
+        53.79800033569336,
+        700.6849975585938,
+        294.3791809082031,
+        709.561279296875
+      ],
+      [
+        317.9549865722656,
+        86.85242462158203,
+        558.74365234375,
+        95.90804290771484
+      ],
+      [
+        317.9549865722656,
+        97.87837219238281,
+        399.8631591796875,
+        106.84477233886719
+      ]
+    ],
+    "text": "4\nSCIM We now describe the design of Scim, an interface that provides\nintelligent support for skimming scientific papers, and explain how particular aspects of the system address the design goals (D1\u20137)\nintroduced previously.",
+    "label": "NONE"
+  },
+  {
+    "page": 4,
+    "rects": [
+      [
+        150.42942810058594,
+        492.4660339355469,
+        294.04534912109375,
+        501.3423156738281
+      ],
+      [
+        53.79800033569336,
+        503.425048828125,
+        294.04534912109375,
+        512.3013305664062
+      ],
+      [
+        53.79800033569336,
+        514.31640625,
+        218.8784637451172,
+        523.2828369140625
+      ]
+    ],
+    "text": "While many kinds of tools could support\nskimming, our design exploration focused specifically on skimming\naids which incorporate intelligent highlights.",
+    "label": "OBJECTIVE"
+  },
+  {
+    "page": 6,
+    "rects": [
+      [
+        53.79800033569336,
+        323.8974304199219,
+        294.04266357421875,
+        332.9397277832031
+      ],
+      [
+        53.79800033569336,
+        334.846435546875,
+        219.1006317138672,
+        343.9020690917969
+      ]
+    ],
+    "text": "Readers can control the density of highlights using facet-specific\nsliders found in Scim\u2019s side bar (Figure 1.C).",
+    "label": "METHODS"
+  },
+  {
+    "page": 3,
+    "rects": [
+      [
+        257.03369140625,
+        133.52137756347656,
+        294.04443359375,
+        142.4518280029297
+      ],
+      [
+        53.79800033569336,
+        144.38641357421875,
+        225.65530395507812,
+        153.44204711914062
+      ]
+    ],
+    "text": "Skimming\nis a necessary and useful skill for researchers.",
+    "label": "BACKGROUND"
+  },
+  {
+    "page": 3,
+    "rects": [
+      [
+        53.79800033569336,
+        545.4974365234375,
+        67.67437744140625,
+        556.4065551757812
+      ],
+      [
+        78.58348083496094,
+        545.4974365234375,
+        241.58724975585938,
+        556.4065551757812
+      ],
+      [
+        53.79800033569336,
+        563.3260498046875,
+        294.0453186035156,
+        572.2023315429688
+      ],
+      [
+        53.79800033569336,
+        574.2839965820312,
+        248.99403381347656,
+        583.1602783203125
+      ]
+    ],
+    "text": "2.2\nTools for Reading and Skimming Researchers have long sought to equip readers with tools to support\nand augment their cognition while reading documents.",
+    "label": "NONE"
+  },
+  {
+    "page": 8,
+    "rects": [
+      [
+        53.79800033569336,
+        262.8885192871094,
+        59.405277252197266,
+        273.797607421875
+      ],
+      [
+        70.31437683105469,
+        262.8885192871094,
+        116.88531494140625,
+        273.797607421875
+      ],
+      [
+        116.88531494140625,
+        265.4924011230469,
+        244.5331268310547,
+        276.4014892578125
+      ],
+      [
+        53.36800003051758,
+        280.5814208984375,
+        294.0448913574219,
+        289.6370544433594
+      ],
+      [
+        53.79800033569336,
+        291.675048828125,
+        294.0452880859375,
+        300.55133056640625
+      ],
+      [
+        53.79800033569336,
+        302.634033203125,
+        81.60030364990234,
+        311.51031494140625
+      ]
+    ],
+    "text": "6\nSTUDY 1: IN-LAB USABILITY STUDY We first conducted an in-lab usability study to assess how Scim\naffects readers\u2019 ability to search for specific kinds of information in\na paper.",
+    "label": "NONE"
+  },
+  {
+    "page": 4,
+    "rects": [
+      [
+        172.51486206054688,
+        391.48492431640625,
+        294.0487976074219,
+        400.3973388671875
+      ],
+      [
+        53.79800033569336,
+        402.47003173828125,
+        294.041015625,
+        411.3463134765625
+      ],
+      [
+        53.79800033569336,
+        413.29443359375,
+        81.07972717285156,
+        422.3500671386719
+      ]
+    ],
+    "text": "All readers belonged to the target\nuser group for Scim, and were either graduate students or academic\nfaculty.",
+    "label": "METHODS"
+  },
+  {
+    "page": 10,
+    "rects": [
+      [
+        86.11686706542969,
+        663.5740356445312,
+        294.04534912109375,
+        672.4503173828125
+      ],
+      [
+        53.79800033569336,
+        674.4653930664062,
+        99.39215850830078,
+        683.4318237304688
+      ],
+      [
+        78.20700073242188,
+        687.608154296875,
+        269.63336181640625,
+        696.4844360351562
+      ],
+      [
+        78.20700073242188,
+        698.3887329101562,
+        258.9814147949219,
+        707.4443359375
+      ]
+    ],
+    "text": "This was described as \u201cslowing down\u201d and skimming with\ngreater care: This was a paper that is very light on methods and most\ncontent is about results, which I tend to skim over.",
+    "label": "NONE"
+  },
+  {
+    "page": 5,
+    "rects": [
+      [
+        90.2099609375,
+        333.15478515625,
+        294.0453186035156,
+        342.11669921875
+      ],
+      [
+        53.79800033569336,
+        344.1238708496094,
+        150.16741943359375,
+        353.07232666015625
+      ]
+    ],
+    "text": "Some readers wanted to see highlights distributed more\nuniformly throughout the paper (as opposed to highlights concentrated primarily in an introduction or conclusion).",
+    "label": "RESULTS"
+  },
+  {
+    "page": 3,
+    "rects": [
+      [
+        423.0028076171875,
+        612.8794555664062,
+        558.2041625976562,
+        621.93505859375
+      ],
+      [
+        317.9549865722656,
+        623.8384399414062,
+        558.2039794921875,
+        632.89404296875
+      ],
+      [
+        317.9549865722656,
+        634.7974243164062,
+        514.359375,
+        643.85302734375
+      ]
+    ],
+    "text": "An author-provided summary is de\nfacto included with each paper as an abstract, which researchers\noften read before continuing to the rest of the paper.",
+    "label": "NONE"
+  },
+  {
+    "page": 11,
+    "rects": [
+      [
+        94.33277130126953,
+        104.49439239501953,
+        338.3145751953125,
+        113.37067413330078
+      ]
+    ],
+    "text": "All readers used the highlight browser on multiple occasions.",
+    "label": "METHODS"
+  },
+  {
+    "page": 8,
+    "rects": [
+      [
+        85.76399993896484,
+        333.302978515625,
+        280.2001037597656,
+        342.2693786621094
+      ]
+    ],
+    "text": "Does Scim enable readers to skim papers more quickly?",
+    "label": "OBJECTIVE"
+  },
+  {
+    "page": 12,
+    "rects": [
+      [
+        402.6623840332031,
+        231.3209991455078,
+        558.2022705078125,
+        240.19729614257812
+      ],
+      [
+        317.9549865722656,
+        242.2282257080078,
+        558.2037353515625,
+        251.17218017578125
+      ],
+      [
+        317.9549865722656,
+        253.10345458984375,
+        558.2041015625,
+        262.1590881347656
+      ],
+      [
+        317.9549865722656,
+        264.06243896484375,
+        520.8619995117188,
+        273.1180725097656
+      ]
+    ],
+    "text": "Tools that augment the paper with assistive\naffordances may inadvertently deplete a reader\u2019s limited attention\nif they impose additional cognitive burden, as might be the case\nif it highlights content in a way readers do not expect.",
+    "label": "OBJECTIVE"
+  },
+  {
+    "page": 1,
+    "rects": [
+      [
+        327.9179992675781,
+        409.5938720703125,
+        558.4325561523438,
+        418.59161376953125
+      ],
+      [
+        317.9549865722656,
+        420.64404296875,
+        558.202392578125,
+        429.52032470703125
+      ],
+      [
+        317.9549865722656,
+        431.6030578613281,
+        360.8534851074219,
+        440.4793395996094
+      ]
+    ],
+    "text": "Skimming is a critical task, and requires researchers to quickly\nreview the contents of a paper to develop a cursory understanding of\nits contents.",
+    "label": "BACKGROUND"
+  },
+  {
+    "page": 4,
+    "rects": [
+      [
+        436.2809143066406,
+        295.10150146484375,
+        558.2056274414062,
+        304.1170654296875
+      ],
+      [
+        317.9549865722656,
+        306.0304260253906,
+        558.2040405273438,
+        315.0860595703125
+      ],
+      [
+        317.9549865722656,
+        317.0935363769531,
+        353.7364807128906,
+        326.0104675292969
+      ]
+    ],
+    "text": "Readers also employed strategies\nparticular to their goals, the paper, or their level of comfort with\nthe paper.",
+    "label": "METHODS"
+  },
+  {
+    "page": 11,
+    "rects": [
+      [
+        327.9179992675781,
+        634.9320068359375,
+        558.2008666992188,
+        643.8082885742188
+      ],
+      [
+        317.9549865722656,
+        645.8436279296875,
+        372.89227294921875,
+        654.7830810546875
+      ]
+    ],
+    "text": "Scim represents just one way in which intelligent assistants could\nsupport skimming, and readers described alternative ways that future tools could help them skim.",
+    "label": "CONCLUSIONS"
+  },
+  {
+    "page": 11,
+    "rects": [
+      [
+        249.01011657714844,
+        281.504150390625,
+        269.63336181640625,
+        290.3804626464844
+      ],
+      [
+        78.20700073242188,
+        292.2857360839844,
+        264.1579284667969,
+        301.34136962890625
+      ]
+    ],
+    "text": "When\nI would see an objective highlight, I would trust it.",
+    "label": "NONE"
+  },
+  {
+    "page": 8,
+    "rects": [
+      [
+        383.19970703125,
+        86.85242462158203,
+        487.9090881347656,
+        95.90804290771484
+      ],
+      [
+        487.9090881347656,
+        84.69073486328125,
+        510.33477783203125,
+        93.7463607788086
+      ],
+      [
+        510.33477783203125,
+        86.85242462158203,
+        558.2059326171875,
+        95.90804290771484
+      ],
+      [
+        342.364013671875,
+        97.8817367553711,
+        433.64263916015625,
+        106.8436508178711
+      ]
+    ],
+    "text": "Answers to these questions could be found in\ntext highlighted by Scim.",
+    "label": "RESULTS"
+  },
+  {
+    "page": 4,
+    "rects": [
+      [
+        219.82000732421875,
+        470.4938659667969,
+        294.0451965332031,
+        479.44232177734375
+      ],
+      [
+        53.46699905395508,
+        481.45623779296875,
+        279.1381530761719,
+        490.40020751953125
+      ]
+    ],
+    "text": "A prototype of Scim\nwas iteratively designed and developed based on our formative interviews and observations.",
+    "label": "METHODS"
+  },
+  {
+    "page": 8,
+    "rects": [
+      [
+        92.0396957397461,
+        620.3303833007812,
+        219.44332885742188,
+        629.2968139648438
+      ]
+    ],
+    "text": "Below, we describe the three tasks.",
+    "label": "NONE"
+  },
+  {
+    "page": 5,
+    "rects": [
+      [
+        392.81939697265625,
+        479.26605224609375,
+        558.2007446289062,
+        488.142333984375
+      ],
+      [
+        317.9549865722656,
+        490.16748046875,
+        558.2039794921875,
+        499.12042236328125
+      ],
+      [
+        317.9549865722656,
+        501.0494384765625,
+        558.4326782226562,
+        510.1050720214844
+      ],
+      [
+        317.9549865722656,
+        512.0084228515625,
+        379.12164306640625,
+        521.0640258789062
+      ]
+    ],
+    "text": "Text is highlighted using the familiar paradigm\nof a solid rectangular box behind the text, since this was observed\nin our evaluations of prototypes to be noticeable yet minimally\ndistracting (D4).",
+    "label": "OBJECTIVE"
+  },
+  {
+    "page": 12,
+    "rects": [
+      [
+        412.45989990234375,
+        496.2020568847656,
+        558.2021484375,
+        505.0783386230469
+      ],
+      [
+        317.9549865722656,
+        507.09002685546875,
+        559.1856689453125,
+        516.0609130859375
+      ],
+      [
+        317.9549865722656,
+        518.1199951171875,
+        546.5418701171875,
+        526.9962768554688
+      ]
+    ],
+    "text": "Highlighting is a cueing mechanism that\ndirects reader attention and assists in the foraging of information,\nbut it does not address other sensemaking aspects of skimming.",
+    "label": "CONCLUSIONS"
+  },
+  {
+    "page": 12,
+    "rects": [
+      [
+        112.61199951171875,
+        397.42138671875,
+        294.043212890625,
+        406.3877868652344
+      ],
+      [
+        53.79800033569336,
+        408.3871154785156,
+        189.18826293945312,
+        417.34454345703125
+      ]
+    ],
+    "text": "Scim was seen as useful for skimming dense texts\nand papers from unfamiliar domains.",
+    "label": "NONE"
+  },
+  {
+    "page": 5,
+    "rects": [
+      [
+        53.79800033569336,
+        519.4625244140625,
+        294.0470886230469,
+        528.4154663085938
+      ],
+      [
+        53.79800033569336,
+        530.4080200195312,
+        294.0416564941406,
+        539.37890625
+      ],
+      [
+        53.79800033569336,
+        541.3034057617188,
+        294.0469970703125,
+        550.3590087890625
+      ],
+      [
+        53.79800033569336,
+        552.373291015625,
+        294.5843505859375,
+        561.28125
+      ],
+      [
+        53.52899932861328,
+        563.2883911132812,
+        114.3122329711914,
+        572.2548217773438
+      ]
+    ],
+    "text": "Many suggested that the tool could help them fine-tune what was\nhighlighted, either through manual adjustments, or with adaptive\npersonalization of the highlights (i.e., responding to passages a\nreader has highlighted themselves or highlights they have deleted)\n(E5, E7, E8, E12).",
+    "label": "NONE"
+  },
+  {
+    "page": 2,
+    "rects": [
+      [
+        201.48326110839844,
+        358.4549560546875,
+        558.2031860351562,
+        367.5105895996094
+      ],
+      [
+        53.79800033569336,
+        369.57794189453125,
+        149.729248046875,
+        378.4678039550781
+      ]
+    ],
+    "text": "Readers can request additional (or fewer) highlights by using paragraph-local (B) and\npaper-wide (C) controls.",
+    "label": "METHODS"
+  },
+  {
+    "page": 5,
+    "rects": [
+      [
+        317.6860046386719,
+        288.5954284667969,
+        558.2002563476562,
+        297.65106201171875
+      ],
+      [
+        317.9549865722656,
+        299.6890563964844,
+        558.202392578125,
+        308.5653381347656
+      ],
+      [
+        317.9549865722656,
+        310.513427734375,
+        558.2040405273438,
+        319.5690612792969
+      ],
+      [
+        317.9549865722656,
+        321.5393981933594,
+        466.7256774902344,
+        330.50579833984375
+      ]
+    ],
+    "text": "The specific set of facets was selected to encompass the kinds of\ninformation participants described in the formative study, balanced\nby the requirement that we could detect them reliably (D6), as\ndescribed in the implementation section.",
+    "label": "METHODS"
+  },
+  {
+    "page": 4,
+    "rects": [
+      [
+        317.9549865722656,
+        514.3806762695312,
+        558.2012939453125,
+        523.261474609375
+      ],
+      [
+        317.9549865722656,
+        525.2084350585938,
+        378.7375183105469,
+        534.2640380859375
+      ]
+    ],
+    "text": "Readers noted that while one recommended strategy for skimming\nis to read the beginning and ends of paragraphs, important content may reside in the middle of paragraphs.",
+    "label": "OBJECTIVE"
+  },
+  {
+    "page": 2,
+    "rects": [
+      [
+        407.275634765625,
+        347.6733703613281,
+        558.2024536132812,
+        356.5496520996094
+      ],
+      [
+        53.79800033569336,
+        358.4549560546875,
+        198.75782775878906,
+        367.5105895996094
+      ]
+    ],
+    "text": "Highlights are distributed throughout\nthe text to support a holistic skim.",
+    "label": "NONE"
+  },
+  {
+    "page": 10,
+    "rects": [
+      [
+        246.7362518310547,
+        542.8914184570312,
+        294.047119140625,
+        551.947021484375
+      ],
+      [
+        53.79800033569336,
+        553.8504028320312,
+        294.0451965332031,
+        562.906005859375
+      ],
+      [
+        53.79800033569336,
+        564.8094482421875,
+        294.211669921875,
+        573.8650512695312
+      ],
+      [
+        53.79800033569336,
+        575.8353881835938,
+        176.81703186035156,
+        584.8018188476562
+      ],
+      [
+        63.76100158691406,
+        586.7274169921875,
+        294.0411682128906,
+        595.7830200195312
+      ],
+      [
+        53.46699905395508,
+        597.6864624023438,
+        294.04534912109375,
+        606.7420654296875
+      ],
+      [
+        53.79800033569336,
+        608.6454467773438,
+        182.3046112060547,
+        617.7010498046875
+      ]
+    ],
+    "text": "P5 described\nScim as guiding her to the important contributions of the papers\nshe skimmed, and the highlights as offering a \u201cgist of the paper\nbeyond what was in the abstract.\u201d\nAnd though highlights helped readers review the paper as a\nwhole, they could also help them orient to specific aspects of a\npaper they wanted to understand.",
+    "label": "RESULTS"
+  },
+  {
+    "page": 11,
+    "rects": [
+      [
+        156.1959991455078,
+        360.26739501953125,
+        174.7295379638672,
+        369.2337951660156
+      ],
+      [
+        53.797996520996094,
+        379.1085510253906,
+        69.68645477294922,
+        388.074951171875
+      ],
+      [
+        78.6528549194336,
+        379.1085510253906,
+        246.6645965576172,
+        388.074951171875
+      ]
+    ],
+    "text": "(P10) 7.2.3\nCircumstances in which Scim was useful (RQ3).",
+    "label": "NONE"
+  },
+  {
+    "page": 12,
+    "rects": [
+      [
+        523.2216186523438,
+        264.06243896484375,
+        558.2041015625,
+        273.1180725097656
+      ],
+      [
+        317.9549865722656,
+        275.03143310546875,
+        558.4366455078125,
+        284.07373046875
+      ],
+      [
+        317.9549865722656,
+        286.0608825683594,
+        326.0103454589844,
+        295.00933837890625
+      ]
+    ],
+    "text": "The tools\ncould also lead a reader to pay less attention to the paper as they\nskim, once they are no longer required to drive the skimming process themselves.",
+    "label": "CONCLUSIONS"
+  },
+  {
+    "page": 4,
+    "rects": [
+      [
+        53.79800033569336,
+        232.3794708251953,
+        59.405277252197266,
+        243.28857421875
+      ],
+      [
+        70.31437683105469,
+        232.3794708251953,
+        148.75079345703125,
+        243.28857421875
+      ],
+      [
+        53.52899932861328,
+        250.07342529296875,
+        294.04327392578125,
+        259.1290588378906
+      ],
+      [
+        53.79800033569336,
+        261.03240966796875,
+        294.0470275878906,
+        270.0880432128906
+      ],
+      [
+        53.79800033569336,
+        272.1260681152344,
+        294.04534912109375,
+        281.0023498535156
+      ],
+      [
+        53.79800033569336,
+        280.9303894042969,
+        78.92156982421875,
+        289.84283447265625
+      ],
+      [
+        79.13200378417969,
+        283.05792236328125,
+        294.046630859375,
+        291.9703369140625
+      ],
+      [
+        53.79800033569336,
+        293.95623779296875,
+        73.41744232177734,
+        302.9494934082031
+      ]
+    ],
+    "text": "3\nDESIGN GOALS To better understand how to design usable, intelligent skimming\ninterfaces, we used an iterative design process that began with\ninterviews and observations of academic researchers (referred to as\nreaders), and continued into an evaluation of an early prototype of\nScim.",
+    "label": "METHODS"
+  },
+  {
+    "page": 12,
+    "rects": [
+      [
+        275.7155456542969,
+        320.77703857421875,
+        294.0453796386719,
+        329.6533203125
+      ],
+      [
+        53.79800033569336,
+        331.6717834472656,
+        294.046630859375,
+        340.6336975097656
+      ],
+      [
+        53.79800033569336,
+        342.60723876953125,
+        294.04205322265625,
+        351.6004943847656
+      ],
+      [
+        53.79800033569336,
+        353.5763244628906,
+        234.33851623535156,
+        362.55615234375
+      ]
+    ],
+    "text": "A lab\nstudy showed Scim reduced the amount of time to complete short\ninformation seeking tasks in scientific papers, with no significant\ndifference in readers\u2019 self-reported task difficulty.",
+    "label": "BACKGROUND"
+  },
+  {
+    "page": 2,
+    "rects": [
+      [
+        276.8659973144531,
+        673.8770141601562,
+        294.04473876953125,
+        682.7532958984375
+      ],
+      [
+        53.79800033569336,
+        684.8359985351562,
+        294.04522705078125,
+        693.7122802734375
+      ],
+      [
+        53.672000885009766,
+        700.594482421875,
+        56.219966888427734,
+        706.073974609375
+      ],
+      [
+        56.71800231933594,
+        702.1129150390625,
+        195.9638671875,
+        709.0867309570312
+      ],
+      [
+        317.9549865722656,
+        410.859619140625,
+        356.1825256347656,
+        419.7404479980469
+      ]
+    ],
+    "text": "Scim\nbecame more usable over time as readers became accustomed to the 1Code available at https://github.com/rayfok/scim highlights.",
+    "label": "NONE"
+  },
+  {
+    "page": 10,
+    "rects": [
+      [
+        121.44451904296875,
+        248.7498016357422,
+        294.0472106933594,
+        257.80096435546875
+      ],
+      [
+        53.79800033569336,
+        259.7054443359375,
+        294.0457458496094,
+        268.7610778808594
+      ],
+      [
+        53.79800033569336,
+        270.73138427734375,
+        185.08404541015625,
+        279.6977844238281
+      ]
+    ],
+    "text": "They were asked to reflect on their experience\nusing Scim in detail, including how it supported their skimming\nand opportunities for improvement.",
+    "label": "METHODS"
+  },
+  {
+    "page": 4,
+    "rects": [
+      [
+        63.76100158691406,
+        525.2084350585938,
+        294.0450134277344,
+        534.2640380859375
+      ],
+      [
+        53.79800033569336,
+        536.302001953125,
+        217.17604064941406,
+        545.1782836914062
+      ]
+    ],
+    "text": "The prototype was similar to the version of the Scim system\ndescribed in Section 4, with a few differences.",
+    "label": "NONE"
+  },
+  {
+    "page": 6,
+    "rects": [
+      [
+        53.79800033569336,
+        516.4434204101562,
+        67.67437744140625,
+        527.3525390625
+      ],
+      [
+        78.58348083496094,
+        516.4434204101562,
+        187.3253631591797,
+        527.3525390625
+      ],
+      [
+        53.48400115966797,
+        534.27099609375,
+        294.04766845703125,
+        543.1472778320312
+      ],
+      [
+        53.79800033569336,
+        545.22998046875,
+        198.75833129882812,
+        554.1062622070312
+      ]
+    ],
+    "text": "4.4\nScrollbar Annotations A reader can discover where to skim in a paper by viewing highlight\nannotations in the scrollbar (Figure 1.D).",
+    "label": "NONE"
+  },
+  {
+    "page": 5,
+    "rects": [
+      [
+        317.6860046386719,
+        277.6364440917969,
+        559.5813598632812,
+        286.69207763671875
+      ]
+    ],
+    "text": "To promote memorability we limit the number of facets to four.",
+    "label": "NONE"
+  },
+  {
+    "page": 6,
+    "rects": [
+      [
+        457.99151611328125,
+        617.4684448242188,
+        558.201171875,
+        626.5240478515625
+      ],
+      [
+        317.9549865722656,
+        628.4274291992188,
+        558.2041015625,
+        637.4830322265625
+      ],
+      [
+        317.9549865722656,
+        639.3997802734375,
+        558.2003784179688,
+        648.4376220703125
+      ],
+      [
+        317.9549865722656,
+        650.412353515625,
+        525.1417846679688,
+        659.3787841796875
+      ]
+    ],
+    "text": "Since sentences only came\nfrom paper abstracts, we ultimately found the model insufficient\nfor classifying sentences from the body of papers, so we pursued\nadditional fine-tuning as we describe in the next section.",
+    "label": "NONE"
+  },
+  {
+    "page": 11,
+    "rects": [
+      [
+        94.15576934814453,
+        667.7413940429688,
+        294.04388427734375,
+        676.7078247070312
+      ],
+      [
+        53.79800033569336,
+        678.7680053710938,
+        294.04541015625,
+        687.644287109375
+      ],
+      [
+        53.79800033569336,
+        689.7269897460938,
+        294.04534912109375,
+        698.603271484375
+      ],
+      [
+        53.79800033569336,
+        700.5604248046875,
+        93.81143951416016,
+        709.6027221679688
+      ]
+    ],
+    "text": "One reader described a situation where they were \u201cnot\nparticularly interested in this paper.\u201d For them, the highlights served\nas \u201ca summary\u201d that they could read in lieu of looking closely at the\npaper (P4).",
+    "label": "NONE"
+  },
+  {
+    "page": 14,
+    "rects": [
+      [
+        85.8135757446289,
+        112.34854125976562,
+        252.8325653076172,
+        119.2908935546875
+      ]
+    ],
+    "text": ": Bringing Life to Research Articles with Animated Figures.",
+    "label": "METHODS"
+  },
+  {
+    "page": 10,
+    "rects": [
+      [
+        347.6146240234375,
+        536.1674194335938,
+        558.2042846679688,
+        545.2230224609375
+      ],
+      [
+        317.9549865722656,
+        547.1364135742188,
+        442.3084411621094,
+        556.1787109375
+      ]
+    ],
+    "text": "That said, most did adjust the number of highlights with\npaper-level controls at least once.",
+    "label": "RESULTS"
+  },
+  {
+    "page": 15,
+    "rects": [
+      [
+        247.18299865722656,
+        134.64048767089844,
+        294.04595947265625,
+        141.54420471191406
+      ],
+      [
+        69.23400115966797,
+        144.20591735839844,
+        119.47328186035156,
+        151.17971801757812
+      ]
+    ],
+    "text": "Aslib Proceedings\n61, 1 (2009), 5\u201332.",
+    "label": "BACKGROUND"
+  },
+  {
+    "page": 13,
+    "rects": [
+      [
+        170.3070068359375,
+        581.4375,
+        294.28106689453125,
+        590.439697265625
+      ],
+      [
+        53.79800033569336,
+        592.4910278320312,
+        215.98977661132812,
+        601.3673095703125
+      ]
+    ],
+    "text": "Scim was found to be particularly\nuseful for dense passages of text and for papers from unfamiliar domains.",
+    "label": "CONCLUSIONS"
+  },
+  {
+    "page": 2,
+    "rects": [
+      [
+        136.19729614257812,
+        651.958984375,
+        294.2781677246094,
+        660.8352661132812
+      ],
+      [
+        53.79800033569336,
+        662.783447265625,
+        294.2116394042969,
+        671.8390502929688
+      ],
+      [
+        53.46699905395508,
+        673.8770141601562,
+        275.2351989746094,
+        682.7532958984375
+      ]
+    ],
+    "text": "In this study, readers found Scim particularly\nuseful when skimming text-dense passages with few visuals, or\nwhen skimming a paper that fell outside their area of expertise.",
+    "label": "CONCLUSIONS"
+  },
+  {
+    "page": 9,
+    "rects": [
+      [
+        78.20700073242188,
+        613.6600341796875,
+        290.11895751953125,
+        622.62646484375
+      ]
+    ],
+    "text": "What are the limitations of highlight-based skimming aids?",
+    "label": "OBJECTIVE"
+  },
+  {
+    "page": 1,
+    "rects": [
+      [
+        130.38433837890625,
+        321.8794250488281,
+        294.0429992675781,
+        330.93505859375
+      ],
+      [
+        53.79800033569336,
+        332.9425354003906,
+        294.043701171875,
+        341.8594665527344
+      ],
+      [
+        52.8120002746582,
+        343.8633728027344,
+        294.0440368652344,
+        352.82977294921875
+      ],
+      [
+        53.79800033569336,
+        354.80224609375,
+        98.25856018066406,
+        363.7955017089844
+      ]
+    ],
+    "text": "To aid this challenge, we introduce Scim, a\nnovel intelligent interface that helps experienced researchers skim\n\u2013 or rapidly review \u2013 a paper to attain a cursory understanding of\nits contents.",
+    "label": "NONE"
+  },
+  {
+    "page": 4,
+    "rects": [
+      [
+        342.171142578125,
+        391.59259033203125,
+        464.2493591308594,
+        400.59478759765625
+      ]
+    ],
+    "text": "Highlight diverse kinds of content.",
+    "label": "NONE"
+  },
+  {
+    "page": 7,
+    "rects": [
+      [
+        543.6897583007812,
+        605.846435546875,
+        558.36865234375,
+        614.9020385742188
+      ],
+      [
+        317.9549865722656,
+        616.9061279296875,
+        558.37255859375,
+        625.8275756835938
+      ],
+      [
+        317.62298583984375,
+        627.7844848632812,
+        558.2044067382812,
+        636.8134155273438
+      ],
+      [
+        317.9549865722656,
+        638.8434448242188,
+        559.488037109375,
+        647.73779296875
+      ]
+    ],
+    "text": "Our\ngoal with this preliminary evaluation was not to evaluate whether\nwe advanced the state-of-the-art in NLP, but rather to verify that\nthe model reliably identified meaningful highlights for use in Scim.",
+    "label": "OBJECTIVE"
+  },
+  {
+    "page": 11,
+    "rects": [
+      [
+        96.0455551147461,
+        700.5604248046875,
+        294.042724609375,
+        709.6027221679688
+      ],
+      [
+        317.9549865722656,
+        222.42340087890625,
+        558.2041625976562,
+        231.47903442382812
+      ],
+      [
+        317.9549865722656,
+        233.4494171142578,
+        513.4765014648438,
+        242.4158172607422
+      ]
+    ],
+    "text": "This suggests an interesting possibility for intelligent highlights to help not just highly-motivated skimmers, but also\nthose skimming papers in lower-motivation contexts.",
+    "label": "NONE"
+  },
+  {
+    "page": 8,
+    "rects": [
+      [
+        366.3527526855469,
+        152.74000549316406,
+        464.5571594238281,
+        161.61630249023438
+      ],
+      [
+        464.5571594238281,
+        150.6211395263672,
+        498.6822509765625,
+        159.49742126464844
+      ],
+      [
+        498.6822509765625,
+        152.74000549316406,
+        558.2040405273438,
+        161.61630249023438
+      ],
+      [
+        342.364013671875,
+        163.6685333251953,
+        416.7069091796875,
+        172.58547973632812
+      ]
+    ],
+    "text": "Answers to these questions could not be found in text\nhighlighted by Scim.",
+    "label": "RESULTS"
+  },
+  {
+    "page": 3,
+    "rects": [
+      [
+        115.8441390991211,
+        232.14125061035156,
+        294.04364013671875,
+        241.085205078125
+      ],
+      [
+        53.79800033569336,
+        243.11712646484375,
+        191.28977966308594,
+        252.03857421875
+      ]
+    ],
+    "text": "Generally, readers are not accurate at identifying\ngoal-relevant information within text.",
+    "label": "BACKGROUND"
+  },
+  {
+    "page": 8,
+    "rects": [
+      [
+        210.4884033203125,
+        656.812744140625,
+        294.0406494140625,
+        665.7386474609375
+      ],
+      [
+        78.20700073242188,
+        667.8090209960938,
+        294.0439147949219,
+        676.685302734375
+      ],
+      [
+        78.20700073242188,
+        678.7003784179688,
+        282.77545166015625,
+        687.6668090820312
+      ]
+    ],
+    "text": "This task was intended\nto familiarize participants with the two interfaces, so we did\nnot include any measures from this task in our analysis.",
+    "label": "METHODS"
+  },
+  {
+    "page": 5,
+    "rects": [
+      [
+        63.76100158691406,
+        574.2406616210938,
+        294.04742431640625,
+        583.2160034179688
+      ],
+      [
+        53.79800033569336,
+        585.1394653320312,
+        294.0470275878906,
+        594.195068359375
+      ],
+      [
+        53.79800033569336,
+        596.2330322265625,
+        294.0454406738281,
+        605.1093139648438
+      ],
+      [
+        53.79800033569336,
+        607.1066284179688,
+        295.4252014160156,
+        616.0953979492188
+      ]
+    ],
+    "text": "A final takeaway from our formative research was that readers\nbelieved their comfort using intelligent highlights would change\nover time, as they became more familiar with the features, the colors\nassociated with the highlights, and the accuracy of the highlights.",
+    "label": "RESULTS"
+  },
+  {
+    "page": 10,
+    "rects": [
+      [
+        53.79800033569336,
+        497.0035400390625,
+        69.68646240234375,
+        505.9699401855469
+      ],
+      [
+        78.65286254882812,
+        497.0035400390625,
+        233.00062561035156,
+        505.9699401855469
+      ]
+    ],
+    "text": "7.2.1\nThe value of Scim as a skimming aid (RQ1).",
+    "label": "NONE"
+  },
+  {
+    "page": 11,
+    "rects": [
+      [
+        244.7415313720703,
+        604.44775390625,
+        269.6361999511719,
+        613.5033569335938
+      ],
+      [
+        78.20700073242188,
+        615.40673828125,
+        269.6362609863281,
+        624.4623413085938
+      ],
+      [
+        78.20700073242188,
+        626.36572265625,
+        269.63623046875,
+        635.4213256835938
+      ],
+      [
+        78.20700073242188,
+        637.4130249023438,
+        237.0377960205078,
+        646.3794555664062
+      ]
+    ],
+    "text": "In that\ncase the highlighting helped me focus on, read, and\nconceptualize better certain parts of the methodology\nin order to better understand the conclusions.",
+    "label": "NONE"
+  },
+  {
+    "page": 11,
+    "rects": [
+      [
+        63.76100158691406,
+        545.6722412109375,
+        294.0470275878906,
+        554.5575561523438
+      ],
+      [
+        53.79800033569336,
+        556.6380004882812,
+        294.0453186035156,
+        565.5142822265625
+      ],
+      [
+        53.52899932861328,
+        567.5294189453125,
+        294.04376220703125,
+        576.495849609375
+      ],
+      [
+        53.79800033569336,
+        578.4884033203125,
+        106.71768951416016,
+        587.454833984375
+      ],
+      [
+        78.20700073242188,
+        593.5195922851562,
+        269.6395263671875,
+        602.5440673828125
+      ],
+      [
+        78.20700073242188,
+        604.44775390625,
+        229.7882537841797,
+        613.5033569335938
+      ]
+    ],
+    "text": "Intelligent highlights were seen as useful to readers who sought\ninformation from papers on a topic they did not typically read about\n(P8, P10), assisting them in identifying and focusing on important\npaper content: For me it was also generally useful for reading papers\nthat were a little out of my comfort zone.",
+    "label": "RESULTS"
+  },
+  {
+    "page": 8,
+    "rects": [
+      [
+        86.68399810791016,
+        344.1737365722656,
+        294.04736328125,
+        353.2293701171875
+      ],
+      [
+        53.79800033569336,
+        355.22100830078125,
+        144.654541015625,
+        364.1874084472656
+      ]
+    ],
+    "text": "How does Scim affect readers\u2019 ability to identify relevant\ninformation after a skim?",
+    "label": "OBJECTIVE"
+  },
+  {
+    "page": 12,
+    "rects": [
+      [
+        338.9036560058594,
+        97.94600677490234,
+        558.2024536132812,
+        106.8222885131836
+      ],
+      [
+        317.9549865722656,
+        108.83405303955078,
+        385.2073974609375,
+        117.804931640625
+      ]
+    ],
+    "text": "As AI models become increasingly adept at identifying salient\npaper content, those models may be useful not just to identify important content, but to coach skimmers to find this content as well.",
+    "label": "CONCLUSIONS"
+  },
+  {
+    "page": 3,
+    "rects": [
+      [
+        228.1795196533203,
+        144.38641357421875,
+        294.04705810546875,
+        153.44204711914062
+      ],
+      [
+        53.79800033569336,
+        155.4292755126953,
+        294.0469970703125,
+        164.37322998046875
+      ],
+      [
+        53.79800033569336,
+        166.4220733642578,
+        294.04345703125,
+        175.3209686279297
+      ],
+      [
+        53.79800033569336,
+        177.263427734375,
+        294.2756652832031,
+        186.31906127929688
+      ],
+      [
+        53.79800033569336,
+        188.2893829345703,
+        121.7453842163086,
+        197.2557830810547
+      ]
+    ],
+    "text": "As the number of\npublished papers increases year over year and papers have moved\nfrom print into digital media, scholars have tended toward reading\nmore papers and spending less time on each, likely doing so by\nskimming [41, 66].",
+    "label": "NONE"
+  },
+  {
+    "page": 7,
+    "rects": [
+      [
+        317.9549865722656,
+        660.939453125,
+        331.83135986328125,
+        671.8485717773438
+      ],
+      [
+        342.7404479980469,
+        660.939453125,
+        524.2788696289062,
+        671.8485717773438
+      ],
+      [
+        317.9549865722656,
+        678.6334228515625,
+        558.2041625976562,
+        687.6890258789062
+      ],
+      [
+        317.9549865722656,
+        689.5924072265625,
+        540.4705810546875,
+        698.6480102539062
+      ]
+    ],
+    "text": "5.3\nCleaning and Prioritizing Highlights Scim\u2019s user interface selects which highlights to show using the\npredicted facet label, probability score, and other heuristics.",
+    "label": "NONE"
+  },
+  {
+    "page": 12,
+    "rects": [
+      [
+        244.39492797851562,
+        218.35943603515625,
+        294.04705810546875,
+        227.41506958007812
+      ],
+      [
+        53.79800033569336,
+        229.33843994140625,
+        119.88723754882812,
+        238.36740112304688
+      ]
+    ],
+    "text": "What are the\nlimitations?\u201d (P8).",
+    "label": "NONE"
+  },
+  {
+    "page": 12,
+    "rects": [
+      [
+        327.9179992675781,
+        329.93408203125,
+        558.4348754882812,
+        338.8329772949219
+      ],
+      [
+        317.9549865722656,
+        340.80548095703125,
+        559.583740234375,
+        349.821044921875
+      ]
+    ],
+    "text": "Skimming aids like Scim therefore need to be designed in a way\nthat respects a reader\u2019s attention and the value of deeply reading.",
+    "label": "BACKGROUND"
+  },
+  {
+    "page": 6,
+    "rects": [
+      [
+        200.89358520507812,
+        545.22998046875,
+        294.2738342285156,
+        554.1062622070312
+      ],
+      [
+        53.79800033569336,
+        556.1890258789062,
+        294.04425048828125,
+        565.0653076171875
+      ],
+      [
+        53.79800033569336,
+        567.1480102539062,
+        144.9698944091797,
+        576.0242919921875
+      ]
+    ],
+    "text": "This feature is inspired by\nedit wear and read wear affordances [24] and scrollbar annotations\nin code editors (e.g., [48]).",
+    "label": "NONE"
+  },
+  {
+    "page": 12,
+    "rects": [
+      [
+        462.746337890625,
+        351.73443603515625,
+        558.2002563476562,
+        360.7900695800781
+      ],
+      [
+        317.9549865722656,
+        362.7191467285156,
+        522.1834106445312,
+        371.73919677734375
+      ]
+    ],
+    "text": "They should be deployed\nalongside studies that understand their effect on readers\u2019 engagement with texts.",
+    "label": "CONCLUSIONS"
+  },
+  {
+    "page": 10,
+    "rects": [
+      [
+        327.9179992675781,
+        349.8664245605469,
+        558.2023315429688,
+        358.92205810546875
+      ],
+      [
+        317.9549865722656,
+        360.95904541015625,
+        558.2023315429688,
+        369.8353271484375
+      ],
+      [
+        317.9549865722656,
+        371.8067932128906,
+        558.1979370117188,
+        380.8312683105469
+      ],
+      [
+        317.9549865722656,
+        382.7591247558594,
+        559.5839233398438,
+        391.7925109863281
+      ]
+    ],
+    "text": "While the predominant method of interaction with Scim was\nlikely to view highlights within the paper, a second commonly used\nfeature was the highlight browser: all readers opened Scim\u2019s side\nbar more than once, with the average reader opening it 9.3 times.",
+    "label": "RESULTS"
+  },
+  {
+    "page": 5,
+    "rects": [
+      [
+        338.20111083984375,
+        645.8233642578125,
+        558.2013549804688,
+        654.789794921875
+      ],
+      [
+        317.95501708984375,
+        656.7823486328125,
+        431.2276306152344,
+        665.748779296875
+      ],
+      [
+        327.9179992675781,
+        665.5525512695312,
+        410.18316650390625,
+        674.5681762695312
+      ],
+      [
+        410.1860046386719,
+        667.7044677734375,
+        412.1802978515625,
+        676.7200927734375
+      ]
+    ],
+    "text": "To provide flexibility in the skimming experience (D7), Scim\nprovides two kinds of controls:\nPaper-level controls.",
+    "label": "NONE"
+  },
+  {
+    "page": 4,
+    "rects": [
+      [
+        440.73797607421875,
+        558.1929321289062,
+        558.2057495117188,
+        567.1053466796875
+      ],
+      [
+        317.9549865722656,
+        569.04443359375,
+        510.3627014160156,
+        578.1000366210938
+      ]
+    ],
+    "text": "We propose that skimming tools\nshould help readers identify important passages which conventional strategies do not reach, such as content in the middle of\nparagraphs and in the middle of the paper.",
+    "label": "NONE"
+  }
+]
