@@ -29,6 +29,7 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).parent.parent
 sys.path.insert(0, str(REPO_ROOT / "service"))
 
+import nltk
 import fitz  # PyMuPDF
 
 from extractor import extract_sentences
@@ -131,6 +132,15 @@ def locate_highlights(pdf_path: Path, ranked: list):
 # ---------------------------------------------------------------------------
 
 def main():
+    try:
+        nltk.data.find("tokenizers/punkt_tab")
+    except LookupError:
+        nltk.download("punkt_tab", quiet=True)
+    try:
+        nltk.data.find("tokenizers/punkt")
+    except LookupError:
+        nltk.download("punkt", quiet=True)
+
     pdfs = sorted(PAPERS_DIR.glob("*.pdf"))
     if not pdfs:
         print(f"No PDFs found in {PAPERS_DIR}. Add your study PDFs and re-run.")

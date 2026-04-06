@@ -109,10 +109,17 @@
   // -------------------------------------------------------------------------
   // Load questions and highlights in parallel
   // -------------------------------------------------------------------------
-  const [qData, highlights] = await Promise.all([
-    fetch(`/api/session/${sessionId}/questions`).then(r => r.json()),
-    fetch(`/api/session/${sessionId}/highlights`).then(r => r.json()).catch(() => []),
+  const [qRes, hlRes] = await Promise.all([
+    fetch(`/api/session/${sessionId}/questions`),
+    fetch(`/api/session/${sessionId}/highlights`),
   ]);
+  const qData = await qRes.json();
+  let highlights = [];
+  if (hlRes.ok) {
+    highlights = await hlRes.json();
+  } else {
+    console.warn(`Highlights request failed (${hlRes.status}); PDF will render without overlays.`);
+  }
 
   if (highlights.length > 0) {
     document.getElementById('legend').style.display = 'flex';

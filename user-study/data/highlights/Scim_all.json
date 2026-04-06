@@ -148,7 +148,7 @@
       ]
     ],
     "text": "Figure 2: Our formative research revealed that intelligent\nhighlights need to do more than pointing readers to important content.",
-    "label": "RESULTS"
+    "label": "NONE"
   },
   {
     "page": 12,
@@ -167,7 +167,7 @@
       ]
     ],
     "text": "While Scim addresses these information needs\nthrough faceted highlights, future tools could support more conversational interactions between readers and the papers they skim.",
-    "label": "CONCLUSIONS"
+    "label": "NONE"
   },
   {
     "page": 2,
@@ -281,7 +281,7 @@
       ]
     ],
     "text": "Scim supports the skimming process by highlighting\nsalient paper contents in order to direct a reader\u2019s attention.",
-    "label": "CONCLUSIONS"
+    "label": "NONE"
   },
   {
     "page": 9,
@@ -306,7 +306,7 @@
       ]
     ],
     "text": "We also allowed participants to request other\npapers outside of this collection to read with Scim throughout the\nstudy; in total, an additional 10 NLP papers were preprocessed.",
-    "label": "METHODS"
+    "label": "NONE"
   },
   {
     "page": 2,
@@ -401,7 +401,7 @@
       ]
     ],
     "text": "Readers described the highlight browser as supporting navigation\nand providing a rapid understanding of paper contents (P7, P9, P10).",
-    "label": "RESULTS"
+    "label": "NONE"
   },
   {
     "page": 2,
@@ -426,7 +426,7 @@
       ]
     ],
     "text": "Finally, Scim lets readers\ncustomize the number of highlights in a paper, both across an entire\npaper and within individual paragraphs.",
-    "label": "BACKGROUND"
+    "label": "NONE"
   },
   {
     "page": 8,
@@ -457,7 +457,7 @@
       ]
     ],
     "text": "In contrast to Task 2, we hypothesized\nthat Scim might prove a hindrance when finding information\noutside of the highlights, and this task was designed to check\nthis concern.",
-    "label": "METHODS"
+    "label": "NONE"
   },
   {
     "page": 11,
@@ -501,7 +501,7 @@
       ]
     ],
     "text": "Participants first provided consent and then were\nled through a tutorial of Scim\u2019s features.",
-    "label": "METHODS"
+    "label": "NONE"
   },
   {
     "page": 10,
@@ -545,7 +545,7 @@
       ]
     ],
     "text": "Despite recent\nadvances, automated summaries remain error-prone, susceptible\nto hallucination [79], and unreliable as a standalone replacement\nfor reading a paper itself.",
-    "label": "OBJECTIVE"
+    "label": "NONE"
   },
   {
     "page": 6,
@@ -564,7 +564,7 @@
       ]
     ],
     "text": "The annotations also offer feedback to readers as\nthey configure highlight density with Scim\u2019s controls.",
-    "label": "METHODS"
+    "label": "NONE"
   },
   {
     "page": 10,
@@ -608,7 +608,7 @@
       ]
     ],
     "text": "Altogether, these studies suggest the potential for intelligent\ntools to support researchers in skimming scientific literature.",
-    "label": "CONCLUSIONS"
+    "label": "NONE"
   },
   {
     "page": 9,
@@ -633,7 +633,7 @@
       ]
     ],
     "text": "Altogether, the results show that Scim\nreduced the time it took for readers to seek information in papers,\nwith no observed significant difference in accuracy or effort.",
-    "label": "CONCLUSIONS"
+    "label": "NONE"
   },
   {
     "page": 10,
@@ -732,7 +732,7 @@
       ]
     ],
     "text": "They should also be well-distributed throughout\na paper (D3, D5) and steer readers towards diverse content\ntypes (D2).",
-    "label": "CONCLUSIONS"
+    "label": "NONE"
   },
   {
     "page": 13,
@@ -801,7 +801,7 @@
       ]
     ],
     "text": "Nearly all readers used both global and local controls to configure\nthe number of highlights.",
-    "label": "METHODS"
+    "label": "NONE"
   },
   {
     "page": 2,
@@ -820,7 +820,7 @@
       ]
     ],
     "text": "Altogether, this paper contributes: \u2022 Design goals to guide the design of intelligent, highlightbased skimming user interfaces, based on formative interviews and preliminary usability studies of a prototype tool.",
-    "label": "BACKGROUND"
+    "label": "NONE"
   },
   {
     "page": 11,
@@ -964,7 +964,7 @@
       ]
     ],
     "text": "Exit interviews confirmed that\nreaders tended to tune the level of highlights to the preferred level\non the first day of use.",
-    "label": "RESULTS"
+    "label": "NONE"
   },
   {
     "page": 5,
@@ -1070,7 +1070,7 @@
       ]
     ],
     "text": "This study let readers use Scim for papers of their choice from a list\nrelevant to their discipline, leading to alignment of their motivation\nwith typical motivations for skimming.",
-    "label": "CONCLUSIONS"
+    "label": "NONE"
   },
   {
     "page": 11,
@@ -1089,7 +1089,7 @@
       ]
     ],
     "text": "Overall, the intelligent highlights appeared to be useful during\na majority of skimming sessions.",
-    "label": "RESULTS"
+    "label": "NONE"
   },
   {
     "page": 9,
@@ -1108,7 +1108,7 @@
       ]
     ],
     "text": "During the welcome session, participants completed a\ntutorial of how to use Scim.",
-    "label": "METHODS"
+    "label": "NONE"
   },
   {
     "page": 11,
@@ -1146,7 +1146,7 @@
       ]
     ],
     "text": "What value can intelligent highlight-based skimming aids\nprovide to researchers?",
-    "label": "OBJECTIVE"
+    "label": "NONE"
   },
   {
     "page": 10,
@@ -1190,7 +1190,7 @@
       ]
     ],
     "text": "Despite the pervasiveness\nof skimming as a practice for reviewing papers [56], skimming is\nnot easy [16, 47].",
-    "label": "OBJECTIVE"
+    "label": "NONE"
   },
   {
     "page": 1,
@@ -1215,7 +1215,7 @@
       ]
     ],
     "text": "In these studies, we found that readers desired highlights that\ncover diverse content, are evenly distributed across a paper, and\ncapture important paper content.",
-    "label": "BACKGROUND"
+    "label": "NONE"
   },
   {
     "page": 3,
@@ -1364,7 +1364,7 @@
       ]
     ],
     "text": "Furthermore,\nimprovements to PDF processing are necessary to improve the\nuser experience for tools like Scim.",
-    "label": "CONCLUSIONS"
+    "label": "NONE"
   },
   {
     "page": 11,
@@ -1414,7 +1414,7 @@
       ]
     ],
     "text": "These facets aim to surface specific kinds of paper content that align with common skimming goals identified in\nformative research, reflecting design guideline D2.",
-    "label": "BACKGROUND"
+    "label": "NONE"
   },
   {
     "page": 8,
@@ -1439,7 +1439,7 @@
       ]
     ],
     "text": "We hypothesized the main points\nhighlighted by Scim should be easier to locate, and this task\nwas designed to test that hypothesis.",
-    "label": "OBJECTIVE"
+    "label": "NONE"
   },
   {
     "page": 11,
@@ -1470,7 +1470,7 @@
       ]
     ],
     "text": "As a result, readers discovered inconsistencies\nbetween the visual cues introduced by authors and the highlights\nsuggested by Scim (P2, P4, P5), such as bolded result statements or\ncontributions in a list, which were not consistently highlighted.",
-    "label": "RESULTS"
+    "label": "NONE"
   },
   {
     "page": 6,
@@ -1514,7 +1514,7 @@
       ]
     ],
     "text": "We believe skimming interfaces should not impede or replace\nthese reading strategies.",
-    "label": "CONCLUSIONS"
+    "label": "NONE"
   },
   {
     "page": 5,
@@ -1634,7 +1634,7 @@
       ]
     ],
     "text": "Readers reported directing their\nattention both to the highlights and to conventional paper landmarks like section headers and visual content.",
-    "label": "RESULTS"
+    "label": "NONE"
   },
   {
     "page": 3,
@@ -1665,7 +1665,7 @@
       ]
     ],
     "text": "One study of skimming for scientific document triage found\nreaders were hasty and incomplete, with readers scrolling through\ndocuments quickly and paying attention to highly visual content\nand section headers [42].",
-    "label": "OBJECTIVE"
+    "label": "NONE"
   },
   {
     "page": 10,
@@ -1684,7 +1684,7 @@
       ]
     ],
     "text": "(2) What highlights (if any) drew your attention to something\nyou might have missed without the highlights?",
-    "label": "OBJECTIVE"
+    "label": "NONE"
   },
   {
     "page": 12,
@@ -1828,7 +1828,7 @@
       ]
     ],
     "text": "We conclude by discussing design considerations\nand tensions for the design of future intelligent skimming tools.",
-    "label": "CONCLUSIONS"
+    "label": "NONE"
   },
   {
     "page": 10,
@@ -1853,7 +1853,7 @@
       ]
     ],
     "text": "When asked, readers typically\nreported that the default density of highlights was appropriate (P2,\nP6, P7).",
-    "label": "METHODS"
+    "label": "NONE"
   },
   {
     "page": 4,
@@ -1990,7 +1990,7 @@
       ]
     ],
     "text": "(Right) Participants\u2019 subjective responses regarding the ease of completing information seeking tasks with Scim compared to a\nstandard document reader, and whether they found Scim\u2019s highlights distracting.",
-    "label": "METHODS"
+    "label": "NONE"
   },
   {
     "page": 5,
@@ -2021,7 +2021,7 @@
       ]
     ],
     "text": "We suggest the\nrule of thumb that a highlight should be provided around once per\nparagraph, and that readers should be able to request additional\nhighlights in particularly dense passages.",
-    "label": "CONCLUSIONS"
+    "label": "NONE"
   },
   {
     "page": 5,
@@ -2040,7 +2040,7 @@
       ]
     ],
     "text": "These highlights were tailored in three\nways to support skimming.",
-    "label": "METHODS"
+    "label": "NONE"
   },
   {
     "page": 10,
@@ -2065,7 +2065,7 @@
       ]
     ],
     "text": "Global controls were typically used a\nsmall handful of times to achieve an acceptable density of highlights\n(which was then persisted into subsequent skimming sessions).",
-    "label": "METHODS"
+    "label": "NONE"
   },
   {
     "page": 12,
@@ -2109,7 +2109,7 @@
       ]
     ],
     "text": "Skimming\nrequires significant attention to understand the idiosyncrasies and\nnuances within papers.",
-    "label": "CONCLUSIONS"
+    "label": "NONE"
   },
   {
     "page": 2,
@@ -2128,7 +2128,7 @@
       ]
     ],
     "text": "\u2022 Insights into the strengths and limitations of Scim based on\na lab usability study and a longitudinal diary study.",
-    "label": "OBJECTIVE"
+    "label": "NONE"
   },
   {
     "page": 11,
@@ -2141,7 +2141,7 @@
       ]
     ],
     "text": "Notably, most readers used most features at least once.",
-    "label": "CONCLUSIONS"
+    "label": "NONE"
   },
   {
     "page": 7,
@@ -2166,7 +2166,7 @@
       ]
     ],
     "text": "Each paper took on average 20 minutes to annotate, and was\nannotated by three Upworkers using the PAWLS PDF annotation\ntool [52].",
-    "label": "METHODS"
+    "label": "NONE"
   },
   {
     "page": 4,
@@ -2185,7 +2185,7 @@
       ]
     ],
     "text": "Those themes that provided actionable guidance for design\nare reported in the next section.",
-    "label": "RESULTS"
+    "label": "NONE"
   },
   {
     "page": 11,
@@ -2354,7 +2354,7 @@
       ]
     ],
     "text": "In this paper, we investigate how an intelligent user interface\ncan help both novice and expert researchers skim scientific papers\nmore efficiently.",
-    "label": "BACKGROUND"
+    "label": "NONE"
   },
   {
     "page": 11,
@@ -2423,7 +2423,7 @@
       ]
     ],
     "text": "https://material-ui.com/\n[51] Ani Nenkova and Kathleen McKeown.",
-    "label": "BACKGROUND"
+    "label": "NONE"
   },
   {
     "page": 3,
@@ -2499,7 +2499,7 @@
       ]
     ],
     "text": "Overall, participants answered questions more quickly with Scim than with a standard (baseline) document reader.",
-    "label": "RESULTS"
+    "label": "NONE"
   },
   {
     "page": 4,
@@ -2592,7 +2592,7 @@
       ]
     ],
     "text": "Modern reading\ninterfaces also commonly support readers in marking regions of\ninterest with a document with highlights or free-text annotations.",
-    "label": "BACKGROUND"
+    "label": "NONE"
   },
   {
     "page": 2,
@@ -2617,7 +2617,7 @@
       ]
     ],
     "text": "First, we performed a lab usability study to\nunderstand how Scim affects readers\u2019 ability to search for specific\nkinds of information in a paper.",
-    "label": "OBJECTIVE"
+    "label": "NONE"
   },
   {
     "page": 5,
@@ -2625,7 +2625,7 @@
       [
         430.5225830078125,
         165.91053771972656,
-        558.20068359375,
+        558.2006225585938,
         174.82748413085938
       ],
       [
@@ -2686,7 +2686,7 @@
       ]
     ],
     "text": "With the shift of scientific publishing from\npaper to digital online publications, the practice of skimming has\nbecome yet more widespread [41, 66].",
-    "label": "BACKGROUND"
+    "label": "NONE"
   },
   {
     "page": 11,
@@ -2743,7 +2743,7 @@
       ]
     ],
     "text": "In what scenarios do researchers find skimming aids useful?",
-    "label": "OBJECTIVE"
+    "label": "NONE"
   },
   {
     "page": 13,
@@ -2762,7 +2762,7 @@
       ]
     ],
     "text": "ACM TOCHI (2023).",
-    "label": "BACKGROUND"
+    "label": "NONE"
   },
   {
     "page": 1,
@@ -2781,7 +2781,7 @@
       ]
     ],
     "text": "While faster than reading, skimming achieves a coarser\nview of papers\u2019 contents.",
-    "label": "CONCLUSIONS"
+    "label": "NONE"
   },
   {
     "page": 12,
@@ -2800,7 +2800,7 @@
       ]
     ],
     "text": "What are the\nnovelties/contributions of this study?",
-    "label": "OBJECTIVE"
+    "label": "NONE"
   },
   {
     "page": 2,
@@ -2850,7 +2850,7 @@
       ]
     ],
     "text": "This feature provides quick and flexible\ncontrol to complement paper-level controls, allowing a reader to\nrequest highlights precisely where they need them.",
-    "label": "CONCLUSIONS"
+    "label": "NONE"
   },
   {
     "page": 3,
@@ -2875,7 +2875,7 @@
       ]
     ],
     "text": "One line of research sought\nto facilitate the rapid exploration of long documents by modifying the behavior of reading interfaces during scrolling.",
-    "label": "OBJECTIVE"
+    "label": "NONE"
   },
   {
     "page": 11,
@@ -2913,7 +2913,7 @@
       ]
     ],
     "text": "We evaluate Scim with both an in-lab\nusability study and a longitudinal diary study, revealing how its\nhighlights facilitate the more efficient construction of a conceptualization of a paper.",
-    "label": "CONCLUSIONS"
+    "label": "NONE"
   },
   {
     "page": 12,
@@ -2995,7 +2995,7 @@
       ]
     ],
     "text": "When using Scim, readers located\nthe desired information in significantly less time compared to a\nstandard document reader, with comparable effort and accuracy.",
-    "label": "CONCLUSIONS"
+    "label": "NONE"
   },
   {
     "page": 10,
@@ -3014,7 +3014,7 @@
       ]
     ],
     "text": "Readers seemed to use Scim to augment, rather than replace,\ntheir existing skimming strategies.",
-    "label": "CONCLUSIONS"
+    "label": "NONE"
   },
   {
     "page": 13,
