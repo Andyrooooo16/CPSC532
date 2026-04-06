@@ -439,33 +439,115 @@
     }
   },
   "finalQuestionnaire": {
-    "instructions": "Please answer these final questions about your overall experience with the study.",
+    "instructions": "Please answer these final questions about your overall experience with the highlighting system.",
     "questions": [
       {
-        "id": "fq_highlight_useful",
-        "text": "Overall, how useful did you find the text highlighting when it was present?",
+        "id": "fq_helpful_highlighted_sentences",
+        "text": "Overall, how helpful were the highlighted sentences for understanding the papers?",
         "type": "likert",
-        "scale": { "min": 1, "max": 7, "minLabel": "Not useful at all", "maxLabel": "Extremely useful" }
-      },
-      {
-        "id": "fq_highlight_distract",
-        "text": "Did the highlighting ever distract you or draw your attention to unhelpful areas?",
-        "type": "likert",
-        "scale": { "min": 1, "max": 5, "minLabel": "Never", "maxLabel": "Very often" }
-      },
-      {
-        "id": "fq_preference",
-        "text": "Which reading condition did you prefer?",
-        "type": "multiple_choice",
-        "options": {
-          "A": "No highlights",
-          "B": "All sentences highlighted",
-          "C": "Contextual highlights (based on what you've read)"
+        "scale": {
+          "min": 1,
+          "max": 5,
+          "minLabel": "Not helpful at all",
+          "maxLabel": "Extremely helpful"
         }
       },
       {
-        "id": "fq_comments",
-        "text": "Please share any additional comments, observations, or suggestions.",
+        "id": "fq_confidence_understanding",
+        "text": "How confident are you in your overall understanding of the three papers?",
+        "type": "likert",
+        "scale": {
+          "min": 1,
+          "max": 5,
+          "minLabel": "Not confident at all",
+          "maxLabel": "Extremely confident"
+        }
+      },
+      {
+        "id": "fq_identify_important_info",
+        "text": "How easy was it to identify the most important information in each paper?",
+        "type": "likert",
+        "scale": {
+          "min": 1,
+          "max": 5,
+          "minLabel": "Very Difficult",
+          "maxLabel": "Very Easy"
+        }
+      },
+      {
+        "id": "fq_repeated_known_info",
+        "text": "To what extent did the highlights include repeated or already-known information?",
+        "type": "likert",
+        "scale": {
+          "min": 1,
+          "max": 5,
+          "minLabel": "Not at all",
+          "maxLabel": "Extremely"
+        }
+      },
+      {
+        "id": "fq_missing_important_info",
+        "text": "I felt that important information was missing from the highlighted text:",
+        "type": "likert",
+        "scale": {
+          "min": 1,
+          "max": 5,
+          "minLabel": "Strongly disagree",
+          "maxLabel": "Strongly agree"
+        }
+      },
+      {
+        "id": "fq_trust_highlights_key_ideas",
+        "text": "I trusted the highlights to include the key ideas of the paper:",
+        "type": "likert",
+        "scale": {
+          "min": 1,
+          "max": 5,
+          "minLabel": "Strongly disagree",
+          "maxLabel": "Strongly agree"
+        }
+      },
+      {
+        "id": "fq_new_vs_repeated",
+        "text": "How easy was it to tell what was new versus repeated across the papers?",
+        "type": "likert",
+        "scale": {
+          "min": 1,
+          "max": 5,
+          "minLabel": "Very difficult",
+          "maxLabel": "Very easy"
+        }
+      },
+      {
+        "id": "fq_focus_novel_important_content",
+        "text": "The highlights helped me focus on novel or important content:",
+        "type": "likert",
+        "scale": {
+          "min": 1,
+          "max": 5,
+          "minLabel": "Strongly disagree",
+          "maxLabel": "Strongly agree"
+        }
+      },
+      {
+        "id": "fq_use_in_workflow",
+        "text": "How likely would you be to use a system like this in your own paper-reading workflow?",
+        "type": "likert",
+        "scale": {
+          "min": 1,
+          "max": 5,
+          "minLabel": "Very unlikely",
+          "maxLabel": "Very likely"
+        }
+      },
+      {
+        "id": "fq_like_most_least",
+        "text": "What did you like most or least about the highlighting system?",
+        "type": "free_text"
+      },
+      {
+        "id": "fq_missing_confusing_unnecessary",
+        "text": "Is there anything that felt missing, confusing, or unnecessary?",
         "type": "free_text"
       }
     ]
