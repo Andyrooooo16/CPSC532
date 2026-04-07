@@ -21,36 +21,161 @@
       "filename": "S1 Meta Analysis of the Utility.pdf"
     },
     "paper6": {
-      "title": "University Students",
+      "title": "Is it harmful or helpful? Examining the causes and consequences of generative AIusage among university students",
       "filename": "S1 University Students.pdf"
     }
   },
-  "participants": {
-    "P01": {
-      "paperOrder": ["paper1", "paper2", "paper3"],
-      "conditions": ["no_highlights", "all_highlights", "contextual_highlights"]
-    },
-    "P02": {
-      "paperOrder": ["paper2", "paper3", "paper1"],
-      "conditions": ["all_highlights", "contextual_highlights", "no_highlights"]
-    },
-    "P03": {
-      "paperOrder": ["paper3", "paper1", "paper2"],
-      "conditions": ["contextual_highlights", "no_highlights", "all_highlights"]
-    }, 
-    "P04": {
-      "paperOrder": ["paper4", "paper5", "paper6"],
-      "conditions": ["all_highlights", "all_highlights", "contextual_highlights"]
-    },
-    "P05": {
-      "paperOrder": ["paper5", "paper6", "paper4"],
-      "conditions": ["all_highlights", "contextual_highlights", "no_highlights"]
-    },
-    "P06": {
-      "paperOrder": ["paper6", "paper4", "paper5"],
-      "conditions": ["contextual_highlights", "no_highlights", "all_highlights"]
-    }
+"participants": {
+  "P01": {
+    "paperOrder": ["paper4", "paper5", "paper6"],
+    "conditions": ["no_highlights", "all_highlights", "contextual_highlights"]
   },
+  "P02": {
+    "paperOrder": ["paper4", "paper6", "paper5"],
+    "conditions": ["no_highlights", "all_highlights", "contextual_highlights"]
+  },
+  "P03": {
+    "paperOrder": ["paper5", "paper4", "paper6"],
+    "conditions": ["no_highlights", "all_highlights", "contextual_highlights"]
+  },
+  "P04": {
+    "paperOrder": ["paper5", "paper6", "paper4"],
+    "conditions": ["no_highlights", "all_highlights", "contextual_highlights"]
+  },
+  "P05": {
+    "paperOrder": ["paper6", "paper4", "paper5"],
+    "conditions": ["no_highlights", "all_highlights", "contextual_highlights"]
+  },
+  "P06": {
+    "paperOrder": ["paper6", "paper5", "paper4"],
+    "conditions": ["no_highlights", "all_highlights", "contextual_highlights"]
+  },
+
+  "P07": {
+    "paperOrder": ["paper4", "paper5", "paper6"],
+    "conditions": ["all_highlights", "no_highlights", "contextual_highlights"]
+  },
+  "P08": {
+    "paperOrder": ["paper4", "paper6", "paper5"],
+    "conditions": ["all_highlights", "no_highlights", "contextual_highlights"]
+  },
+  "P09": {
+    "paperOrder": ["paper5", "paper4", "paper6"],
+    "conditions": ["all_highlights", "no_highlights", "contextual_highlights"]
+  },
+  "P10": {
+    "paperOrder": ["paper5", "paper6", "paper4"],
+    "conditions": ["all_highlights", "no_highlights", "contextual_highlights"]
+  },
+  "P11": {
+    "paperOrder": ["paper6", "paper4", "paper5"],
+    "conditions": ["all_highlights", "no_highlights", "contextual_highlights"]
+  },
+  "P12": {
+    "paperOrder": ["paper6", "paper5", "paper4"],
+    "conditions": ["all_highlights", "no_highlights", "contextual_highlights"]
+  },
+
+  "P13": {
+    "paperOrder": ["paper4", "paper5", "paper6"],
+    "conditions": ["no_highlights", "all_highlights", "contextual_highlights"]
+  },
+  "P14": {
+    "paperOrder": ["paper4", "paper6", "paper5"],
+    "conditions": ["no_highlights", "all_highlights", "contextual_highlights"]
+  },
+  "P15": {
+    "paperOrder": ["paper5", "paper4", "paper6"],
+    "conditions": ["no_highlights", "all_highlights", "contextual_highlights"]
+  },
+  "P16": {
+    "paperOrder": ["paper5", "paper6", "paper4"],
+    "conditions": ["no_highlights", "all_highlights", "contextual_highlights"]
+  },
+  "P17": {
+    "paperOrder": ["paper6", "paper4", "paper5"],
+    "conditions": ["no_highlights", "all_highlights", "contextual_highlights"]
+  },
+  "P18": {
+    "paperOrder": ["paper6", "paper5", "paper4"],
+    "conditions": ["no_highlights", "all_highlights", "contextual_highlights"]
+  },
+
+  "P19": {
+    "paperOrder": ["paper4", "paper5", "paper6"],
+    "conditions": ["all_highlights", "no_highlights", "contextual_highlights"]
+  },
+  "P20": {
+    "paperOrder": ["paper4", "paper6", "paper5"],
+    "conditions": ["all_highlights", "no_highlights", "contextual_highlights"]
+  },
+  "P21": {
+    "paperOrder": ["paper5", "paper4", "paper6"],
+    "conditions": ["all_highlights", "no_highlights", "contextual_highlights"]
+  },
+  "P22": {
+    "paperOrder": ["paper5", "paper6", "paper4"],
+    "conditions": ["all_highlights", "no_highlights", "contextual_highlights"]
+  },
+  "P23": {
+    "paperOrder": ["paper6", "paper4", "paper5"],
+    "conditions": ["all_highlights", "no_highlights", "contextual_highlights"]
+  },
+  "P24": {
+    "paperOrder": ["paper6", "paper5", "paper4"],
+    "conditions": ["all_highlights", "no_highlights", "contextual_highlights"]
+  },
+
+  "P25": {
+    "paperOrder": ["paper4", "paper5", "paper6"],
+    "conditions": ["no_highlights", "all_highlights", "contextual_highlights"]
+  },
+  "P26": {
+    "paperOrder": ["paper4", "paper6", "paper5"],
+    "conditions": ["no_highlights", "all_highlights", "contextual_highlights"]
+  },
+  "P27": {
+    "paperOrder": ["paper5", "paper4", "paper6"],
+    "conditions": ["no_highlights", "all_highlights", "contextual_highlights"]
+  },
+  "P28": {
+    "paperOrder": ["paper5", "paper6", "paper4"],
+    "conditions": ["no_highlights", "all_highlights", "contextual_highlights"]
+  },
+  "P29": {
+    "paperOrder": ["paper6", "paper4", "paper5"],
+    "conditions": ["no_highlights", "all_highlights", "contextual_highlights"]
+  },
+  "P30": {
+    "paperOrder": ["paper6", "paper5", "paper4"],
+    "conditions": ["no_highlights", "all_highlights", "contextual_highlights"]
+  },
+
+  "P31": {
+    "paperOrder": ["paper4", "paper5", "paper6"],
+    "conditions": ["all_highlights", "no_highlights", "contextual_highlights"]
+  },
+  "P32": {
+    "paperOrder": ["paper4", "paper6", "paper5"],
+    "conditions": ["all_highlights", "no_highlights", "contextual_highlights"]
+  },
+  "P33": {
+    "paperOrder": ["paper5", "paper4", "paper6"],
+    "conditions": ["all_highlights", "no_highlights", "contextual_highlights"]
+  },
+  "P34": {
+    "paperOrder": ["paper5", "paper6", "paper4"],
+    "conditions": ["all_highlights", "no_highlights", "contextual_highlights"]
+  },
+  "P35": {
+    "paperOrder": ["paper6", "paper4", "paper5"],
+    "conditions": ["all_highlights", "no_highlights", "contextual_highlights"]
+  },
+  "P36": {
+    "paperOrder": ["paper6", "paper5", "paper4"],
+    "conditions": ["all_highlights", "no_highlights", "contextual_highlights"]
+  }
+},
   "defaultParticipant": {
     "paperOrder": ["paper1", "paper2", "paper3"],
     "conditions": ["no_highlights", "no_highlights", "no_highlights"]

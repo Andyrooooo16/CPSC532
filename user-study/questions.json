@@ -589,70 +589,177 @@
         ]
       }
     },
-    "paper6": {
-      "title": "University Students",
-      "taskInstructions": "Use the paper to find the correct answers to the questions on the right. You may submit as many times as needed — your time and number of attempts are recorded. All multiple-choice questions must be answered correctly before you can proceed.",
-      "questions": [
-        {
-          "id": "p6q1",
-          "text": "REPLACE: Question 1 for paper 6 (University Students)?",
-          "type": "multiple_choice",
-          "options": {
-            "A": "Option A",
-            "B": "Option B",
-            "C": "Option C",
-            "D": "Option D"
-          },
-          "correct": "A"
-        },
-        {
-          "id": "p6q2",
-          "text": "REPLACE: Question 2 for paper 6 (University Students)?",
-          "type": "multiple_choice",
-          "options": {
-            "A": "Option A",
-            "B": "Option B",
-            "C": "Option C",
-            "D": "Option D"
-          },
-          "correct": "B"
-        },
-        {
-          "id": "p6q3",
-          "text": "REPLACE: Open-ended question for paper 6 (optional).",
-          "type": "free_text"
-        }
-      ],
-      "questionnaire": {
-        "instructions": "Please rate your experience reading this paper.",
-        "questions": [
-          {
-            "id": "p6diff1",
-            "text": "I found it difficult to answer Question 1.",
-            "type": "likert",
-            "scale": { "min": 1, "max": 5, "minLabel": "Strongly Disagree", "maxLabel": "Strongly Agree" }
-          },
-          {
-            "id": "p6diff2",
-            "text": "I found it difficult to answer Question 2.",
-            "type": "likert",
-            "scale": { "min": 1, "max": 5, "minLabel": "Strongly Disagree", "maxLabel": "Strongly Agree" }
-          },
-          {
-            "id": "p6ease",
-            "text": "Overall, how easy was it to skim this paper for the relevant information?",
-            "type": "likert",
-            "scale": { "min": 1, "max": 7, "minLabel": "Very Difficult", "maxLabel": "Very Easy" }
-          },
-          {
-            "id": "p6comments",
-            "text": "Any comments about reading this paper?",
-            "type": "free_text"
-          }
-        ]
-      }
+
+"paper6": {
+  "title": "Is it harmful or helpful? Examining the causes and consequences of generative AI usage among university students",
+  "taskInstructions": "Use the paper to find the correct answers to the questions on the right. You may submit as many times as needed — your time and number of attempts are recorded. All multiple-choice questions must be answered correctly before you can proceed.",
+  "questions": [
+    {
+      "id": "p6q1",
+      "text": "What was the final sample size used for hypothesis testing in Study 2, and what data collection design was used?",
+      "type": "multiple_choice",
+      "options": {
+        "A": "165 participants; cross-sectional survey",
+        "B": "494 participants; three-wave time-lagged design",
+        "C": "840 participants; two-wave time-lagged design",
+        "D": "494 participants; randomised controlled trial"
+      },
+      "correct": "B"
+    },
+    {
+      "id": "p6q2",
+      "text": "The paper presents competing hypotheses about sensitivity to rewards. What were the two competing predictions, which one was supported, and what reasoning do the authors give for the result?",
+      "type": "free_text"
+    },
+    {
+      "id": "p6q3",
+      "text": "Which of the following hypotheses was NOT supported by the results of Study 2?",
+      "type": "multiple_choice",
+      "options": {
+        "A": "Workload will be positively related to the use of ChatGPT",
+        "B": "Time pressure will be positively related to the use of ChatGPT",
+        "C": "Sensitivity to quality will be positively related to the use of ChatGPT",
+        "D": "Use of ChatGPT will be positively related to procrastination"
+      },
+      "correct": "C"
+    },
+    {
+      "id": "p6q4",
+      "text": "Study 1 began with 12 scale items and ended with 8. Describe the process by which items were reduced, including what criteria were used and which specific items were dropped.",
+      "type": "free_text"
+    },
+    {
+      "id": "p6q5",
+      "text": "What statistical method was used to test the hypotheses in Study 2, and what was the stated reason for choosing it?",
+      "type": "multiple_choice",
+      "options": {
+        "A": "Multiple regression; because sample size was large",
+        "B": "Partial least squares (PLS-SEM); because it handles measurement errors and is suited to limited samples and non-normal distributions",
+        "C": "Structural equation modelling with maximum likelihood; because it assumes normal distributions",
+        "D": "ANOVA; because the design involved multiple groups"
+      },
+      "correct": "B"
+    },
+    {
+      "id": "p6q6",
+      "text": "What was the measured effect of ChatGPT usage on students' academic performance (CGPA), and how was academic performance operationalised in this study?",
+      "type": "multiple_choice",
+      "options": {
+        "A": "Positive effect; measured via self-reported grade estimates on a Likert scale",
+        "B": "No significant effect; measured via self-reported CGPA",
+        "C": "Negative effect; measured via self-reported CGPA on a 1–4 scale",
+        "D": "Negative effect; measured via instructor-reported grades"
+      },
+      "correct": "C"
+    },
+    {
+      "id": "p6q7",
+      "text": "The paper tests ChatGPT usage as a mediator. For which antecedents and which outcomes was the mediation supported, and for which was it not supported?",
+      "type": "free_text"
+    },
+    {
+      "id": "p6q8",
+      "text": "Which of the following was cited as a key limitation of the study's causal claims?",
+      "type": "multiple_choice",
+      "options": {
+        "A": "The sample was drawn only from private universities",
+        "B": "The time-lagged design cannot fully rule out reciprocal relationships",
+        "C": "Academic performance was not measured objectively",
+        "D": "The ChatGPT usage scale had not been previously validated"
+      },
+      "correct": "B"
+    },
+    {
+      "id": "p6q9",
+      "text": "The authors offer a practical recommendation for educators in response to the finding that workload and time pressure drive ChatGPT usage. What is this recommendation, and how does it relate to the study's results?",
+      "type": "free_text"
+    },
+    {
+      "id": "p6q10",
+      "text": "The paper argues that excessive ChatGPT usage leads to memory loss. What theoretical mechanism do the authors propose to explain this link?",
+      "type": "free_text"
     }
+  ],
+  "questionnaire": {
+    "instructions": "Please rate your experience reading this paper.",
+    "questions": [
+      {
+        "id": "p6diff1",
+        "text": "I found it difficult to answer Question 1.",
+        "type": "likert",
+        "scale": { "min": 1, "max": 5, "minLabel": "Strongly Disagree", "maxLabel": "Strongly Agree" }
+      },
+      {
+        "id": "p6diff2",
+        "text": "I found it difficult to answer Question 2.",
+        "type": "likert",
+        "scale": { "min": 1, "max": 5, "minLabel": "Strongly Disagree", "maxLabel": "Strongly Agree" }
+      },
+      {
+        "id": "p6diff3",
+        "text": "I found it difficult to answer Question 3.",
+        "type": "likert",
+        "scale": { "min": 1, "max": 5, "minLabel": "Strongly Disagree", "maxLabel": "Strongly Agree" }
+      },
+      {
+        "id": "p6diff4",
+        "text": "I found it difficult to answer Question 4.",
+        "type": "likert",
+        "scale": { "min": 1, "max": 5, "minLabel": "Strongly Disagree", "maxLabel": "Strongly Agree" }
+      },
+      {
+        "id": "p6diff5",
+        "text": "I found it difficult to answer Question 5.",
+        "type": "likert",
+        "scale": { "min": 1, "max": 5, "minLabel": "Strongly Disagree", "maxLabel": "Strongly Agree" }
+      },
+      {
+        "id": "p6diff6",
+        "text": "I found it difficult to answer Question 6.",
+        "type": "likert",
+        "scale": { "min": 1, "max": 5, "minLabel": "Strongly Disagree", "maxLabel": "Strongly Agree" }
+      },
+      {
+        "id": "p6diff7",
+        "text": "I found it difficult to answer Question 7.",
+        "type": "likert",
+        "scale": { "min": 1, "max": 5, "minLabel": "Strongly Disagree", "maxLabel": "Strongly Agree" }
+      },
+      {
+        "id": "p6diff8",
+        "text": "I found it difficult to answer Question 8.",
+        "type": "likert",
+        "scale": { "min": 1, "max": 5, "minLabel": "Strongly Disagree", "maxLabel": "Strongly Agree" }
+      },
+      {
+        "id": "p6diff9",
+        "text": "I found it difficult to answer Question 9.",
+        "type": "likert",
+        "scale": { "min": 1, "max": 5, "minLabel": "Strongly Disagree", "maxLabel": "Strongly Agree" }
+      },
+      {
+        "id": "p6diff10",
+        "text": "I found it difficult to answer Question 10.",
+        "type": "likert",
+        "scale": { "min": 1, "max": 5, "minLabel": "Strongly Disagree", "maxLabel": "Strongly Agree" }
+      },
+      {
+        "id": "p6ease",
+        "text": "Overall, how easy was it to skim this paper for the relevant information?",
+        "type": "likert",
+        "scale": { "min": 1, "max": 7, "minLabel": "Very Difficult", "maxLabel": "Very Easy" }
+      },
+      {
+        "id": "p6comments",
+        "text": "Any comments about reading this paper?",
+        "type": "free_text"
+      }
+    ]
+  }
+}
   },
+
+
   "finalQuestionnaire": {
     "instructions": "Please answer these final questions about your overall experience with the highlighting system.",
     "questions": [

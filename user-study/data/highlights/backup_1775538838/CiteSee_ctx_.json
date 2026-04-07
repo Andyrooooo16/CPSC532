@@ -1,0 +1,5035 @@
+[
+  {
+    "page": 1,
+    "rects": [
+      [
+        427.3453369140625,
+        503.425048828125,
+        558.202392578125,
+        512.3013305664062
+      ],
+      [
+        317.9549865722656,
+        514.384033203125,
+        558.2022094726562,
+        523.2603149414062
+      ],
+      [
+        317.9549865722656,
+        525.2084350585938,
+        558.2040405273438,
+        534.2640380859375
+      ],
+      [
+        317.9549865722656,
+        536.1674194335938,
+        435.804931640625,
+        545.2230224609375
+      ]
+    ],
+    "text": "This not only provides them insights\ninto individual prior work, but the related work sections also allows\nscholars to discover and draw connections to additional relevant\npapers via inline citations [33].",
+    "label": "NONE"
+  },
+  {
+    "page": 4,
+    "rects": [
+      [
+        122.50071716308594,
+        615.8034057617188,
+        294.047119140625,
+        624.8590087890625
+      ],
+      [
+        53.79800033569336,
+        626.8902587890625,
+        187.8189239501953,
+        635.7755737304688
+      ]
+    ],
+    "text": "More fundamentally, prior systems described\nabove focus on developing a separate bespoke interface and do not\nsupport paper discovery during reading which accounted for a significant proportion how scholars became aware of prior work [33].",
+    "label": "NONE"
+  },
+  {
+    "page": 7,
+    "rects": [
+      [
+        317.9549865722656,
+        586.24853515625,
+        331.83135986328125,
+        597.1576538085938
+      ],
+      [
+        342.7404479980469,
+        586.24853515625,
+        518.92236328125,
+        597.1576538085938
+      ],
+      [
+        342.7409973144531,
+        599.1995849609375,
+        382.36285400390625,
+        610.1087036132812
+      ],
+      [
+        317.9549865722656,
+        614.3444213867188,
+        558.2039184570312,
+        623.4000244140625
+      ],
+      [
+        317.9549865722656,
+        625.43798828125,
+        558.3692016601562,
+        634.3142700195312
+      ],
+      [
+        317.9549865722656,
+        636.3193359375,
+        498.4146423339844,
+        645.2991943359375
+      ]
+    ],
+    "text": "4.5\n[D3] Paper Cards with Personalized\nContext Making sense of inline citations can be challenging because the\ninformation in the current paper might be insufficient to judge their\nimportance and relevance to the topic of interest.",
+    "label": "NONE"
+  },
+  {
+    "page": 6,
+    "rects": [
+      [
+        370.57196044921875,
+        437.67205810546875,
+        558.2022094726562,
+        446.54833984375
+      ],
+      [
+        317.9549865722656,
+        448.6242370605469,
+        558.1998291015625,
+        457.50958251953125
+      ],
+      [
+        317.9549865722656,
+        459.5697021484375,
+        559.5848388671875,
+        468.4731140136719
+      ]
+    ],
+    "text": "On the other hand, citations to unexplored papers are\nalso prioritized with different shades of yellow highlights based on\nhow many papers in her reading history also cited them (Figure 4).",
+    "label": "NONE"
+  },
+  {
+    "page": 5,
+    "rects": [
+      [
+        53.79800033569336,
+        163.564453125,
+        294.0470275878906,
+        172.62008666992188
+      ],
+      [
+        53.79800033569336,
+        174.6580352783203,
+        294.2123107910156,
+        183.53433227539062
+      ],
+      [
+        53.79800033569336,
+        185.6170196533203,
+        270.96173095703125,
+        194.49331665039062
+      ]
+    ],
+    "text": "In addition, different designs highlighted inline citations using\ndifferent strategies and showed different additional context in their\nPaper Cards (described below in the context of our findings.)",
+    "label": "NONE"
+  },
+  {
+    "page": 4,
+    "rects": [
+      [
+        53.79800033569336,
+        659.7730102539062,
+        295.0032653808594,
+        668.6492919921875
+      ],
+      [
+        53.79800033569336,
+        670.607421875,
+        294.04266357421875,
+        679.6497192382812
+      ],
+      [
+        53.79800033569336,
+        681.6133422851562,
+        246.6211395263672,
+        690.5932006835938
+      ]
+    ],
+    "text": "In contrast, we design a personalized reading tool to improve users\u2019\ncurrent behavior of discovering prior work through highlighting\ninline citations in-situ in a reading interface [33, 59].",
+    "label": "NONE"
+  },
+  {
+    "page": 8,
+    "rects": [
+      [
+        74.51307678222656,
+        108.77045440673828,
+        294.0470275878906,
+        117.8260726928711
+      ],
+      [
+        53.79800033569336,
+        119.83689880371094,
+        294.04876708984375,
+        128.7493438720703
+      ],
+      [
+        53.79800033569336,
+        130.70745849609375,
+        158.70069885253906,
+        139.73641967773438
+      ]
+    ],
+    "text": "Our second design goal focused on providing personalized\ncontext around inline citations based on papers in a user\u2019s reading\nhistory to address this issue.",
+    "label": "OBJECTIVE"
+  },
+  {
+    "page": 5,
+    "rects": [
+      [
+        53.79800033569336,
+        560.9931640625,
+        294.0464172363281,
+        569.9505615234375
+      ],
+      [
+        53.79800033569336,
+        571.87841796875,
+        294.04705810546875,
+        580.9340209960938
+      ],
+      [
+        53.79800033569336,
+        582.88427734375,
+        294.0419921875,
+        591.8775634765625
+      ],
+      [
+        53.79800033569336,
+        593.7964477539062,
+        103.38616180419922,
+        602.85205078125
+      ]
+    ],
+    "text": "In addition, participants also pointed to how their existing folders\noften represent longer-term interests that might not correspond\nto their interests during literature reviews which can be fluid and\nshorter-term.",
+    "label": "RESULTS"
+  },
+  {
+    "page": 6,
+    "rects": [
+      [
+        327.9179992675781,
+        514.2494506835938,
+        558.1981811523438,
+        523.3050537109375
+      ],
+      [
+        317.9549865722656,
+        525.2084350585938,
+        558.2041625976562,
+        534.2640380859375
+      ],
+      [
+        317.9549865722656,
+        536.2243041992188,
+        536.6810913085938,
+        545.2041625976562
+      ]
+    ],
+    "text": "As she reads, she notices one of the inline citations about the\ntraining dataset used in the current paper was highlighted in a\ndarker shade, indicating potential high relevance (Figure 4).",
+    "label": "NONE"
+  },
+  {
+    "page": 9,
+    "rects": [
+      [
+        425.44482421875,
+        645.87744140625,
+        558.2035522460938,
+        654.7717895507812
+      ],
+      [
+        317.9549865722656,
+        656.7153930664062,
+        558.2041015625,
+        665.77099609375
+      ],
+      [
+        317.9549865722656,
+        667.7650146484375,
+        483.4823303222656,
+        676.699951171875
+      ]
+    ],
+    "text": "While we only tested citations in the\nIntroduction and Related Work sections, we believe citations are\ntypically most concentrated in these sections.",
+    "label": "NONE"
+  },
+  {
+    "page": 13,
+    "rects": [
+      [
+        63.76100158691406,
+        599.4072875976562,
+        294.0434875488281,
+        608.3871459960938
+      ],
+      [
+        53.79800033569336,
+        610.3094482421875,
+        116.67489624023438,
+        619.3650512695312
+      ]
+    ],
+    "text": "Leveraging different features in CiteSee, participants described\nhow it improved their process of exploring many papers for literature reviews compared to existing processes.",
+    "label": "RESULTS"
+  },
+  {
+    "page": 2,
+    "rects": [
+      [
+        469.3386535644531,
+        616.3660278320312,
+        558.2022705078125,
+        625.2423095703125
+      ],
+      [
+        317.9549865722656,
+        627.3046875,
+        512.737060546875,
+        636.2080688476562
+      ]
+    ],
+    "text": "One key motivation here\nis that a user\u2019s publications and paper libraries can potentially represent their longer-term research interests, and their recent paper\nreading history can potentially represent their fluid and shorterterm research interests, such as during literature reviews for new\nprojects.",
+    "label": "NONE"
+  },
+  {
+    "page": 12,
+    "rects": [
+      [
+        327.9179992675781,
+        279.61639404296875,
+        558.2022705078125,
+        288.5827941894531
+      ],
+      [
+        317.9549865722656,
+        290.5888671875,
+        375.4051208496094,
+        299.5373229980469
+      ]
+    ],
+    "text": "CiteSee highlighted reencountered citations in different shades\nof yellow to indicate potential relevance based on a user\u2019s engagement level with the citing papers.",
+    "label": "METHODS"
+  },
+  {
+    "page": 13,
+    "rects": [
+      [
+        261.61700439453125,
+        226.1532745361328,
+        294.0469055175781,
+        235.09722900390625
+      ],
+      [
+        53.79800033569336,
+        237.1630401611328,
+        294.04541015625,
+        246.03933715820312
+      ],
+      [
+        53.79800033569336,
+        248.0543975830078,
+        272.11199951171875,
+        257.0207824707031
+      ]
+    ],
+    "text": "Here, we\nfound evidence that highlighting citations in research papers based\non a user\u2019s reading history had a similar and positive effect.",
+    "label": "CONCLUSIONS"
+  },
+  {
+    "page": 3,
+    "rects": [
+      [
+        64.70800018310547,
+        419.2254333496094,
+        294.0461730957031,
+        428.28106689453125
+      ],
+      [
+        78.20700073242188,
+        430.31903076171875,
+        294.0438537597656,
+        439.1953125
+      ],
+      [
+        78.20700073242188,
+        441.2746276855469,
+        294.04412841796875,
+        450.15545654296875
+      ],
+      [
+        77.875,
+        452.152587890625,
+        294.04534912109375,
+        461.141357421875
+      ],
+      [
+        77.98300170898438,
+        463.196044921875,
+        294.0483093261719,
+        472.07232666015625
+      ],
+      [
+        78.20700073242188,
+        474.0873718261719,
+        218.7373809814453,
+        483.05377197265625
+      ]
+    ],
+    "text": "(4) A field deployment study (N=6) with real-world literature\nreview tasks which offers qualitative insights of how CiteSee\nhelped participants prioritize and keep track of explorations\nwith results suggest a 2.7x increase in paper discovery rate\nvia inline citations compared to previously reported numbers\nthat were based on self-reporting [33].",
+    "label": "METHODS"
+  },
+  {
+    "page": 13,
+    "rects": [
+      [
+        281.9966735839844,
+        287.08502197265625,
+        294.212158203125,
+        296.055908203125
+      ],
+      [
+        53.79800033569336,
+        298.11505126953125,
+        294.0453186035156,
+        306.9913330078125
+      ],
+      [
+        52.78499984741211,
+        308.9394226074219,
+        294.04925537109375,
+        317.99505615234375
+      ],
+      [
+        53.79800033569336,
+        319.96539306640625,
+        212.69163513183594,
+        328.9317932128906
+      ],
+      [
+        78.20700073242188,
+        333.5213623046875,
+        269.6380920410156,
+        342.45184326171875
+      ],
+      [
+        78.20700073242188,
+        344.3964538574219,
+        156.027099609375,
+        353.4387512207031
+      ]
+    ],
+    "text": "For\nexample, P5 conducted a more exhaustive search of citations in two\n\u201ccentral\u201d papers, and used the visual augmentations (visited and\nsaved papers) to keep track of the progress: \u201cOne thing I like was when I save something it turns\ninto a different color.",
+    "label": "NONE"
+  },
+  {
+    "page": 3,
+    "rects": [
+      [
+        402.5804138183594,
+        278.6334228515625,
+        558.2040405273438,
+        287.6890563964844
+      ],
+      [
+        317.62298583984375,
+        289.6493225097656,
+        558.2026977539062,
+        298.629150390625
+      ],
+      [
+        317.9549865722656,
+        300.6850280761719,
+        469.0135498046875,
+        309.5613098144531
+      ]
+    ],
+    "text": "Beyond lowering interaction costs, recent\nwork has also explored cross-referencing relevant content to help\nusers better understand the current paper.",
+    "label": "NONE"
+  },
+  {
+    "page": 6,
+    "rects": [
+      [
+        538.7968139648438,
+        382.742431640625,
+        558.3687133789062,
+        391.7980651855469
+      ],
+      [
+        317.9549865722656,
+        393.701416015625,
+        558.2041015625,
+        402.7570495605469
+      ],
+      [
+        317.9549865722656,
+        404.7273864746094,
+        527.7599487304688,
+        413.69378662109375
+      ]
+    ],
+    "text": "After\nreading a couple of papers in CiteSee, she started to notices the\nreader highlighted citations based on her reading history.",
+    "label": "NONE"
+  },
+  {
+    "page": 6,
+    "rects": [
+      [
+        524.1201782226562,
+        612.9161987304688,
+        559.1867065429688,
+        621.9228515625
+      ],
+      [
+        317.9549865722656,
+        623.9730224609375,
+        558.202392578125,
+        632.8493041992188
+      ],
+      [
+        317.9549865722656,
+        634.8812255859375,
+        558.4357299804688,
+        643.8251953125
+      ],
+      [
+        317.9549865722656,
+        645.7564086914062,
+        455.9732360839844,
+        654.81201171875
+      ]
+    ],
+    "text": "However,\nboth the current and cited dataset papers were published more than\nsix years ago, and she wonders if the dataset is still relevant today\nor if newer datasets have replaced it.",
+    "label": "NONE"
+  },
+  {
+    "page": 4,
+    "rects": [
+      [
+        84.30815887451172,
+        473.3374328613281,
+        294.047119140625,
+        482.39306640625
+      ],
+      [
+        53.79800033569336,
+        484.4276123046875,
+        294.2113342285156,
+        493.3084411621094
+      ],
+      [
+        53.79800033569336,
+        495.25543212890625,
+        153.19192504882812,
+        504.3110656738281
+      ]
+    ],
+    "text": "For example, early work from the 90s allowed users to\nsearch and explore forward and backward citations of a seed paper\nin a 3D environment [38].",
+    "label": "NONE"
+  },
+  {
+    "page": 1,
+    "rects": [
+      [
+        528.0396728515625,
+        385.0583190917969,
+        558.20263671875,
+        394.02471923828125
+      ],
+      [
+        317.9549560546875,
+        396.0173034667969,
+        558.2006225585938,
+        404.98370361328125
+      ],
+      [
+        317.9549560546875,
+        406.9762878417969,
+        558.20068359375,
+        415.94268798828125
+      ],
+      [
+        317.9549560546875,
+        417.9352722167969,
+        407.5382995605469,
+        426.90167236328125
+      ]
+    ],
+    "text": "CiteSee\nalso highlights citations to unknown papers (10-12) to help\ndiscover important prior work based a user\u2019s engagements\non their citing papers.",
+    "label": "NONE"
+  },
+  {
+    "page": 12,
+    "rects": [
+      [
+        247.9342803955078,
+        462.81842041015625,
+        294.04705810546875,
+        471.8740539550781
+      ],
+      [
+        53.79800033569336,
+        473.8410339355469,
+        294.04168701171875,
+        482.8119201660156
+      ],
+      [
+        53.79800033569336,
+        484.87103271484375,
+        294.04534912109375,
+        493.747314453125
+      ],
+      [
+        53.79800033569336,
+        495.8300476074219,
+        270.0918273925781,
+        504.7063293457031
+      ]
+    ],
+    "text": "However, as\nparticipants continued to read and save more papers, CiteSee was\nable to capture more signals about their literature review topics and\nconvey them using different visual augmentations (Figure 4).",
+    "label": "RESULTS"
+  },
+  {
+    "page": 7,
+    "rects": [
+      [
+        160.4603271484375,
+        448.52984619140625,
+        294.21844482421875,
+        457.54095458984375
+      ],
+      [
+        53.79800033569336,
+        459.4989013671875,
+        294.0460205078125,
+        468.49664306640625
+      ],
+      [
+        53.79800033569336,
+        470.4803771972656,
+        294.0438232421875,
+        479.44677734375
+      ],
+      [
+        53.79800033569336,
+        481.4900817871094,
+        161.6355743408203,
+        490.38897705078125
+      ]
+    ],
+    "text": "To help users further prioritize their\nattention amongst reencountered citations, CiteSee uses different\nshades of yellow to orange highlighting based on the relevance of\neach inline citation (Figure 4).",
+    "label": "NONE"
+  },
+  {
+    "page": 5,
+    "rects": [
+      [
+        543.3018188476562,
+        667.798828125,
+        558.2061767578125,
+        676.688720703125
+      ],
+      [
+        317.9549865722656,
+        678.6334228515625,
+        558.3685913085938,
+        687.6890258789062
+      ],
+      [
+        317.9549865722656,
+        689.6829833984375,
+        356.5967712402344,
+        698.617919921875
+      ]
+    ],
+    "text": "One\nchallenge here is that users might not be able to remember their\npast interactions with different papers even when their inline citations are augmented by the system.",
+    "label": "NONE"
+  },
+  {
+    "page": 7,
+    "rects": [
+      [
+        518.1560668945312,
+        391.27227783203125,
+        559.1839599609375,
+        400.1802062988281
+      ],
+      [
+        317.9549865722656,
+        402.2540283203125,
+        558.3692016601562,
+        411.13031005859375
+      ],
+      [
+        317.9549865722656,
+        413.2130432128906,
+        559.581787109375,
+        422.0893249511719
+      ]
+    ],
+    "text": "In contrast,\nour second design goal aimed to surface citations to papers familiar\nto the current user, allowing them to contextualize the paper better.",
+    "label": "OBJECTIVE"
+  },
+  {
+    "page": 8,
+    "rects": [
+      [
+        350.37188720703125,
+        300.9347839355469,
+        558.3723754882812,
+        309.8966979980469
+      ],
+      [
+        317.9549865722656,
+        311.87359619140625,
+        520.9149169921875,
+        320.86236572265625
+      ]
+    ],
+    "text": "For this, CiteSee highlights citations in the current paper\nthat are also cited by papers in a user\u2019s reading history.",
+    "label": "NONE"
+  },
+  {
+    "page": 14,
+    "rects": [
+      [
+        390.0539855957031,
+        97.83142852783203,
+        559.1912231445312,
+        106.8603744506836
+      ],
+      [
+        317.9549865722656,
+        108.77045440673828,
+        558.2041015625,
+        117.8260726928711
+      ],
+      [
+        317.9549865722656,
+        119.8640365600586,
+        558.4307861328125,
+        128.74032592773438
+      ],
+      [
+        317.9549865722656,
+        130.75103759765625,
+        558.198486328125,
+        139.721923828125
+      ],
+      [
+        317.62298583984375,
+        141.71339416503906,
+        426.6635437011719,
+        150.67979431152344
+      ]
+    ],
+    "text": "Through a week-long field deployment study,\nparticipants conducting real-world literature reviews valued the\nadditional personalized context around inline citations provided by\nCiteSee, which allowed them to have better situational awareness\nwhen exploring many papers.",
+    "label": "RESULTS"
+  },
+  {
+    "page": 14,
+    "rects": [
+      [
+        63.76100158691406,
+        404.7950439453125,
+        294.2810363769531,
+        413.67132568359375
+      ],
+      [
+        53.79800033569336,
+        415.6796569824219,
+        294.0480651855469,
+        424.655029296875
+      ],
+      [
+        53.79800033569336,
+        426.57843017578125,
+        294.047119140625,
+        435.6340637207031
+      ],
+      [
+        53.79800033569336,
+        437.67205810546875,
+        111.25666809082031,
+        446.54833984375
+      ]
+    ],
+    "text": "Finally, while our work focuses on the exploration and discovery\naspects of literature review, many participants also pointed to the\npotential of supporting manual note-taking and synthesis across\nmultiple papers.",
+    "label": "NONE"
+  },
+  {
+    "page": 4,
+    "rects": [
+      [
+        501.6047668457031,
+        517.3079833984375,
+        558.2021484375,
+        526.1842651367188
+      ],
+      [
+        317.9549865722656,
+        528.2636108398438,
+        559.1863403320312,
+        537.1444091796875
+      ],
+      [
+        317.62298583984375,
+        539.1382446289062,
+        558.200927734375,
+        548.1315307617188
+      ],
+      [
+        317.9549865722656,
+        550.1366577148438,
+        558.2031860351562,
+        559.0761108398438
+      ],
+      [
+        317.9549865722656,
+        561.1430053710938,
+        558.73828125,
+        570.019287109375
+      ],
+      [
+        317.9549865722656,
+        572.10205078125,
+        558.2022094726562,
+        580.9783325195312
+      ],
+      [
+        317.9549865722656,
+        583.0203857421875,
+        558.2001342773438,
+        591.9508666992188
+      ],
+      [
+        317.9549865722656,
+        593.952392578125,
+        368.211669921875,
+        602.9188232421875
+      ]
+    ],
+    "text": "While both [31]\nand CiteSee aimed to provide personalized contexts around papers,\nwe focused on providing a personalized historical context around\ninline citations in a reading environment (e.g., the previously read\npaper and citing sentence where an inline citation was saved from)\nto support the literature review process where users are likely more\nconcerned with finding papers based on topic relevance instead of\nsocial signals.",
+    "label": "NONE"
+  },
+  {
+    "page": 8,
+    "rects": [
+      [
+        63.76100158691406,
+        327.9952392578125,
+        294.0467224121094,
+        336.9884948730469
+      ],
+      [
+        53.79800033569336,
+        339.0352478027344,
+        294.2186279296875,
+        347.92059326171875
+      ],
+      [
+        53.79800033569336,
+        349.9874572753906,
+        294.046630859375,
+        358.8818359375
+      ],
+      [
+        53.79800033569336,
+        360.8244323730469,
+        91.22233581542969,
+        369.88006591796875
+      ]
+    ],
+    "text": "In sum, CiteSee augments inline citations based on the current\nuser\u2019s reading and publication history, allowing them to pay closer\nattention to citations to relevant or familiar papers for context and\ndiscovery.",
+    "label": "NONE"
+  },
+  {
+    "page": 12,
+    "rects": [
+      [
+        444.5120849609375,
+        301.484130859375,
+        558.4371948242188,
+        310.51751708984375
+      ],
+      [
+        317.62298583984375,
+        312.56103515625,
+        558.2042846679688,
+        321.43731689453125
+      ],
+      [
+        317.9549865722656,
+        323.46148681640625,
+        558.2041015625,
+        332.4144287109375
+      ],
+      [
+        317.9549865722656,
+        334.47125244140625,
+        559.5819702148438,
+        343.3565979003906
+      ]
+    ],
+    "text": "As participants retrospectively\nwalked through paper they had opened during the deployment, we\nasked them to explicitly compare pairs of arbitrary reencountered\ncitations with darker and lighter shades to probe on their accuracy.",
+    "label": "METHODS"
+  },
+  {
+    "page": 6,
+    "rects": [
+      [
+        511.0944519042969,
+        185.482421875,
+        558.2041625976562,
+        194.53805541992188
+      ],
+      [
+        317.9549865722656,
+        196.51173400878906,
+        558.2022094726562,
+        205.47366333007812
+      ],
+      [
+        317.9549865722656,
+        207.53504943847656,
+        559.5818481445312,
+        216.41134643554688
+      ]
+    ],
+    "text": "As she reads\nthe papers, she pays closer attention to the inline citations so that\nshe can have good coverage of the important prior work in the area.",
+    "label": "NONE"
+  },
+  {
+    "page": 14,
+    "rects": [
+      [
+        83.53076934814453,
+        251.23541259765625,
+        294.04705810546875,
+        260.2910461425781
+      ],
+      [
+        53.79800033569336,
+        262.1944580078125,
+        294.0470275878906,
+        271.2500915527344
+      ],
+      [
+        53.79800033569336,
+        273.22039794921875,
+        294.0438232421875,
+        282.1867980957031
+      ],
+      [
+        53.79800033569336,
+        284.20635986328125,
+        239.9277801513672,
+        293.1368408203125
+      ]
+    ],
+    "text": "For example, we could incorporate the Specter baseline\nfrom Study 1, which also had a significant and positive effect on\nthe Likert-scale rating, to help users further triage inline citations\nthat were not highlighted based on citation signals.",
+    "label": "NONE"
+  },
+  {
+    "page": 1,
+    "rects": [
+      [
+        438.722412109375,
+        536.1674194335938,
+        558.2021484375,
+        545.2230224609375
+      ],
+      [
+        317.9549865722656,
+        547.1765747070312,
+        495.0887756347656,
+        556.1653442382812
+      ]
+    ],
+    "text": "This process allows researchers\nto contextualize the paper they are reading within cited work, become aware of research threads that influenced the current paper,\nand discover other important and relevant papers to further their\nliterature reviews [23, 33, 58].",
+    "label": "NONE"
+  },
+  {
+    "page": 13,
+    "rects": [
+      [
+        502.0042419433594,
+        255.1048126220703,
+        533.791015625,
+        264.1159362792969
+      ],
+      [
+        342.364013671875,
+        266.1650695800781,
+        534.8096923828125,
+        275.0413513183594
+      ],
+      [
+        341.37701416015625,
+        277.056396484375,
+        357.5523986816406,
+        286.0227966308594
+      ],
+      [
+        317.9549865722656,
+        293.2971496582031,
+        334.16119384765625,
+        302.3527526855469
+      ],
+      [
+        343.1240234375,
+        293.2971496582031,
+        496.9367370605469,
+        302.3527526855469
+      ]
+    ],
+    "text": "I can see\ncommon papers that are closely related to each other.\u201d\n\u2013 P5 6.1.6\nVolunteered Continued Usage in the Wild.",
+    "label": "NONE"
+  },
+  {
+    "page": 6,
+    "rects": [
+      [
+        90.81138610839844,
+        399.27276611328125,
+        294.04339599609375,
+        408.31060791015625
+      ],
+      [
+        53.57400131225586,
+        410.285400390625,
+        244.66598510742188,
+        419.2518005371094
+      ],
+      [
+        69.76499938964844,
+        423.29522705078125,
+        294.04193115234375,
+        432.8938293457031
+      ],
+      [
+        78.20700073242188,
+        434.83642578125,
+        294.04608154296875,
+        443.8920593261719
+      ],
+      [
+        78.20700073242188,
+        445.7954406738281,
+        294.04620361328125,
+        454.85107421875
+      ],
+      [
+        78.20700073242188,
+        456.8213806152344,
+        207.50254821777344,
+        465.78778076171875
+      ]
+    ],
+    "text": "Figure 4 shows an overview of how inline citations are\nvisually augmented in our system as detailed below: \u2022 Reencountered Citations: Citations that also appeared in\nother papers in a user\u2019s reading history are highlighted in\ndifferent shades of yellow to orange based on the user\u2019s\nengagement with the citing papers.",
+    "label": "NONE"
+  },
+  {
+    "page": 6,
+    "rects": [
+      [
+        80.8533935546875,
+        210.28700256347656,
+        294.04534912109375,
+        219.16329956054688
+      ],
+      [
+        53.79800033569336,
+        221.1114501953125,
+        294.0470275878906,
+        230.16708374023438
+      ],
+      [
+        53.79800033569336,
+        232.1374053955078,
+        239.01698303222656,
+        241.1038055419922
+      ]
+    ],
+    "text": "Together, these features provide a personalized reading and\nexploration experience by augmenting and providing consistent\nand personalized historic context around citations.",
+    "label": "NONE"
+  },
+  {
+    "page": 14,
+    "rects": [
+      [
+        53.79800033569336,
+        575.8175659179688,
+        59.405277252197266,
+        586.7266845703125
+      ],
+      [
+        70.31437683105469,
+        575.8175659179688,
+        141.57261657714844,
+        586.7266845703125
+      ],
+      [
+        53.79800033569336,
+        591.0960083007812,
+        294.04541015625,
+        599.9722900390625
+      ],
+      [
+        53.79800033569336,
+        602.0549926757812,
+        275.627685546875,
+        610.9312744140625
+      ]
+    ],
+    "text": "8\nCONCLUSION In this paper, we introduce CiteSee, a novel scientific paper reading\ntool that provides a personalized literature review experience.",
+    "label": "NONE"
+  },
+  {
+    "page": 3,
+    "rects": [
+      [
+        271.4469909667969,
+        232.9244384765625,
+        294.04608154296875,
+        241.98007202148438
+      ],
+      [
+        78.20700073242188,
+        244.0180206298828,
+        303.1385192871094,
+        252.89431762695312
+      ],
+      [
+        77.875,
+        254.8490753173828,
+        294.27716064453125,
+        263.89581298828125
+      ],
+      [
+        78.20700073242188,
+        265.8004150390625,
+        294.04376220703125,
+        274.8560485839844
+      ],
+      [
+        78.20700073242188,
+        276.89404296875,
+        294.0438537597656,
+        285.77032470703125
+      ],
+      [
+        78.20700073242188,
+        287.71844482421875,
+        294.04608154296875,
+        296.7740783691406
+      ],
+      [
+        78.20700073242188,
+        298.744384765625,
+        234.7155303955078,
+        307.7107849121094
+      ]
+    ],
+    "text": "While\nprior work either analyzes inline citations in a non-personalized\nway [16, 60] or only support personalized paper discovery\nindependent of reading [12, 26, 47], CiteSee explores the\nidea of a personalized reading experience focused on helping\nusers make sense of inline citations and prioritize which\ncitations to further consult during reading.",
+    "label": "NONE"
+  },
+  {
+    "page": 9,
+    "rects": [
+      [
+        493.6535339355469,
+        346.9944152832031,
+        558.4327392578125,
+        356.050048828125
+      ],
+      [
+        317.9549865722656,
+        357.95343017578125,
+        558.2041015625,
+        367.0090637207031
+      ],
+      [
+        317.9549865722656,
+        368.9794006347656,
+        374.4613037109375,
+        377.94580078125
+      ]
+    ],
+    "text": "Finally, the study\nended when a participant finished rating all of the highlighted\ninline citations.",
+    "label": "METHODS"
+  },
+  {
+    "page": 3,
+    "rects": [
+      [
+        471.2454528808594,
+        300.6850280761719,
+        558.2022094726562,
+        309.5613098144531
+      ],
+      [
+        317.9549865722656,
+        311.5094299316406,
+        558.2041015625,
+        320.5650634765625
+      ],
+      [
+        317.9549865722656,
+        322.46844482421875,
+        558.1998291015625,
+        331.5240783691406
+      ],
+      [
+        317.62298583984375,
+        333.5620422363281,
+        558.2042236328125,
+        342.4383239746094
+      ],
+      [
+        317.9549865722656,
+        344.52105712890625,
+        548.5843505859375,
+        353.3973388671875
+      ]
+    ],
+    "text": "For example, ScholarPhi\nallowed users to cross-reference between terminologies or math\nsymbols and their definitions interactively [27]; and a thread of\nwork focused on allowing users to point to different parts of a figure\nor table to highlight corresponding texts in the paper [2, 32, 34].",
+    "label": "NONE"
+  },
+  {
+    "page": 2,
+    "rects": [
+      [
+        97.9444351196289,
+        594.3134155273438,
+        294.0469970703125,
+        603.3690185546875
+      ],
+      [
+        53.79800033569336,
+        605.33935546875,
+        235.24217224121094,
+        614.3057861328125
+      ]
+    ],
+    "text": "The purpose of this paper is to design and evaluate\nusable in-situ aids for prioritizing inline citations.",
+    "label": "OBJECTIVE"
+  },
+  {
+    "page": 1,
+    "rects": [
+      [
+        215.035888671875,
+        368.1476135253906,
+        294.0461730957031,
+        377.0870666503906
+      ],
+      [
+        53.79800033569336,
+        379.0428161621094,
+        263.2512512207031,
+        388.0672912597656
+      ]
+    ],
+    "text": "Second, CiteSee helps\nusers prioritize their exploration by highlighting relevant but unknown citations based on saving and reading history.",
+    "label": "NONE"
+  },
+  {
+    "page": 11,
+    "rects": [
+      [
+        269.7615966796875,
+        366.3111267089844,
+        294.04156494140625,
+        375.35784912109375
+      ],
+      [
+        53.79800033569336,
+        377.263427734375,
+        294.0470886230469,
+        386.3190612792969
+      ],
+      [
+        53.79800033569336,
+        388.2391357421875,
+        106.05534362792969,
+        397.27252197265625
+      ]
+    ],
+    "text": "Before\nthe study, we briefly walked through all the features of CiteSee\nin 10 minutes.",
+    "label": "NONE"
+  },
+  {
+    "page": 7,
+    "rects": [
+      [
+        317.9549865722656,
+        354.09857177734375,
+        331.83135986328125,
+        365.0076599121094
+      ],
+      [
+        342.7404479980469,
+        354.09857177734375,
+        495.9588317871094,
+        365.0076599121094
+      ],
+      [
+        317.9549865722656,
+        369.2801818847656,
+        558.20068359375,
+        378.286865234375
+      ],
+      [
+        317.9549865722656,
+        380.2024230957031,
+        558.2039794921875,
+        389.258056640625
+      ],
+      [
+        317.9549865722656,
+        391.27227783203125,
+        515.9170532226562,
+        400.1802062988281
+      ]
+    ],
+    "text": "4.4\n[D2] Surfacing Familiar Papers Our first design goal aimed to direct the users\u2019 attention to inline\ncitations to unexplored papers to help them discover and save\nimportant prior work relevant to their recent readings.",
+    "label": "NONE"
+  },
+  {
+    "page": 14,
+    "rects": [
+      [
+        160.37269592285156,
+        371.91802978515625,
+        294.27886962890625,
+        380.7943115234375
+      ],
+      [
+        53.79800033569336,
+        382.80938720703125,
+        294.0438232421875,
+        391.7757873535156
+      ],
+      [
+        53.79800033569336,
+        393.76837158203125,
+        129.48338317871094,
+        402.7347717285156
+      ]
+    ],
+    "text": "However, presenting paper and query\nsuggestions while not disrupting a user\u2019s reading flow is likely an\nimportant challenge.",
+    "label": "NONE"
+  },
+  {
+    "page": 7,
+    "rects": [
+      [
+        163.88771057128906,
+        481.4900817871094,
+        294.0435791015625,
+        490.38897705078125
+      ],
+      [
+        53.79800033569336,
+        492.4660339355469,
+        294.04541015625,
+        501.3423156738281
+      ],
+      [
+        53.79800033569336,
+        503.425048828125,
+        294.0453186035156,
+        512.3013305664062
+      ],
+      [
+        53.79800033569336,
+        514.31640625,
+        221.72970581054688,
+        523.2828369140625
+      ]
+    ],
+    "text": "By default, CiteSee uses the 20 most\nrecently read papers in the user\u2019s history, but this window can also\nbe adjusted by the user using a slider to capture part of her reading\nhistory relevant to her current task (Figure 5).",
+    "label": "NONE"
+  },
+  {
+    "page": 5,
+    "rects": [
+      [
+        518.6254272460938,
+        634.9320068359375,
+        559.1865234375,
+        643.8082885742188
+      ],
+      [
+        317.9549865722656,
+        645.8909912109375,
+        558.2025146484375,
+        654.7672729492188
+      ],
+      [
+        317.7309875488281,
+        656.7454223632812,
+        558.1993408203125,
+        665.7610473632812
+      ],
+      [
+        317.9549865722656,
+        667.798828125,
+        541.0454711914062,
+        676.688720703125
+      ]
+    ],
+    "text": "In contrast,\nCiteSee keeps track of a user\u2019s reading history and paper library to\nvisually augment inline citations both to papers already explored\nin the past and to important but unexplored papers (Figure 4).",
+    "label": "NONE"
+  },
+  {
+    "page": 2,
+    "rects": [
+      [
+        317.9549865722656,
+        572.4456176757812,
+        558.2033081054688,
+        581.4343872070312
+      ],
+      [
+        317.9549865722656,
+        583.3677978515625,
+        363.5954284667969,
+        592.4056396484375
+      ]
+    ],
+    "text": "Leveraging a user\u2019s paper library, publication record, and reading\nhistory, CiteSee visually augments scientific papers to help users\nkeep track of citations to known papers and prioritize their exploration to citations to unknown prior work that were likely relevant\nto their literature review topics (Figure 4).",
+    "label": "NONE"
+  },
+  {
+    "page": 2,
+    "rects": [
+      [
+        126.59259033203125,
+        364.30084228515625,
+        294.0492248535156,
+        373.1907043457031
+      ],
+      [
+        53.79800033569336,
+        375.13543701171875,
+        294.0470886230469,
+        384.1910705566406
+      ],
+      [
+        53.79800033569336,
+        386.10443115234375,
+        279.5618896484375,
+        395.146728515625
+      ]
+    ],
+    "text": "This is especially challenging during literature\nreviews, where users need to read and skim many papers, each\nof which may contain dozens or hundreds of inline citations.",
+    "label": "NONE"
+  },
+  {
+    "page": 5,
+    "rects": [
+      [
+        317.9549865722656,
+        349.37957763671875,
+        331.83135986328125,
+        360.2886657714844
+      ],
+      [
+        342.7404479980469,
+        349.37957763671875,
+        421.1769104003906,
+        360.2886657714844
+      ],
+      [
+        317.9549865722656,
+        364.5746154785156,
+        558.3746337890625,
+        373.5633850097656
+      ],
+      [
+        317.9549865722656,
+        375.5470275878906,
+        558.198486328125,
+        384.5179138183594
+      ],
+      [
+        317.9549865722656,
+        386.5083923339844,
+        411.13397216796875,
+        395.47479248046875
+      ],
+      [
+        333.9219970703125,
+        400.3782043457031,
+        558.2035522460938,
+        410.0170593261719
+      ],
+      [
+        342.364013671875,
+        411.9204406738281,
+        558.2031860351562,
+        420.97607421875
+      ],
+      [
+        342.364013671875,
+        422.9463806152344,
+        544.646240234375,
+        431.91278076171875
+      ]
+    ],
+    "text": "3.3\nDESIGN GOALS Based on the above, we formulated the following design goals for\na novel scientific paper reading interface to support the following\nduring literature reviews: \u2022 [D1] Augment citations to unknown papers that are also\ncited by papers in a user\u2019s reading history to help users\ndiscover prior work relevant to their literature reviews.",
+    "label": "NONE"
+  },
+  {
+    "page": 12,
+    "rects": [
+      [
+        450.6396179199219,
+        545.3301391601562,
+        533.7915649414062,
+        554.3367919921875
+      ],
+      [
+        342.364013671875,
+        556.3193969726562,
+        491.4036865234375,
+        565.2858276367188
+      ],
+      [
+        317.9549865722656,
+        571.8795166015625,
+        559.18505859375,
+        580.7965087890625
+      ],
+      [
+        317.62298583984375,
+        582.7501220703125,
+        474.38592529296875,
+        591.7835693359375
+      ]
+    ],
+    "text": "So there\u2019s like a mixed\nsignal [referring to scroll tracking]\u201d \u2013 P2 In our design, users could remove papers from the reading history,\nwhich could potentially address this issue.",
+    "label": "NONE"
+  },
+  {
+    "page": 14,
+    "rects": [
+      [
+        106.22390747070312,
+        689.7134399414062,
+        294.0466613769531,
+        698.6077880859375
+      ],
+      [
+        53.79800033569336,
+        700.6849975585938,
+        294.0454406738281,
+        709.561279296875
+      ],
+      [
+        317.9549865722656,
+        86.85242462158203,
+        558.2042236328125,
+        95.90804290771484
+      ],
+      [
+        317.9549865722656,
+        97.83142852783203,
+        387.8173828125,
+        106.8603744506836
+      ]
+    ],
+    "text": "Through a lab study, we found our strategy of using\nreading history to augment inline citations to be significantly more effective in helping users discover prior work compared to three\nbaseline strategies.",
+    "label": "RESULTS"
+  },
+  {
+    "page": 4,
+    "rects": [
+      [
+        248.8694610595703,
+        681.6133422851562,
+        294.0428771972656,
+        690.5932006835938
+      ],
+      [
+        53.79800033569336,
+        692.538818359375,
+        294.0425109863281,
+        701.5632934570312
+      ]
+    ],
+    "text": "To highlight\nthe inline citations for paper discovery, our scoring techniques is inspired by [47], but instead of requiring users to explicitly specify a set of paper of interest, we exploited a user\u2019s paper reading\nhistory and engagement with the different papers to carefully incorporating these signals into the visually-dense medium of the\npaper with appropriate controls, and evaluating them both in-lab\nand field deployment studies in comparison to three baseline approaches.",
+    "label": "METHODS"
+  },
+  {
+    "page": 11,
+    "rects": [
+      [
+        219.081787109375,
+        563.5643920898438,
+        294.2779541015625,
+        572.6199951171875
+      ],
+      [
+        53.79800033569336,
+        574.5234375,
+        286.2000732421875,
+        583.5790405273438
+      ]
+    ],
+    "text": "[61] that \u201cfrequency\ndoes not determine value\u201d and that the goal of our deployment\nand interviews were not to capture distribution but to understand\nmore deeply how CiteSee\u2019s features can be used in real-world literature review tasks and the costs and benefits of adopting our inline\ncitation augmentation approach.",
+    "label": "NONE"
+  },
+  {
+    "page": 3,
+    "rects": [
+      [
+        116.4876480102539,
+        678.7510375976562,
+        294.04425048828125,
+        687.6499633789062
+      ],
+      [
+        53.79800033569336,
+        689.6224365234375,
+        295.02752685546875,
+        698.6380615234375
+      ],
+      [
+        53.79800033569336,
+        700.6544799804688,
+        294.04071044921875,
+        709.5714721679688
+      ],
+      [
+        317.9549865722656,
+        86.85242462158203,
+        558.2041015625,
+        95.90804290771484
+      ],
+      [
+        317.9549865722656,
+        97.87837219238281,
+        475.6023864746094,
+        106.84477233886719
+      ]
+    ],
+    "text": "For example, by augmenting inline citations with\nbehavior traces (e.g., citation statements from previous readings),\nCiteSee can potentially enrich the information scants [46] between papers to help users to better prioritize which inline citations to\nfollow when conducting literature reviews.",
+    "label": "NONE"
+  },
+  {
+    "page": 1,
+    "rects": [
+      [
+        327.9179992675781,
+        667.7044677734375,
+        558.2061767578125,
+        676.7200927734375
+      ],
+      [
+        317.9549865722656,
+        678.7680053710938,
+        558.2022094726562,
+        687.644287109375
+      ],
+      [
+        317.9549865722656,
+        689.7269897460938,
+        405.6236877441406,
+        698.603271484375
+      ]
+    ],
+    "text": "While inline citations are useful for discovering literature, it is\noften difficult to prioritize which citations to pay attention to in the\nmiddle of a reading task.",
+    "label": "OBJECTIVE"
+  },
+  {
+    "page": 13,
+    "rects": [
+      [
+        158.26121520996094,
+        344.3964538574219,
+        269.6385803222656,
+        353.4387512207031
+      ],
+      [
+        78.20700073242188,
+        355.3454284667969,
+        255.8718719482422,
+        364.40106201171875
+      ]
+    ],
+    "text": "It allows me to identify which\npapers are already in my reading list [library], and\nwhich ones need to be considered...It\u2019s a time consuming and error prone task [when not using CiteSee]\u201d \u2013\nP5\nWhen saving a cited paper from its Paper Card, CiteSee also\nrecords the current paper and the citing sentence to help users\nremember why a paper was saved in the future (Figure 2).",
+    "label": "NONE"
+  },
+  {
+    "page": 5,
+    "rects": [
+      [
+        83.0269775390625,
+        407.518798828125,
+        294.04248046875,
+        416.54327392578125
+      ],
+      [
+        53.79800033569336,
+        418.4544372558594,
+        137.5180206298828,
+        427.51007080078125
+      ]
+    ],
+    "text": "More specifically, they described how not being aware of\nclosely related prior work could have severe consequences, even\nwhen it was not highly cited globally \u2013 for example, putting significant research effort into an approach that had already been\nexplored or being unaware of a paper that \u201ceveryone else working\non this are citing.\u201d\nWe showed two design probes that annotated inline citations to\nfacilitate paper discovery.",
+    "label": "RESULTS"
+  },
+  {
+    "page": 7,
+    "rects": [
+      [
+        500.6449890136719,
+        636.3193359375,
+        558.2020263671875,
+        645.2991943359375
+      ],
+      [
+        317.9549865722656,
+        647.2203979492188,
+        558.2039794921875,
+        656.2760009765625
+      ],
+      [
+        317.9549865722656,
+        658.179443359375,
+        558.2039794921875,
+        667.2350463867188
+      ],
+      [
+        317.9549865722656,
+        669.138427734375,
+        496.8179626464844,
+        678.1940307617188
+      ]
+    ],
+    "text": "By highlighting\ninline citations in the current paper as described in the previous\nsection, CiteSee allows users to identify reencountered citations\namongst their recent readings more efficiently.",
+    "label": "NONE"
+  },
+  {
+    "page": 2,
+    "rects": [
+      [
+        327.9179992675781,
+        528.6939697265625,
+        558.2007446289062,
+        537.5702514648438
+      ],
+      [
+        317.9549865722656,
+        539.6292724609375,
+        558.2015991210938,
+        548.5372314453125
+      ],
+      [
+        317.9549865722656,
+        550.4774169921875,
+        495.5556945800781,
+        559.5330200195312
+      ]
+    ],
+    "text": "In this paper, we introduce and explore the idea of a personalized\npaper reading experience that augments citations in a reading tool\nbased on their connections to the current user.",
+    "label": "METHODS"
+  },
+  {
+    "page": 9,
+    "rects": [
+      [
+        150.56895446777344,
+        618.3074340820312,
+        294.047119140625,
+        627.363037109375
+      ],
+      [
+        53.79800033569336,
+        629.3233032226562,
+        294.0450439453125,
+        638.3031616210938
+      ],
+      [
+        53.79800033569336,
+        640.2254028320312,
+        294.0470886230469,
+        649.281005859375
+      ],
+      [
+        53.79800033569336,
+        651.315673828125,
+        294.044189453125,
+        660.1964721679688
+      ],
+      [
+        53.79800033569336,
+        662.1424560546875,
+        294.0470886230469,
+        671.1980590820312
+      ],
+      [
+        53.79800033569336,
+        673.1683959960938,
+        90.82923126220703,
+        682.1348266601562
+      ],
+      [
+        69.76499938964844,
+        689.0091552734375,
+        294.04412841796875,
+        698.6480102539062
+      ],
+      [
+        78.20700073242188,
+        700.6849975585938,
+        232.22686767578125,
+        709.561279296875
+      ]
+    ],
+    "text": "As they encountered each highlighted\ncitation, participants answered the following two questions using\na 5-point Likert scale for agreement in a separate survey form\nthat listed the titles and reference numbers of highlighted citations\nand participants used in-page search to find the corresponding\nquestions: \u2022 Primary measure (LitReview): This paper is important\nfor understanding the theme I wrote down.",
+    "label": "METHODS"
+  },
+  {
+    "page": 8,
+    "rects": [
+      [
+        317.9549865722656,
+        250.8505859375,
+        323.562255859375,
+        261.7596740722656
+      ],
+      [
+        334.4713439941406,
+        250.8505859375,
+        499.6351013183594,
+        261.7596740722656
+      ],
+      [
+        334.47198486328125,
+        263.80157470703125,
+        393.19561767578125,
+        274.7106628417969
+      ],
+      [
+        317.9549865722656,
+        279.0810546875,
+        558.2022705078125,
+        287.95733642578125
+      ],
+      [
+        317.9549865722656,
+        290.0400390625,
+        558.2020874023438,
+        298.91632080078125
+      ],
+      [
+        317.9549865722656,
+        300.9347839355469,
+        348.1325378417969,
+        309.8966979980469
+      ]
+    ],
+    "text": "5\nSTUDY 1: DISCOVER RELEVANT\nCITATIONS One of CiteSee\u2019s core functionalities for supporting our first design\ngoal is to highlight citations to relevant prior work during literature\nreviews.",
+    "label": "NONE"
+  },
+  {
+    "page": 4,
+    "rects": [
+      [
+        428.48590087890625,
+        335.5763854980469,
+        558.2029418945312,
+        344.54278564453125
+      ],
+      [
+        53.79800033569336,
+        346.5353698730469,
+        370.73333740234375,
+        355.50177001953125
+      ]
+    ],
+    "text": "[Top] An overview page inserted\nby CiteSee shows the statistics of different augmentations in the current paper.",
+    "label": "NONE"
+  },
+  {
+    "page": 12,
+    "rects": [
+      [
+        164.8950958251953,
+        440.9640197753906,
+        294.04168701171875,
+        449.9349060058594
+      ],
+      [
+        53.79800033569336,
+        451.85943603515625,
+        294.37628173828125,
+        460.9150695800781
+      ],
+      [
+        53.79800033569336,
+        462.81842041015625,
+        245.0167999267578,
+        471.8740539550781
+      ]
+    ],
+    "text": "As expected, participants described\na cold-start issue where the system initially only augmented few\ncitations because their reading history was empty.",
+    "label": "RESULTS"
+  },
+  {
+    "page": 13,
+    "rects": [
+      [
+        234.66384887695312,
+        621.2684326171875,
+        294.0470886230469,
+        630.3240356445312
+      ],
+      [
+        53.79800033569336,
+        632.3619995117188,
+        294.0453186035156,
+        641.23828125
+      ],
+      [
+        53.79800033569336,
+        643.25341796875,
+        251.93753051757812,
+        652.2198486328125
+      ],
+      [
+        78.20700073242188,
+        656.8499755859375,
+        269.6333923339844,
+        665.7262573242188
+      ],
+      [
+        77.875,
+        667.6744384765625,
+        95.07811737060547,
+        676.7300415039062
+      ]
+    ],
+    "text": "For example, P3\ncompared paper discovery in CiteSee to a search engine, and found\nusing CiteSee led to finding more relevant prior work: \u201cI think this extension changes my workflow in a good\nway.",
+    "label": "NONE"
+  },
+  {
+    "page": 7,
+    "rects": [
+      [
+        152.8919677734375,
+        415.6194152832031,
+        294.0470886230469,
+        424.675048828125
+      ],
+      [
+        53.79800033569336,
+        426.6118469238281,
+        294.04150390625,
+        435.6229553222656
+      ],
+      [
+        53.79800033569336,
+        437.67205810546875,
+        294.0453186035156,
+        446.54833984375
+      ],
+      [
+        53.79800033569336,
+        448.52984619140625,
+        158.21441650390625,
+        457.54095458984375
+      ]
+    ],
+    "text": "Based on this comparison, the system\nthen highlights the reencountered citations (Figure 4) that also\nappeared in multiple papers the user had recently opened, drawing\nthe user\u2019s attention to them.",
+    "label": "NONE"
+  },
+  {
+    "page": 4,
+    "rects": [
+      [
+        213.11647033691406,
+        572.10205078125,
+        294.04547119140625,
+        580.9783325195312
+      ],
+      [
+        53.79800033569336,
+        582.9766235351562,
+        294.04644775390625,
+        591.9653930664062
+      ],
+      [
+        53.79800033569336,
+        593.9356079101562,
+        294.04132080078125,
+        602.9243774414062
+      ],
+      [
+        53.79800033569336,
+        604.8444213867188,
+        294.2116394042969,
+        613.9000244140625
+      ],
+      [
+        53.79800033569336,
+        615.8034057617188,
+        119.41860961914062,
+        624.8590087890625
+      ]
+    ],
+    "text": "Threddy allowed users\nto collect clips from papers and provided an exploration interface\nshowing additional papers relevant to the collected clips [30], but\ndid not support triaging exiting references in the current paper\na user is reading.",
+    "label": "NONE"
+  },
+  {
+    "page": 7,
+    "rects": [
+      [
+        63.76100158691406,
+        108.9050521850586,
+        294.0437927246094,
+        117.78133392333984
+      ],
+      [
+        53.79800033569336,
+        119.8640365600586,
+        294.3793029785156,
+        128.74032592773438
+      ],
+      [
+        53.79800033569336,
+        130.71749877929688,
+        295.4264221191406,
+        139.7330780029297
+      ]
+    ],
+    "text": "As she continues to explore and read more papers, she notices the\noverview pages added by CiteSee to the top of each documents allow\nher to make quick judgements about the current paper (Figure 3).",
+    "label": "NONE"
+  },
+  {
+    "page": 7,
+    "rects": [
+      [
+        370.7424011230469,
+        257.7760314941406,
+        558.2056274414062,
+        266.6523132324219
+      ],
+      [
+        317.9549865722656,
+        268.71466064453125,
+        558.2056274414062,
+        277.6180725097656
+      ],
+      [
+        317.9549865722656,
+        279.69403076171875,
+        558.2020874023438,
+        288.5703125
+      ],
+      [
+        317.62298583984375,
+        290.5184326171875,
+        478.10296630859375,
+        299.5740661621094
+      ]
+    ],
+    "text": "This allows CiteSee to avoid over highlighting inline\ncitations when a user opens many papers from a search result that\nmight not all turn out to be relevant and important (a phenomenon\nwe encountered in early design iterations.)",
+    "label": "NONE"
+  },
+  {
+    "page": 1,
+    "rects": [
+      [
+        53.79800033569336,
+        302.3064270019531,
+        294.0469970703125,
+        311.362060546875
+      ],
+      [
+        53.79800033569336,
+        313.26544189453125,
+        295.4280700683594,
+        322.3210754394531
+      ]
+    ],
+    "text": "However, it can be challenging to prioritize and make sense of\nthe hundreds of citations encountered during literature reviews.",
+    "label": "NONE"
+  },
+  {
+    "page": 9,
+    "rects": [
+      [
+        451.89727783203125,
+        225.93235778808594,
+        558.2029418945312,
+        234.8987579345703
+      ],
+      [
+        53.44900131225586,
+        236.89134216308594,
+        316.6845703125,
+        245.8577423095703
+      ]
+    ],
+    "text": "Participants were blind to\nwhich strategies was used for each highlighted inline citations.",
+    "label": "METHODS"
+  },
+  {
+    "page": 4,
+    "rects": [
+      [
+        156.22830200195312,
+        495.25543212890625,
+        294.04522705078125,
+        504.3110656738281
+      ],
+      [
+        53.79800033569336,
+        506.32525634765625,
+        294.0445251464844,
+        515.2332153320312
+      ],
+      [
+        53.79800033569336,
+        517.1734008789062,
+        294.04705810546875,
+        526.22900390625
+      ],
+      [
+        53.79800033569336,
+        528.2669677734375,
+        294.0453796386719,
+        537.1432495117188
+      ],
+      [
+        53.79800033569336,
+        539.2260131835938,
+        82.8403549194336,
+        548.102294921875
+      ]
+    ],
+    "text": "More recently, Apolo and PaperPole\ntook a mixed-initiative approach that allowed users to explore and\ncreate visual topic clusters of citations around a seed paper and\nprovided paper recommendations for further refining the structures\n[12, 26].",
+    "label": "NONE"
+  },
+  {
+    "page": 3,
+    "rects": [
+      [
+        441.79705810546875,
+        476.0280456542969,
+        558.1994018554688,
+        484.9043273925781
+      ],
+      [
+        317.9549865722656,
+        486.9870300292969,
+        558.2002563476562,
+        495.8633117675781
+      ],
+      [
+        317.9549865722656,
+        497.8114318847656,
+        558.2039794921875,
+        506.8670654296875
+      ],
+      [
+        317.9549865722656,
+        508.77044677734375,
+        521.669921875,
+        517.8260498046875
+      ],
+      [
+        519.2158203125,
+        508.77044677734375,
+        558.203369140625,
+        517.8455200195312
+      ],
+      [
+        317.9549865722656,
+        519.7294311523438,
+        349.82904052734375,
+        528.8045043945312
+      ]
+    ],
+    "text": "In contrast, our work focuses on\naugmenting outgoing citations to relevant prior work when reading\nmultiple papers to help users make sense of the overwhelming\nquantity of relevant prior work based on their specific, personal\ninterests.",
+    "label": "NONE"
+  },
+  {
+    "page": 5,
+    "rects": [
+      [
+        333.9220275878906,
+        433.2552185058594,
+        558.4386596679688,
+        442.8493347167969
+      ],
+      [
+        342.1390075683594,
+        444.7964172363281,
+        558.19775390625,
+        453.85205078125
+      ],
+      [
+        342.364013671875,
+        455.8900451660156,
+        558.3765869140625,
+        464.7663269042969
+      ],
+      [
+        342.364013671875,
+        466.8185119628906,
+        558.2056884765625,
+        475.7354431152344
+      ],
+      [
+        342.364013671875,
+        477.7403869628906,
+        366.6450500488281,
+        486.706787109375
+      ]
+    ],
+    "text": "\u2022 [D2] Augment citations to known papers (such as previously\nvisited or saved papers) to connect the current papers to\nfamiliar contexts, helping users understand whether a paper\nbelongs to a pocket of literature they have already explored\nor not.",
+    "label": "NONE"
+  },
+  {
+    "page": 12,
+    "rects": [
+      [
+        317.9549865722656,
+        345.30242919921875,
+        558.2042236328125,
+        354.3580627441406
+      ],
+      [
+        317.9549865722656,
+        356.331787109375,
+        558.2021484375,
+        365.293701171875
+      ],
+      [
+        317.9549865722656,
+        367.3177490234375,
+        408.7402648925781,
+        376.24371337890625
+      ]
+    ],
+    "text": "Participants said the different shades of highlights reflected the\nrelevance of different inline citations based on their own interests\nand contexts (P1, P2, P3).",
+    "label": "NONE"
+  },
+  {
+    "page": 7,
+    "rects": [
+      [
+        53.79800033569336,
+        279.9265441894531,
+        67.67437744140625,
+        290.83563232421875
+      ],
+      [
+        78.58348083496094,
+        279.9265441894531,
+        241.12904357910156,
+        290.83563232421875
+      ],
+      [
+        53.79800033569336,
+        295.16876220703125,
+        210.36404418945312,
+        304.0947265625
+      ]
+    ],
+    "text": "4.3\n[D1] Discover Relevant Citations Our first design goal was to help users more effectively explore inline citations during literature review by leveraging reencountered\ncitations across papers in a user\u2019s reading history.",
+    "label": "NONE"
+  },
+  {
+    "page": 13,
+    "rects": [
+      [
+        412.8409729003906,
+        86.85242462158203,
+        533.7932739257812,
+        95.90804290771484
+      ],
+      [
+        342.364013671875,
+        97.86156463623047,
+        516.469970703125,
+        106.85035705566406
+      ]
+    ],
+    "text": "But yeah, using the reader I can\nbring up papers that are more [relevant] on the HCI\nside of things.\u201d \u2013 P3\nFinally, participants pointed to how using CiteSee provided better situational awareness of the connections between many papers\n(P3, P4, P5).",
+    "label": "RESULTS"
+  },
+  {
+    "page": 13,
+    "rects": [
+      [
+        172.58016967773438,
+        108.9050521850586,
+        269.63336181640625,
+        117.78133392333984
+      ],
+      [
+        78.20700073242188,
+        119.79640197753906,
+        225.24700927734375,
+        128.76280212402344
+      ],
+      [
+        63.76100158691406,
+        133.3930206298828,
+        93.0746841430664,
+        142.26931762695312
+      ]
+    ],
+    "text": "So triaging, ranking, which\nI should look at was really helpful.\u201d \u2013 P4 In addition to prioritizing papers to read, participants also pointed\nto how CiteSee can support skimming papers [4, 19, 28] because\nthe reencountered citation highlights were often concentrated in\nsections that were more relevant to their literature review topics: \u201cIt gives me confidence in making decisions of which\nparts of the paper that I should pay attention to... And\nI did find that information really useful.\u201d \u2013 P4\nSimilar responses were also observed in [50] for highlighting regions in webpages similar to a user\u2019s previous web clips.",
+    "label": "NONE"
+  },
+  {
+    "page": 1,
+    "rects": [
+      [
+        197.88893127441406,
+        411.8954162597656,
+        294.2757263183594,
+        420.9510498046875
+      ],
+      [
+        53.79800033569336,
+        422.8778076171875,
+        256.44805908203125,
+        431.90228271484375
+      ]
+    ],
+    "text": "A field deployment study\nshows CiteSee helps participants keep track of their explorations\nand leads to better situational awareness and increased paper discovery via inline citation when conducting real-world literature\nreviews.",
+    "label": "CONCLUSIONS"
+  },
+  {
+    "page": 12,
+    "rects": [
+      [
+        63.76100158691406,
+        556.0704345703125,
+        294.0412292480469,
+        565.1260375976562
+      ],
+      [
+        53.79800033569336,
+        567.0284423828125,
+        294.27569580078125,
+        576.0840454101562
+      ],
+      [
+        53.79800033569336,
+        578.024169921875,
+        294.0437927246094,
+        587.0308227539062
+      ],
+      [
+        53.79800033569336,
+        589.0809936523438,
+        227.5096435546875,
+        597.957275390625
+      ]
+    ],
+    "text": "Since information about reencountered citations based on a\nuser\u2019s reading history was new to the participants, we explicitly\nasked all participants to compare reencountered citations against\nthe more familiar signal of global citation counts.",
+    "label": "METHODS"
+  },
+  {
+    "page": 13,
+    "rects": [
+      [
+        259.9778747558594,
+        423.8040466308594,
+        294.0453796386719,
+        432.6803283691406
+      ],
+      [
+        53.79800033569336,
+        434.74945068359375,
+        294.0466003417969,
+        443.6438293457031
+      ],
+      [
+        53.46699905395508,
+        445.7210388183594,
+        294.0482482910156,
+        454.5973205566406
+      ],
+      [
+        53.79800033569336,
+        456.55877685546875,
+        170.16741943359375,
+        465.59661865234375
+      ]
+    ],
+    "text": "When we\nretrospectively walked through papers in users\u2019 library, we probed\nwhether this information provided value or if the titles and abstracts\nof saved papers were sufficient.",
+    "label": "METHODS"
+  },
+  {
+    "page": 6,
+    "rects": [
+      [
+        134.46646118164062,
+        678.6367797851562,
+        294.0491638183594,
+        687.6879272460938
+      ],
+      [
+        53.79800033569336,
+        689.7100219726562,
+        294.0434265136719,
+        698.6089477539062
+      ],
+      [
+        53.79800033569336,
+        700.5504150390625,
+        121.68675231933594,
+        709.6060180664062
+      ]
+    ],
+    "text": "Below, we describe how CiteSee uses these\ncore mechanisms to support different user needs when conducting\nliterature reviews.",
+    "label": "NONE"
+  },
+  {
+    "page": 5,
+    "rects": [
+      [
+        447.7144470214844,
+        97.81140899658203,
+        558.2039184570312,
+        106.86702728271484
+      ],
+      [
+        317.9549865722656,
+        108.77045440673828,
+        529.614501953125,
+        117.8260726928711
+      ]
+    ],
+    "text": "One user challenge here was\nkeeping track of sufficient context around saved papers.",
+    "label": "NONE"
+  },
+  {
+    "page": 11,
+    "rects": [
+      [
+        428.434814453125,
+        613.0140380859375,
+        558.4306030273438,
+        621.8903198242188
+      ],
+      [
+        317.9549865722656,
+        623.8785400390625,
+        559.19189453125,
+        632.8807373046875
+      ],
+      [
+        317.9549865722656,
+        634.7974243164062,
+        542.757080078125,
+        643.85302734375
+      ]
+    ],
+    "text": "Evidently, participants were actively\nengaged with the reencountered citations highlighted by CiteSee,\nand used them to discover and save important prior work.",
+    "label": "METHODS"
+  },
+  {
+    "page": 3,
+    "rects": [
+      [
+        317.9549865722656,
+        180.07374572753906,
+        558.2022094726562,
+        189.03567504882812
+      ],
+      [
+        317.9549865722656,
+        190.96142578125,
+        531.5078125,
+        200.01705932617188
+      ]
+    ],
+    "text": "Similarly, early research on scientific paper reading interfaces has\nfocused on better support for cross-referencing citations.",
+    "label": "NONE"
+  },
+  {
+    "page": 11,
+    "rects": [
+      [
+        471.91729736328125,
+        393.76837158203125,
+        558.200927734375,
+        402.7347717285156
+      ],
+      [
+        317.9549865722656,
+        404.6704406738281,
+        558.1996459960938,
+        413.7127380371094
+      ],
+      [
+        317.9549865722656,
+        415.7336730957031,
+        558.2055053710938,
+        424.6370849609375
+      ],
+      [
+        317.9549865722656,
+        426.6453857421875,
+        525.464599609375,
+        435.6117858886719
+      ]
+    ],
+    "text": "However, behavior logs\nshowed that participants were actively engaged with augmented\ninline citations, and qualitative interviews showed seeing citations\nin-context helped users make connections across papers.",
+    "label": "RESULTS"
+  },
+  {
+    "page": 12,
+    "rects": [
+      [
+        317.9549865722656,
+        268.7007141113281,
+        333.8434143066406,
+        277.6671142578125
+      ],
+      [
+        342.809814453125,
+        268.7007141113281,
+        550.982666015625,
+        277.6671142578125
+      ]
+    ],
+    "text": "6.1.2\nHighlighting based on Engagement with other Papers (D1).",
+    "label": "NONE"
+  },
+  {
+    "page": 4,
+    "rects": [
+      [
+        85.0810546875,
+        539.2260131835938,
+        294.0464782714844,
+        548.102294921875
+      ],
+      [
+        52.78499984741211,
+        550.150146484375,
+        294.0457763671875,
+        559.0715942382812
+      ],
+      [
+        53.79800033569336,
+        561.072021484375,
+        294.0411071777344,
+        570.0429077148438
+      ],
+      [
+        53.79800033569336,
+        572.10205078125,
+        211.27117919921875,
+        580.9783325195312
+      ]
+    ],
+    "text": "PaperQuest allowed users to specify sets of seed papers as\n\u201cCore Interests\u201d or \u201cTo-reads,\u201d which contributed different weights\nfor ranking their references as recommendations [47], but did not\npresent evaluations to justify this technique.",
+    "label": "NONE"
+  },
+  {
+    "page": 3,
+    "rects": [
+      [
+        64.70800018310547,
+        364.46148681640625,
+        294.2811279296875,
+        373.47705078125
+      ],
+      [
+        78.20700073242188,
+        375.4161376953125,
+        149.53770446777344,
+        384.4361877441406
+      ]
+    ],
+    "text": "(3) A controlled lab study (N=10) focusing on paper discovery\nduring reading which shows our simple highlighting strategy was significantly more effective than three baselines,\nincluding one that utilizes a more sophisticated semantic\nembedding technique.",
+    "label": "METHODS"
+  },
+  {
+    "page": 1,
+    "rects": [
+      [
+        407.68865966796875,
+        689.7269897460938,
+        558.202392578125,
+        698.603271484375
+      ],
+      [
+        317.9549865722656,
+        700.651123046875,
+        451.5587463378906,
+        709.5725708007812
+      ]
+    ],
+    "text": "One challenge is that even though there is\nsome relationship between all inline citations and the citing paper, arXiv:2302.07302v1  [cs.HC]  14 Feb 2023 Figure 2: [Left] To help users discover important prior work, unexplored citations are highlighted in different shades of yellow\nto indicate their potential relevance to the user.",
+    "label": "NONE"
+  },
+  {
+    "page": 14,
+    "rects": [
+      [
+        53.48400115966797,
+        316.99945068359375,
+        294.04779052734375,
+        326.041748046875
+      ],
+      [
+        53.79800033569336,
+        328.0086669921875,
+        294.21868896484375,
+        336.9840393066406
+      ],
+      [
+        53.79800033569336,
+        338.9074401855469,
+        158.30093383789062,
+        347.96307373046875
+      ]
+    ],
+    "text": "Another potential direction is to show paper recommendation in\nthe margins based on what was cited in the current paper, similar\nto the design shown in [49].",
+    "label": "NONE"
+  },
+  {
+    "page": 5,
+    "rects": [
+      [
+        333.9220275878906,
+        488.0492248535156,
+        558.4367065429688,
+        497.68804931640625
+      ],
+      [
+        342.364013671875,
+        499.7260437011719,
+        558.2008666992188,
+        508.6023254394531
+      ],
+      [
+        342.364013671875,
+        510.6850280761719,
+        511.93701171875,
+        519.561279296875
+      ]
+    ],
+    "text": "\u2022 [D3] Help users better make sense of inline citations by\nkeeping track of how a user interacted with different papers\nto present consistent and personalized contexts.",
+    "label": "NONE"
+  },
+  {
+    "page": 5,
+    "rects": [
+      [
+        137.06494140625,
+        385.6208801269531,
+        294.0460510253906,
+        394.6186218261719
+      ],
+      [
+        53.79800033569336,
+        396.53643798828125,
+        217.45162963867188,
+        405.5920715332031
+      ]
+    ],
+    "text": "The most common sentiment was a fear of\nmissing out on important prior work when citations were overlooked.",
+    "label": "RESULTS"
+  },
+  {
+    "page": 4,
+    "rects": [
+      [
+        317.9549865722656,
+        619.652587890625,
+        323.562255859375,
+        630.5617065429688
+      ],
+      [
+        334.4713439941406,
+        619.652587890625,
+        482.2677917480469,
+        630.5617065429688
+      ],
+      [
+        317.9549865722656,
+        634.9218139648438,
+        558.2061157226562,
+        643.8117065429688
+      ],
+      [
+        317.9549865722656,
+        645.7564086914062,
+        558.2041015625,
+        654.81201171875
+      ],
+      [
+        317.9549865722656,
+        656.8499755859375,
+        558.2022094726562,
+        665.7262573242188
+      ],
+      [
+        317.9549865722656,
+        667.6744384765625,
+        451.96728515625,
+        676.7300415039062
+      ]
+    ],
+    "text": "3\nPRELIMINARY INTERVIEWS In early phase of the project, we conducted preliminary interviews\nto better inform ourselves about how researchers make sense of\ninline citations as they read, and the common limitations and needs\nthat arise during literature reviews.",
+    "label": "NONE"
+  },
+  {
+    "page": 6,
+    "rects": [
+      [
+        392.5750427246094,
+        678.6334228515625,
+        558.2041625976562,
+        687.6890258789062
+      ],
+      [
+        317.9549865722656,
+        689.5924072265625,
+        558.2040405273438,
+        698.6480102539062
+      ],
+      [
+        317.9549865722656,
+        700.6849975585938,
+        362.9536437988281,
+        709.561279296875
+      ]
+    ],
+    "text": "She looked at the citing sentences from both\nof these newer papers, confirming that it was still being used in\nrecent work.",
+    "label": "NONE"
+  },
+  {
+    "page": 12,
+    "rects": [
+      [
+        272.0337829589844,
+        495.8300476074219,
+        294.3793029785156,
+        504.7063293457031
+      ],
+      [
+        53.46699905395508,
+        506.6601257324219,
+        294.04827880859375,
+        515.7068481445312
+      ],
+      [
+        53.79800033569336,
+        517.7470092773438,
+        294.0453186035156,
+        526.623291015625
+      ],
+      [
+        53.79800033569336,
+        528.638427734375,
+        166.5056610107422,
+        537.6048583984375
+      ]
+    ],
+    "text": "Below\nwe list the most common themes from the qualitative analysis to\nprovide more insights into how these actions benefited participants\nduring their literature reviews.",
+    "label": "NONE"
+  },
+  {
+    "page": 13,
+    "rects": [
+      [
+        451.48370361328125,
+        547.213623046875,
+        558.2032470703125,
+        556.153076171875
+      ],
+      [
+        317.9549865722656,
+        558.2064819335938,
+        558.20361328125,
+        567.100830078125
+      ],
+      [
+        317.9549865722656,
+        569.04443359375,
+        558.2041015625,
+        578.1000366210938
+      ],
+      [
+        317.9549865722656,
+        580.1346435546875,
+        363.4216613769531,
+        589.0154418945312
+      ]
+    ],
+    "text": "This simple heuristic allowed\nCiteSee to avoid over-highlighting inline citations based on papers\nloaded in background tabs or less relevant papers quickly closed\nby the users.",
+    "label": "NONE"
+  },
+  {
+    "page": 2,
+    "rects": [
+      [
+        524.90869140625,
+        353.32830810546875,
+        559.18408203125,
+        362.2362060546875
+      ],
+      [
+        317.9549865722656,
+        364.31103515625,
+        558.2024536132812,
+        373.18731689453125
+      ],
+      [
+        317.9549865722656,
+        375.2598571777344,
+        325.4556579589844,
+        384.14971923828125
+      ]
+    ],
+    "text": "However,\nkeeping track of which papers are cited by multiple papers during a\nliterature review is impractical in current reading tools: papers use\nopaque identifiers for citations, like reference numbers or authoryear abbreviations that differ across papers.",
+    "label": "BACKGROUND"
+  },
+  {
+    "page": 6,
+    "rects": [
+      [
+        140.96018981933594,
+        344.5122375488281,
+        294.0420227050781,
+        353.5054931640625
+      ],
+      [
+        53.79800033569336,
+        355.4411315917969,
+        294.0434265136719,
+        364.4745178222656
+      ],
+      [
+        53.79800033569336,
+        366.3834228515625,
+        294.04705810546875,
+        375.4390563964844
+      ],
+      [
+        53.79800033569336,
+        377.3825378417969,
+        81.65352630615234,
+        386.3847351074219
+      ]
+    ],
+    "text": "While prior systems focused on surfacing\nnon-personalized context around citations, CiteSee also provides\npersonalized context based on a user\u2019s reading and publication\nhistory.",
+    "label": "NONE"
+  },
+  {
+    "page": 3,
+    "rects": [
+      [
+        317.9549865722656,
+        575.8175659179688,
+        331.83135986328125,
+        586.7266845703125
+      ],
+      [
+        342.7404479980469,
+        575.8175659179688,
+        544.7116088867188,
+        586.7266845703125
+      ],
+      [
+        317.9549865722656,
+        590.96142578125,
+        472.0239562988281,
+        600.0170288085938
+      ]
+    ],
+    "text": "2.2\nPaper Recommendation and Exploration Besides improving the reading experience, research has also devoted significant efforts to helping researchers discover interesting\npapers to read independent of the reading experience [3].",
+    "label": "NONE"
+  },
+  {
+    "page": 11,
+    "rects": [
+      [
+        53.79800033569336,
+        296.3655700683594,
+        59.405277252197266,
+        307.274658203125
+      ],
+      [
+        70.31437683105469,
+        296.3655700683594,
+        227.3181610107422,
+        307.274658203125
+      ],
+      [
+        53.36800003051758,
+        311.5294494628906,
+        294.04052734375,
+        320.55841064453125
+      ],
+      [
+        53.79800033569336,
+        322.6030578613281,
+        294.04534912109375,
+        331.4793395996094
+      ],
+      [
+        53.46699905395508,
+        333.5518493652344,
+        294.04443359375,
+        342.44171142578125
+      ],
+      [
+        53.79800033569336,
+        344.3897705078125,
+        94.68499755859375,
+        353.44097900390625
+      ]
+    ],
+    "text": "6\nSTUDY 2: FIELD DEPLOYMENT We conducted a field deployment by recruiting participants from\nStudy 1 who had planned to conduct a literature review within two\nweeks to further understand the costs and benefit of CiteSee in the\nreal-world.",
+    "label": "METHODS"
+  },
+  {
+    "page": 3,
+    "rects": [
+      [
+        550.8250732421875,
+        344.52105712890625,
+        558.1973876953125,
+        353.3973388671875
+      ],
+      [
+        317.9549865722656,
+        355.48004150390625,
+        558.2022094726562,
+        364.3563232421875
+      ],
+      [
+        317.9549865722656,
+        366.4390563964844,
+        558.202392578125,
+        375.3153381347656
+      ],
+      [
+        317.9549865722656,
+        377.3980407714844,
+        558.2025146484375,
+        386.2743225097656
+      ],
+      [
+        317.9549865722656,
+        388.3130187988281,
+        558.2017822265625,
+        397.2479553222656
+      ],
+      [
+        317.9549865722656,
+        399.3160400390625,
+        558.2021484375,
+        408.19232177734375
+      ],
+      [
+        317.9549865722656,
+        410.2750549316406,
+        558.2022705078125,
+        419.1513366699219
+      ],
+      [
+        317.9549865722656,
+        421.1653747558594,
+        390.63671875,
+        430.13177490234375
+      ]
+    ],
+    "text": "In\ncontrast, instead of focusing on within-document cross-referencing\nfor a single paper, we focus on supporting users in cross-referencing\nbetween scholarly papers as they reencountered the same citations\nto better support literature reviews, allowing users to identify and\nfollow important citations to explore different papers while keeping\ntrack of how the same citation was described across different papers\nthe users have read.",
+    "label": "NONE"
+  },
+  {
+    "page": 4,
+    "rects": [
+      [
+        455.9142150878906,
+        357.4943542480469,
+        558.2030029296875,
+        366.46075439453125
+      ],
+      [
+        53.79800033569336,
+        368.4533386230469,
+        342.2919921875,
+        377.41973876953125
+      ]
+    ],
+    "text": "[Bottom] Inline citations\nare visually augmented based on their connections to the current user.",
+    "label": "NONE"
+  },
+  {
+    "page": 7,
+    "rects": [
+      [
+        500.0464172363281,
+        669.138427734375,
+        558.2041015625,
+        678.1940307617188
+      ],
+      [
+        317.8290100097656,
+        684.4034423828125,
+        320.3769836425781,
+        689.8829345703125
+      ],
+      [
+        320.875,
+        685.8698120117188,
+        558.3801879882812,
+        692.9130249023438
+      ],
+      [
+        317.9549865722656,
+        693.8397827148438,
+        558.1986694335938,
+        700.8829956054688
+      ],
+      [
+        317.9549865722656,
+        702.1129150390625,
+        343.8626403808594,
+        709.0867309570312
+      ]
+    ],
+    "text": "However, users 1In early design iterations we used blue and purple to be consistent with hyperlink\nin the browser, but we noticed a few publishers already use these colors for inline\ncitations.",
+    "label": "NONE"
+  },
+  {
+    "page": 3,
+    "rects": [
+      [
+        317.9549865722656,
+        121.02252197265625,
+        331.83135986328125,
+        131.93162536621094
+      ],
+      [
+        342.7404479980469,
+        121.02252197265625,
+        515.0715942382812,
+        131.93162536621094
+      ],
+      [
+        317.9549865722656,
+        136.17408752441406,
+        467.4593811035156,
+        145.2208251953125
+      ]
+    ],
+    "text": "2.1\nScientific Paper Reading Interfaces Research in general active reading has pointed to issues users often face when reading to conduct knowledge work [6, 56, 57].",
+    "label": "NONE"
+  },
+  {
+    "page": 9,
+    "rects": [
+      [
+        333.9220275878906,
+        288.8531799316406,
+        558.2019653320312,
+        298.44732666015625
+      ],
+      [
+        342.364013671875,
+        300.4623718261719,
+        475.88287353515625,
+        309.42877197265625
+      ]
+    ],
+    "text": "\u2022 Secondary measure (CurrPaper): This paper is important\nfor understanding the current paper.",
+    "label": "NONE"
+  },
+  {
+    "page": 1,
+    "rects": [
+      [
+        431.29229736328125,
+        580.00341796875,
+        558.1983032226562,
+        589.0590209960938
+      ],
+      [
+        317.9549865722656,
+        590.9747924804688,
+        402.8680419921875,
+        600.0126342773438
+      ]
+    ],
+    "text": "Inline citations are a key resource\nfor discovering papers.",
+    "label": "BACKGROUND"
+  },
+  {
+    "page": 8,
+    "rects": [
+      [
+        93.7008285522461,
+        360.8244323730469,
+        294.04705810546875,
+        369.88006591796875
+      ],
+      [
+        53.79800033569336,
+        371.8470153808594,
+        294.041748046875,
+        380.8179016113281
+      ],
+      [
+        53.79800033569336,
+        382.8770446777344,
+        294.04534912109375,
+        391.7533264160156
+      ],
+      [
+        53.46699905395508,
+        393.76837158203125,
+        286.91632080078125,
+        402.7347717285156
+      ]
+    ],
+    "text": "While it can be challenging for users to remember all\nthe papers they had previously explored, the Paper Cards become\na consistent and personalized context around each paper accessible\nwhenever the users encounter the same citations while reading.",
+    "label": "NONE"
+  },
+  {
+    "page": 3,
+    "rects": [
+      [
+        80.73307037353516,
+        218.42640686035156,
+        165.58213806152344,
+        227.39280700683594
+      ],
+      [
+        64.70800018310547,
+        232.9244384765625,
+        268.4746398925781,
+        241.98007202148438
+      ]
+    ],
+    "text": "This paper contributes: (1) A prototype scientific paper reading tool, CiteSee.",
+    "label": "METHODS"
+  },
+  {
+    "page": 6,
+    "rects": [
+      [
+        83.88594818115234,
+        377.3825378417969,
+        294.0406494140625,
+        386.3847351074219
+      ],
+      [
+        53.79800033569336,
+        388.3070983886719,
+        126.3548583984375,
+        397.35382080078125
+      ]
+    ],
+    "text": "For this, CiteSee visually augments the inline citations to\nindicate different ways the cited papers are connected to the current user.",
+    "label": "NONE"
+  },
+  {
+    "page": 10,
+    "rects": [
+      [
+        223.48146057128906,
+        244.66981506347656,
+        294.0463562011719,
+        253.68093872070312
+      ],
+      [
+        53.79800033569336,
+        255.59442138671875,
+        294.04705810546875,
+        264.6500549316406
+      ],
+      [
+        53.79800033569336,
+        266.6473388671875,
+        294.04302978515625,
+        275.57781982421875
+      ],
+      [
+        53.79800033569336,
+        277.5124206542969,
+        261.5705871582031,
+        286.56805419921875
+      ]
+    ],
+    "text": "After the study, we\nrevealed that they were rating citations highlighted by different\nstrategies, and participants self-reported that they were not aware\nof it and assumed there was a single selection method.",
+    "label": "RESULTS"
+  },
+  {
+    "page": 12,
+    "rects": [
+      [
+        221.06304931640625,
+        656.8330078125,
+        269.6385498046875,
+        665.73193359375
+      ],
+      [
+        78.20700073242188,
+        667.8090209960938,
+        269.6353759765625,
+        676.7044067382812
+      ],
+      [
+        78.20700073242188,
+        678.6528930664062,
+        109.31161499023438,
+        687.70849609375
+      ]
+    ],
+    "text": "These [global\ncitation] numbers are like \u201cthis paper alone, is it worth\nreading?\u201d And the stuff below [titles and citing sentences from other papers] actually showed me \u201cis it\nrelated?",
+    "label": "NONE"
+  },
+  {
+    "page": 9,
+    "rects": [
+      [
+        317.9549865722656,
+        314.2520446777344,
+        559.1866455078125,
+        323.1283264160156
+      ],
+      [
+        317.9549865722656,
+        325.2110290527344,
+        362.2857971191406,
+        334.0873107910156
+      ]
+    ],
+    "text": "Here, the first statement was the primary measurement of our study,\nand the second statement was designed to ensure participants were\nactively differentiating the topic of the current paper and the higherlevel topic for their literature review scenario.",
+    "label": "METHODS"
+  },
+  {
+    "page": 2,
+    "rects": [
+      [
+        63.76100158691406,
+        539.6259155273438,
+        294.0455322265625,
+        548.538330078125
+      ],
+      [
+        53.79800033569336,
+        550.5713500976562,
+        294.0430908203125,
+        559.5018310546875
+      ],
+      [
+        53.79800033569336,
+        561.5608520507812,
+        294.04925537109375,
+        570.4507446289062
+      ],
+      [
+        53.79800033569336,
+        572.4860229492188,
+        188.5812225341797,
+        581.4209594726562
+      ]
+    ],
+    "text": "What readers do not have, but could benefit from, are tools that\nprovide in-situ support, within a paper, for the challenging task of\nunderstanding how citations relate to their own nuanced, evolving\nresearch interests and search history.",
+    "label": "BACKGROUND"
+  },
+  {
+    "page": 11,
+    "rects": [
+      [
+        536.18017578125,
+        481.4596252441406,
+        558.2032470703125,
+        490.3990783691406
+      ],
+      [
+        317.9549865722656,
+        492.3314208984375,
+        558.487548828125,
+        501.3870544433594
+      ],
+      [
+        317.6860046386719,
+        503.2904357910156,
+        558.2059326171875,
+        512.3460693359375
+      ],
+      [
+        317.9549865722656,
+        514.2494506835938,
+        558.3687744140625,
+        523.3050537109375
+      ],
+      [
+        317.62298583984375,
+        525.2084350585938,
+        559.58251953125,
+        534.2640380859375
+      ]
+    ],
+    "text": "While\na prior survey found inline citations accounted for around 21%\n(n=881) of paper discovery during research [33], participants in\nour field deployment study used CiteSee to discover useful prior\nwork via inline citations around 2.7x more frequently than that.",
+    "label": "NONE"
+  },
+  {
+    "page": 11,
+    "rects": [
+      [
+        437.4321594238281,
+        360.8544921875,
+        558.2057495117188,
+        369.87005615234375
+      ],
+      [
+        317.9549865722656,
+        371.8807373046875,
+        558.1978759765625,
+        380.80670166015625
+      ],
+      [
+        317.9549865722656,
+        382.8770446777344,
+        558.202392578125,
+        391.7533264160156
+      ],
+      [
+        317.9549865722656,
+        393.76837158203125,
+        469.6756896972656,
+        402.7347717285156
+      ]
+    ],
+    "text": "We were initially concerned that\nhighlighting the inline citations may be distracting to users, so we\nincluded a design where users could turn off the highlights and see\nrelevant citations in a list view (Figure 3).",
+    "label": "METHODS"
+  },
+  {
+    "page": 11,
+    "rects": [
+      [
+        439.12701416015625,
+        187.3973846435547,
+        558.2007446289062,
+        196.36378479003906
+      ],
+      [
+        317.9549865722656,
+        198.3563690185547,
+        543.8815307617188,
+        207.32276916503906
+      ]
+    ],
+    "text": "P1 and P2 conducted multiple\nliterature reviews and the rest focused on a single topic.",
+    "label": "RESULTS"
+  },
+  {
+    "page": 14,
+    "rects": [
+      [
+        138.21157836914062,
+        459.4855041503906,
+        294.04852294921875,
+        468.5010681152344
+      ],
+      [
+        53.79800033569336,
+        470.54803466796875,
+        294.04156494140625,
+        479.4433898925781
+      ],
+      [
+        53.79800033569336,
+        481.43939208984375,
+        294.0409240722656,
+        490.4057922363281
+      ],
+      [
+        53.79800033569336,
+        492.4017639160156,
+        294.0453796386719,
+        501.3636779785156
+      ],
+      [
+        53.79800033569336,
+        503.3473205566406,
+        294.0450134277344,
+        512.3271484375
+      ],
+      [
+        53.79800033569336,
+        514.3130493164062,
+        89.65460205078125,
+        523.283935546875
+      ]
+    ],
+    "text": "For example, a practitioner learning about\nmachine learning could bring up Concept Cards for language models\nand transformer models when mentioned in the current paper and\nsee prior notes and relevant paragraphs gathered from papers she\nhas recently read to keep track of important concepts used across\nliterature.",
+    "label": "NONE"
+  },
+  {
+    "page": 5,
+    "rects": [
+      [
+        213.9213409423828,
+        528.0433959960938,
+        294.0470275878906,
+        537.0989990234375
+      ],
+      [
+        53.79800033569336,
+        539.1370239257812,
+        294.0452575683594,
+        548.0133056640625
+      ],
+      [
+        53.79800033569336,
+        549.96044921875,
+        295.4280090332031,
+        559.0160522460938
+      ]
+    ],
+    "text": "For the first idea, we\nfound participants had concerns around the accuracy of measuring\nsemantic similarity between papers and the lack of explanations.",
+    "label": "NONE"
+  },
+  {
+    "page": 7,
+    "rects": [
+      [
+        257.8601989746094,
+        371.91802978515625,
+        294.04534912109375,
+        380.7943115234375
+      ],
+      [
+        53.79800033569336,
+        382.83636474609375,
+        294.04302978515625,
+        391.766845703125
+      ],
+      [
+        53.79800033569336,
+        393.8360290527344,
+        102.73321533203125,
+        402.7123107910156
+      ]
+    ],
+    "text": "Details on\nhow CiteSee processes raw PDFs of scientific papers are described\nin Section 4.6.",
+    "label": "NONE"
+  },
+  {
+    "page": 9,
+    "rects": [
+      [
+        448.5483703613281,
+        613.0140380859375,
+        558.2022094726562,
+        621.8903198242188
+      ],
+      [
+        317.9549865722656,
+        623.8384399414062,
+        558.2039184570312,
+        632.89404296875
+      ],
+      [
+        317.9549865722656,
+        634.8509521484375,
+        558.4326171875,
+        643.8352661132812
+      ],
+      [
+        317.9549865722656,
+        645.87744140625,
+        423.20379638671875,
+        654.7717895507812
+      ]
+    ],
+    "text": "This design was a compromise\nto control for the length and cognitive demand of the study, and\nit allowed us to compare multiple discovery highlighting strategy\nbased on human judgements.",
+    "label": "CONCLUSIONS"
+  },
+  {
+    "page": 7,
+    "rects": [
+      [
+        116.86885070800781,
+        196.57261657714844,
+        294.21453857421875,
+        205.45343017578125
+      ],
+      [
+        53.79800033569336,
+        207.50115966796875,
+        294.046875,
+        216.422607421875
+      ],
+      [
+        53.79800033569336,
+        218.45338439941406,
+        294.0430908203125,
+        227.3838348388672
+      ],
+      [
+        53.79800033569336,
+        229.31842041015625,
+        294.0470275878906,
+        238.37405395507812
+      ],
+      [
+        53.79800033569336,
+        240.27642822265625,
+        294.04705810546875,
+        249.33206176757812
+      ],
+      [
+        53.79800033569336,
+        251.30238342285156,
+        130.9000701904297,
+        260.2687683105469
+      ]
+    ],
+    "text": "As she explores and builds up more papers in her\nlibrary and reading history, CiteSee continues to learn more about\nher interests, allowing her to prioritize unexplored inline citations\nmost related to her interests and use their Paper Cards to access\na persistent historical context to see how relevant past activities\naround each citation.",
+    "label": "NONE"
+  },
+  {
+    "page": 15,
+    "rects": [
+      [
+        266.4100036621094,
+        215.9912109375,
+        294.0447692871094,
+        222.91250610351562
+      ],
+      [
+        69.23400115966797,
+        223.9069061279297,
+        250.6969451904297,
+        230.89569091796875
+      ]
+    ],
+    "text": "Journal of\nthe Association for Information Science and Technology 70 (2019).",
+    "label": "BACKGROUND"
+  },
+  {
+    "page": 5,
+    "rects": [
+      [
+        53.79800033569336,
+        326.5975646972656,
+        67.67437744140625,
+        337.50665283203125
+      ],
+      [
+        78.58348083496094,
+        326.5975646972656,
+        279.71453857421875,
+        337.50665283203125
+      ],
+      [
+        53.36800003051758,
+        341.811767578125,
+        188.98358154296875,
+        350.773681640625
+      ]
+    ],
+    "text": "3.1\nFear of Overlooking Important Citations While some participants recalled paying less attention when reading to understand a paper quickly (e.g., to figure out the accuracy of\na machine learning model), all participants emphasized the importance of using inline citations during literature reviews to discover\nimportant prior work.",
+    "label": "RESULTS"
+  },
+  {
+    "page": 13,
+    "rects": [
+      [
+        400.86187744140625,
+        448.5365295410156,
+        558.1976928710938,
+        457.5387268066406
+      ],
+      [
+        317.9549865722656,
+        459.4554443359375,
+        558.2041015625,
+        468.5110778808594
+      ],
+      [
+        317.6860046386719,
+        470.416748046875,
+        558.430419921875,
+        479.46795654296875
+      ],
+      [
+        317.9549865722656,
+        481.3724365234375,
+        559.5851440429688,
+        490.4280700683594
+      ]
+    ],
+    "text": "Potential solutions includes allowing users\nto explicitly create and specify current literature review context\n(e.g., creating topical projects or library folders) or automatically\nidentify parts of a reading history relevant to the current paper.",
+    "label": "NONE"
+  },
+  {
+    "page": 8,
+    "rects": [
+      [
+        385.7248229980469,
+        560.2344360351562,
+        558.3688354492188,
+        569.2900390625
+      ],
+      [
+        317.9549865722656,
+        571.3280029296875,
+        559.581787109375,
+        580.2042846679688
+      ]
+    ],
+    "text": "The first pass was designed to build up their\nreading history and to learn the common theme of the three papers.",
+    "label": "NONE"
+  },
+  {
+    "page": 14,
+    "rects": [
+      [
+        91.90741729736328,
+        514.3130493164062,
+        294.04168701171875,
+        523.283935546875
+      ],
+      [
+        53.79800033569336,
+        525.2084350585938,
+        147.1558074951172,
+        534.2640380859375
+      ]
+    ],
+    "text": "Recent work both in NLP on linking scientific concepts\n[10] and in HCI on in-situ web clipping, organization and maintaining provenance [25, 35] could potentially lead to techniques for\ndriving this novel interaction for scholarly research support.",
+    "label": "NONE"
+  },
+  {
+    "page": 5,
+    "rects": [
+      [
+        53.79800033569336,
+        674.4475708007812,
+        67.67437744140625,
+        685.356689453125
+      ],
+      [
+        78.58348083496094,
+        674.4475708007812,
+        268.9690856933594,
+        685.356689453125
+      ],
+      [
+        53.79800033569336,
+        689.619140625,
+        294.0412902832031,
+        698.63916015625
+      ],
+      [
+        53.79800033569336,
+        700.5570678710938,
+        142.574951171875,
+        709.6038208007812
+      ]
+    ],
+    "text": "3.2\nProgress Tracking and Loss of Context Participants described using different strategies to save papers to\nread or keep references.",
+    "label": "NONE"
+  },
+  {
+    "page": 9,
+    "rects": [
+      [
+        460.44970703125,
+        591.0486450195312,
+        558.2033081054688,
+        599.9880981445312
+      ],
+      [
+        317.9549865722656,
+        602.0549926757812,
+        558.2023315429688,
+        610.9312744140625
+      ],
+      [
+        317.9549865722656,
+        613.0140380859375,
+        446.4219055175781,
+        621.8903198242188
+      ]
+    ],
+    "text": "We iteratively arrive at the\nfinal design of reading the first parts of three papers in two passes to\nsimulate literature review activities.",
+    "label": "METHODS"
+  },
+  {
+    "page": 2,
+    "rects": [
+      [
+        212.41290283203125,
+        473.76544189453125,
+        294.0477294921875,
+        482.8210754394531
+      ],
+      [
+        53.79800033569336,
+        484.78131103515625,
+        268.43206787109375,
+        493.7611389160156
+      ]
+    ],
+    "text": "NLP researchers have\ndeveloped technologies that analyze inline citations in a way that\ncould be assistive to understanding those citations, for instance\nclassifying their level of influence on the citing paper [60] or predicting their intent (e.g., whether the citation informs the methods,\nbackground, or results) [16].",
+    "label": "NONE"
+  },
+  {
+    "page": 14,
+    "rects": [
+      [
+        160.64224243164062,
+        338.9074401855469,
+        294.0418395996094,
+        347.96307373046875
+      ],
+      [
+        53.79800033569336,
+        349.8898010253906,
+        294.04248046875,
+        358.9142761230469
+      ],
+      [
+        53.79800033569336,
+        360.8611755371094,
+        294.04376220703125,
+        369.86785888671875
+      ],
+      [
+        53.79800033569336,
+        371.91802978515625,
+        158.57135009765625,
+        380.7943115234375
+      ]
+    ],
+    "text": "Finally, a more aggressive approach\ncould be suggesting further search query terms based on a user\u2019s\nreading history to further their breath of paper exploration using\ntechniques similar to [42, 43].",
+    "label": "NONE"
+  },
+  {
+    "page": 13,
+    "rects": [
+      [
+        465.0091247558594,
+        656.7153930664062,
+        558.2041625976562,
+        665.77099609375
+      ],
+      [
+        317.62298583984375,
+        667.8090209960938,
+        519.2423095703125,
+        676.685302734375
+      ]
+    ],
+    "text": "While participants in the\nweek-long deployment did not point to having too few or too many\ncitations being highlighted, we did observe an increase in proportion of inline citations being slightly highlighted in the second half\nof the week (M=13.0% SD=10.2%).",
+    "label": "RESULTS"
+  },
+  {
+    "page": 6,
+    "rects": [
+      [
+        317.6860046386719,
+        470.44012451171875,
+        558.2013549804688,
+        479.4601745605469
+      ],
+      [
+        317.9549865722656,
+        481.5070495605469,
+        558.2023315429688,
+        490.3833312988281
+      ],
+      [
+        317.9549865722656,
+        492.3314208984375,
+        558.2039794921875,
+        501.3870544433594
+      ],
+      [
+        317.9549865722656,
+        503.3573913574219,
+        477.001220703125,
+        512.3237915039062
+      ]
+    ],
+    "text": "These personalized augmentations allow her to contextualize the\ncurrent paper by surfacing citations to familiar papers and focusing\nher attention on examining the most important citations when\ntrying to find other relevant papers to read.",
+    "label": "NONE"
+  },
+  {
+    "page": 6,
+    "rects": [
+      [
+        53.79800033569336,
+        252.60858154296875,
+        67.67437744140625,
+        263.5176696777344
+      ],
+      [
+        78.58348083496094,
+        252.60858154296875,
+        287.983642578125,
+        263.5176696777344
+      ],
+      [
+        53.79800033569336,
+        267.80023193359375,
+        295.0316162109375,
+        276.7934875488281
+      ],
+      [
+        53.79800033569336,
+        278.7817687988281,
+        294.04534912109375,
+        287.7436828613281
+      ],
+      [
+        53.79800033569336,
+        289.6871337890625,
+        294.0434265136719,
+        298.72052001953125
+      ],
+      [
+        53.52899932861328,
+        300.6294250488281,
+        89.53573608398438,
+        309.68505859375
+      ]
+    ],
+    "text": "4.1\nOverview of Citation Augmentation Types Similar to prior work in scientific paper reader interfaces [27, 48],\nCiteSee allows users to interact with an inline citation by clicking\nquery for information about a cited paper in a popup Paper Card\n(figure 2).",
+    "label": "NONE"
+  },
+  {
+    "page": 14,
+    "rects": [
+      [
+        113.07559204101562,
+        437.67205810546875,
+        294.0453796386719,
+        446.54833984375
+      ],
+      [
+        53.79800033569336,
+        448.63104248046875,
+        294.0453186035156,
+        457.50732421875
+      ],
+      [
+        53.79800033569336,
+        459.4855041503906,
+        135.97251892089844,
+        468.5010681152344
+      ]
+    ],
+    "text": "One promising direction is to generalize the idea of\nconsistent Paper Cards in this work and support scientific concepts\nin papers for learning.",
+    "label": "NONE"
+  },
+  {
+    "page": 11,
+    "rects": [
+      [
+        53.36800003051758,
+        410.1437683105469,
+        294.04864501953125,
+        419.1949462890625
+      ],
+      [
+        53.79800033569336,
+        421.1653747558594,
+        288.6101989746094,
+        430.13177490234375
+      ]
+    ],
+    "text": "We explicitly asked them to record interesting experiences using\nthe reader and record at least six entries during the deployment.",
+    "label": "METHODS"
+  },
+  {
+    "page": 11,
+    "rects": [
+      [
+        474.48046875,
+        459.4554443359375,
+        558.200439453125,
+        468.5110778808594
+      ],
+      [
+        317.9549865722656,
+        470.53106689453125,
+        558.3685302734375,
+        479.4299621582031
+      ],
+      [
+        317.9549865722656,
+        481.4596252441406,
+        533.92529296875,
+        490.3990783691406
+      ]
+    ],
+    "text": "Participants used both\nthe inline citations and external sources (such as search engines or\nsocial recommendations) to explore and save useful papers.",
+    "label": "METHODS"
+  },
+  {
+    "page": 11,
+    "rects": [
+      [
+        151.2493133544922,
+        476.0246276855469,
+        294.044189453125,
+        484.90545654296875
+      ],
+      [
+        53.79800033569336,
+        486.8524169921875,
+        294.2117004394531,
+        495.9080505371094
+      ],
+      [
+        53.79800033569336,
+        497.9020080566406,
+        131.18836975097656,
+        506.8369445800781
+      ]
+    ],
+    "text": "This process included reopening papers\nthey had read during the deployment and talking through their\ndiary entries with us.",
+    "label": "METHODS"
+  },
+  {
+    "page": 8,
+    "rects": [
+      [
+        228.58299255371094,
+        196.52859497070312,
+        294.04608154296875,
+        205.46804809570312
+      ],
+      [
+        53.79800033569336,
+        207.460693359375,
+        294.0480041503906,
+        216.43605041503906
+      ],
+      [
+        53.79800033569336,
+        218.35943603515625,
+        294.0470886230469,
+        227.41506958007812
+      ],
+      [
+        53.79800033569336,
+        229.45301818847656,
+        86.29259490966797,
+        238.32931518554688
+      ]
+    ],
+    "text": "To further remind\nusers how engaged they were with the citing papers, CiteSee also\nshows the last time each was opened and the estimated reading\nprogress.",
+    "label": "NONE"
+  },
+  {
+    "page": 13,
+    "rects": [
+      [
+        317.9549865722656,
+        400.4745788574219,
+        323.562255859375,
+        411.3836669921875
+      ],
+      [
+        334.4713439941406,
+        400.4745788574219,
+        517.406005859375,
+        411.3836669921875
+      ],
+      [
+        317.5249938964844,
+        415.7099914550781,
+        496.915283203125,
+        424.6449279785156
+      ]
+    ],
+    "text": "7\nLIMITATIONS AND FUTURE WORK While CiteSee used a slider that allowed users to adjust the length\nof reading history considered by the system (Figure 5), a future\ndirection is to provide better support for users interleaving reading for multiple tasks.",
+    "label": "NONE"
+  },
+  {
+    "page": 4,
+    "rects": [
+      [
+        244.33383178710938,
+        440.48712158203125,
+        294.0411682128906,
+        449.5071716308594
+      ],
+      [
+        53.79800033569336,
+        451.47296142578125,
+        294.0415344238281,
+        460.457275390625
+      ],
+      [
+        53.79800033569336,
+        462.37841796875,
+        294.0469970703125,
+        471.4340515136719
+      ],
+      [
+        53.79800033569336,
+        473.3374328613281,
+        81.1986083984375,
+        482.39306640625
+      ]
+    ],
+    "text": "In contrast to\ngenerating lists of paper recommendations, HCI researchers have\nalso explored interactive visual interfaces for exploring citation\ngraphs.",
+    "label": "NONE"
+  },
+  {
+    "page": 5,
+    "rects": [
+      [
+        317.9549865722656,
+        273.20697021484375,
+        558.19873046875,
+        282.1912841796875
+      ],
+      [
+        317.9549865722656,
+        284.2165222167969,
+        558.20068359375,
+        293.1334533691406
+      ],
+      [
+        317.9549865722656,
+        295.0714416503906,
+        344.7611389160156,
+        304.1270751953125
+      ]
+    ],
+    "text": "More fundamentally, participants expressed how it is high cost to\nsynthesize information across different documents about the same\npapers.",
+    "label": "RESULTS"
+  },
+  {
+    "page": 2,
+    "rects": [
+      [
+        350.4847717285156,
+        671.1600341796875,
+        558.2022705078125,
+        680.0363159179688
+      ],
+      [
+        317.9549865722656,
+        681.9844360351562,
+        390.9470520019531,
+        691.0400390625
+      ]
+    ],
+    "text": "In addition to visually augmenting inline citations, to help\nusers better make sense of the cited papers, CiteSee keeps track\nof a consistent and personalized context of how different papers connect to the user\u2019s previous activities, for example, reminding\nusers of the context of how they discovered different papers saved\nin their library or how an inline citation was described by other\npapers in their reading history (Figure 2).",
+    "label": "NONE"
+  },
+  {
+    "page": 9,
+    "rects": [
+      [
+        63.76100158691406,
+        497.8770751953125,
+        294.04412841796875,
+        506.7759704589844
+      ],
+      [
+        53.79800033569336,
+        508.80902099609375,
+        295.0330505371094,
+        517.7439575195312
+      ],
+      [
+        53.79800033569336,
+        519.694091796875,
+        294.04351806640625,
+        528.7275390625
+      ],
+      [
+        53.79800033569336,
+        530.6631469726562,
+        294.0415344238281,
+        539.6831665039062
+      ],
+      [
+        53.79800033569336,
+        541.5944213867188,
+        294.047119140625,
+        550.6500244140625
+      ],
+      [
+        53.79800033569336,
+        552.6541137695312,
+        187.5437774658203,
+        561.5755615234375
+      ]
+    ],
+    "text": "At the start of the second pass, we walked through the different\ncomponents in the Paper Cards, such as the global citation counts,\nciting sentences from the other two papers (when available), and\nabstract summaries (generated by [9]) as described in the System\nsection, participants could click on any citations as they read to\nsee their corresponding Paper Cards.",
+    "label": "NONE"
+  },
+  {
+    "page": 1,
+    "rects": [
+      [
+        53.52899932861328,
+        324.2947692871094,
+        294.0450744628906,
+        333.2566833496094
+      ],
+      [
+        53.79800033569336,
+        335.1834411621094,
+        101.11801147460938,
+        344.23907470703125
+      ]
+    ],
+    "text": "This paper introduces CiteSee, a paper reading tool that leverages\na user\u2019s publishing, reading, and saving activities to provide personalized visual augmentations and context around citations.",
+    "label": "METHODS"
+  },
+  {
+    "page": 7,
+    "rects": [
+      [
+        396.4958801269531,
+        522.802001953125,
+        558.2044067382812,
+        531.6782836914062
+      ],
+      [
+        317.9549865722656,
+        533.6264038085938,
+        559.1918334960938,
+        542.6820068359375
+      ],
+      [
+        317.9549865722656,
+        544.58544921875,
+        558.2040405273438,
+        553.6410522460938
+      ],
+      [
+        317.9549865722656,
+        555.54443359375,
+        559.1881103515625,
+        564.6000366210938
+      ],
+      [
+        317.9549865722656,
+        566.5703735351562,
+        377.9492492675781,
+        575.5368041992188
+      ]
+    ],
+    "text": "Second, CiteSee leverages a user\u2019s publication\nhistory as another source for finding papers familiar to the user,\nallowing the system to visually augment inline citations to the\nuser\u2019s own papers and the papers cited by them (cited papers,\nFigures 4 and 2).",
+    "label": "NONE"
+  },
+  {
+    "page": 5,
+    "rects": [
+      [
+        222.9336395263672,
+        626.6800537109375,
+        294.0482482910156,
+        635.726806640625
+      ],
+      [
+        53.79800033569336,
+        637.6994018554688,
+        294.0438232421875,
+        646.6658325195312
+      ],
+      [
+        53.79800033569336,
+        648.5914306640625,
+        294.27569580078125,
+        657.6470336914062
+      ],
+      [
+        53.79800033569336,
+        659.6163940429688,
+        146.8333740234375,
+        668.5828247070312
+      ]
+    ],
+    "text": "However, they also\nagreed that this requires them to examine the right inline citation\nacross different papers by chance and was not a signal that they\ncould consistently notice.",
+    "label": "RESULTS"
+  },
+  {
+    "page": 8,
+    "rects": [
+      [
+        354.6322021484375,
+        538.4510498046875,
+        558.2021484375,
+        547.3273315429688
+      ],
+      [
+        317.9549865722656,
+        549.2754516601562,
+        558.2042236328125,
+        558.3310546875
+      ],
+      [
+        317.9549865722656,
+        560.2344360351562,
+        382.5055236816406,
+        569.2900390625
+      ]
+    ],
+    "text": "During the study, participants examined the three papers\nfrom their chosen topic in two passes to simulate activity in a\nliterature review.",
+    "label": "METHODS"
+  },
+  {
+    "page": 8,
+    "rects": [
+      [
+        53.79800033569336,
+        86.98702239990234,
+        294.2124328613281,
+        95.8633041381836
+      ],
+      [
+        53.79800033569336,
+        97.94600677490234,
+        294.0453186035156,
+        106.8222885131836
+      ],
+      [
+        53.79800033569336,
+        108.77045440673828,
+        72.03458404541016,
+        117.8260726928711
+      ]
+    ],
+    "text": "might need context beyond the citing sentence in the current paper\nto draw connections between a citation to different papers they had\nread.",
+    "label": "NONE"
+  },
+  {
+    "page": 11,
+    "rects": [
+      [
+        317.65899658203125,
+        176.4384002685547,
+        558.2008666992188,
+        185.40480041503906
+      ],
+      [
+        317.9549865722656,
+        187.3973846435547,
+        437.3695983886719,
+        196.36378479003906
+      ]
+    ],
+    "text": "Table 1: Literature review topics conducted by participants\nin the field deployment study.",
+    "label": "METHODS"
+  },
+  {
+    "page": 5,
+    "rects": [
+      [
+        121.63186645507812,
+        130.68743896484375,
+        294.0432434082031,
+        139.74307250976562
+      ],
+      [
+        53.79800033569336,
+        141.66311645507812,
+        294.0434265136719,
+        150.69650268554688
+      ],
+      [
+        53.79800033569336,
+        152.60540771484375,
+        295.4280700683594,
+        161.66104125976562
+      ]
+    ],
+    "text": "Similar to a scheme used in [27, 48], all eight\ndesigns allowed users to click on an inline citations and bring up\npaper context card with the title and abstract of the cited paper.",
+    "label": "METHODS"
+  },
+  {
+    "page": 8,
+    "rects": [
+      [
+        53.52899932861328,
+        284.1124267578125,
+        294.2170715332031,
+        293.1680603027344
+      ],
+      [
+        53.79800033569336,
+        295.2060546875,
+        294.2123107910156,
+        304.08233642578125
+      ],
+      [
+        53.79800033569336,
+        306.1650390625,
+        294.04534912109375,
+        315.04132080078125
+      ],
+      [
+        53.52899932861328,
+        317.056396484375,
+        112.67138671875,
+        326.0227966308594
+      ]
+    ],
+    "text": "This context is then added to its Paper Card whenever the user\nre-encounters the same citation across different papers and in their\nlibrary, as a way to remind them why it was saved in the first place\n(Figure 2, right).",
+    "label": "NONE"
+  },
+  {
+    "page": 1,
+    "rects": [
+      [
+        276.8708190917969,
+        346.2566833496094,
+        295.0299377441406,
+        355.16009521484375
+      ],
+      [
+        53.79800033569336,
+        357.2360534667969,
+        294.0453186035156,
+        366.1123352050781
+      ],
+      [
+        53.79800033569336,
+        368.1476135253906,
+        212.798828125,
+        377.0870666503906
+      ]
+    ],
+    "text": "First,\nCiteSee connects the current paper to familiar contexts by surfacing\nknown citations a user had cited or opened.",
+    "label": "NONE"
+  },
+  {
+    "page": 1,
+    "rects": [
+      [
+        473.3716735839844,
+        459.505615234375,
+        558.2034301757812,
+        468.494384765625
+      ],
+      [
+        317.9549865722656,
+        470.5039978027344,
+        529.4428100585938,
+        479.4389343261719
+      ]
+    ],
+    "text": "Researchers draw from\nprior work to synthesize existing knowledge, identify research opportunities, and find inspirations for future research.",
+    "label": "BACKGROUND"
+  },
+  {
+    "page": 1,
+    "rects": [
+      [
+        405.0999450683594,
+        590.9747924804688,
+        558.2001953125,
+        600.0126342773438
+      ],
+      [
+        317.9549865722656,
+        601.92041015625,
+        558.2035522460938,
+        610.9954833984375
+      ],
+      [
+        317.9549865722656,
+        612.8794555664062,
+        558.204345703125,
+        621.9545288085938
+      ],
+      [
+        317.9549865722656,
+        623.9020385742188,
+        559.58251953125,
+        632.8729248046875
+      ]
+    ],
+    "text": "The behavior of following multiple levels\nof inline citations, sometimes referred to as chaining or footnote\nchasing, has been observed across many scholar groups such as\nsociology, computer science, and economics (summarized in [44]).",
+    "label": "NONE"
+  },
+  {
+    "page": 8,
+    "rects": [
+      [
+        88.16423797607422,
+        229.45301818847656,
+        294.04534912109375,
+        238.32931518554688
+      ],
+      [
+        53.79800033569336,
+        240.27642822265625,
+        294.0470886230469,
+        249.33206176757812
+      ],
+      [
+        53.79800033569336,
+        251.3462677001953,
+        217.48455810546875,
+        260.2541809082031
+      ]
+    ],
+    "text": "Similarly Paper Cards of citations to familiar papers based\non a user\u2019s publication history also show the titles of the user\u2019s\npublication and the relevant citing sentences.",
+    "label": "NONE"
+  },
+  {
+    "page": 1,
+    "rects": [
+      [
+        243.68661499023438,
+        390.113037109375,
+        294.0453186035156,
+        398.98931884765625
+      ],
+      [
+        53.79800033569336,
+        401.0347595214844,
+        294.21844482421875,
+        409.9607238769531
+      ],
+      [
+        53.79800033569336,
+        411.8954162597656,
+        194.9348602294922,
+        420.9510498046875
+      ]
+    ],
+    "text": "We conducted\na lab study that suggests CiteSee is significantly more effective for\npaper discovery than three baselines.",
+    "label": "OBJECTIVE"
+  },
+  {
+    "page": 10,
+    "rects": [
+      [
+        53.79800033569336,
+        345.6805419921875,
+        67.67437744140625,
+        356.5896301269531
+      ],
+      [
+        78.58348083496094,
+        345.6805419921875,
+        154.2162628173828,
+        356.5896301269531
+      ],
+      [
+        53.79800033569336,
+        360.95904541015625,
+        294.04534912109375,
+        369.8353271484375
+      ],
+      [
+        53.79800033569336,
+        371.8773498535156,
+        294.04302978515625,
+        380.8078308105469
+      ],
+      [
+        53.79800033569336,
+        382.8770446777344,
+        280.2672424316406,
+        391.7533264160156
+      ]
+    ],
+    "text": "5.2\nStudy 1 Results Based on their think-aloud, participants engaged with the literature\nreview scenarios and actively judged the connections between the\ncited papers and the summaries they generated in the first pass.",
+    "label": "NONE"
+  },
+  {
+    "page": 6,
+    "rects": [
+      [
+        327.9179992675781,
+        360.8244323730469,
+        558.1981811523438,
+        369.88006591796875
+      ],
+      [
+        317.9549865722656,
+        371.91802978515625,
+        558.2022705078125,
+        380.7943115234375
+      ],
+      [
+        317.9549865722656,
+        382.742431640625,
+        535.7787475585938,
+        391.7980651855469
+      ]
+    ],
+    "text": "Feeling overwhelmed, she switches to the CiteSee reader and\nopens up the same papers (Figure 3), and can immediately see which\ninline citations were already opened in her browser tabs.",
+    "label": "NONE"
+  },
+  {
+    "page": 6,
+    "rects": [
+      [
+        478.523681640625,
+        327.94842529296875,
+        558.2013549804688,
+        337.0040588378906
+      ],
+      [
+        317.9549865722656,
+        339.0284729003906,
+        558.20361328125,
+        347.9228515625
+      ],
+      [
+        317.9549865722656,
+        349.9333801269531,
+        423.66888427734375,
+        358.8997802734375
+      ]
+    ],
+    "text": "However, it would be\ntoo costly and disruptive to go through this process for each inline\ncitation that might be useful.",
+    "label": "NONE"
+  },
+  {
+    "page": 12,
+    "rects": [
+      [
+        327.9179992675781,
+        634.9320068359375,
+        558.2008666992188,
+        643.8082885742188
+      ],
+      [
+        317.9549865722656,
+        645.8672485351562,
+        559.58203125,
+        654.7752075195312
+      ]
+    ],
+    "text": "When opening a paper, CiteSee inserts a summary page at the top\nthat lists the total count of different augmentation types (Figure 3).",
+    "label": "NONE"
+  },
+  {
+    "page": 1,
+    "rects": [
+      [
+        317.9549865722656,
+        634.8610229492188,
+        558.1985473632812,
+        643.8319091796875
+      ],
+      [
+        317.9549865722656,
+        645.8638916015625,
+        558.2057495117188,
+        654.7763061523438
+      ],
+      [
+        317.9549865722656,
+        656.7823486328125,
+        367.6916809082031,
+        665.748779296875
+      ]
+    ],
+    "text": "More specifically, one survey study estimated that inline citations\naccounted for around one in five (21%) of paper discoveries during\nresearch [33].",
+    "label": "BACKGROUND"
+  },
+  {
+    "page": 3,
+    "rects": [
+      [
+        414.6969909667969,
+        223.91213989257812,
+        558.2036743164062,
+        232.86956787109375
+      ],
+      [
+        317.9549865722656,
+        234.79742431640625,
+        558.2042236328125,
+        243.85305786132812
+      ],
+      [
+        317.9549865722656,
+        245.75640869140625,
+        530.9588623046875,
+        254.81204223632812
+      ]
+    ],
+    "text": "This mapping enabled interactions that\nhelped users avoid the high interaction costs of scrolling to the\nreferences section to contextualize citations as they read.",
+    "label": "CONCLUSIONS"
+  },
+  {
+    "page": 3,
+    "rects": [
+      [
+        53.79800033569336,
+        499.10455322265625,
+        59.405277252197266,
+        510.0136413574219
+      ],
+      [
+        70.31437683105469,
+        499.10455322265625,
+        157.587158203125,
+        510.0136413574219
+      ],
+      [
+        53.52899932861328,
+        514.3704833984375,
+        294.21875,
+        523.2648315429688
+      ],
+      [
+        53.79800033569336,
+        525.2787475585938,
+        295.031494140625,
+        534.2406616210938
+      ],
+      [
+        53.79800033569336,
+        536.2816772460938,
+        294.21710205078125,
+        545.18505859375
+      ],
+      [
+        53.79800033569336,
+        547.2440185546875,
+        204.0640106201172,
+        556.1429443359375
+      ]
+    ],
+    "text": "2\nRELATED WORK To better support the literature review process in a scientific paper\nreader interface, we look to prior work in exploratory search [39],\nsensemaking [51], and information foraging [46] behavior for user\nmodels to guide the design of our system.",
+    "label": "NONE"
+  },
+  {
+    "page": 8,
+    "rects": [
+      [
+        402.258544921875,
+        637.0201416015625,
+        558.2034912109375,
+        645.9775390625
+      ],
+      [
+        317.9549865722656,
+        648.0400390625,
+        558.2023315429688,
+        656.9163208007812
+      ],
+      [
+        317.9549865722656,
+        658.931396484375,
+        335.6725769042969,
+        667.8978271484375
+      ]
+    ],
+    "text": "The summaries they wrote were then used\nas the topic of interest for their literature review task in the second\npass.",
+    "label": "METHODS"
+  },
+  {
+    "page": 14,
+    "rects": [
+      [
+        53.79800033569336,
+        141.64642333984375,
+        294.0471496582031,
+        150.70205688476562
+      ],
+      [
+        53.79800033569336,
+        152.74000549316406,
+        294.04541015625,
+        161.61630249023438
+      ],
+      [
+        53.79800033569336,
+        163.564453125,
+        294.0452575683594,
+        172.62008666992188
+      ],
+      [
+        53.79800033569336,
+        174.5904083251953,
+        231.8438262939453,
+        183.5568084716797
+      ]
+    ],
+    "text": "However, prior work has also shown even users could face high\nuncertainty when highlighting manually during sensemaking tasks\n[11], and it is not apparent that further improving the highlight\nshading accuracy would have significant benefit.",
+    "label": "NONE"
+  },
+  {
+    "page": 6,
+    "rects": [
+      [
+        69.76499938964844,
+        543.8422241210938,
+        294.04669189453125,
+        553.4810180664062
+      ],
+      [
+        78.20700073242188,
+        555.451416015625,
+        239.47669982910156,
+        564.4178466796875
+      ]
+    ],
+    "text": "\u2022 Own Papers: Heart emojis are rendered over the inline\ncitations to the user\u2019s previous publications.",
+    "label": "NONE"
+  },
+  {
+    "page": 13,
+    "rects": [
+      [
+        53.79800033569336,
+        265.2137145996094,
+        69.68646240234375,
+        274.18011474609375
+      ],
+      [
+        78.65286254882812,
+        265.2137145996094,
+        235.01800537109375,
+        274.18011474609375
+      ]
+    ],
+    "text": "6.1.4\nRemembering Papers from the Past (D2,D3).",
+    "label": "NONE"
+  },
+  {
+    "page": 6,
+    "rects": [
+      [
+        63.76100158691406,
+        634.894775390625,
+        294.0428771972656,
+        643.8206787109375
+      ],
+      [
+        53.79800033569336,
+        645.8740234375,
+        295.0326232910156,
+        654.77294921875
+      ],
+      [
+        53.79800033569336,
+        656.7153930664062,
+        294.0470275878906,
+        665.77099609375
+      ],
+      [
+        53.79800033569336,
+        667.6777954101562,
+        294.0492248535156,
+        676.7289428710938
+      ],
+      [
+        53.79800033569336,
+        678.6367797851562,
+        132.23709106445312,
+        687.6879272460938
+      ]
+    ],
+    "text": "In addition, when clicking on a inline citation, CiteSee provides\npersonalized historic context in the form of Paper Cards (Figure 2),\nallowing users to see their past interaction related to the cited\npaper to help them recall a known paper or better make sense of\nan unexplored paper.",
+    "label": "NONE"
+  },
+  {
+    "page": 4,
+    "rects": [
+      [
+        344.87432861328125,
+        368.4533386230469,
+        558.2030639648438,
+        377.41973876953125
+      ],
+      [
+        53.79800033569336,
+        379.4113464355469,
+        558.3917236328125,
+        388.37774658203125
+      ],
+      [
+        53.79800033569336,
+        390.3703308105469,
+        558.2030029296875,
+        399.33673095703125
+      ],
+      [
+        53.79800033569336,
+        401.3293151855469,
+        82.44564819335938,
+        410.29571533203125
+      ]
+    ],
+    "text": "For example, to help users keep track of citations to\nalready explored papers, previously opened or saved papers were rendered in green or red, respectively; to help users discover\nrelevant and unexplored papers, citations also cited by papers in their reading history is highlighted in different shades of\nyellow.",
+    "label": "NONE"
+  },
+  {
+    "page": 13,
+    "rects": [
+      [
+        546.4090576171875,
+        601.994140625,
+        558.203125,
+        610.9515380859375
+      ],
+      [
+        317.9549865722656,
+        613.0038452148438,
+        558.2059936523438,
+        621.8937377929688
+      ],
+      [
+        317.9549865722656,
+        623.8384399414062,
+        364.991455078125,
+        632.89404296875
+      ]
+    ],
+    "text": "We\ndid account for this when designing CiteSee in two ways: 1) When\na user opens or saves a reencountered citation, they become \u201cfamiliar\u201d and are no longer highlighted in yellow.",
+    "label": "NONE"
+  },
+  {
+    "page": 7,
+    "rects": [
+      [
+        161.01785278320312,
+        591.0960083007812,
+        294.0453186035156,
+        599.9722900390625
+      ],
+      [
+        53.57400131225586,
+        601.92041015625,
+        294.0426025390625,
+        610.9760131835938
+      ],
+      [
+        53.79800033569336,
+        613.0140380859375,
+        182.9503631591797,
+        621.8903198242188
+      ]
+    ],
+    "text": "For this, CiteSee tracks the maximum\nvertical scroll position proportional to the length of the paper to\nestimate the users\u2019 reading progress.",
+    "label": "METHODS"
+  },
+  {
+    "page": 7,
+    "rects": [
+      [
+        317.9549865722656,
+        424.0574645996094,
+        559.5821533203125,
+        433.08642578125
+      ]
+    ],
+    "text": "For this, CiteSee augments inline citations using two approaches.",
+    "label": "METHODS"
+  },
+  {
+    "page": 12,
+    "rects": [
+      [
+        410.98834228515625,
+        367.3177490234375,
+        558.1980590820312,
+        376.24371337890625
+      ],
+      [
+        317.9549865722656,
+        378.30047607421875,
+        558.201171875,
+        387.2139587402344
+      ],
+      [
+        317.9549865722656,
+        389.2730407714844,
+        558.2018432617188,
+        398.16839599609375
+      ],
+      [
+        317.9549865722656,
+        400.1643981933594,
+        498.7530212402344,
+        409.15008544921875
+      ],
+      [
+        342.364013671875,
+        415.6595153808594,
+        533.791748046875,
+        424.6617126464844
+      ],
+      [
+        342.364013671875,
+        426.7130432128906,
+        533.7904052734375,
+        435.5893249511719
+      ],
+      [
+        342.364013671875,
+        437.67205810546875,
+        535.1699829101562,
+        446.54833984375
+      ]
+    ],
+    "text": "One representative example was P1 who\nconducted a literature review around interacting with video content\nand had developed a higher interest around the subtopic of systems\nand interaction techniques over video accessibility: \u201cRelated paper [highlighted reencountered citations\nin general] could either be about videos [interactions]\nor accessibility.\u2018 I\u2019m not that interested in accessibility.",
+    "label": "NONE"
+  },
+  {
+    "page": 13,
+    "rects": [
+      [
+        97.36454772949219,
+        667.6744384765625,
+        269.6333923339844,
+        676.7300415039062
+      ],
+      [
+        78.20700073242188,
+        678.7273559570312,
+        241.4330596923828,
+        687.6578369140625
+      ]
+    ],
+    "text": "I can immediately get context for the citations\nand find relevant things to add to my library.",
+    "label": "NONE"
+  },
+  {
+    "page": 9,
+    "rects": [
+      [
+        176.0279541015625,
+        214.97337341308594,
+        558.202880859375,
+        223.9397735595703
+      ],
+      [
+        53.79800033569336,
+        225.93235778808594,
+        143.09437561035156,
+        234.8987579345703
+      ]
+    ],
+    "text": "Comparing different highlight strategy for helping users to discover important inline citations\nfor literature reviews.",
+    "label": "NONE"
+  },
+  {
+    "page": 13,
+    "rects": [
+      [
+        207.75718688964844,
+        502.9547424316406,
+        269.6405334472656,
+        512.0059204101562
+      ],
+      [
+        78.20700073242188,
+        513.9104614257812,
+        269.6361389160156,
+        522.966064453125
+      ],
+      [
+        78.20700073242188,
+        524.8694458007812,
+        269.6361999511719,
+        533.925048828125
+      ],
+      [
+        78.20700073242188,
+        535.8953857421875,
+        171.89691162109375,
+        544.86181640625
+      ],
+      [
+        53.36800003051758,
+        549.357421875,
+        294.0469055175781,
+        558.4130249023438
+      ],
+      [
+        53.79800033569336,
+        560.3532104492188,
+        294.0437316894531,
+        569.35986328125
+      ],
+      [
+        53.79800033569336,
+        571.3424072265625,
+        274.8825378417969,
+        580.308837890625
+      ]
+    ],
+    "text": "For example this\ntitle is super vague, but here [the saved from citing\nsentence], it talks about \u2018time spend.\u2019 It gives me a\nbetter sense of why.\u201d \u2013 P5\nWhile outside the scope of this work, participants also pointed\nout that further customization of context could be useful, such as\nattaching notes or specific sentences from the current paper.",
+    "label": "NONE"
+  },
+  {
+    "page": 6,
+    "rects": [
+      [
+        529.9925537109375,
+        404.7273864746094,
+        558.2008666992188,
+        413.69378662109375
+      ],
+      [
+        317.9549865722656,
+        415.7540283203125,
+        558.2025146484375,
+        424.63031005859375
+      ],
+      [
+        317.9549865722656,
+        426.7130432128906,
+        558.202392578125,
+        435.5893249511719
+      ],
+      [
+        317.9549865722656,
+        437.67205810546875,
+        368.97271728515625,
+        446.54833984375
+      ]
+    ],
+    "text": "She can\nnow see inline citations to papers she has already opened rendered\nin green text, or papers saved in her library folders rendered in red\ntext (Figure 4).",
+    "label": "NONE"
+  }
+]

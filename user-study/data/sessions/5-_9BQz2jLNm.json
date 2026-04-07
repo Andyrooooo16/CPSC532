@@ -1,0 +1,181 @@
+{
+  "sessionId": "5-_9BQz2jLNm",
+  "participantId": "P36",
+  "paperOrder": [
+    "paper6",
+    "paper5",
+    "paper4"
+  ],
+  "conditions": [
+    "all_highlights",
+    "no_highlights",
+    "contextual_highlights"
+  ],
+  "createdAt": "2026-04-07T10:16:21.596Z",
+  "step": "reading_0",
+  "demographicResponses": {
+    "age": "A",
+    "role": "A",
+    "field": "test",
+    "reading_freq": "B",
+    "reading_style": "B"
+  },
+  "tasks": [
+    {
+      "paperKey": "paper6",
+      "condition": "all_highlights",
+      "priorPapers": [],
+      "startedAt": "2026-04-07T10:16:43.015Z",
+      "completedAt": null,
+      "attempts": [],
+      "perQuestionTimeSeconds": null,
+      "firstAttemptCorrect": null,
+      "finalAnswers": null
+    }
+  ],
+  "questionnaireResponses": [],
+  "finalResponses": null,
+  "completedAt": null,
+  "questionOrders": {
+    "paper6": [
+      "p6q9",
+      "p6q5",
+      "p6q2",
+      "p6q3",
+      "p6q1",
+      "p6q10",
+      "p6q4",
+      "p6q7",
+      "p6q8",
+      "p6q6"
+    ],
+    "paper5": [
+      "p5q8",
+      "p5q4",
+      "p5q1",
+      "p5q7",
+      "p5q2",
+      "p5q9",
+      "p5q10",
+      "p5q3",
+      "p5q5",
+      "p5q6"
+    ],
+    "paper4": [
+      "p4q2",
+      "p4q9",
+      "p4q7",
+      "p4q3",
+      "p4q4",
+      "p4q6",
+      "p4q10",
+      "p4q5",
+      "p4q1",
+      "p4q8"
+    ]
+  },
+  "optionOrders": {
+    "paper6": {
+      "p6q1": [
+        "C",
+        "A",
+        "D",
+        "B"
+      ],
+      "p6q3": [
+        "C",
+        "D",
+        "A",
+        "B"
+      ],
+      "p6q5": [
+        "B",
+        "D",
+        "A",
+        "C"
+      ],
+      "p6q6": [
+        "D",
+        "A",
+        "C",
+        "B"
+      ],
+      "p6q8": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "paper5": {
+      "p5q1": [
+        "D",
+        "A",
+        "C",
+        "B"
+      ],
+      "p5q3": [
+        "D",
+        "C",
+        "B",
+        "A"
+      ],
+      "p5q5": [
+        "B",
+        "C",
+        "A",
+        "D"
+      ],
+      "p5q6": [
+        "C",
+        "A",
+        "B",
+        "D"
+      ],
+      "p5q8": [
+        "C",
+        "B",
+        "D",
+        "A"
+      ]
+    },
+    "paper4": {
+      "p4q1": [
+        "C",
+        "D",
+        "B",
+        "A"
+      ],
+      "p4q3": [
+        "B",
+        "C",
+        "D",
+        "A"
+      ],
+      "p4q5": [
+        "C",
+        "D",
+        "B",
+        "A"
+      ],
+      "p4q6": [
+        "D",
+        "A",
+        "C",
+        "B"
+      ],
+      "p4q7": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "p4q9": [
+        "A",
+        "D",
+        "B",
+        "C"
+      ]
+    }
+  }
+}
