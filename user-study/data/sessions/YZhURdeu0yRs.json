@@ -1,0 +1,199 @@
+{
+  "sessionId": "YZhURdeu0yRs",
+  "participantId": "P06",
+  "paperOrder": [
+    "paper6",
+    "paper5",
+    "paper4"
+  ],
+  "conditions": [
+    "no_highlights",
+    "all_highlights",
+    "contextual_highlights"
+  ],
+  "createdAt": "2026-04-08T10:36:09.032Z",
+  "step": "reading_0",
+  "demographicResponses": {
+    "age": "B",
+    "role": "B",
+    "field": "test",
+    "reading_freq": "A",
+    "reading_style": "B"
+  },
+  "tasks": [
+    {
+      "paperKey": "paper6",
+      "condition": "no_highlights",
+      "priorPapers": [],
+      "startedAt": "2026-04-08T10:36:23.353Z",
+      "completedAt": null,
+      "attempts": [
+        {
+          "submittedAt": "2026-04-08T10:36:51.237Z",
+          "answers": {
+            "p6q5": "B",
+            "p6q8": "D",
+            "p6q1": "A",
+            "p6q4": "test",
+            "p6q7": "test",
+            "p6q9": "test",
+            "p6q10": "test",
+            "p6q3": "D",
+            "p6q6": "B",
+            "p6q2": "test"
+          },
+          "scores": {
+            "p6q1": false,
+            "p6q3": false,
+            "p6q5": true,
+            "p6q6": false,
+            "p6q8": false
+          }
+        }
+      ],
+      "perQuestionTimeSeconds": null,
+      "firstAttemptCorrect": null,
+      "finalAnswers": null
+    }
+  ],
+  "questionnaireResponses": [],
+  "finalResponses": null,
+  "crossAttempts": [],
+  "completedAt": null,
+  "questionOrders": {
+    "paper6": [
+      "p6q5",
+      "p6q8",
+      "p6q1",
+      "p6q4",
+      "p6q7",
+      "p6q9",
+      "p6q10",
+      "p6q3",
+      "p6q6",
+      "p6q2"
+    ],
+    "paper5": [
+      "p5q6",
+      "p5q10",
+      "p5q8",
+      "p5q2",
+      "p5q1",
+      "p5q9",
+      "p5q7",
+      "p5q3",
+      "p5q4",
+      "p5q5"
+    ],
+    "paper4": [
+      "p4q1",
+      "p4q9",
+      "p4q5",
+      "p4q7",
+      "p4q2",
+      "p4q8",
+      "p4q6",
+      "p4q4",
+      "p4q3",
+      "p4q10"
+    ]
+  },
+  "optionOrders": {
+    "paper6": {
+      "p6q1": [
+        "B",
+        "C",
+        "A",
+        "D"
+      ],
+      "p6q3": [
+        "C",
+        "B",
+        "A",
+        "D"
+      ],
+      "p6q5": [
+        "C",
+        "D",
+        "B",
+        "A"
+      ],
+      "p6q6": [
+        "B",
+        "A",
+        "C",
+        "D"
+      ],
+      "p6q8": [
+        "D",
+        "B",
+        "C",
+        "A"
+      ]
+    },
+    "paper5": {
+      "p5q1": [
+        "C",
+        "A",
+        "B",
+        "D"
+      ],
+      "p5q3": [
+        "B",
+        "D",
+        "A",
+        "C"
+      ],
+      "p5q5": [
+        "B",
+        "A",
+        "D",
+        "C"
+      ],
+      "p5q6": [
+        "C",
+        "A",
+        "B",
+        "D"
+      ],
+      "p5q8": [
+        "C",
+        "D",
+        "B",
+        "A"
+      ]
+    },
+    "paper4": {
+      "p4q1": [
+        "A",
+        "C",
+        "B",
+        "D"
+      ],
+      "p4q3": [
+        "C",
+        "D",
+        "B",
+        "A"
+      ],
+      "p4q5": [
+        "C",
+        "A",
+        "D",
+        "B"
+      ],
+      "p4q7": [
+        "B",
+        "A",
+        "D",
+        "C"
+      ],
+      "p4q9": [
+        "C",
+        "A",
+        "B",
+        "D"
+      ]
+    }
+  }
+}

@@ -112,7 +112,7 @@
             "id": "p1ease",
             "text": "Overall, how easy was it to skim this paper for the relevant information?",
             "type": "likert",
-            "scale": { "min": 1, "max": 7, "minLabel": "Very Difficult", "maxLabel": "Very Easy" }
+            "scale": { "min": 1, "max": 5, "minLabel": "Very Easy", "maxLabel": "Very Difficult" }
           },
           {
             "id": "p1comments",
@@ -175,7 +175,7 @@
             "id": "p2ease",
             "text": "Overall, how easy was it to skim this paper for the relevant information?",
             "type": "likert",
-            "scale": { "min": 1, "max": 7, "minLabel": "Very Difficult", "maxLabel": "Very Easy" }
+            "scale": { "min": 1, "max": 5, "minLabel": "Very Easy", "maxLabel": "Very Difficult" }
           },
           {
             "id": "p2comments",
@@ -238,7 +238,7 @@
             "id": "p3ease",
             "text": "Overall, how easy was it to skim this paper for the relevant information?",
             "type": "likert",
-            "scale": { "min": 1, "max": 7, "minLabel": "Very Difficult", "maxLabel": "Very Easy" }
+            "scale": { "min": 1, "max": 5, "minLabel": "Very Easy", "maxLabel": "Very Difficult" }
           },
           {
             "id": "p3comments",
@@ -300,15 +300,8 @@
     },
     {
       "id": "p4q6",
-      "text": "How were participants recruited for the study, and what was the minimum usage requirement to qualify?",
-      "type": "multiple_choice",
-      "options": {
-        "A": "LinkedIn outreach; used GenAI at least once ever",
-        "B": "Prolific platform; used GenAI at work at least once per week",
-        "C": "Prolific platform; used GenAI at work at least once per month",
-        "D": "Internal Microsoft employees; daily GenAI users"
-      },
-      "correct": "B"
+      "text": "The paper reports both motivational factors and ability barriers that influence whether knowledge workers engage in critical thinking when using GenAI. How do these two interact, and what does this imply about when critical thinking is most likely to break down in practice?",
+      "type": "free_text"
     },
     {
       "id": "p4q7",
@@ -412,7 +405,7 @@
         "id": "p4ease",
         "text": "Overall, how easy was it to skim this paper for the relevant information?",
         "type": "likert",
-        "scale": { "min": 1, "max": 7, "minLabel": "Very Difficult", "maxLabel": "Very Easy" }
+        "scale": { "min": 1, "max": 5, "minLabel": "Very Easy", "maxLabel": "Very Difficult" }
       },
       {
         "id": "p4comments",
@@ -579,7 +572,7 @@
         "id": "p5ease",
         "text": "Overall, how easy was it to skim this paper for the relevant information?",
         "type": "likert",
-        "scale": { "min": 1, "max": 7, "minLabel": "Very Difficult", "maxLabel": "Very Easy" }
+        "scale": { "min": 1, "max": 5, "minLabel": "Very Easy", "maxLabel": "Very Difficult" }
       },
       {
         "id": "p5comments",
@@ -747,7 +740,7 @@
         "id": "p6ease",
         "text": "Overall, how easy was it to skim this paper for the relevant information?",
         "type": "likert",
-        "scale": { "min": 1, "max": 7, "minLabel": "Very Difficult", "maxLabel": "Very Easy" }
+        "scale": { "min": 1, "max": 5, "minLabel": "Very Easy", "maxLabel": "Very Difficult" }
       },
       {
         "id": "p6comments",
@@ -758,6 +751,97 @@
   }
 }
   },
+
+"crossQuestionnaire": {
+  "instructions": "Please answer the following questions based on your understanding of all three papers. Keep responses to 1–3 sentences where applicable.",
+  "questions": [
+    {
+      "id": "cpq1",
+      "text": "Across the three papers, what is the most consistent finding about how AI affects human cognition?",
+      "type": "multiple_choice",
+      "options": {
+        "A": "AI eliminates the need for human judgment",
+        "B": "AI redistributes cognitive effort rather than simply reducing it",
+        "C": "AI only affects inexperienced users",
+        "D": "AI improves accuracy regardless of user behavior"
+      },
+      "correct": "B"
+    },
+    {
+      "id": "cpq2",
+      "text": "Describe one way cognitive effort changes when people use AI, and briefly explain why this change happens based on the papers.",
+      "type": "free_text"
+    },
+    {
+      "id": "cpq3",
+      "text": "Which scenario best reflects a risk discussed across multiple papers?",
+      "type": "multiple_choice",
+      "options": {
+        "A": "A user ignores AI output and works independently",
+        "B": "A user carefully verifies AI output before using it",
+        "C": "A user accepts AI output because it seems confident or convenient",
+        "D": "A user compares multiple AI systems before deciding"
+      },
+      "correct": "C"
+    },
+    {
+      "id": "cpq4",
+      "text": "The papers suggest that reduced effort is not always beneficial. Give one example of when lower effort could harm outcomes, and explain why.",
+      "type": "free_text"
+    },
+    {
+      "id": "cpq5",
+      "text": "What shared role do humans play when using AI systems across these studies?",
+      "type": "multiple_choice",
+      "options": {
+        "A": "Passive recipients of output",
+        "B": "Final decision-makers responsible for evaluating outputs",
+        "C": "System trainers only",
+        "D": "Observers with minimal involvement"
+      },
+      "correct": "B"
+    },
+    {
+      "id": "cpq6",
+      "text": "Across the papers, what is one factor that influences whether people verify AI outputs or not?",
+      "type": "free_text"
+    },
+    {
+      "id": "cpq7",
+      "text": "Which of the following best captures a shared tradeoff across the papers?",
+      "type": "multiple_choice",
+      "options": {
+        "A": "Speed vs cost",
+        "B": "Efficiency vs depth of thinking",
+        "C": "Data size vs model accuracy",
+        "D": "Automation vs hardware performance"
+      },
+      "correct": "B"
+    },
+    {
+      "id": "cpq8",
+      "text": "Give one reason why people might over-rely on AI, and connect it to a concept or finding from one of the papers.",
+      "type": "free_text"
+    },
+    {
+      "id": "cpq9",
+      "text": "Which statement best reflects how AI affects decision quality across the papers?",
+      "type": "multiple_choice",
+      "options": {
+        "A": "AI consistently improves decision quality",
+        "B": "AI reduces decision quality in all cases",
+        "C": "AI can improve or harm decision quality depending on how users engage with it",
+        "D": "AI has no measurable effect"
+      },
+      "correct": "C"
+    },
+    {
+      "id": "cpq10",
+      "text": "Based on all three papers, explain how AI can both improve performance and create risks at the same time. Reference at least two different ideas (e.g., effort, reliance, verification, or outcomes).",
+      "type": "free_text"
+    }
+  ]
+},
 
 
   "finalQuestionnaire": {

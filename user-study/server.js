@@ -88,7 +88,9 @@ function allSteps(paperCount) {
   for (let i = 0; i < paperCount; i++) {
     steps.push(`pre_task_${i}`, `reading_${i}`, `questionnaire_${i}`);
   }
-  steps.push('final_questionnaire', 'done');
+  // Insert a cross-paper questionnaire step before the final questionnaire.
+  // This step is shown once after all per-paper questionnaires and before the final questionnaire.
+  steps.push('cross_paper', 'final_questionnaire', 'done');
   return steps;
 }
 
@@ -114,6 +116,9 @@ function nextStep(currentStep, session) {
     // Skip final_questionnaire if not in questions.json
     if (candidate === 'final_questionnaire' && !questions.finalQuestionnaire) continue;
 
+  // Skip cross_paper if not configured in questions.json
+  if (candidate === 'cross_paper' && !questions.crossQuestionnaire) continue;
+
     return candidate;
   }
   return 'done';
@@ -123,6 +128,7 @@ function nextStep(currentStep, session) {
 function stepToPath(step) {
   if (step === 'demographics') return 'demographics';
   if (step === 'final_questionnaire') return 'final';
+  if (step === 'cross_paper') return 'cross';
   if (step === 'done') return 'done';
   if (step.startsWith('pre_task_')) return 'pre-task';
   if (step.startsWith('reading_')) return 'reader';
@@ -279,6 +285,9 @@ app.get('/session/:id/questionnaire', (_req, res) =>
 app.get('/session/:id/final', (_req, res) =>
   res.sendFile(path.join(APP_DIR, 'final.html')));
 
+app.get('/session/:id/cross', (_req, res) =>
+  res.sendFile(path.join(APP_DIR, 'cross.html')));
+
 app.get('/session/:id/done', (_req, res) =>
   res.sendFile(path.join(APP_DIR, 'done.html')));
 
@@ -307,6 +316,8 @@ app.post('/api/sessions', (req, res) => {
     tasks: [],
     questionnaireResponses: [],
     finalResponses: null,
+    // store cross-paper questionnaire attempts (each entry = { submittedAt, responses })
+    crossAttempts: [],
     completedAt: null,
     questionOrders,
     optionOrders,
@@ -389,6 +400,11 @@ app.get('/api/session/:id/questionnaire-items', (req, res) => {
   if (step === 'final_questionnaire') {
     if (!questions.finalQuestionnaire) return res.status(404).json({ error: 'No final questionnaire' });
     return res.json(questions.finalQuestionnaire);
+  }
+
+  if (step === 'cross_paper') {
+    if (!questions.crossQuestionnaire) return res.status(404).json({ error: 'No cross-paper questionnaire' });
+    return res.json(questions.crossQuestionnaire);
   }
 
   const qMatch = step.match(/^questionnaire_(\d+)$/);
@@ -605,6 +621,45 @@ app.post('/api/session/:id/submit-questionnaire', (req, res) => {
     session.step = 'done';
     session.completedAt = new Date().toISOString();
   } else {
+    // Handle cross-paper questionnaire submissions
+    if (step === 'cross_paper') {
+      // Score cross-paper multiple-choice questions (if 'correct' is provided in questions.json)
+      const crossQ = questions.crossQuestionnaire?.questions || [];
+      const scores = {};
+      const wrongIds = [];
+      const correctIds = [];
+
+      for (const q of crossQ) {
+        if (q.type === 'multiple_choice' && q.correct !== undefined) {
+          const ans = responses[q.id];
+          const ok = ans !== undefined && String(ans) === String(q.correct);
+          scores[q.id] = ok;
+          if (ok) correctIds.push(q.id); else wrongIds.push(q.id);
+        }
+      }
+
+      // record the attempt with scores
+      session.crossAttempts = session.crossAttempts || [];
+      session.crossAttempts.push({
+        submittedAt: new Date().toISOString(),
+        answers: responses,
+        scores,
+      });
+
+      const allCorrect = wrongIds.length === 0;
+      if (allCorrect) {
+        // mark final answers and advance to next step
+        session.crossFinalAnswers = responses;
+        session.step = nextStep(step, session);
+        if (session.step === 'done') session.completedAt = new Date().toISOString();
+        writeSession(session);
+        return res.json({ nextPath: `/session/${session.sessionId}/${stepToPath(session.step)}` });
+      }
+
+      // not all correct: do not advance step; return feedback to client
+      writeSession(session);
+      return res.json({ allCorrect: false, wrongIds, correctIds });
+    } else {
     const qMatch = step.match(/^questionnaire_(\d+)$/);
     if (!qMatch) return res.status(400).json({ error: 'Not a questionnaire step' });
 
@@ -618,6 +673,7 @@ app.post('/api/session/:id/submit-questionnaire', (req, res) => {
 
     // If all papers done and no final questionnaire, mark complete
     if (session.step === 'done') session.completedAt = new Date().toISOString();
+    }
   }
 
   writeSession(session);

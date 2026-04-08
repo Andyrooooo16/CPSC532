@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cross Paper Questionnaire · Reading Study</title>
+  <link rel="stylesheet" href="/app/app.css">
+</head>
+<body>
+  <div class="page-centered">
+    <div class="progress-bar-wrap">
+      <div class="progress-label">Cross Paper Questions</div>
+      <div class="progress-bar"><div class="progress-bar-fill" style="width:90%"></div></div>
+    </div>
+
+    <div class="card">
+      <h1>Cross Paper Questions</h1>
+      <p class="subtitle" id="instructions">Please answer the following questions comparing the papers.</p>
+
+      <div id="error-banner" class="banner banner-error" style="display:none"></div>
+
+      <form id="cross-form" novalidate>
+        <div id="questions-container"></div>
+        <div class="form-actions">
+          <button type="submit" class="btn btn-primary" id="submit-btn">Submit</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script type="module">
+    import { guardPage, getSessionId } from '/app/session.js';
+  import { renderQuestions, collectAnswers, validateAnswers, markMCFeedback, lockCorrectQuestions } from '/app/question-renderer.js';
+
+    const sessionId = getSessionId();
+    const state = await guardPage('cross');
+    if (!state) throw new Error('redirect');
+
+    const res = await fetch(`/api/session/${sessionId}/questionnaire-items`);
+    if (!res.ok) { window.location.href = `/session/${sessionId}`; }
+    const data = await res.json();
+
+    document.getElementById('instructions').textContent = data.instructions || '';
+    const container = document.getElementById('questions-container');
+    renderQuestions(container, data.questions);
+
+    const errorBanner = document.getElementById('error-banner');
+    const submitBtn = document.getElementById('submit-btn');
+
+    document.getElementById('cross-form').addEventListener('submit', async e => {
+      e.preventDefault();
+      errorBanner.style.display = 'none';
+
+      const required = data.questions.filter(q => q.type !== 'free_text');
+      const unanswered = validateAnswers(container, required);
+      if (unanswered.length > 0) {
+        errorBanner.textContent = 'Please answer all required questions before submitting.';
+        errorBanner.style.display = 'block';
+        return;
+      }
+
+      const responses = collectAnswers(container);
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'Submitting…';
+
+      try {
+        const r = await fetch(`/api/session/${sessionId}/submit-questionnaire`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ responses }),
+        });
+        if (!r.ok) throw new Error(`Server error ${r.status}`);
+        const body = await r.json();
+
+        // If server returned feedback about wrong answers, show it and don't advance
+        if (body.allCorrect === false) {
+          const wrongIds = body.wrongIds || [];
+          const correctIds = body.correctIds || [];
+          markMCFeedback(container, wrongIds, correctIds);
+          lockCorrectQuestions(container, correctIds);
+          errorBanner.textContent = 'Some answers are incorrect. Incorrect answers are highlighted in red — please try again.';
+          errorBanner.style.display = 'block';
+          submitBtn.disabled = false;
+          submitBtn.textContent = 'Submit';
+          return;
+        }
+
+        // Otherwise server advanced and sent nextPath
+        const { nextPath } = body;
+        window.location.href = nextPath;
+      } catch (err) {
+        errorBanner.textContent = err.message || 'Something went wrong.';
+        errorBanner.style.display = 'block';
+        submitBtn.disabled = false;
+        submitBtn.textContent = 'Submit';
+      }
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,176 @@
+{
+  "sessionId": "cXB_PTuGhl1A",
+  "participantId": "P06",
+  "paperOrder": [
+    "paper6",
+    "paper5",
+    "paper4"
+  ],
+  "conditions": [
+    "no_highlights",
+    "all_highlights",
+    "contextual_highlights"
+  ],
+  "createdAt": "2026-04-08T10:17:30.368Z",
+  "step": "reading_0",
+  "demographicResponses": {
+    "age": "B",
+    "role": "D",
+    "field": "test",
+    "reading_freq": "C",
+    "reading_style": "A"
+  },
+  "tasks": [
+    {
+      "paperKey": "paper6",
+      "condition": "no_highlights",
+      "priorPapers": [],
+      "startedAt": "2026-04-08T10:17:38.351Z",
+      "completedAt": null,
+      "attempts": [],
+      "perQuestionTimeSeconds": null,
+      "firstAttemptCorrect": null,
+      "finalAnswers": null
+    }
+  ],
+  "questionnaireResponses": [],
+  "finalResponses": null,
+  "crossAttempts": [],
+  "completedAt": null,
+  "questionOrders": {
+    "paper6": [
+      "p6q7",
+      "p6q6",
+      "p6q2",
+      "p6q10",
+      "p6q3",
+      "p6q8",
+      "p6q9",
+      "p6q4",
+      "p6q5",
+      "p6q1"
+    ],
+    "paper5": [
+      "p5q4",
+      "p5q3",
+      "p5q9",
+      "p5q1",
+      "p5q7",
+      "p5q10",
+      "p5q5",
+      "p5q8",
+      "p5q6",
+      "p5q2"
+    ],
+    "paper4": [
+      "p4q4",
+      "p4q3",
+      "p4q9",
+      "p4q7",
+      "p4q8",
+      "p4q2",
+      "p4q6",
+      "p4q1",
+      "p4q5",
+      "p4q10"
+    ]
+  },
+  "optionOrders": {
+    "paper6": {
+      "p6q1": [
+        "D",
+        "A",
+        "C",
+        "B"
+      ],
+      "p6q3": [
+        "D",
+        "C",
+        "A",
+        "B"
+      ],
+      "p6q5": [
+        "D",
+        "C",
+        "A",
+        "B"
+      ],
+      "p6q6": [
+        "A",
+        "C",
+        "D",
+        "B"
+      ],
+      "p6q8": [
+        "B",
+        "D",
+        "A",
+        "C"
+      ]
+    },
+    "paper5": {
+      "p5q1": [
+        "D",
+        "C",
+        "A",
+        "B"
+      ],
+      "p5q3": [
+        "A",
+        "D",
+        "C",
+        "B"
+      ],
+      "p5q5": [
+        "D",
+        "B",
+        "C",
+        "A"
+      ],
+      "p5q6": [
+        "B",
+        "C",
+        "A",
+        "D"
+      ],
+      "p5q8": [
+        "A",
+        "D",
+        "C",
+        "B"
+      ]
+    },
+    "paper4": {
+      "p4q1": [
+        "B",
+        "A",
+        "C",
+        "D"
+      ],
+      "p4q3": [
+        "C",
+        "D",
+        "B",
+        "A"
+      ],
+      "p4q5": [
+        "D",
+        "A",
+        "B",
+        "C"
+      ],
+      "p4q7": [
+        "D",
+        "C",
+        "A",
+        "B"
+      ],
+      "p4q9": [
+        "B",
+        "D",
+        "A",
+        "C"
+      ]
+    }
+  }
+}

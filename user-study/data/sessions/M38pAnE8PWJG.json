@@ -1,0 +1,666 @@
+{
+  "sessionId": "M38pAnE8PWJG",
+  "participantId": "P06",
+  "paperOrder": [
+    "paper6",
+    "paper5",
+    "paper4"
+  ],
+  "conditions": [
+    "no_highlights",
+    "all_highlights",
+    "contextual_highlights"
+  ],
+  "createdAt": "2026-04-08T08:09:00.295Z",
+  "step": "final_questionnaire",
+  "demographicResponses": {
+    "age": "B",
+    "role": "D",
+    "field": "test",
+    "reading_freq": "C",
+    "reading_style": "A"
+  },
+  "tasks": [
+    {
+      "paperKey": "paper6",
+      "condition": "no_highlights",
+      "priorPapers": [],
+      "startedAt": "2026-04-08T08:09:15.336Z",
+      "completedAt": "2026-04-08T08:19:43.858Z",
+      "attempts": [
+        {
+          "submittedAt": "2026-04-08T08:09:41.724Z",
+          "answers": {
+            "p6q6": "B",
+            "p6q5": "C",
+            "p6q3": "B",
+            "p6q8": "D",
+            "p6q2": "test",
+            "p6q9": "test",
+            "p6q7": "test",
+            "p6q1": "C",
+            "p6q10": "test",
+            "p6q4": "test"
+          },
+          "scores": {
+            "p6q1": false,
+            "p6q3": false,
+            "p6q5": false,
+            "p6q6": false,
+            "p6q8": false
+          }
+        },
+        {
+          "submittedAt": "2026-04-08T08:09:42.767Z",
+          "answers": {
+            "p6q6": "B",
+            "p6q5": "C",
+            "p6q3": "B",
+            "p6q8": "D",
+            "p6q2": "test",
+            "p6q9": "test",
+            "p6q7": "test",
+            "p6q1": "C",
+            "p6q10": "test",
+            "p6q4": "test"
+          },
+          "scores": {
+            "p6q1": false,
+            "p6q3": false,
+            "p6q5": false,
+            "p6q6": false,
+            "p6q8": false
+          }
+        },
+        {
+          "submittedAt": "2026-04-08T08:10:15.109Z",
+          "answers": {
+            "p6q6": "B",
+            "p6q5": "C",
+            "p6q3": "B",
+            "p6q8": "D",
+            "p6q2": "test",
+            "p6q9": "test",
+            "p6q7": "test",
+            "p6q1": "D",
+            "p6q10": "test",
+            "p6q4": "test"
+          },
+          "scores": {
+            "p6q1": false,
+            "p6q3": false,
+            "p6q5": false,
+            "p6q6": false,
+            "p6q8": false
+          }
+        },
+        {
+          "submittedAt": "2026-04-08T08:12:07.684Z",
+          "answers": {
+            "p6q6": "B",
+            "p6q5": "C",
+            "p6q3": "B",
+            "p6q8": "D",
+            "p6q2": "test",
+            "p6q9": "test",
+            "p6q7": "test",
+            "p6q1": "C",
+            "p6q10": "test",
+            "p6q4": "test"
+          },
+          "scores": {
+            "p6q1": false,
+            "p6q3": false,
+            "p6q5": false,
+            "p6q6": false,
+            "p6q8": false
+          }
+        },
+        {
+          "submittedAt": "2026-04-08T08:12:14.747Z",
+          "answers": {
+            "p6q6": "B",
+            "p6q5": "C",
+            "p6q3": "B",
+            "p6q8": "C",
+            "p6q2": "test",
+            "p6q9": "test",
+            "p6q7": "test",
+            "p6q1": "C",
+            "p6q10": "test",
+            "p6q4": "test"
+          },
+          "scores": {
+            "p6q1": false,
+            "p6q3": false,
+            "p6q5": false,
+            "p6q6": false,
+            "p6q8": false
+          }
+        },
+        {
+          "submittedAt": "2026-04-08T08:12:17.323Z",
+          "answers": {
+            "p6q6": "B",
+            "p6q5": "C",
+            "p6q3": "B",
+            "p6q8": "B",
+            "p6q2": "test",
+            "p6q9": "test",
+            "p6q7": "test",
+            "p6q1": "C",
+            "p6q10": "test",
+            "p6q4": "test"
+          },
+          "scores": {
+            "p6q1": false,
+            "p6q3": false,
+            "p6q5": false,
+            "p6q6": false,
+            "p6q8": true
+          }
+        },
+        {
+          "submittedAt": "2026-04-08T08:19:43.851Z",
+          "answers": {
+            "p6q6": "C",
+            "p6q5": "B",
+            "p6q3": "C",
+            "p6q8": "B",
+            "p6q2": "test",
+            "p6q9": "test",
+            "p6q7": "test",
+            "p6q1": "B",
+            "p6q10": "test",
+            "p6q4": "test"
+          },
+          "scores": {
+            "p6q1": true,
+            "p6q3": true,
+            "p6q5": true,
+            "p6q6": true,
+            "p6q8": true
+          }
+        }
+      ],
+      "perQuestionTimeSeconds": {
+        "p6q8": 181,
+        "p6q6": 518,
+        "p6q5": 534,
+        "p6q3": 581,
+        "p6q1": 625
+      },
+      "firstAttemptCorrect": {
+        "p6q1": false,
+        "p6q3": false,
+        "p6q5": false,
+        "p6q6": false,
+        "p6q8": false
+      },
+      "finalAnswers": {
+        "p6q6": "C",
+        "p6q5": "B",
+        "p6q3": "C",
+        "p6q8": "B",
+        "p6q2": "test",
+        "p6q9": "test",
+        "p6q7": "test",
+        "p6q1": "B",
+        "p6q10": "test",
+        "p6q4": "test"
+      }
+    },
+    {
+      "paperKey": "paper5",
+      "condition": "all_highlights",
+      "priorPapers": [],
+      "startedAt": "2026-04-08T08:22:33.042Z",
+      "completedAt": "2026-04-08T08:24:25.799Z",
+      "attempts": [
+        {
+          "submittedAt": "2026-04-08T08:24:25.794Z",
+          "answers": {
+            "p5q8": "C",
+            "p5q2": "test",
+            "p5q5": "B",
+            "p5q1": "B",
+            "p5q4": "test",
+            "p5q10": "test",
+            "p5q9": "test",
+            "p5q7": "test",
+            "p5q3": "D",
+            "p5q6": "B"
+          },
+          "scores": {
+            "p5q1": true,
+            "p5q3": true,
+            "p5q5": true,
+            "p5q6": true,
+            "p5q8": true
+          }
+        }
+      ],
+      "perQuestionTimeSeconds": {
+        "p5q8": 29,
+        "p5q5": 51,
+        "p5q1": 69,
+        "p5q3": 100,
+        "p5q6": 111
+      },
+      "firstAttemptCorrect": {
+        "p5q1": true,
+        "p5q3": true,
+        "p5q5": true,
+        "p5q6": true,
+        "p5q8": true
+      },
+      "finalAnswers": {
+        "p5q8": "C",
+        "p5q2": "test",
+        "p5q5": "B",
+        "p5q1": "B",
+        "p5q4": "test",
+        "p5q10": "test",
+        "p5q9": "test",
+        "p5q7": "test",
+        "p5q3": "D",
+        "p5q6": "B"
+      }
+    },
+    {
+      "paperKey": "paper4",
+      "condition": "contextual_highlights",
+      "priorPapers": [],
+      "startedAt": "2026-04-08T09:09:01.551Z",
+      "completedAt": "2026-04-08T09:09:36.154Z",
+      "attempts": [
+        {
+          "submittedAt": "2026-04-08T09:09:20.267Z",
+          "answers": {
+            "p4q9": "D",
+            "p4q6": "C",
+            "p4q3": "D",
+            "p4q8": "test",
+            "p4q4": "test",
+            "p4q10": "test",
+            "p4q5": "C",
+            "p4q7": "B",
+            "p4q1": "C",
+            "p4q2": "test"
+          },
+          "scores": {
+            "p4q1": true,
+            "p4q3": false,
+            "p4q5": false,
+            "p4q6": false,
+            "p4q7": true,
+            "p4q9": true
+          }
+        },
+        {
+          "submittedAt": "2026-04-08T09:09:23.210Z",
+          "answers": {
+            "p4q9": "D",
+            "p4q6": "C",
+            "p4q3": "D",
+            "p4q8": "test",
+            "p4q4": "test",
+            "p4q10": "test",
+            "p4q5": "D",
+            "p4q7": "B",
+            "p4q1": "C",
+            "p4q2": "test"
+          },
+          "scores": {
+            "p4q1": true,
+            "p4q3": false,
+            "p4q5": false,
+            "p4q6": false,
+            "p4q7": true,
+            "p4q9": true
+          }
+        },
+        {
+          "submittedAt": "2026-04-08T09:09:25.242Z",
+          "answers": {
+            "p4q9": "D",
+            "p4q6": "C",
+            "p4q3": "D",
+            "p4q8": "test",
+            "p4q4": "test",
+            "p4q10": "test",
+            "p4q5": "A",
+            "p4q7": "B",
+            "p4q1": "C",
+            "p4q2": "test"
+          },
+          "scores": {
+            "p4q1": true,
+            "p4q3": false,
+            "p4q5": false,
+            "p4q6": false,
+            "p4q7": true,
+            "p4q9": true
+          }
+        },
+        {
+          "submittedAt": "2026-04-08T09:09:27.401Z",
+          "answers": {
+            "p4q9": "D",
+            "p4q6": "C",
+            "p4q3": "D",
+            "p4q8": "test",
+            "p4q4": "test",
+            "p4q10": "test",
+            "p4q5": "B",
+            "p4q7": "B",
+            "p4q1": "C",
+            "p4q2": "test"
+          },
+          "scores": {
+            "p4q1": true,
+            "p4q3": false,
+            "p4q5": true,
+            "p4q6": false,
+            "p4q7": true,
+            "p4q9": true
+          }
+        },
+        {
+          "submittedAt": "2026-04-08T09:09:30.108Z",
+          "answers": {
+            "p4q9": "D",
+            "p4q6": "C",
+            "p4q3": "B",
+            "p4q8": "test",
+            "p4q4": "test",
+            "p4q10": "test",
+            "p4q5": "B",
+            "p4q7": "B",
+            "p4q1": "C",
+            "p4q2": "test"
+          },
+          "scores": {
+            "p4q1": true,
+            "p4q3": false,
+            "p4q5": true,
+            "p4q6": false,
+            "p4q7": true,
+            "p4q9": true
+          }
+        },
+        {
+          "submittedAt": "2026-04-08T09:09:32.219Z",
+          "answers": {
+            "p4q9": "D",
+            "p4q6": "C",
+            "p4q3": "C",
+            "p4q8": "test",
+            "p4q4": "test",
+            "p4q10": "test",
+            "p4q5": "B",
+            "p4q7": "B",
+            "p4q1": "C",
+            "p4q2": "test"
+          },
+          "scores": {
+            "p4q1": true,
+            "p4q3": true,
+            "p4q5": true,
+            "p4q6": false,
+            "p4q7": true,
+            "p4q9": true
+          }
+        },
+        {
+          "submittedAt": "2026-04-08T09:09:36.151Z",
+          "answers": {
+            "p4q9": "D",
+            "p4q6": "B",
+            "p4q3": "C",
+            "p4q8": "test",
+            "p4q4": "test",
+            "p4q10": "test",
+            "p4q5": "B",
+            "p4q7": "B",
+            "p4q1": "C",
+            "p4q2": "test"
+          },
+          "scores": {
+            "p4q1": true,
+            "p4q3": true,
+            "p4q5": true,
+            "p4q6": true,
+            "p4q7": true,
+            "p4q9": true
+          }
+        }
+      ],
+      "perQuestionTimeSeconds": {
+        "p4q9": 3,
+        "p4q7": 16,
+        "p4q1": 17,
+        "p4q5": 25,
+        "p4q3": 30,
+        "p4q6": 34
+      },
+      "firstAttemptCorrect": {
+        "p4q1": true,
+        "p4q3": false,
+        "p4q5": false,
+        "p4q6": false,
+        "p4q7": true,
+        "p4q9": true
+      },
+      "finalAnswers": {
+        "p4q9": "D",
+        "p4q6": "B",
+        "p4q3": "C",
+        "p4q8": "test",
+        "p4q4": "test",
+        "p4q10": "test",
+        "p4q5": "B",
+        "p4q7": "B",
+        "p4q1": "C",
+        "p4q2": "test"
+      }
+    }
+  ],
+  "questionnaireResponses": [
+    {
+      "paperKey": "paper6",
+      "submittedAt": "2026-04-08T08:20:41.096Z",
+      "responses": {
+        "p6diff1": 4,
+        "p6diff2": 4,
+        "p6diff3": 4,
+        "p6diff4": 4,
+        "p6diff5": 5,
+        "p6diff6": 5,
+        "p6diff7": 4,
+        "p6diff8": 4,
+        "p6diff9": 4,
+        "p6diff10": 5,
+        "p6ease": 5
+      }
+    },
+    {
+      "paperKey": "paper5",
+      "submittedAt": "2026-04-08T08:24:38.248Z",
+      "responses": {
+        "p5diff1": 3,
+        "p5diff2": 3,
+        "p5diff3": 3,
+        "p5diff4": 3,
+        "p5diff5": 3,
+        "p5diff6": 3,
+        "p5diff7": 3,
+        "p5diff8": 3,
+        "p5diff9": 3,
+        "p5diff10": 3,
+        "p5ease": 3
+      }
+    },
+    {
+      "paperKey": "paper4",
+      "submittedAt": "2026-04-08T09:09:48.369Z",
+      "responses": {
+        "p4diff1": 5,
+        "p4diff2": 5,
+        "p4diff3": 5,
+        "p4diff4": 5,
+        "p4diff5": 5,
+        "p4diff6": 5,
+        "p4diff7": 5,
+        "p4diff8": 5,
+        "p4diff9": 5,
+        "p4diff10": 5,
+        "p4ease": 7
+      }
+    }
+  ],
+  "finalResponses": null,
+  "completedAt": null,
+  "questionOrders": {
+    "paper6": [
+      "p6q6",
+      "p6q5",
+      "p6q3",
+      "p6q8",
+      "p6q2",
+      "p6q9",
+      "p6q7",
+      "p6q1",
+      "p6q10",
+      "p6q4"
+    ],
+    "paper5": [
+      "p5q8",
+      "p5q2",
+      "p5q5",
+      "p5q1",
+      "p5q4",
+      "p5q10",
+      "p5q9",
+      "p5q7",
+      "p5q3",
+      "p5q6"
+    ],
+    "paper4": [
+      "p4q9",
+      "p4q6",
+      "p4q3",
+      "p4q8",
+      "p4q4",
+      "p4q10",
+      "p4q5",
+      "p4q7",
+      "p4q1",
+      "p4q2"
+    ]
+  },
+  "optionOrders": {
+    "paper6": {
+      "p6q1": [
+        "A",
+        "C",
+        "D",
+        "B"
+      ],
+      "p6q3": [
+        "C",
+        "D",
+        "B",
+        "A"
+      ],
+      "p6q5": [
+        "D",
+        "A",
+        "C",
+        "B"
+      ],
+      "p6q6": [
+        "B",
+        "D",
+        "A",
+        "C"
+      ],
+      "p6q8": [
+        "C",
+        "D",
+        "B",
+        "A"
+      ]
+    },
+    "paper5": {
+      "p5q1": [
+        "D",
+        "A",
+        "B",
+        "C"
+      ],
+      "p5q3": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "p5q5": [
+        "A",
+        "D",
+        "B",
+        "C"
+      ],
+      "p5q6": [
+        "B",
+        "A",
+        "C",
+        "D"
+      ],
+      "p5q8": [
+        "B",
+        "A",
+        "C",
+        "D"
+      ]
+    },
+    "paper4": {
+      "p4q1": [
+        "C",
+        "A",
+        "B",
+        "D"
+      ],
+      "p4q3": [
+        "D",
+        "C",
+        "B",
+        "A"
+      ],
+      "p4q5": [
+        "B",
+        "D",
+        "C",
+        "A"
+      ],
+      "p4q6": [
+        "D",
+        "A",
+        "C",
+        "B"
+      ],
+      "p4q7": [
+        "C",
+        "B",
+        "D",
+        "A"
+      ],
+      "p4q9": [
+        "D",
+        "A",
+        "B",
+        "C"
+      ]
+    }
+  }
+}
