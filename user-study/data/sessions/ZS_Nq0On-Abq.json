@@ -1,0 +1,98 @@
+{
+  "sessionId": "ZS_Nq0On-Abq",
+  "participantId": "P05",
+  "paperOrder": [
+    "paper5",
+    "paper6",
+    "paper4"
+  ],
+  "conditions": [
+    "all_highlights",
+    "contextual_highlights",
+    "no_highlights"
+  ],
+  "createdAt": "2026-04-09T17:55:01.086Z",
+  "step": "reading_0",
+  "demographicResponses": {
+    "age": "D",
+    "reading_freq": 3,
+    "highlight_exp": "B"
+  },
+  "tasks": [
+    {
+      "paperKey": "paper5",
+      "condition": "all_highlights",
+      "priorPapers": [],
+      "startedAt": "2026-04-09T17:55:16.533Z",
+      "completedAt": null,
+      "attempts": [],
+      "perQuestionTimeSeconds": null,
+      "firstAttemptCorrect": null,
+      "finalAnswers": null
+    }
+  ],
+  "questionnaireResponses": [],
+  "finalResponses": null,
+  "completedAt": null,
+  "questionOrders": {
+    "paper5": [
+      "p5q2",
+      "p5q1",
+      "p5q3"
+    ],
+    "paper6": [
+      "p6q1",
+      "p6q3",
+      "p6q2"
+    ],
+    "paper4": [
+      "p4q3",
+      "p4q1",
+      "p4q2"
+    ]
+  },
+  "optionOrders": {
+    "paper5": {
+      "p5q1": [
+        "D",
+        "C",
+        "B",
+        "A"
+      ],
+      "p5q2": [
+        "C",
+        "B",
+        "D",
+        "A"
+      ]
+    },
+    "paper6": {
+      "p6q1": [
+        "C",
+        "B",
+        "D",
+        "A"
+      ],
+      "p6q2": [
+        "D",
+        "A",
+        "C",
+        "B"
+      ]
+    },
+    "paper4": {
+      "p4q1": [
+        "D",
+        "A",
+        "B",
+        "C"
+      ],
+      "p4q2": [
+        "D",
+        "A",
+        "C",
+        "B"
+      ]
+    }
+  }
+}

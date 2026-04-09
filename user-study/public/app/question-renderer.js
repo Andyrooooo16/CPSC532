@@ -133,15 +133,10 @@ function renderMC(q, opts) {
     if (opts.readonly) radio.disabled = true;
     if (opts.prefill && opts.prefill[q.id] === key) radio.checked = true;
 
-    const keySpan = document.createElement('span');
-    keySpan.className = 'option-key';
-    keySpan.textContent = key;
-
     const textSpan = document.createElement('span');
     textSpan.textContent = label;
 
     optDiv.appendChild(radio);
-    optDiv.appendChild(keySpan);
     optDiv.appendChild(textSpan);
 
     // Sync selected class

@@ -48,7 +48,17 @@ def rank(
 
     Returns the top_k_fraction of target sentences, sorted by rank score,
     each with sentence, label, confidence, and rank fields.
+    NONE-labeled sentences are excluded before ranking.
     """
+    # Filter out NONE-labeled sentences before ranking
+    keep = [i for i, lbl in enumerate(target_labels) if lbl != 'NONE']
+    if not keep:
+        return []
+    target_sentences  = [target_sentences[i]  for i in keep]
+    target_labels     = [target_labels[i]      for i in keep]
+    target_confidences = [target_confidences[i] for i in keep]
+    target_embeddings = target_embeddings[keep]
+
     n_target = len(target_sentences)
     n_read = len(read_sentences)
 
@@ -115,7 +125,17 @@ def rank_novel(
     Args:
         novelty_lambda: Re-ranking strength. 0 = pure PageRank, higher = stronger
                         penalty for sentences similar to read content.
+    NONE-labeled sentences are excluded before ranking.
     """
+    # Filter out NONE-labeled sentences before ranking
+    keep = [i for i, lbl in enumerate(target_labels) if lbl != 'NONE']
+    if not keep:
+        return []
+    target_sentences   = [target_sentences[i]   for i in keep]
+    target_labels      = [target_labels[i]       for i in keep]
+    target_confidences = [target_confidences[i]  for i in keep]
+    target_embeddings  = target_embeddings[keep]
+
     n_target = len(target_sentences)
     n_read   = len(read_sentences)
 

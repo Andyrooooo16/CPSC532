@@ -31,13 +31,23 @@ GRID_LAMBDAS = [round(i * 0.2, 1) for i in range(6)]   # 0.0, 0.2, 0.4, 0.6, 0.8
 GRID_TAUS    = [round(i * 0.2, 1) for i in range(6)]   # 0.0, 0.2, 0.4, 0.6, 0.8, 1.0
 RANDOM_DROPS = [10, 20, 30, 40, 50, 60, 70, 80, 90]
 
-METHODS = {"global_top_k": "Global top-k (original)", "random": "Random (no drop)"}
-for pct in RANDOM_DROPS:
-    METHODS[f"random_drop_{pct}"] = f"Random drop {pct}%"
-for lam in GRID_LAMBDAS:
-    for tau in GRID_TAUS:
-        key = f"novel_thresh_L{lam}_T{tau}"
-        METHODS[key] = f"λ={lam} τ={tau}"
+# Overridden by --lambdas / --taus CLI args after argparse runs
+_ACTIVE_LAMBDAS = GRID_LAMBDAS
+_ACTIVE_TAUS    = GRID_TAUS
+
+
+def _build_methods(lambdas, taus):
+    methods = {"global_top_k": "Global top-k (original)", "random": "Random (no drop)"}
+    for pct in RANDOM_DROPS:
+        methods[f"random_drop_{pct}"] = f"Random drop {pct}%"
+    for lam in lambdas:
+        for tau in taus:
+            key = f"novel_thresh_L{lam}_T{tau}"
+            methods[key] = f"λ={lam} τ={tau}"
+    return methods
+
+
+METHODS = _build_methods(_ACTIVE_LAMBDAS, _ACTIVE_TAUS)
 
 
 # ---------------------------------------------------------------------------
@@ -220,7 +230,20 @@ def main():
     parser.add_argument("--k-values", type=float, nargs="+",
                         default=[round(i * 0.1, 1) for i in range(1, 11)])
     parser.add_argument("--trials", type=int, default=5)
+    parser.add_argument("--lambdas", type=float, nargs="+", default=None,
+                        help="Override GRID_LAMBDAS (e.g. --lambdas 0.6)")
+    parser.add_argument("--taus", type=float, nargs="+", default=None,
+                        help="Override GRID_TAUS (e.g. --taus 0.88 0.90 0.92 0.94 0.96 0.98 1.0)")
     args = parser.parse_args()
+
+    # Rebuild METHODS with overridden grids if requested
+    global METHODS, _ACTIVE_LAMBDAS, _ACTIVE_TAUS
+    if args.lambdas is not None:
+        _ACTIVE_LAMBDAS = args.lambdas
+    if args.taus is not None:
+        _ACTIVE_TAUS = args.taus
+    if args.lambdas is not None or args.taus is not None:
+        METHODS = _build_methods(_ACTIVE_LAMBDAS, _ACTIVE_TAUS)
 
     print("Loading ACLSum dataset (extractive config)...")
     from datasets import load_dataset
