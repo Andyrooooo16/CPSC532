@@ -129,6 +129,40 @@ def _facet_tr_groups(sentences, labels, embeddings):
     return groups
 
 
+def _rank_then_group(sentences, labels, embeddings, exclude_none_from_graph: bool):
+    """Global PageRank first, then group by label.
+
+    If exclude_none_from_graph=True, NONE sentences are removed before building
+    the similarity graph. Otherwise they participate in PageRank but are dropped
+    from the returned groups.
+
+    Returns {label: [(global_score, sent), ...]} sorted descending, NONE omitted.
+    """
+    from collections import defaultdict
+
+    if exclude_none_from_graph:
+        keep_idx = [i for i, l in enumerate(labels) if l != "NONE"]
+        if not keep_idx:
+            return {}
+        sents_in  = [sentences[i] for i in keep_idx]
+        labels_in = [labels[i]    for i in keep_idx]
+        embs_in   = embeddings[keep_idx]
+    else:
+        sents_in  = sentences
+        labels_in = labels
+        embs_in   = embeddings
+
+    scores = _pagerank(_cosine_similarity_matrix(embs_in))
+
+    groups = defaultdict(list)
+    for score, sent, label in zip(scores, sents_in, labels_in):
+        if label != "NONE":
+            groups[label].append((score, sent))
+    for items in groups.values():
+        items.sort(reverse=True)
+    return dict(groups)
+
+
 def _select_k(sorted_sents, k_frac):
     k = max(1, int(len(sorted_sents) * k_frac))
     return sorted_sents[:k]
@@ -158,41 +192,45 @@ K_BINS = 50  # number of evenly-spaced k-fraction points for curves
 FACET_TR = "Facet+TR"
 
 
-def curve_at_k(ranked: list[str], gold: list[str]) -> dict[str, list[float]]:
-    """Compute P, R, F1, nDCG at every k=1..N, then bin into K_BINS fractions.
+def curve_at_k(ranked: list[str], gold: list[str],
+               n_total: int | None = None) -> dict[str, list[float]]:
+    """Compute P, R, F1, nDCG binned into K_BINS fractions.
 
-    Returns dict with keys 'k_frac', 'precision', 'recall', 'f1', 'ndcg',
-    each a list of length K_BINS.
+    n_total: if provided, use as the x-axis reference so all methods share the
+             same scale (k% of all sentences). When k exceeds len(ranked) the
+             method has exhausted its pool — metrics flatline at their final value.
     """
-    N = len(ranked)
-    if N == 0 or not gold:
+    n_ranked = len(ranked)
+    n        = n_total if n_total is not None else n_ranked
+
+    if n_ranked == 0 or not gold:
         empty = [0.0] * K_BINS
-        return {"k_frac": list(np.linspace(1/N, 1.0, K_BINS)) if N else [],
+        return {"k_frac": list(np.linspace(1/max(n, 1), 1.0, K_BINS)),
                 "precision": empty, "recall": empty, "f1": empty, "ndcg": empty}
 
     gold_set = {s.strip().lower() for s in gold}
     n_gold   = len(gold_set)
 
-    # Pre-compute cumulative hits and DCG at every k
-    hits_at  = [0] * (N + 1)
-    dcg_at   = [0.0] * (N + 1)
-    idcg     = sum(1.0 / np.log2(i + 2) for i in range(min(n_gold, N)))
+    # Pre-compute cumulative hits and DCG at every position in the ranked list
+    hits_at = [0] * (n_ranked + 1)
+    dcg_at  = [0.0] * (n_ranked + 1)
+    idcg    = sum(1.0 / np.log2(i + 2) for i in range(min(n_gold, n_ranked)))
 
     for i, sent in enumerate(ranked):
         hit = int(sent.strip().lower() in gold_set)
         hits_at[i + 1] = hits_at[i] + hit
         dcg_at[i + 1]  = dcg_at[i] + (hit / np.log2(i + 2))
 
-    # Evaluate at K_BINS evenly-spaced cutoffs
-    bin_fracs = np.linspace(1 / N, 1.0, K_BINS)
+    bin_fracs = np.linspace(1 / n, 1.0, K_BINS)
     result = {"k_frac": [], "precision": [], "recall": [], "f1": [], "ndcg": []}
     for frac in bin_fracs:
-        k    = max(1, int(round(frac * N)))
-        hits = hits_at[k]
-        p    = hits / k
+        k   = max(1, int(round(frac * n)))
+        k_c = min(k, n_ranked)   # clip to pool size — flatlines beyond this
+        hits = hits_at[k_c]
+        p    = hits / k_c
         r    = hits / n_gold if n_gold else 0.0
         f1   = 2 * p * r / (p + r) if (p + r) > 0 else 0.0
-        ng   = dcg_at[k] / idcg if idcg > 0 else 0.0
+        ng   = dcg_at[k_c] / idcg if idcg > 0 else 0.0
         result["k_frac"].append(frac)
         result["precision"].append(p)
         result["recall"].append(r)
@@ -247,6 +285,86 @@ def curve_at_k_filter_after(all_sents, all_labels, gold):
         result["ndcg"].append(ng)
 
     return result
+
+
+def curve_at_k_optimal(n_total: int, achievable_gold: list[str],
+                        all_gold: list[str], topics_gold: dict[str, list[str]],
+                        achievable_topics: dict[str, list[str]],
+                        cap: int | None = None) -> dict[str, list[float]]:
+    """Oracle upper-bound curve, both variants on the same n_total x-axis.
+
+    cap: maximum sentences the oracle can select (n_non_none for the non-NONE
+         oracle, None for the all-sentence oracle). Metrics flatline once k > cap.
+
+    achievable_gold: gold sentences the oracle can actually reach given its pool.
+    all_gold: all gold sentences — used as the recall denominator so both oracles
+              are comparable on the same recall scale.
+    """
+    N   = n_total
+    m   = len(all_gold)          # recall denominator (same for both oracles)
+    m_a = len(achievable_gold)   # hits ceiling given the oracle's pool
+    pool_cap = cap if cap is not None else N
+    idcg = sum(1.0 / np.log2(i + 2) for i in range(min(m_a, pool_cap)))
+
+    bin_fracs = np.linspace(1 / N, 1.0, K_BINS)
+    result = {
+        "k_frac": [], "precision": [], "recall": [], "f1": [], "ndcg": [],
+        **{t: [] for t in topics_gold},
+    }
+    for frac in bin_fracs:
+        k    = max(1, int(round(frac * N)))
+        k_c  = min(k, pool_cap)       # flatline beyond the pool
+        hits = min(k_c, m_a)
+        p    = hits / k_c
+        r    = hits / m if m else 0.0
+        f1   = 2 * p * r / (p + r) if (p + r) > 0 else 0.0
+        dcg  = sum(1.0 / np.log2(i + 2) for i in range(hits))
+        ng   = dcg / idcg if idcg > 0 else 0.0
+
+        result["k_frac"].append(frac)
+        result["precision"].append(p)
+        result["recall"].append(r)
+        result["f1"].append(f1)
+        result["ndcg"].append(ng)
+        for topic, tgold in topics_gold.items():
+            m_t   = len(tgold)
+            m_t_a = len(achievable_topics.get(topic, []))
+            result[topic].append(min(k_c, m_t_a) / m_t if m_t else 0.0)
+
+    return result
+
+
+def score_optimal(all_gold: list[str], topics_gold: dict[str, list[str]],
+                  n_total: int, k_frac: float,
+                  achievable_gold: list[str],
+                  achievable_topics: dict[str, list[str]],
+                  cap: int | None = None) -> dict:
+    """Fixed-k oracle scores. cap=None → all-sentence oracle; cap=n_non_none → non-NONE oracle."""
+    m    = len(all_gold)
+    m_a  = len(achievable_gold)
+    pool_cap = cap if cap is not None else n_total
+    k    = max(1, int(n_total * k_frac))
+    k_c  = min(k, pool_cap)
+    hits = min(k_c, m_a)
+    p    = hits / k_c
+    r    = hits / m if m else 0.0
+    f1   = 2 * p * r / (p + r) if (p + r) > 0 else 0.0
+    idcg = sum(1.0 / np.log2(i + 2) for i in range(min(m_a, pool_cap)))
+    dcg  = sum(1.0 / np.log2(i + 2) for i in range(hits))
+    row  = {
+        "overall":   r,
+        "precision": p,
+        "recall":    r,
+        "f1":        f1,
+        "ndcg":      dcg / idcg if idcg > 0 else 0.0,
+    }
+    for topic, tgold in topics_gold.items():
+        m_t   = len(tgold)
+        m_t_a = len(achievable_topics.get(topic, []))
+        opt_t = min(k_c, m_t_a) / m_t if m_t else 0.0
+        row[topic]              = opt_t
+        row[f"{topic}_aligned"] = opt_t
+    return row
 
 
 def select_from_groups(groups, k_frac):
@@ -314,6 +432,72 @@ def facet_aligned_coverage(gold: list[str], topic: str,
     return coverage(gold, facet_highlights)
 
 
+def _fmt_scores(scores: dict) -> str:
+    return (f"P:{scores['precision']:.0%}  R:{scores['recall']:.0%}  "
+            f"F1:{scores['f1']:.0%}  nDCG:{scores['ndcg']:.3f}  "
+            f"challenge:{scores['challenge']:.0%}  "
+            f"approach:{scores['approach']:.0%}  "
+            f"outcome:{scores['outcome']:.0%}")
+
+
+def _paper_score(highlighted: list[str], all_gold: list[str],
+                 topics: dict, sentences: list[str], labels: list[str]) -> dict:
+    p, r = precision_recall(all_gold, highlighted)
+    f1 = 2 * p * r / (p + r) if (p + r) > 0 else 0.0
+    row = {
+        "overall":   coverage(all_gold, highlighted),
+        "precision": p, "recall": r, "f1": f1,
+        "ndcg":      ndcg(all_gold, highlighted),
+    }
+    for topic, gold in topics.items():
+        row[topic] = coverage(gold, highlighted)
+        row[f"{topic}_aligned"] = facet_aligned_coverage(
+            gold, topic, sentences, labels, highlighted)
+    return row
+
+
+def _topic_curve_from_full(full_curve: dict, topic_key: str) -> dict:
+    """Slice a topic-specific recall column out of a full optimal-curve dict."""
+    t_recall = full_curve[topic_key]
+    return {
+        "k_frac":    full_curve["k_frac"],
+        "precision": full_curve["precision"],
+        "recall":    t_recall,
+        "f1":        [2*p*r/(p+r) if (p+r) > 0 else 0.0
+                      for p, r in zip(full_curve["precision"], t_recall)],
+        "ndcg":      full_curve["ndcg"],
+    }
+
+
+def _build_curves(ranked_lists: tuple, gold_sents: list, n_total: int,
+                  opt_curve: dict, onn_curve: dict,
+                  topic_key: str | None) -> dict:
+    """Build the per-method curve dict for one gold set.
+
+    ranked_lists is the 9-tuple:
+        (nb_sorted, na_all_sents, na_all_labels, ne_sorted,
+         fa_ranked, ftr_ranked, rgw_ranked, rge_ranked, rand_ranked)
+    """
+    nb, na_sents, na_labels, ne, fa, ftr, rgw, rge, rand = ranked_lists
+    base = {
+        "nb":   curve_at_k(nb,       gold_sents, n_total),
+        "na":   curve_at_k_filter_after(na_sents, na_labels, gold_sents),
+        "ne":   curve_at_k(ne,       gold_sents, n_total),
+        "fa":   curve_at_k(fa,       gold_sents, n_total),
+        "ftr":  curve_at_k(ftr,      gold_sents, n_total),
+        "rgw":  curve_at_k(rgw,      gold_sents, n_total),
+        "rge":  curve_at_k(rge,      gold_sents, n_total),
+        "rand": curve_at_k(rand,     gold_sents),
+    }
+    if topic_key is not None:
+        base["opt"] = _topic_curve_from_full(opt_curve, topic_key)
+        base["onn"] = _topic_curve_from_full(onn_curve, topic_key)
+    else:
+        base["opt"] = opt_curve
+        base["onn"] = onn_curve
+    return base
+
+
 def evaluate_paper(paper, paper_idx: int, total: int,
                    k_frac: float = 0.20,
                    n_random_trials: int = 100,
@@ -351,6 +535,8 @@ def evaluate_paper(paper, paper_idx: int, total: int,
 
     conf_groups = _facet_conf_groups(sentences, group_labels, confs)
     ftr_groups  = _facet_tr_groups(sentences, group_labels, embeddings)
+    rgw_groups  = _rank_then_group(sentences, group_labels, embeddings, exclude_none_from_graph=False)
+    rge_groups  = _rank_then_group(sentences, group_labels, embeddings, exclude_none_from_graph=True)
 
     # --- Three NONE-handling conditions ---
     # Condition 1: NONE in graph, filtered before top-k
@@ -367,52 +553,63 @@ def evaluate_paper(paper, paper_idx: int, total: int,
 
     fa_h  = select_from_groups(conf_groups, k_frac)
     ftr_h = select_from_groups(ftr_groups, k_frac)
+    rgw_h = select_from_groups(rgw_groups, k_frac)
+    rge_h = select_from_groups(rge_groups, k_frac)
     k_abs = max(1, int(len(sentences) * k_frac))
 
-    def _score(highlighted):
-        p, r = precision_recall(all_gold, highlighted)
-        row = {
-            "overall":   coverage(all_gold, highlighted),
-            "precision": p,
-            "recall":    r,
-            "ndcg":      ndcg(all_gold, highlighted),
-        }
-        for topic, gold in topics.items():
-            row[topic] = coverage(gold, highlighted)
-            row[f"{topic}_aligned"] = facet_aligned_coverage(
-                gold, topic, sentences, labels, highlighted)
-        return row
+    nb_scores  = _paper_score(nb_h,  all_gold, topics, sentences, labels)
+    na_scores  = _paper_score(na_h,  all_gold, topics, sentences, labels)
+    ne_scores  = _paper_score(ne_h,  all_gold, topics, sentences, labels)
+    fa_scores  = _paper_score(fa_h,  all_gold, topics, sentences, labels)
+    ftr_scores = _paper_score(ftr_h, all_gold, topics, sentences, labels)
+    rgw_scores = _paper_score(rgw_h, all_gold, topics, sentences, labels)
+    rge_scores = _paper_score(rge_h, all_gold, topics, sentences, labels)
+    # Compute oracle reference values.
+    n_total    = len(sentences)
+    n_non_none = len(ne_sorted)   # rank_none_excluded already filtered NONE
+    sent_set   = {s.strip().lower() for s in sentences}
+    label_map  = dict(zip(sentences, labels))
 
-    nb_scores  = _score(nb_h)
-    na_scores  = _score(na_h)
-    ne_scores  = _score(ne_h)
-    fa_scores  = _score(fa_h)
-    ftr_scores = _score(ftr_h)
+    # Gold reachable by the all-sentence oracle (present in source_sentences)
+    achievable_all_gold   = [g for g in all_gold if g.strip().lower() in sent_set]
+    achievable_all_topics = {
+        t: [g for g in tgold if g.strip().lower() in sent_set]
+        for t, tgold in topics.items()
+    }
+    # Gold reachable by the non-NONE oracle (present AND non-NONE)
+    achievable_nn_gold   = [g for g in achievable_all_gold
+                            if label_map.get(g, "NONE") != "NONE"]
+    achievable_nn_topics = {
+        t: [g for g in tgold if g.strip().lower() in sent_set
+            and label_map.get(g, "NONE") != "NONE"]
+        for t, tgold in topics.items()
+    }
+
+    opt_scores = score_optimal(all_gold, topics, n_total, k_frac,
+                               achievable_all_gold, achievable_all_topics,
+                               cap=None)
+    onn_scores = score_optimal(all_gold, topics, n_total, k_frac,
+                               achievable_nn_gold, achievable_nn_topics,
+                               cap=n_non_none)
 
     # Average random baseline over n_random_trials
-    rand_acc = None
+    rand_acc: dict = {}
     for _ in range(n_random_trials):
-        s = _score(random.sample(sentences, k_abs))
-        if rand_acc is None:
-            rand_acc = dict(s)
-        else:
-            for k, v in s.items():
-                rand_acc[k] += v
+        s = _paper_score(random.sample(sentences, k_abs), all_gold, topics, sentences, labels)
+        for key, val in s.items():
+            rand_acc[key] = rand_acc.get(key, 0.0) + val
     rand_scores = {k: v / n_random_trials for k, v in rand_acc.items()}
 
-    def _fmt(scores):
-        return (f"P:{scores['precision']:.0%}  R:{scores['recall']:.0%}  "
-                f"nDCG:{scores['ndcg']:.3f}  "
-                f"challenge:{scores['challenge']:.0%}  "
-                f"approach:{scores['approach']:.0%}  "
-                f"outcome:{scores['outcome']:.0%}")
-
-    print(f"  NoneBeforeK — {_fmt(nb_scores)}")
-    print(f"  NoneAfterK  — {_fmt(na_scores)}")
-    print(f"  NoneExcl    — {_fmt(ne_scores)}")
-    print(f"  Facet       — {_fmt(fa_scores)}")
-    print(f"  Facet+TR    — {_fmt(ftr_scores)}")
-    print(f"  Random      — {_fmt(rand_scores)}\n")
+    print(f"  Opt-All     — {_fmt_scores(opt_scores)}")
+    print(f"  Opt-NN      — {_fmt_scores(onn_scores)}")
+    print(f"  NoneBeforeK — {_fmt_scores(nb_scores)}")
+    print(f"  NoneAfterK  — {_fmt_scores(na_scores)}")
+    print(f"  NoneExcl    — {_fmt_scores(ne_scores)}")
+    print(f"  Facet       — {_fmt_scores(fa_scores)}")
+    print(f"  Facet+TR    — {_fmt_scores(ftr_scores)}")
+    print(f"  RankGrp+N   — {_fmt_scores(rgw_scores)}")
+    print(f"  RankGrp-N   — {_fmt_scores(rge_scores)}")
+    print(f"  Random      — {_fmt_scores(rand_scores)}\n")
 
     # Confusion data: for each gold sentence, record its classifier label
     label_map = dict(zip(sentences, labels))
@@ -421,37 +618,43 @@ def evaluate_paper(paper, paper_idx: int, total: int,
         for topic, gold in topics.items()
     }
 
-    # Full global rankings for curve computation
+    # Full global rankings for curve computation — all use n_total as x-axis
     fa_ranked   = _flatten_groups(conf_groups)
     ftr_ranked  = _flatten_groups(ftr_groups)
-    rand_ranked = random.sample(sentences, len(sentences))
+    rgw_ranked  = _flatten_groups(rgw_groups)
+    rge_ranked  = _flatten_groups(rge_groups)
+    rand_ranked = random.sample(sentences, n_total)
 
-    def _curves_for_gold(gold_sents):
-        return {
-            "nb":   curve_at_k(nb_sorted,    gold_sents),
-            "na":   curve_at_k_filter_after(na_all_sents, na_all_labels, gold_sents),
-            "ne":   curve_at_k(ne_sorted,    gold_sents),
-            "fa":   curve_at_k(fa_ranked,    gold_sents),
-            "ftr":  curve_at_k(ftr_ranked,   gold_sents),
-            "rand": curve_at_k(rand_ranked,  gold_sents),
-        }
+    opt_curve = curve_at_k_optimal(n_total, achievable_all_gold, all_gold, topics,
+                                   achievable_all_topics, cap=None)
+    onn_curve = curve_at_k_optimal(n_total, achievable_nn_gold,  all_gold, topics,
+                                   achievable_nn_topics,  cap=n_non_none)
 
+    ranked_lists = (nb_sorted, na_all_sents, na_all_labels, ne_sorted,
+                    fa_ranked, ftr_ranked, rgw_ranked, rge_ranked, rand_ranked)
     curves = {
-        "overall":   _curves_for_gold(all_gold),
-        "challenge": _curves_for_gold(topics["challenge"]),
-        "approach":  _curves_for_gold(topics["approach"]),
-        "outcome":   _curves_for_gold(topics["outcome"]),
+        "overall": _build_curves(ranked_lists, all_gold, n_total,
+                                 opt_curve, onn_curve, topic_key=None),
+        "challenge": _build_curves(ranked_lists, topics["challenge"], n_total,
+                                   opt_curve, onn_curve, topic_key="challenge"),
+        "approach": _build_curves(ranked_lists, topics["approach"], n_total,
+                                  opt_curve, onn_curve, topic_key="approach"),
+        "outcome": _build_curves(ranked_lists, topics["outcome"], n_total,
+                                 opt_curve, onn_curve, topic_key="outcome"),
     }
 
     return {
         "n_sentences": len(sentences),
         "confusion":   confusion,
         "curves":      curves,
+        **{f"opt_{k}":  v for k, v in opt_scores.items()},
         **{f"nb_{k}":   v for k, v in nb_scores.items()},
         **{f"na_{k}":   v for k, v in na_scores.items()},
         **{f"ne_{k}":   v for k, v in ne_scores.items()},
         **{f"fa_{k}":   v for k, v in fa_scores.items()},
         **{f"ftr_{k}":  v for k, v in ftr_scores.items()},
+        **{f"rgw_{k}":  v for k, v in rgw_scores.items()},
+        **{f"rge_{k}":  v for k, v in rge_scores.items()},
         **{f"rand_{k}": v for k, v in rand_scores.items()},
     }
 
@@ -461,7 +664,7 @@ def evaluate_paper(paper, paper_idx: int, total: int,
 # Reporting helpers (extracted from main to keep complexity manageable)
 # ---------------------------------------------------------------------------
 
-def _print_tables(results, methods, mean):
+def _print_tables(methods, mean):
     topics = ["overall", "challenge", "approach", "outcome"]
 
     print()
@@ -472,13 +675,14 @@ def _print_tables(results, methods, mean):
         print(f"{label:<14} {vals}")
 
     print()
-    print(f"{'Method':<14} {'Precision':>10}  {'Recall':>8}  {'nDCG':>8}")
-    print("-" * 48)
+    print(f"{'Method':<14} {'Precision':>10}  {'Recall':>8}  {'F1':>8}  {'nDCG':>8}")
+    print("-" * 57)
     for label, prefix in methods:
-        p = mean(f"{prefix}_precision")
-        r = mean(f"{prefix}_recall")
-        n = mean(f"{prefix}_ndcg")
-        print(f"{label:<14} {p:>10.1%}  {r:>8.1%}  {n:>8.3f}")
+        p  = mean(f"{prefix}_precision")
+        r  = mean(f"{prefix}_recall")
+        f1 = mean(f"{prefix}_f1")
+        n  = mean(f"{prefix}_ndcg")
+        print(f"{label:<14} {p:>10.1%}  {r:>8.1%}  {f1:>8.1%}  {n:>8.3f}")
 
     print()
     print("Facet-aligned coverage (sentences classified into matching facet)")
@@ -490,13 +694,13 @@ def _print_tables(results, methods, mean):
         print(f"{label:<14} {vals}")
 
 
-def _print_significance(results, mean):
+def _print_significance(results):
     from scipy.stats import wilcoxon, ttest_rel
     rand_overall = [r["rand_overall"] for r in results]
 
     sig_methods = [
         ("NoneBeforeK", "nb"), ("NoneAfterK", "na"), ("NoneExcl", "ne"),
-        ("Facet", "fa"), (FACET_TR, "ftr"),
+        ("Facet", "fa"), (FACET_TR, "ftr"), ("RankGrp+N", "rgw"), ("RankGrp-N", "rge"),
     ]
     print()
     print(f"Statistical significance — overall coverage (n={len(results)} papers)")
@@ -543,15 +747,50 @@ def _print_confusion(results):
         print(row)
 
 
-def _plot_curves(results, curve_methods, split, n_papers):
-    import matplotlib.pyplot as plt
+_CURVE_COLORS = {
+    "opt": "#000000",
+    "nb": "#1f77b4", "na": "#d62728", "ne": "#2ca02c",
+    "fa": "#ff7f0e", "ftr": "#8c564b",
+    "rgw": "#17becf", "rge": "#bcbd22",
+    "rand": "#9467bd",
+}
 
+
+def _line_style(prefix):
+    if prefix == "opt":
+        return ":", 2.2
+    if prefix == "rand":
+        return "--", 1.8
+    return "-", 1.8
+
+
+def _plot_group_figure(group, title, avg_curves, curve_methods, x_frac,
+                        metrics, metric_labels, split, n_papers):
+    import matplotlib.pyplot as plt
+    fig, axes = plt.subplots(2, 2, figsize=(12, 9))
+    for ax, metric in zip(axes.flatten(), metrics):
+        for label, prefix in curve_methods:
+            ls, lw = _line_style(prefix)
+            ax.plot(x_frac * 100, avg_curves[group][prefix][metric],
+                    label=label, color=_CURVE_COLORS[prefix], linestyle=ls, linewidth=lw)
+        ax.set_xlabel("k (% of sentences selected)")
+        ax.set_ylabel(metric_labels[metric])
+        ax.set_title(metric_labels[metric])
+        ax.legend()
+        ax.set_xlim(0, 100)
+        ax.set_ylim(0, 1)
+        ax.grid(True, alpha=0.3)
+    fig.suptitle(f"{title} — ACLSum '{split}' split ({n_papers} papers)", fontsize=13)
+    plt.tight_layout()
+    fname = f"ranking_curves_{split}_{group}.png"
+    plt.savefig(fname, dpi=150)
+    plt.show()
+    return fname
+
+
+def _plot_curves(results, curve_methods, split, n_papers):
     metrics       = ["precision", "recall", "f1", "ndcg"]
     metric_labels = {"precision": "Precision", "recall": "Recall", "f1": "F1", "ndcg": "nDCG"}
-    colors        = {
-        "nb": "#1f77b4", "na": "#d62728", "ne": "#2ca02c",
-        "fa": "#ff7f0e", "ftr": "#8c564b", "rand": "#9467bd",
-    }
     x_frac       = np.linspace(1 / K_BINS, 1.0, K_BINS)
     curve_groups = ["overall", "challenge", "approach", "outcome"]
     group_titles = {"overall": "Overall", "challenge": "Challenge",
@@ -570,26 +809,10 @@ def _plot_curves(results, curve_methods, split, n_papers):
 
     saved = []
     for group in curve_groups:
-        fig, axes = plt.subplots(2, 2, figsize=(12, 9))
-        for ax, metric in zip(axes.flatten(), metrics):
-            for label, prefix in curve_methods:
-                ax.plot(x_frac * 100, avg_curves[group][prefix][metric],
-                        label=label, color=colors[prefix],
-                        linestyle="--" if prefix == "rand" else "-", linewidth=1.8)
-            ax.set_xlabel("k (% of sentences selected)")
-            ax.set_ylabel(metric_labels[metric])
-            ax.set_title(metric_labels[metric])
-            ax.legend()
-            ax.set_xlim(0, 100)
-            ax.set_ylim(0, 1)
-            ax.grid(True, alpha=0.3)
-
-        fig.suptitle(f"{group_titles[group]} — ACLSum '{split}' split ({n_papers} papers)",
-                     fontsize=13)
-        plt.tight_layout()
-        fname = f"ranking_curves_{split}_{group}.png"
-        plt.savefig(fname, dpi=150)
-        plt.show()
+        fname = _plot_group_figure(
+            group, group_titles[group], avg_curves, curve_methods,
+            x_frac, metrics, metric_labels, split, n_papers,
+        )
         saved.append(fname)
 
     print(f"\nCurves saved to: {', '.join(saved)}")
@@ -612,8 +835,10 @@ def main():
     args = parser.parse_args()
 
     print("Loading ACLSum dataset (extractive config)...")
-    from datasets import load_dataset
-    ds = load_dataset("sobamchan/aclsum", "extractive", split=args.split)
+    from datasets import load_dataset, Dataset
+    raw = load_dataset("sobamchan/aclsum", "extractive", split=args.split)
+    assert isinstance(raw, Dataset)
+    ds: Dataset = raw
 
     if args.max_papers:
         ds = ds.select(range(min(args.max_papers, len(ds))))
@@ -646,16 +871,19 @@ def main():
     print(f"Papers skipped   : {skipped}")
 
     methods = [
+        ("Optimal",     "opt"),
         ("NoneBeforeK", "nb"),
         ("NoneAfterK",  "na"),
         ("NoneExcl",    "ne"),
         ("Facet",       "fa"),
         (FACET_TR,      "ftr"),
+        ("RankGrp+N",   "rgw"),
+        ("RankGrp-N",   "rge"),
         ("Random",      "rand"),
     ]
 
-    _print_tables(results, methods, mean)
-    _print_significance(results, mean)
+    _print_tables(methods, mean)
+    _print_significance(results)
     _print_confusion(results)
     _plot_curves(results, methods, args.split, len(results))
 
