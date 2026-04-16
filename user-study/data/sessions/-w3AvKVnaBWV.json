@@ -11,7 +11,7 @@
     "all_highlights",
     "contextual_highlights"
   ],
-  "createdAt": "2026-04-14T23:15:19.177Z",
+  "createdAt": "2026-04-09T23:15:19.177Z",
   "step": "done",
   "demographicResponses": {
     "age": "B",
@@ -25,19 +25,19 @@
       "paperKey": "paper4",
       "condition": "no_highlights",
       "priorPapers": [],
-      "startedAt": "2026-04-14T23:15:34.737Z",
-      "completedAt": "2026-04-14T23:18:43.031Z",
+      "startedAt": "2026-04-09T23:15:34.737Z",
+      "completedAt": "2026-04-09T23:25:04.031Z",
       "attempts": [
         {
-          "submittedAt": "2026-04-14T23:18:02.454Z",
+          "submittedAt": "2026-04-09T23:24:10.454Z",
           "answers": {
-            "p4q6": "Basically, even if someone is motivated, like wanting good results or avoiding mistakes, they still might not think critically if they don’t have the skills to evaluate or fix the AI output. So it tends to break down when ability is low, even if motivation is there.",
+            "p4q6": "Basically, even if someone is motivated, like wanting good results or avoiding mistakes, they still might not think critically if they don\u2019t have the skills to evaluate or fix the AI output. So it tends to break down when ability is low, even if motivation is there.",
             "p4q2": "The paper asks when and how people actually do critical thinking with GenAI, and also when and why GenAI changes the effort needed to do it. One is about behavior, while the other focuses more on effort and perception.",
             "p4q5": "C",
             "p4q9": "C",
             "p4q7": "A",
             "p4q8": "The main barriers are difficulty verifying outputs, not having enough domain knowledge, and struggling to improve AI responses. The most common one people mentioned was difficulty improving the responses, especially when the topic was unfamiliar.",
-            "p4q10": "They use “stewardship” to emphasize that the human is still responsible for the final outcome, not the AI. It implies that accountability stays with the user, since they are the one overseeing and making final decisions.",
+            "p4q10": "They use \u201cstewardship\u201d to emphasize that the human is still responsible for the final outcome, not the AI. It implies that accountability stays with the user, since they are the one overseeing and making final decisions.",
             "p4q3": "A",
             "p4q4": "The paper suggests effort shifts more toward generating ideas and content, with less focus on evaluation. This means knowledge workers take on more of a creator role rather than checking AI outputs.",
             "p4q1": "C"
@@ -51,15 +51,15 @@
           }
         },
         {
-          "submittedAt": "2026-04-14T23:18:32.046Z",
+          "submittedAt": "2026-04-09T23:24:40.046Z",
           "answers": {
-            "p4q6": "Basically, even if someone is motivated, like wanting good results or avoiding mistakes, they still might not think critically if they don’t have the skills to evaluate or fix the AI output. So it tends to break down when ability is low, even if motivation is there.",
+            "p4q6": "Basically, even if someone is motivated, like wanting good results or avoiding mistakes, they still might not think critically if they don\u2019t have the skills to evaluate or fix the AI output. So it tends to break down when ability is low, even if motivation is there.",
             "p4q2": "The paper asks when and how people actually do critical thinking with GenAI, and also when and why GenAI changes the effort needed to do it. One is about behavior, while the other focuses more on effort and perception.",
             "p4q5": "B",
             "p4q9": "D",
             "p4q7": "D",
             "p4q8": "The main barriers are difficulty verifying outputs, not having enough domain knowledge, and struggling to improve AI responses. The most common one people mentioned was difficulty improving the responses, especially when the topic was unfamiliar.",
-            "p4q10": "They use “stewardship” to emphasize that the human is still responsible for the final outcome, not the AI. It implies that accountability stays with the user, since they are the one overseeing and making final decisions.",
+            "p4q10": "They use \u201cstewardship\u201d to emphasize that the human is still responsible for the final outcome, not the AI. It implies that accountability stays with the user, since they are the one overseeing and making final decisions.",
             "p4q3": "B",
             "p4q4": "The paper suggests effort shifts more toward generating ideas and content, with less focus on evaluation. This means knowledge workers take on more of a creator role rather than checking AI outputs.",
             "p4q1": "C"
@@ -73,15 +73,15 @@
           }
         },
         {
-          "submittedAt": "2026-04-14T23:18:34.018Z",
+          "submittedAt": "2026-04-09T23:24:44.018Z",
           "answers": {
-            "p4q6": "Basically, even if someone is motivated, like wanting good results or avoiding mistakes, they still might not think critically if they don’t have the skills to evaluate or fix the AI output. So it tends to break down when ability is low, even if motivation is there.",
+            "p4q6": "Basically, even if someone is motivated, like wanting good results or avoiding mistakes, they still might not think critically if they don\u2019t have the skills to evaluate or fix the AI output. So it tends to break down when ability is low, even if motivation is there.",
             "p4q2": "The paper asks when and how people actually do critical thinking with GenAI, and also when and why GenAI changes the effort needed to do it. One is about behavior, while the other focuses more on effort and perception.",
             "p4q5": "B",
             "p4q9": "D",
             "p4q7": "D",
             "p4q8": "The main barriers are difficulty verifying outputs, not having enough domain knowledge, and struggling to improve AI responses. The most common one people mentioned was difficulty improving the responses, especially when the topic was unfamiliar.",
-            "p4q10": "They use “stewardship” to emphasize that the human is still responsible for the final outcome, not the AI. It implies that accountability stays with the user, since they are the one overseeing and making final decisions.",
+            "p4q10": "They use \u201cstewardship\u201d to emphasize that the human is still responsible for the final outcome, not the AI. It implies that accountability stays with the user, since they are the one overseeing and making final decisions.",
             "p4q3": "C",
             "p4q4": "The paper suggests effort shifts more toward generating ideas and content, with less focus on evaluation. This means knowledge workers take on more of a creator role rather than checking AI outputs.",
             "p4q1": "C"
@@ -95,15 +95,15 @@
           }
         },
         {
-          "submittedAt": "2026-04-14T23:18:38.056Z",
+          "submittedAt": "2026-04-09T23:24:50.056Z",
           "answers": {
-            "p4q6": "Basically, even if someone is motivated, like wanting good results or avoiding mistakes, they still might not think critically if they don’t have the skills to evaluate or fix the AI output. So it tends to break down when ability is low, even if motivation is there.",
+            "p4q6": "Basically, even if someone is motivated, like wanting good results or avoiding mistakes, they still might not think critically if they don\u2019t have the skills to evaluate or fix the AI output. So it tends to break down when ability is low, even if motivation is there.",
             "p4q2": "The paper asks when and how people actually do critical thinking with GenAI, and also when and why GenAI changes the effort needed to do it. One is about behavior, while the other focuses more on effort and perception.",
             "p4q5": "B",
             "p4q9": "D",
             "p4q7": "A",
             "p4q8": "The main barriers are difficulty verifying outputs, not having enough domain knowledge, and struggling to improve AI responses. The most common one people mentioned was difficulty improving the responses, especially when the topic was unfamiliar.",
-            "p4q10": "They use “stewardship” to emphasize that the human is still responsible for the final outcome, not the AI. It implies that accountability stays with the user, since they are the one overseeing and making final decisions.",
+            "p4q10": "They use \u201cstewardship\u201d to emphasize that the human is still responsible for the final outcome, not the AI. It implies that accountability stays with the user, since they are the one overseeing and making final decisions.",
             "p4q3": "C",
             "p4q4": "The paper suggests effort shifts more toward generating ideas and content, with less focus on evaluation. This means knowledge workers take on more of a creator role rather than checking AI outputs.",
             "p4q1": "C"
@@ -117,15 +117,15 @@
           }
         },
         {
-          "submittedAt": "2026-04-14T23:18:43.028Z",
+          "submittedAt": "2026-04-09T23:25:04.028Z",
           "answers": {
-            "p4q6": "Basically, even if someone is motivated, like wanting good results or avoiding mistakes, they still might not think critically if they don’t have the skills to evaluate or fix the AI output. So it tends to break down when ability is low, even if motivation is there.",
+            "p4q6": "Basically, even if someone is motivated, like wanting good results or avoiding mistakes, they still might not think critically if they don\u2019t have the skills to evaluate or fix the AI output. So it tends to break down when ability is low, even if motivation is there.",
             "p4q2": "The paper asks when and how people actually do critical thinking with GenAI, and also when and why GenAI changes the effort needed to do it. One is about behavior, while the other focuses more on effort and perception.",
             "p4q5": "B",
             "p4q9": "D",
             "p4q7": "B",
             "p4q8": "The main barriers are difficulty verifying outputs, not having enough domain knowledge, and struggling to improve AI responses. The most common one people mentioned was difficulty improving the responses, especially when the topic was unfamiliar.",
-            "p4q10": "They use “stewardship” to emphasize that the human is still responsible for the final outcome, not the AI. It implies that accountability stays with the user, since they are the one overseeing and making final decisions.",
+            "p4q10": "They use \u201cstewardship\u201d to emphasize that the human is still responsible for the final outcome, not the AI. It implies that accountability stays with the user, since they are the one overseeing and making final decisions.",
             "p4q3": "C",
             "p4q4": "The paper suggests effort shifts more toward generating ideas and content, with less focus on evaluation. This means knowledge workers take on more of a creator role rather than checking AI outputs.",
             "p4q1": "C"
@@ -140,11 +140,11 @@
         }
       ],
       "perQuestionTimeSeconds": {
-        "p4q1": 112,
-        "p4q5": 169,
-        "p4q9": 171,
-        "p4q3": 178,
-        "p4q7": 185
+        "p4q1": 78,
+        "p4q5": 102,
+        "p4q9": 121,
+        "p4q3": 132,
+        "p4q7": 136
       },
       "firstAttemptCorrect": {
         "p4q1": true,
@@ -154,13 +154,13 @@
         "p4q9": false
       },
       "finalAnswers": {
-        "p4q6": "Basically, even if someone is motivated, like wanting good results or avoiding mistakes, they still might not think critically if they don’t have the skills to evaluate or fix the AI output. So it tends to break down when ability is low, even if motivation is there.",
+        "p4q6": "Basically, even if someone is motivated, like wanting good results or avoiding mistakes, they still might not think critically if they don\u2019t have the skills to evaluate or fix the AI output. So it tends to break down when ability is low, even if motivation is there.",
         "p4q2": "The paper asks when and how people actually do critical thinking with GenAI, and also when and why GenAI changes the effort needed to do it. One is about behavior, while the other focuses more on effort and perception.",
         "p4q5": "B",
         "p4q9": "D",
         "p4q7": "B",
         "p4q8": "The main barriers are difficulty verifying outputs, not having enough domain knowledge, and struggling to improve AI responses. The most common one people mentioned was difficulty improving the responses, especially when the topic was unfamiliar.",
-        "p4q10": "They use “stewardship” to emphasize that the human is still responsible for the final outcome, not the AI. It implies that accountability stays with the user, since they are the one overseeing and making final decisions.",
+        "p4q10": "They use \u201cstewardship\u201d to emphasize that the human is still responsible for the final outcome, not the AI. It implies that accountability stays with the user, since they are the one overseeing and making final decisions.",
         "p4q3": "C",
         "p4q4": "The paper suggests effort shifts more toward generating ideas and content, with less focus on evaluation. This means knowledge workers take on more of a creator role rather than checking AI outputs.",
         "p4q1": "C"
@@ -170,20 +170,20 @@
       "paperKey": "paper5",
       "condition": "all_highlights",
       "priorPapers": [],
-      "startedAt": "2026-04-14T23:19:13.492Z",
-      "completedAt": "2026-04-14T23:22:16.861Z",
+      "startedAt": "2026-04-09T23:25:36.492Z",
+      "completedAt": "2026-04-09T23:35:02.861Z",
       "attempts": [
         {
-          "submittedAt": "2026-04-14T23:22:04.145Z",
+          "submittedAt": "2026-04-09T23:34:30.145Z",
           "answers": {
             "p5q3": "B",
             "p5q1": "B",
-            "p5q4": "For tabular data, XAI didn’t really improve performance compared to humans alone, but for text data there was a clear improvement. The authors suggest this might be because text tasks are more natural for people to reason through, so they can better use explanations.",
-            "p5q2": "They compare human vs XAI performance, and also AI vs XAI performance. Since XAI doesn’t do better than AI alone, it means the gains are really from having AI support, not necessarily from explanations themselves.",
+            "p5q4": "For tabular data, XAI didn\u2019t really improve performance compared to humans alone, but for text data there was a clear improvement. The authors suggest this might be because text tasks are more natural for people to reason through, so they can better use explanations.",
+            "p5q2": "They compare human vs XAI performance, and also AI vs XAI performance. Since XAI doesn\u2019t do better than AI alone, it means the gains are really from having AI support, not necessarily from explanations themselves.",
             "p5q8": "C",
-            "p5q7": "The two mechanisms are helping users understand the task better and making them trust the AI less when it’s wrong. The review mainly finds stronger evidence for better understanding rather than changes in trust.",
-            "p5q9": "Some studies like Bansal et al. and van der Waa et al. show explanations make people more likely to follow AI, even when it’s wrong, while others like Fügener et al. show explanations can actually reduce reliance. So the effect is kind of mixed depending on the setup.",
-            "p5q10": "They’re concerned that explanations might overwhelm users with too much information and make decision-making harder. This comes from findings that explanations don’t always improve performance compared to AI alone.",
+            "p5q7": "The two mechanisms are helping users understand the task better and making them trust the AI less when it\u2019s wrong. The review mainly finds stronger evidence for better understanding rather than changes in trust.",
+            "p5q9": "Some studies like Bansal et al. and van der Waa et al. show explanations make people more likely to follow AI, even when it\u2019s wrong, while others like F\u00fcgener et al. show explanations can actually reduce reliance. So the effect is kind of mixed depending on the setup.",
+            "p5q10": "They\u2019re concerned that explanations might overwhelm users with too much information and make decision-making harder. This comes from findings that explanations don\u2019t always improve performance compared to AI alone.",
             "p5q6": "D",
             "p5q5": "B"
           },
@@ -196,16 +196,16 @@
           }
         },
         {
-          "submittedAt": "2026-04-14T23:22:14.590Z",
+          "submittedAt": "2026-04-09T23:34:48.590Z",
           "answers": {
             "p5q3": "D",
             "p5q1": "B",
-            "p5q4": "For tabular data, XAI didn’t really improve performance compared to humans alone, but for text data there was a clear improvement. The authors suggest this might be because text tasks are more natural for people to reason through, so they can better use explanations.",
-            "p5q2": "They compare human vs XAI performance, and also AI vs XAI performance. Since XAI doesn’t do better than AI alone, it means the gains are really from having AI support, not necessarily from explanations themselves.",
+            "p5q4": "For tabular data, XAI didn\u2019t really improve performance compared to humans alone, but for text data there was a clear improvement. The authors suggest this might be because text tasks are more natural for people to reason through, so they can better use explanations.",
+            "p5q2": "They compare human vs XAI performance, and also AI vs XAI performance. Since XAI doesn\u2019t do better than AI alone, it means the gains are really from having AI support, not necessarily from explanations themselves.",
             "p5q8": "C",
-            "p5q7": "The two mechanisms are helping users understand the task better and making them trust the AI less when it’s wrong. The review mainly finds stronger evidence for better understanding rather than changes in trust.",
-            "p5q9": "Some studies like Bansal et al. and van der Waa et al. show explanations make people more likely to follow AI, even when it’s wrong, while others like Fügener et al. show explanations can actually reduce reliance. So the effect is kind of mixed depending on the setup.",
-            "p5q10": "They’re concerned that explanations might overwhelm users with too much information and make decision-making harder. This comes from findings that explanations don’t always improve performance compared to AI alone.",
+            "p5q7": "The two mechanisms are helping users understand the task better and making them trust the AI less when it\u2019s wrong. The review mainly finds stronger evidence for better understanding rather than changes in trust.",
+            "p5q9": "Some studies like Bansal et al. and van der Waa et al. show explanations make people more likely to follow AI, even when it\u2019s wrong, while others like F\u00fcgener et al. show explanations can actually reduce reliance. So the effect is kind of mixed depending on the setup.",
+            "p5q10": "They\u2019re concerned that explanations might overwhelm users with too much information and make decision-making harder. This comes from findings that explanations don\u2019t always improve performance compared to AI alone.",
             "p5q6": "C",
             "p5q5": "B"
           },
@@ -218,16 +218,16 @@
           }
         },
         {
-          "submittedAt": "2026-04-14T23:22:16.857Z",
+          "submittedAt": "2026-04-09T23:35:02.857Z",
           "answers": {
             "p5q3": "D",
             "p5q1": "B",
-            "p5q4": "For tabular data, XAI didn’t really improve performance compared to humans alone, but for text data there was a clear improvement. The authors suggest this might be because text tasks are more natural for people to reason through, so they can better use explanations.",
-            "p5q2": "They compare human vs XAI performance, and also AI vs XAI performance. Since XAI doesn’t do better than AI alone, it means the gains are really from having AI support, not necessarily from explanations themselves.",
+            "p5q4": "For tabular data, XAI didn\u2019t really improve performance compared to humans alone, but for text data there was a clear improvement. The authors suggest this might be because text tasks are more natural for people to reason through, so they can better use explanations.",
+            "p5q2": "They compare human vs XAI performance, and also AI vs XAI performance. Since XAI doesn\u2019t do better than AI alone, it means the gains are really from having AI support, not necessarily from explanations themselves.",
             "p5q8": "C",
-            "p5q7": "The two mechanisms are helping users understand the task better and making them trust the AI less when it’s wrong. The review mainly finds stronger evidence for better understanding rather than changes in trust.",
-            "p5q9": "Some studies like Bansal et al. and van der Waa et al. show explanations make people more likely to follow AI, even when it’s wrong, while others like Fügener et al. show explanations can actually reduce reliance. So the effect is kind of mixed depending on the setup.",
-            "p5q10": "They’re concerned that explanations might overwhelm users with too much information and make decision-making harder. This comes from findings that explanations don’t always improve performance compared to AI alone.",
+            "p5q7": "The two mechanisms are helping users understand the task better and making them trust the AI less when it\u2019s wrong. The review mainly finds stronger evidence for better understanding rather than changes in trust.",
+            "p5q9": "Some studies like Bansal et al. and van der Waa et al. show explanations make people more likely to follow AI, even when it\u2019s wrong, while others like F\u00fcgener et al. show explanations can actually reduce reliance. So the effect is kind of mixed depending on the setup.",
+            "p5q10": "They\u2019re concerned that explanations might overwhelm users with too much information and make decision-making harder. This comes from findings that explanations don\u2019t always improve performance compared to AI alone.",
             "p5q6": "B",
             "p5q5": "B"
           },
@@ -241,11 +241,11 @@
         }
       ],
       "perQuestionTimeSeconds": {
-        "p5q1": 7,
-        "p5q8": 115,
-        "p5q5": 44,
-        "p5q3": 176,
-        "p5q6": 183
+        "p5q1": 57,
+        "p5q8": 98,
+        "p5q5": 118,
+        "p5q3": 142,
+        "p5q6": 151
       },
       "firstAttemptCorrect": {
         "p5q1": true,
@@ -257,12 +257,12 @@
       "finalAnswers": {
         "p5q3": "D",
         "p5q1": "B",
-        "p5q4": "For tabular data, XAI didn’t really improve performance compared to humans alone, but for text data there was a clear improvement. The authors suggest this might be because text tasks are more natural for people to reason through, so they can better use explanations.",
-        "p5q2": "They compare human vs XAI performance, and also AI vs XAI performance. Since XAI doesn’t do better than AI alone, it means the gains are really from having AI support, not necessarily from explanations themselves.",
+        "p5q4": "For tabular data, XAI didn\u2019t really improve performance compared to humans alone, but for text data there was a clear improvement. The authors suggest this might be because text tasks are more natural for people to reason through, so they can better use explanations.",
+        "p5q2": "They compare human vs XAI performance, and also AI vs XAI performance. Since XAI doesn\u2019t do better than AI alone, it means the gains are really from having AI support, not necessarily from explanations themselves.",
         "p5q8": "C",
-        "p5q7": "The two mechanisms are helping users understand the task better and making them trust the AI less when it’s wrong. The review mainly finds stronger evidence for better understanding rather than changes in trust.",
-        "p5q9": "Some studies like Bansal et al. and van der Waa et al. show explanations make people more likely to follow AI, even when it’s wrong, while others like Fügener et al. show explanations can actually reduce reliance. So the effect is kind of mixed depending on the setup.",
-        "p5q10": "They’re concerned that explanations might overwhelm users with too much information and make decision-making harder. This comes from findings that explanations don’t always improve performance compared to AI alone.",
+        "p5q7": "The two mechanisms are helping users understand the task better and making them trust the AI less when it\u2019s wrong. The review mainly finds stronger evidence for better understanding rather than changes in trust.",
+        "p5q9": "Some studies like Bansal et al. and van der Waa et al. show explanations make people more likely to follow AI, even when it\u2019s wrong, while others like F\u00fcgener et al. show explanations can actually reduce reliance. So the effect is kind of mixed depending on the setup.",
+        "p5q10": "They\u2019re concerned that explanations might overwhelm users with too much information and make decision-making harder. This comes from findings that explanations don\u2019t always improve performance compared to AI alone.",
         "p5q6": "B",
         "p5q5": "B"
       }
@@ -271,17 +271,17 @@
       "paperKey": "paper6",
       "condition": "contextual_highlights",
       "priorPapers": [],
-      "startedAt": "2026-04-14T23:22:38.757Z",
-      "completedAt": "2026-04-14T23:26:52.453Z",
+      "startedAt": "2026-04-09T23:35:44.757Z",
+      "completedAt": "2026-04-09T23:45:18.453Z",
       "attempts": [
         {
-          "submittedAt": "2026-04-14T23:26:34.430Z",
+          "submittedAt": "2026-04-09T23:44:50.430Z",
           "answers": {
             "p6q8": "A",
             "p6q1": "B",
             "p6q2": "They predicted reward sensitive students might either use ChatGPT more to get better grades or avoid it to protect their grades. The second was supported, since these students avoid ChatGPT due to fear of penalties or academic risk.",
             "p6q7": "Mediation was supported for workload and time pressure across all outcomes, and for reward sensitivity on procrastination and memory loss but not performance. It was not supported at all for sensitivity to quality.",
-            "p6q4": "They first used expert review to reduce 12 items to 10, then used EFA and removed items with low loadings and communalities. The dropped items were “I can’t think of studies without ChatGPT” and “Use of ChatGPT is common nowadays.”",
+            "p6q4": "They first used expert review to reduce 12 items to 10, then used EFA and removed items with low loadings and communalities. The dropped items were \u201cI can\u2019t think of studies without ChatGPT\u201d and \u201cUse of ChatGPT is common nowadays.\u201d",
             "p6q9": "Authors suggest managing workload and deadlines better and encouraging students to use ChatGPT as a support tool instead of a shortcut. This is because higher workload and time pressure were shown to increase ChatGPT usage.",
             "p6q6": "C",
             "p6q5": "D",
@@ -297,13 +297,13 @@
           }
         },
         {
-          "submittedAt": "2026-04-14T23:26:46.920Z",
+          "submittedAt": "2026-04-09T23:45:06.920Z",
           "answers": {
             "p6q8": "C",
             "p6q1": "B",
             "p6q2": "They predicted reward sensitive students might either use ChatGPT more to get better grades or avoid it to protect their grades. The second was supported, since these students avoid ChatGPT due to fear of penalties or academic risk.",
             "p6q7": "Mediation was supported for workload and time pressure across all outcomes, and for reward sensitivity on procrastination and memory loss but not performance. It was not supported at all for sensitivity to quality.",
-            "p6q4": "They first used expert review to reduce 12 items to 10, then used EFA and removed items with low loadings and communalities. The dropped items were “I can’t think of studies without ChatGPT” and “Use of ChatGPT is common nowadays.”",
+            "p6q4": "They first used expert review to reduce 12 items to 10, then used EFA and removed items with low loadings and communalities. The dropped items were \u201cI can\u2019t think of studies without ChatGPT\u201d and \u201cUse of ChatGPT is common nowadays.\u201d",
             "p6q9": "Authors suggest managing workload and deadlines better and encouraging students to use ChatGPT as a support tool instead of a shortcut. This is because higher workload and time pressure were shown to increase ChatGPT usage.",
             "p6q6": "C",
             "p6q5": "C",
@@ -319,13 +319,13 @@
           }
         },
         {
-          "submittedAt": "2026-04-14T23:26:52.449Z",
+          "submittedAt": "2026-04-09T23:45:18.449Z",
           "answers": {
             "p6q8": "B",
             "p6q1": "B",
             "p6q2": "They predicted reward sensitive students might either use ChatGPT more to get better grades or avoid it to protect their grades. The second was supported, since these students avoid ChatGPT due to fear of penalties or academic risk.",
             "p6q7": "Mediation was supported for workload and time pressure across all outcomes, and for reward sensitivity on procrastination and memory loss but not performance. It was not supported at all for sensitivity to quality.",
-            "p6q4": "They first used expert review to reduce 12 items to 10, then used EFA and removed items with low loadings and communalities. The dropped items were “I can’t think of studies without ChatGPT” and “Use of ChatGPT is common nowadays.”",
+            "p6q4": "They first used expert review to reduce 12 items to 10, then used EFA and removed items with low loadings and communalities. The dropped items were \u201cI can\u2019t think of studies without ChatGPT\u201d and \u201cUse of ChatGPT is common nowadays.\u201d",
             "p6q9": "Authors suggest managing workload and deadlines better and encouraging students to use ChatGPT as a support tool instead of a shortcut. This is because higher workload and time pressure were shown to increase ChatGPT usage.",
             "p6q6": "C",
             "p6q5": "B",
@@ -342,11 +342,11 @@
         }
       ],
       "perQuestionTimeSeconds": {
-        "p6q1": 121,
-        "p6q6": 126,
-        "p6q3": 247,
-        "p6q8": 253,
-        "p6q5": 249
+        "p6q1": 77,
+        "p6q6": 89,
+        "p6q3": 124,
+        "p6q8": 140,
+        "p6q5": 143
       },
       "firstAttemptCorrect": {
         "p6q1": true,
@@ -360,7 +360,7 @@
         "p6q1": "B",
         "p6q2": "They predicted reward sensitive students might either use ChatGPT more to get better grades or avoid it to protect their grades. The second was supported, since these students avoid ChatGPT due to fear of penalties or academic risk.",
         "p6q7": "Mediation was supported for workload and time pressure across all outcomes, and for reward sensitivity on procrastination and memory loss but not performance. It was not supported at all for sensitivity to quality.",
-        "p6q4": "They first used expert review to reduce 12 items to 10, then used EFA and removed items with low loadings and communalities. The dropped items were “I can’t think of studies without ChatGPT” and “Use of ChatGPT is common nowadays.”",
+        "p6q4": "They first used expert review to reduce 12 items to 10, then used EFA and removed items with low loadings and communalities. The dropped items were \u201cI can\u2019t think of studies without ChatGPT\u201d and \u201cUse of ChatGPT is common nowadays.\u201d",
         "p6q9": "Authors suggest managing workload and deadlines better and encouraging students to use ChatGPT as a support tool instead of a shortcut. This is because higher workload and time pressure were shown to increase ChatGPT usage.",
         "p6q6": "C",
         "p6q5": "B",
@@ -372,7 +372,7 @@
   "questionnaireResponses": [
     {
       "paperKey": "paper4",
-      "submittedAt": "2026-04-14T23:18:53.257Z",
+      "submittedAt": "2026-04-09T23:25:16.257Z",
       "responses": {
         "p4diff1": 3,
         "p4diff2": 3,
@@ -389,7 +389,7 @@
     },
     {
       "paperKey": "paper5",
-      "submittedAt": "2026-04-14T23:22:36.509Z",
+      "submittedAt": "2026-04-09T23:35:22.509Z",
       "responses": {
         "p5diff1": 4,
         "p5diff2": 4,
@@ -407,7 +407,7 @@
     },
     {
       "paperKey": "paper6",
-      "submittedAt": "2026-04-14T23:27:04.652Z",
+      "submittedAt": "2026-04-09T23:45:34.652Z",
       "responses": {
         "p6diff1": 4,
         "p6diff2": 4,
@@ -437,16 +437,16 @@
   },
   "crossAttempts": [
     {
-      "submittedAt": "2026-04-14T23:29:40.960Z",
+      "submittedAt": "2026-04-09T23:47:50.960Z",
       "answers": {
         "cpq1": "B",
         "cpq2": "Cognitive effort shifts from generating answers to evaluating AI outputs. This happens because AI provides the initial response, so users spend more time checking rather than creating.",
         "cpq3": "C",
-        "cpq4": "Lower effort can be harmful when users accept AI answers without verifying them. This leads to mistakes since they’re not engaging enough to catch errors.",
+        "cpq4": "Lower effort can be harmful when users accept AI answers without verifying them. This leads to mistakes since they\u2019re not engaging enough to catch errors.",
         "cpq5": "B",
-        "cpq6": "One factor is how confident users feel in their own ability to judge the answer. If they lack knowledge or confidence, they’re less likely to verify AI outputs.",
+        "cpq6": "One factor is how confident users feel in their own ability to judge the answer. If they lack knowledge or confidence, they\u2019re less likely to verify AI outputs.",
         "cpq7": "B",
-        "cpq8": "People rely on AI because explanations or outputs can increase their trust and confidence in it. One paper showed that explanations can make users follow AI more, even when it’s wrong becauase it seems more legitimate.",
+        "cpq8": "People rely on AI because explanations or outputs can increase their trust and confidence in it. One paper showed that explanations can make users follow AI more, even when it\u2019s wrong becauase it seems more legitimate.",
         "cpq9": "C",
         "cpq10": "AI improves performance by reducing effort and helping users complete tasks faster, but it creates risks when people rely on it too much and stop verifying outputs. This can lead to worse outcomes like errors, memory loss, or weaker learning over time."
       },
@@ -459,7 +459,7 @@
       }
     }
   ],
-  "completedAt": "2026-04-14T23:30:10.631Z",
+  "completedAt": "2026-04-09T23:48:20.631Z",
   "questionOrders": {
     "paper4": [
       "p4q6",
@@ -600,11 +600,11 @@
     "cpq1": "B",
     "cpq2": "Cognitive effort shifts from generating answers to evaluating AI outputs. This happens because AI provides the initial response, so users spend more time checking rather than creating.",
     "cpq3": "C",
-    "cpq4": "Lower effort can be harmful when users accept AI answers without verifying them. This leads to mistakes since they’re not engaging enough to catch errors.",
+    "cpq4": "Lower effort can be harmful when users accept AI answers without verifying them. This leads to mistakes since they\u2019re not engaging enough to catch errors.",
     "cpq5": "B",
-    "cpq6": "One factor is how confident users feel in their own ability to judge the answer. If they lack knowledge or confidence, they’re less likely to verify AI outputs.",
+    "cpq6": "One factor is how confident users feel in their own ability to judge the answer. If they lack knowledge or confidence, they\u2019re less likely to verify AI outputs.",
     "cpq7": "B",
-    "cpq8": "People rely on AI because explanations or outputs can increase their trust and confidence in it. One paper showed that explanations can make users follow AI more, even when it’s wrong becauase it seems more legitimate.",
+    "cpq8": "People rely on AI because explanations or outputs can increase their trust and confidence in it. One paper showed that explanations can make users follow AI more, even when it\u2019s wrong becauase it seems more legitimate.",
     "cpq9": "C",
     "cpq10": "AI improves performance by reducing effort and helping users complete tasks faster, but it creates risks when people rely on it too much and stop verifying outputs. This can lead to worse outcomes like errors, memory loss, or weaker learning over time."
   }
