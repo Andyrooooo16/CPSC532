@@ -1,0 +1,460 @@
+{
+  "sessionId": "1Y5j3zzSLiPn",
+  "participantId": "P23",
+  "paperOrder": [
+    "paper6",
+    "paper4",
+    "paper5"
+  ],
+  "conditions": [
+    "all_highlights",
+    "no_highlights",
+    "contextual_highlights"
+  ],
+  "createdAt": "2026-04-15T23:38:52.935Z",
+  "step": "done",
+  "demographicResponses": {
+    "age": "B",
+    "role": "B",
+    "field": "Mechatronics",
+    "reading_freq": "C",
+    "reading_style": "A"
+  },
+  "tasks": [
+    {
+      "paperKey": "paper6",
+      "condition": "all_highlights",
+      "priorPapers": [],
+      "startedAt": "2026-04-15T23:46:29.642Z",
+      "completedAt": "2026-04-15T23:54:29.452Z",
+      "attempts": [
+        {
+          "submittedAt": "2026-04-15T23:54:29.441Z",
+          "answers": {
+            "p6q4": "The researchers initially generated 12 items, reduced them to 10 after expert review to ensure content validity, and then applied exploratory factor analysis (EFA), where 2 items (items 4 and 9) were removed due to low factor loadings and communalities, resulting in a final 8-item scale with acceptable reliability and validity.",
+            "p6q8": "B",
+            "p6q3": "C",
+            "p6q7": "ChatGPT usage functioned as a mediator linking workload and time pressure to all three outcomes (procrastination, memory loss, and academic performance), and also mediated the effects of sensitivity to rewards on procrastination and memory loss (but not academic performance), while no mediation effects were observed for sensitivity to quality.",
+            "p6q1": "B",
+            "p6q2": "The study proposed a dual-path prediction: reward-sensitive students might either increase ChatGPT usage to optimize grades or decrease usage due to perceived academic risk; empirical results supported the latter, indicating a negative relationship, likely driven by risk aversion and fear of academic penalties.",
+            "p6q9": "The authors recommend optimizing academic workload distribution and reducing excessive time pressure, while promoting controlled, complementary use of ChatGPT, since the data show that high workload/time pressure increases reliance on ChatGPT, which subsequently degrades performance through increased procrastination and reduced cognitive engagement.",
+            "p6q6": "C",
+            "p6q5": "B",
+            "p6q10": "The proposed mechanism is reduced cognitive load engagement: frequent outsourcing of problem-solving to ChatGPT diminishes active processing and memory consolidation, leading to weaker retention and gradual cognitive offloading effects."
+          },
+          "scores": {
+            "p6q1": true,
+            "p6q3": true,
+            "p6q5": true,
+            "p6q6": true,
+            "p6q8": true
+          }
+        }
+      ],
+      "perQuestionTimeSeconds": {
+        "p6q8": 197,
+        "p6q3": 205,
+        "p6q1": 224,
+        "p6q6": 478,
+        "p6q5": 348
+      },
+      "firstAttemptCorrect": {
+        "p6q1": true,
+        "p6q3": true,
+        "p6q5": true,
+        "p6q6": true,
+        "p6q8": true
+      },
+      "finalAnswers": {
+        "p6q4": "The researchers initially generated 12 items, reduced them to 10 after expert review to ensure content validity, and then applied exploratory factor analysis (EFA), where 2 items (items 4 and 9) were removed due to low factor loadings and communalities, resulting in a final 8-item scale with acceptable reliability and validity.",
+        "p6q8": "B",
+        "p6q3": "C",
+        "p6q7": "ChatGPT usage functioned as a mediator linking workload and time pressure to all three outcomes (procrastination, memory loss, and academic performance), and also mediated the effects of sensitivity to rewards on procrastination and memory loss (but not academic performance), while no mediation effects were observed for sensitivity to quality.",
+        "p6q1": "B",
+        "p6q2": "The study proposed a dual-path prediction: reward-sensitive students might either increase ChatGPT usage to optimize grades or decrease usage due to perceived academic risk; empirical results supported the latter, indicating a negative relationship, likely driven by risk aversion and fear of academic penalties.",
+        "p6q9": "The authors recommend optimizing academic workload distribution and reducing excessive time pressure, while promoting controlled, complementary use of ChatGPT, since the data show that high workload/time pressure increases reliance on ChatGPT, which subsequently degrades performance through increased procrastination and reduced cognitive engagement.",
+        "p6q6": "C",
+        "p6q5": "B",
+        "p6q10": "The proposed mechanism is reduced cognitive load engagement: frequent outsourcing of problem-solving to ChatGPT diminishes active processing and memory consolidation, leading to weaker retention and gradual cognitive offloading effects."
+      }
+    },
+    {
+      "paperKey": "paper4",
+      "condition": "no_highlights",
+      "priorPapers": [],
+      "startedAt": "2026-04-15T23:58:20.381Z",
+      "completedAt": "2026-04-16T00:10:14.590Z",
+      "attempts": [
+        {
+          "submittedAt": "2026-04-16T00:10:08.383Z",
+          "answers": {
+            "p4q10": "The authors use stewardship to emphasize that humans retain ultimate responsibility for validating, adapting, and integrating AI outputs. This framing highlights that, despite AI assistance, accountability remains fully with the human operator, not the system.",
+            "p4q6": "While motivation (e.g., quality assurance, risk avoidance) encourages critical thinking, ability constraints, such as difficulty refining AI outputs or limited domain expertise, can still inhibit it. This suggests breakdowns occur primarily when task complexity exceeds the user’s evaluative or corrective capacity.",
+            "p4q9": "D",
+            "p4q1": "C",
+            "p4q7": "B",
+            "p4q2": "RQ1 examines when and how critical thinking is enacted during GenAI use, whereas RQ2 investigates how GenAI alters the perceived effort associated with different critical thinking activities. The distinction lies in presence/behavior vs effort modulation.",
+            "p4q4": "The study identifies a transition from primary task execution (analysis/synthesis) to secondary oversight (evaluation and verification). This effectively repositions knowledge workers as system-level evaluators or supervisors of AI-generated outputs.",
+            "p4q5": "A",
+            "p4q8": "Key barriers include limited capacity to refine outputs, insufficient domain knowledge, and difficulty interpreting AI responses in unfamiliar contexts. The most prominent issue reported was difficulty improving or correcting AI-generated content.",
+            "p4q3": "C"
+          },
+          "scores": {
+            "p4q1": true,
+            "p4q3": true,
+            "p4q5": false,
+            "p4q7": true,
+            "p4q9": true
+          }
+        },
+        {
+          "submittedAt": "2026-04-16T00:10:14.586Z",
+          "answers": {
+            "p4q10": "The authors use stewardship to emphasize that humans retain ultimate responsibility for validating, adapting, and integrating AI outputs. This framing highlights that, despite AI assistance, accountability remains fully with the human operator, not the system.",
+            "p4q6": "While motivation (e.g., quality assurance, risk avoidance) encourages critical thinking, ability constraints, such as difficulty refining AI outputs or limited domain expertise, can still inhibit it. This suggests breakdowns occur primarily when task complexity exceeds the user’s evaluative or corrective capacity.",
+            "p4q9": "D",
+            "p4q1": "C",
+            "p4q7": "B",
+            "p4q2": "RQ1 examines when and how critical thinking is enacted during GenAI use, whereas RQ2 investigates how GenAI alters the perceived effort associated with different critical thinking activities. The distinction lies in presence/behavior vs effort modulation.",
+            "p4q4": "The study identifies a transition from primary task execution (analysis/synthesis) to secondary oversight (evaluation and verification). This effectively repositions knowledge workers as system-level evaluators or supervisors of AI-generated outputs.",
+            "p4q5": "B",
+            "p4q8": "Key barriers include limited capacity to refine outputs, insufficient domain knowledge, and difficulty interpreting AI responses in unfamiliar contexts. The most prominent issue reported was difficulty improving or correcting AI-generated content.",
+            "p4q3": "C"
+          },
+          "scores": {
+            "p4q1": true,
+            "p4q3": true,
+            "p4q5": true,
+            "p4q7": true,
+            "p4q9": true
+          }
+        }
+      ],
+      "perQuestionTimeSeconds": {
+        "p4q9": 290,
+        "p4q1": 293,
+        "p4q7": 527,
+        "p4q3": 643,
+        "p4q5": 713
+      },
+      "firstAttemptCorrect": {
+        "p4q1": true,
+        "p4q3": true,
+        "p4q5": false,
+        "p4q7": true,
+        "p4q9": true
+      },
+      "finalAnswers": {
+        "p4q10": "The authors use stewardship to emphasize that humans retain ultimate responsibility for validating, adapting, and integrating AI outputs. This framing highlights that, despite AI assistance, accountability remains fully with the human operator, not the system.",
+        "p4q6": "While motivation (e.g., quality assurance, risk avoidance) encourages critical thinking, ability constraints, such as difficulty refining AI outputs or limited domain expertise, can still inhibit it. This suggests breakdowns occur primarily when task complexity exceeds the user’s evaluative or corrective capacity.",
+        "p4q9": "D",
+        "p4q1": "C",
+        "p4q7": "B",
+        "p4q2": "RQ1 examines when and how critical thinking is enacted during GenAI use, whereas RQ2 investigates how GenAI alters the perceived effort associated with different critical thinking activities. The distinction lies in presence/behavior vs effort modulation.",
+        "p4q4": "The study identifies a transition from primary task execution (analysis/synthesis) to secondary oversight (evaluation and verification). This effectively repositions knowledge workers as system-level evaluators or supervisors of AI-generated outputs.",
+        "p4q5": "B",
+        "p4q8": "Key barriers include limited capacity to refine outputs, insufficient domain knowledge, and difficulty interpreting AI responses in unfamiliar contexts. The most prominent issue reported was difficulty improving or correcting AI-generated content.",
+        "p4q3": "C"
+      }
+    },
+    {
+      "paperKey": "paper5",
+      "condition": "contextual_highlights",
+      "priorPapers": [],
+      "startedAt": "2026-04-16T00:14:24.169Z",
+      "completedAt": "2026-04-16T00:22:24.277Z",
+      "attempts": [
+        {
+          "submittedAt": "2026-04-16T00:22:24.268Z",
+          "answers": {
+            "p5q6": "B",
+            "p5q10": "A key ethical concern is that XAI can unintentionally increase users’ reliance on AI outputs even when those outputs are incorrect; this is driven by findings showing explanations tend to raise acceptance of AI advice regardless of its accuracy.",
+            "p5q4": "The subgroup analysis shows that tabular data yields no significant improvement (SMD = 0.01), whereas text data produces a significant positive effect (SMD = 0.72); this difference is likely due to the fact that text-based tasks align better with human reasoning processes, allowing more effective human-AI collaboration.",
+            "p5q8": "C",
+            "p5q9": "There is clear inconsistency across studies: Bansal et al. and van der Waa et al. report increased acceptance of AI advice when explanations are provided, whereas Fügener et al. observe reduced or unchanged reliance, indicating that explanation effects are context-dependent and not universally beneficial.",
+            "p5q2": "The study evaluates (1) human vs. XAI-assisted performance and (2) AI-assisted vs. XAI-assisted performance; since no significant difference is found between AI and XAI, the observed gains over human performance should be attributed to AI assistance broadly rather than to the explanatory component.",
+            "p5q7": "The two proposed mechanisms are (1) increased acceptance of AI recommendations and (2) improved calibration of trust (i.e., distinguishing correct from incorrect AI outputs); the qualitative evidence more strongly supports the first mechanism.",
+            "p5q1": "B",
+            "p5q5": "B",
+            "p5q3": "D"
+          },
+          "scores": {
+            "p5q1": true,
+            "p5q3": true,
+            "p5q5": true,
+            "p5q6": true,
+            "p5q8": true
+          }
+        }
+      ],
+      "perQuestionTimeSeconds": {
+        "p5q6": 312,
+        "p5q8": 341,
+        "p5q1": 442,
+        "p5q5": 438,
+        "p5q3": 441
+      },
+      "firstAttemptCorrect": {
+        "p5q1": true,
+        "p5q3": true,
+        "p5q5": true,
+        "p5q6": true,
+        "p5q8": true
+      },
+      "finalAnswers": {
+        "p5q6": "B",
+        "p5q10": "A key ethical concern is that XAI can unintentionally increase users’ reliance on AI outputs even when those outputs are incorrect; this is driven by findings showing explanations tend to raise acceptance of AI advice regardless of its accuracy.",
+        "p5q4": "The subgroup analysis shows that tabular data yields no significant improvement (SMD = 0.01), whereas text data produces a significant positive effect (SMD = 0.72); this difference is likely due to the fact that text-based tasks align better with human reasoning processes, allowing more effective human-AI collaboration.",
+        "p5q8": "C",
+        "p5q9": "There is clear inconsistency across studies: Bansal et al. and van der Waa et al. report increased acceptance of AI advice when explanations are provided, whereas Fügener et al. observe reduced or unchanged reliance, indicating that explanation effects are context-dependent and not universally beneficial.",
+        "p5q2": "The study evaluates (1) human vs. XAI-assisted performance and (2) AI-assisted vs. XAI-assisted performance; since no significant difference is found between AI and XAI, the observed gains over human performance should be attributed to AI assistance broadly rather than to the explanatory component.",
+        "p5q7": "The two proposed mechanisms are (1) increased acceptance of AI recommendations and (2) improved calibration of trust (i.e., distinguishing correct from incorrect AI outputs); the qualitative evidence more strongly supports the first mechanism.",
+        "p5q1": "B",
+        "p5q5": "B",
+        "p5q3": "D"
+      }
+    }
+  ],
+  "questionnaireResponses": [
+    {
+      "paperKey": "paper6",
+      "submittedAt": "2026-04-15T23:56:24.377Z",
+      "responses": {
+        "p6diff1": 1,
+        "p6diff2": 2,
+        "p6diff3": 1,
+        "p6diff4": 2,
+        "p6diff5": 1,
+        "p6diff6": 1,
+        "p6diff7": 2,
+        "p6diff8": 1,
+        "p6diff9": 1,
+        "p6diff10": 1,
+        "p6ease": 2,
+        "p6comments": "pretty easy to follow the highlights and answer the questions"
+      }
+    },
+    {
+      "paperKey": "paper4",
+      "submittedAt": "2026-04-16T00:12:19.199Z",
+      "responses": {
+        "p4diff1": 1,
+        "p4diff2": 2,
+        "p4diff3": 2,
+        "p4diff4": 1,
+        "p4diff5": 1,
+        "p4diff6": 2,
+        "p4diff7": 1,
+        "p4diff8": 1,
+        "p4diff9": 1,
+        "p4diff10": 2,
+        "p4ease": 2,
+        "p4comments": "pretty smooth experience overall with this paper reading too"
+      }
+    },
+    {
+      "paperKey": "paper5",
+      "submittedAt": "2026-04-16T00:23:15.852Z",
+      "responses": {
+        "p5diff1": 2,
+        "p5diff2": 2,
+        "p5diff3": 1,
+        "p5diff4": 2,
+        "p5diff5": 2,
+        "p5diff6": 1,
+        "p5diff7": 3,
+        "p5diff8": 2,
+        "p5diff9": 2,
+        "p5diff10": 2,
+        "p5ease": 2,
+        "p5comments": "Similar to the last paper the highlights were easy to follow and there were very little periods of confusion"
+      }
+    }
+  ],
+  "finalResponses": {
+    "fq_helpful_highlighted_sentences": 4,
+    "fq_confidence_understanding": 4,
+    "fq_identify_important_info": 4,
+    "fq_repeated_known_info": 2,
+    "fq_missing_important_info": 2,
+    "fq_trust_highlights_key_ideas": 4,
+    "fq_new_vs_repeated": 4,
+    "fq_focus_novel_important_content": 4,
+    "fq_use_in_workflow": 4,
+    "fq_like_most_least": "I really liked using this system, it felt like I was able to fully immerse myself in the content and proactively learn.",
+    "fq_missing_confusing_unnecessary": "I think at this point in time I thought the system worked well."
+  },
+  "crossAttempts": [
+    {
+      "submittedAt": "2026-04-16T00:31:57.491Z",
+      "answers": {
+        "cpq1": "B",
+        "cpq2": "AI shifts cognitive load from task execution to supervisory evaluation. Since generation is partially automated, users reallocate effort toward validating outputs, ensuring correctness, and integrating results into the task context.",
+        "cpq3": "C",
+        "cpq4": "Reduced effort becomes problematic when it weakens verification processes. For instance, accepting AI-generated outputs without validation can propagate errors, as automation lowers the perceived need for scrutiny.",
+        "cpq5": "B",
+        "cpq6": "A primary factor is user trust calibration. Higher trust in AI reduces verification behaviour, while lower trust promotes more rigorous evaluation of outputs.",
+        "cpq7": "B",
+        "cpq8": "Over-reliance occurs due to perceived system reliability and output fluency. When AI responses are coherent and rapidly produced, users may default to acceptance, reducing engagement in critical validation.",
+        "cpq9": "C",
+        "cpq10": "AI enhances performance by increasing throughput and reducing task execution time. However, it simultaneously introduces risk by encouraging cognitive offloading and reduced verification effort. Consequently, system effectiveness depends on maintaining a balance between automation benefits and human oversight."
+      },
+      "scores": {
+        "cpq1": true,
+        "cpq3": true,
+        "cpq5": true,
+        "cpq7": true,
+        "cpq9": true
+      }
+    }
+  ],
+  "completedAt": "2026-04-16T00:33:07.795Z",
+  "questionOrders": {
+    "paper6": [
+      "p6q4",
+      "p6q8",
+      "p6q3",
+      "p6q7",
+      "p6q1",
+      "p6q2",
+      "p6q9",
+      "p6q6",
+      "p6q5",
+      "p6q10"
+    ],
+    "paper4": [
+      "p4q10",
+      "p4q6",
+      "p4q9",
+      "p4q1",
+      "p4q7",
+      "p4q2",
+      "p4q4",
+      "p4q5",
+      "p4q8",
+      "p4q3"
+    ],
+    "paper5": [
+      "p5q6",
+      "p5q10",
+      "p5q4",
+      "p5q8",
+      "p5q9",
+      "p5q2",
+      "p5q7",
+      "p5q1",
+      "p5q5",
+      "p5q3"
+    ]
+  },
+  "optionOrders": {
+    "paper6": {
+      "p6q1": [
+        "B",
+        "D",
+        "A",
+        "C"
+      ],
+      "p6q3": [
+        "D",
+        "A",
+        "B",
+        "C"
+      ],
+      "p6q5": [
+        "D",
+        "C",
+        "A",
+        "B"
+      ],
+      "p6q6": [
+        "B",
+        "A",
+        "C",
+        "D"
+      ],
+      "p6q8": [
+        "B",
+        "C",
+        "A",
+        "D"
+      ]
+    },
+    "paper4": {
+      "p4q1": [
+        "C",
+        "D",
+        "A",
+        "B"
+      ],
+      "p4q3": [
+        "D",
+        "B",
+        "C",
+        "A"
+      ],
+      "p4q5": [
+        "D",
+        "B",
+        "A",
+        "C"
+      ],
+      "p4q7": [
+        "C",
+        "D",
+        "B",
+        "A"
+      ],
+      "p4q9": [
+        "C",
+        "D",
+        "B",
+        "A"
+      ]
+    },
+    "paper5": {
+      "p5q1": [
+        "C",
+        "A",
+        "D",
+        "B"
+      ],
+      "p5q3": [
+        "B",
+        "D",
+        "C",
+        "A"
+      ],
+      "p5q5": [
+        "D",
+        "B",
+        "A",
+        "C"
+      ],
+      "p5q6": [
+        "C",
+        "D",
+        "A",
+        "B"
+      ],
+      "p5q8": [
+        "D",
+        "A",
+        "B",
+        "C"
+      ]
+    }
+  },
+  "crossFinalAnswers": {
+    "cpq1": "B",
+    "cpq2": "AI shifts cognitive load from task execution to supervisory evaluation. Since generation is partially automated, users reallocate effort toward validating outputs, ensuring correctness, and integrating results into the task context.",
+    "cpq3": "C",
+    "cpq4": "Reduced effort becomes problematic when it weakens verification processes. For instance, accepting AI-generated outputs without validation can propagate errors, as automation lowers the perceived need for scrutiny.",
+    "cpq5": "B",
+    "cpq6": "A primary factor is user trust calibration. Higher trust in AI reduces verification behaviour, while lower trust promotes more rigorous evaluation of outputs.",
+    "cpq7": "B",
+    "cpq8": "Over-reliance occurs due to perceived system reliability and output fluency. When AI responses are coherent and rapidly produced, users may default to acceptance, reducing engagement in critical validation.",
+    "cpq9": "C",
+    "cpq10": "AI enhances performance by increasing throughput and reducing task execution time. However, it simultaneously introduces risk by encouraging cognitive offloading and reduced verification effort. Consequently, system effectiveness depends on maintaining a balance between automation benefits and human oversight."
+  }
+}

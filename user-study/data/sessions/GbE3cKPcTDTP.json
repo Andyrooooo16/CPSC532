@@ -1,0 +1,457 @@
+{
+  "sessionId": "GbE3cKPcTDTP",
+  "participantId": "P18",
+  "paperOrder": [
+    "paper6",
+    "paper5",
+    "paper4"
+  ],
+  "conditions": [
+    "no_highlights",
+    "all_highlights",
+    "contextual_highlights"
+  ],
+  "createdAt": "2026-04-15T01:11:12.776Z",
+  "step": "done",
+  "demographicResponses": {
+    "age": "B",
+    "role": "B",
+    "field": "Computer Science",
+    "reading_freq": "B",
+    "reading_style": "A"
+  },
+  "tasks": [
+    {
+      "paperKey": "paper6",
+      "condition": "no_highlights",
+      "priorPapers": [],
+      "startedAt": "2026-04-15T01:12:40.057Z",
+      "completedAt": "2026-04-15T01:29:37.847Z",
+      "attempts": [
+        {
+          "submittedAt": "2026-04-15T01:29:37.818Z",
+          "answers": {
+            "p6q10": "Excessive ChatGPT usage leads to memory loss by reducing the cognitive effort and mental exertion required for active learning, which is essential for memory consolidation and retention",
+            "p6q9": "The authors recommend that educators emphasize efficient time management and workload distribution when assigning tasks to reduce the stress that drives students to use ChatGPT as a shortcut, thereby preventing the memory loss and poor academic performance identified as consequences in the study.",
+            "p6q1": "B",
+            "p6q3": "C",
+            "p6q5": "B",
+            "p6q7": "ChatGPT usage mediated the impacts of workload and time pressure on all outcomes, and reward sensitivity on procrastination and memory loss, but did not mediate quality sensitivity or reward-related academic performance.",
+            "p6q8": "B",
+            "p6q6": "C",
+            "p6q4": "The researchers reduced the initial 12 items to 8 by using expert sorting to ensure content validity and exploratory factor analysis to remove items 4 and 9 because they failed to meet the required thresholds for factor loadings and communalities.",
+            "p6q2": "The researchers found that reward sensitivity leads to a decrease in the use of generative AI because students worry that using an unethical shortcut could jeopardize their grades or academic standing"
+          },
+          "scores": {
+            "p6q1": true,
+            "p6q3": true,
+            "p6q5": true,
+            "p6q6": true,
+            "p6q8": true
+          }
+        }
+      ],
+      "perQuestionTimeSeconds": {
+        "p6q1": 394,
+        "p6q3": 484,
+        "p6q5": 526,
+        "p6q8": 641,
+        "p6q6": 710
+      },
+      "firstAttemptCorrect": {
+        "p6q1": true,
+        "p6q3": true,
+        "p6q5": true,
+        "p6q6": true,
+        "p6q8": true
+      },
+      "finalAnswers": {
+        "p6q10": "Excessive ChatGPT usage leads to memory loss by reducing the cognitive effort and mental exertion required for active learning, which is essential for memory consolidation and retention",
+        "p6q9": "The authors recommend that educators emphasize efficient time management and workload distribution when assigning tasks to reduce the stress that drives students to use ChatGPT as a shortcut, thereby preventing the memory loss and poor academic performance identified as consequences in the study.",
+        "p6q1": "B",
+        "p6q3": "C",
+        "p6q5": "B",
+        "p6q7": "ChatGPT usage mediated the impacts of workload and time pressure on all outcomes, and reward sensitivity on procrastination and memory loss, but did not mediate quality sensitivity or reward-related academic performance.",
+        "p6q8": "B",
+        "p6q6": "C",
+        "p6q4": "The researchers reduced the initial 12 items to 8 by using expert sorting to ensure content validity and exploratory factor analysis to remove items 4 and 9 because they failed to meet the required thresholds for factor loadings and communalities.",
+        "p6q2": "The researchers found that reward sensitivity leads to a decrease in the use of generative AI because students worry that using an unethical shortcut could jeopardize their grades or academic standing"
+      }
+    },
+    {
+      "paperKey": "paper5",
+      "condition": "all_highlights",
+      "priorPapers": [],
+      "startedAt": "2026-04-15T01:46:07.257Z",
+      "completedAt": "2026-04-15T02:01:37.650Z",
+      "attempts": [
+        {
+          "submittedAt": "2026-04-15T02:01:37.646Z",
+          "answers": {
+            "p5q8": "C",
+            "p5q6": "B",
+            "p5q7": "The meta-analysis demonstrates that XAI-assisted decision-making significantly improves human performance over unassisted tasks, yet fails to show a significant performance benefit over isolated AI predictions, while also highlighting that text-based tasks yield better results than tabular ones.",
+            "p5q4": "The meta-analysis found that XAI assistance significantly improves performance for text data while having a negligible effect on tabular data, likely because text is more intuitive and less prone to information overload than the complex datasets often found in tabular tasks.",
+            "p5q3": "D",
+            "p5q10": "Prompted by the finding that explanations often increase the probability of users accepting AI suggestions regardless of their correctness, the authors raise an ethical concern that this could be a form of manipulating people to follow AI advice blindly",
+            "p5q9": "While multiple investigations found that explanations increased the general probability of users accepting AI suggestions, one study observed a decrease in adherence when AI certainty information was provided, and other research reported that explanations had no significant effect on whether users followed the AI's advice.",
+            "p5q2": "Although XAI-assisted decision-making significantly outperforms unassisted human performance, the lack of a statistically significant difference between AI and XAI assistance means that the observed improvement should be interpreted as a general benefit of receiving AI advice rather than the explanations themselves.",
+            "p5q5": "B",
+            "p5q1": "B"
+          },
+          "scores": {
+            "p5q1": true,
+            "p5q3": true,
+            "p5q5": true,
+            "p5q6": true,
+            "p5q8": true
+          }
+        }
+      ],
+      "perQuestionTimeSeconds": {
+        "p5q8": 152,
+        "p5q6": 181,
+        "p5q3": 389,
+        "p5q5": 920,
+        "p5q1": 930
+      },
+      "firstAttemptCorrect": {
+        "p5q1": true,
+        "p5q3": true,
+        "p5q5": true,
+        "p5q6": true,
+        "p5q8": true
+      },
+      "finalAnswers": {
+        "p5q8": "C",
+        "p5q6": "B",
+        "p5q7": "The meta-analysis demonstrates that XAI-assisted decision-making significantly improves human performance over unassisted tasks, yet fails to show a significant performance benefit over isolated AI predictions, while also highlighting that text-based tasks yield better results than tabular ones.",
+        "p5q4": "The meta-analysis found that XAI assistance significantly improves performance for text data while having a negligible effect on tabular data, likely because text is more intuitive and less prone to information overload than the complex datasets often found in tabular tasks.",
+        "p5q3": "D",
+        "p5q10": "Prompted by the finding that explanations often increase the probability of users accepting AI suggestions regardless of their correctness, the authors raise an ethical concern that this could be a form of manipulating people to follow AI advice blindly",
+        "p5q9": "While multiple investigations found that explanations increased the general probability of users accepting AI suggestions, one study observed a decrease in adherence when AI certainty information was provided, and other research reported that explanations had no significant effect on whether users followed the AI's advice.",
+        "p5q2": "Although XAI-assisted decision-making significantly outperforms unassisted human performance, the lack of a statistically significant difference between AI and XAI assistance means that the observed improvement should be interpreted as a general benefit of receiving AI advice rather than the explanations themselves.",
+        "p5q5": "B",
+        "p5q1": "B"
+      }
+    },
+    {
+      "paperKey": "paper4",
+      "condition": "contextual_highlights",
+      "priorPapers": [],
+      "startedAt": "2026-04-15T02:06:31.548Z",
+      "completedAt": "2026-04-15T02:12:11.225Z",
+      "attempts": [
+        {
+          "submittedAt": "2026-04-15T02:12:11.222Z",
+          "answers": {
+            "p4q3": "C",
+            "p4q2": "RQ1 investigates when and how knowledge workers enact critical thinking while using GenAI, whereas RQ2 focuses on when and why they perceive changes in the cognitive effort required for those critical thinking activities",
+            "p4q1": "C",
+            "p4q10": "The authors prefer the term \"stewardship\" because, unlike human-human collaboration, the human user retains full responsibility and accountability for the final work even though the labour of material production is delegated to the GenAI tool",
+            "p4q9": "D",
+            "p4q5": "B",
+            "p4q6": "Ability barriers such as limited domain knowledge can obstruct the enaction of critical thinking even when workers are motivated to ensure quality, implying that critical thinking is most likely to break down when users lack the independent expertise to verify AI outputs or when external pressures like a lack of time override their professional incentives.",
+            "p4q7": "B",
+            "p4q8": "The ability barriers preventing critical thinking include difficulties in inspecting AI responses due to limited domain knowledge and obstacles in revising queries or improving responses, with the latter being the most commonly reported barrier by 72 participants"
+          },
+          "scores": {
+            "p4q1": true,
+            "p4q3": true,
+            "p4q5": true,
+            "p4q7": true,
+            "p4q9": true
+          }
+        }
+      ],
+      "perQuestionTimeSeconds": {
+        "p4q3": 52,
+        "p4q1": 95,
+        "p4q9": 153,
+        "p4q5": 242,
+        "p4q7": 319
+      },
+      "firstAttemptCorrect": {
+        "p4q1": true,
+        "p4q3": true,
+        "p4q5": true,
+        "p4q7": true,
+        "p4q9": true
+      },
+      "finalAnswers": {
+        "p4q3": "C",
+        "p4q2": "RQ1 investigates when and how knowledge workers enact critical thinking while using GenAI, whereas RQ2 focuses on when and why they perceive changes in the cognitive effort required for those critical thinking activities",
+        "p4q1": "C",
+        "p4q10": "The authors prefer the term \"stewardship\" because, unlike human-human collaboration, the human user retains full responsibility and accountability for the final work even though the labour of material production is delegated to the GenAI tool",
+        "p4q9": "D",
+        "p4q5": "B",
+        "p4q6": "Ability barriers such as limited domain knowledge can obstruct the enaction of critical thinking even when workers are motivated to ensure quality, implying that critical thinking is most likely to break down when users lack the independent expertise to verify AI outputs or when external pressures like a lack of time override their professional incentives.",
+        "p4q7": "B",
+        "p4q8": "The ability barriers preventing critical thinking include difficulties in inspecting AI responses due to limited domain knowledge and obstacles in revising queries or improving responses, with the latter being the most commonly reported barrier by 72 participants"
+      }
+    }
+  ],
+  "questionnaireResponses": [
+    {
+      "paperKey": "paper6",
+      "submittedAt": "2026-04-15T01:30:50.200Z",
+      "responses": {
+        "p6diff1": 2,
+        "p6diff2": 2,
+        "p6diff3": 3,
+        "p6diff4": 1,
+        "p6diff5": 1,
+        "p6diff6": 2,
+        "p6diff7": 2,
+        "p6diff8": 2,
+        "p6diff9": 4,
+        "p6diff10": 3,
+        "p6ease": 3,
+        "p6comments": "Some responses were ultimately easy to find but others were a bit more challenging, especially open ended questions"
+      }
+    },
+    {
+      "paperKey": "paper5",
+      "submittedAt": "2026-04-15T02:02:08.599Z",
+      "responses": {
+        "p5diff1": 3,
+        "p5diff2": 3,
+        "p5diff3": 3,
+        "p5diff4": 1,
+        "p5diff5": 3,
+        "p5diff6": 2,
+        "p5diff7": 3,
+        "p5diff8": 4,
+        "p5diff9": 4,
+        "p5diff10": 1,
+        "p5ease": 1,
+        "p5comments": "The value answers are easier to locate than others"
+      }
+    },
+    {
+      "paperKey": "paper4",
+      "submittedAt": "2026-04-15T02:13:28.455Z",
+      "responses": {
+        "p4diff1": 1,
+        "p4diff2": 2,
+        "p4diff3": 1,
+        "p4diff4": 1,
+        "p4diff5": 1,
+        "p4diff6": 2,
+        "p4diff7": 3,
+        "p4diff8": 2,
+        "p4diff9": 1,
+        "p4diff10": 3,
+        "p4ease": 3
+      }
+    }
+  ],
+  "finalResponses": {
+    "fq_helpful_highlighted_sentences": 4,
+    "fq_confidence_understanding": 3,
+    "fq_identify_important_info": 2,
+    "fq_repeated_known_info": 3,
+    "fq_missing_important_info": 3,
+    "fq_trust_highlights_key_ideas": 4,
+    "fq_new_vs_repeated": 3,
+    "fq_focus_novel_important_content": 3,
+    "fq_use_in_workflow": 3,
+    "fq_like_most_least": "I liked how the system was able to easily highlight important quantities and numerical information to a reader to process.",
+    "fq_missing_confusing_unnecessary": "Some of the papers seemed like there were very sparse highlighting. It felt like a bit more information from the paper could be deemed as \"important\" through the highlights."
+  },
+  "crossAttempts": [
+    {
+      "submittedAt": "2026-04-15T02:17:34.009Z",
+      "answers": {
+        "cpq1": "B",
+        "cpq2": "One key change is that cognitive effort shifts from doing tasks, like writing or searching, to evaluating and verifying AI outputs. This happens because AI automates parts of the task, but users still need to check accuracy, align outputs with goals, and make final decisions",
+        "cpq3": "C",
+        "cpq4": "Lower effort can be harmful when users skip critical evaluation of AI outputs. For example, if someone accepts AI-generated information without checking it, they may rely on incorrect or biased results. This happens because AI reduces the effort needed to produce answers, which can lead users to engage less critically and become overly dependent on the system.",
+        "cpq5": "B",
+        "cpq6": "One key factor is confidence, both in the AI and in oneself. When users have high confidence in AI, they are less likely to verify outputs, while higher self-confidence leads to more critical evaluation.",
+        "cpq7": "B",
+        "cpq8": "People may over-rely on AI because of high trust or perceived reliability. For example, when users trust AI outputs, they may accept them without verification, leading to reduced critical thinking and over-reliance.",
+        "cpq9": "A",
+        "cpq10": "AI can improve performance by increasing efficiency and helping generate ideas or information quickly. However, it also creates risks because users may reduce effort, rely too much on AI, and fail to verify outputs, which can lead to errors or poorer decision-making. This shows a tradeoff between efficiency and critical engagement across the papers."
+      },
+      "scores": {
+        "cpq1": true,
+        "cpq3": true,
+        "cpq5": true,
+        "cpq7": true,
+        "cpq9": false
+      }
+    },
+    {
+      "submittedAt": "2026-04-15T02:17:52.638Z",
+      "answers": {
+        "cpq1": "B",
+        "cpq2": "One key change is that cognitive effort shifts from doing tasks, like writing or searching, to evaluating and verifying AI outputs. This happens because AI automates parts of the task, but users still need to check accuracy, align outputs with goals, and make final decisions",
+        "cpq3": "C",
+        "cpq4": "Lower effort can be harmful when users skip critical evaluation of AI outputs. For example, if someone accepts AI-generated information without checking it, they may rely on incorrect or biased results. This happens because AI reduces the effort needed to produce answers, which can lead users to engage less critically and become overly dependent on the system.",
+        "cpq5": "B",
+        "cpq6": "One key factor is confidence, both in the AI and in oneself. When users have high confidence in AI, they are less likely to verify outputs, while higher self-confidence leads to more critical evaluation.",
+        "cpq7": "B",
+        "cpq8": "People may over-rely on AI because of high trust or perceived reliability. For example, when users trust AI outputs, they may accept them without verification, leading to reduced critical thinking and over-reliance.",
+        "cpq9": "C",
+        "cpq10": "AI can improve performance by increasing efficiency and helping generate ideas or information quickly. However, it also creates risks because users may reduce effort, rely too much on AI, and fail to verify outputs, which can lead to errors or poorer decision-making. This shows a tradeoff between efficiency and critical engagement across the papers."
+      },
+      "scores": {
+        "cpq1": true,
+        "cpq3": true,
+        "cpq5": true,
+        "cpq7": true,
+        "cpq9": true
+      }
+    }
+  ],
+  "completedAt": "2026-04-15T02:20:10.786Z",
+  "questionOrders": {
+    "paper6": [
+      "p6q10",
+      "p6q9",
+      "p6q1",
+      "p6q3",
+      "p6q5",
+      "p6q7",
+      "p6q8",
+      "p6q6",
+      "p6q4",
+      "p6q2"
+    ],
+    "paper5": [
+      "p5q8",
+      "p5q6",
+      "p5q7",
+      "p5q4",
+      "p5q3",
+      "p5q10",
+      "p5q9",
+      "p5q2",
+      "p5q5",
+      "p5q1"
+    ],
+    "paper4": [
+      "p4q3",
+      "p4q2",
+      "p4q1",
+      "p4q10",
+      "p4q9",
+      "p4q5",
+      "p4q6",
+      "p4q7",
+      "p4q8",
+      "p4q4"
+    ]
+  },
+  "optionOrders": {
+    "paper6": {
+      "p6q1": [
+        "C",
+        "D",
+        "B",
+        "A"
+      ],
+      "p6q3": [
+        "D",
+        "A",
+        "C",
+        "B"
+      ],
+      "p6q5": [
+        "D",
+        "C",
+        "B",
+        "A"
+      ],
+      "p6q6": [
+        "D",
+        "B",
+        "A",
+        "C"
+      ],
+      "p6q8": [
+        "B",
+        "A",
+        "D",
+        "C"
+      ]
+    },
+    "paper5": {
+      "p5q1": [
+        "D",
+        "C",
+        "A",
+        "B"
+      ],
+      "p5q3": [
+        "C",
+        "A",
+        "B",
+        "D"
+      ],
+      "p5q5": [
+        "D",
+        "C",
+        "A",
+        "B"
+      ],
+      "p5q6": [
+        "B",
+        "A",
+        "D",
+        "C"
+      ],
+      "p5q8": [
+        "D",
+        "A",
+        "C",
+        "B"
+      ]
+    },
+    "paper4": {
+      "p4q1": [
+        "C",
+        "B",
+        "A",
+        "D"
+      ],
+      "p4q3": [
+        "B",
+        "D",
+        "A",
+        "C"
+      ],
+      "p4q5": [
+        "C",
+        "D",
+        "B",
+        "A"
+      ],
+      "p4q7": [
+        "B",
+        "C",
+        "A",
+        "D"
+      ],
+      "p4q9": [
+        "C",
+        "D",
+        "B",
+        "A"
+      ]
+    }
+  },
+  "crossFinalAnswers": {
+    "cpq1": "B",
+    "cpq2": "One key change is that cognitive effort shifts from doing tasks, like writing or searching, to evaluating and verifying AI outputs. This happens because AI automates parts of the task, but users still need to check accuracy, align outputs with goals, and make final decisions",
+    "cpq3": "C",
+    "cpq4": "Lower effort can be harmful when users skip critical evaluation of AI outputs. For example, if someone accepts AI-generated information without checking it, they may rely on incorrect or biased results. This happens because AI reduces the effort needed to produce answers, which can lead users to engage less critically and become overly dependent on the system.",
+    "cpq5": "B",
+    "cpq6": "One key factor is confidence, both in the AI and in oneself. When users have high confidence in AI, they are less likely to verify outputs, while higher self-confidence leads to more critical evaluation.",
+    "cpq7": "B",
+    "cpq8": "People may over-rely on AI because of high trust or perceived reliability. For example, when users trust AI outputs, they may accept them without verification, leading to reduced critical thinking and over-reliance.",
+    "cpq9": "C",
+    "cpq10": "AI can improve performance by increasing efficiency and helping generate ideas or information quickly. However, it also creates risks because users may reduce effort, rely too much on AI, and fail to verify outputs, which can lead to errors or poorer decision-making. This shows a tradeoff between efficiency and critical engagement across the papers."
+  }
+}
