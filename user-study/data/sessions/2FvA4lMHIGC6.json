@@ -1,0 +1,525 @@
+{
+  "sessionId": "2FvA4lMHIGC6",
+  "participantId": "P04",
+  "paperOrder": [
+    "paper5",
+    "paper6",
+    "paper4"
+  ],
+  "conditions": [
+    "no_highlights",
+    "all_highlights",
+    "contextual_highlights"
+  ],
+  "createdAt": "2026-04-15T04:32:45.760Z",
+  "step": "done",
+  "demographicResponses": {
+    "age": "C",
+    "role": "B",
+    "field": "Digital Media & CS",
+    "reading_freq": "C",
+    "reading_style": "D"
+  },
+  "tasks": [
+    {
+      "paperKey": "paper5",
+      "condition": "no_highlights",
+      "priorPapers": [],
+      "startedAt": "2026-04-15T04:33:05.800Z",
+      "completedAt": "2026-04-15T04:39:13.326Z",
+      "attempts": [
+        {
+          "submittedAt": "2026-04-15T04:39:08.056Z",
+          "answers": {
+            "p5q10": "The ethical concern is that explanations may act as persuasive tools that increase trust in AI outputs regardless of their correctness. This concern arises from findings that explanations can increase acceptance of AI advice even when it is wrong, potentially leading to overreliance and harmful decision making.",
+            "p5q9": "Some studies find that explanations increase users’ acceptance of AI advice, even when it is incorrect, suggesting a persuasive effect. Other studies find that explanations have no effect or even reduce reliance, particularly when additional signals like confidence are provided. These conflicting findings demonstrate that the impact of explanations on user behavior is inconsistent and context dependent.",
+            "p5q3": "D",
+            "p5q7": "The two mechanisms are increased acceptance of AI advice and improved calibration of reliance, meaning better ability to distinguish when to trust AI. The qualitative review finds stronger evidence for increased acceptance, indicating that explanations primarily make users more likely to follow AI recommendations rather than improving their ability to critically evaluate them.",
+            "p5q2": "1. human performance versus XAI-assisted performance, and 2. AI-assisted performance versus XAI assisted performance. While XAI improves performance relative to humans alone, it does not significantly outperform AI without explanations. This means the observed improvement should be attributed to AI assistance in general, rather than the added value of explanations specifically.",
+            "p5q1": "B",
+            "p5q8": "B",
+            "p5q5": "B",
+            "p5q4": "The results show that XAI has negligible impact on performance for tabular data but produces significant improvements for text-based tasks. The authors explain this difference by suggesting that explanations are easier for humans to interpret and apply in text-based contexts, whereas tabular data tasks may be more complex or less intuitive, limiting the usefulness of explanations.",
+            "p5q6": "A"
+          },
+          "scores": {
+            "p5q1": true,
+            "p5q3": true,
+            "p5q5": true,
+            "p5q6": false,
+            "p5q8": false
+          }
+        },
+        {
+          "submittedAt": "2026-04-15T04:39:09.693Z",
+          "answers": {
+            "p5q10": "The ethical concern is that explanations may act as persuasive tools that increase trust in AI outputs regardless of their correctness. This concern arises from findings that explanations can increase acceptance of AI advice even when it is wrong, potentially leading to overreliance and harmful decision making.",
+            "p5q9": "Some studies find that explanations increase users’ acceptance of AI advice, even when it is incorrect, suggesting a persuasive effect. Other studies find that explanations have no effect or even reduce reliance, particularly when additional signals like confidence are provided. These conflicting findings demonstrate that the impact of explanations on user behavior is inconsistent and context dependent.",
+            "p5q3": "D",
+            "p5q7": "The two mechanisms are increased acceptance of AI advice and improved calibration of reliance, meaning better ability to distinguish when to trust AI. The qualitative review finds stronger evidence for increased acceptance, indicating that explanations primarily make users more likely to follow AI recommendations rather than improving their ability to critically evaluate them.",
+            "p5q2": "1. human performance versus XAI-assisted performance, and 2. AI-assisted performance versus XAI assisted performance. While XAI improves performance relative to humans alone, it does not significantly outperform AI without explanations. This means the observed improvement should be attributed to AI assistance in general, rather than the added value of explanations specifically.",
+            "p5q1": "B",
+            "p5q8": "B",
+            "p5q5": "B",
+            "p5q4": "The results show that XAI has negligible impact on performance for tabular data but produces significant improvements for text-based tasks. The authors explain this difference by suggesting that explanations are easier for humans to interpret and apply in text-based contexts, whereas tabular data tasks may be more complex or less intuitive, limiting the usefulness of explanations.",
+            "p5q6": "B"
+          },
+          "scores": {
+            "p5q1": true,
+            "p5q3": true,
+            "p5q5": true,
+            "p5q6": true,
+            "p5q8": false
+          }
+        },
+        {
+          "submittedAt": "2026-04-15T04:39:13.321Z",
+          "answers": {
+            "p5q10": "The ethical concern is that explanations may act as persuasive tools that increase trust in AI outputs regardless of their correctness. This concern arises from findings that explanations can increase acceptance of AI advice even when it is wrong, potentially leading to overreliance and harmful decision making.",
+            "p5q9": "Some studies find that explanations increase users’ acceptance of AI advice, even when it is incorrect, suggesting a persuasive effect. Other studies find that explanations have no effect or even reduce reliance, particularly when additional signals like confidence are provided. These conflicting findings demonstrate that the impact of explanations on user behavior is inconsistent and context dependent.",
+            "p5q3": "D",
+            "p5q7": "The two mechanisms are increased acceptance of AI advice and improved calibration of reliance, meaning better ability to distinguish when to trust AI. The qualitative review finds stronger evidence for increased acceptance, indicating that explanations primarily make users more likely to follow AI recommendations rather than improving their ability to critically evaluate them.",
+            "p5q2": "1. human performance versus XAI-assisted performance, and 2. AI-assisted performance versus XAI assisted performance. While XAI improves performance relative to humans alone, it does not significantly outperform AI without explanations. This means the observed improvement should be attributed to AI assistance in general, rather than the added value of explanations specifically.",
+            "p5q1": "B",
+            "p5q8": "C",
+            "p5q5": "B",
+            "p5q4": "The results show that XAI has negligible impact on performance for tabular data but produces significant improvements for text-based tasks. The authors explain this difference by suggesting that explanations are easier for humans to interpret and apply in text-based contexts, whereas tabular data tasks may be more complex or less intuitive, limiting the usefulness of explanations.",
+            "p5q6": "B"
+          },
+          "scores": {
+            "p5q1": true,
+            "p5q3": true,
+            "p5q5": true,
+            "p5q6": true,
+            "p5q8": true
+          }
+        }
+      ],
+      "perQuestionTimeSeconds": {
+        "p5q3": 308,
+        "p5q1": 347,
+        "p5q5": 350,
+        "p5q6": 363,
+        "p5q8": 367
+      },
+      "firstAttemptCorrect": {
+        "p5q1": true,
+        "p5q3": true,
+        "p5q5": true,
+        "p5q6": false,
+        "p5q8": false
+      },
+      "finalAnswers": {
+        "p5q10": "The ethical concern is that explanations may act as persuasive tools that increase trust in AI outputs regardless of their correctness. This concern arises from findings that explanations can increase acceptance of AI advice even when it is wrong, potentially leading to overreliance and harmful decision making.",
+        "p5q9": "Some studies find that explanations increase users’ acceptance of AI advice, even when it is incorrect, suggesting a persuasive effect. Other studies find that explanations have no effect or even reduce reliance, particularly when additional signals like confidence are provided. These conflicting findings demonstrate that the impact of explanations on user behavior is inconsistent and context dependent.",
+        "p5q3": "D",
+        "p5q7": "The two mechanisms are increased acceptance of AI advice and improved calibration of reliance, meaning better ability to distinguish when to trust AI. The qualitative review finds stronger evidence for increased acceptance, indicating that explanations primarily make users more likely to follow AI recommendations rather than improving their ability to critically evaluate them.",
+        "p5q2": "1. human performance versus XAI-assisted performance, and 2. AI-assisted performance versus XAI assisted performance. While XAI improves performance relative to humans alone, it does not significantly outperform AI without explanations. This means the observed improvement should be attributed to AI assistance in general, rather than the added value of explanations specifically.",
+        "p5q1": "B",
+        "p5q8": "C",
+        "p5q5": "B",
+        "p5q4": "The results show that XAI has negligible impact on performance for tabular data but produces significant improvements for text-based tasks. The authors explain this difference by suggesting that explanations are easier for humans to interpret and apply in text-based contexts, whereas tabular data tasks may be more complex or less intuitive, limiting the usefulness of explanations.",
+        "p5q6": "B"
+      }
+    },
+    {
+      "paperKey": "paper6",
+      "condition": "all_highlights",
+      "priorPapers": [],
+      "startedAt": "2026-04-15T04:39:37.790Z",
+      "completedAt": "2026-04-15T04:42:13.401Z",
+      "attempts": [
+        {
+          "submittedAt": "2026-04-15T04:41:57.233Z",
+          "answers": {
+            "p6q10": "The proposed mechanism is reduced cognitive effort and lack of active learning. When students rely on ChatGPT, they engage less in mental processing, which weakens memory consolidation and cognitive skills over time.",
+            "p6q6": "C",
+            "p6q4": "The reduction process involved an initial content validity review followed by exploratory factor analysis. Items were evaluated based on statistical criteria such as factor loadings and communalities, and those that did not meet thresholds were removed. Specifically, items with low loadings and poor contribution to the factor structure were dropped, resulting in a final reliable 8 item scale.",
+            "p6q3": "C",
+            "p6q8": "B",
+            "p6q1": "D",
+            "p6q2": "The two predictions were that sensitivity to rewards would either increase ChatGPT usage, because students want better outcomes, or decrease usage, because students fear penalties. The supported hypothesis is the negative relationship, meaning reward-sensitive students use ChatGPT less. The reasoning is that these students are more concerned about grades and academic integrity, so they avoid risky or potentially unethical behaviors.",
+            "p6q7": "Mediation was supported for workload and time pressure influencing outcomes like procrastination, memory loss, and academic performance through ChatGPT usage. It was also partially supported for sensitivity to rewards. However, mediation was not supported for sensitivity to quality, as it did not significantly influence outcomes through ChatGPT usage.",
+            "p6q9": "The authors recommend that educators manage workload and time pressure more effectively and design tasks that require critical thinking rather than easy automation. This directly follows from the finding that high workload and time pressure increase reliance on ChatGPT suggesting that reducing these pressures can decrease overuse.",
+            "p6q5": "B"
+          },
+          "scores": {
+            "p6q1": false,
+            "p6q3": true,
+            "p6q5": true,
+            "p6q6": true,
+            "p6q8": true
+          }
+        },
+        {
+          "submittedAt": "2026-04-15T04:42:13.393Z",
+          "answers": {
+            "p6q10": "The proposed mechanism is reduced cognitive effort and lack of active learning. When students rely on ChatGPT, they engage less in mental processing, which weakens memory consolidation and cognitive skills over time.",
+            "p6q6": "C",
+            "p6q4": "The reduction process involved an initial content validity review followed by exploratory factor analysis. Items were evaluated based on statistical criteria such as factor loadings and communalities, and those that did not meet thresholds were removed. Specifically, items with low loadings and poor contribution to the factor structure were dropped, resulting in a final reliable 8 item scale.",
+            "p6q3": "C",
+            "p6q8": "B",
+            "p6q1": "B",
+            "p6q2": "The two predictions were that sensitivity to rewards would either increase ChatGPT usage, because students want better outcomes, or decrease usage, because students fear penalties. The supported hypothesis is the negative relationship, meaning reward-sensitive students use ChatGPT less. The reasoning is that these students are more concerned about grades and academic integrity, so they avoid risky or potentially unethical behaviors.",
+            "p6q7": "Mediation was supported for workload and time pressure influencing outcomes like procrastination, memory loss, and academic performance through ChatGPT usage. It was also partially supported for sensitivity to rewards. However, mediation was not supported for sensitivity to quality, as it did not significantly influence outcomes through ChatGPT usage.",
+            "p6q9": "The authors recommend that educators manage workload and time pressure more effectively and design tasks that require critical thinking rather than easy automation. This directly follows from the finding that high workload and time pressure increase reliance on ChatGPT suggesting that reducing these pressures can decrease overuse.",
+            "p6q5": "B"
+          },
+          "scores": {
+            "p6q1": true,
+            "p6q3": true,
+            "p6q5": true,
+            "p6q6": true,
+            "p6q8": true
+          }
+        }
+      ],
+      "perQuestionTimeSeconds": {
+        "p6q6": 95,
+        "p6q3": 76,
+        "p6q8": 79,
+        "p6q5": 138,
+        "p6q1": 154
+      },
+      "firstAttemptCorrect": {
+        "p6q1": false,
+        "p6q3": true,
+        "p6q5": true,
+        "p6q6": true,
+        "p6q8": true
+      },
+      "finalAnswers": {
+        "p6q10": "The proposed mechanism is reduced cognitive effort and lack of active learning. When students rely on ChatGPT, they engage less in mental processing, which weakens memory consolidation and cognitive skills over time.",
+        "p6q6": "C",
+        "p6q4": "The reduction process involved an initial content validity review followed by exploratory factor analysis. Items were evaluated based on statistical criteria such as factor loadings and communalities, and those that did not meet thresholds were removed. Specifically, items with low loadings and poor contribution to the factor structure were dropped, resulting in a final reliable 8 item scale.",
+        "p6q3": "C",
+        "p6q8": "B",
+        "p6q1": "B",
+        "p6q2": "The two predictions were that sensitivity to rewards would either increase ChatGPT usage, because students want better outcomes, or decrease usage, because students fear penalties. The supported hypothesis is the negative relationship, meaning reward-sensitive students use ChatGPT less. The reasoning is that these students are more concerned about grades and academic integrity, so they avoid risky or potentially unethical behaviors.",
+        "p6q7": "Mediation was supported for workload and time pressure influencing outcomes like procrastination, memory loss, and academic performance through ChatGPT usage. It was also partially supported for sensitivity to rewards. However, mediation was not supported for sensitivity to quality, as it did not significantly influence outcomes through ChatGPT usage.",
+        "p6q9": "The authors recommend that educators manage workload and time pressure more effectively and design tasks that require critical thinking rather than easy automation. This directly follows from the finding that high workload and time pressure increase reliance on ChatGPT suggesting that reducing these pressures can decrease overuse.",
+        "p6q5": "B"
+      }
+    },
+    {
+      "paperKey": "paper4",
+      "condition": "contextual_highlights",
+      "priorPapers": [],
+      "startedAt": "2026-04-15T04:43:00.755Z",
+      "completedAt": "2026-04-15T04:46:02.317Z",
+      "attempts": [
+        {
+          "submittedAt": "2026-04-15T04:45:23.456Z",
+          "answers": {
+            "p4q2": "1. when and how knowledge workers perceive the enaction of critical thinking when using Gen AI, and 2. when and why knowledge workers perceive changes in effort for critical thinking due to Ge nAI. The key difference is that the first focuses on observable behaviors and practices of critical thinking, while the second focuses on perceived cognitive effort and the reasons behind increases or decreases in that effort.",
+            "p4q10": "This term is used because it emphasizes that humans retain full responsibility for outcomes even when AI performs much of the task. This framing highlights that accountability does not shift to the AI system, but remains with the human, who must guide, evaluate, and take ownership of the final output.",
+            "p4q8": "The 2 main ability barriers are difficulty inspecting or verifying AI outputs and difficulty revising prompts or improving responses. Among these, the most commonly reported barrier is the inability to effectively verify AI outputs, often due to insufficient domain knowledge or lack of confidence in evaluating correctness.",
+            "p4q1": "C",
+            "p4q5": "B",
+            "p4q7": "B",
+            "p4q6": "Motivational factors such as improving work quality or avoiding negative outcomes encourage critical thinking, but ability barriers like lack of domain knowledge or difficulty verifying outputs can prevent it from being enacted. These interact such that even motivated users may fail to engage critically if they lack the skills to evaluate or improve AI outputs. This implies that critical thinking is most likely to break down in situations where users are motivated but lack the capability to assess correctness, especially in unfamiliar domains.",
+            "p4q9": "D",
+            "p4q3": "B",
+            "p4q4": "The authors observe that cognitive effort shifts from performing analysis, synthesis, and evaluation directly to overseeing and verifying AI generated outputs. Instead of executing these tasks themselves, workers focus more on checking accuracy, integrating outputs, and ensuring quality. This creates a new role of task stewardship, where knowledge workers guide monitor, and refine AI outputs rather than producing all content independently."
+          },
+          "scores": {
+            "p4q1": true,
+            "p4q3": false,
+            "p4q5": true,
+            "p4q7": true,
+            "p4q9": true
+          }
+        },
+        {
+          "submittedAt": "2026-04-15T04:46:02.311Z",
+          "answers": {
+            "p4q2": "1. when and how knowledge workers perceive the enaction of critical thinking when using Gen AI, and 2. when and why knowledge workers perceive changes in effort for critical thinking due to Ge nAI. The key difference is that the first focuses on observable behaviors and practices of critical thinking, while the second focuses on perceived cognitive effort and the reasons behind increases or decreases in that effort.",
+            "p4q10": "This term is used because it emphasizes that humans retain full responsibility for outcomes even when AI performs much of the task. This framing highlights that accountability does not shift to the AI system, but remains with the human, who must guide, evaluate, and take ownership of the final output.",
+            "p4q8": "The 2 main ability barriers are difficulty inspecting or verifying AI outputs and difficulty revising prompts or improving responses. Among these, the most commonly reported barrier is the inability to effectively verify AI outputs, often due to insufficient domain knowledge or lack of confidence in evaluating correctness.",
+            "p4q1": "C",
+            "p4q5": "B",
+            "p4q7": "B",
+            "p4q6": "Motivational factors such as improving work quality or avoiding negative outcomes encourage critical thinking, but ability barriers like lack of domain knowledge or difficulty verifying outputs can prevent it from being enacted. These interact such that even motivated users may fail to engage critically if they lack the skills to evaluate or improve AI outputs. This implies that critical thinking is most likely to break down in situations where users are motivated but lack the capability to assess correctness, especially in unfamiliar domains.",
+            "p4q9": "D",
+            "p4q3": "C",
+            "p4q4": "The authors observe that cognitive effort shifts from performing analysis, synthesis, and evaluation directly to overseeing and verifying AI generated outputs. Instead of executing these tasks themselves, workers focus more on checking accuracy, integrating outputs, and ensuring quality. This creates a new role of task stewardship, where knowledge workers guide monitor, and refine AI outputs rather than producing all content independently."
+          },
+          "scores": {
+            "p4q1": true,
+            "p4q3": true,
+            "p4q5": true,
+            "p4q7": true,
+            "p4q9": true
+          }
+        }
+      ],
+      "perQuestionTimeSeconds": {
+        "p4q1": 69,
+        "p4q5": 86,
+        "p4q7": 87,
+        "p4q9": 75,
+        "p4q3": 178
+      },
+      "firstAttemptCorrect": {
+        "p4q1": true,
+        "p4q3": false,
+        "p4q5": true,
+        "p4q7": true,
+        "p4q9": true
+      },
+      "finalAnswers": {
+        "p4q2": "1. when and how knowledge workers perceive the enaction of critical thinking when using Gen AI, and 2. when and why knowledge workers perceive changes in effort for critical thinking due to Ge nAI. The key difference is that the first focuses on observable behaviors and practices of critical thinking, while the second focuses on perceived cognitive effort and the reasons behind increases or decreases in that effort.",
+        "p4q10": "This term is used because it emphasizes that humans retain full responsibility for outcomes even when AI performs much of the task. This framing highlights that accountability does not shift to the AI system, but remains with the human, who must guide, evaluate, and take ownership of the final output.",
+        "p4q8": "The 2 main ability barriers are difficulty inspecting or verifying AI outputs and difficulty revising prompts or improving responses. Among these, the most commonly reported barrier is the inability to effectively verify AI outputs, often due to insufficient domain knowledge or lack of confidence in evaluating correctness.",
+        "p4q1": "C",
+        "p4q5": "B",
+        "p4q7": "B",
+        "p4q6": "Motivational factors such as improving work quality or avoiding negative outcomes encourage critical thinking, but ability barriers like lack of domain knowledge or difficulty verifying outputs can prevent it from being enacted. These interact such that even motivated users may fail to engage critically if they lack the skills to evaluate or improve AI outputs. This implies that critical thinking is most likely to break down in situations where users are motivated but lack the capability to assess correctness, especially in unfamiliar domains.",
+        "p4q9": "D",
+        "p4q3": "C",
+        "p4q4": "The authors observe that cognitive effort shifts from performing analysis, synthesis, and evaluation directly to overseeing and verifying AI generated outputs. Instead of executing these tasks themselves, workers focus more on checking accuracy, integrating outputs, and ensuring quality. This creates a new role of task stewardship, where knowledge workers guide monitor, and refine AI outputs rather than producing all content independently."
+      }
+    }
+  ],
+  "questionnaireResponses": [
+    {
+      "paperKey": "paper5",
+      "submittedAt": "2026-04-15T04:39:35.358Z",
+      "responses": {
+        "p5diff1": 3,
+        "p5diff2": 3,
+        "p5diff3": 3,
+        "p5diff4": 3,
+        "p5diff5": 3,
+        "p5diff6": 4,
+        "p5diff7": 4,
+        "p5diff8": 3,
+        "p5diff9": 3,
+        "p5diff10": 3,
+        "p5ease": 4,
+        "p5comments": "hard to finish in allocate timeslot"
+      }
+    },
+    {
+      "paperKey": "paper6",
+      "submittedAt": "2026-04-15T04:42:43.307Z",
+      "responses": {
+        "p6diff1": 2,
+        "p6diff2": 2,
+        "p6diff3": 3,
+        "p6diff4": 2,
+        "p6diff5": 2,
+        "p6diff6": 3,
+        "p6diff7": 3,
+        "p6diff8": 3,
+        "p6diff9": 3,
+        "p6diff10": 3,
+        "p6ease": 2,
+        "p6comments": "easier to find key words from the questions in the text"
+      }
+    },
+    {
+      "paperKey": "paper4",
+      "submittedAt": "2026-04-15T04:46:15.435Z",
+      "responses": {
+        "p4diff1": 2,
+        "p4diff2": 2,
+        "p4diff3": 2,
+        "p4diff4": 2,
+        "p4diff5": 2,
+        "p4diff6": 2,
+        "p4diff7": 2,
+        "p4diff8": 2,
+        "p4diff9": 2,
+        "p4diff10": 2,
+        "p4ease": 2
+      }
+    }
+  ],
+  "finalResponses": {
+    "fq_helpful_highlighted_sentences": 4,
+    "fq_confidence_understanding": 4,
+    "fq_identify_important_info": 4,
+    "fq_repeated_known_info": 3,
+    "fq_missing_important_info": 3,
+    "fq_trust_highlights_key_ideas": 4,
+    "fq_new_vs_repeated": 3,
+    "fq_focus_novel_important_content": 4,
+    "fq_use_in_workflow": 4,
+    "fq_like_most_least": "I think the embedded highlights was a huge help in helping to identify initial areas of the paper to focus on.",
+    "fq_missing_confusing_unnecessary": "For some questions, I think the implied answers were a bit hidden in the text and required a bit deeper of an investigation than just a brief skim to find the right answer"
+  },
+  "crossAttempts": [
+    {
+      "submittedAt": "2026-04-15T04:49:27.597Z",
+      "answers": {
+        "cpq1": "B",
+        "cpq2": "Cognitive effort shifts from task execution to evaluation and verification because AI automates content generation, requiring users to focus more on checking and refining outputs rather than producing them.",
+        "cpq3": "C",
+        "cpq4": "Lower effort can harm outcomes in learning contexts, where reliance on AI reduces active engagement and practice, leading to weaker memory retention and poorer long-term understanding.",
+        "cpq5": "B",
+        "cpq6": "One key factor is confidence particularly confidence in AI systems, as higher confidence reduces the likelihood that users will verify outputs critically.",
+        "cpq7": "B",
+        "cpq8": "It reduces the amount of appeared effort needed to complete a task, which makes accepting its output feel efficient and convenient. This connects directly to the critical thinking paper, which found that higher confidence in GenAI is associated with less critical thinking, suggesting that when users trust the system’s capability, they become less likely to question or verify its outputs.",
+        "cpq9": "C",
+        "cpq10": "AI improves performance by increasing efficiency and supporting decision-making, but it creates risks by reducing cognitive effort and encouraging overreliance. When users fail to verify outputs due to trust or convenience, errors can occur despite the performance gains."
+      },
+      "scores": {
+        "cpq1": true,
+        "cpq3": true,
+        "cpq5": true,
+        "cpq7": true,
+        "cpq9": true
+      }
+    }
+  ],
+  "completedAt": "2026-04-15T04:50:40.802Z",
+  "questionOrders": {
+    "paper5": [
+      "p5q10",
+      "p5q9",
+      "p5q3",
+      "p5q7",
+      "p5q2",
+      "p5q1",
+      "p5q8",
+      "p5q5",
+      "p5q4",
+      "p5q6"
+    ],
+    "paper6": [
+      "p6q10",
+      "p6q6",
+      "p6q4",
+      "p6q3",
+      "p6q8",
+      "p6q1",
+      "p6q2",
+      "p6q7",
+      "p6q9",
+      "p6q5"
+    ],
+    "paper4": [
+      "p4q2",
+      "p4q10",
+      "p4q8",
+      "p4q1",
+      "p4q5",
+      "p4q7",
+      "p4q6",
+      "p4q9",
+      "p4q3",
+      "p4q4"
+    ]
+  },
+  "optionOrders": {
+    "paper5": {
+      "p5q1": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "p5q3": [
+        "C",
+        "A",
+        "D",
+        "B"
+      ],
+      "p5q5": [
+        "A",
+        "D",
+        "B",
+        "C"
+      ],
+      "p5q6": [
+        "A",
+        "D",
+        "B",
+        "C"
+      ],
+      "p5q8": [
+        "B",
+        "A",
+        "D",
+        "C"
+      ]
+    },
+    "paper6": {
+      "p6q1": [
+        "D",
+        "A",
+        "B",
+        "C"
+      ],
+      "p6q3": [
+        "A",
+        "D",
+        "C",
+        "B"
+      ],
+      "p6q5": [
+        "A",
+        "B",
+        "D",
+        "C"
+      ],
+      "p6q6": [
+        "B",
+        "A",
+        "C",
+        "D"
+      ],
+      "p6q8": [
+        "B",
+        "A",
+        "D",
+        "C"
+      ]
+    },
+    "paper4": {
+      "p4q1": [
+        "B",
+        "C",
+        "D",
+        "A"
+      ],
+      "p4q3": [
+        "A",
+        "D",
+        "B",
+        "C"
+      ],
+      "p4q5": [
+        "B",
+        "D",
+        "C",
+        "A"
+      ],
+      "p4q7": [
+        "D",
+        "B",
+        "A",
+        "C"
+      ],
+      "p4q9": [
+        "D",
+        "B",
+        "C",
+        "A"
+      ]
+    }
+  },
+  "crossFinalAnswers": {
+    "cpq1": "B",
+    "cpq2": "Cognitive effort shifts from task execution to evaluation and verification because AI automates content generation, requiring users to focus more on checking and refining outputs rather than producing them.",
+    "cpq3": "C",
+    "cpq4": "Lower effort can harm outcomes in learning contexts, where reliance on AI reduces active engagement and practice, leading to weaker memory retention and poorer long-term understanding.",
+    "cpq5": "B",
+    "cpq6": "One key factor is confidence particularly confidence in AI systems, as higher confidence reduces the likelihood that users will verify outputs critically.",
+    "cpq7": "B",
+    "cpq8": "It reduces the amount of appeared effort needed to complete a task, which makes accepting its output feel efficient and convenient. This connects directly to the critical thinking paper, which found that higher confidence in GenAI is associated with less critical thinking, suggesting that when users trust the system’s capability, they become less likely to question or verify its outputs.",
+    "cpq9": "C",
+    "cpq10": "AI improves performance by increasing efficiency and supporting decision-making, but it creates risks by reducing cognitive effort and encouraging overreliance. When users fail to verify outputs due to trust or convenience, errors can occur despite the performance gains."
+  }
+}

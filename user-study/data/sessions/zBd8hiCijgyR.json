@@ -1,0 +1,614 @@
+{
+  "sessionId": "zBd8hiCijgyR",
+  "participantId": "P12",
+  "paperOrder": [
+    "paper6",
+    "paper5",
+    "paper4"
+  ],
+  "conditions": [
+    "all_highlights",
+    "no_highlights",
+    "contextual_highlights"
+  ],
+  "createdAt": "2026-04-15T01:05:08.321Z",
+  "step": "done",
+  "demographicResponses": {
+    "age": "C",
+    "role": "B",
+    "field": "Masters of Engineering",
+    "reading_freq": "C",
+    "reading_style": "B"
+  },
+  "tasks": [
+    {
+      "paperKey": "paper6",
+      "condition": "all_highlights",
+      "priorPapers": [],
+      "startedAt": "2026-04-15T01:08:27.226Z",
+      "completedAt": "2026-04-15T01:16:11.885Z",
+      "attempts": [
+        {
+          "submittedAt": "2026-04-15T01:14:22.910Z",
+          "answers": {
+            "p6q2": "1. Students who are highly sensitive to rewards will show no relationship with ChatGPT usage because reward sensitivity only affects effort, not tool adoption\n2. Students with higher sensitivity to rewards will only use ChatGPT when workload is high, meaning reward sensitivity has an indirect or conditional effect rather than a direct relationship",
+            "p6q6": "C",
+            "p6q1": "B",
+            "p6q3": "A",
+            "p6q4": "- Items were removed based on participant confusion and low average ratings, keeping only the most commonly endorsed items rather than using statistical criteria",
+            "p6q10": "They suggest that reliance on AI shifts attention away from deep processing toward surface level engagement, reducing meaningful learning and retention",
+            "p6q9": "It seems like the authors suggest general caution around AI tools, but I couldn’t identify exactly how their recommendation directly follows from the workload and time pressure results",
+            "p6q7": "It seems like ChatGPT usage mediates some relationships, but I couldn’t confidently identify exactly which ones were statistically supported versus not supported based on my reading",
+            "p6q5": "C",
+            "p6q8": "B"
+          },
+          "scores": {
+            "p6q1": true,
+            "p6q3": false,
+            "p6q5": false,
+            "p6q6": true,
+            "p6q8": true
+          }
+        },
+        {
+          "submittedAt": "2026-04-15T01:16:11.880Z",
+          "answers": {
+            "p6q2": "1. Students who are highly sensitive to rewards will show no relationship with ChatGPT usage because reward sensitivity only affects effort, not tool adoption\n2. Students with higher sensitivity to rewards will only use ChatGPT when workload is high, meaning reward sensitivity has an indirect or conditional effect rather than a direct relationship",
+            "p6q6": "C",
+            "p6q1": "B",
+            "p6q3": "C",
+            "p6q4": "- Items were removed based on participant confusion and low average ratings, keeping only the most commonly endorsed items rather than using statistical criteria",
+            "p6q10": "They suggest that reliance on AI shifts attention away from deep processing toward surface level engagement, reducing meaningful learning and retention",
+            "p6q9": "It seems like the authors suggest general caution around AI tools, but I couldn’t identify exactly how their recommendation directly follows from the workload and time pressure results",
+            "p6q7": "It seems like ChatGPT usage mediates some relationships, but I couldn’t confidently identify exactly which ones were statistically supported versus not supported based on my reading",
+            "p6q5": "B",
+            "p6q8": "B"
+          },
+          "scores": {
+            "p6q1": true,
+            "p6q3": true,
+            "p6q5": true,
+            "p6q6": true,
+            "p6q8": true
+          }
+        }
+      ],
+      "perQuestionTimeSeconds": {
+        "p6q6": 116,
+        "p6q1": 230,
+        "p6q8": 119,
+        "p6q3": 360,
+        "p6q5": 363
+      },
+      "firstAttemptCorrect": {
+        "p6q1": true,
+        "p6q3": false,
+        "p6q5": false,
+        "p6q6": true,
+        "p6q8": true
+      },
+      "finalAnswers": {
+        "p6q2": "1. Students who are highly sensitive to rewards will show no relationship with ChatGPT usage because reward sensitivity only affects effort, not tool adoption\n2. Students with higher sensitivity to rewards will only use ChatGPT when workload is high, meaning reward sensitivity has an indirect or conditional effect rather than a direct relationship",
+        "p6q6": "C",
+        "p6q1": "B",
+        "p6q3": "C",
+        "p6q4": "- Items were removed based on participant confusion and low average ratings, keeping only the most commonly endorsed items rather than using statistical criteria",
+        "p6q10": "They suggest that reliance on AI shifts attention away from deep processing toward surface level engagement, reducing meaningful learning and retention",
+        "p6q9": "It seems like the authors suggest general caution around AI tools, but I couldn’t identify exactly how their recommendation directly follows from the workload and time pressure results",
+        "p6q7": "It seems like ChatGPT usage mediates some relationships, but I couldn’t confidently identify exactly which ones were statistically supported versus not supported based on my reading",
+        "p6q5": "B",
+        "p6q8": "B"
+      }
+    },
+    {
+      "paperKey": "paper5",
+      "condition": "no_highlights",
+      "priorPapers": [],
+      "startedAt": "2026-04-15T01:16:32.735Z",
+      "completedAt": "2026-04-15T01:25:31.661Z",
+      "attempts": [
+        {
+          "submittedAt": "2026-04-15T01:24:03.894Z",
+          "answers": {
+            "p5q5": "C",
+            "p5q8": "D",
+            "p5q10": "Ethical concerns are in regards to poor evaluation of AI outputs",
+            "p5q3": "C",
+            "p5q6": "C",
+            "p5q7": "Not enough time to find out the mechanisms",
+            "p5q2": "text based vs table based? not enough time",
+            "p5q1": "C",
+            "p5q9": "I am unable to find the contrasting findings in the time allocated",
+            "p5q4": "text based data types were performing better."
+          },
+          "scores": {
+            "p5q1": false,
+            "p5q3": false,
+            "p5q5": false,
+            "p5q6": false,
+            "p5q8": false
+          }
+        },
+        {
+          "submittedAt": "2026-04-15T01:24:43.933Z",
+          "answers": {
+            "p5q5": "B",
+            "p5q8": "B",
+            "p5q10": "Ethical concerns are in regards to poor evaluation of AI outputs",
+            "p5q3": "B",
+            "p5q6": "D",
+            "p5q7": "Not enough time to find out the mechanisms",
+            "p5q2": "text based vs table based? not enough time",
+            "p5q1": "B",
+            "p5q9": "I am unable to find the contrasting findings in the time allocated",
+            "p5q4": "text based data types were performing better."
+          },
+          "scores": {
+            "p5q1": true,
+            "p5q3": false,
+            "p5q5": true,
+            "p5q6": false,
+            "p5q8": false
+          }
+        },
+        {
+          "submittedAt": "2026-04-15T01:25:31.657Z",
+          "answers": {
+            "p5q5": "B",
+            "p5q8": "C",
+            "p5q10": "Ethical concerns are in regards to poor evaluation of AI outputs",
+            "p5q3": "D",
+            "p5q6": "B",
+            "p5q7": "Not enough time to find out the mechanisms",
+            "p5q2": "text based vs table based? not enough time",
+            "p5q1": "B",
+            "p5q9": "I am unable to find the contrasting findings in the time allocated",
+            "p5q4": "text based data types were performing better."
+          },
+          "scores": {
+            "p5q1": true,
+            "p5q3": true,
+            "p5q5": true,
+            "p5q6": true,
+            "p5q8": true
+          }
+        }
+      ],
+      "perQuestionTimeSeconds": {
+        "p5q5": 468,
+        "p5q1": 456,
+        "p5q8": 534,
+        "p5q3": 535,
+        "p5q6": 538
+      },
+      "firstAttemptCorrect": {
+        "p5q1": false,
+        "p5q3": false,
+        "p5q5": false,
+        "p5q6": false,
+        "p5q8": false
+      },
+      "finalAnswers": {
+        "p5q5": "B",
+        "p5q8": "C",
+        "p5q10": "Ethical concerns are in regards to poor evaluation of AI outputs",
+        "p5q3": "D",
+        "p5q6": "B",
+        "p5q7": "Not enough time to find out the mechanisms",
+        "p5q2": "text based vs table based? not enough time",
+        "p5q1": "B",
+        "p5q9": "I am unable to find the contrasting findings in the time allocated",
+        "p5q4": "text based data types were performing better."
+      }
+    },
+    {
+      "paperKey": "paper4",
+      "condition": "contextual_highlights",
+      "priorPapers": [],
+      "startedAt": "2026-04-15T01:26:18.677Z",
+      "completedAt": "2026-04-15T01:36:32.972Z",
+      "attempts": [
+        {
+          "submittedAt": "2026-04-15T01:35:28.244Z",
+          "answers": {
+            "p4q2": "RQ1: When and how knowledge workers perceive enacting critical thinking while using GenAI \nRQ2: When and why GenAI changes the effort required for critical thinking",
+            "p4q9": "D",
+            "p4q5": "B",
+            "p4q8": "Ability barriers include difficulty improving or refining AI outputs, limited domain expertise to properly evaluate responses, and challenges in knowing how to prompt or guide the AI effectively\nThe most commonly reported barrier was difficulty improving AI outputs or getting better responses, especially when users lacked the expertise to meaningfully refine or correct the model’s output",
+            "p4q4": "Unsure what the new role is.....",
+            "p4q6": "Motivational factors push users to engage in critical thinking, but ability barriers can still prevent them from doing so effectively",
+            "p4q3": "B",
+            "p4q7": "D",
+            "p4q10": "From the paper:\n\nWith GenAI, knowledge workers also shift from task execution\nto oversight, requiring them to guide and monitor AI to produce\nhigh-quality outputs — a role we describe as “stewardship”. It is\nnot that execution has disappeared altogether, nor is having high-\nlevel oversight on a task an entirely new cognitive role, but there\nis a shift from the former to the latter. Unlike in human-human\ncollaboration, in a human-AI “collaboration”, the responsibility and\naccountability for the work still resides with the human user despite\nthe labour of material production being delegated to the GenAI tool,\nwhich makes stewardship strike us as a more appropriate metaphor\nfor what the human user is doing, than teammate, collaborator, or\nsuperviso",
+            "p4q1": "B"
+          },
+          "scores": {
+            "p4q1": false,
+            "p4q3": false,
+            "p4q5": true,
+            "p4q7": false,
+            "p4q9": true
+          }
+        },
+        {
+          "submittedAt": "2026-04-15T01:35:38.108Z",
+          "answers": {
+            "p4q2": "RQ1: When and how knowledge workers perceive enacting critical thinking while using GenAI \nRQ2: When and why GenAI changes the effort required for critical thinking",
+            "p4q9": "D",
+            "p4q5": "B",
+            "p4q8": "Ability barriers include difficulty improving or refining AI outputs, limited domain expertise to properly evaluate responses, and challenges in knowing how to prompt or guide the AI effectively\nThe most commonly reported barrier was difficulty improving AI outputs or getting better responses, especially when users lacked the expertise to meaningfully refine or correct the model’s output",
+            "p4q4": "Unsure what the new role is.....",
+            "p4q6": "Motivational factors push users to engage in critical thinking, but ability barriers can still prevent them from doing so effectively",
+            "p4q3": "C",
+            "p4q7": "D",
+            "p4q10": "From the paper:\n\nWith GenAI, knowledge workers also shift from task execution\nto oversight, requiring them to guide and monitor AI to produce\nhigh-quality outputs — a role we describe as “stewardship”. It is\nnot that execution has disappeared altogether, nor is having high-\nlevel oversight on a task an entirely new cognitive role, but there\nis a shift from the former to the latter. Unlike in human-human\ncollaboration, in a human-AI “collaboration”, the responsibility and\naccountability for the work still resides with the human user despite\nthe labour of material production being delegated to the GenAI tool,\nwhich makes stewardship strike us as a more appropriate metaphor\nfor what the human user is doing, than teammate, collaborator, or\nsuperviso",
+            "p4q1": "C"
+          },
+          "scores": {
+            "p4q1": true,
+            "p4q3": true,
+            "p4q5": true,
+            "p4q7": false,
+            "p4q9": true
+          }
+        },
+        {
+          "submittedAt": "2026-04-15T01:36:29.305Z",
+          "answers": {
+            "p4q2": "RQ1: When and how knowledge workers perceive enacting critical thinking while using GenAI \nRQ2: When and why GenAI changes the effort required for critical thinking",
+            "p4q9": "D",
+            "p4q5": "B",
+            "p4q8": "Ability barriers include difficulty improving or refining AI outputs, limited domain expertise to properly evaluate responses, and challenges in knowing how to prompt or guide the AI effectively\nThe most commonly reported barrier was difficulty improving AI outputs or getting better responses, especially when users lacked the expertise to meaningfully refine or correct the model’s output",
+            "p4q4": "Unsure what the new role is.....",
+            "p4q6": "Motivational factors push users to engage in critical thinking, but ability barriers can still prevent them from doing so effectively",
+            "p4q3": "C",
+            "p4q7": "A",
+            "p4q10": "From the paper:\n\nWith GenAI, knowledge workers also shift from task execution\nto oversight, requiring them to guide and monitor AI to produce\nhigh-quality outputs — a role we describe as “stewardship”. It is\nnot that execution has disappeared altogether, nor is having high-\nlevel oversight on a task an entirely new cognitive role, but there\nis a shift from the former to the latter. Unlike in human-human\ncollaboration, in a human-AI “collaboration”, the responsibility and\naccountability for the work still resides with the human user despite\nthe labour of material production being delegated to the GenAI tool,\nwhich makes stewardship strike us as a more appropriate metaphor\nfor what the human user is doing, than teammate, collaborator, or\nsuperviso",
+            "p4q1": "C"
+          },
+          "scores": {
+            "p4q1": true,
+            "p4q3": true,
+            "p4q5": true,
+            "p4q7": false,
+            "p4q9": true
+          }
+        },
+        {
+          "submittedAt": "2026-04-15T01:36:31.012Z",
+          "answers": {
+            "p4q2": "RQ1: When and how knowledge workers perceive enacting critical thinking while using GenAI \nRQ2: When and why GenAI changes the effort required for critical thinking",
+            "p4q9": "D",
+            "p4q5": "B",
+            "p4q8": "Ability barriers include difficulty improving or refining AI outputs, limited domain expertise to properly evaluate responses, and challenges in knowing how to prompt or guide the AI effectively\nThe most commonly reported barrier was difficulty improving AI outputs or getting better responses, especially when users lacked the expertise to meaningfully refine or correct the model’s output",
+            "p4q4": "Unsure what the new role is.....",
+            "p4q6": "Motivational factors push users to engage in critical thinking, but ability barriers can still prevent them from doing so effectively",
+            "p4q3": "C",
+            "p4q7": "C",
+            "p4q10": "From the paper:\n\nWith GenAI, knowledge workers also shift from task execution\nto oversight, requiring them to guide and monitor AI to produce\nhigh-quality outputs — a role we describe as “stewardship”. It is\nnot that execution has disappeared altogether, nor is having high-\nlevel oversight on a task an entirely new cognitive role, but there\nis a shift from the former to the latter. Unlike in human-human\ncollaboration, in a human-AI “collaboration”, the responsibility and\naccountability for the work still resides with the human user despite\nthe labour of material production being delegated to the GenAI tool,\nwhich makes stewardship strike us as a more appropriate metaphor\nfor what the human user is doing, than teammate, collaborator, or\nsuperviso",
+            "p4q1": "C"
+          },
+          "scores": {
+            "p4q1": true,
+            "p4q3": true,
+            "p4q5": true,
+            "p4q7": false,
+            "p4q9": true
+          }
+        },
+        {
+          "submittedAt": "2026-04-15T01:36:32.969Z",
+          "answers": {
+            "p4q2": "RQ1: When and how knowledge workers perceive enacting critical thinking while using GenAI \nRQ2: When and why GenAI changes the effort required for critical thinking",
+            "p4q9": "D",
+            "p4q5": "B",
+            "p4q8": "Ability barriers include difficulty improving or refining AI outputs, limited domain expertise to properly evaluate responses, and challenges in knowing how to prompt or guide the AI effectively\nThe most commonly reported barrier was difficulty improving AI outputs or getting better responses, especially when users lacked the expertise to meaningfully refine or correct the model’s output",
+            "p4q4": "Unsure what the new role is.....",
+            "p4q6": "Motivational factors push users to engage in critical thinking, but ability barriers can still prevent them from doing so effectively",
+            "p4q3": "C",
+            "p4q7": "B",
+            "p4q10": "From the paper:\n\nWith GenAI, knowledge workers also shift from task execution\nto oversight, requiring them to guide and monitor AI to produce\nhigh-quality outputs — a role we describe as “stewardship”. It is\nnot that execution has disappeared altogether, nor is having high-\nlevel oversight on a task an entirely new cognitive role, but there\nis a shift from the former to the latter. Unlike in human-human\ncollaboration, in a human-AI “collaboration”, the responsibility and\naccountability for the work still resides with the human user despite\nthe labour of material production being delegated to the GenAI tool,\nwhich makes stewardship strike us as a more appropriate metaphor\nfor what the human user is doing, than teammate, collaborator, or\nsuperviso",
+            "p4q1": "C"
+          },
+          "scores": {
+            "p4q1": true,
+            "p4q3": true,
+            "p4q5": true,
+            "p4q7": true,
+            "p4q9": true
+          }
+        }
+      ],
+      "perQuestionTimeSeconds": {
+        "p4q9": 193,
+        "p4q5": 195,
+        "p4q3": 555,
+        "p4q1": 559,
+        "p4q7": 613
+      },
+      "firstAttemptCorrect": {
+        "p4q1": false,
+        "p4q3": false,
+        "p4q5": true,
+        "p4q7": false,
+        "p4q9": true
+      },
+      "finalAnswers": {
+        "p4q2": "RQ1: When and how knowledge workers perceive enacting critical thinking while using GenAI \nRQ2: When and why GenAI changes the effort required for critical thinking",
+        "p4q9": "D",
+        "p4q5": "B",
+        "p4q8": "Ability barriers include difficulty improving or refining AI outputs, limited domain expertise to properly evaluate responses, and challenges in knowing how to prompt or guide the AI effectively\nThe most commonly reported barrier was difficulty improving AI outputs or getting better responses, especially when users lacked the expertise to meaningfully refine or correct the model’s output",
+        "p4q4": "Unsure what the new role is.....",
+        "p4q6": "Motivational factors push users to engage in critical thinking, but ability barriers can still prevent them from doing so effectively",
+        "p4q3": "C",
+        "p4q7": "B",
+        "p4q10": "From the paper:\n\nWith GenAI, knowledge workers also shift from task execution\nto oversight, requiring them to guide and monitor AI to produce\nhigh-quality outputs — a role we describe as “stewardship”. It is\nnot that execution has disappeared altogether, nor is having high-\nlevel oversight on a task an entirely new cognitive role, but there\nis a shift from the former to the latter. Unlike in human-human\ncollaboration, in a human-AI “collaboration”, the responsibility and\naccountability for the work still resides with the human user despite\nthe labour of material production being delegated to the GenAI tool,\nwhich makes stewardship strike us as a more appropriate metaphor\nfor what the human user is doing, than teammate, collaborator, or\nsuperviso",
+        "p4q1": "C"
+      }
+    }
+  ],
+  "questionnaireResponses": [
+    {
+      "paperKey": "paper6",
+      "submittedAt": "2026-04-15T01:16:28.420Z",
+      "responses": {
+        "p6diff1": 4,
+        "p6diff2": 4,
+        "p6diff3": 5,
+        "p6diff4": 5,
+        "p6diff5": 5,
+        "p6diff6": 5,
+        "p6diff7": 5,
+        "p6diff8": 5,
+        "p6diff9": 5,
+        "p6diff10": 5,
+        "p6ease": 5,
+        "p6comments": "feels like not enough time to read"
+      }
+    },
+    {
+      "paperKey": "paper5",
+      "submittedAt": "2026-04-15T01:26:15.978Z",
+      "responses": {
+        "p5diff1": 5,
+        "p5diff2": 5,
+        "p5diff3": 5,
+        "p5diff4": 5,
+        "p5diff5": 5,
+        "p5diff6": 5,
+        "p5diff7": 5,
+        "p5diff8": 5,
+        "p5diff9": 5,
+        "p5diff10": 5,
+        "p5ease": 5,
+        "p5comments": "With no highlights this paper felt way too dense to be able be read and interpreted in 10 minutes. I was unable to fill out most odf the written questions, had to rely on guessing for some of the mc"
+      }
+    },
+    {
+      "paperKey": "paper4",
+      "submittedAt": "2026-04-15T01:37:12.808Z",
+      "responses": {
+        "p4diff1": 4,
+        "p4diff2": 4,
+        "p4diff3": 4,
+        "p4diff4": 4,
+        "p4diff5": 4,
+        "p4diff6": 4,
+        "p4diff7": 4,
+        "p4diff8": 4,
+        "p4diff9": 4,
+        "p4diff10": 4,
+        "p4ease": 4,
+        "p4comments": "Highlights helped me find more info that is relevant to questions. However still though there wasn't enough time to relaly understand some of the short answer Qs."
+      }
+    }
+  ],
+  "finalResponses": {
+    "fq_helpful_highlighted_sentences": 4,
+    "fq_confidence_understanding": 2,
+    "fq_identify_important_info": 2,
+    "fq_repeated_known_info": 3,
+    "fq_missing_important_info": 3,
+    "fq_trust_highlights_key_ideas": 5,
+    "fq_new_vs_repeated": 2,
+    "fq_focus_novel_important_content": 4,
+    "fq_use_in_workflow": 4,
+    "fq_like_most_least": "there was a stark contrast between my ability to understand content with the highlighed papers vs the paper without highlights.",
+    "fq_missing_confusing_unnecessary": "I needed more time to read. 10 minutes isn't enough for me to understand the papers well."
+  },
+  "crossAttempts": [
+    {
+      "submittedAt": "2026-04-15T01:42:48.213Z",
+      "answers": {
+        "cpq1": "A",
+        "cpq2": "Lower cognitive effort because AI does the hard work on behalf of the person.",
+        "cpq3": "C",
+        "cpq4": "I think all reduced effort can harm outcomes because the human no longer learnsfrom the experience. Eg. if students use AI for their assigned tasks.",
+        "cpq5": "B",
+        "cpq6": "Unclear if there is a common theme across all papers",
+        "cpq7": "C",
+        "cpq8": "pressure from peers to perfoorm at a high level regardless of personal growth. Eg. if students can't get an A or do well in class compared to peers who use AI, then they may feel the need to use it.",
+        "cpq9": "C",
+        "cpq10": "I think the output of whats evaluated is quantitatively improved but the risk is that no one actually evaluates the output correctlt."
+      },
+      "scores": {
+        "cpq1": false,
+        "cpq3": true,
+        "cpq5": true,
+        "cpq7": false,
+        "cpq9": true
+      }
+    },
+    {
+      "submittedAt": "2026-04-15T01:42:56.052Z",
+      "answers": {
+        "cpq1": "B",
+        "cpq2": "Lower cognitive effort because AI does the hard work on behalf of the person.",
+        "cpq3": "C",
+        "cpq4": "I think all reduced effort can harm outcomes because the human no longer learnsfrom the experience. Eg. if students use AI for their assigned tasks.",
+        "cpq5": "B",
+        "cpq6": "Unclear if there is a common theme across all papers",
+        "cpq7": "B",
+        "cpq8": "pressure from peers to perfoorm at a high level regardless of personal growth. Eg. if students can't get an A or do well in class compared to peers who use AI, then they may feel the need to use it.",
+        "cpq9": "C",
+        "cpq10": "I think the output of whats evaluated is quantitatively improved but the risk is that no one actually evaluates the output correctlt."
+      },
+      "scores": {
+        "cpq1": true,
+        "cpq3": true,
+        "cpq5": true,
+        "cpq7": true,
+        "cpq9": true
+      }
+    }
+  ],
+  "completedAt": "2026-04-15T01:44:09.264Z",
+  "questionOrders": {
+    "paper6": [
+      "p6q2",
+      "p6q6",
+      "p6q1",
+      "p6q3",
+      "p6q4",
+      "p6q10",
+      "p6q9",
+      "p6q7",
+      "p6q5",
+      "p6q8"
+    ],
+    "paper5": [
+      "p5q5",
+      "p5q8",
+      "p5q10",
+      "p5q3",
+      "p5q6",
+      "p5q7",
+      "p5q2",
+      "p5q1",
+      "p5q9",
+      "p5q4"
+    ],
+    "paper4": [
+      "p4q2",
+      "p4q9",
+      "p4q5",
+      "p4q8",
+      "p4q4",
+      "p4q6",
+      "p4q3",
+      "p4q7",
+      "p4q10",
+      "p4q1"
+    ]
+  },
+  "optionOrders": {
+    "paper6": {
+      "p6q1": [
+        "C",
+        "D",
+        "B",
+        "A"
+      ],
+      "p6q3": [
+        "B",
+        "D",
+        "C",
+        "A"
+      ],
+      "p6q5": [
+        "C",
+        "B",
+        "A",
+        "D"
+      ],
+      "p6q6": [
+        "C",
+        "D",
+        "B",
+        "A"
+      ],
+      "p6q8": [
+        "D",
+        "B",
+        "A",
+        "C"
+      ]
+    },
+    "paper5": {
+      "p5q1": [
+        "A",
+        "B",
+        "D",
+        "C"
+      ],
+      "p5q3": [
+        "B",
+        "D",
+        "A",
+        "C"
+      ],
+      "p5q5": [
+        "D",
+        "C",
+        "B",
+        "A"
+      ],
+      "p5q6": [
+        "C",
+        "B",
+        "D",
+        "A"
+      ],
+      "p5q8": [
+        "B",
+        "C",
+        "D",
+        "A"
+      ]
+    },
+    "paper4": {
+      "p4q1": [
+        "D",
+        "A",
+        "B",
+        "C"
+      ],
+      "p4q3": [
+        "B",
+        "D",
+        "A",
+        "C"
+      ],
+      "p4q5": [
+        "D",
+        "A",
+        "B",
+        "C"
+      ],
+      "p4q7": [
+        "A",
+        "C",
+        "D",
+        "B"
+      ],
+      "p4q9": [
+        "C",
+        "D",
+        "B",
+        "A"
+      ]
+    }
+  },
+  "crossFinalAnswers": {
+    "cpq1": "B",
+    "cpq2": "Lower cognitive effort because AI does the hard work on behalf of the person.",
+    "cpq3": "C",
+    "cpq4": "I think all reduced effort can harm outcomes because the human no longer learnsfrom the experience. Eg. if students use AI for their assigned tasks.",
+    "cpq5": "B",
+    "cpq6": "Unclear if there is a common theme across all papers",
+    "cpq7": "B",
+    "cpq8": "pressure from peers to perfoorm at a high level regardless of personal growth. Eg. if students can't get an A or do well in class compared to peers who use AI, then they may feel the need to use it.",
+    "cpq9": "C",
+    "cpq10": "I think the output of whats evaluated is quantitatively improved but the risk is that no one actually evaluates the output correctlt."
+  }
+}

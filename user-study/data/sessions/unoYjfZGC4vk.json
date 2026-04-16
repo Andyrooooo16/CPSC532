@@ -1,0 +1,569 @@
+{
+  "sessionId": "unoYjfZGC4vk",
+  "participantId": "P07",
+  "paperOrder": [
+    "paper4",
+    "paper5",
+    "paper6"
+  ],
+  "conditions": [
+    "all_highlights",
+    "no_highlights",
+    "contextual_highlights"
+  ],
+  "createdAt": "2026-04-16T05:42:22.175Z",
+  "step": "done",
+  "demographicResponses": {
+    "age": "B",
+    "role": "B",
+    "field": "Computer Science",
+    "reading_freq": "D",
+    "reading_style": "B"
+  },
+  "tasks": [
+    {
+      "paperKey": "paper4",
+      "condition": "all_highlights",
+      "priorPapers": [],
+      "startedAt": "2026-04-16T05:44:14.392Z",
+      "completedAt": "2026-04-16T05:46:32.783Z",
+      "attempts": [
+        {
+          "submittedAt": "2026-04-16T05:46:26.869Z",
+          "answers": {
+            "p4q3": "C",
+            "p4q8": "Can't grasp domain, fix AI junk, or time crunch. Most hit inspection/verification walls.",
+            "p4q10": "Stewardship = guiding AI output you own. Accountability stays human, not team effort.",
+            "p4q5": "A",
+            "p4q2": "RQ1: when/how critical thinking happens with GenAI. RQ2: when/why effort changes. First=presence, second=effort.",
+            "p4q4": "Effort shifts from making stuff to judging AI output. Workers become stewards, not laborers.",
+            "p4q6": "Motivation wants critical thinking, ability blocks it. Breaks down when motivated but can't check facts or fix AI.",
+            "p4q7": "B",
+            "p4q9": "D",
+            "p4q1": "C"
+          },
+          "scores": {
+            "p4q1": true,
+            "p4q3": true,
+            "p4q5": false,
+            "p4q7": true,
+            "p4q9": true
+          }
+        },
+        {
+          "submittedAt": "2026-04-16T05:46:32.780Z",
+          "answers": {
+            "p4q3": "C",
+            "p4q8": "Can't grasp domain, fix AI junk, or time crunch. Most hit inspection/verification walls.",
+            "p4q10": "Stewardship = guiding AI output you own. Accountability stays human, not team effort.",
+            "p4q5": "B",
+            "p4q2": "RQ1: when/how critical thinking happens with GenAI. RQ2: when/why effort changes. First=presence, second=effort.",
+            "p4q4": "Effort shifts from making stuff to judging AI output. Workers become stewards, not laborers.",
+            "p4q6": "Motivation wants critical thinking, ability blocks it. Breaks down when motivated but can't check facts or fix AI.",
+            "p4q7": "B",
+            "p4q9": "D",
+            "p4q1": "C"
+          },
+          "scores": {
+            "p4q1": true,
+            "p4q3": true,
+            "p4q5": true,
+            "p4q7": true,
+            "p4q9": true
+          }
+        }
+      ],
+      "perQuestionTimeSeconds": {
+        "p4q3": 48,
+        "p4q7": 127,
+        "p4q9": 130,
+        "p4q1": 132,
+        "p4q5": 137
+      },
+      "firstAttemptCorrect": {
+        "p4q1": true,
+        "p4q3": true,
+        "p4q5": false,
+        "p4q7": true,
+        "p4q9": true
+      },
+      "finalAnswers": {
+        "p4q3": "C",
+        "p4q8": "Can't grasp domain, fix AI junk, or time crunch. Most hit inspection/verification walls.",
+        "p4q10": "Stewardship = guiding AI output you own. Accountability stays human, not team effort.",
+        "p4q5": "B",
+        "p4q2": "RQ1: when/how critical thinking happens with GenAI. RQ2: when/why effort changes. First=presence, second=effort.",
+        "p4q4": "Effort shifts from making stuff to judging AI output. Workers become stewards, not laborers.",
+        "p4q6": "Motivation wants critical thinking, ability blocks it. Breaks down when motivated but can't check facts or fix AI.",
+        "p4q7": "B",
+        "p4q9": "D",
+        "p4q1": "C"
+      }
+    },
+    {
+      "paperKey": "paper5",
+      "condition": "no_highlights",
+      "priorPapers": [],
+      "startedAt": "2026-04-16T05:46:48.703Z",
+      "completedAt": "2026-04-16T05:52:59.426Z",
+      "attempts": [
+        {
+          "submittedAt": "2026-04-16T05:52:42.414Z",
+          "answers": {
+            "p5q10": "Explanations might blind people to bad AI. From finding they just raise blind acceptance.",
+            "p5q2": "Fugener: confidence cuts AI follow. Bansal/van der Waa: explanations boost acceptance even when wrong.",
+            "p5q5": "A",
+            "p5q3": "D",
+            "p5q7": "Boost AI acceptance or smart trust calibration. Acceptance had way more evidence.",
+            "p5q9": "XAI vs humans (XAI wins), XAI vs AI-only (tie). Can't claim explanations add value.",
+            "p5q8": "D",
+            "p5q1": "A",
+            "p5q4": "Tables: no XAI gain. Text: big gains. Text feels natural to humans.",
+            "p5q6": "C"
+          },
+          "scores": {
+            "p5q1": false,
+            "p5q3": true,
+            "p5q5": false,
+            "p5q6": false,
+            "p5q8": false
+          }
+        },
+        {
+          "submittedAt": "2026-04-16T05:52:50.866Z",
+          "answers": {
+            "p5q10": "Explanations might blind people to bad AI. From finding they just raise blind acceptance.",
+            "p5q2": "Fugener: confidence cuts AI follow. Bansal/van der Waa: explanations boost acceptance even when wrong.",
+            "p5q5": "B",
+            "p5q3": "D",
+            "p5q7": "Boost AI acceptance or smart trust calibration. Acceptance had way more evidence.",
+            "p5q9": "XAI vs humans (XAI wins), XAI vs AI-only (tie). Can't claim explanations add value.",
+            "p5q8": "D",
+            "p5q1": "C",
+            "p5q4": "Tables: no XAI gain. Text: big gains. Text feels natural to humans.",
+            "p5q6": "D"
+          },
+          "scores": {
+            "p5q1": false,
+            "p5q3": true,
+            "p5q5": true,
+            "p5q6": false,
+            "p5q8": false
+          }
+        },
+        {
+          "submittedAt": "2026-04-16T05:52:59.419Z",
+          "answers": {
+            "p5q10": "Explanations might blind people to bad AI. From finding they just raise blind acceptance.",
+            "p5q2": "Fugener: confidence cuts AI follow. Bansal/van der Waa: explanations boost acceptance even when wrong.",
+            "p5q5": "B",
+            "p5q3": "D",
+            "p5q7": "Boost AI acceptance or smart trust calibration. Acceptance had way more evidence.",
+            "p5q9": "XAI vs humans (XAI wins), XAI vs AI-only (tie). Can't claim explanations add value.",
+            "p5q8": "C",
+            "p5q1": "B",
+            "p5q4": "Tables: no XAI gain. Text: big gains. Text feels natural to humans.",
+            "p5q6": "B"
+          },
+          "scores": {
+            "p5q1": true,
+            "p5q3": true,
+            "p5q5": true,
+            "p5q6": true,
+            "p5q8": true
+          }
+        }
+      ],
+      "perQuestionTimeSeconds": {
+        "p5q3": 82,
+        "p5q5": 357,
+        "p5q8": 370,
+        "p5q1": 368,
+        "p5q6": 366
+      },
+      "firstAttemptCorrect": {
+        "p5q1": false,
+        "p5q3": true,
+        "p5q5": false,
+        "p5q6": false,
+        "p5q8": false
+      },
+      "finalAnswers": {
+        "p5q10": "Explanations might blind people to bad AI. From finding they just raise blind acceptance.",
+        "p5q2": "Fugener: confidence cuts AI follow. Bansal/van der Waa: explanations boost acceptance even when wrong.",
+        "p5q5": "B",
+        "p5q3": "D",
+        "p5q7": "Boost AI acceptance or smart trust calibration. Acceptance had way more evidence.",
+        "p5q9": "XAI vs humans (XAI wins), XAI vs AI-only (tie). Can't claim explanations add value.",
+        "p5q8": "C",
+        "p5q1": "B",
+        "p5q4": "Tables: no XAI gain. Text: big gains. Text feels natural to humans.",
+        "p5q6": "B"
+      }
+    },
+    {
+      "paperKey": "paper6",
+      "condition": "contextual_highlights",
+      "priorPapers": [],
+      "startedAt": "2026-04-16T05:53:15.363Z",
+      "completedAt": "2026-04-16T05:55:14.442Z",
+      "attempts": [
+        {
+          "submittedAt": "2026-04-16T05:54:52.295Z",
+          "answers": {
+            "p6q9": "Teachers should cut workload and deadlines since those drive ChatGPT use. Tell students to use it as a tool, not a shortcut.",
+            "p6q5": "D",
+            "p6q1": "D",
+            "p6q6": "A",
+            "p6q3": "B",
+            "p6q4": "12 items → experts picked 10 → EFA dropped items 4&9 (low loadings). 8 items left with good stats.",
+            "p6q2": "Rewards worry either ups or cuts ChatGPT. Cuts won, scared kids avoid cheating risk.",
+            "p6q7": "Workload/time pressure mediated to all bad outcomes via ChatGPT. Rewards sensitivity only to procrastination/memory. Quality sensitivity did nothing.",
+            "p6q8": "C",
+            "p6q10": "Excess ChatGPT cuts brain work needed for memory, so students forget more. Less thinking = weaker recall."
+          },
+          "scores": {
+            "p6q1": false,
+            "p6q3": false,
+            "p6q5": false,
+            "p6q6": false,
+            "p6q8": false
+          }
+        },
+        {
+          "submittedAt": "2026-04-16T05:55:07.347Z",
+          "answers": {
+            "p6q9": "Teachers should cut workload and deadlines since those drive ChatGPT use. Tell students to use it as a tool, not a shortcut.",
+            "p6q5": "B",
+            "p6q1": "B",
+            "p6q6": "B",
+            "p6q3": "C",
+            "p6q4": "12 items → experts picked 10 → EFA dropped items 4&9 (low loadings). 8 items left with good stats.",
+            "p6q2": "Rewards worry either ups or cuts ChatGPT. Cuts won, scared kids avoid cheating risk.",
+            "p6q7": "Workload/time pressure mediated to all bad outcomes via ChatGPT. Rewards sensitivity only to procrastination/memory. Quality sensitivity did nothing.",
+            "p6q8": "D",
+            "p6q10": "Excess ChatGPT cuts brain work needed for memory, so students forget more. Less thinking = weaker recall."
+          },
+          "scores": {
+            "p6q1": true,
+            "p6q3": true,
+            "p6q5": true,
+            "p6q6": false,
+            "p6q8": false
+          }
+        },
+        {
+          "submittedAt": "2026-04-16T05:55:14.437Z",
+          "answers": {
+            "p6q9": "Teachers should cut workload and deadlines since those drive ChatGPT use. Tell students to use it as a tool, not a shortcut.",
+            "p6q5": "B",
+            "p6q1": "B",
+            "p6q6": "C",
+            "p6q3": "C",
+            "p6q4": "12 items → experts picked 10 → EFA dropped items 4&9 (low loadings). 8 items left with good stats.",
+            "p6q2": "Rewards worry either ups or cuts ChatGPT. Cuts won, scared kids avoid cheating risk.",
+            "p6q7": "Workload/time pressure mediated to all bad outcomes via ChatGPT. Rewards sensitivity only to procrastination/memory. Quality sensitivity did nothing.",
+            "p6q8": "B",
+            "p6q10": "Excess ChatGPT cuts brain work needed for memory, so students forget more. Less thinking = weaker recall."
+          },
+          "scores": {
+            "p6q1": true,
+            "p6q3": true,
+            "p6q5": true,
+            "p6q6": true,
+            "p6q8": true
+          }
+        }
+      ],
+      "perQuestionTimeSeconds": {
+        "p6q5": 102,
+        "p6q1": 104,
+        "p6q3": 108,
+        "p6q6": 118,
+        "p6q8": 114
+      },
+      "firstAttemptCorrect": {
+        "p6q1": false,
+        "p6q3": false,
+        "p6q5": false,
+        "p6q6": false,
+        "p6q8": false
+      },
+      "finalAnswers": {
+        "p6q9": "Teachers should cut workload and deadlines since those drive ChatGPT use. Tell students to use it as a tool, not a shortcut.",
+        "p6q5": "B",
+        "p6q1": "B",
+        "p6q6": "C",
+        "p6q3": "C",
+        "p6q4": "12 items → experts picked 10 → EFA dropped items 4&9 (low loadings). 8 items left with good stats.",
+        "p6q2": "Rewards worry either ups or cuts ChatGPT. Cuts won, scared kids avoid cheating risk.",
+        "p6q7": "Workload/time pressure mediated to all bad outcomes via ChatGPT. Rewards sensitivity only to procrastination/memory. Quality sensitivity did nothing.",
+        "p6q8": "B",
+        "p6q10": "Excess ChatGPT cuts brain work needed for memory, so students forget more. Less thinking = weaker recall."
+      }
+    }
+  ],
+  "questionnaireResponses": [
+    {
+      "paperKey": "paper4",
+      "submittedAt": "2026-04-16T05:46:46.555Z",
+      "responses": {
+        "p4diff1": 3,
+        "p4diff2": 3,
+        "p4diff3": 3,
+        "p4diff4": 3,
+        "p4diff5": 3,
+        "p4diff6": 3,
+        "p4diff7": 3,
+        "p4diff8": 3,
+        "p4diff9": 3,
+        "p4diff10": 3,
+        "p4ease": 3,
+        "p4comments": "n/a"
+      }
+    },
+    {
+      "paperKey": "paper5",
+      "submittedAt": "2026-04-16T05:53:12.855Z",
+      "responses": {
+        "p5diff1": 4,
+        "p5diff2": 4,
+        "p5diff3": 4,
+        "p5diff4": 4,
+        "p5diff5": 4,
+        "p5diff6": 4,
+        "p5diff7": 4,
+        "p5diff8": 4,
+        "p5diff9": 4,
+        "p5diff10": 4,
+        "p5ease": 4
+      }
+    },
+    {
+      "paperKey": "paper6",
+      "submittedAt": "2026-04-16T05:55:34.158Z",
+      "responses": {
+        "p6diff1": 4,
+        "p6diff2": 4,
+        "p6diff3": 4,
+        "p6diff4": 4,
+        "p6diff5": 4,
+        "p6diff6": 4,
+        "p6diff7": 4,
+        "p6diff8": 4,
+        "p6diff9": 3,
+        "p6diff10": 3,
+        "p6ease": 3,
+        "p6comments": "papers are hard to discern"
+      }
+    }
+  ],
+  "finalResponses": {
+    "fq_helpful_highlighted_sentences": 4,
+    "fq_confidence_understanding": 3,
+    "fq_identify_important_info": 3,
+    "fq_repeated_known_info": 4,
+    "fq_missing_important_info": 2,
+    "fq_trust_highlights_key_ideas": 5,
+    "fq_new_vs_repeated": 1,
+    "fq_focus_novel_important_content": 4,
+    "fq_use_in_workflow": 4,
+    "fq_like_most_least": "Some of the paper selection was a bit difficult",
+    "fq_missing_confusing_unnecessary": "hard to go into detailed explanation of the word questions due to time constraints."
+  },
+  "crossAttempts": [
+    {
+      "submittedAt": "2026-04-16T05:56:59.999Z",
+      "answers": {
+        "cpq1": "B",
+        "cpq2": "People switch from creating work to reviewing AI output. AI handles the basic production fast, so effort goes to checking instead.",
+        "cpq3": "C",
+        "cpq4": "Students use ChatGPT under deadline pressure, causing procrastination and memory loss. Shortcuts replace real learning.",
+        "cpq5": "B",
+        "cpq6": "High AI confidence = skip verification. Self-confidence = check more.",
+        "cpq7": "C",
+        "cpq8": "Workload pressure pushes quick ChatGPT use. University paper shows this creates shortcut habits.",
+        "cpq9": "B",
+        "cpq10": "AI boosts task scores (XAI/student papers) but reduces verification effort and increases blind reliance (critical thinking paper)."
+      },
+      "scores": {
+        "cpq1": true,
+        "cpq3": true,
+        "cpq5": true,
+        "cpq7": false,
+        "cpq9": false
+      }
+    },
+    {
+      "submittedAt": "2026-04-16T05:57:05.692Z",
+      "answers": {
+        "cpq1": "B",
+        "cpq2": "People switch from creating work to reviewing AI output. AI handles the basic production fast, so effort goes to checking instead.",
+        "cpq3": "C",
+        "cpq4": "Students use ChatGPT under deadline pressure, causing procrastination and memory loss. Shortcuts replace real learning.",
+        "cpq5": "B",
+        "cpq6": "High AI confidence = skip verification. Self-confidence = check more.",
+        "cpq7": "B",
+        "cpq8": "Workload pressure pushes quick ChatGPT use. University paper shows this creates shortcut habits.",
+        "cpq9": "C",
+        "cpq10": "AI boosts task scores (XAI/student papers) but reduces verification effort and increases blind reliance (critical thinking paper)."
+      },
+      "scores": {
+        "cpq1": true,
+        "cpq3": true,
+        "cpq5": true,
+        "cpq7": true,
+        "cpq9": true
+      }
+    }
+  ],
+  "completedAt": "2026-04-16T05:58:00.593Z",
+  "questionOrders": {
+    "paper4": [
+      "p4q3",
+      "p4q8",
+      "p4q10",
+      "p4q5",
+      "p4q2",
+      "p4q4",
+      "p4q6",
+      "p4q7",
+      "p4q9",
+      "p4q1"
+    ],
+    "paper5": [
+      "p5q10",
+      "p5q2",
+      "p5q5",
+      "p5q3",
+      "p5q7",
+      "p5q9",
+      "p5q8",
+      "p5q1",
+      "p5q4",
+      "p5q6"
+    ],
+    "paper6": [
+      "p6q9",
+      "p6q5",
+      "p6q1",
+      "p6q6",
+      "p6q3",
+      "p6q4",
+      "p6q2",
+      "p6q7",
+      "p6q8",
+      "p6q10"
+    ]
+  },
+  "optionOrders": {
+    "paper4": {
+      "p4q1": [
+        "B",
+        "C",
+        "A",
+        "D"
+      ],
+      "p4q3": [
+        "B",
+        "A",
+        "C",
+        "D"
+      ],
+      "p4q5": [
+        "B",
+        "A",
+        "D",
+        "C"
+      ],
+      "p4q7": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "p4q9": [
+        "A",
+        "C",
+        "B",
+        "D"
+      ]
+    },
+    "paper5": {
+      "p5q1": [
+        "C",
+        "B",
+        "A",
+        "D"
+      ],
+      "p5q3": [
+        "C",
+        "D",
+        "A",
+        "B"
+      ],
+      "p5q5": [
+        "C",
+        "A",
+        "D",
+        "B"
+      ],
+      "p5q6": [
+        "C",
+        "D",
+        "B",
+        "A"
+      ],
+      "p5q8": [
+        "C",
+        "D",
+        "A",
+        "B"
+      ]
+    },
+    "paper6": {
+      "p6q1": [
+        "A",
+        "D",
+        "B",
+        "C"
+      ],
+      "p6q3": [
+        "D",
+        "B",
+        "C",
+        "A"
+      ],
+      "p6q5": [
+        "A",
+        "C",
+        "D",
+        "B"
+      ],
+      "p6q6": [
+        "D",
+        "C",
+        "A",
+        "B"
+      ],
+      "p6q8": [
+        "A",
+        "D",
+        "C",
+        "B"
+      ]
+    }
+  },
+  "crossFinalAnswers": {
+    "cpq1": "B",
+    "cpq2": "People switch from creating work to reviewing AI output. AI handles the basic production fast, so effort goes to checking instead.",
+    "cpq3": "C",
+    "cpq4": "Students use ChatGPT under deadline pressure, causing procrastination and memory loss. Shortcuts replace real learning.",
+    "cpq5": "B",
+    "cpq6": "High AI confidence = skip verification. Self-confidence = check more.",
+    "cpq7": "B",
+    "cpq8": "Workload pressure pushes quick ChatGPT use. University paper shows this creates shortcut habits.",
+    "cpq9": "C",
+    "cpq10": "AI boosts task scores (XAI/student papers) but reduces verification effort and increases blind reliance (critical thinking paper)."
+  }
+}

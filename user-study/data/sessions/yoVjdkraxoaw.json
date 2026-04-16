@@ -1,0 +1,592 @@
+{
+  "sessionId": "yoVjdkraxoaw",
+  "participantId": "P05",
+  "paperOrder": [
+    "paper6",
+    "paper4",
+    "paper5"
+  ],
+  "conditions": [
+    "no_highlights",
+    "all_highlights",
+    "contextual_highlights"
+  ],
+  "createdAt": "2026-04-15T23:53:19.405Z",
+  "step": "done",
+  "demographicResponses": {
+    "age": "B",
+    "role": "B",
+    "field": "Biomedical Engineering",
+    "reading_freq": "D",
+    "reading_style": "D"
+  },
+  "tasks": [
+    {
+      "paperKey": "paper6",
+      "condition": "no_highlights",
+      "priorPapers": [],
+      "startedAt": "2026-04-15T23:53:37.712Z",
+      "completedAt": "2026-04-16T00:01:29.998Z",
+      "attempts": [
+        {
+          "submittedAt": "2026-04-16T00:01:02.013Z",
+          "answers": {
+            "p6q10": "excessive ChatGPT use leads to cognitive offloading where students reduce the mental effort and cognitive training required for academic tasks, ultimately weakening memory retention and cognitive functions",
+            "p6q1": "C",
+            "p6q8": "A",
+            "p6q5": "A",
+            "p6q3": "B",
+            "p6q4": "Experts initially dropped the scale from 12 to 10 items to ensure content validity. During exploratory factor analysis, two additional items (I can't think of studies without ChatGPT and Use of ChatGPT is common nowadays) were dropped due to low factor loadings and communalities.",
+            "p6q9": "authors recommend that educators design assignments with realistic deadlines and manageable workloads. This relates directly to their finding that high stress from overburdened schedules pushes students toward shortcuts like generative AI to cope",
+            "p6q2": "authors predicted that reward sensitivity could either increase usage (viewed as a tool for better grades) or decrease it (fear of being caught for unethical behavior). The study supported the negative link (Hypothesis 3b), suggesting students avoid ChatGPT for fear that academic integrity violations would jeopardize their grades",
+            "p6q6": "C",
+            "p6q7": "haven't had much time to dig into the full stats, but it looked like ChatGPT usage did lead to procrastination or memory loss. The mediation analysis seemed to show that students only used it when they were sure about the quality,"
+          },
+          "scores": {
+            "p6q1": false,
+            "p6q3": false,
+            "p6q5": false,
+            "p6q6": true,
+            "p6q8": false
+          }
+        },
+        {
+          "submittedAt": "2026-04-16T00:01:13.042Z",
+          "answers": {
+            "p6q10": "excessive ChatGPT use leads to cognitive offloading where students reduce the mental effort and cognitive training required for academic tasks, ultimately weakening memory retention and cognitive functions",
+            "p6q1": "B",
+            "p6q8": "B",
+            "p6q5": "B",
+            "p6q3": "A",
+            "p6q4": "Experts initially dropped the scale from 12 to 10 items to ensure content validity. During exploratory factor analysis, two additional items (I can't think of studies without ChatGPT and Use of ChatGPT is common nowadays) were dropped due to low factor loadings and communalities.",
+            "p6q9": "authors recommend that educators design assignments with realistic deadlines and manageable workloads. This relates directly to their finding that high stress from overburdened schedules pushes students toward shortcuts like generative AI to cope",
+            "p6q2": "authors predicted that reward sensitivity could either increase usage (viewed as a tool for better grades) or decrease it (fear of being caught for unethical behavior). The study supported the negative link (Hypothesis 3b), suggesting students avoid ChatGPT for fear that academic integrity violations would jeopardize their grades",
+            "p6q6": "C",
+            "p6q7": "haven't had much time to dig into the full stats, but it looked like ChatGPT usage did lead to procrastination or memory loss. The mediation analysis seemed to show that students only used it when they were sure about the quality,"
+          },
+          "scores": {
+            "p6q1": true,
+            "p6q3": false,
+            "p6q5": true,
+            "p6q6": true,
+            "p6q8": true
+          }
+        },
+        {
+          "submittedAt": "2026-04-16T00:01:27.728Z",
+          "answers": {
+            "p6q10": "excessive ChatGPT use leads to cognitive offloading where students reduce the mental effort and cognitive training required for academic tasks, ultimately weakening memory retention and cognitive functions",
+            "p6q1": "B",
+            "p6q8": "B",
+            "p6q5": "B",
+            "p6q3": "D",
+            "p6q4": "Experts initially dropped the scale from 12 to 10 items to ensure content validity. During exploratory factor analysis, two additional items (I can't think of studies without ChatGPT and Use of ChatGPT is common nowadays) were dropped due to low factor loadings and communalities.",
+            "p6q9": "authors recommend that educators design assignments with realistic deadlines and manageable workloads. This relates directly to their finding that high stress from overburdened schedules pushes students toward shortcuts like generative AI to cope",
+            "p6q2": "authors predicted that reward sensitivity could either increase usage (viewed as a tool for better grades) or decrease it (fear of being caught for unethical behavior). The study supported the negative link (Hypothesis 3b), suggesting students avoid ChatGPT for fear that academic integrity violations would jeopardize their grades",
+            "p6q6": "C",
+            "p6q7": "haven't had much time to dig into the full stats, but it looked like ChatGPT usage did lead to procrastination or memory loss. The mediation analysis seemed to show that students only used it when they were sure about the quality,"
+          },
+          "scores": {
+            "p6q1": true,
+            "p6q3": false,
+            "p6q5": true,
+            "p6q6": true,
+            "p6q8": true
+          }
+        },
+        {
+          "submittedAt": "2026-04-16T00:01:29.994Z",
+          "answers": {
+            "p6q10": "excessive ChatGPT use leads to cognitive offloading where students reduce the mental effort and cognitive training required for academic tasks, ultimately weakening memory retention and cognitive functions",
+            "p6q1": "B",
+            "p6q8": "B",
+            "p6q5": "B",
+            "p6q3": "C",
+            "p6q4": "Experts initially dropped the scale from 12 to 10 items to ensure content validity. During exploratory factor analysis, two additional items (I can't think of studies without ChatGPT and Use of ChatGPT is common nowadays) were dropped due to low factor loadings and communalities.",
+            "p6q9": "authors recommend that educators design assignments with realistic deadlines and manageable workloads. This relates directly to their finding that high stress from overburdened schedules pushes students toward shortcuts like generative AI to cope",
+            "p6q2": "authors predicted that reward sensitivity could either increase usage (viewed as a tool for better grades) or decrease it (fear of being caught for unethical behavior). The study supported the negative link (Hypothesis 3b), suggesting students avoid ChatGPT for fear that academic integrity violations would jeopardize their grades",
+            "p6q6": "C",
+            "p6q7": "haven't had much time to dig into the full stats, but it looked like ChatGPT usage did lead to procrastination or memory loss. The mediation analysis seemed to show that students only used it when they were sure about the quality,"
+          },
+          "scores": {
+            "p6q1": true,
+            "p6q3": true,
+            "p6q5": true,
+            "p6q6": true,
+            "p6q8": true
+          }
+        }
+      ],
+      "perQuestionTimeSeconds": {
+        "p6q6": 346,
+        "p6q1": 452,
+        "p6q8": 454,
+        "p6q5": 448,
+        "p6q3": 471
+      },
+      "firstAttemptCorrect": {
+        "p6q1": false,
+        "p6q3": false,
+        "p6q5": false,
+        "p6q6": true,
+        "p6q8": false
+      },
+      "finalAnswers": {
+        "p6q10": "excessive ChatGPT use leads to cognitive offloading where students reduce the mental effort and cognitive training required for academic tasks, ultimately weakening memory retention and cognitive functions",
+        "p6q1": "B",
+        "p6q8": "B",
+        "p6q5": "B",
+        "p6q3": "C",
+        "p6q4": "Experts initially dropped the scale from 12 to 10 items to ensure content validity. During exploratory factor analysis, two additional items (I can't think of studies without ChatGPT and Use of ChatGPT is common nowadays) were dropped due to low factor loadings and communalities.",
+        "p6q9": "authors recommend that educators design assignments with realistic deadlines and manageable workloads. This relates directly to their finding that high stress from overburdened schedules pushes students toward shortcuts like generative AI to cope",
+        "p6q2": "authors predicted that reward sensitivity could either increase usage (viewed as a tool for better grades) or decrease it (fear of being caught for unethical behavior). The study supported the negative link (Hypothesis 3b), suggesting students avoid ChatGPT for fear that academic integrity violations would jeopardize their grades",
+        "p6q6": "C",
+        "p6q7": "haven't had much time to dig into the full stats, but it looked like ChatGPT usage did lead to procrastination or memory loss. The mediation analysis seemed to show that students only used it when they were sure about the quality,"
+      }
+    },
+    {
+      "paperKey": "paper4",
+      "condition": "all_highlights",
+      "priorPapers": [],
+      "startedAt": "2026-04-16T00:01:55.760Z",
+      "completedAt": "2026-04-16T00:05:31.075Z",
+      "attempts": [
+        {
+          "submittedAt": "2026-04-16T00:05:14.020Z",
+          "answers": {
+            "p4q8": "These hurdles include difficulties in steering AI responses and verifying technical accuracy. The largest group of participants reported that they struggled most with the cognitive burden of fact checking and cross referencing AI outputs against reliable sources.",
+            "p4q9": "D",
+            "p4q3": "C",
+            "p4q7": "C",
+            "p4q5": "A",
+            "p4q10": "The authors use this term because it implies the worker is a responsible guardian of the final output rather than just a collaborator. It reinforces that ultimate accountability for the accuracy and ethical implications of the work rests entirely with the human user.",
+            "p4q2": "RQ1 investigates how GenAI tools change the amount of cognitive effort workers feel they are exerting. RQ2 looks at how these tools impact the worker's actual performance and speed when completing complex professional tasks.",
+            "p4q1": "D",
+            "p4q6": "The paper suggests that high motivation can overcome technical barriers if the worker has enough time to experiment with the AI. Critical thinking usually fails when workers are highly skilled but feel the task is too boring to warrant any extra effort",
+            "p4q4": "Shift in Effort: Workers reported that GenAI significantly reduces the effort required for lower-level tasks like gathering and summarizing information. This shift allows knowledge workers to focus more on high-level evaluation and the integration of AI content into larger projects."
+          },
+          "scores": {
+            "p4q1": false,
+            "p4q3": true,
+            "p4q5": false,
+            "p4q7": false,
+            "p4q9": true
+          }
+        },
+        {
+          "submittedAt": "2026-04-16T00:05:23.179Z",
+          "answers": {
+            "p4q8": "These hurdles include difficulties in steering AI responses and verifying technical accuracy. The largest group of participants reported that they struggled most with the cognitive burden of fact checking and cross referencing AI outputs against reliable sources.",
+            "p4q9": "D",
+            "p4q3": "C",
+            "p4q7": "B",
+            "p4q5": "D",
+            "p4q10": "The authors use this term because it implies the worker is a responsible guardian of the final output rather than just a collaborator. It reinforces that ultimate accountability for the accuracy and ethical implications of the work rests entirely with the human user.",
+            "p4q2": "RQ1 investigates how GenAI tools change the amount of cognitive effort workers feel they are exerting. RQ2 looks at how these tools impact the worker's actual performance and speed when completing complex professional tasks.",
+            "p4q1": "B",
+            "p4q6": "The paper suggests that high motivation can overcome technical barriers if the worker has enough time to experiment with the AI. Critical thinking usually fails when workers are highly skilled but feel the task is too boring to warrant any extra effort",
+            "p4q4": "Shift in Effort: Workers reported that GenAI significantly reduces the effort required for lower-level tasks like gathering and summarizing information. This shift allows knowledge workers to focus more on high-level evaluation and the integration of AI content into larger projects."
+          },
+          "scores": {
+            "p4q1": false,
+            "p4q3": true,
+            "p4q5": false,
+            "p4q7": true,
+            "p4q9": true
+          }
+        },
+        {
+          "submittedAt": "2026-04-16T00:05:31.071Z",
+          "answers": {
+            "p4q8": "These hurdles include difficulties in steering AI responses and verifying technical accuracy. The largest group of participants reported that they struggled most with the cognitive burden of fact checking and cross referencing AI outputs against reliable sources.",
+            "p4q9": "D",
+            "p4q3": "C",
+            "p4q7": "B",
+            "p4q5": "B",
+            "p4q10": "The authors use this term because it implies the worker is a responsible guardian of the final output rather than just a collaborator. It reinforces that ultimate accountability for the accuracy and ethical implications of the work rests entirely with the human user.",
+            "p4q2": "RQ1 investigates how GenAI tools change the amount of cognitive effort workers feel they are exerting. RQ2 looks at how these tools impact the worker's actual performance and speed when completing complex professional tasks.",
+            "p4q1": "C",
+            "p4q6": "The paper suggests that high motivation can overcome technical barriers if the worker has enough time to experiment with the AI. Critical thinking usually fails when workers are highly skilled but feel the task is too boring to warrant any extra effort",
+            "p4q4": "Shift in Effort: Workers reported that GenAI significantly reduces the effort required for lower-level tasks like gathering and summarizing information. This shift allows knowledge workers to focus more on high-level evaluation and the integration of AI content into larger projects."
+          },
+          "scores": {
+            "p4q1": true,
+            "p4q3": true,
+            "p4q5": true,
+            "p4q7": true,
+            "p4q9": true
+          }
+        }
+      ],
+      "perQuestionTimeSeconds": {
+        "p4q9": 142,
+        "p4q3": 143,
+        "p4q7": 203,
+        "p4q5": 213,
+        "p4q1": 209
+      },
+      "firstAttemptCorrect": {
+        "p4q1": false,
+        "p4q3": true,
+        "p4q5": false,
+        "p4q7": false,
+        "p4q9": true
+      },
+      "finalAnswers": {
+        "p4q8": "These hurdles include difficulties in steering AI responses and verifying technical accuracy. The largest group of participants reported that they struggled most with the cognitive burden of fact checking and cross referencing AI outputs against reliable sources.",
+        "p4q9": "D",
+        "p4q3": "C",
+        "p4q7": "B",
+        "p4q5": "B",
+        "p4q10": "The authors use this term because it implies the worker is a responsible guardian of the final output rather than just a collaborator. It reinforces that ultimate accountability for the accuracy and ethical implications of the work rests entirely with the human user.",
+        "p4q2": "RQ1 investigates how GenAI tools change the amount of cognitive effort workers feel they are exerting. RQ2 looks at how these tools impact the worker's actual performance and speed when completing complex professional tasks.",
+        "p4q1": "C",
+        "p4q6": "The paper suggests that high motivation can overcome technical barriers if the worker has enough time to experiment with the AI. Critical thinking usually fails when workers are highly skilled but feel the task is too boring to warrant any extra effort",
+        "p4q4": "Shift in Effort: Workers reported that GenAI significantly reduces the effort required for lower-level tasks like gathering and summarizing information. This shift allows knowledge workers to focus more on high-level evaluation and the integration of AI content into larger projects."
+      }
+    },
+    {
+      "paperKey": "paper5",
+      "condition": "contextual_highlights",
+      "priorPapers": [],
+      "startedAt": "2026-04-16T00:06:02.666Z",
+      "completedAt": "2026-04-16T00:13:53.127Z",
+      "attempts": [
+        {
+          "submittedAt": "2026-04-16T00:13:42.404Z",
+          "answers": {
+            "p5q3": "A",
+            "p5q10": "The authors express concern that AI explanations could be used to manipulate users into accepting incorrect advice. This was prompted by the finding that explanations often increase trust and acceptance regardless of whether the AI's recommendation is actually accurate.",
+            "p5q2": "The paper compares AI versus human advice and AI withexplanations versus AI without explanations.",
+            "p5q5": "B",
+            "p5q9": "Some studies found that detailed explanations improved user trust, while others reported that they caused information overload and decreased reliance. Specifically, the Study of Clinical Tools reported high acceptance, whereas the  Financial Risk Assessment study showed that explanations led to increased skepticism.",
+            "p5q7": "The two mechanisms are improved calibration where users learn when to trust the AI, and information gain where the explanation provides new facts.",
+            "p5q4": "The results showed a significant positive effect for text based data but a negligible or negative effect for tabular data. The authors suggest this is because text explanations feel more natural and persuasive, whereas tabular data often requires too much cognitive effort to interpret correctly.",
+            "p5q1": "B",
+            "p5q8": "B",
+            "p5q6": "A"
+          },
+          "scores": {
+            "p5q1": true,
+            "p5q3": false,
+            "p5q5": true,
+            "p5q6": false,
+            "p5q8": false
+          }
+        },
+        {
+          "submittedAt": "2026-04-16T00:13:49.148Z",
+          "answers": {
+            "p5q3": "D",
+            "p5q10": "The authors express concern that AI explanations could be used to manipulate users into accepting incorrect advice. This was prompted by the finding that explanations often increase trust and acceptance regardless of whether the AI's recommendation is actually accurate.",
+            "p5q2": "The paper compares AI versus human advice and AI withexplanations versus AI without explanations.",
+            "p5q5": "B",
+            "p5q9": "Some studies found that detailed explanations improved user trust, while others reported that they caused information overload and decreased reliance. Specifically, the Study of Clinical Tools reported high acceptance, whereas the  Financial Risk Assessment study showed that explanations led to increased skepticism.",
+            "p5q7": "The two mechanisms are improved calibration where users learn when to trust the AI, and information gain where the explanation provides new facts.",
+            "p5q4": "The results showed a significant positive effect for text based data but a negligible or negative effect for tabular data. The authors suggest this is because text explanations feel more natural and persuasive, whereas tabular data often requires too much cognitive effort to interpret correctly.",
+            "p5q1": "B",
+            "p5q8": "C",
+            "p5q6": "A"
+          },
+          "scores": {
+            "p5q1": true,
+            "p5q3": true,
+            "p5q5": true,
+            "p5q6": false,
+            "p5q8": true
+          }
+        },
+        {
+          "submittedAt": "2026-04-16T00:13:53.122Z",
+          "answers": {
+            "p5q3": "D",
+            "p5q10": "The authors express concern that AI explanations could be used to manipulate users into accepting incorrect advice. This was prompted by the finding that explanations often increase trust and acceptance regardless of whether the AI's recommendation is actually accurate.",
+            "p5q2": "The paper compares AI versus human advice and AI withexplanations versus AI without explanations.",
+            "p5q5": "B",
+            "p5q9": "Some studies found that detailed explanations improved user trust, while others reported that they caused information overload and decreased reliance. Specifically, the Study of Clinical Tools reported high acceptance, whereas the  Financial Risk Assessment study showed that explanations led to increased skepticism.",
+            "p5q7": "The two mechanisms are improved calibration where users learn when to trust the AI, and information gain where the explanation provides new facts.",
+            "p5q4": "The results showed a significant positive effect for text based data but a negligible or negative effect for tabular data. The authors suggest this is because text explanations feel more natural and persuasive, whereas tabular data often requires too much cognitive effort to interpret correctly.",
+            "p5q1": "B",
+            "p5q8": "C",
+            "p5q6": "B"
+          },
+          "scores": {
+            "p5q1": true,
+            "p5q3": true,
+            "p5q5": true,
+            "p5q6": true,
+            "p5q8": true
+          }
+        }
+      ],
+      "perQuestionTimeSeconds": {
+        "p5q5": 457,
+        "p5q1": 449,
+        "p5q3": 462,
+        "p5q8": 466,
+        "p5q6": 470
+      },
+      "firstAttemptCorrect": {
+        "p5q1": true,
+        "p5q3": false,
+        "p5q5": true,
+        "p5q6": false,
+        "p5q8": false
+      },
+      "finalAnswers": {
+        "p5q3": "D",
+        "p5q10": "The authors express concern that AI explanations could be used to manipulate users into accepting incorrect advice. This was prompted by the finding that explanations often increase trust and acceptance regardless of whether the AI's recommendation is actually accurate.",
+        "p5q2": "The paper compares AI versus human advice and AI withexplanations versus AI without explanations.",
+        "p5q5": "B",
+        "p5q9": "Some studies found that detailed explanations improved user trust, while others reported that they caused information overload and decreased reliance. Specifically, the Study of Clinical Tools reported high acceptance, whereas the  Financial Risk Assessment study showed that explanations led to increased skepticism.",
+        "p5q7": "The two mechanisms are improved calibration where users learn when to trust the AI, and information gain where the explanation provides new facts.",
+        "p5q4": "The results showed a significant positive effect for text based data but a negligible or negative effect for tabular data. The authors suggest this is because text explanations feel more natural and persuasive, whereas tabular data often requires too much cognitive effort to interpret correctly.",
+        "p5q1": "B",
+        "p5q8": "C",
+        "p5q6": "B"
+      }
+    }
+  ],
+  "questionnaireResponses": [
+    {
+      "paperKey": "paper6",
+      "submittedAt": "2026-04-16T00:01:52.737Z",
+      "responses": {
+        "p6diff1": 3,
+        "p6diff2": 3,
+        "p6diff3": 4,
+        "p6diff4": 4,
+        "p6diff5": 3,
+        "p6diff6": 3,
+        "p6diff7": 3,
+        "p6diff8": 3,
+        "p6diff9": 4,
+        "p6diff10": 3,
+        "p6ease": 4,
+        "p6comments": "timing was a bit rough."
+      }
+    },
+    {
+      "paperKey": "paper4",
+      "submittedAt": "2026-04-16T00:06:00.769Z",
+      "responses": {
+        "p4diff1": 3,
+        "p4diff2": 3,
+        "p4diff3": 2,
+        "p4diff4": 2,
+        "p4diff5": 3,
+        "p4diff6": 3,
+        "p4diff7": 3,
+        "p4diff8": 3,
+        "p4diff9": 3,
+        "p4diff10": 2,
+        "p4ease": 3,
+        "p4comments": "Misread a couple questions causing me to select wrong MC option on a first pass"
+      }
+    },
+    {
+      "paperKey": "paper5",
+      "submittedAt": "2026-04-16T00:14:20.045Z",
+      "responses": {
+        "p5diff1": 3,
+        "p5diff2": 3,
+        "p5diff3": 3,
+        "p5diff4": 3,
+        "p5diff5": 3,
+        "p5diff6": 4,
+        "p5diff7": 4,
+        "p5diff8": 3,
+        "p5diff9": 3,
+        "p5diff10": 3,
+        "p5ease": 3,
+        "p5comments": "The number MC questions were easy to identify from the paper."
+      }
+    }
+  ],
+  "finalResponses": {
+    "fq_helpful_highlighted_sentences": 4,
+    "fq_confidence_understanding": 4,
+    "fq_identify_important_info": 4,
+    "fq_repeated_known_info": 3,
+    "fq_missing_important_info": 3,
+    "fq_trust_highlights_key_ideas": 4,
+    "fq_new_vs_repeated": 2,
+    "fq_focus_novel_important_content": 3,
+    "fq_use_in_workflow": 4,
+    "fq_like_most_least": "I was able to locate information a lot faster with the highlights pointing me to the right location.",
+    "fq_missing_confusing_unnecessary": "Some questions were easy to answer with a quick find in the papers, but other questions felt too complicated for the allocated time."
+  },
+  "crossAttempts": [
+    {
+      "submittedAt": "2026-04-16T00:24:26.167Z",
+      "answers": {
+        "cpq1": "B",
+        "cpq2": "Users experience a significant increase in cognitive effort because the AI requires constant monitoring and complex prompt engineering to produce basic results. This happens because generative models are inherently difficult to control and often produce irrelevant data that takes more time to filter than manual research.",
+        "cpq3": "C",
+        "cpq4": "Lower effort could harm outcomes by causing cognitive offloading where the user stops practicing essential mental skills like memory and reasoning. This leads to a gradual decline in the ability to perform tasks independently without digital assistance.",
+        "cpq5": "B",
+        "cpq6": "time pressure which forces users to skip quality checks in favor of speed and efficiency. Additionally users are less likely to verify information if they perceive the specific task as trivial or insignificant.",
+        "cpq7": "B",
+        "cpq8": "People may over-rely on AI because it provides instant gratification and reduces the stress associated with complex decision making.",
+        "cpq9": "C",
+        "cpq10": "AI can improve performance by acting as a scaffold for complicated information and organizing data into readable formats at scale. However it creates risks such as decreased critical thinking confidence and the potential for memory loss due to a lack of deep cognitive engagement."
+      },
+      "scores": {
+        "cpq1": true,
+        "cpq3": true,
+        "cpq5": true,
+        "cpq7": true,
+        "cpq9": true
+      }
+    }
+  ],
+  "completedAt": "2026-04-16T00:25:47.218Z",
+  "questionOrders": {
+    "paper6": [
+      "p6q10",
+      "p6q1",
+      "p6q8",
+      "p6q5",
+      "p6q3",
+      "p6q4",
+      "p6q9",
+      "p6q2",
+      "p6q6",
+      "p6q7"
+    ],
+    "paper4": [
+      "p4q8",
+      "p4q9",
+      "p4q3",
+      "p4q7",
+      "p4q5",
+      "p4q10",
+      "p4q2",
+      "p4q1",
+      "p4q6",
+      "p4q4"
+    ],
+    "paper5": [
+      "p5q3",
+      "p5q10",
+      "p5q2",
+      "p5q5",
+      "p5q9",
+      "p5q7",
+      "p5q4",
+      "p5q1",
+      "p5q8",
+      "p5q6"
+    ]
+  },
+  "optionOrders": {
+    "paper6": {
+      "p6q1": [
+        "C",
+        "B",
+        "A",
+        "D"
+      ],
+      "p6q3": [
+        "C",
+        "A",
+        "B",
+        "D"
+      ],
+      "p6q5": [
+        "D",
+        "C",
+        "A",
+        "B"
+      ],
+      "p6q6": [
+        "D",
+        "A",
+        "C",
+        "B"
+      ],
+      "p6q8": [
+        "D",
+        "A",
+        "C",
+        "B"
+      ]
+    },
+    "paper4": {
+      "p4q1": [
+        "B",
+        "A",
+        "D",
+        "C"
+      ],
+      "p4q3": [
+        "A",
+        "D",
+        "C",
+        "B"
+      ],
+      "p4q5": [
+        "B",
+        "C",
+        "D",
+        "A"
+      ],
+      "p4q7": [
+        "A",
+        "B",
+        "D",
+        "C"
+      ],
+      "p4q9": [
+        "C",
+        "D",
+        "A",
+        "B"
+      ]
+    },
+    "paper5": {
+      "p5q1": [
+        "C",
+        "B",
+        "A",
+        "D"
+      ],
+      "p5q3": [
+        "A",
+        "C",
+        "D",
+        "B"
+      ],
+      "p5q5": [
+        "B",
+        "C",
+        "D",
+        "A"
+      ],
+      "p5q6": [
+        "D",
+        "A",
+        "B",
+        "C"
+      ],
+      "p5q8": [
+        "B",
+        "C",
+        "D",
+        "A"
+      ]
+    }
+  },
+  "crossFinalAnswers": {
+    "cpq1": "B",
+    "cpq2": "Users experience a significant increase in cognitive effort because the AI requires constant monitoring and complex prompt engineering to produce basic results. This happens because generative models are inherently difficult to control and often produce irrelevant data that takes more time to filter than manual research.",
+    "cpq3": "C",
+    "cpq4": "Lower effort could harm outcomes by causing cognitive offloading where the user stops practicing essential mental skills like memory and reasoning. This leads to a gradual decline in the ability to perform tasks independently without digital assistance.",
+    "cpq5": "B",
+    "cpq6": "time pressure which forces users to skip quality checks in favor of speed and efficiency. Additionally users are less likely to verify information if they perceive the specific task as trivial or insignificant.",
+    "cpq7": "B",
+    "cpq8": "People may over-rely on AI because it provides instant gratification and reduces the stress associated with complex decision making.",
+    "cpq9": "C",
+    "cpq10": "AI can improve performance by acting as a scaffold for complicated information and organizing data into readable formats at scale. However it creates risks such as decreased critical thinking confidence and the potential for memory loss due to a lack of deep cognitive engagement."
+  }
+}

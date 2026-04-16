@@ -1,0 +1,608 @@
+{
+  "sessionId": "zrekyLviaI_R",
+  "participantId": "P03",
+  "paperOrder": [
+    "paper5",
+    "paper4",
+    "paper6"
+  ],
+  "conditions": [
+    "no_highlights",
+    "all_highlights",
+    "contextual_highlights"
+  ],
+  "createdAt": "2026-04-14T23:36:34.267Z",
+  "step": "done",
+  "demographicResponses": {
+    "age": "B",
+    "role": "B",
+    "field": "Computer Science",
+    "reading_freq": "C",
+    "reading_style": "B"
+  },
+  "tasks": [
+    {
+      "paperKey": "paper5",
+      "condition": "no_highlights",
+      "priorPapers": [],
+      "startedAt": "2026-04-14T23:37:03.110Z",
+      "completedAt": "2026-04-14T23:43:26.458Z",
+      "attempts": [
+        {
+          "submittedAt": "2026-04-14T23:43:03.854Z",
+          "answers": {
+            "p5q3": "C",
+            "p5q7": "XAI could help by increasing how much people follow AI advice or by helping them tell when the AI is right or wrong. The paper finds stronger evidence for increased acceptance rather than better judgment.",
+            "p5q9": "Some studies like Bansal et al. and van der Waa et al. show explanations make people more likely to follow AI advice, even when it’s wrong, while others like Fügener et al. show explanations can reduce reliance. So overall, explanations don’t have a consistent effect across studies.",
+            "p5q8": "A",
+            "p5q1": "B",
+            "p5q2": "It compares human vs XAI performance and AI vs XAI performance. Since XAI doesn’t outperform AI alone, the improvements should be seen as coming from AI support overall, not explanations specifically.",
+            "p5q10": "They are concerned that explanations might reduce trust in AI if users find them confusing. This comes from findings where explanations didn’t consistently improve performance.",
+            "p5q4": "The results show XAI improves performance for both tabular and text data, but more strongly for text. The authors think this is because text tasks are easier for users to interpret alongside explanations.",
+            "p5q5": "B",
+            "p5q6": "C"
+          },
+          "scores": {
+            "p5q1": true,
+            "p5q3": false,
+            "p5q5": true,
+            "p5q6": false,
+            "p5q8": false
+          }
+        },
+        {
+          "submittedAt": "2026-04-14T23:43:14.042Z",
+          "answers": {
+            "p5q3": "A",
+            "p5q7": "XAI could help by increasing how much people follow AI advice or by helping them tell when the AI is right or wrong. The paper finds stronger evidence for increased acceptance rather than better judgment.",
+            "p5q9": "Some studies like Bansal et al. and van der Waa et al. show explanations make people more likely to follow AI advice, even when it’s wrong, while others like Fügener et al. show explanations can reduce reliance. So overall, explanations don’t have a consistent effect across studies.",
+            "p5q8": "B",
+            "p5q1": "B",
+            "p5q2": "It compares human vs XAI performance and AI vs XAI performance. Since XAI doesn’t outperform AI alone, the improvements should be seen as coming from AI support overall, not explanations specifically.",
+            "p5q10": "They are concerned that explanations might reduce trust in AI if users find them confusing. This comes from findings where explanations didn’t consistently improve performance.",
+            "p5q4": "The results show XAI improves performance for both tabular and text data, but more strongly for text. The authors think this is because text tasks are easier for users to interpret alongside explanations.",
+            "p5q5": "B",
+            "p5q6": "B"
+          },
+          "scores": {
+            "p5q1": true,
+            "p5q3": false,
+            "p5q5": true,
+            "p5q6": true,
+            "p5q8": false
+          }
+        },
+        {
+          "submittedAt": "2026-04-14T23:43:26.442Z",
+          "answers": {
+            "p5q3": "D",
+            "p5q7": "XAI could help by increasing how much people follow AI advice or by helping them tell when the AI is right or wrong. The paper finds stronger evidence for increased acceptance rather than better judgment.",
+            "p5q9": "Some studies like Bansal et al. and van der Waa et al. show explanations make people more likely to follow AI advice, even when it’s wrong, while others like Fügener et al. show explanations can reduce reliance. So overall, explanations don’t have a consistent effect across studies.",
+            "p5q8": "C",
+            "p5q1": "B",
+            "p5q2": "It compares human vs XAI performance and AI vs XAI performance. Since XAI doesn’t outperform AI alone, the improvements should be seen as coming from AI support overall, not explanations specifically.",
+            "p5q10": "They are concerned that explanations might reduce trust in AI if users find them confusing. This comes from findings where explanations didn’t consistently improve performance.",
+            "p5q4": "The results show XAI improves performance for both tabular and text data, but more strongly for text. The authors think this is because text tasks are easier for users to interpret alongside explanations.",
+            "p5q5": "B",
+            "p5q6": "B"
+          },
+          "scores": {
+            "p5q1": true,
+            "p5q3": true,
+            "p5q5": true,
+            "p5q6": true,
+            "p5q8": true
+          }
+        }
+      ],
+      "perQuestionTimeSeconds": {
+        "p5q1": 356,
+        "p5q5": 351,
+        "p5q6": 364,
+        "p5q3": 374,
+        "p5q8": 381
+      },
+      "firstAttemptCorrect": {
+        "p5q1": true,
+        "p5q3": false,
+        "p5q5": true,
+        "p5q6": false,
+        "p5q8": false
+      },
+      "finalAnswers": {
+        "p5q3": "D",
+        "p5q7": "XAI could help by increasing how much people follow AI advice or by helping them tell when the AI is right or wrong. The paper finds stronger evidence for increased acceptance rather than better judgment.",
+        "p5q9": "Some studies like Bansal et al. and van der Waa et al. show explanations make people more likely to follow AI advice, even when it’s wrong, while others like Fügener et al. show explanations can reduce reliance. So overall, explanations don’t have a consistent effect across studies.",
+        "p5q8": "C",
+        "p5q1": "B",
+        "p5q2": "It compares human vs XAI performance and AI vs XAI performance. Since XAI doesn’t outperform AI alone, the improvements should be seen as coming from AI support overall, not explanations specifically.",
+        "p5q10": "They are concerned that explanations might reduce trust in AI if users find them confusing. This comes from findings where explanations didn’t consistently improve performance.",
+        "p5q4": "The results show XAI improves performance for both tabular and text data, but more strongly for text. The authors think this is because text tasks are easier for users to interpret alongside explanations.",
+        "p5q5": "B",
+        "p5q6": "B"
+      }
+    },
+    {
+      "paperKey": "paper4",
+      "condition": "all_highlights",
+      "priorPapers": [],
+      "startedAt": "2026-04-14T23:43:43.198Z",
+      "completedAt": "2026-04-14T23:52:00.628Z",
+      "attempts": [
+        {
+          "submittedAt": "2026-04-14T23:50:35.383Z",
+          "answers": {
+            "p4q10": "Stewardship leans more towards guiding AI.",
+            "p4q6": "Motivation and ability both matter, but even if someone wants to think critically, they might not if they lack the ability to evaluate or improve AI outputs. So it breaks down when users are motivated but don’t have the skills to act on it.",
+            "p4q2": "The paper asks when and how people use critical thinking with GenAI, and when and why GenAI changes the effort needed for it. One is about behavior, while the other focuses more on effort changes.",
+            "p4q7": "B",
+            "p4q5": "C",
+            "p4q4": "The paper suggests effort shifts toward generating ideas and content, with less focus on evaluation. This creates a more creative role where workers mainly produce outputs instead of checking them.",
+            "p4q8": "The barriers include lack of awareness, time pressure, and difficulty verifying outputs. The most common one reported was time pressure limiting how much people could think critically.",
+            "p4q1": "D",
+            "p4q9": "D",
+            "p4q3": "C"
+          },
+          "scores": {
+            "p4q1": false,
+            "p4q3": true,
+            "p4q5": false,
+            "p4q7": true,
+            "p4q9": true
+          }
+        },
+        {
+          "submittedAt": "2026-04-14T23:51:53.813Z",
+          "answers": {
+            "p4q10": "Stewardship leans more towards guiding AI.",
+            "p4q6": "Motivation and ability both matter, but even if someone wants to think critically, they might not if they lack the ability to evaluate or improve AI outputs. So it breaks down when users are motivated but don’t have the skills to act on it.",
+            "p4q2": "The paper asks when and how people use critical thinking with GenAI, and when and why GenAI changes the effort needed for it. One is about behavior, while the other focuses more on effort changes.",
+            "p4q7": "B",
+            "p4q5": "C",
+            "p4q4": "The paper suggests effort shifts toward generating ideas and content, with less focus on evaluation. This creates a more creative role where workers mainly produce outputs instead of checking them.",
+            "p4q8": "The barriers include lack of awareness, time pressure, and difficulty verifying outputs. The most common one reported was time pressure limiting how much people could think critically.",
+            "p4q1": "D",
+            "p4q9": "D",
+            "p4q3": "C"
+          },
+          "scores": {
+            "p4q1": false,
+            "p4q3": true,
+            "p4q5": false,
+            "p4q7": true,
+            "p4q9": true
+          }
+        },
+        {
+          "submittedAt": "2026-04-14T23:52:00.625Z",
+          "answers": {
+            "p4q10": "Stewardship leans more towards guiding AI.",
+            "p4q6": "Motivation and ability both matter, but even if someone wants to think critically, they might not if they lack the ability to evaluate or improve AI outputs. So it breaks down when users are motivated but don’t have the skills to act on it.",
+            "p4q2": "The paper asks when and how people use critical thinking with GenAI, and when and why GenAI changes the effort needed for it. One is about behavior, while the other focuses more on effort changes.",
+            "p4q7": "B",
+            "p4q5": "B",
+            "p4q4": "The paper suggests effort shifts toward generating ideas and content, with less focus on evaluation. This creates a more creative role where workers mainly produce outputs instead of checking them.",
+            "p4q8": "The barriers include lack of awareness, time pressure, and difficulty verifying outputs. The most common one reported was time pressure limiting how much people could think critically.",
+            "p4q1": "C",
+            "p4q9": "D",
+            "p4q3": "C"
+          },
+          "scores": {
+            "p4q1": true,
+            "p4q3": true,
+            "p4q5": true,
+            "p4q7": true,
+            "p4q9": true
+          }
+        }
+      ],
+      "perQuestionTimeSeconds": {
+        "p4q7": 289,
+        "p4q9": 298,
+        "p4q3": 300,
+        "p4q5": 497,
+        "p4q1": 492
+      },
+      "firstAttemptCorrect": {
+        "p4q1": false,
+        "p4q3": true,
+        "p4q5": false,
+        "p4q7": true,
+        "p4q9": true
+      },
+      "finalAnswers": {
+        "p4q10": "Stewardship leans more towards guiding AI.",
+        "p4q6": "Motivation and ability both matter, but even if someone wants to think critically, they might not if they lack the ability to evaluate or improve AI outputs. So it breaks down when users are motivated but don’t have the skills to act on it.",
+        "p4q2": "The paper asks when and how people use critical thinking with GenAI, and when and why GenAI changes the effort needed for it. One is about behavior, while the other focuses more on effort changes.",
+        "p4q7": "B",
+        "p4q5": "B",
+        "p4q4": "The paper suggests effort shifts toward generating ideas and content, with less focus on evaluation. This creates a more creative role where workers mainly produce outputs instead of checking them.",
+        "p4q8": "The barriers include lack of awareness, time pressure, and difficulty verifying outputs. The most common one reported was time pressure limiting how much people could think critically.",
+        "p4q1": "C",
+        "p4q9": "D",
+        "p4q3": "C"
+      }
+    },
+    {
+      "paperKey": "paper6",
+      "condition": "contextual_highlights",
+      "priorPapers": [],
+      "startedAt": "2026-04-14T23:52:18.842Z",
+      "completedAt": "2026-04-15T00:01:46.220Z",
+      "attempts": [
+        {
+          "submittedAt": "2026-04-15T00:00:37.440Z",
+          "answers": {
+            "p6q2": "Sensitivity to rewards would either increase ChatGPT usage because students want better grades, or decrease it because they fear penalties, and the results supported the negative relationship since students avoided using it due to risk of losing marks",
+            "p6q9": "The authors recommend that educators reduce workload and eliminate deadlines entirely so students stop using ChatGPT which they argue is the main cause of all negative outcomes",
+            "p6q7": "Mediation was supported for workload and time pressure on procrastination, memory loss, and academic performance, and also for sensitivity to rewards on procrastination and memory loss but not academic performance, while it was not supported for sensitivity to quality on any outcomes",
+            "p6q8": "D",
+            "p6q3": "A",
+            "p6q10": "Memory loss occurs because students rely on GPT instead of engaging in active cognitive effort which reduces mental practice needed for memory retention",
+            "p6q5": "B",
+            "p6q1": "B",
+            "p6q6": "C"
+          },
+          "scores": {
+            "p6q1": true,
+            "p6q3": false,
+            "p6q5": true,
+            "p6q6": true,
+            "p6q8": false
+          }
+        },
+        {
+          "submittedAt": "2026-04-15T00:01:31.883Z",
+          "answers": {
+            "p6q2": "Sensitivity to rewards would either increase ChatGPT usage because students want better grades, or decrease it because they fear penalties, and the results supported the negative relationship since students avoided using it due to risk of losing marks",
+            "p6q9": "The authors recommend that educators reduce workload and eliminate deadlines entirely so students stop using ChatGPT which they argue is the main cause of all negative outcomes",
+            "p6q7": "Mediation was supported for workload and time pressure on procrastination, memory loss, and academic performance, and also for sensitivity to rewards on procrastination and memory loss but not academic performance, while it was not supported for sensitivity to quality on any outcomes",
+            "p6q8": "B",
+            "p6q3": "D",
+            "p6q10": "Memory loss occurs because students rely on GPT instead of engaging in active cognitive effort which reduces mental practice needed for memory retention",
+            "p6q5": "B",
+            "p6q1": "B",
+            "p6q6": "C"
+          },
+          "scores": {
+            "p6q1": true,
+            "p6q3": false,
+            "p6q5": true,
+            "p6q6": true,
+            "p6q8": true
+          }
+        },
+        {
+          "submittedAt": "2026-04-15T00:01:46.216Z",
+          "answers": {
+            "p6q2": "Sensitivity to rewards would either increase ChatGPT usage because students want better grades, or decrease it because they fear penalties, and the results supported the negative relationship since students avoided using it due to risk of losing marks",
+            "p6q9": "The authors recommend that educators reduce workload and eliminate deadlines entirely so students stop using ChatGPT which they argue is the main cause of all negative outcomes",
+            "p6q7": "Mediation was supported for workload and time pressure on procrastination, memory loss, and academic performance, and also for sensitivity to rewards on procrastination and memory loss but not academic performance, while it was not supported for sensitivity to quality on any outcomes",
+            "p6q8": "B",
+            "p6q3": "C",
+            "p6q10": "Memory loss occurs because students rely on GPT instead of engaging in active cognitive effort which reduces mental practice needed for memory retention",
+            "p6q5": "B",
+            "p6q1": "B",
+            "p6q6": "C"
+          },
+          "scores": {
+            "p6q1": true,
+            "p6q3": true,
+            "p6q5": true,
+            "p6q6": true,
+            "p6q8": true
+          }
+        }
+      ],
+      "perQuestionTimeSeconds": {
+        "p6q5": 394,
+        "p6q1": 390,
+        "p6q6": 491,
+        "p6q8": 506,
+        "p6q3": 565
+      },
+      "firstAttemptCorrect": {
+        "p6q1": true,
+        "p6q3": false,
+        "p6q5": true,
+        "p6q6": true,
+        "p6q8": false
+      },
+      "finalAnswers": {
+        "p6q2": "Sensitivity to rewards would either increase ChatGPT usage because students want better grades, or decrease it because they fear penalties, and the results supported the negative relationship since students avoided using it due to risk of losing marks",
+        "p6q9": "The authors recommend that educators reduce workload and eliminate deadlines entirely so students stop using ChatGPT which they argue is the main cause of all negative outcomes",
+        "p6q7": "Mediation was supported for workload and time pressure on procrastination, memory loss, and academic performance, and also for sensitivity to rewards on procrastination and memory loss but not academic performance, while it was not supported for sensitivity to quality on any outcomes",
+        "p6q8": "B",
+        "p6q3": "C",
+        "p6q10": "Memory loss occurs because students rely on GPT instead of engaging in active cognitive effort which reduces mental practice needed for memory retention",
+        "p6q5": "B",
+        "p6q1": "B",
+        "p6q6": "C"
+      }
+    }
+  ],
+  "questionnaireResponses": [
+    {
+      "paperKey": "paper5",
+      "submittedAt": "2026-04-14T23:43:40.311Z",
+      "responses": {
+        "p5diff1": 4,
+        "p5diff2": 4,
+        "p5diff3": 4,
+        "p5diff4": 3,
+        "p5diff5": 3,
+        "p5diff6": 3,
+        "p5diff7": 4,
+        "p5diff8": 3,
+        "p5diff9": 4,
+        "p5diff10": 4,
+        "p5ease": 4
+      }
+    },
+    {
+      "paperKey": "paper4",
+      "submittedAt": "2026-04-14T23:52:16.401Z",
+      "responses": {
+        "p4diff1": 4,
+        "p4diff2": 3,
+        "p4diff3": 3,
+        "p4diff4": 3,
+        "p4diff5": 3,
+        "p4diff6": 3,
+        "p4diff7": 4,
+        "p4diff8": 3,
+        "p4diff9": 4,
+        "p4diff10": 3,
+        "p4ease": 4
+      }
+    },
+    {
+      "paperKey": "paper6",
+      "submittedAt": "2026-04-15T00:02:22.826Z",
+      "responses": {
+        "p6diff1": 4,
+        "p6diff2": 3,
+        "p6diff3": 3,
+        "p6diff4": 3,
+        "p6diff5": 3,
+        "p6diff6": 3,
+        "p6diff7": 4,
+        "p6diff8": 4,
+        "p6diff9": 4,
+        "p6diff10": 3,
+        "p6ease": 5,
+        "p6comments": "Question about dropping items was too hard. Felt I had inadequate time or ability to answer the question at all."
+      }
+    }
+  ],
+  "finalResponses": {
+    "fq_helpful_highlighted_sentences": 3,
+    "fq_confidence_understanding": 3,
+    "fq_identify_important_info": 4,
+    "fq_repeated_known_info": 4,
+    "fq_missing_important_info": 4,
+    "fq_trust_highlights_key_ideas": 4,
+    "fq_new_vs_repeated": 2,
+    "fq_focus_novel_important_content": 3,
+    "fq_use_in_workflow": 4,
+    "fq_like_most_least": "Unsure how I was expected to know whats considerd new or repeated information from the highlights alone",
+    "fq_missing_confusing_unnecessary": "some of the questions were easy whereas other required a lot more thinking. Felt difficulty wasn't adequately balanced."
+  },
+  "crossAttempts": [
+    {
+      "submittedAt": "2026-04-15T00:05:36.719Z",
+      "answers": {
+        "cpq1": "D",
+        "cpq2": "People tend to put in less mental effort when using AI, because the system quickly provides answers and reduces the need for active thinking or problem solving.",
+        "cpq3": "B",
+        "cpq4": "Paper about university students talked about how lower effort can harm memory, since relying on AI instead of actively engaging with the material reduces cognitive practice and leads to weaker retention over time.",
+        "cpq5": "D",
+        "cpq6": "depends on their available time? Eg. if they have an output but no time to eval they may just blindly accept th eoutcomes.",
+        "cpq7": "B",
+        "cpq8": "could be force of habit or just laziness.",
+        "cpq9": "C",
+        "cpq10": "AI can improve performance by helping people complete tasks faster and increasing accuracy, but it also creates risks because reduced effort and high reliance can lead to less critical thinking and weaker verification of outputs, which can harm outcomes over time."
+      },
+      "scores": {
+        "cpq1": false,
+        "cpq3": false,
+        "cpq5": false,
+        "cpq7": true,
+        "cpq9": true
+      }
+    },
+    {
+      "submittedAt": "2026-04-15T00:05:49.096Z",
+      "answers": {
+        "cpq1": "B",
+        "cpq2": "People tend to put in less mental effort when using AI, because the system quickly provides answers and reduces the need for active thinking or problem solving.",
+        "cpq3": "D",
+        "cpq4": "Paper about university students talked about how lower effort can harm memory, since relying on AI instead of actively engaging with the material reduces cognitive practice and leads to weaker retention over time.",
+        "cpq5": "B",
+        "cpq6": "depends on their available time? Eg. if they have an output but no time to eval they may just blindly accept th eoutcomes.",
+        "cpq7": "B",
+        "cpq8": "could be force of habit or just laziness.",
+        "cpq9": "C",
+        "cpq10": "AI can improve performance by helping people complete tasks faster and increasing accuracy, but it also creates risks because reduced effort and high reliance can lead to less critical thinking and weaker verification of outputs, which can harm outcomes over time."
+      },
+      "scores": {
+        "cpq1": true,
+        "cpq3": false,
+        "cpq5": true,
+        "cpq7": true,
+        "cpq9": true
+      }
+    },
+    {
+      "submittedAt": "2026-04-15T00:05:53.857Z",
+      "answers": {
+        "cpq1": "B",
+        "cpq2": "People tend to put in less mental effort when using AI, because the system quickly provides answers and reduces the need for active thinking or problem solving.",
+        "cpq3": "C",
+        "cpq4": "Paper about university students talked about how lower effort can harm memory, since relying on AI instead of actively engaging with the material reduces cognitive practice and leads to weaker retention over time.",
+        "cpq5": "B",
+        "cpq6": "depends on their available time? Eg. if they have an output but no time to eval they may just blindly accept th eoutcomes.",
+        "cpq7": "B",
+        "cpq8": "could be force of habit or just laziness.",
+        "cpq9": "C",
+        "cpq10": "AI can improve performance by helping people complete tasks faster and increasing accuracy, but it also creates risks because reduced effort and high reliance can lead to less critical thinking and weaker verification of outputs, which can harm outcomes over time."
+      },
+      "scores": {
+        "cpq1": true,
+        "cpq3": true,
+        "cpq5": true,
+        "cpq7": true,
+        "cpq9": true
+      }
+    }
+  ],
+  "completedAt": "2026-04-15T00:07:20.335Z",
+  "questionOrders": {
+    "paper5": [
+      "p5q3",
+      "p5q7",
+      "p5q9",
+      "p5q8",
+      "p5q1",
+      "p5q2",
+      "p5q10",
+      "p5q4",
+      "p5q5",
+      "p5q6"
+    ],
+    "paper4": [
+      "p4q10",
+      "p4q6",
+      "p4q2",
+      "p4q7",
+      "p4q5",
+      "p4q4",
+      "p4q8",
+      "p4q1",
+      "p4q9",
+      "p4q3"
+    ],
+    "paper6": [
+      "p6q2",
+      "p6q9",
+      "p6q7",
+      "p6q8",
+      "p6q3",
+      "p6q10",
+      "p6q5",
+      "p6q1",
+      "p6q6",
+      "p6q4"
+    ]
+  },
+  "optionOrders": {
+    "paper5": {
+      "p5q1": [
+        "C",
+        "B",
+        "D",
+        "A"
+      ],
+      "p5q3": [
+        "D",
+        "C",
+        "A",
+        "B"
+      ],
+      "p5q5": [
+        "B",
+        "C",
+        "A",
+        "D"
+      ],
+      "p5q6": [
+        "A",
+        "C",
+        "B",
+        "D"
+      ],
+      "p5q8": [
+        "C",
+        "A",
+        "B",
+        "D"
+      ]
+    },
+    "paper4": {
+      "p4q1": [
+        "D",
+        "B",
+        "C",
+        "A"
+      ],
+      "p4q3": [
+        "B",
+        "A",
+        "D",
+        "C"
+      ],
+      "p4q5": [
+        "C",
+        "B",
+        "D",
+        "A"
+      ],
+      "p4q7": [
+        "C",
+        "A",
+        "B",
+        "D"
+      ],
+      "p4q9": [
+        "D",
+        "A",
+        "C",
+        "B"
+      ]
+    },
+    "paper6": {
+      "p6q1": [
+        "D",
+        "C",
+        "A",
+        "B"
+      ],
+      "p6q3": [
+        "D",
+        "B",
+        "A",
+        "C"
+      ],
+      "p6q5": [
+        "A",
+        "C",
+        "B",
+        "D"
+      ],
+      "p6q6": [
+        "B",
+        "D",
+        "C",
+        "A"
+      ],
+      "p6q8": [
+        "C",
+        "D",
+        "B",
+        "A"
+      ]
+    }
+  },
+  "crossFinalAnswers": {
+    "cpq1": "B",
+    "cpq2": "People tend to put in less mental effort when using AI, because the system quickly provides answers and reduces the need for active thinking or problem solving.",
+    "cpq3": "C",
+    "cpq4": "Paper about university students talked about how lower effort can harm memory, since relying on AI instead of actively engaging with the material reduces cognitive practice and leads to weaker retention over time.",
+    "cpq5": "B",
+    "cpq6": "depends on their available time? Eg. if they have an output but no time to eval they may just blindly accept th eoutcomes.",
+    "cpq7": "B",
+    "cpq8": "could be force of habit or just laziness.",
+    "cpq9": "C",
+    "cpq10": "AI can improve performance by helping people complete tasks faster and increasing accuracy, but it also creates risks because reduced effort and high reliance can lead to less critical thinking and weaker verification of outputs, which can harm outcomes over time."
+  }
+}

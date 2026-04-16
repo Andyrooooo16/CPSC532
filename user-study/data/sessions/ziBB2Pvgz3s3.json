@@ -1,0 +1,503 @@
+{
+  "sessionId": "ziBB2Pvgz3s3",
+  "participantId": "P09",
+  "paperOrder": [
+    "paper5",
+    "paper4",
+    "paper6"
+  ],
+  "conditions": [
+    "all_highlights",
+    "no_highlights",
+    "contextual_highlights"
+  ],
+  "createdAt": "2026-04-16T07:06:33.750Z",
+  "step": "done",
+  "demographicResponses": {
+    "age": "A",
+    "role": "E",
+    "field": "AI/ML",
+    "reading_freq": "C",
+    "reading_style": "B"
+  },
+  "tasks": [
+    {
+      "paperKey": "paper5",
+      "condition": "all_highlights",
+      "priorPapers": [],
+      "startedAt": "2026-04-16T07:08:04.112Z",
+      "completedAt": "2026-04-16T07:09:45.812Z",
+      "attempts": [
+        {
+          "submittedAt": "2026-04-16T07:09:40.258Z",
+          "answers": {
+            "p5q6": "A",
+            "p5q8": "B",
+            "p5q3": "D",
+            "p5q1": "B",
+            "p5q5": "B",
+            "p5q7": "XAI either makes people trust AI more OR helps them trust right amount. Found more proof it just makes blind trust.",
+            "p5q10": "Worry explanations trick people into trusting bad AI. Because they found explanations mostly increase blind following.",
+            "p5q4": "Tables: XAI no help. Text: XAI big help. Text easier for people brains than number tables.",
+            "p5q9": "There was a study or two that showed confidence scores make less AI following. There was another one which said that explanations make more AI following even when wrong.",
+            "p5q2": "Compares XAI vs people alone (XAI better) and XAI vs AI alone (same). Can't say explanations really help extra."
+          },
+          "scores": {
+            "p5q1": true,
+            "p5q3": true,
+            "p5q5": true,
+            "p5q6": false,
+            "p5q8": false
+          }
+        },
+        {
+          "submittedAt": "2026-04-16T07:09:45.807Z",
+          "answers": {
+            "p5q6": "B",
+            "p5q8": "C",
+            "p5q3": "D",
+            "p5q1": "B",
+            "p5q5": "B",
+            "p5q7": "XAI either makes people trust AI more OR helps them trust right amount. Found more proof it just makes blind trust.",
+            "p5q10": "Worry explanations trick people into trusting bad AI. Because they found explanations mostly increase blind following.",
+            "p5q4": "Tables: XAI no help. Text: XAI big help. Text easier for people brains than number tables.",
+            "p5q9": "There was a study or two that showed confidence scores make less AI following. There was another one which said that explanations make more AI following even when wrong.",
+            "p5q2": "Compares XAI vs people alone (XAI better) and XAI vs AI alone (same). Can't say explanations really help extra."
+          },
+          "scores": {
+            "p5q1": true,
+            "p5q3": true,
+            "p5q5": true,
+            "p5q6": true,
+            "p5q8": true
+          }
+        }
+      ],
+      "perQuestionTimeSeconds": {
+        "p5q3": 23,
+        "p5q1": 36,
+        "p5q5": 35,
+        "p5q6": 99,
+        "p5q8": 101
+      },
+      "firstAttemptCorrect": {
+        "p5q1": true,
+        "p5q3": true,
+        "p5q5": true,
+        "p5q6": false,
+        "p5q8": false
+      },
+      "finalAnswers": {
+        "p5q6": "B",
+        "p5q8": "C",
+        "p5q3": "D",
+        "p5q1": "B",
+        "p5q5": "B",
+        "p5q7": "XAI either makes people trust AI more OR helps them trust right amount. Found more proof it just makes blind trust.",
+        "p5q10": "Worry explanations trick people into trusting bad AI. Because they found explanations mostly increase blind following.",
+        "p5q4": "Tables: XAI no help. Text: XAI big help. Text easier for people brains than number tables.",
+        "p5q9": "There was a study or two that showed confidence scores make less AI following. There was another one which said that explanations make more AI following even when wrong.",
+        "p5q2": "Compares XAI vs people alone (XAI better) and XAI vs AI alone (same). Can't say explanations really help extra."
+      }
+    },
+    {
+      "paperKey": "paper4",
+      "condition": "no_highlights",
+      "priorPapers": [],
+      "startedAt": "2026-04-16T07:09:59.795Z",
+      "completedAt": "2026-04-16T07:12:24.873Z",
+      "attempts": [
+        {
+          "submittedAt": "2026-04-16T07:12:16.808Z",
+          "answers": {
+            "p4q6": "People want to think hard about AI but can't always do it. Breaks down when they want good work but don't know how to check AI or have no time.",
+            "p4q10": "Stewardship means humans guide AI but own the final work. Humans still responsible, not sharing blame with AI.",
+            "p4q5": "B",
+            "p4q9": "D",
+            "p4q8": "Can't understand the topic good, can't fix AI bad answers, no time. Most people said checking AI answers was hardest.",
+            "p4q7": "C",
+            "p4q3": "D",
+            "p4q4": "Less work making stuff, more work judging what AI made. Now people just watch over AI like bosses.",
+            "p4q2": "RQ1 is when do people think critically with AI. RQ2 is when does AI make thinking easier/harder. One is about doing it, other about effort.",
+            "p4q1": "C"
+          },
+          "scores": {
+            "p4q1": true,
+            "p4q3": false,
+            "p4q5": true,
+            "p4q7": false,
+            "p4q9": true
+          }
+        },
+        {
+          "submittedAt": "2026-04-16T07:12:24.870Z",
+          "answers": {
+            "p4q6": "People want to think hard about AI but can't always do it. Breaks down when they want good work but don't know how to check AI or have no time.",
+            "p4q10": "Stewardship means humans guide AI but own the final work. Humans still responsible, not sharing blame with AI.",
+            "p4q5": "B",
+            "p4q9": "D",
+            "p4q8": "Can't understand the topic good, can't fix AI bad answers, no time. Most people said checking AI answers was hardest.",
+            "p4q7": "B",
+            "p4q3": "C",
+            "p4q4": "Less work making stuff, more work judging what AI made. Now people just watch over AI like bosses.",
+            "p4q2": "RQ1 is when do people think critically with AI. RQ2 is when does AI make thinking easier/harder. One is about doing it, other about effort.",
+            "p4q1": "C"
+          },
+          "scores": {
+            "p4q1": true,
+            "p4q3": true,
+            "p4q5": true,
+            "p4q7": true,
+            "p4q9": true
+          }
+        }
+      ],
+      "perQuestionTimeSeconds": {
+        "p4q5": 81,
+        "p4q9": 83,
+        "p4q1": 131,
+        "p4q7": 143,
+        "p4q3": 141
+      },
+      "firstAttemptCorrect": {
+        "p4q1": true,
+        "p4q3": false,
+        "p4q5": true,
+        "p4q7": false,
+        "p4q9": true
+      },
+      "finalAnswers": {
+        "p4q6": "People want to think hard about AI but can't always do it. Breaks down when they want good work but don't know how to check AI or have no time.",
+        "p4q10": "Stewardship means humans guide AI but own the final work. Humans still responsible, not sharing blame with AI.",
+        "p4q5": "B",
+        "p4q9": "D",
+        "p4q8": "Can't understand the topic good, can't fix AI bad answers, no time. Most people said checking AI answers was hardest.",
+        "p4q7": "B",
+        "p4q3": "C",
+        "p4q4": "Less work making stuff, more work judging what AI made. Now people just watch over AI like bosses.",
+        "p4q2": "RQ1 is when do people think critically with AI. RQ2 is when does AI make thinking easier/harder. One is about doing it, other about effort.",
+        "p4q1": "C"
+      }
+    },
+    {
+      "paperKey": "paper6",
+      "condition": "contextual_highlights",
+      "priorPapers": [],
+      "startedAt": "2026-04-16T07:12:54.062Z",
+      "completedAt": "2026-04-16T07:17:04.342Z",
+      "attempts": [
+        {
+          "submittedAt": "2026-04-16T07:16:54.646Z",
+          "answers": {
+            "p6q5": "B",
+            "p6q9": "Teachers should give less work and more time since pressure makes kids use ChatGPT. Also teach them to use it as help, not to cheat.",
+            "p6q8": "C",
+            "p6q2": "Two ideas: kids who care about grades might use ChatGPT more OR less. Less won because they're scared of getting caught.",
+            "p6q1": "D",
+            "p6q10": "Too much ChatGPT makes students lazy with their brains so they forget stuff. They don't think hard enough to remember things.",
+            "p6q4": "Started 12 questions, experts said 10 were good. Then math test dropped 2 bad ones (4 and 9). Left with 8 okay ones.",
+            "p6q6": "B",
+            "p6q3": "D",
+            "p6q7": "Workload and time pressure went through ChatGPT to cause procrastination, bad memory, and worse grades. Worry about grades only affected procrastination and memory."
+          },
+          "scores": {
+            "p6q1": false,
+            "p6q3": false,
+            "p6q5": true,
+            "p6q6": false,
+            "p6q8": false
+          }
+        },
+        {
+          "submittedAt": "2026-04-16T07:17:04.339Z",
+          "answers": {
+            "p6q5": "B",
+            "p6q9": "Teachers should give less work and more time since pressure makes kids use ChatGPT. Also teach them to use it as help, not to cheat.",
+            "p6q8": "B",
+            "p6q2": "Two ideas: kids who care about grades might use ChatGPT more OR less. Less won because they're scared of getting caught.",
+            "p6q1": "B",
+            "p6q10": "Too much ChatGPT makes students lazy with their brains so they forget stuff. They don't think hard enough to remember things.",
+            "p6q4": "Started 12 questions, experts said 10 were good. Then math test dropped 2 bad ones (4 and 9). Left with 8 okay ones.",
+            "p6q6": "C",
+            "p6q3": "C",
+            "p6q7": "Workload and time pressure went through ChatGPT to cause procrastination, bad memory, and worse grades. Worry about grades only affected procrastination and memory."
+          },
+          "scores": {
+            "p6q1": true,
+            "p6q3": true,
+            "p6q5": true,
+            "p6q6": true,
+            "p6q8": true
+          }
+        }
+      ],
+      "perQuestionTimeSeconds": {
+        "p6q5": 3,
+        "p6q8": 249,
+        "p6q1": 247,
+        "p6q6": 244,
+        "p6q3": 243
+      },
+      "firstAttemptCorrect": {
+        "p6q1": false,
+        "p6q3": false,
+        "p6q5": true,
+        "p6q6": false,
+        "p6q8": false
+      },
+      "finalAnswers": {
+        "p6q5": "B",
+        "p6q9": "Teachers should give less work and more time since pressure makes kids use ChatGPT. Also teach them to use it as help, not to cheat.",
+        "p6q8": "B",
+        "p6q2": "Two ideas: kids who care about grades might use ChatGPT more OR less. Less won because they're scared of getting caught.",
+        "p6q1": "B",
+        "p6q10": "Too much ChatGPT makes students lazy with their brains so they forget stuff. They don't think hard enough to remember things.",
+        "p6q4": "Started 12 questions, experts said 10 were good. Then math test dropped 2 bad ones (4 and 9). Left with 8 okay ones.",
+        "p6q6": "C",
+        "p6q3": "C",
+        "p6q7": "Workload and time pressure went through ChatGPT to cause procrastination, bad memory, and worse grades. Worry about grades only affected procrastination and memory."
+      }
+    }
+  ],
+  "questionnaireResponses": [
+    {
+      "paperKey": "paper5",
+      "submittedAt": "2026-04-16T07:09:58.040Z",
+      "responses": {
+        "p5diff1": 3,
+        "p5diff2": 4,
+        "p5diff3": 4,
+        "p5diff4": 3,
+        "p5diff5": 3,
+        "p5diff6": 3,
+        "p5diff7": 3,
+        "p5diff8": 4,
+        "p5diff9": 3,
+        "p5diff10": 3,
+        "p5ease": 3
+      }
+    },
+    {
+      "paperKey": "paper4",
+      "submittedAt": "2026-04-16T07:12:51.908Z",
+      "responses": {
+        "p4diff1": 4,
+        "p4diff2": 4,
+        "p4diff3": 4,
+        "p4diff4": 3,
+        "p4diff5": 4,
+        "p4diff6": 4,
+        "p4diff7": 3,
+        "p4diff8": 3,
+        "p4diff9": 3,
+        "p4diff10": 3,
+        "p4ease": 3,
+        "p4comments": "took a couple times to guess and check mc answers until they were marked right"
+      }
+    },
+    {
+      "paperKey": "paper6",
+      "submittedAt": "2026-04-16T07:17:24.826Z",
+      "responses": {
+        "p6diff1": 4,
+        "p6diff2": 3,
+        "p6diff3": 3,
+        "p6diff4": 4,
+        "p6diff5": 3,
+        "p6diff6": 3,
+        "p6diff7": 3,
+        "p6diff8": 3,
+        "p6diff9": 3,
+        "p6diff10": 3,
+        "p6ease": 3,
+        "p6comments": "Spent a lot of time reading, had to rush the answers"
+      }
+    }
+  ],
+  "finalResponses": {
+    "fq_helpful_highlighted_sentences": 4,
+    "fq_confidence_understanding": 3,
+    "fq_identify_important_info": 3,
+    "fq_repeated_known_info": 3,
+    "fq_missing_important_info": 2,
+    "fq_trust_highlights_key_ideas": 4,
+    "fq_new_vs_repeated": 4,
+    "fq_focus_novel_important_content": 3,
+    "fq_use_in_workflow": 4,
+    "fq_like_most_least": "I think highlights were in general helpful",
+    "fq_missing_confusing_unnecessary": "I didn't do time mangement very well which caused a couple sessions to feel rushed"
+  },
+  "crossAttempts": [
+    {
+      "submittedAt": "2026-04-16T07:21:51.327Z",
+      "answers": {
+        "cpq1": "B",
+        "cpq2": "Less effort doing work, more effort checking AI. AI does fast first draft so people just review.",
+        "cpq3": "C",
+        "cpq4": "Students use ChatGPT when busy,  put off work + forget stuff. Skip real learning for easy answers.",
+        "cpq5": "B",
+        "cpq6": "Trust in AI. if someone trust it lots, don't check it. IF someone trusts themselves more = check it.",
+        "cpq7": "B",
+        "cpq8": "Busy schoolwork makes ChatGPT shortcut tempting. Paper shows pressure directly causes more use.",
+        "cpq9": "C",
+        "cpq10": "AI helps scores (XAI/students) but people check less + trust blind + lose memory skills."
+      },
+      "scores": {
+        "cpq1": true,
+        "cpq3": true,
+        "cpq5": true,
+        "cpq7": true,
+        "cpq9": true
+      }
+    }
+  ],
+  "completedAt": "2026-04-16T07:22:28.380Z",
+  "questionOrders": {
+    "paper5": [
+      "p5q6",
+      "p5q8",
+      "p5q3",
+      "p5q1",
+      "p5q5",
+      "p5q7",
+      "p5q10",
+      "p5q4",
+      "p5q9",
+      "p5q2"
+    ],
+    "paper4": [
+      "p4q6",
+      "p4q10",
+      "p4q5",
+      "p4q9",
+      "p4q8",
+      "p4q7",
+      "p4q3",
+      "p4q4",
+      "p4q2",
+      "p4q1"
+    ],
+    "paper6": [
+      "p6q5",
+      "p6q9",
+      "p6q8",
+      "p6q2",
+      "p6q1",
+      "p6q10",
+      "p6q4",
+      "p6q6",
+      "p6q3",
+      "p6q7"
+    ]
+  },
+  "optionOrders": {
+    "paper5": {
+      "p5q1": [
+        "A",
+        "C",
+        "B",
+        "D"
+      ],
+      "p5q3": [
+        "C",
+        "D",
+        "A",
+        "B"
+      ],
+      "p5q5": [
+        "C",
+        "B",
+        "A",
+        "D"
+      ],
+      "p5q6": [
+        "D",
+        "C",
+        "A",
+        "B"
+      ],
+      "p5q8": [
+        "A",
+        "D",
+        "B",
+        "C"
+      ]
+    },
+    "paper4": {
+      "p4q1": [
+        "A",
+        "D",
+        "C",
+        "B"
+      ],
+      "p4q3": [
+        "B",
+        "C",
+        "D",
+        "A"
+      ],
+      "p4q5": [
+        "D",
+        "C",
+        "A",
+        "B"
+      ],
+      "p4q7": [
+        "B",
+        "C",
+        "D",
+        "A"
+      ],
+      "p4q9": [
+        "C",
+        "D",
+        "B",
+        "A"
+      ]
+    },
+    "paper6": {
+      "p6q1": [
+        "A",
+        "D",
+        "C",
+        "B"
+      ],
+      "p6q3": [
+        "A",
+        "B",
+        "D",
+        "C"
+      ],
+      "p6q5": [
+        "C",
+        "B",
+        "D",
+        "A"
+      ],
+      "p6q6": [
+        "A",
+        "B",
+        "D",
+        "C"
+      ],
+      "p6q8": [
+        "D",
+        "C",
+        "B",
+        "A"
+      ]
+    }
+  },
+  "crossFinalAnswers": {
+    "cpq1": "B",
+    "cpq2": "Less effort doing work, more effort checking AI. AI does fast first draft so people just review.",
+    "cpq3": "C",
+    "cpq4": "Students use ChatGPT when busy,  put off work + forget stuff. Skip real learning for easy answers.",
+    "cpq5": "B",
+    "cpq6": "Trust in AI. if someone trust it lots, don't check it. IF someone trusts themselves more = check it.",
+    "cpq7": "B",
+    "cpq8": "Busy schoolwork makes ChatGPT shortcut tempting. Paper shows pressure directly causes more use.",
+    "cpq9": "C",
+    "cpq10": "AI helps scores (XAI/students) but people check less + trust blind + lose memory skills."
+  }
+}

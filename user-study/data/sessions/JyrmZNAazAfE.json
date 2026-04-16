@@ -1,0 +1,548 @@
+{
+  "sessionId": "JyrmZNAazAfE",
+  "participantId": "P17",
+  "paperOrder": [
+    "paper6",
+    "paper4",
+    "paper5"
+  ],
+  "conditions": [
+    "no_highlights",
+    "all_highlights",
+    "contextual_highlights"
+  ],
+  "createdAt": "2026-04-16T00:26:26.312Z",
+  "step": "done",
+  "demographicResponses": {
+    "age": "B",
+    "role": "B",
+    "field": "Computer Science",
+    "reading_freq": "C",
+    "reading_style": "B"
+  },
+  "tasks": [
+    {
+      "paperKey": "paper6",
+      "condition": "no_highlights",
+      "priorPapers": [],
+      "startedAt": "2026-04-16T00:26:43.048Z",
+      "completedAt": "2026-04-16T00:30:39.301Z",
+      "attempts": [
+        {
+          "submittedAt": "2026-04-16T00:30:20.718Z",
+          "answers": {
+            "p6q7": "ChatGPT usage was found to bridge the gap between heavy workloads and outcomes like poor academic performance",
+            "p6q9": "Reduce workload for students with realistic timelines",
+            "p6q2": "One theory was that reward-seekers use AI for higher grades, while the other said they avoid it to prevent academic penalties. The results showed that the fear of penalties was stronger, leading to lower AI usage among reward sensitive students.",
+            "p6q5": "C",
+            "p6q10": "There is a suggestion that Chat leads to cognitive offloading, where students reduce the mental effort needed for tasks and weaken their memory retention.",
+            "p6q6": "C",
+            "p6q3": "A",
+            "p6q8": "C",
+            "p6q4": "The initial scale of 12 items was reduced to 8 after exploratory factor analysis showed that four items had weak statistical relevance.",
+            "p6q1": "D"
+          },
+          "scores": {
+            "p6q1": false,
+            "p6q3": false,
+            "p6q5": false,
+            "p6q6": true,
+            "p6q8": false
+          }
+        },
+        {
+          "submittedAt": "2026-04-16T00:30:31.538Z",
+          "answers": {
+            "p6q7": "ChatGPT usage was found to bridge the gap between heavy workloads and outcomes like poor academic performance",
+            "p6q9": "Reduce workload for students with realistic timelines",
+            "p6q2": "One theory was that reward-seekers use AI for higher grades, while the other said they avoid it to prevent academic penalties. The results showed that the fear of penalties was stronger, leading to lower AI usage among reward sensitive students.",
+            "p6q5": "B",
+            "p6q10": "There is a suggestion that Chat leads to cognitive offloading, where students reduce the mental effort needed for tasks and weaken their memory retention.",
+            "p6q6": "C",
+            "p6q3": "B",
+            "p6q8": "B",
+            "p6q4": "The initial scale of 12 items was reduced to 8 after exploratory factor analysis showed that four items had weak statistical relevance.",
+            "p6q1": "B"
+          },
+          "scores": {
+            "p6q1": true,
+            "p6q3": false,
+            "p6q5": true,
+            "p6q6": true,
+            "p6q8": true
+          }
+        },
+        {
+          "submittedAt": "2026-04-16T00:30:39.299Z",
+          "answers": {
+            "p6q7": "ChatGPT usage was found to bridge the gap between heavy workloads and outcomes like poor academic performance",
+            "p6q9": "Reduce workload for students with realistic timelines",
+            "p6q2": "One theory was that reward-seekers use AI for higher grades, while the other said they avoid it to prevent academic penalties. The results showed that the fear of penalties was stronger, leading to lower AI usage among reward sensitive students.",
+            "p6q5": "B",
+            "p6q10": "There is a suggestion that Chat leads to cognitive offloading, where students reduce the mental effort needed for tasks and weaken their memory retention.",
+            "p6q6": "C",
+            "p6q3": "C",
+            "p6q8": "B",
+            "p6q4": "The initial scale of 12 items was reduced to 8 after exploratory factor analysis showed that four items had weak statistical relevance.",
+            "p6q1": "B"
+          },
+          "scores": {
+            "p6q1": true,
+            "p6q3": true,
+            "p6q5": true,
+            "p6q6": true,
+            "p6q8": true
+          }
+        }
+      ],
+      "perQuestionTimeSeconds": {
+        "p6q6": 214,
+        "p6q5": 219,
+        "p6q8": 224,
+        "p6q1": 228,
+        "p6q3": 235
+      },
+      "firstAttemptCorrect": {
+        "p6q1": false,
+        "p6q3": false,
+        "p6q5": false,
+        "p6q6": true,
+        "p6q8": false
+      },
+      "finalAnswers": {
+        "p6q7": "ChatGPT usage was found to bridge the gap between heavy workloads and outcomes like poor academic performance",
+        "p6q9": "Reduce workload for students with realistic timelines",
+        "p6q2": "One theory was that reward-seekers use AI for higher grades, while the other said they avoid it to prevent academic penalties. The results showed that the fear of penalties was stronger, leading to lower AI usage among reward sensitive students.",
+        "p6q5": "B",
+        "p6q10": "There is a suggestion that Chat leads to cognitive offloading, where students reduce the mental effort needed for tasks and weaken their memory retention.",
+        "p6q6": "C",
+        "p6q3": "C",
+        "p6q8": "B",
+        "p6q4": "The initial scale of 12 items was reduced to 8 after exploratory factor analysis showed that four items had weak statistical relevance.",
+        "p6q1": "B"
+      }
+    },
+    {
+      "paperKey": "paper4",
+      "condition": "all_highlights",
+      "priorPapers": [],
+      "startedAt": "2026-04-16T00:31:11.624Z",
+      "completedAt": "2026-04-16T00:38:52.269Z",
+      "attempts": [
+        {
+          "submittedAt": "2026-04-16T00:38:45.205Z",
+          "answers": {
+            "p4q3": "B",
+            "p4q8": "These barriers include difficulties in steering AI responses and verifying technical accuracy. The largest group of participants reported that they struggled most with the cognitive burden of fact checking and cross referencing AI outputs against reliable sources.",
+            "p4q6": "The paper suggests that high motivation can overcome technical barriers if the worker has enough time to experiment with the AI. Critical thinking usually fails when workers are highly skilled but feel the task is too boring to warrant any extra effort.",
+            "p4q10": "The authors use this term because it implies the worker is a responsible guardian of the final output rather than just a collaborator. It reinforces that ultimate accountability for the accuracy and ethical implications of the work rests entirely with the human user.",
+            "p4q7": "B",
+            "p4q1": "C",
+            "p4q2": "RQ1 investigates how GenAI tools change the amount of cognitive effort workers feel they are exerting. RQ2 looks at how these tools impact the worker's actual performance and speed when completing complex professional tasks.",
+            "p4q5": "B",
+            "p4q4": "Workers reported that GenAI significantly reduces the effort required for lower level tasks like gathering and summarizing information. This shift allows knowledge workers to focus more on high-level evaluation and the integration of AI content into larger projects.",
+            "p4q9": "D"
+          },
+          "scores": {
+            "p4q1": true,
+            "p4q3": false,
+            "p4q5": true,
+            "p4q7": true,
+            "p4q9": true
+          }
+        },
+        {
+          "submittedAt": "2026-04-16T00:38:52.265Z",
+          "answers": {
+            "p4q3": "C",
+            "p4q8": "These barriers include difficulties in steering AI responses and verifying technical accuracy. The largest group of participants reported that they struggled most with the cognitive burden of fact checking and cross referencing AI outputs against reliable sources.",
+            "p4q6": "The paper suggests that high motivation can overcome technical barriers if the worker has enough time to experiment with the AI. Critical thinking usually fails when workers are highly skilled but feel the task is too boring to warrant any extra effort.",
+            "p4q10": "The authors use this term because it implies the worker is a responsible guardian of the final output rather than just a collaborator. It reinforces that ultimate accountability for the accuracy and ethical implications of the work rests entirely with the human user.",
+            "p4q7": "B",
+            "p4q1": "C",
+            "p4q2": "RQ1 investigates how GenAI tools change the amount of cognitive effort workers feel they are exerting. RQ2 looks at how these tools impact the worker's actual performance and speed when completing complex professional tasks.",
+            "p4q5": "B",
+            "p4q4": "Workers reported that GenAI significantly reduces the effort required for lower level tasks like gathering and summarizing information. This shift allows knowledge workers to focus more on high-level evaluation and the integration of AI content into larger projects.",
+            "p4q9": "D"
+          },
+          "scores": {
+            "p4q1": true,
+            "p4q3": true,
+            "p4q5": true,
+            "p4q7": true,
+            "p4q9": true
+          }
+        }
+      ],
+      "perQuestionTimeSeconds": {
+        "p4q7": 143,
+        "p4q1": 144,
+        "p4q5": 152,
+        "p4q9": 453,
+        "p4q3": 459
+      },
+      "firstAttemptCorrect": {
+        "p4q1": true,
+        "p4q3": false,
+        "p4q5": true,
+        "p4q7": true,
+        "p4q9": true
+      },
+      "finalAnswers": {
+        "p4q3": "C",
+        "p4q8": "These barriers include difficulties in steering AI responses and verifying technical accuracy. The largest group of participants reported that they struggled most with the cognitive burden of fact checking and cross referencing AI outputs against reliable sources.",
+        "p4q6": "The paper suggests that high motivation can overcome technical barriers if the worker has enough time to experiment with the AI. Critical thinking usually fails when workers are highly skilled but feel the task is too boring to warrant any extra effort.",
+        "p4q10": "The authors use this term because it implies the worker is a responsible guardian of the final output rather than just a collaborator. It reinforces that ultimate accountability for the accuracy and ethical implications of the work rests entirely with the human user.",
+        "p4q7": "B",
+        "p4q1": "C",
+        "p4q2": "RQ1 investigates how GenAI tools change the amount of cognitive effort workers feel they are exerting. RQ2 looks at how these tools impact the worker's actual performance and speed when completing complex professional tasks.",
+        "p4q5": "B",
+        "p4q4": "Workers reported that GenAI significantly reduces the effort required for lower level tasks like gathering and summarizing information. This shift allows knowledge workers to focus more on high-level evaluation and the integration of AI content into larger projects.",
+        "p4q9": "D"
+      }
+    },
+    {
+      "paperKey": "paper5",
+      "condition": "contextual_highlights",
+      "priorPapers": [],
+      "startedAt": "2026-04-16T00:39:30.398Z",
+      "completedAt": "2026-04-16T00:44:33.907Z",
+      "attempts": [
+        {
+          "submittedAt": "2026-04-16T00:44:23.111Z",
+          "answers": {
+            "p5q6": "B",
+            "p5q8": "A",
+            "p5q7": "The paper outlines two mechanisms through which explainable AI can improve decisions: helping users align their level of trust with the system’s reliability, and offering insights that expand the user’s understanding.",
+            "p5q1": "B",
+            "p5q5": "B",
+            "p5q9": "The review found mixed effects. Explanations sometimes increased trust, but in other cases caused confusion. For example, medical users relied more on explained AI, while legal users often found explanations too complex and ignored them.",
+            "p5q10": "The authors point to a concern around misleading influence, where users may be persuaded by an AI system’s reasoning even when its conclusions are incorrect. This issue arises from evidence showing that explanations tend to increase user acceptance overall, without reliably helping users distinguish between correct and incorrect outputs.",
+            "p5q4": "The subgroup analysis showed that explanations were more effective when applied to text based tasks than to tabular data. The authors attribute this to the more intuitive and conversational nature of text, while numerical tables tend to require greater cognitive effort to interpret, reducing the benefit of added explanations.",
+            "p5q3": "C",
+            "p5q2": "The meta analysis focuses on two main comparisons: AI systems versus human experts, and AI systems with explanations versus those without. It then claims that because human experts achieved perfect accuracy across studies, explanations for AI are unnecessary in professional contexts."
+          },
+          "scores": {
+            "p5q1": true,
+            "p5q3": false,
+            "p5q5": true,
+            "p5q6": true,
+            "p5q8": false
+          }
+        },
+        {
+          "submittedAt": "2026-04-16T00:44:30.322Z",
+          "answers": {
+            "p5q6": "B",
+            "p5q8": "C",
+            "p5q7": "The paper outlines two mechanisms through which explainable AI can improve decisions: helping users align their level of trust with the system’s reliability, and offering insights that expand the user’s understanding.",
+            "p5q1": "B",
+            "p5q5": "B",
+            "p5q9": "The review found mixed effects. Explanations sometimes increased trust, but in other cases caused confusion. For example, medical users relied more on explained AI, while legal users often found explanations too complex and ignored them.",
+            "p5q10": "The authors point to a concern around misleading influence, where users may be persuaded by an AI system’s reasoning even when its conclusions are incorrect. This issue arises from evidence showing that explanations tend to increase user acceptance overall, without reliably helping users distinguish between correct and incorrect outputs.",
+            "p5q4": "The subgroup analysis showed that explanations were more effective when applied to text based tasks than to tabular data. The authors attribute this to the more intuitive and conversational nature of text, while numerical tables tend to require greater cognitive effort to interpret, reducing the benefit of added explanations.",
+            "p5q3": "A",
+            "p5q2": "The meta analysis focuses on two main comparisons: AI systems versus human experts, and AI systems with explanations versus those without. It then claims that because human experts achieved perfect accuracy across studies, explanations for AI are unnecessary in professional contexts."
+          },
+          "scores": {
+            "p5q1": true,
+            "p5q3": false,
+            "p5q5": true,
+            "p5q6": true,
+            "p5q8": true
+          }
+        },
+        {
+          "submittedAt": "2026-04-16T00:44:33.902Z",
+          "answers": {
+            "p5q6": "B",
+            "p5q8": "C",
+            "p5q7": "The paper outlines two mechanisms through which explainable AI can improve decisions: helping users align their level of trust with the system’s reliability, and offering insights that expand the user’s understanding.",
+            "p5q1": "B",
+            "p5q5": "B",
+            "p5q9": "The review found mixed effects. Explanations sometimes increased trust, but in other cases caused confusion. For example, medical users relied more on explained AI, while legal users often found explanations too complex and ignored them.",
+            "p5q10": "The authors point to a concern around misleading influence, where users may be persuaded by an AI system’s reasoning even when its conclusions are incorrect. This issue arises from evidence showing that explanations tend to increase user acceptance overall, without reliably helping users distinguish between correct and incorrect outputs.",
+            "p5q4": "The subgroup analysis showed that explanations were more effective when applied to text based tasks than to tabular data. The authors attribute this to the more intuitive and conversational nature of text, while numerical tables tend to require greater cognitive effort to interpret, reducing the benefit of added explanations.",
+            "p5q3": "D",
+            "p5q2": "The meta analysis focuses on two main comparisons: AI systems versus human experts, and AI systems with explanations versus those without. It then claims that because human experts achieved perfect accuracy across studies, explanations for AI are unnecessary in professional contexts."
+          },
+          "scores": {
+            "p5q1": true,
+            "p5q3": true,
+            "p5q5": true,
+            "p5q6": true,
+            "p5q8": true
+          }
+        }
+      ],
+      "perQuestionTimeSeconds": {
+        "p5q6": 40,
+        "p5q1": 66,
+        "p5q5": 68,
+        "p5q8": 297,
+        "p5q3": 303
+      },
+      "firstAttemptCorrect": {
+        "p5q1": true,
+        "p5q3": false,
+        "p5q5": true,
+        "p5q6": true,
+        "p5q8": false
+      },
+      "finalAnswers": {
+        "p5q6": "B",
+        "p5q8": "C",
+        "p5q7": "The paper outlines two mechanisms through which explainable AI can improve decisions: helping users align their level of trust with the system’s reliability, and offering insights that expand the user’s understanding.",
+        "p5q1": "B",
+        "p5q5": "B",
+        "p5q9": "The review found mixed effects. Explanations sometimes increased trust, but in other cases caused confusion. For example, medical users relied more on explained AI, while legal users often found explanations too complex and ignored them.",
+        "p5q10": "The authors point to a concern around misleading influence, where users may be persuaded by an AI system’s reasoning even when its conclusions are incorrect. This issue arises from evidence showing that explanations tend to increase user acceptance overall, without reliably helping users distinguish between correct and incorrect outputs.",
+        "p5q4": "The subgroup analysis showed that explanations were more effective when applied to text based tasks than to tabular data. The authors attribute this to the more intuitive and conversational nature of text, while numerical tables tend to require greater cognitive effort to interpret, reducing the benefit of added explanations.",
+        "p5q3": "D",
+        "p5q2": "The meta analysis focuses on two main comparisons: AI systems versus human experts, and AI systems with explanations versus those without. It then claims that because human experts achieved perfect accuracy across studies, explanations for AI are unnecessary in professional contexts."
+      }
+    }
+  ],
+  "questionnaireResponses": [
+    {
+      "paperKey": "paper6",
+      "submittedAt": "2026-04-16T00:31:09.260Z",
+      "responses": {
+        "p6diff1": 4,
+        "p6diff2": 4,
+        "p6diff3": 4,
+        "p6diff4": 4,
+        "p6diff5": 4,
+        "p6diff6": 4,
+        "p6diff7": 4,
+        "p6diff8": 4,
+        "p6diff9": 4,
+        "p6diff10": 4,
+        "p6ease": 4,
+        "p6comments": "har dto read and answer in the amount of time for the paper"
+      }
+    },
+    {
+      "paperKey": "paper4",
+      "submittedAt": "2026-04-16T00:39:14.787Z",
+      "responses": {
+        "p4diff1": 3,
+        "p4diff2": 4,
+        "p4diff3": 4,
+        "p4diff4": 4,
+        "p4diff5": 4,
+        "p4diff6": 4,
+        "p4diff7": 4,
+        "p4diff8": 4,
+        "p4diff9": 4,
+        "p4diff10": 4,
+        "p4ease": 4,
+        "p4comments": "Highlights were helpful to find some information in the papers"
+      }
+    },
+    {
+      "paperKey": "paper5",
+      "submittedAt": "2026-04-16T00:44:50.992Z",
+      "responses": {
+        "p5diff1": 3,
+        "p5diff2": 3,
+        "p5diff3": 3,
+        "p5diff4": 3,
+        "p5diff5": 3,
+        "p5diff6": 3,
+        "p5diff7": 3,
+        "p5diff8": 3,
+        "p5diff9": 3,
+        "p5diff10": 3,
+        "p5ease": 3,
+        "p5comments": "Highlights were helpful"
+      }
+    }
+  ],
+  "finalResponses": {
+    "fq_helpful_highlighted_sentences": 4,
+    "fq_confidence_understanding": 4,
+    "fq_identify_important_info": 4,
+    "fq_repeated_known_info": 3,
+    "fq_missing_important_info": 3,
+    "fq_trust_highlights_key_ideas": 4,
+    "fq_new_vs_repeated": 4,
+    "fq_focus_novel_important_content": 4,
+    "fq_use_in_workflow": 5,
+    "fq_like_most_least": "There was a significant difference in how I approached the papers with highlights vs the one without. I didn't have a lot of direction in answering the questions of the paper without highlights. The highlights helped me focus early on what is appeared to be important",
+    "fq_missing_confusing_unnecessary": "Great reading selection :)"
+  },
+  "crossAttempts": [
+    {
+      "submittedAt": "2026-04-16T00:47:57.355Z",
+      "answers": {
+        "cpq1": "B",
+        "cpq2": "Mental energy for gathering data drops, but the effort required to verify and audit the AI's logic increases significantly.",
+        "cpq3": "C",
+        "cpq4": "Lowering effort can lead to cognitive offloading, which reduces a person's long term memory and independent problem solving skills.",
+        "cpq5": "B",
+        "cpq6": "Users often skip verification when they are under heavy time pressure or if they feel the task is too insignificant to matter.",
+        "cpq7": "B",
+        "cpq8": "People trust AI too much because it gives them positive feedback that makes them feel more productive than they actually are.",
+        "cpq9": "C",
+        "cpq10": "AI acts as a scaffold to boost immediate output but creates a risk of deskilling and a loss of critical thinking confidence over time."
+      },
+      "scores": {
+        "cpq1": true,
+        "cpq3": true,
+        "cpq5": true,
+        "cpq7": true,
+        "cpq9": true
+      }
+    }
+  ],
+  "completedAt": "2026-04-16T00:49:04.990Z",
+  "questionOrders": {
+    "paper6": [
+      "p6q7",
+      "p6q9",
+      "p6q2",
+      "p6q5",
+      "p6q10",
+      "p6q6",
+      "p6q3",
+      "p6q8",
+      "p6q4",
+      "p6q1"
+    ],
+    "paper4": [
+      "p4q3",
+      "p4q8",
+      "p4q6",
+      "p4q10",
+      "p4q7",
+      "p4q1",
+      "p4q2",
+      "p4q5",
+      "p4q4",
+      "p4q9"
+    ],
+    "paper5": [
+      "p5q6",
+      "p5q8",
+      "p5q7",
+      "p5q1",
+      "p5q5",
+      "p5q9",
+      "p5q10",
+      "p5q4",
+      "p5q3",
+      "p5q2"
+    ]
+  },
+  "optionOrders": {
+    "paper6": {
+      "p6q1": [
+        "D",
+        "B",
+        "A",
+        "C"
+      ],
+      "p6q3": [
+        "B",
+        "D",
+        "A",
+        "C"
+      ],
+      "p6q5": [
+        "D",
+        "B",
+        "C",
+        "A"
+      ],
+      "p6q6": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "p6q8": [
+        "A",
+        "C",
+        "D",
+        "B"
+      ]
+    },
+    "paper4": {
+      "p4q1": [
+        "D",
+        "A",
+        "B",
+        "C"
+      ],
+      "p4q3": [
+        "A",
+        "B",
+        "D",
+        "C"
+      ],
+      "p4q5": [
+        "A",
+        "C",
+        "B",
+        "D"
+      ],
+      "p4q7": [
+        "C",
+        "B",
+        "D",
+        "A"
+      ],
+      "p4q9": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "paper5": {
+      "p5q1": [
+        "C",
+        "B",
+        "D",
+        "A"
+      ],
+      "p5q3": [
+        "B",
+        "C",
+        "A",
+        "D"
+      ],
+      "p5q5": [
+        "A",
+        "D",
+        "B",
+        "C"
+      ],
+      "p5q6": [
+        "D",
+        "A",
+        "C",
+        "B"
+      ],
+      "p5q8": [
+        "A",
+        "C",
+        "B",
+        "D"
+      ]
+    }
+  },
+  "crossFinalAnswers": {
+    "cpq1": "B",
+    "cpq2": "Mental energy for gathering data drops, but the effort required to verify and audit the AI's logic increases significantly.",
+    "cpq3": "C",
+    "cpq4": "Lowering effort can lead to cognitive offloading, which reduces a person's long term memory and independent problem solving skills.",
+    "cpq5": "B",
+    "cpq6": "Users often skip verification when they are under heavy time pressure or if they feel the task is too insignificant to matter.",
+    "cpq7": "B",
+    "cpq8": "People trust AI too much because it gives them positive feedback that makes them feel more productive than they actually are.",
+    "cpq9": "C",
+    "cpq10": "AI acts as a scaffold to boost immediate output but creates a risk of deskilling and a loss of critical thinking confidence over time."
+  }
+}

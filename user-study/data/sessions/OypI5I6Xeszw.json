@@ -1,0 +1,459 @@
+{
+  "sessionId": "OypI5I6Xeszw",
+  "participantId": "P11",
+  "paperOrder": [
+    "paper6",
+    "paper4",
+    "paper5"
+  ],
+  "conditions": [
+    "all_highlights",
+    "no_highlights",
+    "contextual_highlights"
+  ],
+  "createdAt": "2026-04-16T01:52:33.894Z",
+  "step": "done",
+  "demographicResponses": {
+    "age": "A",
+    "role": "B",
+    "field": "CS",
+    "reading_freq": "C",
+    "reading_style": "D"
+  },
+  "tasks": [
+    {
+      "paperKey": "paper6",
+      "condition": "all_highlights",
+      "priorPapers": [],
+      "startedAt": "2026-04-16T01:53:31.676Z",
+      "completedAt": "2026-04-16T01:56:57.234Z",
+      "attempts": [
+        {
+          "submittedAt": "2026-04-16T01:56:57.228Z",
+          "answers": {
+            "p6q3": "C",
+            "p6q9": "The practical recommendation is that educators should manage workload and deadlines more carefully, and also encourage students to use ChatGPT as a support tool rather than a shortcut. This fits the results because workload and time pressure both increased ChatGPT use, so the authors suggest reducing those pressures while also discouraging overreliance on the tool.",
+            "p6q1": "B",
+            "p6q6": "C",
+            "p6q10": "The authors explain the memory-loss link with a cognitive underuse idea: excessive ChatGPT use reduces mental effort and active learning, which weakens memory retention over time. In other words, the more students let ChatGPT do the thinking for them, the less they train the memory processes they need to keep information.",
+            "p6q7": "Mediation was supported for workload and time pressure through ChatGPT for all three outcomes: procrastination, memory loss, and academic performance, and for sensitivity to rewards only for procrastination and memory loss, not academic performance. Mediation was not supported for sensitivity to quality for any of the three outcomes.",
+            "p6q4": "In Study 1, the authors started with 12 items, did an item-sorting/content-validity check with five experts, and kept 10 items because the experts agreed those best measured ChatGPT use. Then an exploratory factor analysis showed items 4 and 9 had low factor loadings and communalities, so those two were dropped, leaving 8 items with acceptable loadings and one factor structure.",
+            "p6q5": "B",
+            "p6q2": "The two competing predictions were that sensitivity to rewards would either increase ChatGPT use or decrease it. The negative prediction was supported, because reward sensitive students were less likely to use ChatGPT, which the authors explain as likely fear of getting a bad grade or being seen as cheating.",
+            "p6q8": "B"
+          },
+          "scores": {
+            "p6q1": true,
+            "p6q3": true,
+            "p6q5": true,
+            "p6q6": true,
+            "p6q8": true
+          }
+        }
+      ],
+      "perQuestionTimeSeconds": {
+        "p6q3": 130,
+        "p6q1": 197,
+        "p6q6": 194,
+        "p6q5": 190,
+        "p6q8": 188
+      },
+      "firstAttemptCorrect": {
+        "p6q1": true,
+        "p6q3": true,
+        "p6q5": true,
+        "p6q6": true,
+        "p6q8": true
+      },
+      "finalAnswers": {
+        "p6q3": "C",
+        "p6q9": "The practical recommendation is that educators should manage workload and deadlines more carefully, and also encourage students to use ChatGPT as a support tool rather than a shortcut. This fits the results because workload and time pressure both increased ChatGPT use, so the authors suggest reducing those pressures while also discouraging overreliance on the tool.",
+        "p6q1": "B",
+        "p6q6": "C",
+        "p6q10": "The authors explain the memory-loss link with a cognitive underuse idea: excessive ChatGPT use reduces mental effort and active learning, which weakens memory retention over time. In other words, the more students let ChatGPT do the thinking for them, the less they train the memory processes they need to keep information.",
+        "p6q7": "Mediation was supported for workload and time pressure through ChatGPT for all three outcomes: procrastination, memory loss, and academic performance, and for sensitivity to rewards only for procrastination and memory loss, not academic performance. Mediation was not supported for sensitivity to quality for any of the three outcomes.",
+        "p6q4": "In Study 1, the authors started with 12 items, did an item-sorting/content-validity check with five experts, and kept 10 items because the experts agreed those best measured ChatGPT use. Then an exploratory factor analysis showed items 4 and 9 had low factor loadings and communalities, so those two were dropped, leaving 8 items with acceptable loadings and one factor structure.",
+        "p6q5": "B",
+        "p6q2": "The two competing predictions were that sensitivity to rewards would either increase ChatGPT use or decrease it. The negative prediction was supported, because reward sensitive students were less likely to use ChatGPT, which the authors explain as likely fear of getting a bad grade or being seen as cheating.",
+        "p6q8": "B"
+      }
+    },
+    {
+      "paperKey": "paper4",
+      "condition": "no_highlights",
+      "priorPapers": [],
+      "startedAt": "2026-04-16T01:57:21.915Z",
+      "completedAt": "2026-04-16T02:01:36.985Z",
+      "attempts": [
+        {
+          "submittedAt": "2026-04-16T02:01:30.971Z",
+          "answers": {
+            "p4q1": "C",
+            "p4q6": "The two factors interact because motivation to think critically only turns into actual critical thinking when workers also have the ability to do it. In practice, breakdowns are most likely when people are motivated but hit barriers like not knowing enough, not being able to improve the output or being too time pressed to act on that motivation.",
+            "p4q3": "B",
+            "p4q8": "The ability barriers were mainly not having enough domain knowledge, not knowing how to improve AI suggestions and AI being stubborn or not following revised prompts. The paper says the largest number of participants reported barriers to inspecting AI responses.",
+            "p4q4": "The shift was from task execution to task stewardship, especially for Analysis, Synthesis, and Evaluation. That means workers spend less effort producing the work themselves and more effort overseeing, steering, and checking AI output while still staying accountable for the result.",
+            "p4q2": "RQ1: when and how do knowledge workers perceive the enaction of critical thinking when using GenAI, and RQ2: when and why do they perceive increased or decreased effort for critical thinking due to GenAI. They differ because the first asks about whether and how critical thinking happens, while the second asks about how GenAI changes the effort involved and why.",
+            "p4q9": "B",
+            "p4q5": "B",
+            "p4q7": "B",
+            "p4q10": "The authors prefer “stewardship” because it captures that the human is mainly guiding and monitoring the AI’s work, not sharing equal partnership with it. It also implies accountability stays with the human user."
+          },
+          "scores": {
+            "p4q1": true,
+            "p4q3": false,
+            "p4q5": true,
+            "p4q7": true,
+            "p4q9": false
+          }
+        },
+        {
+          "submittedAt": "2026-04-16T02:01:36.982Z",
+          "answers": {
+            "p4q1": "C",
+            "p4q6": "The two factors interact because motivation to think critically only turns into actual critical thinking when workers also have the ability to do it. In practice, breakdowns are most likely when people are motivated but hit barriers like not knowing enough, not being able to improve the output or being too time pressed to act on that motivation.",
+            "p4q3": "C",
+            "p4q8": "The ability barriers were mainly not having enough domain knowledge, not knowing how to improve AI suggestions and AI being stubborn or not following revised prompts. The paper says the largest number of participants reported barriers to inspecting AI responses.",
+            "p4q4": "The shift was from task execution to task stewardship, especially for Analysis, Synthesis, and Evaluation. That means workers spend less effort producing the work themselves and more effort overseeing, steering, and checking AI output while still staying accountable for the result.",
+            "p4q2": "RQ1: when and how do knowledge workers perceive the enaction of critical thinking when using GenAI, and RQ2: when and why do they perceive increased or decreased effort for critical thinking due to GenAI. They differ because the first asks about whether and how critical thinking happens, while the second asks about how GenAI changes the effort involved and why.",
+            "p4q9": "D",
+            "p4q5": "B",
+            "p4q7": "B",
+            "p4q10": "The authors prefer “stewardship” because it captures that the human is mainly guiding and monitoring the AI’s work, not sharing equal partnership with it. It also implies accountability stays with the human user."
+          },
+          "scores": {
+            "p4q1": true,
+            "p4q3": true,
+            "p4q5": true,
+            "p4q7": true,
+            "p4q9": true
+          }
+        }
+      ],
+      "perQuestionTimeSeconds": {
+        "p4q1": 193,
+        "p4q5": 213,
+        "p4q7": 189,
+        "p4q3": 254,
+        "p4q9": 252
+      },
+      "firstAttemptCorrect": {
+        "p4q1": true,
+        "p4q3": false,
+        "p4q5": true,
+        "p4q7": true,
+        "p4q9": false
+      },
+      "finalAnswers": {
+        "p4q1": "C",
+        "p4q6": "The two factors interact because motivation to think critically only turns into actual critical thinking when workers also have the ability to do it. In practice, breakdowns are most likely when people are motivated but hit barriers like not knowing enough, not being able to improve the output or being too time pressed to act on that motivation.",
+        "p4q3": "C",
+        "p4q8": "The ability barriers were mainly not having enough domain knowledge, not knowing how to improve AI suggestions and AI being stubborn or not following revised prompts. The paper says the largest number of participants reported barriers to inspecting AI responses.",
+        "p4q4": "The shift was from task execution to task stewardship, especially for Analysis, Synthesis, and Evaluation. That means workers spend less effort producing the work themselves and more effort overseeing, steering, and checking AI output while still staying accountable for the result.",
+        "p4q2": "RQ1: when and how do knowledge workers perceive the enaction of critical thinking when using GenAI, and RQ2: when and why do they perceive increased or decreased effort for critical thinking due to GenAI. They differ because the first asks about whether and how critical thinking happens, while the second asks about how GenAI changes the effort involved and why.",
+        "p4q9": "D",
+        "p4q5": "B",
+        "p4q7": "B",
+        "p4q10": "The authors prefer “stewardship” because it captures that the human is mainly guiding and monitoring the AI’s work, not sharing equal partnership with it. It also implies accountability stays with the human user."
+      }
+    },
+    {
+      "paperKey": "paper5",
+      "condition": "contextual_highlights",
+      "priorPapers": [],
+      "startedAt": "2026-04-16T02:02:07.038Z",
+      "completedAt": "2026-04-16T02:07:11.486Z",
+      "attempts": [
+        {
+          "submittedAt": "2026-04-16T02:07:11.454Z",
+          "answers": {
+            "p5q2": "The paper compares XAI with human only decision making, and also compares XAI with AI only advice. XAI helped more than humans alone, but it did not do better than plain AI advice, so those are not the same result.",
+            "p5q5": "B",
+            "p5q7": "The two ideas were that XAI could help by making people trust and use the AI more, or by helping them trust it in a better way. The review found stronger support for the first idea, that XAI mainly works by increasing acceptance of AI advice.",
+            "p5q9": "The findings on acceptance were mixed. Fuener et al. found that confidence ratings made people follow the AI less, while Bansal et al. and van der Waa et al. found that explanations made people accept the AI more, even when it was wrong.",
+            "p5q10": "Explanations might make people trust AI too much. The authors bring this up because their review showed explanations can raise acceptance of AI advice, even when that advice should maybe be questioned.",
+            "p5q8": "C",
+            "p5q6": "B",
+            "p5q1": "B",
+            "p5q3": "D",
+            "p5q4": "For tabular data, XAI did not clearly improve performance. For text data, XAI did better, and the authors think this is because text tasks are easier for people to understand and judge than tabular ones."
+          },
+          "scores": {
+            "p5q1": true,
+            "p5q3": true,
+            "p5q5": true,
+            "p5q6": true,
+            "p5q8": true
+          }
+        }
+      ],
+      "perQuestionTimeSeconds": {
+        "p5q5": 250,
+        "p5q8": 284,
+        "p5q6": 294,
+        "p5q1": 296,
+        "p5q3": 298
+      },
+      "firstAttemptCorrect": {
+        "p5q1": true,
+        "p5q3": true,
+        "p5q5": true,
+        "p5q6": true,
+        "p5q8": true
+      },
+      "finalAnswers": {
+        "p5q2": "The paper compares XAI with human only decision making, and also compares XAI with AI only advice. XAI helped more than humans alone, but it did not do better than plain AI advice, so those are not the same result.",
+        "p5q5": "B",
+        "p5q7": "The two ideas were that XAI could help by making people trust and use the AI more, or by helping them trust it in a better way. The review found stronger support for the first idea, that XAI mainly works by increasing acceptance of AI advice.",
+        "p5q9": "The findings on acceptance were mixed. Fuener et al. found that confidence ratings made people follow the AI less, while Bansal et al. and van der Waa et al. found that explanations made people accept the AI more, even when it was wrong.",
+        "p5q10": "Explanations might make people trust AI too much. The authors bring this up because their review showed explanations can raise acceptance of AI advice, even when that advice should maybe be questioned.",
+        "p5q8": "C",
+        "p5q6": "B",
+        "p5q1": "B",
+        "p5q3": "D",
+        "p5q4": "For tabular data, XAI did not clearly improve performance. For text data, XAI did better, and the authors think this is because text tasks are easier for people to understand and judge than tabular ones."
+      }
+    }
+  ],
+  "questionnaireResponses": [
+    {
+      "paperKey": "paper6",
+      "submittedAt": "2026-04-16T01:57:19.371Z",
+      "responses": {
+        "p6diff1": 3,
+        "p6diff2": 2,
+        "p6diff3": 2,
+        "p6diff4": 3,
+        "p6diff5": 2,
+        "p6diff6": 3,
+        "p6diff7": 2,
+        "p6diff8": 2,
+        "p6diff9": 2,
+        "p6diff10": 2,
+        "p6ease": 2,
+        "p6comments": "Highlights served as a useful tool"
+      }
+    },
+    {
+      "paperKey": "paper4",
+      "submittedAt": "2026-04-16T02:02:04.614Z",
+      "responses": {
+        "p4diff1": 3,
+        "p4diff2": 3,
+        "p4diff3": 3,
+        "p4diff4": 3,
+        "p4diff5": 3,
+        "p4diff6": 3,
+        "p4diff7": 3,
+        "p4diff8": 3,
+        "p4diff9": 3,
+        "p4diff10": 3,
+        "p4ease": 3,
+        "p4comments": "Without highlights finding the answer to the questions became a lot harder"
+      }
+    },
+    {
+      "paperKey": "paper5",
+      "submittedAt": "2026-04-16T02:07:46.077Z",
+      "responses": {
+        "p5diff1": 2,
+        "p5diff2": 2,
+        "p5diff3": 3,
+        "p5diff4": 3,
+        "p5diff5": 3,
+        "p5diff6": 2,
+        "p5diff7": 3,
+        "p5diff8": 2,
+        "p5diff9": 3,
+        "p5diff10": 3,
+        "p5ease": 3,
+        "p5comments": "Return of highlights made it easier to answer questions."
+      }
+    }
+  ],
+  "finalResponses": {
+    "fq_helpful_highlighted_sentences": 4,
+    "fq_confidence_understanding": 4,
+    "fq_identify_important_info": 4,
+    "fq_repeated_known_info": 2,
+    "fq_missing_important_info": 3,
+    "fq_trust_highlights_key_ideas": 4,
+    "fq_new_vs_repeated": 4,
+    "fq_focus_novel_important_content": 4,
+    "fq_use_in_workflow": 4,
+    "fq_like_most_least": "Highlighted texts were greatly helpful in helping me come to question answers faster."
+  },
+  "crossAttempts": [
+    {
+      "submittedAt": "2026-04-16T02:09:46.059Z",
+      "answers": {
+        "cpq1": "B",
+        "cpq2": "One change is that people spend less effort doing the work itself and more effort checking, steering, or judging AI output. This happens because AI can do the first draft or routine part quickly, so humans shift into a review role instead.",
+        "cpq3": "C",
+        "cpq4": "Lower effort can hurt outcomes when people stop thinking deeply and just accept the AI’s answer. In the critical-thinking paper, this can lead to weaker memory and more procrastination, and in the XAI paper it can mean people follow AI advice too easily.",
+        "cpq5": "B",
+        "cpq6": "One big factor is confidence. People who trust AI more are less likely to verify it, while people who trust themselves more are more likely to check it. The critical-thinking paper shows that self-confidence pushes critical thinking up, while confidence in GenAI pushes it down.",
+        "cpq7": "B",
+        "cpq8": "People may overrely on AI when it feels fast, easy, and good enough, especially under pressure. The university-student paper links workload and time pressure to more ChatGPT use, which can turn into shortcut behavior instead of careful work.",
+        "cpq9": "C",
+        "cpq10": "AI can improve performance because it gives faster help, better suggestions, and extra support that can raise task results. But it also creates risks because people may rely on it too much, verify less, and lose some effort in thinking, which can hurt memory, quality, or judgment."
+      },
+      "scores": {
+        "cpq1": true,
+        "cpq3": true,
+        "cpq5": true,
+        "cpq7": true,
+        "cpq9": true
+      }
+    }
+  ],
+  "completedAt": "2026-04-16T02:10:35.664Z",
+  "questionOrders": {
+    "paper6": [
+      "p6q3",
+      "p6q9",
+      "p6q1",
+      "p6q6",
+      "p6q10",
+      "p6q7",
+      "p6q4",
+      "p6q5",
+      "p6q2",
+      "p6q8"
+    ],
+    "paper4": [
+      "p4q1",
+      "p4q6",
+      "p4q3",
+      "p4q8",
+      "p4q4",
+      "p4q2",
+      "p4q9",
+      "p4q5",
+      "p4q7",
+      "p4q10"
+    ],
+    "paper5": [
+      "p5q2",
+      "p5q5",
+      "p5q7",
+      "p5q9",
+      "p5q10",
+      "p5q8",
+      "p5q6",
+      "p5q1",
+      "p5q3",
+      "p5q4"
+    ]
+  },
+  "optionOrders": {
+    "paper6": {
+      "p6q1": [
+        "C",
+        "A",
+        "D",
+        "B"
+      ],
+      "p6q3": [
+        "D",
+        "C",
+        "A",
+        "B"
+      ],
+      "p6q5": [
+        "C",
+        "B",
+        "D",
+        "A"
+      ],
+      "p6q6": [
+        "B",
+        "C",
+        "D",
+        "A"
+      ],
+      "p6q8": [
+        "B",
+        "C",
+        "D",
+        "A"
+      ]
+    },
+    "paper4": {
+      "p4q1": [
+        "D",
+        "C",
+        "B",
+        "A"
+      ],
+      "p4q3": [
+        "D",
+        "B",
+        "C",
+        "A"
+      ],
+      "p4q5": [
+        "A",
+        "D",
+        "C",
+        "B"
+      ],
+      "p4q7": [
+        "A",
+        "D",
+        "C",
+        "B"
+      ],
+      "p4q9": [
+        "C",
+        "B",
+        "D",
+        "A"
+      ]
+    },
+    "paper5": {
+      "p5q1": [
+        "A",
+        "C",
+        "B",
+        "D"
+      ],
+      "p5q3": [
+        "D",
+        "B",
+        "A",
+        "C"
+      ],
+      "p5q5": [
+        "A",
+        "C",
+        "D",
+        "B"
+      ],
+      "p5q6": [
+        "B",
+        "A",
+        "C",
+        "D"
+      ],
+      "p5q8": [
+        "A",
+        "C",
+        "D",
+        "B"
+      ]
+    }
+  },
+  "crossFinalAnswers": {
+    "cpq1": "B",
+    "cpq2": "One change is that people spend less effort doing the work itself and more effort checking, steering, or judging AI output. This happens because AI can do the first draft or routine part quickly, so humans shift into a review role instead.",
+    "cpq3": "C",
+    "cpq4": "Lower effort can hurt outcomes when people stop thinking deeply and just accept the AI’s answer. In the critical-thinking paper, this can lead to weaker memory and more procrastination, and in the XAI paper it can mean people follow AI advice too easily.",
+    "cpq5": "B",
+    "cpq6": "One big factor is confidence. People who trust AI more are less likely to verify it, while people who trust themselves more are more likely to check it. The critical-thinking paper shows that self-confidence pushes critical thinking up, while confidence in GenAI pushes it down.",
+    "cpq7": "B",
+    "cpq8": "People may overrely on AI when it feels fast, easy, and good enough, especially under pressure. The university-student paper links workload and time pressure to more ChatGPT use, which can turn into shortcut behavior instead of careful work.",
+    "cpq9": "C",
+    "cpq10": "AI can improve performance because it gives faster help, better suggestions, and extra support that can raise task results. But it also creates risks because people may rely on it too much, verify less, and lose some effort in thinking, which can hurt memory, quality, or judgment."
+  }
+}
