@@ -1,0 +1,515 @@
+{
+  "version": "1.0",
+  "grading_scale": {
+    "full_mark": 1,
+    "no_mark": 0,
+    "global_rule_for_1": [
+      "Answer includes at least one concept grounded in the relevant paper(s).",
+      "Answer correctly states the relationship, comparison, implication, or mechanism asked by the question.",
+      "Minor wording differences are acceptable.",
+      "Exact statistics are not required unless the question explicitly asks for them."
+    ],
+    "global_rule_for_0": [
+      "Answer is too vague to verify against the paper(s).",
+      "Answer is unrelated to the question.",
+      "Answer contradicts the paper(s).",
+      "Answer misses the central comparison, mechanism, or implication required by the question."
+    ]
+  },
+  "papers": {
+    "paper4": {
+      "title": "The Impact of Generative AI on Critical Thinking: Self-Reported Reductions in Cognitive Effort and Confidence Effects From a Survey of Knowledge Workers",
+      "questions": {
+        "p4q2": {
+          "question_text": "The paper states two explicit research questions. What are they, and how do they differ from each other?",
+          "score_1_if": [
+            "Answer identifies two distinct research focuses.",
+            "One focus is about when/how knowledge workers enact critical thinking when using GenAI.",
+            "One focus is about when/why GenAI changes the effort involved in critical thinking.",
+            "Answer clearly distinguishes behavior/enaction from effort/change in effort."
+          ],
+          "score_0_if": [
+            "Only one research question is described.",
+            "Answer gives findings instead of the research questions.",
+            "Difference between the two questions is missing or incorrect."
+          ],
+          "in_scope_concepts": [
+            "critical thinking enaction",
+            "when/how critical thinking happens",
+            "critical thinking effort",
+            "increased or decreased effort",
+            "behavior vs effort"
+          ],
+          "acceptable_variations": [
+            "when and how people use critical thinking versus when and why AI changes how much effort critical thinking takes",
+            "behavior versus perceived effort"
+          ]
+        },
+        "p4q4": {
+          "question_text": "The paper describes a shift in cognitive effort for Analysis, Synthesis, and Evaluation. What specific shift did the authors observe, and what new role does this create for knowledge workers?",
+          "score_1_if": [
+            "Answer describes a shift from task execution or doing the work toward oversight, stewardship, evaluation, or integration.",
+            "Answer describes the new human role as guiding, monitoring, verifying, assessing, integrating, or quality-checking AI outputs."
+          ],
+          "score_0_if": [
+            "Answer only says effort decreases without describing the type of shift.",
+            "Answer does not describe the new human role."
+          ],
+          "in_scope_concepts": [
+            "task execution to oversight",
+            "task execution to stewardship",
+            "doing to checking",
+            "creation to evaluation",
+            "human as monitor/guide/integrator"
+          ],
+          "acceptable_variations": [
+            "from doing the task themselves to overseeing the AI",
+            "from production to checking and integration",
+            "from execution to oversight"
+          ]
+        },
+        "p4q6": {
+          "question_text": "The paper reports both motivational factors and ability barriers that influence whether knowledge workers engage in critical thinking when using GenAI. How do these two interact, and what does this imply about when critical thinking is most likely to break down in practice?",
+          "score_1_if": [
+            "Answer mentions both motivators and ability barriers.",
+            "Answer explains that users may want to think critically but still fail if they cannot verify, evaluate, or improve the AI output.",
+            "Answer gives at least one condition where critical thinking is likely to break down, such as time pressure, routine or low-stakes tasks, unfamiliar domains, or inability to verify outputs."
+          ],
+          "score_0_if": [
+            "Answer discusses only motivators or only barriers.",
+            "Answer does not explain their interaction.",
+            "Answer does not identify when breakdown is likely."
+          ],
+          "in_scope_concepts": [
+            "improving quality",
+            "avoiding negative outcomes",
+            "skill development",
+            "verification difficulty",
+            "difficulty improving or revising outputs",
+            "motivated but unable",
+            "time pressure",
+            "routine tasks",
+            "low-stakes tasks",
+            "unfamiliar domains"
+          ],
+          "acceptable_variations": [
+            "people may be motivated but still unable to think critically because they cannot judge or refine the output",
+            "critical thinking breaks down when users lack the ability to verify AI even if they care about the result"
+          ]
+        },
+        "p4q8": {
+          "question_text": "The paper identifies ability barriers that prevent workers from enacting critical thinking even when motivated. What are these barriers, and which did the largest number of participants report?",
+          "score_1_if": [
+            "Answer identifies difficulty inspecting or verifying AI responses.",
+            "Answer identifies difficulty revising queries or improving the response.",
+            "Answer identifies revising or improving responses as the most commonly reported barrier."
+          ],
+          "score_0_if": [
+            "Only one barrier is identified.",
+            "Most commonly reported barrier is missing or incorrect."
+          ],
+          "in_scope_concepts": [
+            "inspection barrier",
+            "verification barrier",
+            "revising prompts",
+            "improving the response",
+            "largest number reported revising or improving responses"
+          ],
+          "acceptable_variations": [
+            "hard to check correctness and hard to refine the answer, with refining being the more common issue"
+          ]
+        },
+        "p4q10": {
+          "question_text": "The authors use the term 'stewardship' rather than 'collaboration' or 'supervision' to describe the human role in GenAI-assisted work. What reasoning do they give for preferring this term, and what does it imply about where accountability sits?",
+          "score_1_if": [
+            "Answer explains that AI may do material production but the human still remains responsible for the result.",
+            "Answer states that accountability remains with the human user rather than the AI."
+          ],
+          "score_0_if": [
+            "Answer mentions human involvement but not responsibility or accountability.",
+            "Answer implies accountability is shared with or moved to the AI."
+          ],
+          "in_scope_concepts": [
+            "AI produces output",
+            "human remains responsible",
+            "accountability with human",
+            "stewardship"
+          ],
+          "acceptable_variations": [
+            "humans still own the final outcome even if AI does part of the work"
+          ]
+        }
+      }
+    },
+    "paper5": {
+      "title": "A Meta-Analysis of the Utility of Explainable Artificial Intelligence in Human-AI Decision-Making",
+      "questions": {
+        "p5q2": {
+          "question_text": "The paper states two primary research comparisons it investigates. What are they, and how does the result of one change how you should interpret the other?",
+          "score_1_if": [
+            "Answer names both comparisons: human versus XAI-assisted performance, and AI-assisted versus XAI-assisted performance.",
+            "Answer states that XAI improves over humans but not over AI alone.",
+            "Answer explains that the positive effect should therefore be interpreted as a benefit of AI assistance in general, not necessarily explanations specifically."
+          ],
+          "score_0_if": [
+            "Only one comparison is mentioned.",
+            "Answer claims XAI clearly outperforms AI alone.",
+            "Interpretive link between the two comparisons is missing."
+          ],
+          "in_scope_concepts": [
+            "human vs XAI",
+            "AI vs XAI",
+            "benefit due to AI assistance",
+            "no added effect of explanation beyond AI"
+          ],
+          "acceptable_variations": [
+            "the apparent benefit is from AI support, not from explanations themselves"
+          ]
+        },
+        "p5q4": {
+          "question_text": "The subgroup analysis compared tabular and text data types. What did the results show for each, and what explanation do the authors offer for the difference?",
+          "score_1_if": [
+            "Answer states that text data showed a positive or significant benefit.",
+            "Answer states that tabular data showed little or no significant benefit.",
+            "Answer gives at least one plausible explanation grounded in the paper, such as text being easier for humans to interpret or explanations being harder to use in tabular settings."
+          ],
+          "score_0_if": [
+            "Results for text and tabular are reversed or incorrect.",
+            "Answer gives outcomes without any explanation."
+          ],
+          "in_scope_concepts": [
+            "text improvement",
+            "tabular no meaningful improvement",
+            "interpretability",
+            "usability",
+            "task complexity",
+            "cognitive difficulty"
+          ],
+          "acceptable_variations": [
+            "XAI seems to help more on text tasks than tabular tasks because people can use those explanations more effectively"
+          ]
+        },
+        "p5q7": {
+          "question_text": "The paper identifies two potential mechanisms by which XAI could improve decision-making performance. What are these two mechanisms, and which one did the qualitative review find stronger evidence for?",
+          "score_1_if": [
+            "Answer identifies increased acceptance of AI advice.",
+            "Answer identifies improved appropriate reliance, calibration, or selective trust.",
+            "Answer states that the stronger evidence was for increased acceptance of AI advice."
+          ],
+          "score_0_if": [
+            "Only one mechanism is named.",
+            "Dominant mechanism is incorrect or missing."
+          ],
+          "in_scope_concepts": [
+            "acceptance of AI advice",
+            "trust in AI advice",
+            "appropriate reliance",
+            "calibration",
+            "selective reliance"
+          ],
+          "acceptable_variations": [
+            "trust/acceptance versus knowing when to rely on the model, with stronger evidence for acceptance"
+          ]
+        },
+        "p5q9": {
+          "question_text": "The qualitative review highlights contrasting findings across individual studies regarding how explanations affect users' acceptance of AI advice. Describe these contrasting findings and which studies reported them.",
+          "score_1_if": [
+            "Answer describes one side of the contrast: explanations can increase acceptance or reliance, including when the advice is wrong.",
+            "Answer describes the other side of the contrast: explanations may have no effect or may reduce reliance or acceptance.",
+            "Answer names at least one study on each side of the contrast."
+          ],
+          "score_0_if": [
+            "Only one side of the contrast is described.",
+            "No studies are attributed to the findings."
+          ],
+          "in_scope_concepts": [
+            "increased acceptance",
+            "acceptance even when wrong",
+            "no change in reliance",
+            "reduced reliance",
+            "Bansal et al.",
+            "van der Waa et al.",
+            "Alufaisan et al.",
+            "F\u00fcgener et al."
+          ],
+          "acceptable_variations": [
+            "some studies found explanations made people follow AI more, while others found no increase or even less reliance"
+          ]
+        },
+        "p5q10": {
+          "question_text": "The authors raise an ethical concern in the discussion section related to one of their findings. What is this concern, and which finding prompted it?",
+          "score_1_if": [
+            "Answer states that explanations may manipulate users into following AI too readily, create blind trust, or increase over-reliance.",
+            "Answer links this concern to the finding that explanations can increase acceptance of AI advice."
+          ],
+          "score_0_if": [
+            "Answer gives a generic AI risk with no specific ethical concern.",
+            "Answer does not link the concern to the relevant finding."
+          ],
+          "in_scope_concepts": [
+            "manipulation",
+            "blind trust",
+            "over-reliance",
+            "persuasion rather than genuine understanding",
+            "increased acceptance of AI advice"
+          ],
+          "acceptable_variations": [
+            "explanations may persuade users to accept bad recommendations rather than helping them judge appropriately"
+          ]
+        }
+      }
+    },
+    "paper6": {
+      "title": "Is it harmful or helpful? Examining the causes and consequences of generative AI usage among university students",
+      "questions": {
+        "p6q2": {
+          "question_text": "The paper presents competing hypotheses about sensitivity to rewards. What were the two competing predictions, which one was supported, and what reasoning do the authors give for the result?",
+          "score_1_if": [
+            "Answer describes both competing predictions: reward sensitivity could increase ChatGPT usage or decrease ChatGPT usage.",
+            "Answer states that the supported result was the negative relationship.",
+            "Answer explains that students who are sensitive to rewards may avoid ChatGPT because they fear penalties, ethical issues, getting caught, or losing grades."
+          ],
+          "score_0_if": [
+            "Only one hypothesis is described.",
+            "Supported result is incorrect or missing.",
+            "Reasoning for the supported result is missing."
+          ],
+          "in_scope_concepts": [
+            "reward sensitivity increases use for better outcomes",
+            "reward sensitivity decreases use due to risk",
+            "negative relationship supported",
+            "fear of penalties",
+            "fear of losing grades",
+            "ethical risk"
+          ],
+          "acceptable_variations": [
+            "students who care more about grades avoid ChatGPT because using it feels risky"
+          ]
+        },
+        "p6q4": {
+          "question_text": "Study 1 began with 12 scale items and ended with 8. Describe the process by which items were reduced, including what criteria were used and which specific items were dropped.",
+          "score_1_if": [
+            "Answer describes a multi-stage reduction process that includes expert or content review and then a statistical reduction step such as exploratory factor analysis.",
+            "Answer includes at least one criterion used for retention or removal, such as loadings, communalities, or similar psychometric criteria.",
+            "Answer includes at least one specific removal detail, such as items 4 and 9 being dropped."
+          ],
+          "score_0_if": [
+            "Answer only says items were reduced without describing the process.",
+            "Answer gives no criteria and no specific removal detail."
+          ],
+          "in_scope_concepts": [
+            "12 items to 8",
+            "expert review",
+            "content validity review",
+            "exploratory factor analysis",
+            "factor loadings",
+            "communalities",
+            "items 4 and 9 dropped"
+          ],
+          "acceptable_variations": [
+            "experts screened the items first and then factor analysis narrowed them further based on psychometric quality"
+          ]
+        },
+        "p6q7": {
+          "question_text": "The paper tests ChatGPT usage as a mediator. For which antecedents and which outcomes was the mediation supported, and for which was it not supported?",
+          "score_1_if": [
+            "Answer correctly links at least two antecedent-outcome patterns.",
+            "Answer includes that workload and time pressure showed supported mediation to outcomes through ChatGPT use.",
+            "Answer includes that sensitivity to rewards was only partially supported.",
+            "Answer includes that sensitivity to quality was not supported."
+          ],
+          "score_0_if": [
+            "Variables are listed without any mediation relationships.",
+            "Direction of support is largely incorrect."
+          ],
+          "in_scope_concepts": [
+            "workload",
+            "time pressure",
+            "sensitivity to rewards",
+            "sensitivity to quality",
+            "procrastination",
+            "memory loss",
+            "academic performance",
+            "supported mediation",
+            "partial mediation",
+            "not supported"
+          ],
+          "acceptable_variations": [
+            "workload and time pressure mediated through ChatGPT use; rewards only partly did; quality did not"
+          ]
+        },
+        "p6q9": {
+          "question_text": "The authors offer a practical recommendation for educators in response to the finding that workload and time pressure drive ChatGPT usage. What is this recommendation, and how does it relate to the study's results?",
+          "score_1_if": [
+            "Answer recommends that educators or institutions manage or reduce workload and time pressure, or design assessment and teaching practices that reduce shortcut use.",
+            "Answer explicitly connects this recommendation to the finding that workload and time pressure increase ChatGPT usage.",
+            "Answer may also mention encouraging use of ChatGPT as a support tool rather than a replacement for thinking."
+          ],
+          "score_0_if": [
+            "Recommendation is generic and not connected to workload or time pressure.",
+            "Answer does not link the recommendation to the study findings."
+          ],
+          "in_scope_concepts": [
+            "manage workload",
+            "reduce time pressure",
+            "assignment design",
+            "time management",
+            "assessment design",
+            "use as support not shortcut"
+          ],
+          "acceptable_variations": [
+            "because pressure drives use, educators should reduce that pressure and structure work so students do not rely on ChatGPT as an easy shortcut"
+          ]
+        },
+        "p6q10": {
+          "question_text": "The paper argues that excessive ChatGPT usage leads to memory loss. What theoretical mechanism do the authors propose to explain this link?",
+          "score_1_if": [
+            "Answer explains that excessive use reduces active cognitive engagement, effort, or active learning.",
+            "Answer explains that reduced practice, mental training, or memory consolidation then weakens memory."
+          ],
+          "score_0_if": [
+            "Answer only states that ChatGPT causes memory loss with no mechanism.",
+            "Mechanism is unrelated to cognitive engagement or practice."
+          ],
+          "in_scope_concepts": [
+            "reduced cognitive effort",
+            "reduced active learning",
+            "less mental practice",
+            "less memory consolidation",
+            "weaker memory"
+          ],
+          "acceptable_variations": [
+            "relying on ChatGPT means students think less for themselves, so they get less practice and memory gets weaker over time"
+          ]
+        }
+      }
+    },
+    "cross_paper": {
+      "title": "Cross-paper free-text synthesis",
+      "questions": {
+        "cpq2": {
+          "question_text": "Describe one way cognitive effort changes when people use AI, and briefly explain why this change happens based on the papers.",
+          "score_1_if": [
+            "Answer gives at least one valid change in cognitive effort, such as redistribution, reduction, or a shift in type of effort.",
+            "Answer explains that AI automates or takes over part of the task, which changes what humans spend effort on."
+          ],
+          "score_0_if": [
+            "Answer says effort changes but gives no explanation.",
+            "Change described is too vague to verify against the papers."
+          ],
+          "in_scope_concepts": [
+            "execution to evaluation",
+            "information gathering to verification",
+            "production to integration",
+            "reduced effort",
+            "redistributed effort",
+            "automation changes effort"
+          ],
+          "acceptable_variations": [
+            "people do less original production and more checking because AI handles part of the work"
+          ]
+        },
+        "cpq4": {
+          "question_text": "The papers suggest that reduced effort is not always beneficial. Give one example of when lower effort could harm outcomes, and explain why.",
+          "score_1_if": [
+            "Answer gives one valid harm domain such as learning, memory, decision quality, critical thinking, or over-reliance.",
+            "Answer explains why lower effort harms that domain, such as reduced engagement, less practice, weaker verification, or poorer judgment."
+          ],
+          "score_0_if": [
+            "Answer names a harm with no explanation.",
+            "Example is not grounded in any of the papers."
+          ],
+          "in_scope_concepts": [
+            "memory loss",
+            "weaker learning",
+            "poorer decision quality",
+            "less critical thinking",
+            "over-reliance",
+            "reduced practice",
+            "weaker verification"
+          ],
+          "acceptable_variations": [
+            "lower effort can help in the short term but weaken learning or judgment because people stop practicing or checking carefully"
+          ]
+        },
+        "cpq6": {
+          "question_text": "Across the papers, what is one factor that influences whether people verify AI outputs or not?",
+          "score_1_if": [
+            "Answer identifies one valid factor such as trust, confidence, knowledge, workload, time pressure, or explanation design.",
+            "Answer explains how that factor increases or decreases verification."
+          ],
+          "score_0_if": [
+            "Factor is listed without any effect on verification.",
+            "Factor is unrelated to the papers."
+          ],
+          "in_scope_concepts": [
+            "confidence in AI",
+            "confidence in self",
+            "trust",
+            "domain knowledge",
+            "ability to verify",
+            "time pressure",
+            "workload",
+            "system design",
+            "explanations"
+          ],
+          "acceptable_variations": [
+            "higher confidence in AI can reduce checking, while stronger self-confidence or domain knowledge can increase it"
+          ]
+        },
+        "cpq8": {
+          "question_text": "Give one reason why people might over-rely on AI, and connect it to a concept or finding from one of the papers.",
+          "score_1_if": [
+            "Answer gives one valid reason for over-reliance such as cognitive offloading, increased trust or acceptance, time pressure, workload, ease, or confidence in AI.",
+            "Answer connects that reason to a concept or finding from at least one paper."
+          ],
+          "score_0_if": [
+            "Reason is generic and not connected to any paper-based concept or finding.",
+            "Reason contradicts the papers."
+          ],
+          "in_scope_concepts": [
+            "cognitive offloading",
+            "reduced effort",
+            "increased acceptance of AI advice",
+            "time pressure",
+            "workload",
+            "confidence in AI",
+            "efficiency incentives"
+          ],
+          "acceptable_variations": [
+            "people may over-rely because AI makes tasks easier, or because explanations make the advice seem more trustworthy"
+          ]
+        },
+        "cpq10": {
+          "question_text": "Based on all three papers, explain how AI can both improve performance and create risks at the same time. Reference at least two different ideas.",
+          "score_1_if": [
+            "Answer gives at least one valid benefit such as improved performance, efficiency, speed, or reduced effort.",
+            "Answer gives at least one valid risk such as over-reliance, weaker critical thinking, poorer verification, memory loss, procrastination, or worse academic performance.",
+            "Answer references at least two distinct ideas or concept areas."
+          ],
+          "score_0_if": [
+            "Answer gives only benefits or only risks.",
+            "Answer does not reference at least two distinct ideas.",
+            "Answer is too generic to verify against the papers."
+          ],
+          "in_scope_concepts": [
+            "performance",
+            "accuracy",
+            "efficiency",
+            "speed",
+            "reduced effort",
+            "over-reliance",
+            "critical thinking",
+            "verification",
+            "memory loss",
+            "procrastination",
+            "academic performance"
+          ],
+          "acceptable_variations": [
+            "AI can improve outcomes by making work faster or more accurate, but it can also weaken checking, encourage over-reliance, or hurt learning and memory"
+          ]
+        }
+      }
+    }
+  }
+}
