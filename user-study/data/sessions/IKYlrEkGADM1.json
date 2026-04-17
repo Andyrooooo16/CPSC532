@@ -11,7 +11,7 @@
     "all_highlights",
     "contextual_highlights"
   ],
-  "createdAt": "2026-04-15T00:34:11.441Z",
+  "createdAt": "2026-04-10T15:05:12.663Z",
   "step": "done",
   "demographicResponses": {
     "age": "C",
@@ -25,20 +25,20 @@
       "paperKey": "paper6",
       "condition": "no_highlights",
       "priorPapers": [],
-      "startedAt": "2026-04-15T00:34:41.074Z",
-      "completedAt": "2026-04-15T00:42:12.197Z",
+      "startedAt": "2026-04-10T15:06:41.229Z",
+      "completedAt": "2026-04-10T15:14:33.511Z",
       "attempts": [
         {
-          "submittedAt": "2026-04-15T00:40:48.931Z",
+          "submittedAt": "2026-04-10T15:14:24.411Z",
           "answers": {
-            "p6q10": "The paper argues that excessive ChatGPT usage leads to memory loss because it reduces students’ cognitive effort and active engagement with learning material. Instead of processing and recalling information themselves, students rely on AI to generate answers, which weakens memory formation. Over time, this lack of mental effort and practice can impair memory retention and overall cognitive functioning. In simple terms, since memory improves through active use, outsourcing thinking to ChatGPT leads to weaker memory consolidation.",
-            "p6q9": "The authors recommend that educators better manage students’ workload and time pressure by designing assignments and deadlines more carefully. They also suggest encouraging students to use ChatGPT as a support tool rather than a shortcut for completing tasks. This directly relates to the findings, since higher workload and time pressure were shown to increase ChatGPT usage. By reducing these pressures, educators can help limit overreliance and its negative effects.",
+            "p6q10": "The paper argues that excessive ChatGPT usage leads to memory loss because it reduces students\u2019 cognitive effort and active engagement with learning material. Instead of processing and recalling information themselves, students rely on AI to generate answers, which weakens memory formation. Over time, this lack of mental effort and practice can impair memory retention and overall cognitive functioning. In simple terms, since memory improves through active use, outsourcing thinking to ChatGPT leads to weaker memory consolidation.",
+            "p6q9": "The authors recommend that educators better manage students\u2019 workload and time pressure by designing assignments and deadlines more carefully. They also suggest encouraging students to use ChatGPT as a support tool rather than a shortcut for completing tasks. This directly relates to the findings, since higher workload and time pressure were shown to increase ChatGPT usage. By reducing these pressures, educators can help limit overreliance and its negative effects.",
             "p6q2": "The paper proposes that reward sensitivity could either increase ChatGPT usage, since students might use it to improve their grades, or decrease it, because they want to avoid risks like penalties or academic consequences. The results support the second prediction, showing that more reward sensitive students use ChatGPT less. The authors explain this by saying these students are more cautious and avoid behaviors that could harm their academic standing.",
             "p6q3": "A",
             "p6q1": "B",
             "p6q6": "C",
             "p6q8": "A",
-            "p6q4": "Study 1 first used expert review to assess content validity, which reduced the initial 12 items to 10 based on whether they actually reflected ChatGPT usage. Then they ran exploratory factor analysis and removed items with low factor loadings and communalities (below about 0.5). The two items dropped were “I can’t think of studies without ChatGPT” and “Use of ChatGPT is common nowadays.” This process resulted in a final 8-item scale with good reliability and validity.",
+            "p6q4": "Study 1 first used expert review to assess content validity, which reduced the initial 12 items to 10 based on whether they actually reflected ChatGPT usage. Then they ran exploratory factor analysis and removed items with low factor loadings and communalities (below about 0.5). The two items dropped were \u201cI can\u2019t think of studies without ChatGPT\u201d and \u201cUse of ChatGPT is common nowadays.\u201d This process resulted in a final 8-item scale with good reliability and validity.",
             "p6q5": "D"
           },
           "scores": {
@@ -50,16 +50,16 @@
           }
         },
         {
-          "submittedAt": "2026-04-15T00:41:32.862Z",
+          "submittedAt": "2026-04-10T15:14:28.211Z",
           "answers": {
-            "p6q10": "The paper argues that excessive ChatGPT usage leads to memory loss because it reduces students’ cognitive effort and active engagement with learning material. Instead of processing and recalling information themselves, students rely on AI to generate answers, which weakens memory formation. Over time, this lack of mental effort and practice can impair memory retention and overall cognitive functioning. In simple terms, since memory improves through active use, outsourcing thinking to ChatGPT leads to weaker memory consolidation.",
-            "p6q9": "The authors recommend that educators better manage students’ workload and time pressure by designing assignments and deadlines more carefully. They also suggest encouraging students to use ChatGPT as a support tool rather than a shortcut for completing tasks. This directly relates to the findings, since higher workload and time pressure were shown to increase ChatGPT usage. By reducing these pressures, educators can help limit overreliance and its negative effects.",
+            "p6q10": "The paper argues that excessive ChatGPT usage leads to memory loss because it reduces students\u2019 cognitive effort and active engagement with learning material. Instead of processing and recalling information themselves, students rely on AI to generate answers, which weakens memory formation. Over time, this lack of mental effort and practice can impair memory retention and overall cognitive functioning. In simple terms, since memory improves through active use, outsourcing thinking to ChatGPT leads to weaker memory consolidation.",
+            "p6q9": "The authors recommend that educators better manage students\u2019 workload and time pressure by designing assignments and deadlines more carefully. They also suggest encouraging students to use ChatGPT as a support tool rather than a shortcut for completing tasks. This directly relates to the findings, since higher workload and time pressure were shown to increase ChatGPT usage. By reducing these pressures, educators can help limit overreliance and its negative effects.",
             "p6q2": "The paper proposes that reward sensitivity could either increase ChatGPT usage, since students might use it to improve their grades, or decrease it, because they want to avoid risks like penalties or academic consequences. The results support the second prediction, showing that more reward sensitive students use ChatGPT less. The authors explain this by saying these students are more cautious and avoid behaviors that could harm their academic standing.",
             "p6q3": "A",
             "p6q1": "B",
             "p6q6": "C",
             "p6q8": "A",
-            "p6q4": "Study 1 first used expert review to assess content validity, which reduced the initial 12 items to 10 based on whether they actually reflected ChatGPT usage. Then they ran exploratory factor analysis and removed items with low factor loadings and communalities (below about 0.5). The two items dropped were “I can’t think of studies without ChatGPT” and “Use of ChatGPT is common nowadays.” This process resulted in a final 8-item scale with good reliability and validity.",
+            "p6q4": "Study 1 first used expert review to assess content validity, which reduced the initial 12 items to 10 based on whether they actually reflected ChatGPT usage. Then they ran exploratory factor analysis and removed items with low factor loadings and communalities (below about 0.5). The two items dropped were \u201cI can\u2019t think of studies without ChatGPT\u201d and \u201cUse of ChatGPT is common nowadays.\u201d This process resulted in a final 8-item scale with good reliability and validity.",
             "p6q5": "B"
           },
           "scores": {
@@ -71,17 +71,17 @@
           }
         },
         {
-          "submittedAt": "2026-04-15T00:42:05.694Z",
+          "submittedAt": "2026-04-10T15:14:30.811Z",
           "answers": {
-            "p6q10": "The paper argues that excessive ChatGPT usage leads to memory loss because it reduces students’ cognitive effort and active engagement with learning material. Instead of processing and recalling information themselves, students rely on AI to generate answers, which weakens memory formation. Over time, this lack of mental effort and practice can impair memory retention and overall cognitive functioning. In simple terms, since memory improves through active use, outsourcing thinking to ChatGPT leads to weaker memory consolidation.",
-            "p6q9": "The authors recommend that educators better manage students’ workload and time pressure by designing assignments and deadlines more carefully. They also suggest encouraging students to use ChatGPT as a support tool rather than a shortcut for completing tasks. This directly relates to the findings, since higher workload and time pressure were shown to increase ChatGPT usage. By reducing these pressures, educators can help limit overreliance and its negative effects.",
+            "p6q10": "The paper argues that excessive ChatGPT usage leads to memory loss because it reduces students\u2019 cognitive effort and active engagement with learning material. Instead of processing and recalling information themselves, students rely on AI to generate answers, which weakens memory formation. Over time, this lack of mental effort and practice can impair memory retention and overall cognitive functioning. In simple terms, since memory improves through active use, outsourcing thinking to ChatGPT leads to weaker memory consolidation.",
+            "p6q9": "The authors recommend that educators better manage students\u2019 workload and time pressure by designing assignments and deadlines more carefully. They also suggest encouraging students to use ChatGPT as a support tool rather than a shortcut for completing tasks. This directly relates to the findings, since higher workload and time pressure were shown to increase ChatGPT usage. By reducing these pressures, educators can help limit overreliance and its negative effects.",
             "p6q2": "The paper proposes that reward sensitivity could either increase ChatGPT usage, since students might use it to improve their grades, or decrease it, because they want to avoid risks like penalties or academic consequences. The results support the second prediction, showing that more reward sensitive students use ChatGPT less. The authors explain this by saying these students are more cautious and avoid behaviors that could harm their academic standing.",
             "p6q3": "C",
             "p6q1": "B",
             "p6q6": "C",
             "p6q8": "D",
             "p6q7": "The mediation was supported for workload and time pressure across all three outcomes, which are procrastination, memory loss, and academic performance. It was also supported for sensitivity to rewards for procrastination and memory loss, but not for academic performance. Mediation was not supported at all for sensitivity to quality, since it did not significantly relate to ChatGPT usage or the outcomes. This shows that ChatGPT usage mainly explains how workload and time pressure lead to negative outcomes.",
-            "p6q4": "Study 1 first used expert review to assess content validity, which reduced the initial 12 items to 10 based on whether they actually reflected ChatGPT usage. Then they ran exploratory factor analysis and removed items with low factor loadings and communalities (below about 0.5). The two items dropped were “I can’t think of studies without ChatGPT” and “Use of ChatGPT is common nowadays.” This process resulted in a final 8-item scale with good reliability and validity.",
+            "p6q4": "Study 1 first used expert review to assess content validity, which reduced the initial 12 items to 10 based on whether they actually reflected ChatGPT usage. Then they ran exploratory factor analysis and removed items with low factor loadings and communalities (below about 0.5). The two items dropped were \u201cI can\u2019t think of studies without ChatGPT\u201d and \u201cUse of ChatGPT is common nowadays.\u201d This process resulted in a final 8-item scale with good reliability and validity.",
             "p6q5": "B"
           },
           "scores": {
@@ -93,17 +93,17 @@
           }
         },
         {
-          "submittedAt": "2026-04-15T00:42:12.192Z",
+          "submittedAt": "2026-04-10T15:14:33.505Z",
           "answers": {
-            "p6q10": "The paper argues that excessive ChatGPT usage leads to memory loss because it reduces students’ cognitive effort and active engagement with learning material. Instead of processing and recalling information themselves, students rely on AI to generate answers, which weakens memory formation. Over time, this lack of mental effort and practice can impair memory retention and overall cognitive functioning. In simple terms, since memory improves through active use, outsourcing thinking to ChatGPT leads to weaker memory consolidation.",
-            "p6q9": "The authors recommend that educators better manage students’ workload and time pressure by designing assignments and deadlines more carefully. They also suggest encouraging students to use ChatGPT as a support tool rather than a shortcut for completing tasks. This directly relates to the findings, since higher workload and time pressure were shown to increase ChatGPT usage. By reducing these pressures, educators can help limit overreliance and its negative effects.",
+            "p6q10": "The paper argues that excessive ChatGPT usage leads to memory loss because it reduces students\u2019 cognitive effort and active engagement with learning material. Instead of processing and recalling information themselves, students rely on AI to generate answers, which weakens memory formation. Over time, this lack of mental effort and practice can impair memory retention and overall cognitive functioning. In simple terms, since memory improves through active use, outsourcing thinking to ChatGPT leads to weaker memory consolidation.",
+            "p6q9": "The authors recommend that educators better manage students\u2019 workload and time pressure by designing assignments and deadlines more carefully. They also suggest encouraging students to use ChatGPT as a support tool rather than a shortcut for completing tasks. This directly relates to the findings, since higher workload and time pressure were shown to increase ChatGPT usage. By reducing these pressures, educators can help limit overreliance and its negative effects.",
             "p6q2": "The paper proposes that reward sensitivity could either increase ChatGPT usage, since students might use it to improve their grades, or decrease it, because they want to avoid risks like penalties or academic consequences. The results support the second prediction, showing that more reward sensitive students use ChatGPT less. The authors explain this by saying these students are more cautious and avoid behaviors that could harm their academic standing.",
             "p6q3": "C",
             "p6q1": "B",
             "p6q6": "C",
             "p6q8": "B",
             "p6q7": "The mediation was supported for workload and time pressure across all three outcomes, which are procrastination, memory loss, and academic performance. It was also supported for sensitivity to rewards for procrastination and memory loss, but not for academic performance. Mediation was not supported at all for sensitivity to quality, since it did not significantly relate to ChatGPT usage or the outcomes. This shows that ChatGPT usage mainly explains how workload and time pressure lead to negative outcomes.",
-            "p6q4": "Study 1 first used expert review to assess content validity, which reduced the initial 12 items to 10 based on whether they actually reflected ChatGPT usage. Then they ran exploratory factor analysis and removed items with low factor loadings and communalities (below about 0.5). The two items dropped were “I can’t think of studies without ChatGPT” and “Use of ChatGPT is common nowadays.” This process resulted in a final 8-item scale with good reliability and validity.",
+            "p6q4": "Study 1 first used expert review to assess content validity, which reduced the initial 12 items to 10 based on whether they actually reflected ChatGPT usage. Then they ran exploratory factor analysis and removed items with low factor loadings and communalities (below about 0.5). The two items dropped were \u201cI can\u2019t think of studies without ChatGPT\u201d and \u201cUse of ChatGPT is common nowadays.\u201d This process resulted in a final 8-item scale with good reliability and validity.",
             "p6q5": "B"
           },
           "scores": {
@@ -116,11 +116,11 @@
         }
       ],
       "perQuestionTimeSeconds": {
-        "p6q1": 123,
-        "p6q6": 125,
-        "p6q5": 411,
-        "p6q3": 443,
-        "p6q8": 450
+        "p6q1": 40,
+        "p6q6": 38,
+        "p6q5": 124,
+        "p6q3": 134,
+        "p6q8": 136
       },
       "firstAttemptCorrect": {
         "p6q1": true,
@@ -130,15 +130,15 @@
         "p6q8": false
       },
       "finalAnswers": {
-        "p6q10": "The paper argues that excessive ChatGPT usage leads to memory loss because it reduces students’ cognitive effort and active engagement with learning material. Instead of processing and recalling information themselves, students rely on AI to generate answers, which weakens memory formation. Over time, this lack of mental effort and practice can impair memory retention and overall cognitive functioning. In simple terms, since memory improves through active use, outsourcing thinking to ChatGPT leads to weaker memory consolidation.",
-        "p6q9": "The authors recommend that educators better manage students’ workload and time pressure by designing assignments and deadlines more carefully. They also suggest encouraging students to use ChatGPT as a support tool rather than a shortcut for completing tasks. This directly relates to the findings, since higher workload and time pressure were shown to increase ChatGPT usage. By reducing these pressures, educators can help limit overreliance and its negative effects.",
+        "p6q10": "The paper argues that excessive ChatGPT usage leads to memory loss because it reduces students\u2019 cognitive effort and active engagement with learning material. Instead of processing and recalling information themselves, students rely on AI to generate answers, which weakens memory formation. Over time, this lack of mental effort and practice can impair memory retention and overall cognitive functioning. In simple terms, since memory improves through active use, outsourcing thinking to ChatGPT leads to weaker memory consolidation.",
+        "p6q9": "The authors recommend that educators better manage students\u2019 workload and time pressure by designing assignments and deadlines more carefully. They also suggest encouraging students to use ChatGPT as a support tool rather than a shortcut for completing tasks. This directly relates to the findings, since higher workload and time pressure were shown to increase ChatGPT usage. By reducing these pressures, educators can help limit overreliance and its negative effects.",
         "p6q2": "The paper proposes that reward sensitivity could either increase ChatGPT usage, since students might use it to improve their grades, or decrease it, because they want to avoid risks like penalties or academic consequences. The results support the second prediction, showing that more reward sensitive students use ChatGPT less. The authors explain this by saying these students are more cautious and avoid behaviors that could harm their academic standing.",
         "p6q3": "C",
         "p6q1": "B",
         "p6q6": "C",
         "p6q8": "B",
         "p6q7": "The mediation was supported for workload and time pressure across all three outcomes, which are procrastination, memory loss, and academic performance. It was also supported for sensitivity to rewards for procrastination and memory loss, but not for academic performance. Mediation was not supported at all for sensitivity to quality, since it did not significantly relate to ChatGPT usage or the outcomes. This shows that ChatGPT usage mainly explains how workload and time pressure lead to negative outcomes.",
-        "p6q4": "Study 1 first used expert review to assess content validity, which reduced the initial 12 items to 10 based on whether they actually reflected ChatGPT usage. Then they ran exploratory factor analysis and removed items with low factor loadings and communalities (below about 0.5). The two items dropped were “I can’t think of studies without ChatGPT” and “Use of ChatGPT is common nowadays.” This process resulted in a final 8-item scale with good reliability and validity.",
+        "p6q4": "Study 1 first used expert review to assess content validity, which reduced the initial 12 items to 10 based on whether they actually reflected ChatGPT usage. Then they ran exploratory factor analysis and removed items with low factor loadings and communalities (below about 0.5). The two items dropped were \u201cI can\u2019t think of studies without ChatGPT\u201d and \u201cUse of ChatGPT is common nowadays.\u201d This process resulted in a final 8-item scale with good reliability and validity.",
         "p6q5": "B"
       }
     },
@@ -146,14 +146,14 @@
       "paperKey": "paper5",
       "condition": "all_highlights",
       "priorPapers": [],
-      "startedAt": "2026-04-15T00:42:27.542Z",
-      "completedAt": "2026-04-15T00:50:00.388Z",
+      "startedAt": "2026-04-10T15:17:58.774Z",
+      "completedAt": "2026-04-10T15:27:09.902Z",
       "attempts": [
         {
-          "submittedAt": "2026-04-15T00:46:08.238Z",
+          "submittedAt": "2026-04-10T15:27:00.802Z",
           "answers": {
             "p5q5": "B",
-            "p5q10": "The authors raise the concern that **explanations may persuade users to follow AI advice blindly**, even when it is wrong.\n\nThis is prompted by the finding that XAI increases acceptance of AI recommendations without improving users’ ability to judge their correctness raising risks of over reliance and manipulation .",
+            "p5q10": "The authors raise the concern that **explanations may persuade users to follow AI advice blindly**, even when it is wrong.\n\nThis is prompted by the finding that XAI increases acceptance of AI recommendations without improving users\u2019 ability to judge their correctness raising risks of over reliance and manipulation .",
             "p5q6": "B",
             "p5q8": "D",
             "p5q3": "A",
@@ -169,12 +169,12 @@
           }
         },
         {
-          "submittedAt": "2026-04-15T00:49:31.924Z",
+          "submittedAt": "2026-04-10T15:27:04.602Z",
           "answers": {
-            "p5q9": "The findings are pretty mixed. In some cases, explanations make people trust and follow the AI more, even when it’s wrong, while in other cases they either reduce reliance or don’t change behavior much. Overall, it shows that explanations don’t have a consistent effect and can influence users in different ways depending on the situation.",
-            "p5q2": "The paper compares human performance with XAI support and also compares AIonly performance with XAI supported performance. Since XAI doesn’t really outperform AI alone, it suggests that any improvement over humans is mostly due to having AI support in general, not the explanations themselves.",
+            "p5q9": "The findings are pretty mixed. In some cases, explanations make people trust and follow the AI more, even when it\u2019s wrong, while in other cases they either reduce reliance or don\u2019t change behavior much. Overall, it shows that explanations don\u2019t have a consistent effect and can influence users in different ways depending on the situation.",
+            "p5q2": "The paper compares human performance with XAI support and also compares AIonly performance with XAI supported performance. Since XAI doesn\u2019t really outperform AI alone, it suggests that any improvement over humans is mostly due to having AI support in general, not the explanations themselves.",
             "p5q5": "B",
-            "p5q10": "The authors raise the concern that **explanations may persuade users to follow AI advice blindly**, even when it is wrong.\n\nThis is prompted by the finding that XAI increases acceptance of AI recommendations without improving users’ ability to judge their correctness raising risks of over reliance and manipulation .",
+            "p5q10": "The authors raise the concern that **explanations may persuade users to follow AI advice blindly**, even when it is wrong.\n\nThis is prompted by the finding that XAI increases acceptance of AI recommendations without improving users\u2019 ability to judge their correctness raising risks of over reliance and manipulation .",
             "p5q6": "B",
             "p5q8": "D",
             "p5q3": "A",
@@ -190,12 +190,12 @@
           }
         },
         {
-          "submittedAt": "2026-04-15T00:50:00.383Z",
+          "submittedAt": "2026-04-10T15:27:07.202Z",
           "answers": {
-            "p5q9": "The findings are pretty mixed. In some cases, explanations make people trust and follow the AI more, even when it’s wrong, while in other cases they either reduce reliance or don’t change behavior much. Overall, it shows that explanations don’t have a consistent effect and can influence users in different ways depending on the situation.",
-            "p5q2": "The paper compares human performance with XAI support and also compares AIonly performance with XAI supported performance. Since XAI doesn’t really outperform AI alone, it suggests that any improvement over humans is mostly due to having AI support in general, not the explanations themselves.",
+            "p5q9": "The findings are pretty mixed. In some cases, explanations make people trust and follow the AI more, even when it\u2019s wrong, while in other cases they either reduce reliance or don\u2019t change behavior much. Overall, it shows that explanations don\u2019t have a consistent effect and can influence users in different ways depending on the situation.",
+            "p5q2": "The paper compares human performance with XAI support and also compares AIonly performance with XAI supported performance. Since XAI doesn\u2019t really outperform AI alone, it suggests that any improvement over humans is mostly due to having AI support in general, not the explanations themselves.",
             "p5q5": "B",
-            "p5q10": "The authors raise the concern that **explanations may persuade users to follow AI advice blindly**, even when it is wrong.\n\nThis is prompted by the finding that XAI increases acceptance of AI recommendations without improving users’ ability to judge their correctness raising risks of over reliance and manipulation .",
+            "p5q10": "The authors raise the concern that **explanations may persuade users to follow AI advice blindly**, even when it is wrong.\n\nThis is prompted by the finding that XAI increases acceptance of AI recommendations without improving users\u2019 ability to judge their correctness raising risks of over reliance and manipulation .",
             "p5q7": "authors suggests XAI could help either by making people more likely to follow AI advice or by helping them better judge when the AI is correct or incorrect. The qualitative review found stronger evidence for increased acceptance rather than improved judgment.",
             "p5q6": "B",
             "p5q8": "C",
@@ -213,11 +213,11 @@
         }
       ],
       "perQuestionTimeSeconds": {
-        "p5q5": 24,
-        "p5q6": 211,
-        "p5q1": 20,
-        "p5q8": 435,
-        "p5q3": 437
+        "p5q5": 14,
+        "p5q6": 103,
+        "p5q1": 9,
+        "p5q8": 212,
+        "p5q3": 213
       },
       "firstAttemptCorrect": {
         "p5q1": true,
@@ -227,10 +227,10 @@
         "p5q8": false
       },
       "finalAnswers": {
-        "p5q9": "The findings are pretty mixed. In some cases, explanations make people trust and follow the AI more, even when it’s wrong, while in other cases they either reduce reliance or don’t change behavior much. Overall, it shows that explanations don’t have a consistent effect and can influence users in different ways depending on the situation.",
-        "p5q2": "The paper compares human performance with XAI support and also compares AIonly performance with XAI supported performance. Since XAI doesn’t really outperform AI alone, it suggests that any improvement over humans is mostly due to having AI support in general, not the explanations themselves.",
+        "p5q9": "The findings are pretty mixed. In some cases, explanations make people trust and follow the AI more, even when it\u2019s wrong, while in other cases they either reduce reliance or don\u2019t change behavior much. Overall, it shows that explanations don\u2019t have a consistent effect and can influence users in different ways depending on the situation.",
+        "p5q2": "The paper compares human performance with XAI support and also compares AIonly performance with XAI supported performance. Since XAI doesn\u2019t really outperform AI alone, it suggests that any improvement over humans is mostly due to having AI support in general, not the explanations themselves.",
         "p5q5": "B",
-        "p5q10": "The authors raise the concern that **explanations may persuade users to follow AI advice blindly**, even when it is wrong.\n\nThis is prompted by the finding that XAI increases acceptance of AI recommendations without improving users’ ability to judge their correctness raising risks of over reliance and manipulation .",
+        "p5q10": "The authors raise the concern that **explanations may persuade users to follow AI advice blindly**, even when it is wrong.\n\nThis is prompted by the finding that XAI increases acceptance of AI recommendations without improving users\u2019 ability to judge their correctness raising risks of over reliance and manipulation .",
         "p5q7": "authors suggests XAI could help either by making people more likely to follow AI advice or by helping them better judge when the AI is correct or incorrect. The qualitative review found stronger evidence for increased acceptance rather than improved judgment.",
         "p5q6": "B",
         "p5q8": "C",
@@ -243,18 +243,18 @@
       "paperKey": "paper4",
       "condition": "contextual_highlights",
       "priorPapers": [],
-      "startedAt": "2026-04-15T00:50:15.232Z",
-      "completedAt": "2026-04-15T00:56:21.580Z",
+      "startedAt": "2026-04-10T15:29:33.115Z",
+      "completedAt": "2026-04-10T15:37:40.422Z",
       "attempts": [
         {
-          "submittedAt": "2026-04-15T00:56:09.257Z",
+          "submittedAt": "2026-04-10T15:37:31.322Z",
           "answers": {
-            "p4q6": "It feels like motivation gets you to want to think critically, but ability decides if you actually can follow through. So things break down when people care about the outcome but don’t have the skills or knowledge to question or fix the AI output",
+            "p4q6": "It feels like motivation gets you to want to think critically, but ability decides if you actually can follow through. So things break down when people care about the outcome but don\u2019t have the skills or knowledge to question or fix the AI output",
             "p4q4": "The effort shifts away from doing the task itself toward checking, combining, and judging AI outputs. This basically turns workers into more of an editor or reviewer rather than the one creating everything from scratch",
-            "p4q8": "The main barriers are lack of awareness, limited knowledge in the domain, and difficulty improving AI responses. The one that came up the most was difficulty refining or fixing AI outputs, especially when people didn’t fully understand the topic",
+            "p4q8": "The main barriers are lack of awareness, limited knowledge in the domain, and difficulty improving AI responses. The one that came up the most was difficulty refining or fixing AI outputs, especially when people didn\u2019t fully understand the topic",
             "p4q7": "B",
             "p4q5": "A",
-            "p4q10": "Stewardship shows that the human is still the one guiding and being responsible for the final outcome, even if AI is involved. It basically means the accountability doesn’t shift to the AI, it stays with the user who decides what to accept or change",
+            "p4q10": "Stewardship shows that the human is still the one guiding and being responsible for the final outcome, even if AI is involved. It basically means the accountability doesn\u2019t shift to the AI, it stays with the user who decides what to accept or change",
             "p4q1": "C",
             "p4q2": "One question looks at when and how people actually use critical thinking with GenAI, and the other looks at when and why GenAI changes how much effort that takes. So one is about behavior, and the other is more about effort and perception",
             "p4q9": "D",
@@ -269,14 +269,14 @@
           }
         },
         {
-          "submittedAt": "2026-04-15T00:56:17.186Z",
+          "submittedAt": "2026-04-10T15:37:35.122Z",
           "answers": {
-            "p4q6": "It feels like motivation gets you to want to think critically, but ability decides if you actually can follow through. So things break down when people care about the outcome but don’t have the skills or knowledge to question or fix the AI output",
+            "p4q6": "It feels like motivation gets you to want to think critically, but ability decides if you actually can follow through. So things break down when people care about the outcome but don\u2019t have the skills or knowledge to question or fix the AI output",
             "p4q4": "The effort shifts away from doing the task itself toward checking, combining, and judging AI outputs. This basically turns workers into more of an editor or reviewer rather than the one creating everything from scratch",
-            "p4q8": "The main barriers are lack of awareness, limited knowledge in the domain, and difficulty improving AI responses. The one that came up the most was difficulty refining or fixing AI outputs, especially when people didn’t fully understand the topic",
+            "p4q8": "The main barriers are lack of awareness, limited knowledge in the domain, and difficulty improving AI responses. The one that came up the most was difficulty refining or fixing AI outputs, especially when people didn\u2019t fully understand the topic",
             "p4q7": "B",
             "p4q5": "C",
-            "p4q10": "Stewardship shows that the human is still the one guiding and being responsible for the final outcome, even if AI is involved. It basically means the accountability doesn’t shift to the AI, it stays with the user who decides what to accept or change",
+            "p4q10": "Stewardship shows that the human is still the one guiding and being responsible for the final outcome, even if AI is involved. It basically means the accountability doesn\u2019t shift to the AI, it stays with the user who decides what to accept or change",
             "p4q1": "C",
             "p4q2": "One question looks at when and how people actually use critical thinking with GenAI, and the other looks at when and why GenAI changes how much effort that takes. So one is about behavior, and the other is more about effort and perception",
             "p4q9": "D",
@@ -291,14 +291,14 @@
           }
         },
         {
-          "submittedAt": "2026-04-15T00:56:18.827Z",
+          "submittedAt": "2026-04-10T15:37:37.722Z",
           "answers": {
-            "p4q6": "It feels like motivation gets you to want to think critically, but ability decides if you actually can follow through. So things break down when people care about the outcome but don’t have the skills or knowledge to question or fix the AI output",
+            "p4q6": "It feels like motivation gets you to want to think critically, but ability decides if you actually can follow through. So things break down when people care about the outcome but don\u2019t have the skills or knowledge to question or fix the AI output",
             "p4q4": "The effort shifts away from doing the task itself toward checking, combining, and judging AI outputs. This basically turns workers into more of an editor or reviewer rather than the one creating everything from scratch",
-            "p4q8": "The main barriers are lack of awareness, limited knowledge in the domain, and difficulty improving AI responses. The one that came up the most was difficulty refining or fixing AI outputs, especially when people didn’t fully understand the topic",
+            "p4q8": "The main barriers are lack of awareness, limited knowledge in the domain, and difficulty improving AI responses. The one that came up the most was difficulty refining or fixing AI outputs, especially when people didn\u2019t fully understand the topic",
             "p4q7": "B",
             "p4q5": "B",
-            "p4q10": "Stewardship shows that the human is still the one guiding and being responsible for the final outcome, even if AI is involved. It basically means the accountability doesn’t shift to the AI, it stays with the user who decides what to accept or change",
+            "p4q10": "Stewardship shows that the human is still the one guiding and being responsible for the final outcome, even if AI is involved. It basically means the accountability doesn\u2019t shift to the AI, it stays with the user who decides what to accept or change",
             "p4q1": "C",
             "p4q2": "One question looks at when and how people actually use critical thinking with GenAI, and the other looks at when and why GenAI changes how much effort that takes. So one is about behavior, and the other is more about effort and perception",
             "p4q9": "D",
@@ -313,14 +313,14 @@
           }
         },
         {
-          "submittedAt": "2026-04-15T00:56:21.577Z",
+          "submittedAt": "2026-04-10T15:37:40.416Z",
           "answers": {
-            "p4q6": "It feels like motivation gets you to want to think critically, but ability decides if you actually can follow through. So things break down when people care about the outcome but don’t have the skills or knowledge to question or fix the AI output",
+            "p4q6": "It feels like motivation gets you to want to think critically, but ability decides if you actually can follow through. So things break down when people care about the outcome but don\u2019t have the skills or knowledge to question or fix the AI output",
             "p4q4": "The effort shifts away from doing the task itself toward checking, combining, and judging AI outputs. This basically turns workers into more of an editor or reviewer rather than the one creating everything from scratch",
-            "p4q8": "The main barriers are lack of awareness, limited knowledge in the domain, and difficulty improving AI responses. The one that came up the most was difficulty refining or fixing AI outputs, especially when people didn’t fully understand the topic",
+            "p4q8": "The main barriers are lack of awareness, limited knowledge in the domain, and difficulty improving AI responses. The one that came up the most was difficulty refining or fixing AI outputs, especially when people didn\u2019t fully understand the topic",
             "p4q7": "B",
             "p4q5": "B",
-            "p4q10": "Stewardship shows that the human is still the one guiding and being responsible for the final outcome, even if AI is involved. It basically means the accountability doesn’t shift to the AI, it stays with the user who decides what to accept or change",
+            "p4q10": "Stewardship shows that the human is still the one guiding and being responsible for the final outcome, even if AI is involved. It basically means the accountability doesn\u2019t shift to the AI, it stays with the user who decides what to accept or change",
             "p4q1": "C",
             "p4q2": "One question looks at when and how people actually use critical thinking with GenAI, and the other looks at when and why GenAI changes how much effort that takes. So one is about behavior, and the other is more about effort and perception",
             "p4q9": "D",
@@ -336,11 +336,11 @@
         }
       ],
       "perQuestionTimeSeconds": {
-        "p4q7": 206,
-        "p4q1": 201,
-        "p4q9": 197,
-        "p4q5": 363,
-        "p4q3": 365
+        "p4q7": 77,
+        "p4q1": 73,
+        "p4q9": 72,
+        "p4q5": 132,
+        "p4q3": 133
       },
       "firstAttemptCorrect": {
         "p4q1": true,
@@ -350,12 +350,12 @@
         "p4q9": true
       },
       "finalAnswers": {
-        "p4q6": "It feels like motivation gets you to want to think critically, but ability decides if you actually can follow through. So things break down when people care about the outcome but don’t have the skills or knowledge to question or fix the AI output",
+        "p4q6": "It feels like motivation gets you to want to think critically, but ability decides if you actually can follow through. So things break down when people care about the outcome but don\u2019t have the skills or knowledge to question or fix the AI output",
         "p4q4": "The effort shifts away from doing the task itself toward checking, combining, and judging AI outputs. This basically turns workers into more of an editor or reviewer rather than the one creating everything from scratch",
-        "p4q8": "The main barriers are lack of awareness, limited knowledge in the domain, and difficulty improving AI responses. The one that came up the most was difficulty refining or fixing AI outputs, especially when people didn’t fully understand the topic",
+        "p4q8": "The main barriers are lack of awareness, limited knowledge in the domain, and difficulty improving AI responses. The one that came up the most was difficulty refining or fixing AI outputs, especially when people didn\u2019t fully understand the topic",
         "p4q7": "B",
         "p4q5": "B",
-        "p4q10": "Stewardship shows that the human is still the one guiding and being responsible for the final outcome, even if AI is involved. It basically means the accountability doesn’t shift to the AI, it stays with the user who decides what to accept or change",
+        "p4q10": "Stewardship shows that the human is still the one guiding and being responsible for the final outcome, even if AI is involved. It basically means the accountability doesn\u2019t shift to the AI, it stays with the user who decides what to accept or change",
         "p4q1": "C",
         "p4q2": "One question looks at when and how people actually use critical thinking with GenAI, and the other looks at when and why GenAI changes how much effort that takes. So one is about behavior, and the other is more about effort and perception",
         "p4q9": "D",
@@ -366,7 +366,7 @@
   "questionnaireResponses": [
     {
       "paperKey": "paper6",
-      "submittedAt": "2026-04-15T00:42:25.379Z",
+      "submittedAt": "2026-04-10T15:15:41.902Z",
       "responses": {
         "p6diff1": 4,
         "p6diff2": 4,
@@ -383,7 +383,7 @@
     },
     {
       "paperKey": "paper5",
-      "submittedAt": "2026-04-15T00:50:12.743Z",
+      "submittedAt": "2026-04-10T15:28:05.113Z",
       "responses": {
         "p5diff1": 4,
         "p5diff2": 4,
@@ -400,7 +400,7 @@
     },
     {
       "paperKey": "paper4",
-      "submittedAt": "2026-04-15T00:56:34.477Z",
+      "submittedAt": "2026-04-10T15:39:12.771Z",
       "responses": {
         "p4diff1": 4,
         "p4diff2": 4,
@@ -431,7 +431,7 @@
   },
   "crossAttempts": [
     {
-      "submittedAt": "2026-04-15T01:00:35.275Z",
+      "submittedAt": "2026-04-10T15:44:28.557Z",
       "answers": {
         "cpq1": "B",
         "cpq2": "An inherent autopilot mode could happen where users essentially blindly trust the output of the AI rather than thinign critically about it. Eg. knowledge workers (especially if they aren't supepr self confident) may just trust the AI.",
@@ -453,7 +453,7 @@
       }
     },
     {
-      "submittedAt": "2026-04-15T01:00:42.675Z",
+      "submittedAt": "2026-04-10T15:44:37.991Z",
       "answers": {
         "cpq1": "B",
         "cpq2": "An inherent autopilot mode could happen where users essentially blindly trust the output of the AI rather than thinign critically about it. Eg. knowledge workers (especially if they aren't supepr self confident) may just trust the AI.",
@@ -475,7 +475,7 @@
       }
     }
   ],
-  "completedAt": "2026-04-15T01:02:05.104Z",
+  "completedAt": "2026-04-10T15:46:02.184Z",
   "questionOrders": {
     "paper6": [
       "p6q10",

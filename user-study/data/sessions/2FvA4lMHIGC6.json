@@ -11,7 +11,7 @@
     "all_highlights",
     "contextual_highlights"
   ],
-  "createdAt": "2026-04-15T04:32:45.760Z",
+  "createdAt": "2026-04-08T20:17:42.931Z",
   "step": "done",
   "demographicResponses": {
     "age": "C",
@@ -25,14 +25,14 @@
       "paperKey": "paper5",
       "condition": "no_highlights",
       "priorPapers": [],
-      "startedAt": "2026-04-15T04:33:05.800Z",
-      "completedAt": "2026-04-15T04:39:13.326Z",
+      "startedAt": "2026-04-08T20:19:11.284Z",
+      "completedAt": "2026-04-08T20:28:46.512Z",
       "attempts": [
         {
-          "submittedAt": "2026-04-15T04:39:08.056Z",
+          "submittedAt": "2026-04-08T20:28:40.712Z",
           "answers": {
             "p5q10": "The ethical concern is that explanations may act as persuasive tools that increase trust in AI outputs regardless of their correctness. This concern arises from findings that explanations can increase acceptance of AI advice even when it is wrong, potentially leading to overreliance and harmful decision making.",
-            "p5q9": "Some studies find that explanations increase users’ acceptance of AI advice, even when it is incorrect, suggesting a persuasive effect. Other studies find that explanations have no effect or even reduce reliance, particularly when additional signals like confidence are provided. These conflicting findings demonstrate that the impact of explanations on user behavior is inconsistent and context dependent.",
+            "p5q9": "Some studies find that explanations increase users\u2019 acceptance of AI advice, even when it is incorrect, suggesting a persuasive effect. Other studies find that explanations have no effect or even reduce reliance, particularly when additional signals like confidence are provided. These conflicting findings demonstrate that the impact of explanations on user behavior is inconsistent and context dependent.",
             "p5q3": "D",
             "p5q7": "The two mechanisms are increased acceptance of AI advice and improved calibration of reliance, meaning better ability to distinguish when to trust AI. The qualitative review finds stronger evidence for increased acceptance, indicating that explanations primarily make users more likely to follow AI recommendations rather than improving their ability to critically evaluate them.",
             "p5q2": "1. human performance versus XAI-assisted performance, and 2. AI-assisted performance versus XAI assisted performance. While XAI improves performance relative to humans alone, it does not significantly outperform AI without explanations. This means the observed improvement should be attributed to AI assistance in general, rather than the added value of explanations specifically.",
@@ -51,10 +51,10 @@
           }
         },
         {
-          "submittedAt": "2026-04-15T04:39:09.693Z",
+          "submittedAt": "2026-04-08T20:28:43.412Z",
           "answers": {
             "p5q10": "The ethical concern is that explanations may act as persuasive tools that increase trust in AI outputs regardless of their correctness. This concern arises from findings that explanations can increase acceptance of AI advice even when it is wrong, potentially leading to overreliance and harmful decision making.",
-            "p5q9": "Some studies find that explanations increase users’ acceptance of AI advice, even when it is incorrect, suggesting a persuasive effect. Other studies find that explanations have no effect or even reduce reliance, particularly when additional signals like confidence are provided. These conflicting findings demonstrate that the impact of explanations on user behavior is inconsistent and context dependent.",
+            "p5q9": "Some studies find that explanations increase users\u2019 acceptance of AI advice, even when it is incorrect, suggesting a persuasive effect. Other studies find that explanations have no effect or even reduce reliance, particularly when additional signals like confidence are provided. These conflicting findings demonstrate that the impact of explanations on user behavior is inconsistent and context dependent.",
             "p5q3": "D",
             "p5q7": "The two mechanisms are increased acceptance of AI advice and improved calibration of reliance, meaning better ability to distinguish when to trust AI. The qualitative review finds stronger evidence for increased acceptance, indicating that explanations primarily make users more likely to follow AI recommendations rather than improving their ability to critically evaluate them.",
             "p5q2": "1. human performance versus XAI-assisted performance, and 2. AI-assisted performance versus XAI assisted performance. While XAI improves performance relative to humans alone, it does not significantly outperform AI without explanations. This means the observed improvement should be attributed to AI assistance in general, rather than the added value of explanations specifically.",
@@ -73,10 +73,10 @@
           }
         },
         {
-          "submittedAt": "2026-04-15T04:39:13.321Z",
+          "submittedAt": "2026-04-08T20:28:46.508Z",
           "answers": {
             "p5q10": "The ethical concern is that explanations may act as persuasive tools that increase trust in AI outputs regardless of their correctness. This concern arises from findings that explanations can increase acceptance of AI advice even when it is wrong, potentially leading to overreliance and harmful decision making.",
-            "p5q9": "Some studies find that explanations increase users’ acceptance of AI advice, even when it is incorrect, suggesting a persuasive effect. Other studies find that explanations have no effect or even reduce reliance, particularly when additional signals like confidence are provided. These conflicting findings demonstrate that the impact of explanations on user behavior is inconsistent and context dependent.",
+            "p5q9": "Some studies find that explanations increase users\u2019 acceptance of AI advice, even when it is incorrect, suggesting a persuasive effect. Other studies find that explanations have no effect or even reduce reliance, particularly when additional signals like confidence are provided. These conflicting findings demonstrate that the impact of explanations on user behavior is inconsistent and context dependent.",
             "p5q3": "D",
             "p5q7": "The two mechanisms are increased acceptance of AI advice and improved calibration of reliance, meaning better ability to distinguish when to trust AI. The qualitative review finds stronger evidence for increased acceptance, indicating that explanations primarily make users more likely to follow AI recommendations rather than improving their ability to critically evaluate them.",
             "p5q2": "1. human performance versus XAI-assisted performance, and 2. AI-assisted performance versus XAI assisted performance. While XAI improves performance relative to humans alone, it does not significantly outperform AI without explanations. This means the observed improvement should be attributed to AI assistance in general, rather than the added value of explanations specifically.",
@@ -96,11 +96,11 @@
         }
       ],
       "perQuestionTimeSeconds": {
-        "p5q3": 308,
-        "p5q1": 347,
-        "p5q5": 350,
-        "p5q6": 363,
-        "p5q8": 367
+        "p5q3": 104,
+        "p5q1": 115,
+        "p5q5": 115,
+        "p5q6": 120,
+        "p5q8": 121
       },
       "firstAttemptCorrect": {
         "p5q1": true,
@@ -111,7 +111,7 @@
       },
       "finalAnswers": {
         "p5q10": "The ethical concern is that explanations may act as persuasive tools that increase trust in AI outputs regardless of their correctness. This concern arises from findings that explanations can increase acceptance of AI advice even when it is wrong, potentially leading to overreliance and harmful decision making.",
-        "p5q9": "Some studies find that explanations increase users’ acceptance of AI advice, even when it is incorrect, suggesting a persuasive effect. Other studies find that explanations have no effect or even reduce reliance, particularly when additional signals like confidence are provided. These conflicting findings demonstrate that the impact of explanations on user behavior is inconsistent and context dependent.",
+        "p5q9": "Some studies find that explanations increase users\u2019 acceptance of AI advice, even when it is incorrect, suggesting a persuasive effect. Other studies find that explanations have no effect or even reduce reliance, particularly when additional signals like confidence are provided. These conflicting findings demonstrate that the impact of explanations on user behavior is inconsistent and context dependent.",
         "p5q3": "D",
         "p5q7": "The two mechanisms are increased acceptance of AI advice and improved calibration of reliance, meaning better ability to distinguish when to trust AI. The qualitative review finds stronger evidence for increased acceptance, indicating that explanations primarily make users more likely to follow AI recommendations rather than improving their ability to critically evaluate them.",
         "p5q2": "1. human performance versus XAI-assisted performance, and 2. AI-assisted performance versus XAI assisted performance. While XAI improves performance relative to humans alone, it does not significantly outperform AI without explanations. This means the observed improvement should be attributed to AI assistance in general, rather than the added value of explanations specifically.",
@@ -126,11 +126,11 @@
       "paperKey": "paper6",
       "condition": "all_highlights",
       "priorPapers": [],
-      "startedAt": "2026-04-15T04:39:37.790Z",
-      "completedAt": "2026-04-15T04:42:13.401Z",
+      "startedAt": "2026-04-08T20:31:52.663Z",
+      "completedAt": "2026-04-08T20:41:18.207Z",
       "attempts": [
         {
-          "submittedAt": "2026-04-15T04:41:57.233Z",
+          "submittedAt": "2026-04-08T20:41:11.507Z",
           "answers": {
             "p6q10": "The proposed mechanism is reduced cognitive effort and lack of active learning. When students rely on ChatGPT, they engage less in mental processing, which weakens memory consolidation and cognitive skills over time.",
             "p6q6": "C",
@@ -152,7 +152,7 @@
           }
         },
         {
-          "submittedAt": "2026-04-15T04:42:13.393Z",
+          "submittedAt": "2026-04-08T20:41:18.201Z",
           "answers": {
             "p6q10": "The proposed mechanism is reduced cognitive effort and lack of active learning. When students rely on ChatGPT, they engage less in mental processing, which weakens memory consolidation and cognitive skills over time.",
             "p6q6": "C",
@@ -175,11 +175,11 @@
         }
       ],
       "perQuestionTimeSeconds": {
-        "p6q6": 95,
-        "p6q3": 76,
-        "p6q8": 79,
-        "p6q5": 138,
-        "p6q1": 154
+        "p6q6": 101,
+        "p6q3": 79,
+        "p6q8": 82,
+        "p6q5": 143,
+        "p6q1": 160
       },
       "firstAttemptCorrect": {
         "p6q1": false,
@@ -205,11 +205,11 @@
       "paperKey": "paper4",
       "condition": "contextual_highlights",
       "priorPapers": [],
-      "startedAt": "2026-04-15T04:43:00.755Z",
-      "completedAt": "2026-04-15T04:46:02.317Z",
+      "startedAt": "2026-04-08T20:44:37.918Z",
+      "completedAt": "2026-04-08T20:54:05.771Z",
       "attempts": [
         {
-          "submittedAt": "2026-04-15T04:45:23.456Z",
+          "submittedAt": "2026-04-08T20:53:59.071Z",
           "answers": {
             "p4q2": "1. when and how knowledge workers perceive the enaction of critical thinking when using Gen AI, and 2. when and why knowledge workers perceive changes in effort for critical thinking due to Ge nAI. The key difference is that the first focuses on observable behaviors and practices of critical thinking, while the second focuses on perceived cognitive effort and the reasons behind increases or decreases in that effort.",
             "p4q10": "This term is used because it emphasizes that humans retain full responsibility for outcomes even when AI performs much of the task. This framing highlights that accountability does not shift to the AI system, but remains with the human, who must guide, evaluate, and take ownership of the final output.",
@@ -231,7 +231,7 @@
           }
         },
         {
-          "submittedAt": "2026-04-15T04:46:02.311Z",
+          "submittedAt": "2026-04-08T20:54:05.765Z",
           "answers": {
             "p4q2": "1. when and how knowledge workers perceive the enaction of critical thinking when using Gen AI, and 2. when and why knowledge workers perceive changes in effort for critical thinking due to Ge nAI. The key difference is that the first focuses on observable behaviors and practices of critical thinking, while the second focuses on perceived cognitive effort and the reasons behind increases or decreases in that effort.",
             "p4q10": "This term is used because it emphasizes that humans retain full responsibility for outcomes even when AI performs much of the task. This framing highlights that accountability does not shift to the AI system, but remains with the human, who must guide, evaluate, and take ownership of the final output.",
@@ -254,11 +254,11 @@
         }
       ],
       "perQuestionTimeSeconds": {
-        "p4q1": 69,
-        "p4q5": 86,
-        "p4q7": 87,
-        "p4q9": 75,
-        "p4q3": 178
+        "p4q1": 82,
+        "p4q5": 98,
+        "p4q7": 99,
+        "p4q9": 85,
+        "p4q3": 203
       },
       "firstAttemptCorrect": {
         "p4q1": true,
@@ -284,7 +284,7 @@
   "questionnaireResponses": [
     {
       "paperKey": "paper5",
-      "submittedAt": "2026-04-15T04:39:35.358Z",
+      "submittedAt": "2026-04-08T20:30:12.448Z",
       "responses": {
         "p5diff1": 3,
         "p5diff2": 3,
@@ -302,7 +302,7 @@
     },
     {
       "paperKey": "paper6",
-      "submittedAt": "2026-04-15T04:42:43.307Z",
+      "submittedAt": "2026-04-08T20:42:59.771Z",
       "responses": {
         "p6diff1": 2,
         "p6diff2": 2,
@@ -320,7 +320,7 @@
     },
     {
       "paperKey": "paper4",
-      "submittedAt": "2026-04-15T04:46:15.435Z",
+      "submittedAt": "2026-04-08T20:55:18.602Z",
       "responses": {
         "p4diff1": 2,
         "p4diff2": 2,
@@ -351,7 +351,7 @@
   },
   "crossAttempts": [
     {
-      "submittedAt": "2026-04-15T04:49:27.597Z",
+      "submittedAt": "2026-04-08T21:00:41.119Z",
       "answers": {
         "cpq1": "B",
         "cpq2": "Cognitive effort shifts from task execution to evaluation and verification because AI automates content generation, requiring users to focus more on checking and refining outputs rather than producing them.",
@@ -360,7 +360,7 @@
         "cpq5": "B",
         "cpq6": "One key factor is confidence particularly confidence in AI systems, as higher confidence reduces the likelihood that users will verify outputs critically.",
         "cpq7": "B",
-        "cpq8": "It reduces the amount of appeared effort needed to complete a task, which makes accepting its output feel efficient and convenient. This connects directly to the critical thinking paper, which found that higher confidence in GenAI is associated with less critical thinking, suggesting that when users trust the system’s capability, they become less likely to question or verify its outputs.",
+        "cpq8": "It reduces the amount of appeared effort needed to complete a task, which makes accepting its output feel efficient and convenient. This connects directly to the critical thinking paper, which found that higher confidence in GenAI is associated with less critical thinking, suggesting that when users trust the system\u2019s capability, they become less likely to question or verify its outputs.",
         "cpq9": "C",
         "cpq10": "AI improves performance by increasing efficiency and supporting decision-making, but it creates risks by reducing cognitive effort and encouraging overreliance. When users fail to verify outputs due to trust or convenience, errors can occur despite the performance gains."
       },
@@ -373,7 +373,7 @@
       }
     }
   ],
-  "completedAt": "2026-04-15T04:50:40.802Z",
+  "completedAt": "2026-04-08T21:01:53.884Z",
   "questionOrders": {
     "paper5": [
       "p5q10",
@@ -518,7 +518,7 @@
     "cpq5": "B",
     "cpq6": "One key factor is confidence particularly confidence in AI systems, as higher confidence reduces the likelihood that users will verify outputs critically.",
     "cpq7": "B",
-    "cpq8": "It reduces the amount of appeared effort needed to complete a task, which makes accepting its output feel efficient and convenient. This connects directly to the critical thinking paper, which found that higher confidence in GenAI is associated with less critical thinking, suggesting that when users trust the system’s capability, they become less likely to question or verify its outputs.",
+    "cpq8": "It reduces the amount of appeared effort needed to complete a task, which makes accepting its output feel efficient and convenient. This connects directly to the critical thinking paper, which found that higher confidence in GenAI is associated with less critical thinking, suggesting that when users trust the system\u2019s capability, they become less likely to question or verify its outputs.",
     "cpq9": "C",
     "cpq10": "AI improves performance by increasing efficiency and supporting decision-making, but it creates risks by reducing cognitive effort and encouraging overreliance. When users fail to verify outputs due to trust or convenience, errors can occur despite the performance gains."
   }

@@ -11,7 +11,7 @@
     "no_highlights",
     "contextual_highlights"
   ],
-  "createdAt": "2026-04-15T08:18:26.065Z",
+  "createdAt": "2026-04-11T10:14:52.118Z",
   "step": "done",
   "demographicResponses": {
     "age": "B",
@@ -25,16 +25,16 @@
       "paperKey": "paper5",
       "condition": "all_highlights",
       "priorPapers": [],
-      "startedAt": "2026-04-15T08:21:00.128Z",
-      "completedAt": "2026-04-15T08:29:02.224Z",
+      "startedAt": "2026-04-11T10:16:21.447Z",
+      "completedAt": "2026-04-11T10:24:55.331Z",
       "attempts": [
         {
-          "submittedAt": "2026-04-15T08:29:02.221Z",
+          "submittedAt": "2026-04-11T10:24:44.631Z",
           "answers": {
             "p5q1": "B",
             "p5q5": "B",
             "p5q6": "B",
-            "p5q2": "The paper compares human vs. XAI-assisted performance and AI vs. XAI-assisted performance; since XAI doesn’t outperform AI alone, the improvement over humans should really be seen as the benefit of AI in general, not explanations specifically.",
+            "p5q2": "The paper compares human vs. XAI-assisted performance and AI vs. XAI-assisted performance; since XAI doesn\u2019t outperform AI alone, the improvement over humans should really be seen as the benefit of AI in general, not explanations specifically.",
             "p5q3": "D",
             "p5q7": "XAI could help by increasing how often people accept AI advice or by helping them better judge when the AI is correct, but the evidence was stronger for increased acceptance.",
             "p5q8": "C",
@@ -51,11 +51,11 @@
         }
       ],
       "perQuestionTimeSeconds": {
-        "p5q1": 187,
-        "p5q5": 192,
-        "p5q6": 388,
-        "p5q3": 400,
-        "p5q8": 410
+        "p5q1": 62,
+        "p5q5": 62,
+        "p5q6": 126,
+        "p5q3": 130,
+        "p5q8": 133
       },
       "firstAttemptCorrect": {
         "p5q1": true,
@@ -68,7 +68,7 @@
         "p5q1": "B",
         "p5q5": "B",
         "p5q6": "B",
-        "p5q2": "The paper compares human vs. XAI-assisted performance and AI vs. XAI-assisted performance; since XAI doesn’t outperform AI alone, the improvement over humans should really be seen as the benefit of AI in general, not explanations specifically.",
+        "p5q2": "The paper compares human vs. XAI-assisted performance and AI vs. XAI-assisted performance; since XAI doesn\u2019t outperform AI alone, the improvement over humans should really be seen as the benefit of AI in general, not explanations specifically.",
         "p5q3": "D",
         "p5q7": "XAI could help by increasing how often people accept AI advice or by helping them better judge when the AI is correct, but the evidence was stronger for increased acceptance.",
         "p5q8": "C",
@@ -80,19 +80,19 @@
       "paperKey": "paper4",
       "condition": "no_highlights",
       "priorPapers": [],
-      "startedAt": "2026-04-15T08:32:19.649Z",
-      "completedAt": "2026-04-15T08:41:41.364Z",
+      "startedAt": "2026-04-11T10:28:09.882Z",
+      "completedAt": "2026-04-11T10:37:21.901Z",
       "attempts": [
         {
-          "submittedAt": "2026-04-15T08:41:41.334Z",
+          "submittedAt": "2026-04-11T10:37:11.201Z",
           "answers": {
             "p4q4": "The paper shows a shift from actually doing tasks (analysis, synthesis) to reviewing and judging AI outputs (evaluation). This creates a new role where workers act more like editors or supervisors, focusing on checking accuracy and quality rather than producing everything themselves.",
-            "p4q8": "The barriers include not knowing how to improve AI outputs, lacking domain knowledge, and struggling in unfamiliar areas. The biggest issue reported was difficulty improving or refining the AI’s responses.",
+            "p4q8": "The barriers include not knowing how to improve AI outputs, lacking domain knowledge, and struggling in unfamiliar areas. The biggest issue reported was difficulty improving or refining the AI\u2019s responses.",
             "p4q3": "C",
             "p4q6": "People are more likely to think critically when tasks involve quality, risk, or learning, which means critical thinking tends to drop in simple or low-stakes tasks where AI is trusted more.",
             "p4q5": "B",
             "p4q9": "D",
-            "p4q10": "The authors use “stewardship” because humans are still responsible for guiding and checking AI outputs, meaning accountability stays with the human, not the AI.",
+            "p4q10": "The authors use \u201cstewardship\u201d because humans are still responsible for guiding and checking AI outputs, meaning accountability stays with the human, not the AI.",
             "p4q7": "B",
             "p4q1": "C",
             "p4q2": "One question looks at when and how people actually use critical thinking with GenAI, while the other looks at how GenAI changes the effort required to think critically (whether it becomes easier or harder and why)."
@@ -107,11 +107,11 @@
         }
       ],
       "perQuestionTimeSeconds": {
-        "p4q3": 381,
-        "p4q5": 401,
-        "p4q9": 402,
-        "p4q7": 409,
-        "p4q1": 409
+        "p4q3": 108,
+        "p4q5": 110,
+        "p4q9": 110,
+        "p4q7": 112,
+        "p4q1": 112
       },
       "firstAttemptCorrect": {
         "p4q1": true,
@@ -122,12 +122,12 @@
       },
       "finalAnswers": {
         "p4q4": "The paper shows a shift from actually doing tasks (analysis, synthesis) to reviewing and judging AI outputs (evaluation). This creates a new role where workers act more like editors or supervisors, focusing on checking accuracy and quality rather than producing everything themselves.",
-        "p4q8": "The barriers include not knowing how to improve AI outputs, lacking domain knowledge, and struggling in unfamiliar areas. The biggest issue reported was difficulty improving or refining the AI’s responses.",
+        "p4q8": "The barriers include not knowing how to improve AI outputs, lacking domain knowledge, and struggling in unfamiliar areas. The biggest issue reported was difficulty improving or refining the AI\u2019s responses.",
         "p4q3": "C",
         "p4q6": "People are more likely to think critically when tasks involve quality, risk, or learning, which means critical thinking tends to drop in simple or low-stakes tasks where AI is trusted more.",
         "p4q5": "B",
         "p4q9": "D",
-        "p4q10": "The authors use “stewardship” because humans are still responsible for guiding and checking AI outputs, meaning accountability stays with the human, not the AI.",
+        "p4q10": "The authors use \u201cstewardship\u201d because humans are still responsible for guiding and checking AI outputs, meaning accountability stays with the human, not the AI.",
         "p4q7": "B",
         "p4q1": "C",
         "p4q2": "One question looks at when and how people actually use critical thinking with GenAI, while the other looks at how GenAI changes the effort required to think critically (whether it becomes easier or harder and why)."
@@ -137,22 +137,22 @@
       "paperKey": "paper6",
       "condition": "contextual_highlights",
       "priorPapers": [],
-      "startedAt": "2026-04-15T08:44:42.948Z",
-      "completedAt": "2026-04-15T08:56:31.629Z",
+      "startedAt": "2026-04-11T10:40:55.663Z",
+      "completedAt": "2026-04-11T10:48:43.118Z",
       "attempts": [
         {
-          "submittedAt": "2026-04-15T08:56:31.626Z",
+          "submittedAt": "2026-04-11T10:48:32.418Z",
           "answers": {
-            "p6q7": "Basically, ChatGPT use explains how workload and time pressure end up affecting procrastination, memory loss, and academic performance, and it also explains how sensitivity to rewards affects procrastination and memory loss (but not grades), while it doesn’t really play a role at all for sensitivity to quality.",
+            "p6q7": "Basically, ChatGPT use explains how workload and time pressure end up affecting procrastination, memory loss, and academic performance, and it also explains how sensitivity to rewards affects procrastination and memory loss (but not grades), while it doesn\u2019t really play a role at all for sensitivity to quality.",
             "p6q5": "B",
             "p6q9": "The authors are saying that schools should ease extreme workload and time pressure and guide students to use ChatGPT as a support tool instead of relying on it too much, since the study showed that stress leads to more ChatGPT use, which then leads to procrastination, memory issues, and worse academic performance.",
             "p6q3": "C",
-            "p6q10": "The idea is that when students rely too much on ChatGPT, they stop putting in mental effort, so they’re not actively processing or remembering information, which slowly weakens their memory.",
-            "p6q2": "The paper thought students who care about grades might either use ChatGPT more to get better results or avoid it because they’re scared of getting caught, and the results showed the second one, students who care more about grades actually use ChatGPT less because they don’t want to risk penalties.",
+            "p6q10": "The idea is that when students rely too much on ChatGPT, they stop putting in mental effort, so they\u2019re not actively processing or remembering information, which slowly weakens their memory.",
+            "p6q2": "The paper thought students who care about grades might either use ChatGPT more to get better results or avoid it because they\u2019re scared of getting caught, and the results showed the second one, students who care more about grades actually use ChatGPT less because they don\u2019t want to risk penalties.",
             "p6q1": "B",
             "p6q8": "B",
             "p6q6": "C",
-            "p6q4": "They started with 12 items, cut it down to 10 after getting expert feedback, and then removed 2 more after factor analysis because they didn’t load well, leaving a final 8-item scale."
+            "p6q4": "They started with 12 items, cut it down to 10 after getting expert feedback, and then removed 2 more after factor analysis because they didn\u2019t load well, leaving a final 8-item scale."
           },
           "scores": {
             "p6q1": true,
@@ -164,11 +164,11 @@
         }
       ],
       "perQuestionTimeSeconds": {
-        "p6q5": 130,
-        "p6q3": 141,
-        "p6q1": 230,
-        "p6q8": 279,
-        "p6q6": 283
+        "p6q5": 59,
+        "p6q3": 61,
+        "p6q1": 101,
+        "p6q8": 122,
+        "p6q6": 124
       },
       "firstAttemptCorrect": {
         "p6q1": true,
@@ -178,23 +178,23 @@
         "p6q8": true
       },
       "finalAnswers": {
-        "p6q7": "Basically, ChatGPT use explains how workload and time pressure end up affecting procrastination, memory loss, and academic performance, and it also explains how sensitivity to rewards affects procrastination and memory loss (but not grades), while it doesn’t really play a role at all for sensitivity to quality.",
+        "p6q7": "Basically, ChatGPT use explains how workload and time pressure end up affecting procrastination, memory loss, and academic performance, and it also explains how sensitivity to rewards affects procrastination and memory loss (but not grades), while it doesn\u2019t really play a role at all for sensitivity to quality.",
         "p6q5": "B",
         "p6q9": "The authors are saying that schools should ease extreme workload and time pressure and guide students to use ChatGPT as a support tool instead of relying on it too much, since the study showed that stress leads to more ChatGPT use, which then leads to procrastination, memory issues, and worse academic performance.",
         "p6q3": "C",
-        "p6q10": "The idea is that when students rely too much on ChatGPT, they stop putting in mental effort, so they’re not actively processing or remembering information, which slowly weakens their memory.",
-        "p6q2": "The paper thought students who care about grades might either use ChatGPT more to get better results or avoid it because they’re scared of getting caught, and the results showed the second one, students who care more about grades actually use ChatGPT less because they don’t want to risk penalties.",
+        "p6q10": "The idea is that when students rely too much on ChatGPT, they stop putting in mental effort, so they\u2019re not actively processing or remembering information, which slowly weakens their memory.",
+        "p6q2": "The paper thought students who care about grades might either use ChatGPT more to get better results or avoid it because they\u2019re scared of getting caught, and the results showed the second one, students who care more about grades actually use ChatGPT less because they don\u2019t want to risk penalties.",
         "p6q1": "B",
         "p6q8": "B",
         "p6q6": "C",
-        "p6q4": "They started with 12 items, cut it down to 10 after getting expert feedback, and then removed 2 more after factor analysis because they didn’t load well, leaving a final 8-item scale."
+        "p6q4": "They started with 12 items, cut it down to 10 after getting expert feedback, and then removed 2 more after factor analysis because they didn\u2019t load well, leaving a final 8-item scale."
       }
     }
   ],
   "questionnaireResponses": [
     {
       "paperKey": "paper5",
-      "submittedAt": "2026-04-15T08:30:28.301Z",
+      "submittedAt": "2026-04-11T10:26:11.229Z",
       "responses": {
         "p5diff1": 1,
         "p5diff2": 2,
@@ -212,7 +212,7 @@
     },
     {
       "paperKey": "paper4",
-      "submittedAt": "2026-04-15T08:43:25.284Z",
+      "submittedAt": "2026-04-11T10:38:44.771Z",
       "responses": {
         "p4diff1": 2,
         "p4diff2": 3,
@@ -230,7 +230,7 @@
     },
     {
       "paperKey": "paper6",
-      "submittedAt": "2026-04-15T08:56:44.956Z",
+      "submittedAt": "2026-04-11T10:50:02.118Z",
       "responses": {
         "p6diff1": 2,
         "p6diff2": 3,
@@ -261,7 +261,7 @@
   },
   "crossAttempts": [
     {
-      "submittedAt": "2026-04-15T08:59:39.464Z",
+      "submittedAt": "2026-04-11T10:54:19.661Z",
       "answers": {
         "cpq1": "B",
         "cpq2": "Cognitive effort shifts from generating content to reviewing it. Because AI produces outputs quickly, users spend less time creating and more time assessing accuracy and relevance before deciding how to use the information.",
@@ -283,7 +283,7 @@
       }
     }
   ],
-  "completedAt": "2026-04-15T09:01:24.260Z",
+  "completedAt": "2026-04-11T10:55:42.903Z",
   "questionOrders": {
     "paper5": [
       "p5q1",

@@ -11,7 +11,7 @@
     "no_highlights",
     "contextual_highlights"
   ],
-  "createdAt": "2026-04-15T23:38:52.935Z",
+  "createdAt": "2026-04-09T22:59:17.842Z",
   "step": "done",
   "demographicResponses": {
     "age": "B",
@@ -25,11 +25,11 @@
       "paperKey": "paper6",
       "condition": "all_highlights",
       "priorPapers": [],
-      "startedAt": "2026-04-15T23:46:29.642Z",
-      "completedAt": "2026-04-15T23:54:29.452Z",
+      "startedAt": "2026-04-09T23:01:13.286Z",
+      "completedAt": "2026-04-09T23:10:47.593Z",
       "attempts": [
         {
-          "submittedAt": "2026-04-15T23:54:29.441Z",
+          "submittedAt": "2026-04-09T23:10:47.582Z",
           "answers": {
             "p6q4": "The researchers initially generated 12 items, reduced them to 10 after expert review to ensure content validity, and then applied exploratory factor analysis (EFA), where 2 items (items 4 and 9) were removed due to low factor loadings and communalities, resulting in a final 8-item scale with acceptable reliability and validity.",
             "p6q8": "B",
@@ -52,11 +52,11 @@
         }
       ],
       "perQuestionTimeSeconds": {
-        "p6q8": 197,
-        "p6q3": 205,
-        "p6q1": 224,
-        "p6q6": 478,
-        "p6q5": 348
+        "p6q8": 80,
+        "p6q3": 81,
+        "p6q1": 88,
+        "p6q6": 188,
+        "p6q5": 137
       },
       "firstAttemptCorrect": {
         "p6q1": true,
@@ -82,14 +82,14 @@
       "paperKey": "paper4",
       "condition": "no_highlights",
       "priorPapers": [],
-      "startedAt": "2026-04-15T23:58:20.381Z",
-      "completedAt": "2026-04-16T00:10:14.590Z",
+      "startedAt": "2026-04-09T23:13:41.917Z",
+      "completedAt": "2026-04-09T23:23:09.104Z",
       "attempts": [
         {
-          "submittedAt": "2026-04-16T00:10:08.383Z",
+          "submittedAt": "2026-04-09T23:23:02.901Z",
           "answers": {
             "p4q10": "The authors use stewardship to emphasize that humans retain ultimate responsibility for validating, adapting, and integrating AI outputs. This framing highlights that, despite AI assistance, accountability remains fully with the human operator, not the system.",
-            "p4q6": "While motivation (e.g., quality assurance, risk avoidance) encourages critical thinking, ability constraints, such as difficulty refining AI outputs or limited domain expertise, can still inhibit it. This suggests breakdowns occur primarily when task complexity exceeds the user’s evaluative or corrective capacity.",
+            "p4q6": "While motivation (e.g., quality assurance, risk avoidance) encourages critical thinking, ability constraints, such as difficulty refining AI outputs or limited domain expertise, can still inhibit it. This suggests breakdowns occur primarily when task complexity exceeds the user\u2019s evaluative or corrective capacity.",
             "p4q9": "D",
             "p4q1": "C",
             "p4q7": "B",
@@ -108,10 +108,10 @@
           }
         },
         {
-          "submittedAt": "2026-04-16T00:10:14.586Z",
+          "submittedAt": "2026-04-09T23:23:09.100Z",
           "answers": {
             "p4q10": "The authors use stewardship to emphasize that humans retain ultimate responsibility for validating, adapting, and integrating AI outputs. This framing highlights that, despite AI assistance, accountability remains fully with the human operator, not the system.",
-            "p4q6": "While motivation (e.g., quality assurance, risk avoidance) encourages critical thinking, ability constraints, such as difficulty refining AI outputs or limited domain expertise, can still inhibit it. This suggests breakdowns occur primarily when task complexity exceeds the user’s evaluative or corrective capacity.",
+            "p4q6": "While motivation (e.g., quality assurance, risk avoidance) encourages critical thinking, ability constraints, such as difficulty refining AI outputs or limited domain expertise, can still inhibit it. This suggests breakdowns occur primarily when task complexity exceeds the user\u2019s evaluative or corrective capacity.",
             "p4q9": "D",
             "p4q1": "C",
             "p4q7": "B",
@@ -131,11 +131,11 @@
         }
       ],
       "perQuestionTimeSeconds": {
-        "p4q9": 290,
-        "p4q1": 293,
-        "p4q7": 527,
-        "p4q3": 643,
-        "p4q5": 713
+        "p4q9": 69,
+        "p4q1": 67,
+        "p4q7": 121,
+        "p4q3": 147,
+        "p4q5": 163
       },
       "firstAttemptCorrect": {
         "p4q1": true,
@@ -146,7 +146,7 @@
       },
       "finalAnswers": {
         "p4q10": "The authors use stewardship to emphasize that humans retain ultimate responsibility for validating, adapting, and integrating AI outputs. This framing highlights that, despite AI assistance, accountability remains fully with the human operator, not the system.",
-        "p4q6": "While motivation (e.g., quality assurance, risk avoidance) encourages critical thinking, ability constraints, such as difficulty refining AI outputs or limited domain expertise, can still inhibit it. This suggests breakdowns occur primarily when task complexity exceeds the user’s evaluative or corrective capacity.",
+        "p4q6": "While motivation (e.g., quality assurance, risk avoidance) encourages critical thinking, ability constraints, such as difficulty refining AI outputs or limited domain expertise, can still inhibit it. This suggests breakdowns occur primarily when task complexity exceeds the user\u2019s evaluative or corrective capacity.",
         "p4q9": "D",
         "p4q1": "C",
         "p4q7": "B",
@@ -161,17 +161,17 @@
       "paperKey": "paper5",
       "condition": "contextual_highlights",
       "priorPapers": [],
-      "startedAt": "2026-04-16T00:14:24.169Z",
-      "completedAt": "2026-04-16T00:22:24.277Z",
+      "startedAt": "2026-04-09T23:26:58.441Z",
+      "completedAt": "2026-04-09T23:36:22.768Z",
       "attempts": [
         {
-          "submittedAt": "2026-04-16T00:22:24.268Z",
+          "submittedAt": "2026-04-09T23:36:22.759Z",
           "answers": {
             "p5q6": "B",
-            "p5q10": "A key ethical concern is that XAI can unintentionally increase users’ reliance on AI outputs even when those outputs are incorrect; this is driven by findings showing explanations tend to raise acceptance of AI advice regardless of its accuracy.",
+            "p5q10": "A key ethical concern is that XAI can unintentionally increase users\u2019 reliance on AI outputs even when those outputs are incorrect; this is driven by findings showing explanations tend to raise acceptance of AI advice regardless of its accuracy.",
             "p5q4": "The subgroup analysis shows that tabular data yields no significant improvement (SMD = 0.01), whereas text data produces a significant positive effect (SMD = 0.72); this difference is likely due to the fact that text-based tasks align better with human reasoning processes, allowing more effective human-AI collaboration.",
             "p5q8": "C",
-            "p5q9": "There is clear inconsistency across studies: Bansal et al. and van der Waa et al. report increased acceptance of AI advice when explanations are provided, whereas Fügener et al. observe reduced or unchanged reliance, indicating that explanation effects are context-dependent and not universally beneficial.",
+            "p5q9": "There is clear inconsistency across studies: Bansal et al. and van der Waa et al. report increased acceptance of AI advice when explanations are provided, whereas F\u00fcgener et al. observe reduced or unchanged reliance, indicating that explanation effects are context-dependent and not universally beneficial.",
             "p5q2": "The study evaluates (1) human vs. XAI-assisted performance and (2) AI-assisted vs. XAI-assisted performance; since no significant difference is found between AI and XAI, the observed gains over human performance should be attributed to AI assistance broadly rather than to the explanatory component.",
             "p5q7": "The two proposed mechanisms are (1) increased acceptance of AI recommendations and (2) improved calibration of trust (i.e., distinguishing correct from incorrect AI outputs); the qualitative evidence more strongly supports the first mechanism.",
             "p5q1": "B",
@@ -188,11 +188,11 @@
         }
       ],
       "perQuestionTimeSeconds": {
-        "p5q6": 312,
-        "p5q8": 341,
-        "p5q1": 442,
-        "p5q5": 438,
-        "p5q3": 441
+        "p5q6": 90,
+        "p5q8": 97,
+        "p5q1": 126,
+        "p5q5": 125,
+        "p5q3": 126
       },
       "firstAttemptCorrect": {
         "p5q1": true,
@@ -203,10 +203,10 @@
       },
       "finalAnswers": {
         "p5q6": "B",
-        "p5q10": "A key ethical concern is that XAI can unintentionally increase users’ reliance on AI outputs even when those outputs are incorrect; this is driven by findings showing explanations tend to raise acceptance of AI advice regardless of its accuracy.",
+        "p5q10": "A key ethical concern is that XAI can unintentionally increase users\u2019 reliance on AI outputs even when those outputs are incorrect; this is driven by findings showing explanations tend to raise acceptance of AI advice regardless of its accuracy.",
         "p5q4": "The subgroup analysis shows that tabular data yields no significant improvement (SMD = 0.01), whereas text data produces a significant positive effect (SMD = 0.72); this difference is likely due to the fact that text-based tasks align better with human reasoning processes, allowing more effective human-AI collaboration.",
         "p5q8": "C",
-        "p5q9": "There is clear inconsistency across studies: Bansal et al. and van der Waa et al. report increased acceptance of AI advice when explanations are provided, whereas Fügener et al. observe reduced or unchanged reliance, indicating that explanation effects are context-dependent and not universally beneficial.",
+        "p5q9": "There is clear inconsistency across studies: Bansal et al. and van der Waa et al. report increased acceptance of AI advice when explanations are provided, whereas F\u00fcgener et al. observe reduced or unchanged reliance, indicating that explanation effects are context-dependent and not universally beneficial.",
         "p5q2": "The study evaluates (1) human vs. XAI-assisted performance and (2) AI-assisted vs. XAI-assisted performance; since no significant difference is found between AI and XAI, the observed gains over human performance should be attributed to AI assistance broadly rather than to the explanatory component.",
         "p5q7": "The two proposed mechanisms are (1) increased acceptance of AI recommendations and (2) improved calibration of trust (i.e., distinguishing correct from incorrect AI outputs); the qualitative evidence more strongly supports the first mechanism.",
         "p5q1": "B",
@@ -218,7 +218,7 @@
   "questionnaireResponses": [
     {
       "paperKey": "paper6",
-      "submittedAt": "2026-04-15T23:56:24.377Z",
+      "submittedAt": "2026-04-09T23:12:06.311Z",
       "responses": {
         "p6diff1": 1,
         "p6diff2": 2,
@@ -236,7 +236,7 @@
     },
     {
       "paperKey": "paper4",
-      "submittedAt": "2026-04-16T00:12:19.199Z",
+      "submittedAt": "2026-04-09T23:24:51.638Z",
       "responses": {
         "p4diff1": 1,
         "p4diff2": 2,
@@ -254,7 +254,7 @@
     },
     {
       "paperKey": "paper5",
-      "submittedAt": "2026-04-16T00:23:15.852Z",
+      "submittedAt": "2026-04-09T23:37:19.227Z",
       "responses": {
         "p5diff1": 2,
         "p5diff2": 2,
@@ -286,7 +286,7 @@
   },
   "crossAttempts": [
     {
-      "submittedAt": "2026-04-16T00:31:57.491Z",
+      "submittedAt": "2026-04-09T23:45:54.482Z",
       "answers": {
         "cpq1": "B",
         "cpq2": "AI shifts cognitive load from task execution to supervisory evaluation. Since generation is partially automated, users reallocate effort toward validating outputs, ensuring correctness, and integrating results into the task context.",
@@ -308,7 +308,7 @@
       }
     }
   ],
-  "completedAt": "2026-04-16T00:33:07.795Z",
+  "completedAt": "2026-04-09T23:47:03.119Z",
   "questionOrders": {
     "paper6": [
       "p6q4",

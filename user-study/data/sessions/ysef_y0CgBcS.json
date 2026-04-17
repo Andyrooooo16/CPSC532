@@ -11,7 +11,7 @@
     "no_highlights",
     "contextual_highlights"
   ],
-  "createdAt": "2026-04-15T07:35:22.391Z",
+  "createdAt": "2026-04-13T15:06:11.337Z",
   "step": "done",
   "demographicResponses": {
     "age": "B",
@@ -25,11 +25,11 @@
       "paperKey": "paper4",
       "condition": "all_highlights",
       "priorPapers": [],
-      "startedAt": "2026-04-15T07:45:01.030Z",
-      "completedAt": "2026-04-15T07:51:25.192Z",
+      "startedAt": "2026-04-13T15:07:42.552Z",
+      "completedAt": "2026-04-13T15:15:34.884Z",
       "attempts": [
         {
-          "submittedAt": "2026-04-15T07:51:25.187Z",
+          "submittedAt": "2026-04-13T15:15:24.784Z",
           "answers": {
             "p4q9": "D",
             "p4q3": "C",
@@ -39,7 +39,7 @@
             "p4q4": "Work shifts from doing the task to checking and managing AI outputs, meaning workers take on more of a reviewer/overseer role.",
             "p4q6": "Critical thinking happens more when tasks are important, high-risk, or require quality, which suggests it breaks down in routine or low-stakes tasks where people rely on AI.",
             "p4q7": "B",
-            "p4q10": "Because humans are still responsible for the final outcome, so they’re not just collaborating, they’re accountable for guiding, checking, and owning the result.",
+            "p4q10": "Because humans are still responsible for the final outcome, so they\u2019re not just collaborating, they\u2019re accountable for guiding, checking, and owning the result.",
             "p4q1": "C"
           },
           "scores": {
@@ -52,11 +52,11 @@
         }
       ],
       "perQuestionTimeSeconds": {
-        "p4q9": 104,
-        "p4q3": 109,
-        "p4q5": 181,
-        "p4q7": 204,
-        "p4q1": 220
+        "p4q9": 63,
+        "p4q3": 62,
+        "p4q5": 104,
+        "p4q7": 117,
+        "p4q1": 126
       },
       "firstAttemptCorrect": {
         "p4q1": true,
@@ -74,7 +74,7 @@
         "p4q4": "Work shifts from doing the task to checking and managing AI outputs, meaning workers take on more of a reviewer/overseer role.",
         "p4q6": "Critical thinking happens more when tasks are important, high-risk, or require quality, which suggests it breaks down in routine or low-stakes tasks where people rely on AI.",
         "p4q7": "B",
-        "p4q10": "Because humans are still responsible for the final outcome, so they’re not just collaborating, they’re accountable for guiding, checking, and owning the result.",
+        "p4q10": "Because humans are still responsible for the final outcome, so they\u2019re not just collaborating, they\u2019re accountable for guiding, checking, and owning the result.",
         "p4q1": "C"
       }
     },
@@ -82,18 +82,18 @@
       "paperKey": "paper6",
       "condition": "no_highlights",
       "priorPapers": [],
-      "startedAt": "2026-04-15T07:53:16.872Z",
-      "completedAt": "2026-04-15T08:03:46.481Z",
+      "startedAt": "2026-04-13T15:18:11.229Z",
+      "completedAt": "2026-04-13T15:27:49.663Z",
       "attempts": [
         {
-          "submittedAt": "2026-04-15T08:03:37.612Z",
+          "submittedAt": "2026-04-13T15:27:39.563Z",
           "answers": {
             "p6q7": "ChatGPT use acted as a mediator between workload and time pressure and all three outcomes (procrastination, memory loss, and academic performance), and it also mediated the relationship between sensitivity to rewards and procrastination and memory loss, but not academic performance; it did not mediate any relationships involving sensitivity to quality.",
-            "p6q2": "The paper suggested that students who care about grades might either use ChatGPT more to improve performance or avoid it because they’re worried about getting caught, and the results supported the second idea—students who were more concerned about grades actually used ChatGPT less because of fear of penalties.",
+            "p6q2": "The paper suggested that students who care about grades might either use ChatGPT more to improve performance or avoid it because they\u2019re worried about getting caught, and the results supported the second idea\u2014students who were more concerned about grades actually used ChatGPT less because of fear of penalties.",
             "p6q3": "C",
             "p6q8": "B",
             "p6q6": "C",
-            "p6q9": "The authors suggest that schools should better manage students’ workload and deadlines and encourage students to use ChatGPT as a support tool instead of relying on it too much, since high workload and time pressure lead to more ChatGPT use, which then increases procrastination, memory issues, and lowers academic performance.",
+            "p6q9": "The authors suggest that schools should better manage students\u2019 workload and deadlines and encourage students to use ChatGPT as a support tool instead of relying on it too much, since high workload and time pressure lead to more ChatGPT use, which then increases procrastination, memory issues, and lowers academic performance.",
             "p6q5": "B",
             "p6q4": "They started with 12 items, narrowed it down to 10 after expert review for content validity, and then used factor analysis to remove 2 weak items (low loadings), ending with a final 8-item scale.",
             "p6q10": "The idea is that relying too much on ChatGPT reduces how much students actually think and engage with the material, so over time their memory and ability to retain information get weaker.",
@@ -108,14 +108,14 @@
           }
         },
         {
-          "submittedAt": "2026-04-15T08:03:46.477Z",
+          "submittedAt": "2026-04-13T15:27:42.863Z",
           "answers": {
             "p6q7": "ChatGPT use acted as a mediator between workload and time pressure and all three outcomes (procrastination, memory loss, and academic performance), and it also mediated the relationship between sensitivity to rewards and procrastination and memory loss, but not academic performance; it did not mediate any relationships involving sensitivity to quality.",
-            "p6q2": "The paper suggested that students who care about grades might either use ChatGPT more to improve performance or avoid it because they’re worried about getting caught, and the results supported the second idea—students who were more concerned about grades actually used ChatGPT less because of fear of penalties.",
+            "p6q2": "The paper suggested that students who care about grades might either use ChatGPT more to improve performance or avoid it because they\u2019re worried about getting caught, and the results supported the second idea\u2014students who were more concerned about grades actually used ChatGPT less because of fear of penalties.",
             "p6q3": "C",
             "p6q8": "B",
             "p6q6": "C",
-            "p6q9": "The authors suggest that schools should better manage students’ workload and deadlines and encourage students to use ChatGPT as a support tool instead of relying on it too much, since high workload and time pressure lead to more ChatGPT use, which then increases procrastination, memory issues, and lowers academic performance.",
+            "p6q9": "The authors suggest that schools should better manage students\u2019 workload and deadlines and encourage students to use ChatGPT as a support tool instead of relying on it too much, since high workload and time pressure lead to more ChatGPT use, which then increases procrastination, memory issues, and lowers academic performance.",
             "p6q5": "B",
             "p6q4": "They started with 12 items, narrowed it down to 10 after expert review for content validity, and then used factor analysis to remove 2 weak items (low loadings), ending with a final 8-item scale.",
             "p6q10": "The idea is that relying too much on ChatGPT reduces how much students actually think and engage with the material, so over time their memory and ability to retain information get weaker.",
@@ -131,11 +131,11 @@
         }
       ],
       "perQuestionTimeSeconds": {
-        "p6q3": 213,
-        "p6q8": 331,
-        "p6q6": 322,
-        "p6q5": 619,
-        "p6q1": 628
+        "p6q3": 60,
+        "p6q8": 90,
+        "p6q6": 88,
+        "p6q5": 169,
+        "p6q1": 171
       },
       "firstAttemptCorrect": {
         "p6q1": false,
@@ -146,11 +146,11 @@
       },
       "finalAnswers": {
         "p6q7": "ChatGPT use acted as a mediator between workload and time pressure and all three outcomes (procrastination, memory loss, and academic performance), and it also mediated the relationship between sensitivity to rewards and procrastination and memory loss, but not academic performance; it did not mediate any relationships involving sensitivity to quality.",
-        "p6q2": "The paper suggested that students who care about grades might either use ChatGPT more to improve performance or avoid it because they’re worried about getting caught, and the results supported the second idea—students who were more concerned about grades actually used ChatGPT less because of fear of penalties.",
+        "p6q2": "The paper suggested that students who care about grades might either use ChatGPT more to improve performance or avoid it because they\u2019re worried about getting caught, and the results supported the second idea\u2014students who were more concerned about grades actually used ChatGPT less because of fear of penalties.",
         "p6q3": "C",
         "p6q8": "B",
         "p6q6": "C",
-        "p6q9": "The authors suggest that schools should better manage students’ workload and deadlines and encourage students to use ChatGPT as a support tool instead of relying on it too much, since high workload and time pressure lead to more ChatGPT use, which then increases procrastination, memory issues, and lowers academic performance.",
+        "p6q9": "The authors suggest that schools should better manage students\u2019 workload and deadlines and encourage students to use ChatGPT as a support tool instead of relying on it too much, since high workload and time pressure lead to more ChatGPT use, which then increases procrastination, memory issues, and lowers academic performance.",
         "p6q5": "B",
         "p6q4": "They started with 12 items, narrowed it down to 10 after expert review for content validity, and then used factor analysis to remove 2 weak items (low loadings), ending with a final 8-item scale.",
         "p6q10": "The idea is that relying too much on ChatGPT reduces how much students actually think and engage with the material, so over time their memory and ability to retain information get weaker.",
@@ -161,20 +161,20 @@
       "paperKey": "paper5",
       "condition": "contextual_highlights",
       "priorPapers": [],
-      "startedAt": "2026-04-15T08:04:48.881Z",
-      "completedAt": "2026-04-15T08:13:54.692Z",
+      "startedAt": "2026-04-13T15:30:03.771Z",
+      "completedAt": "2026-04-13T15:38:32.551Z",
       "attempts": [
         {
-          "submittedAt": "2026-04-15T08:13:32.282Z",
+          "submittedAt": "2026-04-13T15:38:22.451Z",
           "answers": {
             "p5q10": "Explanations can make people trust and follow AI decisions more, even when the AI is wrong, which raises concerns about users relying on incorrect advice.",
             "p5q1": "B",
             "p5q6": "C",
             "p5q5": "B",
             "p5q7": "XAI may help by (1) increasing how often people accept AI advice, and (2) improving their ability to judge when the AI is right or wrong; the evidence was stronger for increased acceptance.",
-            "p5q2": "The paper compares (1) humans vs. XAI-assisted decisions and (2) AI vs. XAI-assisted decisions; since XAI doesn’t outperform AI alone, the improvement over humans is really due to AI help in general—not explanations specifically.",
+            "p5q2": "The paper compares (1) humans vs. XAI-assisted decisions and (2) AI vs. XAI-assisted decisions; since XAI doesn\u2019t outperform AI alone, the improvement over humans is really due to AI help in general\u2014not explanations specifically.",
             "p5q8": "C",
-            "p5q9": "Some studies (like Bansal et al. and van der Waa et al.) found explanations make people more likely to follow AI advice, while others (like Fügener et al.) found reduced or unchanged reliance, showing mixed results overall.",
+            "p5q9": "Some studies (like Bansal et al. and van der Waa et al.) found explanations make people more likely to follow AI advice, while others (like F\u00fcgener et al.) found reduced or unchanged reliance, showing mixed results overall.",
             "p5q4": "Tabular data showed almost no effect, while text data showed a clear positive effect. The authors suggest this may be because text tasks are easier for humans to work with alongside AI.",
             "p5q3": "D"
           },
@@ -187,16 +187,16 @@
           }
         },
         {
-          "submittedAt": "2026-04-15T08:13:54.685Z",
+          "submittedAt": "2026-04-13T15:38:25.751Z",
           "answers": {
             "p5q10": "Explanations can make people trust and follow AI decisions more, even when the AI is wrong, which raises concerns about users relying on incorrect advice.",
             "p5q1": "B",
             "p5q6": "B",
             "p5q5": "B",
             "p5q7": "XAI may help by (1) increasing how often people accept AI advice, and (2) improving their ability to judge when the AI is right or wrong; the evidence was stronger for increased acceptance.",
-            "p5q2": "The paper compares (1) humans vs. XAI-assisted decisions and (2) AI vs. XAI-assisted decisions; since XAI doesn’t outperform AI alone, the improvement over humans is really due to AI help in general—not explanations specifically.",
+            "p5q2": "The paper compares (1) humans vs. XAI-assisted decisions and (2) AI vs. XAI-assisted decisions; since XAI doesn\u2019t outperform AI alone, the improvement over humans is really due to AI help in general\u2014not explanations specifically.",
             "p5q8": "C",
-            "p5q9": "Some studies (like Bansal et al. and van der Waa et al.) found explanations make people more likely to follow AI advice, while others (like Fügener et al.) found reduced or unchanged reliance, showing mixed results overall.",
+            "p5q9": "Some studies (like Bansal et al. and van der Waa et al.) found explanations make people more likely to follow AI advice, while others (like F\u00fcgener et al.) found reduced or unchanged reliance, showing mixed results overall.",
             "p5q4": "Tabular data showed almost no effect, while text data showed a clear positive effect. The authors suggest this may be because text tasks are easier for humans to work with alongside AI.",
             "p5q3": "D"
           },
@@ -210,11 +210,11 @@
         }
       ],
       "perQuestionTimeSeconds": {
-        "p5q1": 119,
-        "p5q5": 164,
-        "p5q8": 252,
-        "p5q3": 440,
-        "p5q6": 529
+        "p5q1": 42,
+        "p5q5": 55,
+        "p5q8": 85,
+        "p5q3": 148,
+        "p5q6": 178
       },
       "firstAttemptCorrect": {
         "p5q1": true,
@@ -229,9 +229,9 @@
         "p5q6": "B",
         "p5q5": "B",
         "p5q7": "XAI may help by (1) increasing how often people accept AI advice, and (2) improving their ability to judge when the AI is right or wrong; the evidence was stronger for increased acceptance.",
-        "p5q2": "The paper compares (1) humans vs. XAI-assisted decisions and (2) AI vs. XAI-assisted decisions; since XAI doesn’t outperform AI alone, the improvement over humans is really due to AI help in general—not explanations specifically.",
+        "p5q2": "The paper compares (1) humans vs. XAI-assisted decisions and (2) AI vs. XAI-assisted decisions; since XAI doesn\u2019t outperform AI alone, the improvement over humans is really due to AI help in general\u2014not explanations specifically.",
         "p5q8": "C",
-        "p5q9": "Some studies (like Bansal et al. and van der Waa et al.) found explanations make people more likely to follow AI advice, while others (like Fügener et al.) found reduced or unchanged reliance, showing mixed results overall.",
+        "p5q9": "Some studies (like Bansal et al. and van der Waa et al.) found explanations make people more likely to follow AI advice, while others (like F\u00fcgener et al.) found reduced or unchanged reliance, showing mixed results overall.",
         "p5q4": "Tabular data showed almost no effect, while text data showed a clear positive effect. The authors suggest this may be because text tasks are easier for humans to work with alongside AI.",
         "p5q3": "D"
       }
@@ -240,7 +240,7 @@
   "questionnaireResponses": [
     {
       "paperKey": "paper4",
-      "submittedAt": "2026-04-15T07:52:14.619Z",
+      "submittedAt": "2026-04-13T15:16:41.118Z",
       "responses": {
         "p4diff1": 1,
         "p4diff2": 2,
@@ -258,7 +258,7 @@
     },
     {
       "paperKey": "paper6",
-      "submittedAt": "2026-04-15T08:04:30.679Z",
+      "submittedAt": "2026-04-13T15:29:12.441Z",
       "responses": {
         "p6diff1": 3,
         "p6diff2": 2,
@@ -276,7 +276,7 @@
     },
     {
       "paperKey": "paper5",
-      "submittedAt": "2026-04-15T08:14:44.038Z",
+      "submittedAt": "2026-04-13T15:40:03.992Z",
       "responses": {
         "p5diff1": 2,
         "p5diff2": 2,
@@ -308,14 +308,14 @@
   },
   "crossAttempts": [
     {
-      "submittedAt": "2026-04-15T08:16:57.786Z",
+      "submittedAt": "2026-04-13T15:44:27.228Z",
       "answers": {
         "cpq1": "B",
         "cpq2": "A key shift is that effort moves from producing content to evaluating AI outputs. This occurs because AI handles much of the generation process, but users must still assess accuracy, relevance, and quality before using the results.",
         "cpq3": "C",
         "cpq4": "Reduced effort becomes harmful when it leads to uncritical acceptance of AI outputs. For instance, if a user skips verification and relies on incorrect information, the outcome suffers. This happens because automation lowers engagement in critical evaluation.",
         "cpq5": "B",
-        "cpq6": "A major factor is user confidence. Higher trust in AI reduces the likelihood of verification, while stronger confidence in one’s own ability increases critical evaluation of outputs.",
+        "cpq6": "A major factor is user confidence. Higher trust in AI reduces the likelihood of verification, while stronger confidence in one\u2019s own ability increases critical evaluation of outputs.",
         "cpq7": "B",
         "cpq8": "One reason for over-reliance is perceived reliability of AI systems. When outputs appear confident and are delivered efficiently, users are more likely to accept them without scrutiny, reducing critical engagement.",
         "cpq9": "C",
@@ -330,7 +330,7 @@
       }
     }
   ],
-  "completedAt": "2026-04-15T08:18:09.566Z",
+  "completedAt": "2026-04-13T15:45:41.662Z",
   "questionOrders": {
     "paper4": [
       "p4q9",
@@ -473,7 +473,7 @@
     "cpq3": "C",
     "cpq4": "Reduced effort becomes harmful when it leads to uncritical acceptance of AI outputs. For instance, if a user skips verification and relies on incorrect information, the outcome suffers. This happens because automation lowers engagement in critical evaluation.",
     "cpq5": "B",
-    "cpq6": "A major factor is user confidence. Higher trust in AI reduces the likelihood of verification, while stronger confidence in one’s own ability increases critical evaluation of outputs.",
+    "cpq6": "A major factor is user confidence. Higher trust in AI reduces the likelihood of verification, while stronger confidence in one\u2019s own ability increases critical evaluation of outputs.",
     "cpq7": "B",
     "cpq8": "One reason for over-reliance is perceived reliability of AI systems. When outputs appear confident and are delivered efficiently, users are more likely to accept them without scrutiny, reducing critical engagement.",
     "cpq9": "C",

@@ -1,0 +1,522 @@
+{
+  "paper_level": {
+    "paper_total_score": {
+      "descriptive_by_condition": {
+        "no_highlights": {
+          "n": 23,
+          "mean": 6.717391304347826,
+          "median": 7.0,
+          "std": 2.632083891643316,
+          "min": 0.0,
+          "max": 10.0,
+          "missing": 0
+        },
+        "all_highlights": {
+          "n": 23,
+          "mean": 7.695652173913044,
+          "median": 8.0,
+          "std": 2.2850260115626226,
+          "min": 2.0,
+          "max": 10.0,
+          "missing": 0
+        },
+        "contextual_highlights": {
+          "n": 23,
+          "mean": 7.521739130434782,
+          "median": 8.0,
+          "std": 2.019666156422692,
+          "min": 3.0,
+          "max": 10.0,
+          "missing": 0
+        }
+      },
+      "friedman": {
+        "ok": true,
+        "chi2": 7.870967741935458,
+        "p": 0.01953624401878539,
+        "kendalls_w": 0.17110799438990126,
+        "n": 23,
+        "k": 3
+      },
+      "posthoc_wilcoxon": [
+        {
+          "pair": [
+            "no_highlights",
+            "all_highlights"
+          ],
+          "n_pairs": 23,
+          "ok": true,
+          "stat": 23.0,
+          "p": 0.019007244458957705,
+          "d_paired": -0.528985951803906,
+          "p_bonf": 0.057021733376873114
+        },
+        {
+          "pair": [
+            "no_highlights",
+            "contextual_highlights"
+          ],
+          "n_pairs": 23,
+          "ok": true,
+          "stat": 30.0,
+          "p": 0.046737594192358074,
+          "d_paired": -0.4529713628969915,
+          "p_bonf": 0.14021278257707423
+        },
+        {
+          "pair": [
+            "all_highlights",
+            "contextual_highlights"
+          ],
+          "n_pairs": 23,
+          "ok": true,
+          "stat": 32.0,
+          "p": 0.5768479203442869,
+          "d_paired": 0.10775804624090149,
+          "p_bonf": 1.0
+        }
+      ],
+      "order_effects": {
+        "ok": true,
+        "chi2": 3.612903225806415,
+        "p": 0.16423587653856495,
+        "kendalls_w": 0.0785413744740525,
+        "n": 23,
+        "k": 3
+      }
+    },
+    "free_text_score": {
+      "descriptive_by_condition": {
+        "no_highlights": {
+          "n": 23,
+          "mean": 3.6956521739130435,
+          "median": 4.0,
+          "std": 1.1845514152353067,
+          "min": 0.0,
+          "max": 5.0,
+          "missing": 0
+        },
+        "all_highlights": {
+          "n": 23,
+          "mean": 3.869565217391304,
+          "median": 4.0,
+          "std": 1.3247417527437004,
+          "min": 1.0,
+          "max": 5.0,
+          "missing": 0
+        },
+        "contextual_highlights": {
+          "n": 23,
+          "mean": 4.217391304347826,
+          "median": 5.0,
+          "std": 0.9980217586956905,
+          "min": 2.0,
+          "max": 5.0,
+          "missing": 0
+        }
+      },
+      "friedman": {
+        "ok": true,
+        "chi2": 3.4915254237288367,
+        "p": 0.1745118359468137,
+        "kendalls_w": 0.0759027266028008,
+        "n": 23,
+        "k": 3
+      },
+      "posthoc_wilcoxon": [
+        {
+          "pair": [
+            "no_highlights",
+            "all_highlights"
+          ],
+          "n_pairs": 23,
+          "ok": true,
+          "stat": 56.0,
+          "p": 0.4912971242158931,
+          "d_paired": -0.16897599751218176,
+          "p_bonf": 1.0
+        },
+        {
+          "pair": [
+            "no_highlights",
+            "contextual_highlights"
+          ],
+          "n_pairs": 23,
+          "ok": true,
+          "stat": 20.5,
+          "p": 0.06944969996774754,
+          "d_paired": -0.40934808184531796,
+          "p_bonf": 0.20834909990324263
+        },
+        {
+          "pair": [
+            "all_highlights",
+            "contextual_highlights"
+          ],
+          "n_pairs": 23,
+          "ok": true,
+          "stat": 20.0,
+          "p": 0.11755980114566805,
+          "d_paired": -0.3385842724621209,
+          "p_bonf": 0.35267940343700416
+        }
+      ],
+      "order_effects": {
+        "ok": true,
+        "chi2": 11.220338983050874,
+        "p": 0.0036604488900843224,
+        "kendalls_w": 0.24392041267501902,
+        "n": 23,
+        "k": 3
+      }
+    },
+    "mc_first_attempt_accuracy": {
+      "descriptive_by_condition": {
+        "no_highlights": {
+          "n": 23,
+          "mean": 0.6043478260869566,
+          "median": 0.6,
+          "std": 0.35989677922927393,
+          "min": 0.0,
+          "max": 1.0,
+          "missing": 0
+        },
+        "all_highlights": {
+          "n": 23,
+          "mean": 0.7652173913043478,
+          "median": 0.8,
+          "std": 0.2604344196847293,
+          "min": 0.2,
+          "max": 1.0,
+          "missing": 0
+        },
+        "contextual_highlights": {
+          "n": 23,
+          "mean": 0.6608695652173914,
+          "median": 0.6,
+          "std": 0.3215574746233805,
+          "min": 0.0,
+          "max": 1.0,
+          "missing": 0
+        }
+      },
+      "friedman": {
+        "ok": true,
+        "chi2": 8.03571428571425,
+        "p": 0.017991476826658807,
+        "kendalls_w": 0.17468944099378803,
+        "n": 23,
+        "k": 3
+      },
+      "posthoc_wilcoxon": [
+        {
+          "pair": [
+            "no_highlights",
+            "all_highlights"
+          ],
+          "n_pairs": 23,
+          "ok": true,
+          "stat": 24.0,
+          "p": 0.04036025838847893,
+          "d_paired": -0.5481577182629344,
+          "p_bonf": 0.1210807751654368
+        },
+        {
+          "pair": [
+            "no_highlights",
+            "contextual_highlights"
+          ],
+          "n_pairs": 23,
+          "ok": true,
+          "stat": 38.0,
+          "p": 0.3610247699750073,
+          "d_paired": -0.25792155466202726,
+          "p_bonf": 1.0
+        },
+        {
+          "pair": [
+            "all_highlights",
+            "contextual_highlights"
+          ],
+          "n_pairs": 23,
+          "ok": true,
+          "stat": 11.5,
+          "p": 0.10179941520248703,
+          "d_paired": 0.40934808184531774,
+          "p_bonf": 0.3053982456074611
+        }
+      ],
+      "order_effects": {
+        "ok": true,
+        "chi2": 0.3214285714285998,
+        "p": 0.8515353321630943,
+        "kendalls_w": 0.00698757763975217,
+        "n": 23,
+        "k": 3
+      }
+    },
+    "paper_duration_seconds": {
+      "descriptive_by_condition": {
+        "no_highlights": {
+          "n": 23,
+          "mean": 443.4347826086956,
+          "median": 451.0,
+          "std": 200.35192357607252,
+          "min": 121.0,
+          "max": 1017.0,
+          "missing": 0
+        },
+        "all_highlights": {
+          "n": 23,
+          "mean": 419.60869565217394,
+          "median": 460.0,
+          "std": 215.21463686503438,
+          "min": 101.0,
+          "max": 930.0,
+          "missing": 0
+        },
+        "contextual_highlights": {
+          "n": 23,
+          "mean": 429.39130434782606,
+          "median": 470.0,
+          "std": 194.5018670465273,
+          "min": 119.0,
+          "max": 737.0,
+          "missing": 0
+        }
+      },
+      "friedman": {
+        "ok": true,
+        "chi2": 0.6086956521738784,
+        "p": 0.7376042638218393,
+        "kendalls_w": 0.01323251417769301,
+        "n": 23,
+        "k": 3
+      },
+      "posthoc_wilcoxon": [
+        {
+          "pair": [
+            "no_highlights",
+            "all_highlights"
+          ],
+          "n_pairs": 23,
+          "ok": true,
+          "stat": 111.0,
+          "p": 0.41147614084878703,
+          "d_paired": 0.16763951681420083,
+          "p_bonf": 1.0
+        },
+        {
+          "pair": [
+            "no_highlights",
+            "contextual_highlights"
+          ],
+          "n_pairs": 23,
+          "ok": true,
+          "stat": 132.0,
+          "p": 0.8551901414707871,
+          "d_paired": 0.07178920372531133,
+          "p_bonf": 1.0
+        },
+        {
+          "pair": [
+            "all_highlights",
+            "contextual_highlights"
+          ],
+          "n_pairs": 23,
+          "ok": true,
+          "stat": 112.5,
+          "p": 0.4379697538475251,
+          "d_paired": -0.05379542846484301,
+          "p_bonf": 1.0
+        }
+      ],
+      "order_effects": {
+        "ok": true,
+        "chi2": 2.4347826086956275,
+        "p": 0.296001338014862,
+        "kendalls_w": 0.05293005671077451,
+        "n": 23,
+        "k": 3
+      }
+    }
+  },
+  "cross_level": {
+    "by_contextual_paper": {
+      "paper4": {
+        "n": 6,
+        "mean": 7.833333333333333,
+        "median": 8.5,
+        "std": 1.9407902170679516,
+        "min": 5.0,
+        "max": 10.0,
+        "missing": 0
+      },
+      "paper5": {
+        "n": 8,
+        "mean": 9.125,
+        "median": 9.0,
+        "std": 0.6408699444616557,
+        "min": 8.0,
+        "max": 10.0,
+        "missing": 0
+      },
+      "paper6": {
+        "n": 10,
+        "mean": 8.0,
+        "median": 9.0,
+        "std": 3.0550504633038935,
+        "min": 0.0,
+        "max": 10.0,
+        "missing": 0
+      }
+    }
+  },
+  "final_survey": {
+    "fq_helpful_highlighted_sentences": {
+      "n": 23,
+      "mean": 3.652173913043478,
+      "median": 4.0,
+      "std": 0.5727680517510726,
+      "min": 2.0,
+      "max": 4.0,
+      "missing": 1
+    },
+    "fq_confidence_understanding": {
+      "n": 23,
+      "mean": 3.347826086956522,
+      "median": 3.0,
+      "std": 0.5727680517510725,
+      "min": 2.0,
+      "max": 4.0,
+      "missing": 1
+    },
+    "fq_identify_important_info": {
+      "n": 23,
+      "mean": 3.217391304347826,
+      "median": 3.0,
+      "std": 0.7358681786057779,
+      "min": 2.0,
+      "max": 4.0,
+      "missing": 1
+    },
+    "fq_repeated_known_info": {
+      "n": 23,
+      "mean": 3.0434782608695654,
+      "median": 3.0,
+      "std": 0.638055345958271,
+      "min": 2.0,
+      "max": 4.0,
+      "missing": 1
+    },
+    "fq_missing_important_info": {
+      "n": 23,
+      "mean": 3.0434782608695654,
+      "median": 3.0,
+      "std": 0.7674195764535269,
+      "min": 2.0,
+      "max": 4.0,
+      "missing": 1
+    },
+    "fq_trust_highlights_key_ideas": {
+      "n": 23,
+      "mean": 3.782608695652174,
+      "median": 4.0,
+      "std": 0.6712621584563621,
+      "min": 2.0,
+      "max": 5.0,
+      "missing": 1
+    },
+    "fq_new_vs_repeated": {
+      "n": 23,
+      "mean": 2.8260869565217392,
+      "median": 3.0,
+      "std": 0.936733876686023,
+      "min": 1.0,
+      "max": 4.0,
+      "missing": 1
+    },
+    "fq_focus_novel_important_content": {
+      "n": 23,
+      "mean": 3.260869565217391,
+      "median": 3.0,
+      "std": 0.6887004431501819,
+      "min": 2.0,
+      "max": 4.0,
+      "missing": 1
+    },
+    "fq_use_in_workflow": {
+      "n": 23,
+      "mean": 3.5652173913043477,
+      "median": 4.0,
+      "std": 0.5897678246195885,
+      "min": 3.0,
+      "max": 5.0,
+      "missing": 1
+    },
+    "fq_like_most_least": {
+      "n": 0,
+      "mean": null,
+      "median": null,
+      "std": null,
+      "min": null,
+      "max": null,
+      "missing": 24
+    },
+    "fq_missing_confusing_unnecessary": {
+      "n": 0,
+      "mean": null,
+      "median": null,
+      "std": null,
+      "min": null,
+      "max": null,
+      "missing": 24
+    },
+    "demographics": {
+      "age": {
+        "B": 13,
+        "A": 5,
+        "C": 5,
+        "D": 1
+      },
+      "role": {
+        "B": 18,
+        "E": 3,
+        "C": 2,
+        "NaN": 1
+      },
+      "field": {
+        "Computer Science": 6,
+        "AI/ML": 2,
+        "computer science": 2,
+        "Mechatronics": 1,
+        "Digital Media & CS": 1,
+        "NaN": 1,
+        "Artificial Intelliegence": 1,
+        "CS/ Product Management": 1,
+        "Machine Learning and Deep Learning": 1,
+        "CS": 1,
+        "Data Science": 1,
+        "Information Experience Design": 1,
+        "Computer Engineering": 1,
+        "Computer vision": 1,
+        "Biomedical Engineering": 1,
+        "Human Computer Interaction (HCI)": 1,
+        "Masters of Engineering": 1
+      },
+      "reading_freq": {
+        "C": 11,
+        "D": 7,
+        "B": 5,
+        "3": 1
+      },
+      "reading_style": {
+        "B": 9,
+        "D": 7,
+        "C": 4,
+        "A": 3,
+        "NaN": 1
+      }
+    }
+  }
+}

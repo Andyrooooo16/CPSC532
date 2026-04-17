@@ -11,7 +11,7 @@
     "no_highlights",
     "contextual_highlights"
   ],
-  "createdAt": "2026-04-16T05:42:22.175Z",
+  "createdAt": "2026-04-11T15:18:11.337Z",
   "step": "done",
   "demographicResponses": {
     "age": "B",
@@ -25,11 +25,11 @@
       "paperKey": "paper4",
       "condition": "all_highlights",
       "priorPapers": [],
-      "startedAt": "2026-04-16T05:44:14.392Z",
-      "completedAt": "2026-04-16T05:46:32.783Z",
+      "startedAt": "2026-04-11T15:19:42.118Z",
+      "completedAt": "2026-04-11T15:28:55.662Z",
       "attempts": [
         {
-          "submittedAt": "2026-04-16T05:46:26.869Z",
+          "submittedAt": "2026-04-11T15:28:46.062Z",
           "answers": {
             "p4q3": "C",
             "p4q8": "Can't grasp domain, fix AI junk, or time crunch. Most hit inspection/verification walls.",
@@ -51,7 +51,7 @@
           }
         },
         {
-          "submittedAt": "2026-04-16T05:46:32.780Z",
+          "submittedAt": "2026-04-11T15:28:49.462Z",
           "answers": {
             "p4q3": "C",
             "p4q8": "Can't grasp domain, fix AI junk, or time crunch. Most hit inspection/verification walls.",
@@ -75,10 +75,10 @@
       ],
       "perQuestionTimeSeconds": {
         "p4q3": 48,
-        "p4q7": 127,
-        "p4q9": 130,
-        "p4q1": 132,
-        "p4q5": 137
+        "p4q7": 122,
+        "p4q9": 125,
+        "p4q1": 127,
+        "p4q5": 131
       },
       "firstAttemptCorrect": {
         "p4q1": true,
@@ -104,11 +104,11 @@
       "paperKey": "paper5",
       "condition": "no_highlights",
       "priorPapers": [],
-      "startedAt": "2026-04-16T05:46:48.703Z",
-      "completedAt": "2026-04-16T05:52:59.426Z",
+      "startedAt": "2026-04-11T15:31:08.552Z",
+      "completedAt": "2026-04-11T15:40:29.441Z",
       "attempts": [
         {
-          "submittedAt": "2026-04-16T05:52:42.414Z",
+          "submittedAt": "2026-04-11T15:40:19.841Z",
           "answers": {
             "p5q10": "Explanations might blind people to bad AI. From finding they just raise blind acceptance.",
             "p5q2": "Fugener: confidence cuts AI follow. Bansal/van der Waa: explanations boost acceptance even when wrong.",
@@ -130,7 +130,7 @@
           }
         },
         {
-          "submittedAt": "2026-04-16T05:52:50.866Z",
+          "submittedAt": "2026-04-11T15:40:23.241Z",
           "answers": {
             "p5q10": "Explanations might blind people to bad AI. From finding they just raise blind acceptance.",
             "p5q2": "Fugener: confidence cuts AI follow. Bansal/van der Waa: explanations boost acceptance even when wrong.",
@@ -152,7 +152,7 @@
           }
         },
         {
-          "submittedAt": "2026-04-16T05:52:59.419Z",
+          "submittedAt": "2026-04-11T15:40:26.041Z",
           "answers": {
             "p5q10": "Explanations might blind people to bad AI. From finding they just raise blind acceptance.",
             "p5q2": "Fugener: confidence cuts AI follow. Bansal/van der Waa: explanations boost acceptance even when wrong.",
@@ -175,11 +175,11 @@
         }
       ],
       "perQuestionTimeSeconds": {
-        "p5q3": 82,
-        "p5q5": 357,
-        "p5q8": 370,
-        "p5q1": 368,
-        "p5q6": 366
+        "p5q3": 32,
+        "p5q5": 129,
+        "p5q8": 134,
+        "p5q1": 133,
+        "p5q6": 132
       },
       "firstAttemptCorrect": {
         "p5q1": false,
@@ -205,18 +205,18 @@
       "paperKey": "paper6",
       "condition": "contextual_highlights",
       "priorPapers": [],
-      "startedAt": "2026-04-16T05:53:15.363Z",
-      "completedAt": "2026-04-16T05:55:14.442Z",
+      "startedAt": "2026-04-11T15:42:37.991Z",
+      "completedAt": "2026-04-11T15:51:56.228Z",
       "attempts": [
         {
-          "submittedAt": "2026-04-16T05:54:52.295Z",
+          "submittedAt": "2026-04-11T15:51:46.628Z",
           "answers": {
             "p6q9": "Teachers should cut workload and deadlines since those drive ChatGPT use. Tell students to use it as a tool, not a shortcut.",
             "p6q5": "D",
             "p6q1": "D",
             "p6q6": "A",
             "p6q3": "B",
-            "p6q4": "12 items → experts picked 10 → EFA dropped items 4&9 (low loadings). 8 items left with good stats.",
+            "p6q4": "12 items \u2192 experts picked 10 \u2192 EFA dropped items 4&9 (low loadings). 8 items left with good stats.",
             "p6q2": "Rewards worry either ups or cuts ChatGPT. Cuts won, scared kids avoid cheating risk.",
             "p6q7": "Workload/time pressure mediated to all bad outcomes via ChatGPT. Rewards sensitivity only to procrastination/memory. Quality sensitivity did nothing.",
             "p6q8": "C",
@@ -231,14 +231,14 @@
           }
         },
         {
-          "submittedAt": "2026-04-16T05:55:07.347Z",
+          "submittedAt": "2026-04-11T15:51:50.028Z",
           "answers": {
             "p6q9": "Teachers should cut workload and deadlines since those drive ChatGPT use. Tell students to use it as a tool, not a shortcut.",
             "p6q5": "B",
             "p6q1": "B",
             "p6q6": "B",
             "p6q3": "C",
-            "p6q4": "12 items → experts picked 10 → EFA dropped items 4&9 (low loadings). 8 items left with good stats.",
+            "p6q4": "12 items \u2192 experts picked 10 \u2192 EFA dropped items 4&9 (low loadings). 8 items left with good stats.",
             "p6q2": "Rewards worry either ups or cuts ChatGPT. Cuts won, scared kids avoid cheating risk.",
             "p6q7": "Workload/time pressure mediated to all bad outcomes via ChatGPT. Rewards sensitivity only to procrastination/memory. Quality sensitivity did nothing.",
             "p6q8": "D",
@@ -253,14 +253,14 @@
           }
         },
         {
-          "submittedAt": "2026-04-16T05:55:14.437Z",
+          "submittedAt": "2026-04-11T15:51:52.828Z",
           "answers": {
             "p6q9": "Teachers should cut workload and deadlines since those drive ChatGPT use. Tell students to use it as a tool, not a shortcut.",
             "p6q5": "B",
             "p6q1": "B",
             "p6q6": "C",
             "p6q3": "C",
-            "p6q4": "12 items → experts picked 10 → EFA dropped items 4&9 (low loadings). 8 items left with good stats.",
+            "p6q4": "12 items \u2192 experts picked 10 \u2192 EFA dropped items 4&9 (low loadings). 8 items left with good stats.",
             "p6q2": "Rewards worry either ups or cuts ChatGPT. Cuts won, scared kids avoid cheating risk.",
             "p6q7": "Workload/time pressure mediated to all bad outcomes via ChatGPT. Rewards sensitivity only to procrastination/memory. Quality sensitivity did nothing.",
             "p6q8": "B",
@@ -276,11 +276,11 @@
         }
       ],
       "perQuestionTimeSeconds": {
-        "p6q5": 102,
-        "p6q1": 104,
-        "p6q3": 108,
-        "p6q6": 118,
-        "p6q8": 114
+        "p6q5": 106,
+        "p6q1": 106,
+        "p6q3": 110,
+        "p6q6": 120,
+        "p6q8": 116
       },
       "firstAttemptCorrect": {
         "p6q1": false,
@@ -295,7 +295,7 @@
         "p6q1": "B",
         "p6q6": "C",
         "p6q3": "C",
-        "p6q4": "12 items → experts picked 10 → EFA dropped items 4&9 (low loadings). 8 items left with good stats.",
+        "p6q4": "12 items \u2192 experts picked 10 \u2192 EFA dropped items 4&9 (low loadings). 8 items left with good stats.",
         "p6q2": "Rewards worry either ups or cuts ChatGPT. Cuts won, scared kids avoid cheating risk.",
         "p6q7": "Workload/time pressure mediated to all bad outcomes via ChatGPT. Rewards sensitivity only to procrastination/memory. Quality sensitivity did nothing.",
         "p6q8": "B",
@@ -306,7 +306,7 @@
   "questionnaireResponses": [
     {
       "paperKey": "paper4",
-      "submittedAt": "2026-04-16T05:46:46.555Z",
+      "submittedAt": "2026-04-11T15:30:11.441Z",
       "responses": {
         "p4diff1": 3,
         "p4diff2": 3,
@@ -324,7 +324,7 @@
     },
     {
       "paperKey": "paper5",
-      "submittedAt": "2026-04-16T05:53:12.855Z",
+      "submittedAt": "2026-04-11T15:41:58.771Z",
       "responses": {
         "p5diff1": 4,
         "p5diff2": 4,
@@ -341,7 +341,7 @@
     },
     {
       "paperKey": "paper6",
-      "submittedAt": "2026-04-16T05:55:34.158Z",
+      "submittedAt": "2026-04-11T15:53:14.882Z",
       "responses": {
         "p6diff1": 4,
         "p6diff2": 4,
@@ -373,7 +373,7 @@
   },
   "crossAttempts": [
     {
-      "submittedAt": "2026-04-16T05:56:59.999Z",
+      "submittedAt": "2026-04-11T15:56:48.551Z",
       "answers": {
         "cpq1": "B",
         "cpq2": "People switch from creating work to reviewing AI output. AI handles the basic production fast, so effort goes to checking instead.",
@@ -395,7 +395,7 @@
       }
     },
     {
-      "submittedAt": "2026-04-16T05:57:05.692Z",
+      "submittedAt": "2026-04-11T15:56:54.992Z",
       "answers": {
         "cpq1": "B",
         "cpq2": "People switch from creating work to reviewing AI output. AI handles the basic production fast, so effort goes to checking instead.",
@@ -417,7 +417,7 @@
       }
     }
   ],
-  "completedAt": "2026-04-16T05:58:00.593Z",
+  "completedAt": "2026-04-11T15:57:52.331Z",
   "questionOrders": {
     "paper4": [
       "p4q3",

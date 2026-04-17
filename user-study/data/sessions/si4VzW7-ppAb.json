@@ -11,7 +11,7 @@
     "all_highlights",
     "contextual_highlights"
   ],
-  "createdAt": "2026-04-16T02:57:41.582Z",
+  "createdAt": "2026-04-11T11:22:37.441Z",
   "step": "done",
   "demographicResponses": {
     "age": "B",
@@ -25,17 +25,17 @@
       "paperKey": "paper4",
       "condition": "no_highlights",
       "priorPapers": [],
-      "startedAt": "2026-04-16T05:08:53.575Z",
-      "completedAt": "2026-04-16T05:16:57.988Z",
+      "startedAt": "2026-04-11T11:24:12.882Z",
+      "completedAt": "2026-04-11T11:32:18.331Z",
       "attempts": [
         {
-          "submittedAt": "2026-04-16T05:16:57.982Z",
+          "submittedAt": "2026-04-11T11:32:06.231Z",
           "answers": {
             "p4q3": "C",
             "p4q9": "D",
-            "p4q8": "The paper identifies several ability-related constraints, including limited capability to refine or iteratively improve AI outputs, insufficient domain expertise, and difficulty interpreting outputs in unfamiliar contexts. Among these, the most prevalent barrier is the difficulty of effectively improving or correcting AI-generated responses, which constrains users’ capacity to operationalize critical thinking even when motivated.",
+            "p4q8": "The paper identifies several ability-related constraints, including limited capability to refine or iteratively improve AI outputs, insufficient domain expertise, and difficulty interpreting outputs in unfamiliar contexts. Among these, the most prevalent barrier is the difficulty of effectively improving or correcting AI-generated responses, which constrains users\u2019 capacity to operationalize critical thinking even when motivated.",
             "p4q1": "C",
-            "p4q4": "The study observes a redistribution of cognitive effort away from primary knowledge production activities (e.g., analysis and synthesis) toward secondary evaluative processes (e.g., validation, verification, and alignment). This effectively redefines the user’s role as a supervisory evaluator, responsible for assessing and integrating AI outputs rather than generating them de novo.",
+            "p4q4": "The study observes a redistribution of cognitive effort away from primary knowledge production activities (e.g., analysis and synthesis) toward secondary evaluative processes (e.g., validation, verification, and alignment). This effectively redefines the user\u2019s role as a supervisory evaluator, responsible for assessing and integrating AI outputs rather than generating them de novo.",
             "p4q5": "B",
             "p4q10": "The use of stewardship emphasizes a human-in-the-loop accountability model, where the user retains responsibility for oversight, validation, and final decision-making. This framing explicitly rejects the notion of distributed accountability and instead positions the human as the ultimate authority over system outputs.",
             "p4q6": "The interaction between motivational and ability factors suggests a mismatch between intent and execution: while users may be motivated to engage critically (e.g., to ensure quality or mitigate risk), insufficient capability to interrogate or refine outputs limits effective critical engagement. Consequently, critical thinking is most likely to degrade in scenarios characterized by high task complexity combined with low user expertise or tool literacy.",
@@ -52,11 +52,11 @@
         }
       ],
       "perQuestionTimeSeconds": {
-        "p4q3": 6,
-        "p4q9": 274,
-        "p4q1": 285,
-        "p4q5": 478,
-        "p4q7": 484
+        "p4q3": 4,
+        "p4q9": 87,
+        "p4q1": 90,
+        "p4q5": 151,
+        "p4q7": 153
       },
       "firstAttemptCorrect": {
         "p4q1": true,
@@ -68,9 +68,9 @@
       "finalAnswers": {
         "p4q3": "C",
         "p4q9": "D",
-        "p4q8": "The paper identifies several ability-related constraints, including limited capability to refine or iteratively improve AI outputs, insufficient domain expertise, and difficulty interpreting outputs in unfamiliar contexts. Among these, the most prevalent barrier is the difficulty of effectively improving or correcting AI-generated responses, which constrains users’ capacity to operationalize critical thinking even when motivated.",
+        "p4q8": "The paper identifies several ability-related constraints, including limited capability to refine or iteratively improve AI outputs, insufficient domain expertise, and difficulty interpreting outputs in unfamiliar contexts. Among these, the most prevalent barrier is the difficulty of effectively improving or correcting AI-generated responses, which constrains users\u2019 capacity to operationalize critical thinking even when motivated.",
         "p4q1": "C",
-        "p4q4": "The study observes a redistribution of cognitive effort away from primary knowledge production activities (e.g., analysis and synthesis) toward secondary evaluative processes (e.g., validation, verification, and alignment). This effectively redefines the user’s role as a supervisory evaluator, responsible for assessing and integrating AI outputs rather than generating them de novo.",
+        "p4q4": "The study observes a redistribution of cognitive effort away from primary knowledge production activities (e.g., analysis and synthesis) toward secondary evaluative processes (e.g., validation, verification, and alignment). This effectively redefines the user\u2019s role as a supervisory evaluator, responsible for assessing and integrating AI outputs rather than generating them de novo.",
         "p4q5": "B",
         "p4q10": "The use of stewardship emphasizes a human-in-the-loop accountability model, where the user retains responsibility for oversight, validation, and final decision-making. This framing explicitly rejects the notion of distributed accountability and instead positions the human as the ultimate authority over system outputs.",
         "p4q6": "The interaction between motivational and ability factors suggests a mismatch between intent and execution: while users may be motivated to engage critically (e.g., to ensure quality or mitigate risk), insufficient capability to interrogate or refine outputs limits effective critical engagement. Consequently, critical thinking is most likely to degrade in scenarios characterized by high task complexity combined with low user expertise or tool literacy.",
@@ -82,19 +82,19 @@
       "paperKey": "paper5",
       "condition": "all_highlights",
       "priorPapers": [],
-      "startedAt": "2026-04-16T05:17:53.118Z",
-      "completedAt": "2026-04-16T05:30:54.806Z",
+      "startedAt": "2026-04-11T11:36:41.119Z",
+      "completedAt": "2026-04-11T11:46:55.774Z",
       "attempts": [
         {
-          "submittedAt": "2026-04-16T05:30:54.802Z",
+          "submittedAt": "2026-04-11T11:46:43.674Z",
           "answers": {
             "p5q4": "For tabular data, there was basically no improvement (SMD = 0.01, not significant), while for text data there was a clear positive effect (SMD = 0.72, significant). The authors suggest this is because text tasks are more intuitive for humans, so people can better combine their own reasoning with AI support.",
             "p5q2": "The paper compares (1) human vs. XAI-assisted performance and (2) AI-assisted vs. XAI-assisted performance. Since XAI does not significantly outperform AI alone, the improvement over humans should be interpreted as coming from AI assistance in general, not specifically from explanations.",
             "p5q5": "B",
-            "p5q7": "The two mechanisms are: (1) increasing how often users accept AI advice, and (2) helping users better judge when the AI is correct (trust calibration). The evidence was stronger for the first one—people are more likely to follow the AI.",
+            "p5q7": "The two mechanisms are: (1) increasing how often users accept AI advice, and (2) helping users better judge when the AI is correct (trust calibration). The evidence was stronger for the first one\u2014people are more likely to follow the AI.",
             "p5q6": "B",
             "p5q10": "The concern is that explanations can make users trust AI too much, even when it is wrong. This comes from findings showing that explanations increase the likelihood that users follow AI recommendations regardless of correctness.",
-            "p5q9": "Some studies (Bansal et al. and van der Waa et al.) found that explanations increase how much people follow AI advice, while others (Fügener et al.) found reduced or no change in reliance. So overall, the effect of explanations is inconsistent.",
+            "p5q9": "Some studies (Bansal et al. and van der Waa et al.) found that explanations increase how much people follow AI advice, while others (F\u00fcgener et al.) found reduced or no change in reliance. So overall, the effect of explanations is inconsistent.",
             "p5q1": "B",
             "p5q3": "D",
             "p5q8": "C"
@@ -109,11 +109,11 @@
         }
       ],
       "perQuestionTimeSeconds": {
-        "p5q5": 614,
-        "p5q6": 622,
-        "p5q1": 722,
-        "p5q3": 728,
-        "p5q8": 733
+        "p5q5": 113,
+        "p5q6": 111,
+        "p5q1": 129,
+        "p5q3": 130,
+        "p5q8": 131
       },
       "firstAttemptCorrect": {
         "p5q1": true,
@@ -126,10 +126,10 @@
         "p5q4": "For tabular data, there was basically no improvement (SMD = 0.01, not significant), while for text data there was a clear positive effect (SMD = 0.72, significant). The authors suggest this is because text tasks are more intuitive for humans, so people can better combine their own reasoning with AI support.",
         "p5q2": "The paper compares (1) human vs. XAI-assisted performance and (2) AI-assisted vs. XAI-assisted performance. Since XAI does not significantly outperform AI alone, the improvement over humans should be interpreted as coming from AI assistance in general, not specifically from explanations.",
         "p5q5": "B",
-        "p5q7": "The two mechanisms are: (1) increasing how often users accept AI advice, and (2) helping users better judge when the AI is correct (trust calibration). The evidence was stronger for the first one—people are more likely to follow the AI.",
+        "p5q7": "The two mechanisms are: (1) increasing how often users accept AI advice, and (2) helping users better judge when the AI is correct (trust calibration). The evidence was stronger for the first one\u2014people are more likely to follow the AI.",
         "p5q6": "B",
         "p5q10": "The concern is that explanations can make users trust AI too much, even when it is wrong. This comes from findings showing that explanations increase the likelihood that users follow AI recommendations regardless of correctness.",
-        "p5q9": "Some studies (Bansal et al. and van der Waa et al.) found that explanations increase how much people follow AI advice, while others (Fügener et al.) found reduced or no change in reliance. So overall, the effect of explanations is inconsistent.",
+        "p5q9": "Some studies (Bansal et al. and van der Waa et al.) found that explanations increase how much people follow AI advice, while others (F\u00fcgener et al.) found reduced or no change in reliance. So overall, the effect of explanations is inconsistent.",
         "p5q1": "B",
         "p5q3": "D",
         "p5q8": "C"
@@ -139,11 +139,11 @@
       "paperKey": "paper6",
       "condition": "contextual_highlights",
       "priorPapers": [],
-      "startedAt": "2026-04-16T05:31:54.813Z",
-      "completedAt": "2026-04-16T05:43:17.127Z",
+      "startedAt": "2026-04-11T11:50:03.557Z",
+      "completedAt": "2026-04-11T11:58:12.228Z",
       "attempts": [
         {
-          "submittedAt": "2026-04-16T05:43:17.113Z",
+          "submittedAt": "2026-04-11T11:58:00.128Z",
           "answers": {
             "p6q1": "B",
             "p6q10": "The proposed mechanism is essentially cognitive offloading: frequent reliance on ChatGPT reduces active cognitive processing and mental rehearsal, which are necessary for memory consolidation, thereby degrading retention over time.",
@@ -166,11 +166,11 @@
         }
       ],
       "perQuestionTimeSeconds": {
-        "p6q1": 65,
-        "p6q8": 623,
-        "p6q3": 632,
-        "p6q6": 681,
-        "p6q5": 635
+        "p6q1": 13,
+        "p6q8": 115,
+        "p6q3": 117,
+        "p6q6": 126,
+        "p6q5": 117
       },
       "firstAttemptCorrect": {
         "p6q1": true,
@@ -196,7 +196,7 @@
   "questionnaireResponses": [
     {
       "paperKey": "paper4",
-      "submittedAt": "2026-04-16T05:17:21.026Z",
+      "submittedAt": "2026-04-11T11:33:49.771Z",
       "responses": {
         "p4diff1": 1,
         "p4diff2": 1,
@@ -213,7 +213,7 @@
     },
     {
       "paperKey": "paper5",
-      "submittedAt": "2026-04-16T05:31:13.088Z",
+      "submittedAt": "2026-04-11T11:48:21.992Z",
       "responses": {
         "p5diff1": 1,
         "p5diff2": 2,
@@ -230,7 +230,7 @@
     },
     {
       "paperKey": "paper6",
-      "submittedAt": "2026-04-16T05:43:48.812Z",
+      "submittedAt": "2026-04-11T11:59:41.663Z",
       "responses": {
         "p6diff1": 1,
         "p6diff2": 2,
@@ -259,7 +259,7 @@
   },
   "crossAttempts": [
     {
-      "submittedAt": "2026-04-16T05:47:47.470Z",
+      "submittedAt": "2026-04-11T12:03:58.114Z",
       "answers": {
         "cpq1": "B",
         "cpq2": "The primary shift is from cognitive effort in task execution to effort in evaluation and oversight. As generative systems automate content production, users reallocate resources toward verifying correctness, assessing alignment with task goals, and integrating outputs into broader workflows.",
@@ -281,7 +281,7 @@
       }
     }
   ],
-  "completedAt": "2026-04-16T05:49:17.398Z",
+  "completedAt": "2026-04-11T12:05:22.447Z",
   "questionOrders": {
     "paper4": [
       "p4q3",

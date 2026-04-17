@@ -1,6 +1,6 @@
 {
-  "sessionId": "ZS_Nq0On-Abq",
-  "participantId": "P05",
+  "sessionId": "3Y9tHFuB29bm",
+  "participantId": "P10",
   "paperOrder": [
     "paper5",
     "paper6",
@@ -8,91 +8,518 @@
   ],
   "conditions": [
     "all_highlights",
-    "contextual_highlights",
-    "no_highlights"
+    "no_highlights",
+    "contextual_highlights"
   ],
-  "createdAt": "2026-04-09T17:55:01.086Z",
-  "step": "reading_0",
+  "createdAt": "2026-04-08T19:26:11.384Z",
+  "step": "done",
   "demographicResponses": {
-    "age": "D",
-    "reading_freq": 3,
-    "highlight_exp": "B"
+    "age": "A",
+    "role": "B",
+    "field": "Computer Science",
+    "reading_freq": "D",
+    "reading_style": "B"
   },
   "tasks": [
     {
       "paperKey": "paper5",
       "condition": "all_highlights",
       "priorPapers": [],
-      "startedAt": "2026-04-09T17:55:16.533Z",
-      "completedAt": null,
-      "attempts": [],
-      "perQuestionTimeSeconds": null,
-      "firstAttemptCorrect": null,
-      "finalAnswers": null
+      "startedAt": "2026-04-08T19:27:43.119Z",
+      "completedAt": "2026-04-08T19:37:06.731Z",
+      "attempts": [
+        {
+          "submittedAt": "2026-04-08T19:37:06.720Z",
+          "answers": {
+            "p5q7": "- XAI might help by making people accept AI advice more Or by helping them figure out when the AI is right vs wrong\n- The paper mostly finds stronger support for increased acceptance",
+            "p5q9": "- Bansal et al., van der Waa et al. show explanations increase reliance on AI\n- Fugener et al. show they can actually reduce reliance\n-  explanations don\u2019t have a consistent effect",
+            "p5q2": "- Compares humans vs XAI, and AI vs XAI\n- XAI beats humans, but not AI alone\n- Benefit is really from AI support, not the explanations",
+            "p5q6": "B",
+            "p5q5": "B",
+            "p5q4": "- XAI improves performance for both tabular and text data\n- Improvement is bigger for text tasks\n- likely explanation is that text is easier for people to understand",
+            "p5q1": "B",
+            "p5q10": "- They\u2019re worried explanations might confuse users and lower trust in AI\n- This comes from the finding that explanations didn\u2019t really improve performance much",
+            "p5q3": "D",
+            "p5q8": "C"
+          },
+          "scores": {
+            "p5q1": true,
+            "p5q3": true,
+            "p5q5": true,
+            "p5q6": true,
+            "p5q8": true
+          }
+        }
+      ],
+      "perQuestionTimeSeconds": {
+        "p5q6": 118,
+        "p5q5": 114,
+        "p5q1": 106,
+        "p5q3": 112,
+        "p5q8": 113
+      },
+      "firstAttemptCorrect": {
+        "p5q1": true,
+        "p5q3": true,
+        "p5q5": true,
+        "p5q6": true,
+        "p5q8": true
+      },
+      "finalAnswers": {
+        "p5q7": "- XAI might help by making people accept AI advice more Or by helping them figure out when the AI is right vs wrong\n- The paper mostly finds stronger support for increased acceptance",
+        "p5q9": "- Bansal et al., van der Waa et al. show explanations increase reliance on AI\n- Fugener et al. show they can actually reduce reliance\n-  explanations don\u2019t have a consistent effect",
+        "p5q2": "- Compares humans vs XAI, and AI vs XAI\n- XAI beats humans, but not AI alone\n- Benefit is really from AI support, not the explanations",
+        "p5q6": "B",
+        "p5q5": "B",
+        "p5q4": "- XAI improves performance for both tabular and text data\n- Improvement is bigger for text tasks\n- likely explanation is that text is easier for people to understand",
+        "p5q1": "B",
+        "p5q10": "- They\u2019re worried explanations might confuse users and lower trust in AI\n- This comes from the finding that explanations didn\u2019t really improve performance much",
+        "p5q3": "D",
+        "p5q8": "C"
+      }
+    },
+    {
+      "paperKey": "paper6",
+      "condition": "no_highlights",
+      "priorPapers": [],
+      "startedAt": "2026-04-08T19:40:58.552Z",
+      "completedAt": "2026-04-08T19:50:17.403Z",
+      "attempts": [
+        {
+          "submittedAt": "2026-04-08T19:50:10.203Z",
+          "answers": {
+            "p6q10": "The authors suggest that excessive GPT use leads to cognitive laziness and a lack of mental exertion which are necessary for the brain to function well. They argue that by using the tool as a shortcut students miss out on active cognitive engagement and daily mental training required for memory consolidation.",
+            "p6q1": "B",
+            "p6q9": "The authors recommend that educators should reduce students academic workload and time pressure to decrease the incentive for using ChatGPT as a shortcut. This relates to findings that high workloads and tight deadlines were significant predictors that drove students toward using the tool.",
+            "p6q3": "B",
+            "p6q2": "One prediction was that reward sensitive students would use ChatGPT more to get better grades while the competing prediction was they would use it less for fear of getting caught. The results supported the second prediction showing a negative link between reward sensitivity and usage. The authors reason that these students are more cautious and fear that using an ethically questionable tool could jeopardize their academic integrity and grades.",
+            "p6q6": "D",
+            "p6q8": "D",
+            "p6q4": "The scale was reduced from 12 items to 8 through an initial content validity check and a subsequent exploratory factor analysis. Experts first dropped two items to ensure content validity leaving 10 items for testing. Then two more items were dropped because they had low factor loadings and communalities.",
+            "p6q7": "The paper says mediation only worked for the quality of the content because students who care about their grades used it the most. The authors basically found that things like workload and time pressure dont actually lead to more usage since students are going to use it regardless of how much work they have. So the only thing that really mattered was whether the student thought the AI could produce better quality work than they could themselves.",
+            "p6q5": "B"
+          },
+          "scores": {
+            "p6q1": true,
+            "p6q3": false,
+            "p6q5": true,
+            "p6q6": false,
+            "p6q8": false
+          }
+        },
+        {
+          "submittedAt": "2026-04-08T19:50:13.803Z",
+          "answers": {
+            "p6q10": "The authors suggest that excessive GPT use leads to cognitive laziness and a lack of mental exertion which are necessary for the brain to function well. They argue that by using the tool as a shortcut students miss out on active cognitive engagement and daily mental training required for memory consolidation.",
+            "p6q1": "B",
+            "p6q9": "The authors recommend that educators should reduce students academic workload and time pressure to decrease the incentive for using ChatGPT as a shortcut. This relates to findings that high workloads and tight deadlines were significant predictors that drove students toward using the tool.",
+            "p6q3": "C",
+            "p6q2": "One prediction was that reward sensitive students would use ChatGPT more to get better grades while the competing prediction was they would use it less for fear of getting caught. The results supported the second prediction showing a negative link between reward sensitivity and usage. The authors reason that these students are more cautious and fear that using an ethically questionable tool could jeopardize their academic integrity and grades.",
+            "p6q6": "C",
+            "p6q8": "A",
+            "p6q4": "The scale was reduced from 12 items to 8 through an initial content validity check and a subsequent exploratory factor analysis. Experts first dropped two items to ensure content validity leaving 10 items for testing. Then two more items were dropped because they had low factor loadings and communalities.",
+            "p6q7": "The paper says mediation only worked for the quality of the content because students who care about their grades used it the most. The authors basically found that things like workload and time pressure dont actually lead to more usage since students are going to use it regardless of how much work they have. So the only thing that really mattered was whether the student thought the AI could produce better quality work than they could themselves.",
+            "p6q5": "B"
+          },
+          "scores": {
+            "p6q1": true,
+            "p6q3": true,
+            "p6q5": true,
+            "p6q6": true,
+            "p6q8": false
+          }
+        },
+        {
+          "submittedAt": "2026-04-08T19:50:17.398Z",
+          "answers": {
+            "p6q10": "The authors suggest that excessive GPT use leads to cognitive laziness and a lack of mental exertion which are necessary for the brain to function well. They argue that by using the tool as a shortcut students miss out on active cognitive engagement and daily mental training required for memory consolidation.",
+            "p6q1": "B",
+            "p6q9": "The authors recommend that educators should reduce students academic workload and time pressure to decrease the incentive for using ChatGPT as a shortcut. This relates to findings that high workloads and tight deadlines were significant predictors that drove students toward using the tool.",
+            "p6q3": "C",
+            "p6q2": "One prediction was that reward sensitive students would use ChatGPT more to get better grades while the competing prediction was they would use it less for fear of getting caught. The results supported the second prediction showing a negative link between reward sensitivity and usage. The authors reason that these students are more cautious and fear that using an ethically questionable tool could jeopardize their academic integrity and grades.",
+            "p6q6": "C",
+            "p6q8": "B",
+            "p6q4": "The scale was reduced from 12 items to 8 through an initial content validity check and a subsequent exploratory factor analysis. Experts first dropped two items to ensure content validity leaving 10 items for testing. Then two more items were dropped because they had low factor loadings and communalities.",
+            "p6q7": "The paper says mediation only worked for the quality of the content because students who care about their grades used it the most. The authors basically found that things like workload and time pressure dont actually lead to more usage since students are going to use it regardless of how much work they have. So the only thing that really mattered was whether the student thought the AI could produce better quality work than they could themselves.",
+            "p6q5": "B"
+          },
+          "scores": {
+            "p6q1": true,
+            "p6q3": true,
+            "p6q5": true,
+            "p6q6": true,
+            "p6q8": true
+          }
+        }
+      ],
+      "perQuestionTimeSeconds": {
+        "p6q1": 110,
+        "p6q5": 105,
+        "p6q3": 112,
+        "p6q6": 114,
+        "p6q8": 117
+      },
+      "firstAttemptCorrect": {
+        "p6q1": true,
+        "p6q3": false,
+        "p6q5": true,
+        "p6q6": false,
+        "p6q8": false
+      },
+      "finalAnswers": {
+        "p6q10": "The authors suggest that excessive GPT use leads to cognitive laziness and a lack of mental exertion which are necessary for the brain to function well. They argue that by using the tool as a shortcut students miss out on active cognitive engagement and daily mental training required for memory consolidation.",
+        "p6q1": "B",
+        "p6q9": "The authors recommend that educators should reduce students academic workload and time pressure to decrease the incentive for using ChatGPT as a shortcut. This relates to findings that high workloads and tight deadlines were significant predictors that drove students toward using the tool.",
+        "p6q3": "C",
+        "p6q2": "One prediction was that reward sensitive students would use ChatGPT more to get better grades while the competing prediction was they would use it less for fear of getting caught. The results supported the second prediction showing a negative link between reward sensitivity and usage. The authors reason that these students are more cautious and fear that using an ethically questionable tool could jeopardize their academic integrity and grades.",
+        "p6q6": "C",
+        "p6q8": "B",
+        "p6q4": "The scale was reduced from 12 items to 8 through an initial content validity check and a subsequent exploratory factor analysis. Experts first dropped two items to ensure content validity leaving 10 items for testing. Then two more items were dropped because they had low factor loadings and communalities.",
+        "p6q7": "The paper says mediation only worked for the quality of the content because students who care about their grades used it the most. The authors basically found that things like workload and time pressure dont actually lead to more usage since students are going to use it regardless of how much work they have. So the only thing that really mattered was whether the student thought the AI could produce better quality work than they could themselves.",
+        "p6q5": "B"
+      }
+    },
+    {
+      "paperKey": "paper4",
+      "condition": "contextual_highlights",
+      "priorPapers": [],
+      "startedAt": "2026-04-08T19:54:21.887Z",
+      "completedAt": "2026-04-08T20:03:48.266Z",
+      "attempts": [
+        {
+          "submittedAt": "2026-04-08T20:03:41.066Z",
+          "answers": {
+            "p4q6": "The authors argue that critical thinking breaks down when workers have too much motivation to finish a task quickly but lack the specific AI tools to do it. This implies that critical thinking usually fails because the software itself is too difficult to navigate not because the human lacks the skills to check the work.",
+            "p4q5": "A",
+            "p4q9": "B",
+            "p4q7": "A",
+            "p4q1": "C",
+            "p4q4": "The study found that cognitive effort for analysis and evaluation has actually decreased because the AI handles all the heavy lifting now. This creates a new role where knowledge workers basically just act as data entry clerks who feed information into the system and let it do the thinking.",
+            "p4q2": "The two research questions are about how often people use GenAI and what specific brands of AI they prefer. They differ because the first one is about the quantity of use while the second one focuses on the quality of the different AI platforms available to workers.",
+            "p4q3": "A",
+            "p4q10": "The authors prefer the term stewardship because it sounds more professionalthan just saying a person is a supervisor. They argue that this term means the AI and the human are equally responsible for the final product which allows for a shared sense of accountability if the work ends up being wrong.",
+            "p4q8": "Laziness and reduced motivation"
+          },
+          "scores": {
+            "p4q1": true,
+            "p4q3": false,
+            "p4q5": false,
+            "p4q7": false,
+            "p4q9": false
+          }
+        },
+        {
+          "submittedAt": "2026-04-08T20:03:44.666Z",
+          "answers": {
+            "p4q6": "The authors argue that critical thinking breaks down when workers have too much motivation to finish a task quickly but lack the specific AI tools to do it. This implies that critical thinking usually fails because the software itself is too difficult to navigate not because the human lacks the skills to check the work.",
+            "p4q5": "D",
+            "p4q9": "D",
+            "p4q7": "C",
+            "p4q1": "C",
+            "p4q4": "The study found that cognitive effort for analysis and evaluation has actually decreased because the AI handles all the heavy lifting now. This creates a new role where knowledge workers basically just act as data entry clerks who feed information into the system and let it do the thinking.",
+            "p4q2": "The two research questions are about how often people use GenAI and what specific brands of AI they prefer. They differ because the first one is about the quantity of use while the second one focuses on the quality of the different AI platforms available to workers.",
+            "p4q3": "C",
+            "p4q10": "The authors prefer the term stewardship because it sounds more professionalthan just saying a person is a supervisor. They argue that this term means the AI and the human are equally responsible for the final product which allows for a shared sense of accountability if the work ends up being wrong.",
+            "p4q8": "Laziness and reduced motivation"
+          },
+          "scores": {
+            "p4q1": true,
+            "p4q3": true,
+            "p4q5": false,
+            "p4q7": false,
+            "p4q9": true
+          }
+        },
+        {
+          "submittedAt": "2026-04-08T20:03:48.261Z",
+          "answers": {
+            "p4q6": "The authors argue that critical thinking breaks down when workers have too much motivation to finish a task quickly but lack the specific AI tools to do it. This implies that critical thinking usually fails because the software itself is too difficult to navigate not because the human lacks the skills to check the work.",
+            "p4q5": "B",
+            "p4q9": "D",
+            "p4q7": "B",
+            "p4q1": "C",
+            "p4q4": "The study found that cognitive effort for analysis and evaluation has actually decreased because the AI handles all the heavy lifting now. This creates a new role where knowledge workers basically just act as data entry clerks who feed information into the system and let it do the thinking.",
+            "p4q2": "The two research questions are about how often people use GenAI and what specific brands of AI they prefer. They differ because the first one is about the quantity of use while the second one focuses on the quality of the different AI platforms available to workers.",
+            "p4q3": "C",
+            "p4q10": "The authors prefer the term stewardship because it sounds more professionalthan just saying a person is a supervisor. They argue that this term means the AI and the human are equally responsible for the final product which allows for a shared sense of accountability if the work ends up being wrong.",
+            "p4q8": "Laziness and reduced motivation"
+          },
+          "scores": {
+            "p4q1": true,
+            "p4q3": true,
+            "p4q5": true,
+            "p4q7": true,
+            "p4q9": true
+          }
+        }
+      ],
+      "perQuestionTimeSeconds": {
+        "p4q1": 106,
+        "p4q9": 111,
+        "p4q3": 114,
+        "p4q5": 118,
+        "p4q7": 117
+      },
+      "firstAttemptCorrect": {
+        "p4q1": true,
+        "p4q3": false,
+        "p4q5": false,
+        "p4q7": false,
+        "p4q9": false
+      },
+      "finalAnswers": {
+        "p4q6": "The authors argue that critical thinking breaks down when workers have too much motivation to finish a task quickly but lack the specific AI tools to do it. This implies that critical thinking usually fails because the software itself is too difficult to navigate not because the human lacks the skills to check the work.",
+        "p4q5": "B",
+        "p4q9": "D",
+        "p4q7": "B",
+        "p4q1": "C",
+        "p4q4": "The study found that cognitive effort for analysis and evaluation has actually decreased because the AI handles all the heavy lifting now. This creates a new role where knowledge workers basically just act as data entry clerks who feed information into the system and let it do the thinking.",
+        "p4q2": "The two research questions are about how often people use GenAI and what specific brands of AI they prefer. They differ because the first one is about the quantity of use while the second one focuses on the quality of the different AI platforms available to workers.",
+        "p4q3": "C",
+        "p4q10": "The authors prefer the term stewardship because it sounds more professionalthan just saying a person is a supervisor. They argue that this term means the AI and the human are equally responsible for the final product which allows for a shared sense of accountability if the work ends up being wrong.",
+        "p4q8": "Laziness and reduced motivation"
+      }
     }
   ],
-  "questionnaireResponses": [],
-  "finalResponses": null,
-  "completedAt": null,
+  "questionnaireResponses": [
+    {
+      "paperKey": "paper5",
+      "submittedAt": "2026-04-08T19:38:14.522Z",
+      "responses": {
+        "p5diff1": 3,
+        "p5diff2": 3,
+        "p5diff3": 3,
+        "p5diff4": 3,
+        "p5diff5": 3,
+        "p5diff6": 4,
+        "p5diff7": 4,
+        "p5diff8": 3,
+        "p5diff9": 3,
+        "p5diff10": 3,
+        "p5ease": 3
+      }
+    },
+    {
+      "paperKey": "paper6",
+      "submittedAt": "2026-04-08T19:52:04.811Z",
+      "responses": {
+        "p6diff1": 4,
+        "p6diff2": 4,
+        "p6diff3": 4,
+        "p6diff4": 4,
+        "p6diff5": 4,
+        "p6diff6": 4,
+        "p6diff7": 3,
+        "p6diff8": 3,
+        "p6diff9": 4,
+        "p6diff10": 3,
+        "p6ease": 3,
+        "p6comments": "The writtten questions were a bit difficult here, I wasn't able to fully read through the paper to answer the questions in detail."
+      }
+    },
+    {
+      "paperKey": "paper4",
+      "submittedAt": "2026-04-08T20:05:03.995Z",
+      "responses": {
+        "p4diff1": 4,
+        "p4diff2": 4,
+        "p4diff3": 4,
+        "p4diff4": 4,
+        "p4diff5": 4,
+        "p4diff6": 4,
+        "p4diff7": 4,
+        "p4diff8": 4,
+        "p4diff9": 4,
+        "p4diff10": 4,
+        "p4ease": 4,
+        "p4comments": "Some of the questions were phrased in a way that was a bit confusing in terms of what is being asked."
+      }
+    }
+  ],
+  "finalResponses": {
+    "fq_helpful_highlighted_sentences": 3,
+    "fq_confidence_understanding": 3,
+    "fq_identify_important_info": 2,
+    "fq_repeated_known_info": 3,
+    "fq_missing_important_info": 3,
+    "fq_trust_highlights_key_ideas": 4,
+    "fq_new_vs_repeated": 2,
+    "fq_focus_novel_important_content": 4,
+    "fq_use_in_workflow": 3,
+    "fq_like_most_least": "Highlights on the high level were helpful, but in regards to answering specific questions I still needed to do a deeper rinse through of the paper as a whole.",
+    "fq_missing_confusing_unnecessary": "Wasn't sure how new vs old information was presented."
+  },
+  "crossAttempts": [
+    {
+      "submittedAt": "2026-04-08T20:09:27.441Z",
+      "answers": {
+        "cpq1": "B",
+        "cpq2": "Cognitive effort shifts from generating content to evaluating it because workers now act as stewards who must steer the AI and verify its outputs for errors rather than creating material from scratch.",
+        "cpq3": "C",
+        "cpq4": "over reliance on AI where humans no longer check the output, can lead to slop entering the output pipeline.",
+        "cpq5": "B",
+        "cpq6": "Whether user feels confident in the output answers.",
+        "cpq7": "B",
+        "cpq8": "easy to depend on AI with a bunch of conflicting deadlines. Eg. students.",
+        "cpq9": "C",
+        "cpq10": "Risks are mainly identified to be related to human cognition and long term memory. Short term performance improvements are more about the empirical output."
+      },
+      "scores": {
+        "cpq1": true,
+        "cpq3": true,
+        "cpq5": true,
+        "cpq7": true,
+        "cpq9": true
+      }
+    }
+  ],
+  "completedAt": "2026-04-08T20:10:38.902Z",
   "questionOrders": {
     "paper5": [
+      "p5q7",
+      "p5q9",
       "p5q2",
+      "p5q6",
+      "p5q5",
+      "p5q4",
       "p5q1",
-      "p5q3"
+      "p5q10",
+      "p5q3",
+      "p5q8"
     ],
     "paper6": [
+      "p6q10",
       "p6q1",
+      "p6q9",
       "p6q3",
-      "p6q2"
+      "p6q2",
+      "p6q6",
+      "p6q8",
+      "p6q4",
+      "p6q7",
+      "p6q5"
     ],
     "paper4": [
-      "p4q3",
+      "p4q6",
+      "p4q5",
+      "p4q9",
+      "p4q7",
       "p4q1",
-      "p4q2"
+      "p4q4",
+      "p4q2",
+      "p4q3",
+      "p4q10",
+      "p4q8"
     ]
   },
   "optionOrders": {
     "paper5": {
       "p5q1": [
+        "C",
+        "A",
+        "B",
+        "D"
+      ],
+      "p5q3": [
+        "A",
+        "D",
+        "B",
+        "C"
+      ],
+      "p5q5": [
         "D",
         "C",
         "B",
         "A"
       ],
-      "p5q2": [
-        "C",
+      "p5q6": [
         "B",
         "D",
-        "A"
+        "A",
+        "C"
+      ],
+      "p5q8": [
+        "A",
+        "C",
+        "D",
+        "B"
       ]
     },
     "paper6": {
       "p6q1": [
-        "C",
+        "A",
         "B",
-        "D",
-        "A"
+        "C",
+        "D"
       ],
-      "p6q2": [
+      "p6q3": [
+        "C",
         "D",
         "A",
-        "C",
         "B"
+      ],
+      "p6q5": [
+        "A",
+        "C",
+        "D",
+        "B"
+      ],
+      "p6q6": [
+        "B",
+        "D",
+        "C",
+        "A"
+      ],
+      "p6q8": [
+        "B",
+        "D",
+        "A",
+        "C"
       ]
     },
     "paper4": {
       "p4q1": [
         "D",
+        "B",
+        "C",
+        "A"
+      ],
+      "p4q3": [
+        "D",
         "A",
         "B",
         "C"
       ],
-      "p4q2": [
-        "D",
+      "p4q5": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "p4q7": [
+        "B",
         "A",
         "C",
-        "B"
+        "D"
+      ],
+      "p4q9": [
+        "B",
+        "D",
+        "A",
+        "C"
       ]
     }
+  },
+  "crossFinalAnswers": {
+    "cpq1": "B",
+    "cpq2": "Cognitive effort shifts from generating content to evaluating it because workers now act as stewards who must steer the AI and verify its outputs for errors rather than creating material from scratch.",
+    "cpq3": "C",
+    "cpq4": "over reliance on AI where humans no longer check the output, can lead to slop entering the output pipeline.",
+    "cpq5": "B",
+    "cpq6": "Whether user feels confident in the output answers.",
+    "cpq7": "B",
+    "cpq8": "easy to depend on AI with a bunch of conflicting deadlines. Eg. students.",
+    "cpq9": "C",
+    "cpq10": "Risks are mainly identified to be related to human cognition and long term memory. Short term performance improvements are more about the empirical output."
   }
 }

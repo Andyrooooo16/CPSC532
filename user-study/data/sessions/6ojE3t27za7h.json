@@ -11,7 +11,7 @@
     "no_highlights",
     "contextual_highlights"
   ],
-  "createdAt": "2026-04-15T01:44:43.443Z",
+  "createdAt": "2026-04-10T18:12:54.667Z",
   "step": "done",
   "demographicResponses": {
     "age": "C",
@@ -25,11 +25,11 @@
       "paperKey": "paper4",
       "condition": "all_highlights",
       "priorPapers": [],
-      "startedAt": "2026-04-15T01:45:05.733Z",
-      "completedAt": "2026-04-15T01:52:47.931Z",
+      "startedAt": "2026-04-10T18:14:22.193Z",
+      "completedAt": "2026-04-10T18:23:53.804Z",
       "attempts": [
         {
-          "submittedAt": "2026-04-15T01:49:32.576Z",
+          "submittedAt": "2026-04-10T18:23:41.404Z",
           "answers": {
             "p4q8": "The largest number of participants reported difficulty improving AI outputs, especially when they could not translate their intent into better prompts or meaningful revisions",
             "p4q6": "critical thinking is most likely to break down when users are motivated but lack the skills or knowledge to evaluate and refine AI outputs",
@@ -49,7 +49,7 @@
           }
         },
         {
-          "submittedAt": "2026-04-15T01:51:55.020Z",
+          "submittedAt": "2026-04-10T18:23:45.904Z",
           "answers": {
             "p4q8": "The largest number of participants reported difficulty improving AI outputs, especially when they could not translate their intent into better prompts or meaningful revisions",
             "p4q6": "critical thinking is most likely to break down when users are motivated but lack the skills or knowledge to evaluate and refine AI outputs",
@@ -59,7 +59,7 @@
             "p4q7": "A",
             "p4q9": "C",
             "p4q4": "The authors observe a shift in effort from doing analysis and synthesis manually to focusing more on evaluating and integrating AI generated outputs. This creates a new role where knowledge workers act as overseers, responsible for verifying, refining, and combining AI responses rather than producing everything themselves.",
-            "p4q10": "In the paper there is a quote that states: “the responsibility and accountability for the work still resides with the human user despite the labour of material production being delegated to the GenAI tool”. This is why they stuck with stewardship.",
+            "p4q10": "In the paper there is a quote that states: \u201cthe responsibility and accountability for the work still resides with the human user despite the labour of material production being delegated to the GenAI tool\u201d. This is why they stuck with stewardship.",
             "p4q1": "C"
           },
           "scores": {
@@ -71,7 +71,7 @@
           }
         },
         {
-          "submittedAt": "2026-04-15T01:52:04.200Z",
+          "submittedAt": "2026-04-10T18:23:50.004Z",
           "answers": {
             "p4q8": "The largest number of participants reported difficulty improving AI outputs, especially when they could not translate their intent into better prompts or meaningful revisions",
             "p4q6": "critical thinking is most likely to break down when users are motivated but lack the skills or knowledge to evaluate and refine AI outputs",
@@ -81,7 +81,7 @@
             "p4q7": "B",
             "p4q9": "D",
             "p4q4": "The authors observe a shift in effort from doing analysis and synthesis manually to focusing more on evaluating and integrating AI generated outputs. This creates a new role where knowledge workers act as overseers, responsible for verifying, refining, and combining AI responses rather than producing everything themselves.",
-            "p4q10": "In the paper there is a quote that states: “the responsibility and accountability for the work still resides with the human user despite the labour of material production being delegated to the GenAI tool”. This is why they stuck with stewardship.",
+            "p4q10": "In the paper there is a quote that states: \u201cthe responsibility and accountability for the work still resides with the human user despite the labour of material production being delegated to the GenAI tool\u201d. This is why they stuck with stewardship.",
             "p4q1": "C"
           },
           "scores": {
@@ -93,7 +93,7 @@
           }
         },
         {
-          "submittedAt": "2026-04-15T01:52:47.907Z",
+          "submittedAt": "2026-04-10T18:23:53.798Z",
           "answers": {
             "p4q8": "The largest number of participants reported difficulty improving AI outputs, especially when they could not translate their intent into better prompts or meaningful revisions",
             "p4q6": "critical thinking is most likely to break down when users are motivated but lack the skills or knowledge to evaluate and refine AI outputs",
@@ -103,7 +103,7 @@
             "p4q7": "B",
             "p4q9": "D",
             "p4q4": "The authors observe a shift in effort from doing analysis and synthesis manually to focusing more on evaluating and integrating AI generated outputs. This creates a new role where knowledge workers act as overseers, responsible for verifying, refining, and combining AI responses rather than producing everything themselves.",
-            "p4q10": "In the paper there is a quote that states: “the responsibility and accountability for the work still resides with the human user despite the labour of material production being delegated to the GenAI tool”. This is why they stuck with stewardship.",
+            "p4q10": "In the paper there is a quote that states: \u201cthe responsibility and accountability for the work still resides with the human user despite the labour of material production being delegated to the GenAI tool\u201d. This is why they stuck with stewardship.",
             "p4q1": "C"
           },
           "scores": {
@@ -116,11 +116,11 @@
         }
       ],
       "perQuestionTimeSeconds": {
-        "p4q3": 228,
-        "p4q1": 405,
-        "p4q7": 411,
-        "p4q9": 417,
-        "p4q5": 423
+        "p4q3": 71,
+        "p4q1": 122,
+        "p4q7": 124,
+        "p4q9": 126,
+        "p4q5": 128
       },
       "firstAttemptCorrect": {
         "p4q1": false,
@@ -138,7 +138,7 @@
         "p4q7": "B",
         "p4q9": "D",
         "p4q4": "The authors observe a shift in effort from doing analysis and synthesis manually to focusing more on evaluating and integrating AI generated outputs. This creates a new role where knowledge workers act as overseers, responsible for verifying, refining, and combining AI responses rather than producing everything themselves.",
-        "p4q10": "In the paper there is a quote that states: “the responsibility and accountability for the work still resides with the human user despite the labour of material production being delegated to the GenAI tool”. This is why they stuck with stewardship.",
+        "p4q10": "In the paper there is a quote that states: \u201cthe responsibility and accountability for the work still resides with the human user despite the labour of material production being delegated to the GenAI tool\u201d. This is why they stuck with stewardship.",
         "p4q1": "C"
       }
     },
@@ -146,11 +146,11 @@
       "paperKey": "paper6",
       "condition": "no_highlights",
       "priorPapers": [],
-      "startedAt": "2026-04-15T01:53:22.979Z",
-      "completedAt": "2026-04-15T02:03:34.113Z",
+      "startedAt": "2026-04-10T18:27:48.552Z",
+      "completedAt": "2026-04-10T18:37:21.997Z",
       "attempts": [
         {
-          "submittedAt": "2026-04-15T02:01:56.531Z",
+          "submittedAt": "2026-04-10T18:37:13.897Z",
           "answers": {
             "p6q8": "B",
             "p6q1": "D",
@@ -172,7 +172,7 @@
           }
         },
         {
-          "submittedAt": "2026-04-15T02:03:31.457Z",
+          "submittedAt": "2026-04-10T18:37:18.397Z",
           "answers": {
             "p6q8": "B",
             "p6q1": "B",
@@ -194,7 +194,7 @@
           }
         },
         {
-          "submittedAt": "2026-04-15T02:03:34.109Z",
+          "submittedAt": "2026-04-10T18:37:21.992Z",
           "answers": {
             "p6q8": "B",
             "p6q1": "B",
@@ -217,11 +217,11 @@
         }
       ],
       "perQuestionTimeSeconds": {
-        "p6q8": 337,
-        "p6q5": 396,
-        "p6q1": 601,
-        "p6q3": 606,
-        "p6q6": 610
+        "p6q8": 77,
+        "p6q5": 88,
+        "p6q1": 135,
+        "p6q3": 136,
+        "p6q6": 137
       },
       "firstAttemptCorrect": {
         "p6q1": false,
@@ -247,11 +247,11 @@
       "paperKey": "paper5",
       "condition": "contextual_highlights",
       "priorPapers": [],
-      "startedAt": "2026-04-15T02:03:59.312Z",
-      "completedAt": "2026-04-15T02:11:54.234Z",
+      "startedAt": "2026-04-10T18:41:37.119Z",
+      "completedAt": "2026-04-10T18:51:12.406Z",
       "attempts": [
         {
-          "submittedAt": "2026-04-15T02:11:27.045Z",
+          "submittedAt": "2026-04-10T18:51:00.006Z",
           "answers": {
             "p5q1": "B",
             "p5q9": "Bansal et al.,  found that explanations increase acceptance of AI advice by improving understanding and trust, leading users to rely more on the system. Other studies found the opposite, where explanations either had no effect or even reduced effective decision-making by causing overreliance or cognitive shortcuts, with users following AI without deeper evaluation",
@@ -273,7 +273,7 @@
           }
         },
         {
-          "submittedAt": "2026-04-15T02:11:41.305Z",
+          "submittedAt": "2026-04-10T18:51:04.506Z",
           "answers": {
             "p5q1": "B",
             "p5q9": "Bansal et al.,  found that explanations increase acceptance of AI advice by improving understanding and trust, leading users to rely more on the system. Other studies found the opposite, where explanations either had no effect or even reduced effective decision-making by causing overreliance or cognitive shortcuts, with users following AI without deeper evaluation",
@@ -295,7 +295,7 @@
           }
         },
         {
-          "submittedAt": "2026-04-15T02:11:51.636Z",
+          "submittedAt": "2026-04-10T18:51:08.606Z",
           "answers": {
             "p5q1": "B",
             "p5q9": "Bansal et al.,  found that explanations increase acceptance of AI advice by improving understanding and trust, leading users to rely more on the system. Other studies found the opposite, where explanations either had no effect or even reduced effective decision-making by causing overreliance or cognitive shortcuts, with users following AI without deeper evaluation",
@@ -317,7 +317,7 @@
           }
         },
         {
-          "submittedAt": "2026-04-15T02:11:54.228Z",
+          "submittedAt": "2026-04-10T18:51:12.400Z",
           "answers": {
             "p5q1": "B",
             "p5q9": "Bansal et al.,  found that explanations increase acceptance of AI advice by improving understanding and trust, leading users to rely more on the system. Other studies found the opposite, where explanations either had no effect or even reduced effective decision-making by causing overreliance or cognitive shortcuts, with users following AI without deeper evaluation",
@@ -340,11 +340,11 @@
         }
       ],
       "perQuestionTimeSeconds": {
-        "p5q1": 63,
-        "p5q5": 67,
-        "p5q8": 452,
-        "p5q3": 463,
-        "p5q6": 474
+        "p5q1": 25,
+        "p5q5": 25,
+        "p5q8": 171,
+        "p5q3": 175,
+        "p5q6": 179
       },
       "firstAttemptCorrect": {
         "p5q1": true,
@@ -370,7 +370,7 @@
   "questionnaireResponses": [
     {
       "paperKey": "paper4",
-      "submittedAt": "2026-04-15T01:53:18.523Z",
+      "submittedAt": "2026-04-10T18:25:02.771Z",
       "responses": {
         "p4diff1": 3,
         "p4diff2": 3,
@@ -388,7 +388,7 @@
     },
     {
       "paperKey": "paper6",
-      "submittedAt": "2026-04-15T02:03:56.625Z",
+      "submittedAt": "2026-04-10T18:39:11.504Z",
       "responses": {
         "p6diff1": 4,
         "p6diff2": 4,
@@ -406,7 +406,7 @@
     },
     {
       "paperKey": "paper5",
-      "submittedAt": "2026-04-15T02:12:09.955Z",
+      "submittedAt": "2026-04-10T18:53:08.221Z",
       "responses": {
         "p5diff1": 3,
         "p5diff2": 3,
@@ -437,7 +437,7 @@
   },
   "crossAttempts": [
     {
-      "submittedAt": "2026-04-15T02:20:54.517Z",
+      "submittedAt": "2026-04-10T18:59:44.339Z",
       "answers": {
         "cpq1": "B",
         "cpq2": "Cognitive effort shifts away from generating and processing information toward evaluating and verifying AI outputs",
@@ -459,7 +459,7 @@
       }
     },
     {
-      "submittedAt": "2026-04-15T02:21:01.589Z",
+      "submittedAt": "2026-04-10T18:59:52.801Z",
       "answers": {
         "cpq1": "B",
         "cpq2": "Cognitive effort shifts away from generating and processing information toward evaluating and verifying AI outputs",
@@ -481,7 +481,7 @@
       }
     }
   ],
-  "completedAt": "2026-04-15T02:22:00.257Z",
+  "completedAt": "2026-04-10T19:00:58.118Z",
   "questionOrders": {
     "paper4": [
       "p4q8",

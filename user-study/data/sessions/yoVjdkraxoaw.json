@@ -11,7 +11,7 @@
     "all_highlights",
     "contextual_highlights"
   ],
-  "createdAt": "2026-04-15T23:53:19.405Z",
+  "createdAt": "2026-04-13T13:22:41.229Z",
   "step": "done",
   "demographicResponses": {
     "age": "B",
@@ -25,11 +25,11 @@
       "paperKey": "paper6",
       "condition": "no_highlights",
       "priorPapers": [],
-      "startedAt": "2026-04-15T23:53:37.712Z",
-      "completedAt": "2026-04-16T00:01:29.998Z",
+      "startedAt": "2026-04-13T13:24:09.771Z",
+      "completedAt": "2026-04-13T13:33:57.904Z",
       "attempts": [
         {
-          "submittedAt": "2026-04-16T00:01:02.013Z",
+          "submittedAt": "2026-04-13T13:33:45.504Z",
           "answers": {
             "p6q10": "excessive ChatGPT use leads to cognitive offloading where students reduce the mental effort and cognitive training required for academic tasks, ultimately weakening memory retention and cognitive functions",
             "p6q1": "C",
@@ -51,7 +51,7 @@
           }
         },
         {
-          "submittedAt": "2026-04-16T00:01:13.042Z",
+          "submittedAt": "2026-04-13T13:33:49.804Z",
           "answers": {
             "p6q10": "excessive ChatGPT use leads to cognitive offloading where students reduce the mental effort and cognitive training required for academic tasks, ultimately weakening memory retention and cognitive functions",
             "p6q1": "B",
@@ -73,7 +73,7 @@
           }
         },
         {
-          "submittedAt": "2026-04-16T00:01:27.728Z",
+          "submittedAt": "2026-04-13T13:33:53.704Z",
           "answers": {
             "p6q10": "excessive ChatGPT use leads to cognitive offloading where students reduce the mental effort and cognitive training required for academic tasks, ultimately weakening memory retention and cognitive functions",
             "p6q1": "B",
@@ -95,7 +95,7 @@
           }
         },
         {
-          "submittedAt": "2026-04-16T00:01:29.994Z",
+          "submittedAt": "2026-04-13T13:33:57.898Z",
           "answers": {
             "p6q10": "excessive ChatGPT use leads to cognitive offloading where students reduce the mental effort and cognitive training required for academic tasks, ultimately weakening memory retention and cognitive functions",
             "p6q1": "B",
@@ -118,11 +118,11 @@
         }
       ],
       "perQuestionTimeSeconds": {
-        "p6q6": 346,
-        "p6q1": 452,
-        "p6q8": 454,
-        "p6q5": 448,
-        "p6q3": 471
+        "p6q6": 96,
+        "p6q1": 122,
+        "p6q8": 122,
+        "p6q5": 121,
+        "p6q3": 127
       },
       "firstAttemptCorrect": {
         "p6q1": false,
@@ -148,11 +148,11 @@
       "paperKey": "paper4",
       "condition": "all_highlights",
       "priorPapers": [],
-      "startedAt": "2026-04-16T00:01:55.760Z",
-      "completedAt": "2026-04-16T00:05:31.075Z",
+      "startedAt": "2026-04-13T13:36:12.552Z",
+      "completedAt": "2026-04-13T13:43:47.663Z",
       "attempts": [
         {
-          "submittedAt": "2026-04-16T00:05:14.020Z",
+          "submittedAt": "2026-04-13T13:43:35.263Z",
           "answers": {
             "p4q8": "These hurdles include difficulties in steering AI responses and verifying technical accuracy. The largest group of participants reported that they struggled most with the cognitive burden of fact checking and cross referencing AI outputs against reliable sources.",
             "p4q9": "D",
@@ -174,7 +174,7 @@
           }
         },
         {
-          "submittedAt": "2026-04-16T00:05:23.179Z",
+          "submittedAt": "2026-04-13T13:43:39.563Z",
           "answers": {
             "p4q8": "These hurdles include difficulties in steering AI responses and verifying technical accuracy. The largest group of participants reported that they struggled most with the cognitive burden of fact checking and cross referencing AI outputs against reliable sources.",
             "p4q9": "D",
@@ -196,7 +196,7 @@
           }
         },
         {
-          "submittedAt": "2026-04-16T00:05:31.071Z",
+          "submittedAt": "2026-04-13T13:43:43.463Z",
           "answers": {
             "p4q8": "These hurdles include difficulties in steering AI responses and verifying technical accuracy. The largest group of participants reported that they struggled most with the cognitive burden of fact checking and cross referencing AI outputs against reliable sources.",
             "p4q9": "D",
@@ -219,11 +219,11 @@
         }
       ],
       "perQuestionTimeSeconds": {
-        "p4q9": 142,
-        "p4q3": 143,
-        "p4q7": 203,
-        "p4q5": 213,
-        "p4q1": 209
+        "p4q9": 73,
+        "p4q3": 71,
+        "p4q7": 101,
+        "p4q5": 106,
+        "p4q1": 104
       },
       "firstAttemptCorrect": {
         "p4q1": false,
@@ -249,11 +249,11 @@
       "paperKey": "paper5",
       "condition": "contextual_highlights",
       "priorPapers": [],
-      "startedAt": "2026-04-16T00:06:02.666Z",
-      "completedAt": "2026-04-16T00:13:53.127Z",
+      "startedAt": "2026-04-13T13:47:41.118Z",
+      "completedAt": "2026-04-13T13:56:03.441Z",
       "attempts": [
         {
-          "submittedAt": "2026-04-16T00:13:42.404Z",
+          "submittedAt": "2026-04-13T13:55:51.041Z",
           "answers": {
             "p5q3": "A",
             "p5q10": "The authors express concern that AI explanations could be used to manipulate users into accepting incorrect advice. This was prompted by the finding that explanations often increase trust and acceptance regardless of whether the AI's recommendation is actually accurate.",
@@ -275,7 +275,7 @@
           }
         },
         {
-          "submittedAt": "2026-04-16T00:13:49.148Z",
+          "submittedAt": "2026-04-13T13:55:55.341Z",
           "answers": {
             "p5q3": "D",
             "p5q10": "The authors express concern that AI explanations could be used to manipulate users into accepting incorrect advice. This was prompted by the finding that explanations often increase trust and acceptance regardless of whether the AI's recommendation is actually accurate.",
@@ -297,7 +297,7 @@
           }
         },
         {
-          "submittedAt": "2026-04-16T00:13:53.122Z",
+          "submittedAt": "2026-04-13T13:55:59.241Z",
           "answers": {
             "p5q3": "D",
             "p5q10": "The authors express concern that AI explanations could be used to manipulate users into accepting incorrect advice. This was prompted by the finding that explanations often increase trust and acceptance regardless of whether the AI's recommendation is actually accurate.",
@@ -320,11 +320,11 @@
         }
       ],
       "perQuestionTimeSeconds": {
-        "p5q5": 457,
-        "p5q1": 449,
-        "p5q3": 462,
-        "p5q8": 466,
-        "p5q6": 470
+        "p5q5": 102,
+        "p5q1": 97,
+        "p5q3": 100,
+        "p5q8": 101,
+        "p5q6": 102
       },
       "firstAttemptCorrect": {
         "p5q1": true,
@@ -350,7 +350,7 @@
   "questionnaireResponses": [
     {
       "paperKey": "paper6",
-      "submittedAt": "2026-04-16T00:01:52.737Z",
+      "submittedAt": "2026-04-13T13:35:12.882Z",
       "responses": {
         "p6diff1": 3,
         "p6diff2": 3,
@@ -368,7 +368,7 @@
     },
     {
       "paperKey": "paper4",
-      "submittedAt": "2026-04-16T00:06:00.769Z",
+      "submittedAt": "2026-04-13T13:45:09.331Z",
       "responses": {
         "p4diff1": 3,
         "p4diff2": 3,
@@ -386,7 +386,7 @@
     },
     {
       "paperKey": "paper5",
-      "submittedAt": "2026-04-16T00:14:20.045Z",
+      "submittedAt": "2026-04-13T13:57:22.774Z",
       "responses": {
         "p5diff1": 3,
         "p5diff2": 3,
@@ -418,7 +418,7 @@
   },
   "crossAttempts": [
     {
-      "submittedAt": "2026-04-16T00:24:26.167Z",
+      "submittedAt": "2026-04-13T14:02:18.551Z",
       "answers": {
         "cpq1": "B",
         "cpq2": "Users experience a significant increase in cognitive effort because the AI requires constant monitoring and complex prompt engineering to produce basic results. This happens because generative models are inherently difficult to control and often produce irrelevant data that takes more time to filter than manual research.",
@@ -440,7 +440,7 @@
       }
     }
   ],
-  "completedAt": "2026-04-16T00:25:47.218Z",
+  "completedAt": "2026-04-13T14:03:44.992Z",
   "questionOrders": {
     "paper6": [
       "p6q10",

@@ -11,7 +11,7 @@
     "no_highlights",
     "contextual_highlights"
   ],
-  "createdAt": "2026-04-16T07:06:33.750Z",
+  "createdAt": "2026-04-12T07:06:33.750Z",
   "step": "done",
   "demographicResponses": {
     "age": "A",
@@ -25,11 +25,11 @@
       "paperKey": "paper5",
       "condition": "all_highlights",
       "priorPapers": [],
-      "startedAt": "2026-04-16T07:08:04.112Z",
-      "completedAt": "2026-04-16T07:09:45.812Z",
+      "startedAt": "2026-04-12T07:08:14.112Z",
+      "completedAt": "2026-04-12T07:17:04.881Z",
       "attempts": [
         {
-          "submittedAt": "2026-04-16T07:09:40.258Z",
+          "submittedAt": "2026-04-12T07:16:55.081Z",
           "answers": {
             "p5q6": "A",
             "p5q8": "B",
@@ -51,7 +51,7 @@
           }
         },
         {
-          "submittedAt": "2026-04-16T07:09:45.807Z",
+          "submittedAt": "2026-04-12T07:16:58.581Z",
           "answers": {
             "p5q6": "B",
             "p5q8": "C",
@@ -74,11 +74,11 @@
         }
       ],
       "perQuestionTimeSeconds": {
-        "p5q3": 23,
-        "p5q1": 36,
-        "p5q5": 35,
-        "p5q6": 99,
-        "p5q8": 101
+        "p5q3": 43,
+        "p5q1": 64,
+        "p5q5": 63,
+        "p5q6": 178,
+        "p5q8": 182
       },
       "firstAttemptCorrect": {
         "p5q1": true,
@@ -104,11 +104,11 @@
       "paperKey": "paper4",
       "condition": "no_highlights",
       "priorPapers": [],
-      "startedAt": "2026-04-16T07:09:59.795Z",
-      "completedAt": "2026-04-16T07:12:24.873Z",
+      "startedAt": "2026-04-12T07:20:02.795Z",
+      "completedAt": "2026-04-12T07:27:57.904Z",
       "attempts": [
         {
-          "submittedAt": "2026-04-16T07:12:16.808Z",
+          "submittedAt": "2026-04-12T07:27:48.104Z",
           "answers": {
             "p4q6": "People want to think hard about AI but can't always do it. Breaks down when they want good work but don't know how to check AI or have no time.",
             "p4q10": "Stewardship means humans guide AI but own the final work. Humans still responsible, not sharing blame with AI.",
@@ -130,7 +130,7 @@
           }
         },
         {
-          "submittedAt": "2026-04-16T07:12:24.870Z",
+          "submittedAt": "2026-04-12T07:27:51.604Z",
           "answers": {
             "p4q6": "People want to think hard about AI but can't always do it. Breaks down when they want good work but don't know how to check AI or have no time.",
             "p4q10": "Stewardship means humans guide AI but own the final work. Humans still responsible, not sharing blame with AI.",
@@ -153,11 +153,11 @@
         }
       ],
       "perQuestionTimeSeconds": {
-        "p4q5": 81,
-        "p4q9": 83,
-        "p4q1": 131,
-        "p4q7": 143,
-        "p4q3": 141
+        "p4q5": 68,
+        "p4q9": 68,
+        "p4q1": 107,
+        "p4q7": 117,
+        "p4q3": 115
       },
       "firstAttemptCorrect": {
         "p4q1": true,
@@ -183,11 +183,11 @@
       "paperKey": "paper6",
       "condition": "contextual_highlights",
       "priorPapers": [],
-      "startedAt": "2026-04-16T07:12:54.062Z",
-      "completedAt": "2026-04-16T07:17:04.342Z",
+      "startedAt": "2026-04-12T07:31:44.062Z",
+      "completedAt": "2026-04-12T07:41:19.551Z",
       "attempts": [
         {
-          "submittedAt": "2026-04-16T07:16:54.646Z",
+          "submittedAt": "2026-04-12T07:41:09.751Z",
           "answers": {
             "p6q5": "B",
             "p6q9": "Teachers should give less work and more time since pressure makes kids use ChatGPT. Also teach them to use it as help, not to cheat.",
@@ -209,7 +209,7 @@
           }
         },
         {
-          "submittedAt": "2026-04-16T07:17:04.339Z",
+          "submittedAt": "2026-04-12T07:41:13.251Z",
           "answers": {
             "p6q5": "B",
             "p6q9": "Teachers should give less work and more time since pressure makes kids use ChatGPT. Also teach them to use it as help, not to cheat.",
@@ -233,10 +233,10 @@
       ],
       "perQuestionTimeSeconds": {
         "p6q5": 3,
-        "p6q8": 249,
-        "p6q1": 247,
-        "p6q6": 244,
-        "p6q3": 243
+        "p6q8": 145,
+        "p6q1": 144,
+        "p6q6": 142,
+        "p6q3": 141
       },
       "firstAttemptCorrect": {
         "p6q1": false,
@@ -262,7 +262,7 @@
   "questionnaireResponses": [
     {
       "paperKey": "paper5",
-      "submittedAt": "2026-04-16T07:09:58.040Z",
+      "submittedAt": "2026-04-12T07:18:41.228Z",
       "responses": {
         "p5diff1": 3,
         "p5diff2": 4,
@@ -279,7 +279,7 @@
     },
     {
       "paperKey": "paper4",
-      "submittedAt": "2026-04-16T07:12:51.908Z",
+      "submittedAt": "2026-04-12T07:29:11.551Z",
       "responses": {
         "p4diff1": 4,
         "p4diff2": 4,
@@ -297,7 +297,7 @@
     },
     {
       "paperKey": "paper6",
-      "submittedAt": "2026-04-16T07:17:24.826Z",
+      "submittedAt": "2026-04-12T07:42:38.771Z",
       "responses": {
         "p6diff1": 4,
         "p6diff2": 3,
@@ -329,7 +329,7 @@
   },
   "crossAttempts": [
     {
-      "submittedAt": "2026-04-16T07:21:51.327Z",
+      "submittedAt": "2026-04-12T07:46:52.331Z",
       "answers": {
         "cpq1": "B",
         "cpq2": "Less effort doing work, more effort checking AI. AI does fast first draft so people just review.",
@@ -351,7 +351,7 @@
       }
     }
   ],
-  "completedAt": "2026-04-16T07:22:28.380Z",
+  "completedAt": "2026-04-12T07:47:39.884Z",
   "questionOrders": {
     "paper5": [
       "p5q6",

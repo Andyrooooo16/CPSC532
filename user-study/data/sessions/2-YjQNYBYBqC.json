@@ -11,7 +11,7 @@
     "all_highlights",
     "contextual_highlights"
   ],
-  "createdAt": "2026-04-16T02:10:56.630Z",
+  "createdAt": "2026-04-09T21:48:23.512Z",
   "step": "done",
   "demographicResponses": {
     "age": "A",
@@ -25,11 +25,11 @@
       "paperKey": "paper4",
       "condition": "no_highlights",
       "priorPapers": [],
-      "startedAt": "2026-04-16T02:11:43.809Z",
-      "completedAt": "2026-04-16T02:13:45.584Z",
+      "startedAt": "2026-04-09T21:49:31.245Z",
+      "completedAt": "2026-04-09T21:58:57.882Z",
       "attempts": [
         {
-          "submittedAt": "2026-04-16T02:13:42.415Z",
+          "submittedAt": "2026-04-09T21:58:52.482Z",
           "answers": {
             "p4q1": "C",
             "p4q10": "\"Stewardship\" fits better than collaboration or supervision since humans mainly guide and own the final output, not partner equally with AI. It means accountability stays fully with the person, not shared.",
@@ -51,7 +51,7 @@
           }
         },
         {
-          "submittedAt": "2026-04-16T02:13:45.581Z",
+          "submittedAt": "2026-04-09T21:58:57.876Z",
           "answers": {
             "p4q1": "C",
             "p4q10": "\"Stewardship\" fits better than collaboration or supervision since humans mainly guide and own the final output, not partner equally with AI. It means accountability stays fully with the person, not shared.",
@@ -74,11 +74,11 @@
         }
       ],
       "perQuestionTimeSeconds": {
-        "p4q1": 117,
-        "p4q5": 111,
-        "p4q7": 110,
-        "p4q9": 109,
-        "p4q3": 121
+        "p4q1": 119,
+        "p4q5": 110,
+        "p4q7": 109,
+        "p4q9": 108,
+        "p4q3": 120
       },
       "firstAttemptCorrect": {
         "p4q1": true,
@@ -104,11 +104,11 @@
       "paperKey": "paper5",
       "condition": "all_highlights",
       "priorPapers": [],
-      "startedAt": "2026-04-16T02:14:03.090Z",
-      "completedAt": "2026-04-16T02:17:07.569Z",
+      "startedAt": "2026-04-09T22:02:18.917Z",
+      "completedAt": "2026-04-09T22:11:36.771Z",
       "attempts": [
         {
-          "submittedAt": "2026-04-16T02:17:02.030Z",
+          "submittedAt": "2026-04-09T22:11:31.371Z",
           "answers": {
             "p5q9": "The paper checks XAI vs human-only decisions, and XAI vs plain AI advice. XAI beats humans, but matches plain AI, so you can't claim explanations add real extra value.",
             "p5q10": "Concern is explanations might blind people to question bad AI. Comes from finding that XAI often just ups acceptance, not smart reliance.",
@@ -130,7 +130,7 @@
           }
         },
         {
-          "submittedAt": "2026-04-16T02:17:07.563Z",
+          "submittedAt": "2026-04-09T22:11:36.765Z",
           "answers": {
             "p5q9": "The paper checks XAI vs human-only decisions, and XAI vs plain AI advice. XAI beats humans, but matches plain AI, so you can't claim explanations add real extra value.",
             "p5q10": "Concern is explanations might blind people to question bad AI. Comes from finding that XAI often just ups acceptance, not smart reliance.",
@@ -153,11 +153,11 @@
         }
       ],
       "perQuestionTimeSeconds": {
-        "p5q3": 169,
-        "p5q8": 177,
-        "p5q6": 178,
-        "p5q1": 183,
-        "p5q5": 181
+        "p5q3": 108,
+        "p5q8": 111,
+        "p5q6": 111,
+        "p5q1": 114,
+        "p5q5": 113
       },
       "firstAttemptCorrect": {
         "p5q1": false,
@@ -183,15 +183,15 @@
       "paperKey": "paper6",
       "condition": "contextual_highlights",
       "priorPapers": [],
-      "startedAt": "2026-04-16T02:17:41.634Z",
-      "completedAt": "2026-04-16T02:20:00.263Z",
+      "startedAt": "2026-04-09T22:15:44.603Z",
+      "completedAt": "2026-04-09T22:25:02.458Z",
       "attempts": [
         {
-          "submittedAt": "2026-04-16T02:19:55.998Z",
+          "submittedAt": "2026-04-09T22:24:57.058Z",
           "answers": {
             "p6q5": "B",
             "p6q10": "They say too much ChatGPT kills memory because it cuts cognitive effort and active learning. Students skip mental work, so memory weakens over time.",
-            "p6q2": "Competing ideas: rewards sensitivity either boosts or cuts ChatGPT use. Negative one won—worried students avoid it to dodge bad grades/cheating risk.",
+            "p6q2": "Competing ideas: rewards sensitivity either boosts or cuts ChatGPT use. Negative one won\u2014worried students avoid it to dodge bad grades/cheating risk.",
             "p6q4": "Started with 12 items, experts cut to 10 for content fit. EFA dropped items 4 and 9 for low loadings, left 8 solid ones.",
             "p6q1": "B",
             "p6q6": "A",
@@ -209,11 +209,11 @@
           }
         },
         {
-          "submittedAt": "2026-04-16T02:20:00.259Z",
+          "submittedAt": "2026-04-09T22:25:02.452Z",
           "answers": {
             "p6q5": "B",
             "p6q10": "They say too much ChatGPT kills memory because it cuts cognitive effort and active learning. Students skip mental work, so memory weakens over time.",
-            "p6q2": "Competing ideas: rewards sensitivity either boosts or cuts ChatGPT use. Negative one won—worried students avoid it to dodge bad grades/cheating risk.",
+            "p6q2": "Competing ideas: rewards sensitivity either boosts or cuts ChatGPT use. Negative one won\u2014worried students avoid it to dodge bad grades/cheating risk.",
             "p6q4": "Started with 12 items, experts cut to 10 for content fit. EFA dropped items 4 and 9 for low loadings, left 8 solid ones.",
             "p6q1": "B",
             "p6q6": "C",
@@ -232,11 +232,11 @@
         }
       ],
       "perQuestionTimeSeconds": {
-        "p6q5": 4,
-        "p6q1": 122,
-        "p6q8": 134,
-        "p6q6": 138,
-        "p6q3": 136
+        "p6q5": 7,
+        "p6q1": 127,
+        "p6q8": 139,
+        "p6q6": 143,
+        "p6q3": 141
       },
       "firstAttemptCorrect": {
         "p6q1": true,
@@ -248,7 +248,7 @@
       "finalAnswers": {
         "p6q5": "B",
         "p6q10": "They say too much ChatGPT kills memory because it cuts cognitive effort and active learning. Students skip mental work, so memory weakens over time.",
-        "p6q2": "Competing ideas: rewards sensitivity either boosts or cuts ChatGPT use. Negative one won—worried students avoid it to dodge bad grades/cheating risk.",
+        "p6q2": "Competing ideas: rewards sensitivity either boosts or cuts ChatGPT use. Negative one won\u2014worried students avoid it to dodge bad grades/cheating risk.",
         "p6q4": "Started with 12 items, experts cut to 10 for content fit. EFA dropped items 4 and 9 for low loadings, left 8 solid ones.",
         "p6q1": "B",
         "p6q6": "C",
@@ -262,7 +262,7 @@
   "questionnaireResponses": [
     {
       "paperKey": "paper4",
-      "submittedAt": "2026-04-16T02:14:00.499Z",
+      "submittedAt": "2026-04-09T22:00:14.338Z",
       "responses": {
         "p4diff1": 2,
         "p4diff2": 2,
@@ -279,7 +279,7 @@
     },
     {
       "paperKey": "paper5",
-      "submittedAt": "2026-04-16T02:17:39.255Z",
+      "submittedAt": "2026-04-09T22:13:07.951Z",
       "responses": {
         "p5diff1": 3,
         "p5diff2": 3,
@@ -297,7 +297,7 @@
     },
     {
       "paperKey": "paper6",
-      "submittedAt": "2026-04-16T02:20:14.975Z",
+      "submittedAt": "2026-04-09T22:26:19.774Z",
       "responses": {
         "p6diff1": 3,
         "p6diff2": 3,
@@ -328,7 +328,7 @@
   },
   "crossAttempts": [
     {
-      "submittedAt": "2026-04-16T02:22:40.175Z",
+      "submittedAt": "2026-04-09T22:30:41.115Z",
       "answers": {
         "cpq1": "B",
         "cpq2": "People switch from doing tasks to checking AI work, saving effort on basics but adding review work. This happens because AI handles routine stuff fast, per critical thinking paper.",
@@ -350,7 +350,7 @@
       }
     }
   ],
-  "completedAt": "2026-04-16T02:23:29.553Z",
+  "completedAt": "2026-04-09T22:31:52.904Z",
   "questionOrders": {
     "paper4": [
       "p4q1",

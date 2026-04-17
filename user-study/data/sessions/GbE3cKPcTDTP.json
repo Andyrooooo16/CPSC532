@@ -11,7 +11,7 @@
     "all_highlights",
     "contextual_highlights"
   ],
-  "createdAt": "2026-04-15T01:11:12.776Z",
+  "createdAt": "2026-04-10T16:08:27.413Z",
   "step": "done",
   "demographicResponses": {
     "age": "B",
@@ -25,11 +25,11 @@
       "paperKey": "paper6",
       "condition": "no_highlights",
       "priorPapers": [],
-      "startedAt": "2026-04-15T01:12:40.057Z",
-      "completedAt": "2026-04-15T01:29:37.847Z",
+      "startedAt": "2026-04-10T16:10:06.284Z",
+      "completedAt": "2026-04-10T16:19:25.015Z",
       "attempts": [
         {
-          "submittedAt": "2026-04-15T01:29:37.818Z",
+          "submittedAt": "2026-04-10T16:19:25.004Z",
           "answers": {
             "p6q10": "Excessive ChatGPT usage leads to memory loss by reducing the cognitive effort and mental exertion required for active learning, which is essential for memory consolidation and retention",
             "p6q9": "The authors recommend that educators emphasize efficient time management and workload distribution when assigning tasks to reduce the stress that drives students to use ChatGPT as a shortcut, thereby preventing the memory loss and poor academic performance identified as consequences in the study.",
@@ -52,11 +52,11 @@
         }
       ],
       "perQuestionTimeSeconds": {
-        "p6q1": 394,
-        "p6q3": 484,
-        "p6q5": 526,
-        "p6q8": 641,
-        "p6q6": 710
+        "p6q1": 82,
+        "p6q3": 98,
+        "p6q5": 106,
+        "p6q8": 129,
+        "p6q6": 143
       },
       "firstAttemptCorrect": {
         "p6q1": true,
@@ -82,11 +82,11 @@
       "paperKey": "paper5",
       "condition": "all_highlights",
       "priorPapers": [],
-      "startedAt": "2026-04-15T01:46:07.257Z",
-      "completedAt": "2026-04-15T02:01:37.650Z",
+      "startedAt": "2026-04-10T16:22:58.447Z",
+      "completedAt": "2026-04-10T16:30:40.005Z",
       "attempts": [
         {
-          "submittedAt": "2026-04-15T02:01:37.646Z",
+          "submittedAt": "2026-04-10T16:30:39.994Z",
           "answers": {
             "p5q8": "C",
             "p5q6": "B",
@@ -109,11 +109,11 @@
         }
       ],
       "perQuestionTimeSeconds": {
-        "p5q8": 152,
-        "p5q6": 181,
-        "p5q3": 389,
-        "p5q5": 920,
-        "p5q1": 930
+        "p5q8": 30,
+        "p5q6": 32,
+        "p5q3": 69,
+        "p5q5": 164,
+        "p5q1": 166
       },
       "firstAttemptCorrect": {
         "p5q1": true,
@@ -139,11 +139,11 @@
       "paperKey": "paper4",
       "condition": "contextual_highlights",
       "priorPapers": [],
-      "startedAt": "2026-04-15T02:06:31.548Z",
-      "completedAt": "2026-04-15T02:12:11.225Z",
+      "startedAt": "2026-04-10T16:34:41.902Z",
+      "completedAt": "2026-04-10T16:43:08.296Z",
       "attempts": [
         {
-          "submittedAt": "2026-04-15T02:12:11.222Z",
+          "submittedAt": "2026-04-10T16:43:08.285Z",
           "answers": {
             "p4q3": "C",
             "p4q2": "RQ1 investigates when and how knowledge workers enact critical thinking while using GenAI, whereas RQ2 focuses on when and why they perceive changes in the cognitive effort required for those critical thinking activities",
@@ -165,11 +165,11 @@
         }
       ],
       "perQuestionTimeSeconds": {
-        "p4q3": 52,
-        "p4q1": 95,
-        "p4q9": 153,
-        "p4q5": 242,
-        "p4q7": 319
+        "p4q3": 33,
+        "p4q1": 55,
+        "p4q9": 89,
+        "p4q5": 142,
+        "p4q7": 187
       },
       "firstAttemptCorrect": {
         "p4q1": true,
@@ -194,7 +194,7 @@
   "questionnaireResponses": [
     {
       "paperKey": "paper6",
-      "submittedAt": "2026-04-15T01:30:50.200Z",
+      "submittedAt": "2026-04-10T16:20:54.662Z",
       "responses": {
         "p6diff1": 2,
         "p6diff2": 2,
@@ -212,7 +212,7 @@
     },
     {
       "paperKey": "paper5",
-      "submittedAt": "2026-04-15T02:02:08.599Z",
+      "submittedAt": "2026-04-10T16:31:37.481Z",
       "responses": {
         "p5diff1": 3,
         "p5diff2": 3,
@@ -230,7 +230,7 @@
     },
     {
       "paperKey": "paper4",
-      "submittedAt": "2026-04-15T02:13:28.455Z",
+      "submittedAt": "2026-04-10T16:44:51.907Z",
       "responses": {
         "p4diff1": 1,
         "p4diff2": 2,
@@ -261,7 +261,7 @@
   },
   "crossAttempts": [
     {
-      "submittedAt": "2026-04-15T02:17:34.009Z",
+      "submittedAt": "2026-04-10T16:49:22.118Z",
       "answers": {
         "cpq1": "B",
         "cpq2": "One key change is that cognitive effort shifts from doing tasks, like writing or searching, to evaluating and verifying AI outputs. This happens because AI automates parts of the task, but users still need to check accuracy, align outputs with goals, and make final decisions",
@@ -283,7 +283,7 @@
       }
     },
     {
-      "submittedAt": "2026-04-15T02:17:52.638Z",
+      "submittedAt": "2026-04-10T16:49:41.704Z",
       "answers": {
         "cpq1": "B",
         "cpq2": "One key change is that cognitive effort shifts from doing tasks, like writing or searching, to evaluating and verifying AI outputs. This happens because AI automates parts of the task, but users still need to check accuracy, align outputs with goals, and make final decisions",
@@ -305,7 +305,7 @@
       }
     }
   ],
-  "completedAt": "2026-04-15T02:20:10.786Z",
+  "completedAt": "2026-04-10T16:51:36.285Z",
   "questionOrders": {
     "paper6": [
       "p6q10",

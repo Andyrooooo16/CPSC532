@@ -11,7 +11,7 @@
     "no_highlights",
     "contextual_highlights"
   ],
-  "createdAt": "2026-04-16T02:14:20.545Z",
+  "createdAt": "2026-04-11T14:09:18.662Z",
   "step": "done",
   "demographicResponses": {
     "age": "A",
@@ -25,11 +25,11 @@
       "paperKey": "paper6",
       "condition": "all_highlights",
       "priorPapers": [],
-      "startedAt": "2026-04-16T02:18:01.486Z",
-      "completedAt": "2026-04-16T02:28:49.095Z",
+      "startedAt": "2026-04-11T14:10:47.551Z",
+      "completedAt": "2026-04-11T14:19:09.882Z",
       "attempts": [
         {
-          "submittedAt": "2026-04-16T02:28:49.087Z",
+          "submittedAt": "2026-04-11T14:19:00.082Z",
           "answers": {
             "p6q6": "C",
             "p6q4": "The researchers began with 12 items, then refined the scale through expert review to ensure content validity, reducing it to 10 items. They then applied exploratory factor analysis, where two items (items 4 and 9) were removed due to weak factor loadings and low communalities, resulting in a more coherent 8-item scale with strong reliability and construct validity.",
@@ -52,11 +52,11 @@
         }
       ],
       "perQuestionTimeSeconds": {
-        "p6q6": 55,
-        "p6q1": 314,
-        "p6q5": 510,
-        "p6q3": 593,
-        "p6q8": 647
+        "p6q6": 15,
+        "p6q1": 74,
+        "p6q5": 120,
+        "p6q3": 140,
+        "p6q8": 153
       },
       "firstAttemptCorrect": {
         "p6q1": true,
@@ -82,21 +82,21 @@
       "paperKey": "paper5",
       "condition": "no_highlights",
       "priorPapers": [],
-      "startedAt": "2026-04-16T02:31:25.218Z",
-      "completedAt": "2026-04-16T02:40:11.791Z",
+      "startedAt": "2026-04-11T14:23:36.228Z",
+      "completedAt": "2026-04-11T14:32:11.447Z",
       "attempts": [
         {
-          "submittedAt": "2026-04-16T02:40:11.784Z",
+          "submittedAt": "2026-04-11T14:32:01.647Z",
           "answers": {
             "p5q5": "B",
-            "p5q10": "A key concern is that explanations can unintentionally increase users’ trust in AI outputs, even when those outputs are wrong. This comes from findings showing that explanations tend to increase users’ willingness to accept AI recommendations regardless of their correctness.",
+            "p5q10": "A key concern is that explanations can unintentionally increase users\u2019 trust in AI outputs, even when those outputs are wrong. This comes from findings showing that explanations tend to increase users\u2019 willingness to accept AI recommendations regardless of their correctness.",
             "p5q6": "B",
-            "p5q7": "The paper suggests two mechanisms: (1) explanations increase users’ acceptance of AI advice, and (2) they help users better calibrate trust (i.e., know when to rely on the AI). The evidence more strongly supports the first, users are more likely to follow AI when explanations are present.",
+            "p5q7": "The paper suggests two mechanisms: (1) explanations increase users\u2019 acceptance of AI advice, and (2) they help users better calibrate trust (i.e., know when to rely on the AI). The evidence more strongly supports the first, users are more likely to follow AI when explanations are present.",
             "p5q1": "B",
             "p5q2": "The authors compare (1) humans vs. XAI-assisted decisions and (2) AI-assisted vs. XAI-assisted decisions. Since XAI does not outperform AI alone, the improvement over humans should be interpreted as the value of AI support in general, not necessarily the added value of explanations.",
             "p5q8": "C",
             "p5q3": "D",
-            "p5q9": "The findings are mixed: some studies (e.g., Bansal et al., van der Waa et al.) show that explanations increase users’ likelihood of following AI advice, while others (e.g., Fügener et al.) show reduced or unchanged reliance. This suggests that how explanations are designed and presented significantly shapes user behaviour.",
+            "p5q9": "The findings are mixed: some studies (e.g., Bansal et al., van der Waa et al.) show that explanations increase users\u2019 likelihood of following AI advice, while others (e.g., F\u00fcgener et al.) show reduced or unchanged reliance. This suggests that how explanations are designed and presented significantly shapes user behaviour.",
             "p5q4": "Tabular tasks showed little to no improvement (SMD = 0.01), while text-based tasks showed a strong positive effect (SMD = 0.72). One explanation is that text aligns more naturally with human interpretive processes, making it easier for users to integrate AI support into their decision-making experience."
           },
           "scores": {
@@ -109,11 +109,11 @@
         }
       ],
       "perQuestionTimeSeconds": {
-        "p5q5": 172,
-        "p5q6": 189,
-        "p5q1": 275,
-        "p5q8": 358,
-        "p5q3": 390
+        "p5q5": 65,
+        "p5q6": 70,
+        "p5q1": 102,
+        "p5q8": 133,
+        "p5q3": 145
       },
       "firstAttemptCorrect": {
         "p5q1": true,
@@ -124,14 +124,14 @@
       },
       "finalAnswers": {
         "p5q5": "B",
-        "p5q10": "A key concern is that explanations can unintentionally increase users’ trust in AI outputs, even when those outputs are wrong. This comes from findings showing that explanations tend to increase users’ willingness to accept AI recommendations regardless of their correctness.",
+        "p5q10": "A key concern is that explanations can unintentionally increase users\u2019 trust in AI outputs, even when those outputs are wrong. This comes from findings showing that explanations tend to increase users\u2019 willingness to accept AI recommendations regardless of their correctness.",
         "p5q6": "B",
-        "p5q7": "The paper suggests two mechanisms: (1) explanations increase users’ acceptance of AI advice, and (2) they help users better calibrate trust (i.e., know when to rely on the AI). The evidence more strongly supports the first, users are more likely to follow AI when explanations are present.",
+        "p5q7": "The paper suggests two mechanisms: (1) explanations increase users\u2019 acceptance of AI advice, and (2) they help users better calibrate trust (i.e., know when to rely on the AI). The evidence more strongly supports the first, users are more likely to follow AI when explanations are present.",
         "p5q1": "B",
         "p5q2": "The authors compare (1) humans vs. XAI-assisted decisions and (2) AI-assisted vs. XAI-assisted decisions. Since XAI does not outperform AI alone, the improvement over humans should be interpreted as the value of AI support in general, not necessarily the added value of explanations.",
         "p5q8": "C",
         "p5q3": "D",
-        "p5q9": "The findings are mixed: some studies (e.g., Bansal et al., van der Waa et al.) show that explanations increase users’ likelihood of following AI advice, while others (e.g., Fügener et al.) show reduced or unchanged reliance. This suggests that how explanations are designed and presented significantly shapes user behaviour.",
+        "p5q9": "The findings are mixed: some studies (e.g., Bansal et al., van der Waa et al.) show that explanations increase users\u2019 likelihood of following AI advice, while others (e.g., F\u00fcgener et al.) show reduced or unchanged reliance. This suggests that how explanations are designed and presented significantly shapes user behaviour.",
         "p5q4": "Tabular tasks showed little to no improvement (SMD = 0.01), while text-based tasks showed a strong positive effect (SMD = 0.72). One explanation is that text aligns more naturally with human interpretive processes, making it easier for users to integrate AI support into their decision-making experience."
       }
     },
@@ -139,17 +139,17 @@
       "paperKey": "paper4",
       "condition": "contextual_highlights",
       "priorPapers": [],
-      "startedAt": "2026-04-16T02:42:47.032Z",
-      "completedAt": "2026-04-16T02:51:00.799Z",
+      "startedAt": "2026-04-11T14:35:52.771Z",
+      "completedAt": "2026-04-11T14:45:28.114Z",
       "attempts": [
         {
-          "submittedAt": "2026-04-16T02:51:00.794Z",
+          "submittedAt": "2026-04-11T14:45:18.314Z",
           "answers": {
             "p4q7": "B",
             "p4q3": "C",
-            "p4q8": "The paper identifies several ability-related barriers, including difficulty refining AI outputs, limited domain knowledge, and challenges working in unfamiliar contexts. Among these, the most frequently reported issue is the difficulty in improving or meaningfully editing AI-generated responses, which limits users’ ability to engage critically even when they intend to.",
+            "p4q8": "The paper identifies several ability-related barriers, including difficulty refining AI outputs, limited domain knowledge, and challenges working in unfamiliar contexts. Among these, the most frequently reported issue is the difficulty in improving or meaningfully editing AI-generated responses, which limits users\u2019 ability to engage critically even when they intend to.",
             "p4q2": "The first research question explores when and how users experience themselves engaging in critical thinking while interacting with GenAI systems, focusing on behavior and perception. The second examines how GenAI reshapes the effort associated with different critical thinking activities, focusing more on cognitive load and user experience. In essence, one is about practice, the other about perceived effort.",
-            "p4q4": "The authors describe a shift where cognitive effort moves away from generating and structuring content (analysis, synthesis) toward evaluating and validating outputs (evaluation). This reframes the user’s role into one of curator or sense-maker, responsible for interpreting, filtering, and ensuring the appropriateness of AI-generated content within a given context.",
+            "p4q4": "The authors describe a shift where cognitive effort moves away from generating and structuring content (analysis, synthesis) toward evaluating and validating outputs (evaluation). This reframes the user\u2019s role into one of curator or sense-maker, responsible for interpreting, filtering, and ensuring the appropriateness of AI-generated content within a given context.",
             "p4q6": "Motivation (e.g., desire for quality or risk avoidance) can prompt users to engage critically, but ability constraints often limit how effectively they can act on that motivation. This interaction suggests that critical thinking is most likely to break down when users are motivated but lack the tools, knowledge, or strategies to interrogate and refine AI outputs, especially in complex or unfamiliar tasks.",
             "p4q10": "The term stewardship is used to emphasize a responsible, guiding role rather than passive collaboration. It signals that users are not simply co-creating with AI but are actively accountable for shaping, validating, and owning the final outcome, reinforcing that responsibility remains human-centered.",
             "p4q9": "D",
@@ -166,11 +166,11 @@
         }
       ],
       "perQuestionTimeSeconds": {
-        "p4q7": 181,
-        "p4q3": 185,
-        "p4q9": 482,
-        "p4q5": 493,
-        "p4q1": 488
+        "p4q7": 59,
+        "p4q3": 58,
+        "p4q9": 151,
+        "p4q5": 154,
+        "p4q1": 153
       },
       "firstAttemptCorrect": {
         "p4q1": true,
@@ -182,9 +182,9 @@
       "finalAnswers": {
         "p4q7": "B",
         "p4q3": "C",
-        "p4q8": "The paper identifies several ability-related barriers, including difficulty refining AI outputs, limited domain knowledge, and challenges working in unfamiliar contexts. Among these, the most frequently reported issue is the difficulty in improving or meaningfully editing AI-generated responses, which limits users’ ability to engage critically even when they intend to.",
+        "p4q8": "The paper identifies several ability-related barriers, including difficulty refining AI outputs, limited domain knowledge, and challenges working in unfamiliar contexts. Among these, the most frequently reported issue is the difficulty in improving or meaningfully editing AI-generated responses, which limits users\u2019 ability to engage critically even when they intend to.",
         "p4q2": "The first research question explores when and how users experience themselves engaging in critical thinking while interacting with GenAI systems, focusing on behavior and perception. The second examines how GenAI reshapes the effort associated with different critical thinking activities, focusing more on cognitive load and user experience. In essence, one is about practice, the other about perceived effort.",
-        "p4q4": "The authors describe a shift where cognitive effort moves away from generating and structuring content (analysis, synthesis) toward evaluating and validating outputs (evaluation). This reframes the user’s role into one of curator or sense-maker, responsible for interpreting, filtering, and ensuring the appropriateness of AI-generated content within a given context.",
+        "p4q4": "The authors describe a shift where cognitive effort moves away from generating and structuring content (analysis, synthesis) toward evaluating and validating outputs (evaluation). This reframes the user\u2019s role into one of curator or sense-maker, responsible for interpreting, filtering, and ensuring the appropriateness of AI-generated content within a given context.",
         "p4q6": "Motivation (e.g., desire for quality or risk avoidance) can prompt users to engage critically, but ability constraints often limit how effectively they can act on that motivation. This interaction suggests that critical thinking is most likely to break down when users are motivated but lack the tools, knowledge, or strategies to interrogate and refine AI outputs, especially in complex or unfamiliar tasks.",
         "p4q10": "The term stewardship is used to emphasize a responsible, guiding role rather than passive collaboration. It signals that users are not simply co-creating with AI but are actively accountable for shaping, validating, and owning the final outcome, reinforcing that responsibility remains human-centered.",
         "p4q9": "D",
@@ -196,7 +196,7 @@
   "questionnaireResponses": [
     {
       "paperKey": "paper6",
-      "submittedAt": "2026-04-16T02:29:29.809Z",
+      "submittedAt": "2026-04-11T14:20:31.228Z",
       "responses": {
         "p6diff1": 1,
         "p6diff2": 2,
@@ -214,7 +214,7 @@
     },
     {
       "paperKey": "paper5",
-      "submittedAt": "2026-04-16T02:41:15.277Z",
+      "submittedAt": "2026-04-11T14:33:54.771Z",
       "responses": {
         "p5diff1": 2,
         "p5diff2": 1,
@@ -232,7 +232,7 @@
     },
     {
       "paperKey": "paper4",
-      "submittedAt": "2026-04-16T02:51:38.162Z",
+      "submittedAt": "2026-04-11T14:47:02.441Z",
       "responses": {
         "p4diff1": 1,
         "p4diff2": 2,
@@ -264,10 +264,10 @@
   },
   "crossAttempts": [
     {
-      "submittedAt": "2026-04-16T02:55:04.520Z",
+      "submittedAt": "2026-04-11T14:50:39.992Z",
       "answers": {
         "cpq1": "B",
-        "cpq2": "Cognitive effort shifts from creating content to interpreting and making sense of it. Because AI generates outputs quickly, the user’s role becomes more about evaluating relevance, understanding context, and deciding how the information fits their needs.",
+        "cpq2": "Cognitive effort shifts from creating content to interpreting and making sense of it. Because AI generates outputs quickly, the user\u2019s role becomes more about evaluating relevance, understanding context, and deciding how the information fits their needs.",
         "cpq3": "C",
         "cpq4": "Lower effort can be harmful when it reduces meaningful engagement with the content. For example, if a user accepts AI output without questioning it, they may miss inaccuracies or biases, since the interaction becomes passive rather than reflective.",
         "cpq5": "B",
@@ -275,7 +275,7 @@
         "cpq7": "B",
         "cpq8": "People may over-rely on AI because the interaction design presents outputs as fluent and authoritative. This can create a seamless experience that discourages users from pausing to question or reflect on the information.",
         "cpq9": "C",
-        "cpq10": "AI improves performance by streamlining access to information and supporting faster decision-making. At the same time, it introduces risks by reducing opportunities for reflection and critical engagement. This creates a tension between efficiency and meaningful interaction, where outcomes depend on how actively users interpret and evaluate the system’s outputs."
+        "cpq10": "AI improves performance by streamlining access to information and supporting faster decision-making. At the same time, it introduces risks by reducing opportunities for reflection and critical engagement. This creates a tension between efficiency and meaningful interaction, where outcomes depend on how actively users interpret and evaluate the system\u2019s outputs."
       },
       "scores": {
         "cpq1": true,
@@ -286,7 +286,7 @@
       }
     }
   ],
-  "completedAt": "2026-04-16T02:56:13.532Z",
+  "completedAt": "2026-04-11T14:51:58.331Z",
   "questionOrders": {
     "paper6": [
       "p6q6",
@@ -425,7 +425,7 @@
   },
   "crossFinalAnswers": {
     "cpq1": "B",
-    "cpq2": "Cognitive effort shifts from creating content to interpreting and making sense of it. Because AI generates outputs quickly, the user’s role becomes more about evaluating relevance, understanding context, and deciding how the information fits their needs.",
+    "cpq2": "Cognitive effort shifts from creating content to interpreting and making sense of it. Because AI generates outputs quickly, the user\u2019s role becomes more about evaluating relevance, understanding context, and deciding how the information fits their needs.",
     "cpq3": "C",
     "cpq4": "Lower effort can be harmful when it reduces meaningful engagement with the content. For example, if a user accepts AI output without questioning it, they may miss inaccuracies or biases, since the interaction becomes passive rather than reflective.",
     "cpq5": "B",
@@ -433,6 +433,6 @@
     "cpq7": "B",
     "cpq8": "People may over-rely on AI because the interaction design presents outputs as fluent and authoritative. This can create a seamless experience that discourages users from pausing to question or reflect on the information.",
     "cpq9": "C",
-    "cpq10": "AI improves performance by streamlining access to information and supporting faster decision-making. At the same time, it introduces risks by reducing opportunities for reflection and critical engagement. This creates a tension between efficiency and meaningful interaction, where outcomes depend on how actively users interpret and evaluate the system’s outputs."
+    "cpq10": "AI improves performance by streamlining access to information and supporting faster decision-making. At the same time, it introduces risks by reducing opportunities for reflection and critical engagement. This creates a tension between efficiency and meaningful interaction, where outcomes depend on how actively users interpret and evaluate the system\u2019s outputs."
   }
 }

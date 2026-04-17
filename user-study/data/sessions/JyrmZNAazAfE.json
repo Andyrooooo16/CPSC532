@@ -11,7 +11,7 @@
     "all_highlights",
     "contextual_highlights"
   ],
-  "createdAt": "2026-04-16T00:26:26.312Z",
+  "createdAt": "2026-04-10T14:11:52.228Z",
   "step": "done",
   "demographicResponses": {
     "age": "B",
@@ -25,11 +25,11 @@
       "paperKey": "paper6",
       "condition": "no_highlights",
       "priorPapers": [],
-      "startedAt": "2026-04-16T00:26:43.048Z",
-      "completedAt": "2026-04-16T00:30:39.301Z",
+      "startedAt": "2026-04-10T14:13:19.417Z",
+      "completedAt": "2026-04-10T14:20:53.612Z",
       "attempts": [
         {
-          "submittedAt": "2026-04-16T00:30:20.718Z",
+          "submittedAt": "2026-04-10T14:20:44.212Z",
           "answers": {
             "p6q7": "ChatGPT usage was found to bridge the gap between heavy workloads and outcomes like poor academic performance",
             "p6q9": "Reduce workload for students with realistic timelines",
@@ -51,7 +51,7 @@
           }
         },
         {
-          "submittedAt": "2026-04-16T00:30:31.538Z",
+          "submittedAt": "2026-04-10T14:20:47.412Z",
           "answers": {
             "p6q7": "ChatGPT usage was found to bridge the gap between heavy workloads and outcomes like poor academic performance",
             "p6q9": "Reduce workload for students with realistic timelines",
@@ -73,7 +73,7 @@
           }
         },
         {
-          "submittedAt": "2026-04-16T00:30:39.299Z",
+          "submittedAt": "2026-04-10T14:20:49.912Z",
           "answers": {
             "p6q7": "ChatGPT usage was found to bridge the gap between heavy workloads and outcomes like poor academic performance",
             "p6q9": "Reduce workload for students with realistic timelines",
@@ -96,11 +96,11 @@
         }
       ],
       "perQuestionTimeSeconds": {
-        "p6q6": 214,
-        "p6q5": 219,
-        "p6q8": 224,
-        "p6q1": 228,
-        "p6q3": 235
+        "p6q6": 89,
+        "p6q5": 88,
+        "p6q8": 90,
+        "p6q1": 92,
+        "p6q3": 95
       },
       "firstAttemptCorrect": {
         "p6q1": false,
@@ -126,11 +126,11 @@
       "paperKey": "paper4",
       "condition": "all_highlights",
       "priorPapers": [],
-      "startedAt": "2026-04-16T00:31:11.624Z",
-      "completedAt": "2026-04-16T00:38:52.269Z",
+      "startedAt": "2026-04-10T14:24:11.884Z",
+      "completedAt": "2026-04-10T14:33:13.991Z",
       "attempts": [
         {
-          "submittedAt": "2026-04-16T00:38:45.205Z",
+          "submittedAt": "2026-04-10T14:33:04.591Z",
           "answers": {
             "p4q3": "B",
             "p4q8": "These barriers include difficulties in steering AI responses and verifying technical accuracy. The largest group of participants reported that they struggled most with the cognitive burden of fact checking and cross referencing AI outputs against reliable sources.",
@@ -152,7 +152,7 @@
           }
         },
         {
-          "submittedAt": "2026-04-16T00:38:52.265Z",
+          "submittedAt": "2026-04-10T14:33:07.791Z",
           "answers": {
             "p4q3": "C",
             "p4q8": "These barriers include difficulties in steering AI responses and verifying technical accuracy. The largest group of participants reported that they struggled most with the cognitive burden of fact checking and cross referencing AI outputs against reliable sources.",
@@ -175,11 +175,11 @@
         }
       ],
       "perQuestionTimeSeconds": {
-        "p4q7": 143,
-        "p4q1": 144,
-        "p4q5": 152,
-        "p4q9": 453,
-        "p4q3": 459
+        "p4q7": 60,
+        "p4q1": 57,
+        "p4q5": 60,
+        "p4q9": 181,
+        "p4q3": 184
       },
       "firstAttemptCorrect": {
         "p4q1": true,
@@ -205,19 +205,19 @@
       "paperKey": "paper5",
       "condition": "contextual_highlights",
       "priorPapers": [],
-      "startedAt": "2026-04-16T00:39:30.398Z",
-      "completedAt": "2026-04-16T00:44:33.907Z",
+      "startedAt": "2026-04-10T14:36:02.663Z",
+      "completedAt": "2026-04-10T14:44:13.904Z",
       "attempts": [
         {
-          "submittedAt": "2026-04-16T00:44:23.111Z",
+          "submittedAt": "2026-04-10T14:44:04.504Z",
           "answers": {
             "p5q6": "B",
             "p5q8": "A",
-            "p5q7": "The paper outlines two mechanisms through which explainable AI can improve decisions: helping users align their level of trust with the system’s reliability, and offering insights that expand the user’s understanding.",
+            "p5q7": "The paper outlines two mechanisms through which explainable AI can improve decisions: helping users align their level of trust with the system\u2019s reliability, and offering insights that expand the user\u2019s understanding.",
             "p5q1": "B",
             "p5q5": "B",
             "p5q9": "The review found mixed effects. Explanations sometimes increased trust, but in other cases caused confusion. For example, medical users relied more on explained AI, while legal users often found explanations too complex and ignored them.",
-            "p5q10": "The authors point to a concern around misleading influence, where users may be persuaded by an AI system’s reasoning even when its conclusions are incorrect. This issue arises from evidence showing that explanations tend to increase user acceptance overall, without reliably helping users distinguish between correct and incorrect outputs.",
+            "p5q10": "The authors point to a concern around misleading influence, where users may be persuaded by an AI system\u2019s reasoning even when its conclusions are incorrect. This issue arises from evidence showing that explanations tend to increase user acceptance overall, without reliably helping users distinguish between correct and incorrect outputs.",
             "p5q4": "The subgroup analysis showed that explanations were more effective when applied to text based tasks than to tabular data. The authors attribute this to the more intuitive and conversational nature of text, while numerical tables tend to require greater cognitive effort to interpret, reducing the benefit of added explanations.",
             "p5q3": "C",
             "p5q2": "The meta analysis focuses on two main comparisons: AI systems versus human experts, and AI systems with explanations versus those without. It then claims that because human experts achieved perfect accuracy across studies, explanations for AI are unnecessary in professional contexts."
@@ -231,15 +231,15 @@
           }
         },
         {
-          "submittedAt": "2026-04-16T00:44:30.322Z",
+          "submittedAt": "2026-04-10T14:44:07.704Z",
           "answers": {
             "p5q6": "B",
             "p5q8": "C",
-            "p5q7": "The paper outlines two mechanisms through which explainable AI can improve decisions: helping users align their level of trust with the system’s reliability, and offering insights that expand the user’s understanding.",
+            "p5q7": "The paper outlines two mechanisms through which explainable AI can improve decisions: helping users align their level of trust with the system\u2019s reliability, and offering insights that expand the user\u2019s understanding.",
             "p5q1": "B",
             "p5q5": "B",
             "p5q9": "The review found mixed effects. Explanations sometimes increased trust, but in other cases caused confusion. For example, medical users relied more on explained AI, while legal users often found explanations too complex and ignored them.",
-            "p5q10": "The authors point to a concern around misleading influence, where users may be persuaded by an AI system’s reasoning even when its conclusions are incorrect. This issue arises from evidence showing that explanations tend to increase user acceptance overall, without reliably helping users distinguish between correct and incorrect outputs.",
+            "p5q10": "The authors point to a concern around misleading influence, where users may be persuaded by an AI system\u2019s reasoning even when its conclusions are incorrect. This issue arises from evidence showing that explanations tend to increase user acceptance overall, without reliably helping users distinguish between correct and incorrect outputs.",
             "p5q4": "The subgroup analysis showed that explanations were more effective when applied to text based tasks than to tabular data. The authors attribute this to the more intuitive and conversational nature of text, while numerical tables tend to require greater cognitive effort to interpret, reducing the benefit of added explanations.",
             "p5q3": "A",
             "p5q2": "The meta analysis focuses on two main comparisons: AI systems versus human experts, and AI systems with explanations versus those without. It then claims that because human experts achieved perfect accuracy across studies, explanations for AI are unnecessary in professional contexts."
@@ -253,15 +253,15 @@
           }
         },
         {
-          "submittedAt": "2026-04-16T00:44:33.902Z",
+          "submittedAt": "2026-04-10T14:44:10.204Z",
           "answers": {
             "p5q6": "B",
             "p5q8": "C",
-            "p5q7": "The paper outlines two mechanisms through which explainable AI can improve decisions: helping users align their level of trust with the system’s reliability, and offering insights that expand the user’s understanding.",
+            "p5q7": "The paper outlines two mechanisms through which explainable AI can improve decisions: helping users align their level of trust with the system\u2019s reliability, and offering insights that expand the user\u2019s understanding.",
             "p5q1": "B",
             "p5q5": "B",
             "p5q9": "The review found mixed effects. Explanations sometimes increased trust, but in other cases caused confusion. For example, medical users relied more on explained AI, while legal users often found explanations too complex and ignored them.",
-            "p5q10": "The authors point to a concern around misleading influence, where users may be persuaded by an AI system’s reasoning even when its conclusions are incorrect. This issue arises from evidence showing that explanations tend to increase user acceptance overall, without reliably helping users distinguish between correct and incorrect outputs.",
+            "p5q10": "The authors point to a concern around misleading influence, where users may be persuaded by an AI system\u2019s reasoning even when its conclusions are incorrect. This issue arises from evidence showing that explanations tend to increase user acceptance overall, without reliably helping users distinguish between correct and incorrect outputs.",
             "p5q4": "The subgroup analysis showed that explanations were more effective when applied to text based tasks than to tabular data. The authors attribute this to the more intuitive and conversational nature of text, while numerical tables tend to require greater cognitive effort to interpret, reducing the benefit of added explanations.",
             "p5q3": "D",
             "p5q2": "The meta analysis focuses on two main comparisons: AI systems versus human experts, and AI systems with explanations versus those without. It then claims that because human experts achieved perfect accuracy across studies, explanations for AI are unnecessary in professional contexts."
@@ -276,11 +276,11 @@
         }
       ],
       "perQuestionTimeSeconds": {
-        "p5q6": 40,
-        "p5q1": 66,
-        "p5q5": 68,
-        "p5q8": 297,
-        "p5q3": 303
+        "p5q6": 27,
+        "p5q1": 41,
+        "p5q5": 43,
+        "p5q8": 188,
+        "p5q3": 192
       },
       "firstAttemptCorrect": {
         "p5q1": true,
@@ -292,11 +292,11 @@
       "finalAnswers": {
         "p5q6": "B",
         "p5q8": "C",
-        "p5q7": "The paper outlines two mechanisms through which explainable AI can improve decisions: helping users align their level of trust with the system’s reliability, and offering insights that expand the user’s understanding.",
+        "p5q7": "The paper outlines two mechanisms through which explainable AI can improve decisions: helping users align their level of trust with the system\u2019s reliability, and offering insights that expand the user\u2019s understanding.",
         "p5q1": "B",
         "p5q5": "B",
         "p5q9": "The review found mixed effects. Explanations sometimes increased trust, but in other cases caused confusion. For example, medical users relied more on explained AI, while legal users often found explanations too complex and ignored them.",
-        "p5q10": "The authors point to a concern around misleading influence, where users may be persuaded by an AI system’s reasoning even when its conclusions are incorrect. This issue arises from evidence showing that explanations tend to increase user acceptance overall, without reliably helping users distinguish between correct and incorrect outputs.",
+        "p5q10": "The authors point to a concern around misleading influence, where users may be persuaded by an AI system\u2019s reasoning even when its conclusions are incorrect. This issue arises from evidence showing that explanations tend to increase user acceptance overall, without reliably helping users distinguish between correct and incorrect outputs.",
         "p5q4": "The subgroup analysis showed that explanations were more effective when applied to text based tasks than to tabular data. The authors attribute this to the more intuitive and conversational nature of text, while numerical tables tend to require greater cognitive effort to interpret, reducing the benefit of added explanations.",
         "p5q3": "D",
         "p5q2": "The meta analysis focuses on two main comparisons: AI systems versus human experts, and AI systems with explanations versus those without. It then claims that because human experts achieved perfect accuracy across studies, explanations for AI are unnecessary in professional contexts."
@@ -306,7 +306,7 @@
   "questionnaireResponses": [
     {
       "paperKey": "paper6",
-      "submittedAt": "2026-04-16T00:31:09.260Z",
+      "submittedAt": "2026-04-10T14:22:04.228Z",
       "responses": {
         "p6diff1": 4,
         "p6diff2": 4,
@@ -324,7 +324,7 @@
     },
     {
       "paperKey": "paper4",
-      "submittedAt": "2026-04-16T00:39:14.787Z",
+      "submittedAt": "2026-04-10T14:34:07.771Z",
       "responses": {
         "p4diff1": 3,
         "p4diff2": 4,
@@ -342,7 +342,7 @@
     },
     {
       "paperKey": "paper5",
-      "submittedAt": "2026-04-16T00:44:50.992Z",
+      "submittedAt": "2026-04-10T14:45:39.114Z",
       "responses": {
         "p5diff1": 3,
         "p5diff2": 3,
@@ -374,7 +374,7 @@
   },
   "crossAttempts": [
     {
-      "submittedAt": "2026-04-16T00:47:57.355Z",
+      "submittedAt": "2026-04-10T14:49:58.337Z",
       "answers": {
         "cpq1": "B",
         "cpq2": "Mental energy for gathering data drops, but the effort required to verify and audit the AI's logic increases significantly.",
@@ -396,7 +396,7 @@
       }
     }
   ],
-  "completedAt": "2026-04-16T00:49:04.990Z",
+  "completedAt": "2026-04-10T14:51:11.905Z",
   "questionOrders": {
     "paper6": [
       "p6q7",

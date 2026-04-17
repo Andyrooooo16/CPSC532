@@ -11,7 +11,7 @@
     "no_highlights",
     "contextual_highlights"
   ],
-  "createdAt": "2026-04-15T22:53:39.697Z",
+  "createdAt": "2026-04-11T13:05:22.551Z",
   "step": "done",
   "demographicResponses": {
     "age": "B",
@@ -25,11 +25,11 @@
       "paperKey": "paper5",
       "condition": "all_highlights",
       "priorPapers": [],
-      "startedAt": "2026-04-15T22:57:30.458Z",
-      "completedAt": "2026-04-15T23:07:06.417Z",
+      "startedAt": "2026-04-11T13:07:03.221Z",
+      "completedAt": "2026-04-11T13:16:19.882Z",
       "attempts": [
         {
-          "submittedAt": "2026-04-15T23:07:06.405Z",
+          "submittedAt": "2026-04-11T13:16:11.482Z",
           "answers": {
             "p5q1": "B",
             "p5q6": "B",
@@ -37,7 +37,7 @@
             "p5q10": "The concern is that explanations can lead people to trust and follow AI decisions even when they are incorrect, based on findings that XAI increases acceptance of AI advice regardless of accuracy.",
             "p5q3": "D",
             "p5q5": "B",
-            "p5q9": "Some studies show that explanations increase users’ willingness to follow AI advice, while others show reduced or unchanged reliance, highlighting inconsistent effects across studies.",
+            "p5q9": "Some studies show that explanations increase users\u2019 willingness to follow AI advice, while others show reduced or unchanged reliance, highlighting inconsistent effects across studies.",
             "p5q7": "XAI may improve performance by increasing acceptance of AI advice or by helping users better judge when the AI is correct, but stronger evidence supports the increase in acceptance.",
             "p5q8": "C",
             "p5q4": "Tabular data showed no significant improvement, while text data showed a significant positive effect. The authors suggest this difference may be due to how humans process and interact with different data types."
@@ -52,11 +52,11 @@
         }
       ],
       "perQuestionTimeSeconds": {
-        "p5q1": 34,
-        "p5q6": 188,
-        "p5q3": 410,
-        "p5q5": 413,
-        "p5q8": 564
+        "p5q1": 15,
+        "p5q6": 64,
+        "p5q3": 141,
+        "p5q5": 142,
+        "p5q8": 194
       },
       "firstAttemptCorrect": {
         "p5q1": true,
@@ -72,7 +72,7 @@
         "p5q10": "The concern is that explanations can lead people to trust and follow AI decisions even when they are incorrect, based on findings that XAI increases acceptance of AI advice regardless of accuracy.",
         "p5q3": "D",
         "p5q5": "B",
-        "p5q9": "Some studies show that explanations increase users’ willingness to follow AI advice, while others show reduced or unchanged reliance, highlighting inconsistent effects across studies.",
+        "p5q9": "Some studies show that explanations increase users\u2019 willingness to follow AI advice, while others show reduced or unchanged reliance, highlighting inconsistent effects across studies.",
         "p5q7": "XAI may improve performance by increasing acceptance of AI advice or by helping users better judge when the AI is correct, but stronger evidence supports the increase in acceptance.",
         "p5q8": "C",
         "p5q4": "Tabular data showed no significant improvement, while text data showed a significant positive effect. The authors suggest this difference may be due to how humans process and interact with different data types."
@@ -82,16 +82,16 @@
       "paperKey": "paper6",
       "condition": "no_highlights",
       "priorPapers": [],
-      "startedAt": "2026-04-15T23:09:04.693Z",
-      "completedAt": "2026-04-15T23:19:44.512Z",
+      "startedAt": "2026-04-11T13:18:46.884Z",
+      "completedAt": "2026-04-11T13:28:04.331Z",
       "attempts": [
         {
-          "submittedAt": "2026-04-15T23:19:44.507Z",
+          "submittedAt": "2026-04-11T13:27:55.931Z",
           "answers": {
             "p6q1": "B",
-            "p6q7": "ChatGPT use helps explain how workload and time pressure lead to higher procrastination, memory loss, and lower academic performance, and it also explains how sensitivity to rewards affects procrastination and memory loss (but not academic performance), while it doesn’t explain any effects related to sensitivity to quality.",
+            "p6q7": "ChatGPT use helps explain how workload and time pressure lead to higher procrastination, memory loss, and lower academic performance, and it also explains how sensitivity to rewards affects procrastination and memory loss (but not academic performance), while it doesn\u2019t explain any effects related to sensitivity to quality.",
             "p6q8": "B",
-            "p6q9": "The authors suggest that educators should better manage students’ workload and deadlines and encourage balanced use of ChatGPT as a learning aid rather than a shortcut, because the study shows that high workload and time pressure increase ChatGPT use, which then leads to more procrastination, memory problems, and lower academic performance.",
+            "p6q9": "The authors suggest that educators should better manage students\u2019 workload and deadlines and encourage balanced use of ChatGPT as a learning aid rather than a shortcut, because the study shows that high workload and time pressure increase ChatGPT use, which then leads to more procrastination, memory problems, and lower academic performance.",
             "p6q3": "C",
             "p6q2": "The paper proposed that students who care about grades might either use ChatGPT more to improve their results or avoid it because they are worried about being penalized, and the findings supported the second idea, showing that more grade-conscious students actually use ChatGPT less due to fear of negative consequences.",
             "p6q4": "The researchers started with 12 items, reduced them to 10 after expert review to ensure content validity, and then removed 2 more items through factor analysis because they had low factor loadings and communalities, resulting in a final 8-item scale.",
@@ -109,11 +109,11 @@
         }
       ],
       "perQuestionTimeSeconds": {
-        "p6q1": 117,
-        "p6q8": 226,
-        "p6q3": 306,
-        "p6q6": 324,
-        "p6q5": 331
+        "p6q1": 52,
+        "p6q8": 96,
+        "p6q3": 130,
+        "p6q6": 138,
+        "p6q5": 141
       },
       "firstAttemptCorrect": {
         "p6q1": true,
@@ -124,9 +124,9 @@
       },
       "finalAnswers": {
         "p6q1": "B",
-        "p6q7": "ChatGPT use helps explain how workload and time pressure lead to higher procrastination, memory loss, and lower academic performance, and it also explains how sensitivity to rewards affects procrastination and memory loss (but not academic performance), while it doesn’t explain any effects related to sensitivity to quality.",
+        "p6q7": "ChatGPT use helps explain how workload and time pressure lead to higher procrastination, memory loss, and lower academic performance, and it also explains how sensitivity to rewards affects procrastination and memory loss (but not academic performance), while it doesn\u2019t explain any effects related to sensitivity to quality.",
         "p6q8": "B",
-        "p6q9": "The authors suggest that educators should better manage students’ workload and deadlines and encourage balanced use of ChatGPT as a learning aid rather than a shortcut, because the study shows that high workload and time pressure increase ChatGPT use, which then leads to more procrastination, memory problems, and lower academic performance.",
+        "p6q9": "The authors suggest that educators should better manage students\u2019 workload and deadlines and encourage balanced use of ChatGPT as a learning aid rather than a shortcut, because the study shows that high workload and time pressure increase ChatGPT use, which then leads to more procrastination, memory problems, and lower academic performance.",
         "p6q3": "C",
         "p6q2": "The paper proposed that students who care about grades might either use ChatGPT more to improve their results or avoid it because they are worried about being penalized, and the findings supported the second idea, showing that more grade-conscious students actually use ChatGPT less due to fear of negative consequences.",
         "p6q4": "The researchers started with 12 items, reduced them to 10 after expert review to ensure content validity, and then removed 2 more items through factor analysis because they had low factor loadings and communalities, resulting in a final 8-item scale.",
@@ -139,18 +139,18 @@
       "paperKey": "paper4",
       "condition": "contextual_highlights",
       "priorPapers": [],
-      "startedAt": "2026-04-15T23:21:15.747Z",
-      "completedAt": "2026-04-15T23:32:11.890Z",
+      "startedAt": "2026-04-11T13:30:31.447Z",
+      "completedAt": "2026-04-11T13:39:49.993Z",
       "attempts": [
         {
-          "submittedAt": "2026-04-15T23:32:11.884Z",
+          "submittedAt": "2026-04-11T13:39:41.593Z",
           "answers": {
             "p4q3": "C",
             "p4q2": "The first question focuses on when and how people engage in critical thinking while using GenAI, while the second looks at how GenAI changes the effort required for that thinking whether it makes it easier or harder, and why.",
             "p4q8": "The main barriers include limited ability to improve AI outputs, lack of expertise in certain domains, and difficulty working with unfamiliar topics. The most commonly reported issue was difficulty refining or improving AI-generated responses.",
             "p4q6": "The paper shows that even when people are motivated (e.g., to improve quality or avoid mistakes), they may still struggle due to ability barriers. This suggests that critical thinking is most likely to break down when tasks are difficult or users lack the skills to properly evaluate or improve AI outputs.",
             "p4q9": "D",
-            "p4q10": "The authors prefer “stewardship” because it highlights that humans are still responsible for guiding, checking, and finalizing AI outputs, meaning accountability ultimately remains with the human user.",
+            "p4q10": "The authors prefer \u201cstewardship\u201d because it highlights that humans are still responsible for guiding, checking, and finalizing AI outputs, meaning accountability ultimately remains with the human user.",
             "p4q5": "B",
             "p4q1": "C",
             "p4q4": "There is a shift from doing the work (analysis and creation) to evaluating and refining AI outputs, which means workers take on more of a reviewer or overseer role.",
@@ -166,11 +166,11 @@
         }
       ],
       "perQuestionTimeSeconds": {
-        "p4q3": 125,
-        "p4q9": 474,
-        "p4q5": 477,
-        "p4q1": 479,
-        "p4q7": 486
+        "p4q3": 37,
+        "p4q9": 129,
+        "p4q5": 130,
+        "p4q1": 130,
+        "p4q7": 132
       },
       "firstAttemptCorrect": {
         "p4q1": true,
@@ -185,7 +185,7 @@
         "p4q8": "The main barriers include limited ability to improve AI outputs, lack of expertise in certain domains, and difficulty working with unfamiliar topics. The most commonly reported issue was difficulty refining or improving AI-generated responses.",
         "p4q6": "The paper shows that even when people are motivated (e.g., to improve quality or avoid mistakes), they may still struggle due to ability barriers. This suggests that critical thinking is most likely to break down when tasks are difficult or users lack the skills to properly evaluate or improve AI outputs.",
         "p4q9": "D",
-        "p4q10": "The authors prefer “stewardship” because it highlights that humans are still responsible for guiding, checking, and finalizing AI outputs, meaning accountability ultimately remains with the human user.",
+        "p4q10": "The authors prefer \u201cstewardship\u201d because it highlights that humans are still responsible for guiding, checking, and finalizing AI outputs, meaning accountability ultimately remains with the human user.",
         "p4q5": "B",
         "p4q1": "C",
         "p4q4": "There is a shift from doing the work (analysis and creation) to evaluating and refining AI outputs, which means workers take on more of a reviewer or overseer role.",
@@ -196,7 +196,7 @@
   "questionnaireResponses": [
     {
       "paperKey": "paper5",
-      "submittedAt": "2026-04-15T23:07:41.825Z",
+      "submittedAt": "2026-04-11T13:17:28.441Z",
       "responses": {
         "p5diff1": 2,
         "p5diff2": 2,
@@ -214,7 +214,7 @@
     },
     {
       "paperKey": "paper6",
-      "submittedAt": "2026-04-15T23:20:26.556Z",
+      "submittedAt": "2026-04-11T13:29:39.771Z",
       "responses": {
         "p6diff1": 1,
         "p6diff2": 2,
@@ -232,7 +232,7 @@
     },
     {
       "paperKey": "paper4",
-      "submittedAt": "2026-04-15T23:32:52.499Z",
+      "submittedAt": "2026-04-11T13:41:03.118Z",
       "responses": {
         "p4diff1": 1,
         "p4diff2": 2,
@@ -264,7 +264,7 @@
   },
   "crossAttempts": [
     {
-      "submittedAt": "2026-04-15T23:36:36.985Z",
+      "submittedAt": "2026-04-11T13:44:55.228Z",
       "answers": {
         "cpq1": "B",
         "cpq2": "One major change is that effort shifts from creating content to reviewing it. AI generates responses quickly, so users spend more time checking accuracy and deciding whether the output is appropriate.",
@@ -286,7 +286,7 @@
       }
     }
   ],
-  "completedAt": "2026-04-15T23:37:56.232Z",
+  "completedAt": "2026-04-11T13:46:12.662Z",
   "questionOrders": {
     "paper5": [
       "p5q1",

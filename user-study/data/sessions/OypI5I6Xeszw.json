@@ -11,7 +11,7 @@
     "no_highlights",
     "contextual_highlights"
   ],
-  "createdAt": "2026-04-16T01:52:33.894Z",
+  "createdAt": "2026-04-10T12:58:14.772Z",
   "step": "done",
   "demographicResponses": {
     "age": "A",
@@ -25,11 +25,11 @@
       "paperKey": "paper6",
       "condition": "all_highlights",
       "priorPapers": [],
-      "startedAt": "2026-04-16T01:53:31.676Z",
-      "completedAt": "2026-04-16T01:56:57.234Z",
+      "startedAt": "2026-04-10T12:59:47.331Z",
+      "completedAt": "2026-04-10T13:08:52.114Z",
       "attempts": [
         {
-          "submittedAt": "2026-04-16T01:56:57.228Z",
+          "submittedAt": "2026-04-10T13:08:40.814Z",
           "answers": {
             "p6q3": "C",
             "p6q9": "The practical recommendation is that educators should manage workload and deadlines more carefully, and also encourage students to use ChatGPT as a support tool rather than a shortcut. This fits the results because workload and time pressure both increased ChatGPT use, so the authors suggest reducing those pressures while also discouraging overreliance on the tool.",
@@ -52,11 +52,11 @@
         }
       ],
       "perQuestionTimeSeconds": {
-        "p6q3": 130,
-        "p6q1": 197,
-        "p6q6": 194,
-        "p6q5": 190,
-        "p6q8": 188
+        "p6q3": 81,
+        "p6q1": 119,
+        "p6q6": 117,
+        "p6q5": 114,
+        "p6q8": 113
       },
       "firstAttemptCorrect": {
         "p6q1": true,
@@ -82,11 +82,11 @@
       "paperKey": "paper4",
       "condition": "no_highlights",
       "priorPapers": [],
-      "startedAt": "2026-04-16T01:57:21.915Z",
-      "completedAt": "2026-04-16T02:01:36.985Z",
+      "startedAt": "2026-04-10T13:12:26.904Z",
+      "completedAt": "2026-04-10T13:19:54.667Z",
       "attempts": [
         {
-          "submittedAt": "2026-04-16T02:01:30.971Z",
+          "submittedAt": "2026-04-10T13:19:43.367Z",
           "answers": {
             "p4q1": "C",
             "p4q6": "The two factors interact because motivation to think critically only turns into actual critical thinking when workers also have the ability to do it. In practice, breakdowns are most likely when people are motivated but hit barriers like not knowing enough, not being able to improve the output or being too time pressed to act on that motivation.",
@@ -97,7 +97,7 @@
             "p4q9": "B",
             "p4q5": "B",
             "p4q7": "B",
-            "p4q10": "The authors prefer “stewardship” because it captures that the human is mainly guiding and monitoring the AI’s work, not sharing equal partnership with it. It also implies accountability stays with the human user."
+            "p4q10": "The authors prefer \u201cstewardship\u201d because it captures that the human is mainly guiding and monitoring the AI\u2019s work, not sharing equal partnership with it. It also implies accountability stays with the human user."
           },
           "scores": {
             "p4q1": true,
@@ -108,7 +108,7 @@
           }
         },
         {
-          "submittedAt": "2026-04-16T02:01:36.982Z",
+          "submittedAt": "2026-04-10T13:19:47.267Z",
           "answers": {
             "p4q1": "C",
             "p4q6": "The two factors interact because motivation to think critically only turns into actual critical thinking when workers also have the ability to do it. In practice, breakdowns are most likely when people are motivated but hit barriers like not knowing enough, not being able to improve the output or being too time pressed to act on that motivation.",
@@ -119,7 +119,7 @@
             "p4q9": "D",
             "p4q5": "B",
             "p4q7": "B",
-            "p4q10": "The authors prefer “stewardship” because it captures that the human is mainly guiding and monitoring the AI’s work, not sharing equal partnership with it. It also implies accountability stays with the human user."
+            "p4q10": "The authors prefer \u201cstewardship\u201d because it captures that the human is mainly guiding and monitoring the AI\u2019s work, not sharing equal partnership with it. It also implies accountability stays with the human user."
           },
           "scores": {
             "p4q1": true,
@@ -131,11 +131,11 @@
         }
       ],
       "perQuestionTimeSeconds": {
-        "p4q1": 193,
-        "p4q5": 213,
-        "p4q7": 189,
-        "p4q3": 254,
-        "p4q9": 252
+        "p4q1": 80,
+        "p4q5": 86,
+        "p4q7": 76,
+        "p4q3": 103,
+        "p4q9": 102
       },
       "firstAttemptCorrect": {
         "p4q1": true,
@@ -154,18 +154,18 @@
         "p4q9": "D",
         "p4q5": "B",
         "p4q7": "B",
-        "p4q10": "The authors prefer “stewardship” because it captures that the human is mainly guiding and monitoring the AI’s work, not sharing equal partnership with it. It also implies accountability stays with the human user."
+        "p4q10": "The authors prefer \u201cstewardship\u201d because it captures that the human is mainly guiding and monitoring the AI\u2019s work, not sharing equal partnership with it. It also implies accountability stays with the human user."
       }
     },
     {
       "paperKey": "paper5",
       "condition": "contextual_highlights",
       "priorPapers": [],
-      "startedAt": "2026-04-16T02:02:07.038Z",
-      "completedAt": "2026-04-16T02:07:11.486Z",
+      "startedAt": "2026-04-10T13:22:11.552Z",
+      "completedAt": "2026-04-10T13:30:55.221Z",
       "attempts": [
         {
-          "submittedAt": "2026-04-16T02:07:11.454Z",
+          "submittedAt": "2026-04-10T13:30:43.921Z",
           "answers": {
             "p5q2": "The paper compares XAI with human only decision making, and also compares XAI with AI only advice. XAI helped more than humans alone, but it did not do better than plain AI advice, so those are not the same result.",
             "p5q5": "B",
@@ -188,11 +188,11 @@
         }
       ],
       "perQuestionTimeSeconds": {
-        "p5q5": 250,
-        "p5q8": 284,
-        "p5q6": 294,
-        "p5q1": 296,
-        "p5q3": 298
+        "p5q5": 94,
+        "p5q8": 104,
+        "p5q6": 108,
+        "p5q1": 108,
+        "p5q3": 109
       },
       "firstAttemptCorrect": {
         "p5q1": true,
@@ -218,7 +218,7 @@
   "questionnaireResponses": [
     {
       "paperKey": "paper6",
-      "submittedAt": "2026-04-16T01:57:19.371Z",
+      "submittedAt": "2026-04-10T13:10:19.441Z",
       "responses": {
         "p6diff1": 3,
         "p6diff2": 2,
@@ -236,7 +236,7 @@
     },
     {
       "paperKey": "paper4",
-      "submittedAt": "2026-04-16T02:02:04.614Z",
+      "submittedAt": "2026-04-10T13:21:08.992Z",
       "responses": {
         "p4diff1": 3,
         "p4diff2": 3,
@@ -254,7 +254,7 @@
     },
     {
       "paperKey": "paper5",
-      "submittedAt": "2026-04-16T02:07:46.077Z",
+      "submittedAt": "2026-04-10T13:32:37.884Z",
       "responses": {
         "p5diff1": 2,
         "p5diff2": 2,
@@ -285,12 +285,12 @@
   },
   "crossAttempts": [
     {
-      "submittedAt": "2026-04-16T02:09:46.059Z",
+      "submittedAt": "2026-04-10T13:36:52.118Z",
       "answers": {
         "cpq1": "B",
         "cpq2": "One change is that people spend less effort doing the work itself and more effort checking, steering, or judging AI output. This happens because AI can do the first draft or routine part quickly, so humans shift into a review role instead.",
         "cpq3": "C",
-        "cpq4": "Lower effort can hurt outcomes when people stop thinking deeply and just accept the AI’s answer. In the critical-thinking paper, this can lead to weaker memory and more procrastination, and in the XAI paper it can mean people follow AI advice too easily.",
+        "cpq4": "Lower effort can hurt outcomes when people stop thinking deeply and just accept the AI\u2019s answer. In the critical-thinking paper, this can lead to weaker memory and more procrastination, and in the XAI paper it can mean people follow AI advice too easily.",
         "cpq5": "B",
         "cpq6": "One big factor is confidence. People who trust AI more are less likely to verify it, while people who trust themselves more are more likely to check it. The critical-thinking paper shows that self-confidence pushes critical thinking up, while confidence in GenAI pushes it down.",
         "cpq7": "B",
@@ -307,7 +307,7 @@
       }
     }
   ],
-  "completedAt": "2026-04-16T02:10:35.664Z",
+  "completedAt": "2026-04-10T13:38:07.551Z",
   "questionOrders": {
     "paper6": [
       "p6q3",
@@ -448,7 +448,7 @@
     "cpq1": "B",
     "cpq2": "One change is that people spend less effort doing the work itself and more effort checking, steering, or judging AI output. This happens because AI can do the first draft or routine part quickly, so humans shift into a review role instead.",
     "cpq3": "C",
-    "cpq4": "Lower effort can hurt outcomes when people stop thinking deeply and just accept the AI’s answer. In the critical-thinking paper, this can lead to weaker memory and more procrastination, and in the XAI paper it can mean people follow AI advice too easily.",
+    "cpq4": "Lower effort can hurt outcomes when people stop thinking deeply and just accept the AI\u2019s answer. In the critical-thinking paper, this can lead to weaker memory and more procrastination, and in the XAI paper it can mean people follow AI advice too easily.",
     "cpq5": "B",
     "cpq6": "One big factor is confidence. People who trust AI more are less likely to verify it, while people who trust themselves more are more likely to check it. The critical-thinking paper shows that self-confidence pushes critical thinking up, while confidence in GenAI pushes it down.",
     "cpq7": "B",

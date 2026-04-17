@@ -11,7 +11,7 @@
     "all_highlights",
     "contextual_highlights"
   ],
-  "createdAt": "2026-04-16T05:58:37.617Z",
+  "createdAt": "2026-04-10T13:42:18.551Z",
   "step": "done",
   "demographicResponses": {
     "age": "B",
@@ -25,11 +25,11 @@
       "paperKey": "paper4",
       "condition": "no_highlights",
       "priorPapers": [],
-      "startedAt": "2026-04-16T05:58:55.632Z",
-      "completedAt": "2026-04-16T06:02:21.449Z",
+      "startedAt": "2026-04-10T13:43:47.229Z",
+      "completedAt": "2026-04-10T13:51:59.114Z",
       "attempts": [
         {
-          "submittedAt": "2026-04-16T06:01:58.130Z",
+          "submittedAt": "2026-04-10T13:51:48.914Z",
           "answers": {
             "p4q7": "D",
             "p4q2": "RQ1: \"When/how do knowledge workers perceive critical thinking enaction with GenAI?\" RQ2: \"When/why does GenAI change critical thinking effort?\" RQ1 focuses occurrence/methods, RQ2 examines effort dynamics.",
@@ -51,7 +51,7 @@
           }
         },
         {
-          "submittedAt": "2026-04-16T06:02:09.271Z",
+          "submittedAt": "2026-04-10T13:51:52.014Z",
           "answers": {
             "p4q7": "B",
             "p4q2": "RQ1: \"When/how do knowledge workers perceive critical thinking enaction with GenAI?\" RQ2: \"When/why does GenAI change critical thinking effort?\" RQ1 focuses occurrence/methods, RQ2 examines effort dynamics.",
@@ -73,7 +73,7 @@
           }
         },
         {
-          "submittedAt": "2026-04-16T06:02:15.484Z",
+          "submittedAt": "2026-04-10T13:51:54.914Z",
           "answers": {
             "p4q7": "B",
             "p4q2": "RQ1: \"When/how do knowledge workers perceive critical thinking enaction with GenAI?\" RQ2: \"When/why does GenAI change critical thinking effort?\" RQ1 focuses occurrence/methods, RQ2 examines effort dynamics.",
@@ -95,7 +95,7 @@
           }
         },
         {
-          "submittedAt": "2026-04-16T06:02:21.447Z",
+          "submittedAt": "2026-04-10T13:51:59.108Z",
           "answers": {
             "p4q7": "B",
             "p4q2": "RQ1: \"When/how do knowledge workers perceive critical thinking enaction with GenAI?\" RQ2: \"When/why does GenAI change critical thinking effort?\" RQ1 focuses occurrence/methods, RQ2 examines effort dynamics.",
@@ -118,11 +118,11 @@
         }
       ],
       "perQuestionTimeSeconds": {
-        "p4q7": 192,
-        "p4q5": 197,
-        "p4q9": 196,
-        "p4q1": 204,
-        "p4q3": 201
+        "p4q7": 97,
+        "p4q5": 97,
+        "p4q9": 97,
+        "p4q1": 101,
+        "p4q3": 99
       },
       "firstAttemptCorrect": {
         "p4q1": false,
@@ -148,20 +148,20 @@
       "paperKey": "paper6",
       "condition": "all_highlights",
       "priorPapers": [],
-      "startedAt": "2026-04-16T06:02:51.211Z",
-      "completedAt": "2026-04-16T06:05:25.278Z",
+      "startedAt": "2026-04-10T13:55:12.771Z",
+      "completedAt": "2026-04-10T14:02:57.402Z",
       "attempts": [
         {
-          "submittedAt": "2026-04-16T06:05:19.582Z",
+          "submittedAt": "2026-04-10T14:02:47.202Z",
           "answers": {
             "p6q1": "B",
             "p6q3": "C",
             "p6q6": "C",
-            "p6q7": "Mediation worked for workload/time pressure → all outcomes (procrastination, memory loss, poor CGPA). Reward sensitivity mediated only procrastination/memory loss (not CGPA). Quality sensitivity showed no mediation effects.",
+            "p6q7": "Mediation worked for workload/time pressure \u2192 all outcomes (procrastination, memory loss, poor CGPA). Reward sensitivity mediated only procrastination/memory loss (not CGPA). Quality sensitivity showed no mediation effects.",
             "p6q8": "A",
             "p6q2": "H3a predicted reward sensitivity increases ChatGPT use (risk-taking view); H3b predicted decrease (cheating fear). H3b supported grade-worried students avoid AI to prevent academic penalties.",
             "p6q10": "Excessive ChatGPT reliance cuts cognitive engagement needed for memory consolidation. Authors argue students skip active learning/recall practice, leading to weaker retention over time.",
-            "p6q4": "Began with 12 items → 5 experts validated content, kept 10 → EFA revealed items 4&9 had poor loadings/communalities , dropped them. Final 8 item scale had strong reliability and one factor structure.",
+            "p6q4": "Began with 12 items \u2192 5 experts validated content, kept 10 \u2192 EFA revealed items 4&9 had poor loadings/communalities , dropped them. Final 8 item scale had strong reliability and one factor structure.",
             "p6q5": "B",
             "p6q9": "Since workload and time pressure spike ChatGPT use, authors recommend teachers lighten assignments and deadlines. Also guide students to treat ChatGPT as a learning aid, not a full replacement for their own work."
           },
@@ -174,16 +174,16 @@
           }
         },
         {
-          "submittedAt": "2026-04-16T06:05:23.225Z",
+          "submittedAt": "2026-04-10T14:02:50.302Z",
           "answers": {
             "p6q1": "B",
             "p6q3": "C",
             "p6q6": "C",
-            "p6q7": "Mediation worked for workload/time pressure → all outcomes (procrastination, memory loss, poor CGPA). Reward sensitivity mediated only procrastination/memory loss (not CGPA). Quality sensitivity showed no mediation effects.",
+            "p6q7": "Mediation worked for workload/time pressure \u2192 all outcomes (procrastination, memory loss, poor CGPA). Reward sensitivity mediated only procrastination/memory loss (not CGPA). Quality sensitivity showed no mediation effects.",
             "p6q8": "D",
             "p6q2": "H3a predicted reward sensitivity increases ChatGPT use (risk-taking view); H3b predicted decrease (cheating fear). H3b supported grade-worried students avoid AI to prevent academic penalties.",
             "p6q10": "Excessive ChatGPT reliance cuts cognitive engagement needed for memory consolidation. Authors argue students skip active learning/recall practice, leading to weaker retention over time.",
-            "p6q4": "Began with 12 items → 5 experts validated content, kept 10 → EFA revealed items 4&9 had poor loadings/communalities , dropped them. Final 8 item scale had strong reliability and one factor structure.",
+            "p6q4": "Began with 12 items \u2192 5 experts validated content, kept 10 \u2192 EFA revealed items 4&9 had poor loadings/communalities , dropped them. Final 8 item scale had strong reliability and one factor structure.",
             "p6q5": "B",
             "p6q9": "Since workload and time pressure spike ChatGPT use, authors recommend teachers lighten assignments and deadlines. Also guide students to treat ChatGPT as a learning aid, not a full replacement for their own work."
           },
@@ -196,16 +196,16 @@
           }
         },
         {
-          "submittedAt": "2026-04-16T06:05:25.273Z",
+          "submittedAt": "2026-04-10T14:02:53.202Z",
           "answers": {
             "p6q1": "B",
             "p6q3": "C",
             "p6q6": "C",
-            "p6q7": "Mediation worked for workload/time pressure → all outcomes (procrastination, memory loss, poor CGPA). Reward sensitivity mediated only procrastination/memory loss (not CGPA). Quality sensitivity showed no mediation effects.",
+            "p6q7": "Mediation worked for workload/time pressure \u2192 all outcomes (procrastination, memory loss, poor CGPA). Reward sensitivity mediated only procrastination/memory loss (not CGPA). Quality sensitivity showed no mediation effects.",
             "p6q8": "B",
             "p6q2": "H3a predicted reward sensitivity increases ChatGPT use (risk-taking view); H3b predicted decrease (cheating fear). H3b supported grade-worried students avoid AI to prevent academic penalties.",
             "p6q10": "Excessive ChatGPT reliance cuts cognitive engagement needed for memory consolidation. Authors argue students skip active learning/recall practice, leading to weaker retention over time.",
-            "p6q4": "Began with 12 items → 5 experts validated content, kept 10 → EFA revealed items 4&9 had poor loadings/communalities , dropped them. Final 8 item scale had strong reliability and one factor structure.",
+            "p6q4": "Began with 12 items \u2192 5 experts validated content, kept 10 \u2192 EFA revealed items 4&9 had poor loadings/communalities , dropped them. Final 8 item scale had strong reliability and one factor structure.",
             "p6q5": "B",
             "p6q9": "Since workload and time pressure spike ChatGPT use, authors recommend teachers lighten assignments and deadlines. Also guide students to treat ChatGPT as a learning aid, not a full replacement for their own work."
           },
@@ -219,11 +219,11 @@
         }
       ],
       "perQuestionTimeSeconds": {
-        "p6q1": 63,
-        "p6q3": 63,
-        "p6q6": 66,
-        "p6q5": 144,
-        "p6q8": 153
+        "p6q1": 62,
+        "p6q3": 59,
+        "p6q6": 62,
+        "p6q5": 136,
+        "p6q8": 145
       },
       "firstAttemptCorrect": {
         "p6q1": true,
@@ -236,11 +236,11 @@
         "p6q1": "B",
         "p6q3": "C",
         "p6q6": "C",
-        "p6q7": "Mediation worked for workload/time pressure → all outcomes (procrastination, memory loss, poor CGPA). Reward sensitivity mediated only procrastination/memory loss (not CGPA). Quality sensitivity showed no mediation effects.",
+        "p6q7": "Mediation worked for workload/time pressure \u2192 all outcomes (procrastination, memory loss, poor CGPA). Reward sensitivity mediated only procrastination/memory loss (not CGPA). Quality sensitivity showed no mediation effects.",
         "p6q8": "B",
         "p6q2": "H3a predicted reward sensitivity increases ChatGPT use (risk-taking view); H3b predicted decrease (cheating fear). H3b supported grade-worried students avoid AI to prevent academic penalties.",
         "p6q10": "Excessive ChatGPT reliance cuts cognitive engagement needed for memory consolidation. Authors argue students skip active learning/recall practice, leading to weaker retention over time.",
-        "p6q4": "Began with 12 items → 5 experts validated content, kept 10 → EFA revealed items 4&9 had poor loadings/communalities , dropped them. Final 8 item scale had strong reliability and one factor structure.",
+        "p6q4": "Began with 12 items \u2192 5 experts validated content, kept 10 \u2192 EFA revealed items 4&9 had poor loadings/communalities , dropped them. Final 8 item scale had strong reliability and one factor structure.",
         "p6q5": "B",
         "p6q9": "Since workload and time pressure spike ChatGPT use, authors recommend teachers lighten assignments and deadlines. Also guide students to treat ChatGPT as a learning aid, not a full replacement for their own work."
       }
@@ -249,11 +249,11 @@
       "paperKey": "paper5",
       "condition": "contextual_highlights",
       "priorPapers": [],
-      "startedAt": "2026-04-16T06:05:50.610Z",
-      "completedAt": "2026-04-16T06:08:21.197Z",
+      "startedAt": "2026-04-10T14:06:41.993Z",
+      "completedAt": "2026-04-10T14:16:03.118Z",
       "attempts": [
         {
-          "submittedAt": "2026-04-16T06:08:04.100Z",
+          "submittedAt": "2026-04-10T14:15:52.918Z",
           "answers": {
             "p5q6": "A",
             "p5q7": "1. increased AI advice acceptance,2. improved trust calibration (follow correct/reject wrong). Qualitative review found stronger evidence for mechanism 1, explanations mainly boost acceptance.",
@@ -263,7 +263,7 @@
             "p5q8": "D",
             "p5q3": "B",
             "p5q4": "Tabular data: null XAI effect, Text data: strong positive, Authors explain text's intuitive nature aids human judgment of explanations vs. tabular's complexity.",
-            "p5q9": "Fugener et al. (confidence ratings ↓ AI adherence), Bansal et al./van der Waa et al. (explanations ↑ acceptance even for incorrect predictions). Shows unresolved tension in literature.",
+            "p5q9": "Fugener et al. (confidence ratings \u2193 AI adherence), Bansal et al./van der Waa et al. (explanations \u2191 acceptance even for incorrect predictions). Shows unresolved tension in literature.",
             "p5q2": "Primary comparisons: XAI vs human only (XAI superior, XAI vs AI only (no difference). Second finding tempers first you can't attribute XAI gains specifically to explanations."
           },
           "scores": {
@@ -275,7 +275,7 @@
           }
         },
         {
-          "submittedAt": "2026-04-16T06:08:12.509Z",
+          "submittedAt": "2026-04-10T14:15:56.018Z",
           "answers": {
             "p5q6": "D",
             "p5q7": "1. increased AI advice acceptance,2. improved trust calibration (follow correct/reject wrong). Qualitative review found stronger evidence for mechanism 1, explanations mainly boost acceptance.",
@@ -285,7 +285,7 @@
             "p5q8": "C",
             "p5q3": "A",
             "p5q4": "Tabular data: null XAI effect, Text data: strong positive, Authors explain text's intuitive nature aids human judgment of explanations vs. tabular's complexity.",
-            "p5q9": "Fugener et al. (confidence ratings ↓ AI adherence), Bansal et al./van der Waa et al. (explanations ↑ acceptance even for incorrect predictions). Shows unresolved tension in literature.",
+            "p5q9": "Fugener et al. (confidence ratings \u2193 AI adherence), Bansal et al./van der Waa et al. (explanations \u2191 acceptance even for incorrect predictions). Shows unresolved tension in literature.",
             "p5q2": "Primary comparisons: XAI vs human only (XAI superior, XAI vs AI only (no difference). Second finding tempers first you can't attribute XAI gains specifically to explanations."
           },
           "scores": {
@@ -297,7 +297,7 @@
           }
         },
         {
-          "submittedAt": "2026-04-16T06:08:17.871Z",
+          "submittedAt": "2026-04-10T14:15:58.918Z",
           "answers": {
             "p5q6": "C",
             "p5q7": "1. increased AI advice acceptance,2. improved trust calibration (follow correct/reject wrong). Qualitative review found stronger evidence for mechanism 1, explanations mainly boost acceptance.",
@@ -307,7 +307,7 @@
             "p5q8": "C",
             "p5q3": "D",
             "p5q4": "Tabular data: null XAI effect, Text data: strong positive, Authors explain text's intuitive nature aids human judgment of explanations vs. tabular's complexity.",
-            "p5q9": "Fugener et al. (confidence ratings ↓ AI adherence), Bansal et al./van der Waa et al. (explanations ↑ acceptance even for incorrect predictions). Shows unresolved tension in literature.",
+            "p5q9": "Fugener et al. (confidence ratings \u2193 AI adherence), Bansal et al./van der Waa et al. (explanations \u2191 acceptance even for incorrect predictions). Shows unresolved tension in literature.",
             "p5q2": "Primary comparisons: XAI vs human only (XAI superior, XAI vs AI only (no difference). Second finding tempers first you can't attribute XAI gains specifically to explanations."
           },
           "scores": {
@@ -319,7 +319,7 @@
           }
         },
         {
-          "submittedAt": "2026-04-16T06:08:21.192Z",
+          "submittedAt": "2026-04-10T14:16:03.112Z",
           "answers": {
             "p5q6": "B",
             "p5q7": "1. increased AI advice acceptance,2. improved trust calibration (follow correct/reject wrong). Qualitative review found stronger evidence for mechanism 1, explanations mainly boost acceptance.",
@@ -329,7 +329,7 @@
             "p5q8": "C",
             "p5q3": "D",
             "p5q4": "Tabular data: null XAI effect, Text data: strong positive, Authors explain text's intuitive nature aids human judgment of explanations vs. tabular's complexity.",
-            "p5q9": "Fugener et al. (confidence ratings ↓ AI adherence), Bansal et al./van der Waa et al. (explanations ↑ acceptance even for incorrect predictions). Shows unresolved tension in literature.",
+            "p5q9": "Fugener et al. (confidence ratings \u2193 AI adherence), Bansal et al./van der Waa et al. (explanations \u2191 acceptance even for incorrect predictions). Shows unresolved tension in literature.",
             "p5q2": "Primary comparisons: XAI vs human only (XAI superior, XAI vs AI only (no difference). Second finding tempers first you can't attribute XAI gains specifically to explanations."
           },
           "scores": {
@@ -343,10 +343,10 @@
       ],
       "perQuestionTimeSeconds": {
         "p5q1": 38,
-        "p5q5": 139,
-        "p5q8": 137,
-        "p5q3": 146,
-        "p5q6": 150
+        "p5q5": 127,
+        "p5q8": 125,
+        "p5q3": 134,
+        "p5q6": 137
       },
       "firstAttemptCorrect": {
         "p5q1": true,
@@ -364,7 +364,7 @@
         "p5q8": "C",
         "p5q3": "D",
         "p5q4": "Tabular data: null XAI effect, Text data: strong positive, Authors explain text's intuitive nature aids human judgment of explanations vs. tabular's complexity.",
-        "p5q9": "Fugener et al. (confidence ratings ↓ AI adherence), Bansal et al./van der Waa et al. (explanations ↑ acceptance even for incorrect predictions). Shows unresolved tension in literature.",
+        "p5q9": "Fugener et al. (confidence ratings \u2193 AI adherence), Bansal et al./van der Waa et al. (explanations \u2191 acceptance even for incorrect predictions). Shows unresolved tension in literature.",
         "p5q2": "Primary comparisons: XAI vs human only (XAI superior, XAI vs AI only (no difference). Second finding tempers first you can't attribute XAI gains specifically to explanations."
       }
     }
@@ -372,7 +372,7 @@
   "questionnaireResponses": [
     {
       "paperKey": "paper4",
-      "submittedAt": "2026-04-16T06:02:39.870Z",
+      "submittedAt": "2026-04-10T13:53:21.337Z",
       "responses": {
         "p4diff1": 4,
         "p4diff2": 4,
@@ -390,7 +390,7 @@
     },
     {
       "paperKey": "paper6",
-      "submittedAt": "2026-04-16T06:05:46.682Z",
+      "submittedAt": "2026-04-10T14:04:12.881Z",
       "responses": {
         "p6diff1": 3,
         "p6diff2": 4,
@@ -408,7 +408,7 @@
     },
     {
       "paperKey": "paper5",
-      "submittedAt": "2026-04-16T06:08:32.391Z",
+      "submittedAt": "2026-04-10T14:17:22.664Z",
       "responses": {
         "p5diff1": 4,
         "p5diff2": 4,
@@ -439,12 +439,12 @@
   },
   "crossAttempts": [
     {
-      "submittedAt": "2026-04-16T06:10:51.178Z",
+      "submittedAt": "2026-04-10T14:21:58.227Z",
       "answers": {
         "cpq1": "B",
         "cpq2": "Critical thinking paper shows effort shifts from Analysis/Synthesis/Evaluation execution to verification/integration of AI outputs. AI automates production, forcing humans into oversight role",
         "cpq3": "C",
-        "cpq4": "University paper: workload pressure → ChatGPT shortcuts → procrastination  + memory loss. Reduced cognitive effort skips active learning needed for retention/performance.",
+        "cpq4": "University paper: workload pressure \u2192 ChatGPT shortcuts \u2192 procrastination  + memory loss. Reduced cognitive effort skips active learning needed for retention/performance.",
         "cpq5": "B",
         "cpq6": "Self confidence vs AI confidence. High self confidence predicts more verification/evaluation effort; high AI confidence predicts less critical checking.",
         "cpq7": "B",
@@ -461,7 +461,7 @@
       }
     }
   ],
-  "completedAt": "2026-04-16T06:12:07.394Z",
+  "completedAt": "2026-04-10T14:23:11.904Z",
   "questionOrders": {
     "paper4": [
       "p4q7",
@@ -602,7 +602,7 @@
     "cpq1": "B",
     "cpq2": "Critical thinking paper shows effort shifts from Analysis/Synthesis/Evaluation execution to verification/integration of AI outputs. AI automates production, forcing humans into oversight role",
     "cpq3": "C",
-    "cpq4": "University paper: workload pressure → ChatGPT shortcuts → procrastination  + memory loss. Reduced cognitive effort skips active learning needed for retention/performance.",
+    "cpq4": "University paper: workload pressure \u2192 ChatGPT shortcuts \u2192 procrastination  + memory loss. Reduced cognitive effort skips active learning needed for retention/performance.",
     "cpq5": "B",
     "cpq6": "Self confidence vs AI confidence. High self confidence predicts more verification/evaluation effort; high AI confidence predicts less critical checking.",
     "cpq7": "B",
