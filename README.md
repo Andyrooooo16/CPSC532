@@ -1,4 +1,4 @@
-# CPSC532 Research Codebase Guide
+# CPSC532 "That's New to Me" Guide
 
 This repository contains three connected systems:
 
